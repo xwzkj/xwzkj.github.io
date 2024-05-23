@@ -1,0 +1,1 @@
+import{r as u,f as e,h as r,q as f}from"./@vue-D_0RU2Tl.js";function a(){const n=u(!1);return e(()=>{n.value=!0}),r(n)}function d(n,o){return f(()=>{for(const t of o)if(n[t]!==void 0)return n[t];return n[o[o.length-1]]})}export{a as i,d as u};
