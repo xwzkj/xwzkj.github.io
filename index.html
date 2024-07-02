@@ -5,28 +5,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>小丸子音乐-VUE</title>
-  <script type="module" crossorigin src="/scripts/index-_J3eOAI9.js"></script>
-  <link rel="modulepreload" crossorigin href="/scripts/@vue-D3pvTY_l.js">
-  <link rel="modulepreload" crossorigin href="/scripts/pinia-kgQhn9yY.js">
-  <link rel="modulepreload" crossorigin href="/scripts/colorthief-KyleDAT0.js">
-  <link rel="modulepreload" crossorigin href="/scripts/axios-B4uVmeYG.js">
-  <link rel="modulepreload" crossorigin href="/scripts/@element-plus-BCXCoKlP.js">
-  <link rel="modulepreload" crossorigin href="/scripts/@ctrl-r5W6hzzQ.js">
-  <link rel="modulepreload" crossorigin href="/scripts/@vueuse-DNwJiFAQ.js">
-  <link rel="modulepreload" crossorigin href="/scripts/lodash-es-BGGVqKTz.js">
-  <link rel="modulepreload" crossorigin href="/scripts/@popperjs-D9SI2xQl.js">
-  <link rel="modulepreload" crossorigin href="/scripts/element-plus-oyuo57Ko.js">
-  <link rel="modulepreload" crossorigin href="/scripts/vue-router-D7nK3hD1.js">
-  <link rel="stylesheet" crossorigin href="/assets/element-plus-BH_XmJRS.css">
+  <link rel="icon" type="image/png" href="/icon.jpg">
+  <title>小丸子音乐</title>
+  <script type="module" crossorigin src="/assets/index-wHdteBg8.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-2bEsAYh1.css">
 </head>
 
 <body>
   <div id="app"></div>
+  <script>
+    function setRealVhVw() {
+      let realVh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${realVh}px`);
+      let realVw = window.innerWidth * 0.01;
+      document.documentElement.style.setProperty('--vw', `${realVw}px`);
+    }
+
+    window.addEventListener('resize', setRealVhVw);
+    window.addEventListener('orientationchange', setRealVhVw);
+    document.addEventListener('DOMContentLoaded', setRealVhVw); 
+  </script>
 </body>
 <style>
+  :root {
+    --vh: 1vh;
+    --vw: 1vw;
+  }
+
+  @font-face {
+    font-family: "MiSans";
+    src: url("/fonts/MiSans%20VF.ttf") format("truetype");
+    font-display: swap;
+  }
+
   body {
     margin: 0;
+    font-family: "MiSans", sans-serif;
+  }
+
+  #column-player .n-drawer {
+    width: 95%;
+    left: 2.5%;
+    border-radius: 1rem;
   }
 </style>
 
