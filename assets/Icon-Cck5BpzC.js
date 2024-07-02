@@ -1,4 +1,4 @@
-import{d as g,t as y,x as l,n as d,A as p,e as v,u as b,g as a,E as C,aq as _,l as m,m as $}from"./index-wHdteBg8.js";import{f as z}from"./format-length-B-p6aW7q.js";const x=e=>{const{textColorBase:o,opacity1:i,opacity2:s,opacity3:r,opacity4:n,opacity5:t}=e;return{color:o,opacity1Depth:i,opacity2Depth:s,opacity3Depth:r,opacity4Depth:n,opacity5Depth:t}},D={name:"Icon",common:g,self:x},R=y("icon",`
+import{d as g,t as y,x as l,n as d,A as p,e as v,u as b,g as a,E as C,aq as _,l as m,m as $}from"./index-DRHHrnEH.js";import{f as z}from"./format-length-B-p6aW7q.js";const x=e=>{const{textColorBase:o,opacity1:i,opacity2:s,opacity3:r,opacity4:n,opacity5:t}=e;return{color:o,opacity1Depth:i,opacity2Depth:s,opacity3Depth:r,opacity4Depth:n,opacity5Depth:t}},D={name:"Icon",common:g,self:x},R=y("icon",`
  height: 1em;
  width: 1em;
  line-height: 1em;
