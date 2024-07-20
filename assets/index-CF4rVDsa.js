@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-DwYy7BBb.js","./marqueePlus-DmCf9EbR.js","./fade-in-scale-up.cssr-CqVg1arY.js","./Follower-QK5xJfWl.js","./plugin-vueexport-helper-CyC_kXwz.js","./marqueePlus-BuUtkVpr.css","./heart-outlined-HMtc1E4g.js","./player-IBlvFZ-w.css","./home-BA37bX6A.js","./itemCard-D5qUsdCN.js","./Ellipsis-DElfrhu9.js","./clickoutside-DaQNh-9Z.js","./use-compitable-C_NUyojY.js","./itemCard-DXnF0dqk.css","./home-DQtP3qGJ.css","./search-B4Dg3wt8.js","./musicList-Cy7Jyis0.js","./Card-BK4vt_QY.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-ClhkpZeY.js","./Button-BuzM3jHS.js","./login-CX2p-lSQ.css","./account-Dge4cn4J.js","./account-s9uuTX7o.css","./playlist-BLVpOZim.js","./playlist-ucYP6lJM.css","./setting-WkXWHfJl.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-DcFqqatT.js","./marqueePlus-C21HUNV3.js","./fade-in-scale-up.cssr-vJrLvSYy.js","./Follower-4EWPhD0Y.js","./plugin-vueexport-helper-CeXuirIF.js","./marqueePlus-BuUtkVpr.css","./heart-outlined-BROmjilB.js","./player-IBlvFZ-w.css","./home-C398QHYc.js","./itemCard-CVKiIf4Z.js","./Ellipsis-B0vCd4At.js","./clickoutside-D8FfeRLM.js","./use-compitable-BoKFYNoM.js","./itemCard-DXnF0dqk.css","./home-DQtP3qGJ.css","./search-Nc6twZmC.js","./musicList-f_Ak4GHs.js","./Card-Dl9MRCvE.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-CnAl8yQc.js","./Button-C55eXHAr.js","./login-CX2p-lSQ.css","./account-XpWHJY4z.js","./account-s9uuTX7o.css","./playlist-AVTDQWr8.js","./playlist-ucYP6lJM.css","./setting-BQjl8B-W.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.33
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -9026,7 +9026,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-DwYy7BBb.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-DcFqqatT.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9037,7 +9037,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-BA37bX6A.js"), true ? __vite__mapDeps([8,9,4,10,3,11,12,13,1,2,5,6,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-C398QHYc.js"), true ? __vite__mapDeps([8,9,4,10,3,11,12,13,1,2,5,6,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9048,7 +9048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-B4Dg3wt8.js"), true ? __vite__mapDeps([15,16,12,6,4,17,18,19]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-Nc6twZmC.js"), true ? __vite__mapDeps([15,16,12,6,4,17,18,19]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9059,7 +9059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-ClhkpZeY.js"), true ? __vite__mapDeps([20,4,21,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CnAl8yQc.js"), true ? __vite__mapDeps([20,4,21,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9067,7 +9067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-Dge4cn4J.js"), true ? __vite__mapDeps([23,9,4,10,3,11,12,13,24]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-XpWHJY4z.js"), true ? __vite__mapDeps([23,9,4,10,3,11,12,13,24]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9078,7 +9078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BLVpOZim.js"), true ? __vite__mapDeps([25,16,12,6,4,17,18,21,10,3,11,26]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-AVTDQWr8.js"), true ? __vite__mapDeps([25,16,12,6,4,17,18,21,10,3,11,26]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9089,7 +9089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-WkXWHfJl.js"), true ? __vite__mapDeps([27,4,21,17,2,3,11,28]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BQjl8B-W.js"), true ? __vite__mapDeps([27,4,21,17,2,3,11,28]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -27754,7 +27754,7 @@ let musicApi = axios.create({
   timeout: 2e4
   // withCredentials: true,//跨域时可能因为允许的源是通配符（*）而阻止访问接口 故直接通过参数传递cookie
 });
-async function request(params, realTimeSync = true) {
+let request = async (params, realTimeSync = true) => {
   try {
     const userStore = useUserStore(pinia);
     if (realTimeSync) {
@@ -27778,6 +27778,15 @@ apiURL：${apiurl}
 返回信息：
 ${JSON.stringify(e.response)}`);
   }
+};
+if (window.hasOwnProperty("netease")) {
+  request = async (param, _) => {
+    let { url, method, params, data } = param;
+    if (localStorage.getItem("cookie")) {
+      data = { ...data, cookie: localStorage.getItem("cookie") };
+    }
+    return await window.netease(url, { ...data, ...params });
+  };
 }
 function loginStatus() {
   return request({
@@ -28548,7 +28557,6 @@ const useUserStore = defineStore("user", {
     },
     async updateByCookie(cookie) {
       let match2 = localStorage.getItem("cookie") || document.cookie.match(/MUSIC_U=[^;]+/)?.[0];
-      console.log(localStorage.getItem("cookie"), document.cookie.match(/MUSIC_U=[^;]+/), match2);
       if (!cookie && match2) {
         cookie = match2;
       } else if (!cookie) {
