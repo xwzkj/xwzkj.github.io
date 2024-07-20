@@ -1,9 +1,9 @@
-import { M as MarqueePlus, _ as __unplugin_components_0, S as Scrollbar, p as playinglist, a as __unplugin_components_4, b as __unplugin_components_5, c as __unplugin_components_6, d as __unplugin_components_7, e as __unplugin_components_8 } from "./marqueePlus-BItqUAAo.js";
-import { _ as __unplugin_components_2, a as __unplugin_components_3 } from "./heart-outlined-UFyOaekn.js";
-import { u as useUserStore, a as usePlayStore, s as storeToRefs, r as ref, c as computed, o as onMounted, w as watch, b as onBeforeUnmount, d as openBlock, e as createElementBlock, f as createBaseVNode, g as createVNode, h as unref, t as toDisplayString, i as withCtx, j as createBlock, k as createCommentVNode, l as isRef, m as getColorsFromImg, n as likeAndUpdateLikelist, F as Fragment, p as renderList, q as normalizeClass, v as pushScopeId, x as popScopeId, y as useCssVars } from "./index-p_PrpQgG.js";
-import { _ as _export_sfc, N as NIcon } from "./plugin-vueexport-helper-Bb6wC4bb.js";
-import "./fade-in-scale-up.cssr-oppPnfXe.js";
-import "./Follower-Do5aQHjp.js";
+import { M as MarqueePlus, _ as __unplugin_components_0, S as Scrollbar, p as playinglist, a as __unplugin_components_4, b as __unplugin_components_5, c as __unplugin_components_6, d as __unplugin_components_7, e as __unplugin_components_8 } from "./marqueePlus-DmCf9EbR.js";
+import { _ as __unplugin_components_2, a as __unplugin_components_3 } from "./heart-outlined-HMtc1E4g.js";
+import { u as useUserStore, a as usePlayStore, s as storeToRefs, r as ref, c as computed, o as onMounted, w as watch, b as onBeforeUnmount, d as openBlock, e as createElementBlock, f as createBaseVNode, g as createVNode, h as unref, t as toDisplayString, i as withCtx, j as createBlock, k as createCommentVNode, l as isRef, m as getColorsFromImg, n as likeAndUpdateLikelist, F as Fragment, p as renderList, q as normalizeClass, v as pushScopeId, x as popScopeId, y as useCssVars } from "./index-CaU3yU1m.js";
+import { _ as _export_sfc, N as NIcon } from "./plugin-vueexport-helper-CyC_kXwz.js";
+import "./fade-in-scale-up.cssr-CqVg1arY.js";
+import "./Follower-QK5xJfWl.js";
 const _withScopeId = (n) => (pushScopeId("data-v-85fcdef5"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "playerOoouter" };
 const _hoisted_2 = { id: "playerOuter" };

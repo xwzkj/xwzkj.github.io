@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-CAx9xCI6.js","./marqueePlus-BItqUAAo.js","./fade-in-scale-up.cssr-oppPnfXe.js","./Follower-Do5aQHjp.js","./plugin-vueexport-helper-Bb6wC4bb.js","./marqueePlus-BuUtkVpr.css","./heart-outlined-UFyOaekn.js","./player-IBlvFZ-w.css","./home-Do9uXOfV.js","./itemCard-DAYGO6uV.js","./Ellipsis-OLKwpPZv.js","./clickoutside-P_lbRVLf.js","./use-compitable-C7-txXDO.js","./itemCard-DXnF0dqk.css","./home-DQtP3qGJ.css","./search-DeaM7Tjj.js","./musicList-lAHiqCt3.js","./Card-Dyv8H5K1.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-Bcqs67cI.js","./Button-agCr4Lkw.js","./login-CX2p-lSQ.css","./account-7YYqFkUD.js","./account-s9uuTX7o.css","./playlist-VuxlTxWS.js","./playlist-ucYP6lJM.css","./setting-QXGrtzgY.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-DwYy7BBb.js","./marqueePlus-DmCf9EbR.js","./fade-in-scale-up.cssr-CqVg1arY.js","./Follower-QK5xJfWl.js","./plugin-vueexport-helper-CyC_kXwz.js","./marqueePlus-BuUtkVpr.css","./heart-outlined-HMtc1E4g.js","./player-IBlvFZ-w.css","./home-BA37bX6A.js","./itemCard-D5qUsdCN.js","./Ellipsis-DElfrhu9.js","./clickoutside-DaQNh-9Z.js","./use-compitable-C_NUyojY.js","./itemCard-DXnF0dqk.css","./home-DQtP3qGJ.css","./search-B4Dg3wt8.js","./musicList-Cy7Jyis0.js","./Card-BK4vt_QY.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-ClhkpZeY.js","./Button-BuzM3jHS.js","./login-CX2p-lSQ.css","./account-Dge4cn4J.js","./account-s9uuTX7o.css","./playlist-BLVpOZim.js","./playlist-ucYP6lJM.css","./setting-WkXWHfJl.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.33
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -9026,7 +9026,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-CAx9xCI6.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-DwYy7BBb.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9037,7 +9037,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-Do9uXOfV.js"), true ? __vite__mapDeps([8,9,4,10,3,11,12,13,1,2,5,6,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BA37bX6A.js"), true ? __vite__mapDeps([8,9,4,10,3,11,12,13,1,2,5,6,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9048,7 +9048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DeaM7Tjj.js"), true ? __vite__mapDeps([15,16,12,6,4,17,18,19]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-B4Dg3wt8.js"), true ? __vite__mapDeps([15,16,12,6,4,17,18,19]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9059,7 +9059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-Bcqs67cI.js"), true ? __vite__mapDeps([20,4,21,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-ClhkpZeY.js"), true ? __vite__mapDeps([20,4,21,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9067,7 +9067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-7YYqFkUD.js"), true ? __vite__mapDeps([23,9,4,10,3,11,12,13,24]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-Dge4cn4J.js"), true ? __vite__mapDeps([23,9,4,10,3,11,12,13,24]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9078,7 +9078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-VuxlTxWS.js"), true ? __vite__mapDeps([25,16,12,6,4,17,18,21,10,3,11,26]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BLVpOZim.js"), true ? __vite__mapDeps([25,16,12,6,4,17,18,21,10,3,11,26]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9089,7 +9089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-QXGrtzgY.js"), true ? __vite__mapDeps([27,4,21,17,2,3,11,28]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-WkXWHfJl.js"), true ? __vite__mapDeps([27,4,21,17,2,3,11,28]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -28547,12 +28547,13 @@ const useUserStore = defineStore("user", {
       }
     },
     async updateByCookie(cookie) {
-      let match2 = document.cookie.match(`MUSIC_U=[^;]+`);
-      if (cookie == void 0 && match2 != null) {
-        cookie = document.cookie.match(`MUSIC_U=[^;]+`)[0];
-      } else if (cookie == void 0) {
+      let match2 = localStorage.getItem("cookie") || document.cookie.match(/MUSIC_U=[^;]+/)?.[0];
+      console.log(localStorage.getItem("cookie"), document.cookie.match(/MUSIC_U=[^;]+/), match2);
+      if (!cookie && match2) {
+        cookie = match2;
+      } else if (!cookie) {
         this.logout();
-        console.log(cookie, document.cookie);
+        console.log(cookie, document.cookie, match2);
         error("[未登录]更新用户信息时：没有cookie");
         return;
       }
