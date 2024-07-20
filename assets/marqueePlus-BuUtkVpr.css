@@ -1,0 +1,83 @@
+
+.playinglist[data-v-75a2f16c] {
+    height: 100%;
+    width: 100%;
+}
+ul[data-v-75a2f16c] {
+    list-style: none;
+    padding: 0;
+}
+.playinglist-item[data-v-75a2f16c] {
+    border: 0.1rem solid rgba(0, 0, 0, 0);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.233);
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.playinglist-img[data-v-75a2f16c] {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
+    margin-right: 0.5rem;
+}
+.tns[data-v-75a2f16c] {
+    color: #b3b3b3;
+}
+.artist[data-v-75a2f16c] {
+    color: #8b8b8b;
+}
+.text[data-v-75a2f16c] {
+    width: calc(100% - 3rem)
+}
+.name[data-v-75a2f16c],
+.tns[data-v-75a2f16c],
+.artist[data-v-75a2f16c] {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+[data-v-64834ff0] {
+    box-sizing: border-box;
+    margin: 0;
+}
+.marquee-sizer[data-v-64834ff0] {
+    --marquee-duration: 5s;
+
+    overflow: hidden;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+}
+.marquee-outer[data-v-64834ff0] {
+    display: inline-block;
+}
+.marquee-container[data-v-64834ff0] {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    animation: marquee-64834ff0 var(--marquee-duration) linear infinite;
+}
+.marquee-content[data-v-64834ff0] {
+    display: inline-block;
+}
+.marquee-text2[data-v-64834ff0] {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+.marquee-static-text[data-v-64834ff0] {
+    display: inline-block;
+}
+@keyframes marquee-64834ff0 {
+0% {
+        transform: translateX(0%);
+}
+100% {
+        transform: translateX(-50%);
+}
+}
