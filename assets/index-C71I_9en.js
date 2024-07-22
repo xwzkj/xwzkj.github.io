@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-DcFqqatT.js","./marqueePlus-C21HUNV3.js","./fade-in-scale-up.cssr-vJrLvSYy.js","./Follower-4EWPhD0Y.js","./plugin-vueexport-helper-CeXuirIF.js","./marqueePlus-BuUtkVpr.css","./heart-outlined-BROmjilB.js","./player-IBlvFZ-w.css","./home-C398QHYc.js","./itemCard-CVKiIf4Z.js","./Ellipsis-B0vCd4At.js","./clickoutside-D8FfeRLM.js","./use-compitable-BoKFYNoM.js","./itemCard-DXnF0dqk.css","./home-DQtP3qGJ.css","./search-Nc6twZmC.js","./musicList-f_Ak4GHs.js","./Card-Dl9MRCvE.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-CnAl8yQc.js","./Button-C55eXHAr.js","./login-CX2p-lSQ.css","./account-XpWHJY4z.js","./account-s9uuTX7o.css","./playlist-AVTDQWr8.js","./playlist-ucYP6lJM.css","./setting-BQjl8B-W.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-CqsBc3xg.js","./playinglist-B6w5I-m7.js","./playinglist-D30VJK-5.css","./player-D3J4gP3a.css","./home-tLzafKOH.js","./itemCard-C40dNbhd.js","./Ellipsis-_mJFrJ1J.js","./clickoutside-Bckv0PUS.js","./use-compitable-BrKlxzJw.js","./itemCard-DXnF0dqk.css","./home-BHIMSCyC.css","./search-Df1qJLHC.js","./musicList-DYIicK0o.js","./Card-CNAKJF-D.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-DiuuMO7d.js","./Button-TJFqJeyR.js","./login-CX2p-lSQ.css","./account-ZxGAHZ_0.js","./account-s9uuTX7o.css","./playlist-BKHIYCVS.js","./playlist-ucYP6lJM.css","./setting-D03p4mCz.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.33
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -1552,8 +1552,8 @@ function pushScopeId(id) {
 function popScopeId() {
   currentScopeId = null;
 }
-function withCtx(fn, ctx = currentRenderingInstance, isNonScopedSlot) {
-  if (!ctx) return fn;
+function withCtx(fn, ctx2 = currentRenderingInstance, isNonScopedSlot) {
+  if (!ctx2) return fn;
   if (fn._n) {
     return fn;
   }
@@ -1561,7 +1561,7 @@ function withCtx(fn, ctx = currentRenderingInstance, isNonScopedSlot) {
     if (renderFnWithContext._d) {
       setBlockTracking(-1);
     }
-    const prevInstance = setCurrentRenderingInstance(ctx);
+    const prevInstance = setCurrentRenderingInstance(ctx2);
     let res;
     try {
       res = fn(...args);
@@ -2394,7 +2394,7 @@ const PublicInstanceProxyHandlers = {
     if (key === "__v_skip") {
       return true;
     }
-    const { ctx, setupState, data, props, accessCache, type, appContext } = instance;
+    const { ctx: ctx2, setupState, data, props, accessCache, type, appContext } = instance;
     let normalizedProps;
     if (key[0] !== "$") {
       const n2 = accessCache[key];
@@ -2405,7 +2405,7 @@ const PublicInstanceProxyHandlers = {
           case 2:
             return data[key];
           case 4:
-            return ctx[key];
+            return ctx2[key];
           case 3:
             return props[key];
         }
@@ -2422,9 +2422,9 @@ const PublicInstanceProxyHandlers = {
       ) {
         accessCache[key] = 3;
         return props[key];
-      } else if (ctx !== EMPTY_OBJ && hasOwn(ctx, key)) {
+      } else if (ctx2 !== EMPTY_OBJ && hasOwn(ctx2, key)) {
         accessCache[key] = 4;
-        return ctx[key];
+        return ctx2[key];
       } else if (shouldCacheAccess) {
         accessCache[key] = 0;
       }
@@ -2441,9 +2441,9 @@ const PublicInstanceProxyHandlers = {
       (cssModule = type.__cssModules) && (cssModule = cssModule[key])
     ) {
       return cssModule;
-    } else if (ctx !== EMPTY_OBJ && hasOwn(ctx, key)) {
+    } else if (ctx2 !== EMPTY_OBJ && hasOwn(ctx2, key)) {
       accessCache[key] = 4;
-      return ctx[key];
+      return ctx2[key];
     } else if (
       // global properties
       globalProperties = appContext.config.globalProperties, hasOwn(globalProperties, key)
@@ -2454,7 +2454,7 @@ const PublicInstanceProxyHandlers = {
     } else ;
   },
   set({ _: instance }, key, value) {
-    const { data, setupState, ctx } = instance;
+    const { data, setupState, ctx: ctx2 } = instance;
     if (hasSetupBinding(setupState, key)) {
       setupState[key] = value;
       return true;
@@ -2468,16 +2468,16 @@ const PublicInstanceProxyHandlers = {
       return false;
     } else {
       {
-        ctx[key] = value;
+        ctx2[key] = value;
       }
     }
     return true;
   },
   has({
-    _: { data, setupState, accessCache, ctx, appContext, propsOptions }
+    _: { data, setupState, accessCache, ctx: ctx2, appContext, propsOptions }
   }, key) {
     let normalizedProps;
-    return !!accessCache[key] || data !== EMPTY_OBJ && hasOwn(data, key) || hasSetupBinding(setupState, key) || (normalizedProps = propsOptions[0]) && hasOwn(normalizedProps, key) || hasOwn(ctx, key) || hasOwn(publicPropertiesMap, key) || hasOwn(appContext.config.globalProperties, key);
+    return !!accessCache[key] || data !== EMPTY_OBJ && hasOwn(data, key) || hasSetupBinding(setupState, key) || (normalizedProps = propsOptions[0]) && hasOwn(normalizedProps, key) || hasOwn(ctx2, key) || hasOwn(publicPropertiesMap, key) || hasOwn(appContext.config.globalProperties, key);
   },
   defineProperty(target, key, descriptor) {
     if (descriptor.get != null) {
@@ -2498,7 +2498,7 @@ let shouldCacheAccess = true;
 function applyOptions(instance) {
   const options = resolveMergedOptions(instance);
   const publicThis = instance.proxy;
-  const ctx = instance.ctx;
+  const ctx2 = instance.ctx;
   shouldCacheAccess = false;
   if (options.beforeCreate) {
     callHook$1(options.beforeCreate, instance, "bc");
@@ -2538,14 +2538,14 @@ function applyOptions(instance) {
   } = options;
   const checkDuplicateProperties = null;
   if (injectOptions) {
-    resolveInjections(injectOptions, ctx, checkDuplicateProperties);
+    resolveInjections(injectOptions, ctx2, checkDuplicateProperties);
   }
   if (methods) {
     for (const key in methods) {
       const methodHandler = methods[key];
       if (isFunction$2(methodHandler)) {
         {
-          ctx[key] = methodHandler.bind(publicThis);
+          ctx2[key] = methodHandler.bind(publicThis);
         }
       }
     }
@@ -2567,7 +2567,7 @@ function applyOptions(instance) {
         get: get2,
         set: set2
       });
-      Object.defineProperty(ctx, key, {
+      Object.defineProperty(ctx2, key, {
         enumerable: true,
         configurable: true,
         get: () => c2.value,
@@ -2577,7 +2577,7 @@ function applyOptions(instance) {
   }
   if (watchOptions) {
     for (const key in watchOptions) {
-      createWatcher(watchOptions[key], ctx, publicThis, key);
+      createWatcher(watchOptions[key], ctx2, publicThis, key);
     }
   }
   if (provideOptions) {
@@ -2630,7 +2630,7 @@ function applyOptions(instance) {
   if (components) instance.components = components;
   if (directives) instance.directives = directives;
 }
-function resolveInjections(injectOptions, ctx, checkDuplicateProperties = NOOP) {
+function resolveInjections(injectOptions, ctx2, checkDuplicateProperties = NOOP) {
   if (isArray$3(injectOptions)) {
     injectOptions = normalizeInject(injectOptions);
   }
@@ -2651,14 +2651,14 @@ function resolveInjections(injectOptions, ctx, checkDuplicateProperties = NOOP) 
       injected = inject(opt);
     }
     if (isRef(injected)) {
-      Object.defineProperty(ctx, key, {
+      Object.defineProperty(ctx2, key, {
         enumerable: true,
         configurable: true,
         get: () => injected.value,
         set: (v) => injected.value = v
       });
     } else {
-      ctx[key] = injected;
+      ctx2[key] = injected;
     }
   }
 }
@@ -2669,10 +2669,10 @@ function callHook$1(hook, instance, type) {
     type
   );
 }
-function createWatcher(raw, ctx, publicThis, key) {
+function createWatcher(raw, ctx2, publicThis, key) {
   const getter = key.includes(".") ? createPathGetter(publicThis, key) : () => publicThis[key];
   if (isString$1(raw)) {
-    const handler = ctx[raw];
+    const handler = ctx2[raw];
     if (isFunction$2(handler)) {
       watch(getter, handler);
     }
@@ -2680,9 +2680,9 @@ function createWatcher(raw, ctx, publicThis, key) {
     watch(getter, raw.bind(publicThis));
   } else if (isObject$2(raw)) {
     if (isArray$3(raw)) {
-      raw.forEach((r2) => createWatcher(r2, ctx, publicThis, key));
+      raw.forEach((r2) => createWatcher(r2, ctx2, publicThis, key));
     } else {
-      const handler = isFunction$2(raw.handler) ? raw.handler.bind(publicThis) : ctx[raw.handler];
+      const handler = isFunction$2(raw.handler) ? raw.handler.bind(publicThis) : ctx2[raw.handler];
       if (isFunction$2(handler)) {
         watch(getter, handler, raw);
       }
@@ -3268,24 +3268,24 @@ function getTypeIndex(type, expectedTypes) {
 }
 const isInternalKey = (key) => key[0] === "_" || key === "$stable";
 const normalizeSlotValue = (value) => isArray$3(value) ? value.map(normalizeVNode) : [normalizeVNode(value)];
-const normalizeSlot$1 = (key, rawSlot, ctx) => {
+const normalizeSlot$1 = (key, rawSlot, ctx2) => {
   if (rawSlot._n) {
     return rawSlot;
   }
   const normalized = withCtx((...args) => {
     if (false) ;
     return normalizeSlotValue(rawSlot(...args));
-  }, ctx);
+  }, ctx2);
   normalized._c = false;
   return normalized;
 };
 const normalizeObjectSlots = (rawSlots, slots, instance) => {
-  const ctx = rawSlots._ctx;
+  const ctx2 = rawSlots._ctx;
   for (const key in rawSlots) {
     if (isInternalKey(key)) continue;
     const value = rawSlots[key];
     if (isFunction$2(value)) {
-      slots[key] = normalizeSlot$1(key, value, ctx);
+      slots[key] = normalizeSlot$1(key, value, ctx2);
     } else if (value != null) {
       const normalized = normalizeSlotValue(value);
       slots[key] = () => normalized;
@@ -3678,14 +3678,14 @@ function hydrateTeleport(node, vnode, parentComponent, parentSuspense, slotScope
 }
 const Teleport = TeleportImpl;
 function updateCssVars(vnode) {
-  const ctx = vnode.ctx;
-  if (ctx && ctx.ut) {
+  const ctx2 = vnode.ctx;
+  if (ctx2 && ctx2.ut) {
     let node = vnode.children[0].el;
     while (node && node !== vnode.targetAnchor) {
-      if (node.nodeType === 1) node.setAttribute("data-v-owner", ctx.uid);
+      if (node.nodeType === 1) node.setAttribute("data-v-owner", ctx2.uid);
       node = node.nextSibling;
     }
-    ctx.ut();
+    ctx2.ut();
   }
 }
 const queuePostRenderEffect = queueEffectWithSuspense;
@@ -5034,8 +5034,8 @@ function invalidateMount(hooks) {
 const ssrContextKey$1 = Symbol.for("v-scx");
 const useSSRContext = () => {
   {
-    const ctx = inject(ssrContextKey$1);
-    return ctx;
+    const ctx2 = inject(ssrContextKey$1);
+    return ctx2;
   }
 };
 function watchEffect(effect2, options) {
@@ -5136,8 +5136,8 @@ function doWatch(source, cb, {
       ]);
     }
     if (flush === "sync") {
-      const ctx = useSSRContext();
-      ssrCleanup = ctx.__watcherHandles || (ctx.__watcherHandles = []);
+      const ctx2 = useSSRContext();
+      ssrCleanup = ctx2.__watcherHandles || (ctx2.__watcherHandles = []);
     } else {
       return NOOP;
     }
@@ -5216,10 +5216,10 @@ function instanceWatch(source, value, options) {
   reset();
   return res;
 }
-function createPathGetter(ctx, path) {
+function createPathGetter(ctx2, path) {
   const segments = path.split(".");
   return () => {
-    let cur = ctx;
+    let cur = ctx2;
     for (let i2 = 0; i2 < segments.length && cur; i2++) {
       cur = cur[segments[i2]];
     }
@@ -5372,7 +5372,7 @@ function renderComponentRoot(instance) {
     props,
     data,
     setupState,
-    ctx,
+    ctx: ctx2,
     inheritAttrs
   } = instance;
   const prev = setCurrentRenderingInstance(instance);
@@ -5399,7 +5399,7 @@ function renderComponentRoot(instance) {
           false ? shallowReadonly(props) : props,
           setupState,
           data,
-          ctx
+          ctx2
         )
       );
       fallthroughAttrs = attrs;
@@ -7182,7 +7182,7 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
   * (c) 2024 Eduardo San Martin Morote
   * @license MIT
   */
-const isBrowser$2 = typeof document !== "undefined";
+const isBrowser$3 = typeof document !== "undefined";
 function isESModule(obj) {
   return obj.__esModule || obj[Symbol.toStringTag] === "Module";
 }
@@ -7346,7 +7346,7 @@ var NavigationDirection;
 })(NavigationDirection || (NavigationDirection = {}));
 function normalizeBase(base2) {
   if (!base2) {
-    if (isBrowser$2) {
+    if (isBrowser$3) {
       const baseEl = document.querySelector("base");
       base2 = baseEl && baseEl.getAttribute("href") || "/";
       base2 = base2.replace(/^\w+:\/\/[^\/]+/, "");
@@ -8528,7 +8528,7 @@ function createRouter(options) {
   const afterGuards = useCallbacks();
   const currentRoute = shallowRef(START_LOCATION_NORMALIZED);
   let pendingLocation = START_LOCATION_NORMALIZED;
-  if (isBrowser$2 && options.scrollBehavior && "scrollRestoration" in history) {
+  if (isBrowser$3 && options.scrollBehavior && "scrollRestoration" in history) {
     history.scrollRestoration = "manual";
   }
   const normalizeParams = applyToParams.bind(null, (paramValue) => "" + paramValue);
@@ -8798,7 +8798,7 @@ function createRouter(options) {
     if (error2)
       return error2;
     const isFirstNavigation = from === START_LOCATION_NORMALIZED;
-    const state = !isBrowser$2 ? {} : history.state;
+    const state = !isBrowser$3 ? {} : history.state;
     if (isPush) {
       if (replace2 || isFirstNavigation)
         routerHistory.replace(toLocation.fullPath, assign$1({
@@ -8826,7 +8826,7 @@ function createRouter(options) {
       }
       pendingLocation = toLocation;
       const from = currentRoute.value;
-      if (isBrowser$2) {
+      if (isBrowser$3) {
         saveScrollPosition(getScrollKey(from.fullPath, info.delta), computeScrollPosition());
       }
       navigate(toLocation, from).catch((error2) => {
@@ -8920,7 +8920,7 @@ function createRouter(options) {
   }
   function handleScroll(to, from, isPush, isFirstNavigation) {
     const { scrollBehavior } = options;
-    if (!isBrowser$2 || !scrollBehavior)
+    if (!isBrowser$3 || !scrollBehavior)
       return Promise.resolve();
     const scrollPosition = !isPush && getSavedScrollPosition(getScrollKey(to.fullPath, 0)) || (isFirstNavigation || !isPush) && history.state && history.state.scroll || null;
     return nextTick().then(() => scrollBehavior(to, from, scrollPosition)).then((position) => position && scrollToPosition(position)).catch((err) => triggerError(err, to, from));
@@ -8957,7 +8957,7 @@ function createRouter(options) {
         enumerable: true,
         get: () => unref(currentRoute)
       });
-      if (isBrowser$2 && // used for the initial navigation client side to avoid pushing
+      if (isBrowser$3 && // used for the initial navigation client side to avoid pushing
       // multiple times when the router is used in multiple apps
       !started && currentRoute.value === START_LOCATION_NORMALIZED) {
         started = true;
@@ -9026,7 +9026,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-DcFqqatT.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-CqsBc3xg.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9037,7 +9037,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-C398QHYc.js"), true ? __vite__mapDeps([8,9,4,10,3,11,12,13,1,2,5,6,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-tLzafKOH.js"), true ? __vite__mapDeps([4,5,6,7,8,9,1,2,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9048,7 +9048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-Nc6twZmC.js"), true ? __vite__mapDeps([15,16,12,6,4,17,18,19]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-Df1qJLHC.js"), true ? __vite__mapDeps([11,12,8,13,14,15]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9059,7 +9059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-CnAl8yQc.js"), true ? __vite__mapDeps([20,4,21,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-DiuuMO7d.js"), true ? __vite__mapDeps([16,17,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9067,7 +9067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-XpWHJY4z.js"), true ? __vite__mapDeps([23,9,4,10,3,11,12,13,24]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-ZxGAHZ_0.js"), true ? __vite__mapDeps([19,5,6,7,8,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9078,7 +9078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-AVTDQWr8.js"), true ? __vite__mapDeps([25,16,12,6,4,17,18,21,10,3,11,26]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BKHIYCVS.js"), true ? __vite__mapDeps([21,12,8,13,14,17,6,7,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9089,7 +9089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BQjl8B-W.js"), true ? __vite__mapDeps([27,4,21,17,2,3,11,28]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-D03p4mCz.js"), true ? __vite__mapDeps([23,17,13,7,24]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9458,6 +9458,18 @@ function storeToRefs(store) {
   }
 }
 const pinia = createPinia();
+let onceCbs = [];
+const paramsMap = /* @__PURE__ */ new WeakMap();
+function flushOnceCallbacks() {
+  onceCbs.forEach((cb) => cb(...paramsMap.get(cb)));
+  onceCbs = [];
+}
+function beforeNextFrameOnce(cb, ...params) {
+  paramsMap.set(cb, params);
+  if (onceCbs.includes(cb))
+    return;
+  onceCbs.push(cb) === 1 && requestAnimationFrame(flushOnceCallbacks);
+}
 function getPreciseEventTarget(event) {
   return event.composedPath()[0] || null;
 }
@@ -9776,7 +9788,7 @@ function call(funcs, ...args) {
     return funcs(...args);
   }
 }
-function render$1(r2, ...args) {
+function render$9(r2, ...args) {
   if (typeof r2 === "function") {
     return r2(...args);
   } else if (typeof r2 === "string") {
@@ -9787,7 +9799,7 @@ function render$1(r2, ...args) {
     return null;
   }
 }
-function warn$1(location2, message) {
+function warn$2(location2, message) {
   console.error(`[naive/${location2}]: ${message}`);
 }
 function throwError(location2, message) {
@@ -9829,6 +9841,34 @@ const Wrapper = /* @__PURE__ */ defineComponent({
     return (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a);
   }
 });
+const pureNumberRegex = /^(\d|\.)+$/;
+const numberRegex = /(\d|\.)+/;
+function formatLength(length, {
+  c: c2 = 1,
+  offset = 0,
+  attachPx = true
+} = {}) {
+  if (typeof length === "number") {
+    const result = (length + offset) * c2;
+    if (result === 0) return "0";
+    return `${result}px`;
+  } else if (typeof length === "string") {
+    if (pureNumberRegex.test(length)) {
+      const result = (Number(length) + offset) * c2;
+      if (attachPx) {
+        if (result === 0) return "0";
+        return `${result}px`;
+      } else {
+        return `${result}`;
+      }
+    } else {
+      const result = numberRegex.exec(length);
+      if (!result) return length;
+      return length.replace(numberRegex, String((Number(result[0]) + offset) * c2));
+    }
+  }
+  return length;
+}
 function color2Class(color) {
   return color.replace(/#|\(|\)|,|\s|\./g, "_");
 }
@@ -10074,7 +10114,7 @@ function traverseCNode(node, selectorPaths, styles, instance, params) {
   if ($ && $.after)
     $.after(instance.context);
 }
-function render(node, instance, props) {
+function render$8(node, instance, props) {
   const styles = [];
   traverseCNode(node, [], styles, instance, props);
   return styles.join("\n\n");
@@ -10166,7 +10206,7 @@ function mount(instance, node, id, props, head, force, anchorMetaName, parent, s
   return target;
 }
 function wrappedRender(props) {
-  return render(this, this.instance, props);
+  return render$8(this, this.instance, props);
 }
 function wrappedMount(options = {}) {
   const { id, ssr, props, head = false, force = false, anchorMetaName, parent } = options;
@@ -10189,7 +10229,7 @@ const createCNode = function(instance, $, props, children) {
     unmount: wrappedUnmount
   };
 };
-const c$1 = function(instance, $, props, children) {
+const c$2 = function(instance, $, props, children) {
   if (Array.isArray($)) {
     return createCNode(instance, { $: null }, null, $);
   } else if (Array.isArray(props)) {
@@ -10202,7 +10242,7 @@ const c$1 = function(instance, $, props, children) {
 };
 function CssRender(config = {}) {
   const cssr2 = {
-    c: (...args) => c$1(cssr2, ...args),
+    c: (...args) => c$2(cssr2, ...args),
     use: (plugin2, ...args) => plugin2.install(cssr2, ...args),
     find: queryElement,
     context: {},
@@ -10241,24 +10281,24 @@ function plugin$1(options) {
   const _plugin = {
     install(instance) {
       c2 = instance.c;
-      const ctx = instance.context;
-      ctx.bem = {};
-      ctx.bem.b = null;
-      ctx.bem.els = null;
+      const ctx2 = instance.context;
+      ctx2.bem = {};
+      ctx2.bem.b = null;
+      ctx2.bem.els = null;
     }
   };
   function b(arg) {
     let memorizedB;
     let memorizedE;
     return {
-      before(ctx) {
-        memorizedB = ctx.bem.b;
-        memorizedE = ctx.bem.els;
-        ctx.bem.els = null;
+      before(ctx2) {
+        memorizedB = ctx2.bem.b;
+        memorizedE = ctx2.bem.els;
+        ctx2.bem.els = null;
       },
-      after(ctx) {
-        ctx.bem.b = memorizedB;
-        ctx.bem.els = memorizedE;
+      after(ctx2) {
+        ctx2.bem.b = memorizedB;
+        ctx2.bem.els = memorizedE;
       },
       $({ context, props }) {
         arg = typeof arg === "string" ? arg : arg({ context, props });
@@ -10270,11 +10310,11 @@ function plugin$1(options) {
   function e(arg) {
     let memorizedE;
     return {
-      before(ctx) {
-        memorizedE = ctx.bem.els;
+      before(ctx2) {
+        memorizedE = ctx2.bem.els;
       },
-      after(ctx) {
-        ctx.bem.els = memorizedE;
+      after(ctx2) {
+        ctx2.bem.els = memorizedE;
       },
       $({ context, props }) {
         arg = typeof arg === "string" ? arg : arg({ context, props });
@@ -10333,7 +10373,7 @@ const plugin = plugin$1({
 });
 cssr.use(plugin);
 const {
-  c,
+  c: c$1,
   find
 } = cssr;
 const {
@@ -10343,33 +10383,45 @@ const {
   cNotM
 } = plugin;
 function insideModal(style2) {
-  return c(({
+  return c$1(({
     props: {
       bPrefix
     }
   }) => `${bPrefix || prefix}modal, ${bPrefix || prefix}drawer`, [style2]);
 }
 function insidePopover(style2) {
-  return c(({
+  return c$1(({
     props: {
       bPrefix
     }
   }) => `${bPrefix || prefix}popover`, [style2]);
 }
 function asModal(style2) {
-  return c(({
+  return c$1(({
     props: {
       bPrefix
     }
   }) => `&${bPrefix || prefix}modal`, style2);
 }
 const cCB = (...args) => {
-  return c(">", [cB(...args)]);
+  return c$1(">", [cB(...args)]);
 };
 function createKey(prefix2, suffix2) {
   return prefix2 + (suffix2 === "default" ? "" : suffix2.replace(/^[a-z]/, (startChar) => startChar.toUpperCase()));
 }
-const isBrowser$1 = typeof document !== "undefined" && typeof window !== "undefined";
+const isBrowser$2 = typeof document !== "undefined" && typeof window !== "undefined";
+function useFalseUntilTruthy(originalRef) {
+  const currentRef = ref(!!originalRef.value);
+  if (currentRef.value)
+    return readonly(currentRef);
+  const stop = watch(originalRef, (value) => {
+    if (value) {
+      currentRef.value = true;
+      stop();
+    }
+  });
+  return readonly(currentRef);
+}
 function useMemo(getterOrOptions) {
   const computedValueRef = computed(getterOrOptions);
   const valueRef = ref(computedValueRef.value);
@@ -10389,6 +10441,39 @@ function useMemo(getterOrOptions) {
       }
     };
   }
+}
+const isBrowser$1 = typeof window !== "undefined";
+let fontsReady;
+let isFontReady;
+const init = () => {
+  var _a, _b;
+  fontsReady = isBrowser$1 ? (_b = (_a = document) === null || _a === void 0 ? void 0 : _a.fonts) === null || _b === void 0 ? void 0 : _b.ready : void 0;
+  isFontReady = false;
+  if (fontsReady !== void 0) {
+    void fontsReady.then(() => {
+      isFontReady = true;
+    });
+  } else {
+    isFontReady = true;
+  }
+};
+init();
+function onFontsReady(cb) {
+  if (isFontReady)
+    return;
+  let deactivated = false;
+  onMounted(() => {
+    if (!isFontReady) {
+      fontsReady === null || fontsReady === void 0 ? void 0 : fontsReady.then(() => {
+        if (deactivated)
+          return;
+        cb();
+      });
+    }
+  });
+  onBeforeUnmount(() => {
+    deactivated = true;
+  });
 }
 function getEventTarget(e) {
   const path = e.composedPath();
@@ -10733,6 +10818,380 @@ const isIos = (typeof window === "undefined" ? false : /iPad|iPhone|iPod/.test(n
 function useIsIos() {
   return isIos;
 }
+const internalSelectionMenuBodyInjectionKey = createInjectionKey("n-internal-select-menu-body");
+const modalBodyInjectionKey = createInjectionKey("n-modal-body");
+const drawerBodyInjectionKey = createInjectionKey("n-drawer-body");
+const popoverBodyInjectionKey = createInjectionKey("n-popover-body");
+const teleportDisabled = "__disabled__";
+function useAdjustedTo(props) {
+  const modal = inject(modalBodyInjectionKey, null);
+  const drawer = inject(drawerBodyInjectionKey, null);
+  const popover = inject(popoverBodyInjectionKey, null);
+  const selectMenu = inject(internalSelectionMenuBodyInjectionKey, null);
+  const fullscreenElementRef = ref();
+  if (typeof document !== "undefined") {
+    fullscreenElementRef.value = document.fullscreenElement;
+    const handleFullscreenChange = () => {
+      fullscreenElementRef.value = document.fullscreenElement;
+    };
+    onMounted(() => {
+      on("fullscreenchange", document, handleFullscreenChange);
+    });
+    onBeforeUnmount(() => {
+      off("fullscreenchange", document, handleFullscreenChange);
+    });
+  }
+  return useMemo(() => {
+    var _a;
+    const {
+      to
+    } = props;
+    if (to !== void 0) {
+      if (to === false) return teleportDisabled;
+      if (to === true) return fullscreenElementRef.value || "body";
+      return to;
+    }
+    if (modal === null || modal === void 0 ? void 0 : modal.value) {
+      return (_a = modal.value.$el) !== null && _a !== void 0 ? _a : modal.value;
+    }
+    if (drawer === null || drawer === void 0 ? void 0 : drawer.value) return drawer.value;
+    if (popover === null || popover === void 0 ? void 0 : popover.value) return popover.value;
+    if (selectMenu === null || selectMenu === void 0 ? void 0 : selectMenu.value) return selectMenu.value;
+    return to !== null && to !== void 0 ? to : fullscreenElementRef.value || "body";
+  });
+}
+useAdjustedTo.tdkey = teleportDisabled;
+useAdjustedTo.propTo = {
+  type: [String, Object, Boolean],
+  default: void 0
+};
+function getSlot(scope, slots, slotName = "default") {
+  const slot = slots[slotName];
+  if (slot === void 0) {
+    throw new Error(`[vueuc/${scope}]: slot[${slotName}] is empty.`);
+  }
+  return slot();
+}
+function flatten(vNodes, filterCommentNode = true, result = []) {
+  vNodes.forEach((vNode) => {
+    if (vNode === null)
+      return;
+    if (typeof vNode !== "object") {
+      if (typeof vNode === "string" || typeof vNode === "number") {
+        result.push(createTextVNode(String(vNode)));
+      }
+      return;
+    }
+    if (Array.isArray(vNode)) {
+      flatten(vNode, filterCommentNode, result);
+      return;
+    }
+    if (vNode.type === Fragment) {
+      if (vNode.children === null)
+        return;
+      if (Array.isArray(vNode.children)) {
+        flatten(vNode.children, filterCommentNode, result);
+      }
+    } else if (vNode.type !== Comment) {
+      result.push(vNode);
+    }
+  });
+  return result;
+}
+function getFirstVNode(scope, slots, slotName = "default") {
+  const slot = slots[slotName];
+  if (slot === void 0) {
+    throw new Error(`[vueuc/${scope}]: slot[${slotName}] is empty.`);
+  }
+  const content = flatten(slot());
+  if (content.length === 1) {
+    return content[0];
+  } else {
+    throw new Error(`[vueuc/${scope}]: slot[${slotName}] should have exactly one child.`);
+  }
+}
+let viewMeasurer = null;
+function ensureViewBoundingRect() {
+  if (viewMeasurer === null) {
+    viewMeasurer = document.getElementById("v-binder-view-measurer");
+    if (viewMeasurer === null) {
+      viewMeasurer = document.createElement("div");
+      viewMeasurer.id = "v-binder-view-measurer";
+      const { style: style2 } = viewMeasurer;
+      style2.position = "fixed";
+      style2.left = "0";
+      style2.right = "0";
+      style2.top = "0";
+      style2.bottom = "0";
+      style2.pointerEvents = "none";
+      style2.visibility = "hidden";
+      document.body.appendChild(viewMeasurer);
+    }
+  }
+  return viewMeasurer.getBoundingClientRect();
+}
+function getPointRect(x, y) {
+  const viewRect = ensureViewBoundingRect();
+  return {
+    top: y,
+    left: x,
+    height: 0,
+    width: 0,
+    right: viewRect.width - x,
+    bottom: viewRect.height - y
+  };
+}
+function getRect(el) {
+  const elRect = el.getBoundingClientRect();
+  const viewRect = ensureViewBoundingRect();
+  return {
+    left: elRect.left - viewRect.left,
+    top: elRect.top - viewRect.top,
+    bottom: viewRect.height + viewRect.top - elRect.bottom,
+    right: viewRect.width + viewRect.left - elRect.right,
+    width: elRect.width,
+    height: elRect.height
+  };
+}
+function getParentNode(node) {
+  if (node.nodeType === 9) {
+    return null;
+  }
+  return node.parentNode;
+}
+function getScrollParent(node) {
+  if (node === null)
+    return null;
+  const parentNode = getParentNode(node);
+  if (parentNode === null) {
+    return null;
+  }
+  if (parentNode.nodeType === 9) {
+    return document;
+  }
+  if (parentNode.nodeType === 1) {
+    const { overflow, overflowX, overflowY } = getComputedStyle(parentNode);
+    if (/(auto|scroll|overlay)/.test(overflow + overflowY + overflowX)) {
+      return parentNode;
+    }
+  }
+  return getScrollParent(parentNode);
+}
+const Binder = /* @__PURE__ */ defineComponent({
+  name: "Binder",
+  props: {
+    syncTargetWithParent: Boolean,
+    syncTarget: {
+      type: Boolean,
+      default: true
+    }
+  },
+  setup(props) {
+    var _a;
+    provide("VBinder", (_a = getCurrentInstance()) === null || _a === void 0 ? void 0 : _a.proxy);
+    const VBinder = inject("VBinder", null);
+    const targetRef = ref(null);
+    const setTargetRef = (el) => {
+      targetRef.value = el;
+      if (VBinder && props.syncTargetWithParent) {
+        VBinder.setTargetRef(el);
+      }
+    };
+    let scrollableNodes = [];
+    const ensureScrollListener = () => {
+      let cursor = targetRef.value;
+      while (true) {
+        cursor = getScrollParent(cursor);
+        if (cursor === null)
+          break;
+        scrollableNodes.push(cursor);
+      }
+      for (const el of scrollableNodes) {
+        on("scroll", el, onScroll, true);
+      }
+    };
+    const removeScrollListeners = () => {
+      for (const el of scrollableNodes) {
+        off("scroll", el, onScroll, true);
+      }
+      scrollableNodes = [];
+    };
+    const followerScrollListeners = /* @__PURE__ */ new Set();
+    const addScrollListener = (listener) => {
+      if (followerScrollListeners.size === 0) {
+        ensureScrollListener();
+      }
+      if (!followerScrollListeners.has(listener)) {
+        followerScrollListeners.add(listener);
+      }
+    };
+    const removeScrollListener = (listener) => {
+      if (followerScrollListeners.has(listener)) {
+        followerScrollListeners.delete(listener);
+      }
+      if (followerScrollListeners.size === 0) {
+        removeScrollListeners();
+      }
+    };
+    const onScroll = () => {
+      beforeNextFrameOnce(onScrollRaf);
+    };
+    const onScrollRaf = () => {
+      followerScrollListeners.forEach((listener) => listener());
+    };
+    const followerResizeListeners = /* @__PURE__ */ new Set();
+    const addResizeListener = (listener) => {
+      if (followerResizeListeners.size === 0) {
+        on("resize", window, onResize);
+      }
+      if (!followerResizeListeners.has(listener)) {
+        followerResizeListeners.add(listener);
+      }
+    };
+    const removeResizeListener = (listener) => {
+      if (followerResizeListeners.has(listener)) {
+        followerResizeListeners.delete(listener);
+      }
+      if (followerResizeListeners.size === 0) {
+        off("resize", window, onResize);
+      }
+    };
+    const onResize = () => {
+      followerResizeListeners.forEach((listener) => listener());
+    };
+    onBeforeUnmount(() => {
+      off("resize", window, onResize);
+      removeScrollListeners();
+    });
+    return {
+      targetRef,
+      setTargetRef,
+      addScrollListener,
+      removeScrollListener,
+      addResizeListener,
+      removeResizeListener
+    };
+  },
+  render() {
+    return getSlot("binder", this.$slots);
+  }
+});
+const VTarget = /* @__PURE__ */ defineComponent({
+  name: "Target",
+  setup() {
+    const { setTargetRef, syncTarget } = inject("VBinder");
+    const setTargetDirective = {
+      mounted: setTargetRef,
+      updated: setTargetRef
+    };
+    return {
+      syncTarget,
+      setTargetDirective
+    };
+  },
+  render() {
+    const { syncTarget, setTargetDirective } = this;
+    if (syncTarget) {
+      return withDirectives(getFirstVNode("follower", this.$slots), [
+        [setTargetDirective]
+      ]);
+    }
+    return getFirstVNode("follower", this.$slots);
+  }
+});
+function warn$1(location2, message) {
+  console.error(`[vdirs/${location2}]: ${message}`);
+}
+class ZIndexManager {
+  constructor() {
+    this.elementZIndex = /* @__PURE__ */ new Map();
+    this.nextZIndex = 2e3;
+  }
+  get elementCount() {
+    return this.elementZIndex.size;
+  }
+  ensureZIndex(el, zIndex) {
+    const { elementZIndex } = this;
+    if (zIndex !== void 0) {
+      el.style.zIndex = `${zIndex}`;
+      elementZIndex.delete(el);
+      return;
+    }
+    const { nextZIndex } = this;
+    if (elementZIndex.has(el)) {
+      const currentZIndex = elementZIndex.get(el);
+      if (currentZIndex + 1 === this.nextZIndex)
+        return;
+    }
+    el.style.zIndex = `${nextZIndex}`;
+    elementZIndex.set(el, nextZIndex);
+    this.nextZIndex = nextZIndex + 1;
+    this.squashState();
+  }
+  unregister(el, zIndex) {
+    const { elementZIndex } = this;
+    if (elementZIndex.has(el)) {
+      elementZIndex.delete(el);
+    } else if (zIndex === void 0) {
+      warn$1("z-index-manager/unregister-element", "Element not found when unregistering.");
+    }
+    this.squashState();
+  }
+  squashState() {
+    const { elementCount } = this;
+    if (!elementCount) {
+      this.nextZIndex = 2e3;
+    }
+    if (this.nextZIndex - elementCount > 2500)
+      this.rearrange();
+  }
+  rearrange() {
+    const elementZIndexPair = Array.from(this.elementZIndex.entries());
+    elementZIndexPair.sort((pair1, pair2) => {
+      return pair1[1] - pair2[1];
+    });
+    this.nextZIndex = 2e3;
+    elementZIndexPair.forEach((pair) => {
+      const el = pair[0];
+      const zIndex = this.nextZIndex++;
+      if (`${zIndex}` !== el.style.zIndex)
+        el.style.zIndex = `${zIndex}`;
+    });
+  }
+}
+const zIndexManager = new ZIndexManager();
+const ctx = "@@ziContext";
+const zindexable = {
+  mounted(el, bindings) {
+    const { value = {} } = bindings;
+    const { zIndex, enabled } = value;
+    el[ctx] = {
+      enabled: !!enabled,
+      initialized: false
+    };
+    if (enabled) {
+      zIndexManager.ensureZIndex(el, zIndex);
+      el[ctx].initialized = true;
+    }
+  },
+  updated(el, bindings) {
+    const { value = {} } = bindings;
+    const { zIndex, enabled } = value;
+    const cachedEnabled = el[ctx].enabled;
+    if (enabled && !cachedEnabled) {
+      zIndexManager.ensureZIndex(el, zIndex);
+      el[ctx].initialized = true;
+    }
+    el[ctx].enabled = !!enabled;
+  },
+  unmounted(el, bindings) {
+    if (!el[ctx].initialized)
+      return;
+    const { value = {} } = bindings;
+    const { zIndex } = value;
+    zIndexManager.unregister(el, zIndex);
+  }
+};
 const ssrContextKey = "@css-render/vue3-ssr";
 function createStyleString(id, style2) {
   return `<style cssr-id="${id}">
@@ -10763,6 +11222,588 @@ function useSsrAdapter() {
 function warn(location2, message) {
   console.error(`[vueuc/${location2}]: ${message}`);
 }
+const { c } = CssRender();
+const cssrAnchorMetaName$1 = "vueuc-style";
+const LazyTeleport = /* @__PURE__ */ defineComponent({
+  name: "LazyTeleport",
+  props: {
+    to: {
+      type: [String, Object],
+      default: void 0
+    },
+    disabled: Boolean,
+    show: {
+      type: Boolean,
+      required: true
+    }
+  },
+  setup(props) {
+    return {
+      showTeleport: useFalseUntilTruthy(toRef(props, "show")),
+      mergedTo: computed(() => {
+        const { to } = props;
+        return to !== null && to !== void 0 ? to : "body";
+      })
+    };
+  },
+  render() {
+    return this.showTeleport ? this.disabled ? getSlot("lazy-teleport", this.$slots) : h(Teleport, {
+      disabled: this.disabled,
+      to: this.mergedTo
+    }, getSlot("lazy-teleport", this.$slots)) : null;
+  }
+});
+const oppositionPositions = {
+  top: "bottom",
+  bottom: "top",
+  left: "right",
+  right: "left"
+};
+const oppositeAligns = {
+  start: "end",
+  center: "center",
+  end: "start"
+};
+const propToCompare = {
+  top: "height",
+  bottom: "height",
+  left: "width",
+  right: "width"
+};
+const transformOrigins = {
+  "bottom-start": "top left",
+  bottom: "top center",
+  "bottom-end": "top right",
+  "top-start": "bottom left",
+  top: "bottom center",
+  "top-end": "bottom right",
+  "right-start": "top left",
+  right: "center left",
+  "right-end": "bottom left",
+  "left-start": "top right",
+  left: "center right",
+  "left-end": "bottom right"
+};
+const overlapTransformOrigin = {
+  "bottom-start": "bottom left",
+  bottom: "bottom center",
+  "bottom-end": "bottom right",
+  "top-start": "top left",
+  top: "top center",
+  "top-end": "top right",
+  "right-start": "top right",
+  right: "center right",
+  "right-end": "bottom right",
+  "left-start": "top left",
+  left: "center left",
+  "left-end": "bottom left"
+};
+const oppositeAlignCssPositionProps = {
+  "bottom-start": "right",
+  "bottom-end": "left",
+  "top-start": "right",
+  "top-end": "left",
+  "right-start": "bottom",
+  "right-end": "top",
+  "left-start": "bottom",
+  "left-end": "top"
+};
+const keepOffsetDirection = {
+  top: true,
+  bottom: false,
+  left: true,
+  right: false
+  // left--
+};
+const cssPositionToOppositeAlign = {
+  top: "end",
+  bottom: "start",
+  left: "end",
+  right: "start"
+};
+function getPlacementAndOffsetOfFollower(placement, targetRect, followerRect, shift, flip, overlap) {
+  if (!flip || overlap) {
+    return { placement, top: 0, left: 0 };
+  }
+  const [position, align] = placement.split("-");
+  let properAlign = align !== null && align !== void 0 ? align : "center";
+  let properOffset = {
+    top: 0,
+    left: 0
+  };
+  const deriveOffset = (oppositeAlignCssSizeProp, alignCssPositionProp, offsetVertically2) => {
+    let left = 0;
+    let top = 0;
+    const diff = followerRect[oppositeAlignCssSizeProp] - targetRect[alignCssPositionProp] - targetRect[oppositeAlignCssSizeProp];
+    if (diff > 0 && shift) {
+      if (offsetVertically2) {
+        top = keepOffsetDirection[alignCssPositionProp] ? diff : -diff;
+      } else {
+        left = keepOffsetDirection[alignCssPositionProp] ? diff : -diff;
+      }
+    }
+    return {
+      left,
+      top
+    };
+  };
+  const offsetVertically = position === "left" || position === "right";
+  if (properAlign !== "center") {
+    const oppositeAlignCssPositionProp = oppositeAlignCssPositionProps[placement];
+    const currentAlignCssPositionProp = oppositionPositions[oppositeAlignCssPositionProp];
+    const oppositeAlignCssSizeProp = propToCompare[oppositeAlignCssPositionProp];
+    if (followerRect[oppositeAlignCssSizeProp] > targetRect[oppositeAlignCssSizeProp]) {
+      if (
+        // current space is not enough
+        // ----------[ target ]---------|
+        // -------[     follower        ]
+        targetRect[oppositeAlignCssPositionProp] + targetRect[oppositeAlignCssSizeProp] < followerRect[oppositeAlignCssSizeProp]
+      ) {
+        const followerOverTargetSize = (followerRect[oppositeAlignCssSizeProp] - targetRect[oppositeAlignCssSizeProp]) / 2;
+        if (targetRect[oppositeAlignCssPositionProp] < followerOverTargetSize || targetRect[currentAlignCssPositionProp] < followerOverTargetSize) {
+          if (targetRect[oppositeAlignCssPositionProp] < targetRect[currentAlignCssPositionProp]) {
+            properAlign = oppositeAligns[align];
+            properOffset = deriveOffset(oppositeAlignCssSizeProp, currentAlignCssPositionProp, offsetVertically);
+          } else {
+            properOffset = deriveOffset(oppositeAlignCssSizeProp, oppositeAlignCssPositionProp, offsetVertically);
+          }
+        } else {
+          properAlign = "center";
+        }
+      }
+    } else if (followerRect[oppositeAlignCssSizeProp] < targetRect[oppositeAlignCssSizeProp]) {
+      if (targetRect[currentAlignCssPositionProp] < 0 && // opposite align has larger space
+      // ------------[   target   ]
+      // ----------------[follower]
+      targetRect[oppositeAlignCssPositionProp] > targetRect[currentAlignCssPositionProp]) {
+        properAlign = oppositeAligns[align];
+      }
+    }
+  } else {
+    const possibleAlternativeAlignCssPositionProp1 = position === "bottom" || position === "top" ? "left" : "top";
+    const possibleAlternativeAlignCssPositionProp2 = oppositionPositions[possibleAlternativeAlignCssPositionProp1];
+    const alternativeAlignCssSizeProp = propToCompare[possibleAlternativeAlignCssPositionProp1];
+    const followerOverTargetSize = (followerRect[alternativeAlignCssSizeProp] - targetRect[alternativeAlignCssSizeProp]) / 2;
+    if (
+      // center is not enough
+      // ----------- [ target ]--|
+      // -------[     follower     ]
+      targetRect[possibleAlternativeAlignCssPositionProp1] < followerOverTargetSize || targetRect[possibleAlternativeAlignCssPositionProp2] < followerOverTargetSize
+    ) {
+      if (targetRect[possibleAlternativeAlignCssPositionProp1] > targetRect[possibleAlternativeAlignCssPositionProp2]) {
+        properAlign = cssPositionToOppositeAlign[possibleAlternativeAlignCssPositionProp1];
+        properOffset = deriveOffset(alternativeAlignCssSizeProp, possibleAlternativeAlignCssPositionProp1, offsetVertically);
+      } else {
+        properAlign = cssPositionToOppositeAlign[possibleAlternativeAlignCssPositionProp2];
+        properOffset = deriveOffset(alternativeAlignCssSizeProp, possibleAlternativeAlignCssPositionProp2, offsetVertically);
+      }
+    }
+  }
+  let properPosition = position;
+  if (
+    // space is not enough
+    targetRect[position] < followerRect[propToCompare[position]] && // opposite position's space is larger
+    targetRect[position] < targetRect[oppositionPositions[position]]
+  ) {
+    properPosition = oppositionPositions[position];
+  }
+  return {
+    placement: properAlign !== "center" ? `${properPosition}-${properAlign}` : properPosition,
+    left: properOffset.left,
+    top: properOffset.top
+  };
+}
+function getProperTransformOrigin(placement, overlap) {
+  if (overlap)
+    return overlapTransformOrigin[placement];
+  return transformOrigins[placement];
+}
+function getOffset(placement, offsetRect, targetRect, offsetTopToStandardPlacement, offsetLeftToStandardPlacement, overlap) {
+  if (overlap) {
+    switch (placement) {
+      case "bottom-start":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left)}px`,
+          transform: "translateY(-100%)"
+        };
+      case "bottom-end":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width)}px`,
+          transform: "translateX(-100%) translateY(-100%)"
+        };
+      case "top-start":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left)}px`,
+          transform: ""
+        };
+      case "top-end":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width)}px`,
+          transform: "translateX(-100%)"
+        };
+      case "right-start":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width)}px`,
+          transform: "translateX(-100%)"
+        };
+      case "right-end":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width)}px`,
+          transform: "translateX(-100%) translateY(-100%)"
+        };
+      case "left-start":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left)}px`,
+          transform: ""
+        };
+      case "left-end":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left)}px`,
+          transform: "translateY(-100%)"
+        };
+      case "top":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width / 2)}px`,
+          transform: "translateX(-50%)"
+        };
+      case "right":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height / 2)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width)}px`,
+          transform: "translateX(-100%) translateY(-50%)"
+        };
+      case "left":
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height / 2)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left)}px`,
+          transform: "translateY(-50%)"
+        };
+      case "bottom":
+      default:
+        return {
+          top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height)}px`,
+          left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width / 2)}px`,
+          transform: "translateX(-50%) translateY(-100%)"
+        };
+    }
+  }
+  switch (placement) {
+    case "bottom-start":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + offsetLeftToStandardPlacement)}px`,
+        transform: ""
+      };
+    case "bottom-end":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width + offsetLeftToStandardPlacement)}px`,
+        transform: "translateX(-100%)"
+      };
+    case "top-start":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + offsetLeftToStandardPlacement)}px`,
+        transform: "translateY(-100%)"
+      };
+    case "top-end":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width + offsetLeftToStandardPlacement)}px`,
+        transform: "translateX(-100%) translateY(-100%)"
+      };
+    case "right-start":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width + offsetLeftToStandardPlacement)}px`,
+        transform: ""
+      };
+    case "right-end":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width + offsetLeftToStandardPlacement)}px`,
+        transform: "translateY(-100%)"
+      };
+    case "left-start":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + offsetLeftToStandardPlacement)}px`,
+        transform: "translateX(-100%)"
+      };
+    case "left-end":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + offsetLeftToStandardPlacement)}px`,
+        transform: "translateX(-100%) translateY(-100%)"
+      };
+    case "top":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width / 2 + offsetLeftToStandardPlacement)}px`,
+        transform: "translateY(-100%) translateX(-50%)"
+      };
+    case "right":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height / 2 + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width + offsetLeftToStandardPlacement)}px`,
+        transform: "translateY(-50%)"
+      };
+    case "left":
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height / 2 + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + offsetLeftToStandardPlacement)}px`,
+        transform: "translateY(-50%) translateX(-100%)"
+      };
+    case "bottom":
+    default:
+      return {
+        top: `${Math.round(targetRect.top - offsetRect.top + targetRect.height + offsetTopToStandardPlacement)}px`,
+        left: `${Math.round(targetRect.left - offsetRect.left + targetRect.width / 2 + offsetLeftToStandardPlacement)}px`,
+        transform: "translateX(-50%)"
+      };
+  }
+}
+const style$c = c([
+  c(".v-binder-follower-container", {
+    position: "absolute",
+    left: "0",
+    right: "0",
+    top: "0",
+    height: "0",
+    pointerEvents: "none",
+    zIndex: "auto"
+  }),
+  c(".v-binder-follower-content", {
+    position: "absolute",
+    zIndex: "auto"
+  }, [
+    c("> *", {
+      pointerEvents: "all"
+    })
+  ])
+]);
+const VFollower = /* @__PURE__ */ defineComponent({
+  name: "Follower",
+  inheritAttrs: false,
+  props: {
+    show: Boolean,
+    enabled: {
+      type: Boolean,
+      default: void 0
+    },
+    placement: {
+      type: String,
+      default: "bottom"
+    },
+    syncTrigger: {
+      type: Array,
+      default: ["resize", "scroll"]
+    },
+    to: [String, Object],
+    flip: {
+      type: Boolean,
+      default: true
+    },
+    internalShift: Boolean,
+    x: Number,
+    y: Number,
+    width: String,
+    minWidth: String,
+    containerClass: String,
+    teleportDisabled: Boolean,
+    zindexable: {
+      type: Boolean,
+      default: true
+    },
+    zIndex: Number,
+    overlap: Boolean
+  },
+  setup(props) {
+    const VBinder = inject("VBinder");
+    const mergedEnabledRef = useMemo(() => {
+      return props.enabled !== void 0 ? props.enabled : props.show;
+    });
+    const followerRef = ref(null);
+    const offsetContainerRef = ref(null);
+    const ensureListeners = () => {
+      const { syncTrigger } = props;
+      if (syncTrigger.includes("scroll")) {
+        VBinder.addScrollListener(syncPosition);
+      }
+      if (syncTrigger.includes("resize")) {
+        VBinder.addResizeListener(syncPosition);
+      }
+    };
+    const removeListeners = () => {
+      VBinder.removeScrollListener(syncPosition);
+      VBinder.removeResizeListener(syncPosition);
+    };
+    onMounted(() => {
+      if (mergedEnabledRef.value) {
+        syncPosition();
+        ensureListeners();
+      }
+    });
+    const ssrAdapter2 = useSsrAdapter();
+    style$c.mount({
+      id: "vueuc/binder",
+      head: true,
+      anchorMetaName: cssrAnchorMetaName$1,
+      ssr: ssrAdapter2
+    });
+    onBeforeUnmount(() => {
+      removeListeners();
+    });
+    onFontsReady(() => {
+      if (mergedEnabledRef.value) {
+        syncPosition();
+      }
+    });
+    const syncPosition = () => {
+      if (!mergedEnabledRef.value) {
+        return;
+      }
+      const follower = followerRef.value;
+      if (follower === null)
+        return;
+      const target = VBinder.targetRef;
+      const { x, y, overlap } = props;
+      const targetRect = x !== void 0 && y !== void 0 ? getPointRect(x, y) : getRect(target);
+      follower.style.setProperty("--v-target-width", `${Math.round(targetRect.width)}px`);
+      follower.style.setProperty("--v-target-height", `${Math.round(targetRect.height)}px`);
+      const { width, minWidth, placement, internalShift, flip } = props;
+      follower.setAttribute("v-placement", placement);
+      if (overlap) {
+        follower.setAttribute("v-overlap", "");
+      } else {
+        follower.removeAttribute("v-overlap");
+      }
+      const { style: style2 } = follower;
+      if (width === "target") {
+        style2.width = `${targetRect.width}px`;
+      } else if (width !== void 0) {
+        style2.width = width;
+      } else {
+        style2.width = "";
+      }
+      if (minWidth === "target") {
+        style2.minWidth = `${targetRect.width}px`;
+      } else if (minWidth !== void 0) {
+        style2.minWidth = minWidth;
+      } else {
+        style2.minWidth = "";
+      }
+      const followerRect = getRect(follower);
+      const offsetContainerRect = getRect(offsetContainerRef.value);
+      const { left: offsetLeftToStandardPlacement, top: offsetTopToStandardPlacement, placement: properPlacement } = getPlacementAndOffsetOfFollower(placement, targetRect, followerRect, internalShift, flip, overlap);
+      const properTransformOrigin = getProperTransformOrigin(properPlacement, overlap);
+      const { left, top, transform } = getOffset(properPlacement, offsetContainerRect, targetRect, offsetTopToStandardPlacement, offsetLeftToStandardPlacement, overlap);
+      follower.setAttribute("v-placement", properPlacement);
+      follower.style.setProperty("--v-offset-left", `${Math.round(offsetLeftToStandardPlacement)}px`);
+      follower.style.setProperty("--v-offset-top", `${Math.round(offsetTopToStandardPlacement)}px`);
+      follower.style.transform = `translateX(${left}) translateY(${top}) ${transform}`;
+      follower.style.setProperty("--v-transform-origin", properTransformOrigin);
+      follower.style.transformOrigin = properTransformOrigin;
+    };
+    watch(mergedEnabledRef, (value) => {
+      if (value) {
+        ensureListeners();
+        syncOnNextTick();
+      } else {
+        removeListeners();
+      }
+    });
+    const syncOnNextTick = () => {
+      nextTick().then(syncPosition).catch((e) => console.error(e));
+    };
+    [
+      "placement",
+      "x",
+      "y",
+      "internalShift",
+      "flip",
+      "width",
+      "overlap",
+      "minWidth"
+    ].forEach((prop) => {
+      watch(toRef(props, prop), syncPosition);
+    });
+    ["teleportDisabled"].forEach((prop) => {
+      watch(toRef(props, prop), syncOnNextTick);
+    });
+    watch(toRef(props, "syncTrigger"), (value) => {
+      if (!value.includes("resize")) {
+        VBinder.removeResizeListener(syncPosition);
+      } else {
+        VBinder.addResizeListener(syncPosition);
+      }
+      if (!value.includes("scroll")) {
+        VBinder.removeScrollListener(syncPosition);
+      } else {
+        VBinder.addScrollListener(syncPosition);
+      }
+    });
+    const isMountedRef = isMounted();
+    const mergedToRef = useMemo(() => {
+      const { to } = props;
+      if (to !== void 0)
+        return to;
+      if (isMountedRef.value) {
+        return void 0;
+      }
+      return void 0;
+    });
+    return {
+      VBinder,
+      mergedEnabled: mergedEnabledRef,
+      offsetContainerRef,
+      followerRef,
+      mergedTo: mergedToRef,
+      syncPosition
+    };
+  },
+  render() {
+    return h(LazyTeleport, {
+      show: this.show,
+      to: this.mergedTo,
+      disabled: this.teleportDisabled
+    }, {
+      default: () => {
+        var _a, _b;
+        const vNode = h("div", {
+          class: ["v-binder-follower-container", this.containerClass],
+          ref: "offsetContainerRef"
+        }, [
+          h("div", {
+            class: "v-binder-follower-content",
+            ref: "followerRef"
+          }, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a))
+        ]);
+        if (this.zindexable) {
+          return withDirectives(vNode, [
+            [
+              zindexable,
+              {
+                enabled: this.mergedEnabled,
+                zIndex: this.zIndex
+              }
+            ]
+          ]);
+        }
+        return vNode;
+      }
+    });
+  }
+});
 var resizeObservers = [];
 var hasActiveObservations = function() {
   return resizeObservers.some(function(ro) {
@@ -11237,7 +12278,7 @@ var ResizeObserverController = function() {
   };
   return ResizeObserverController2;
 }();
-var ResizeObserver = function() {
+var ResizeObserver$1 = function() {
   function ResizeObserver2(callback) {
     if (arguments.length === 0) {
       throw new TypeError("Failed to construct 'ResizeObserver': 1 argument required, but only 0 present.");
@@ -11276,7 +12317,7 @@ var ResizeObserver = function() {
 class ResizeObserverDelegate {
   constructor() {
     this.handleResize = this.handleResize.bind(this);
-    this.observer = new (typeof window !== "undefined" && window.ResizeObserver || ResizeObserver)(this.handleResize);
+    this.observer = new (typeof window !== "undefined" && window.ResizeObserver || ResizeObserver$1)(this.handleResize);
     this.elHandlersMap = /* @__PURE__ */ new Map();
   }
   handleResize(entries) {
@@ -12264,14 +13305,14 @@ const {
   fontFamily,
   lineHeight
 } = commonVariables$3;
-const globalStyle = c("body", `
+const globalStyle = c$1("body", `
  margin: 0;
  font-size: ${fontSize};
  font-family: ${fontFamily};
  line-height: ${lineHeight};
  -webkit-text-size-adjust: 100%;
  -webkit-tap-highlight-color: transparent;
-`, [c("input", `
+`, [c$1("input", `
  font-family: inherit;
  font-size: inherit;
  `)]);
@@ -13043,7 +14084,7 @@ function useThemeClass(componentName, hashRef, cssVarsRef, props) {
       for (const key in cssVars) {
         style2 += `${key}: ${cssVars[key]};`;
       }
-      c(`.${finalThemeHash}`, style2).mount({
+      c$1(`.${finalThemeHash}`, style2).mount({
         id: finalThemeHash,
         ssr: ssrAdapter2
       });
@@ -13382,7 +14423,7 @@ const NFadeInExpandTransition = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const style$9 = cB("base-icon", `
+const style$b = cB("base-icon", `
  height: 1em;
  width: 1em;
  line-height: 1em;
@@ -13391,7 +14432,7 @@ const style$9 = cB("base-icon", `
  position: relative;
  fill: currentColor;
  transform: translateZ(0);
-`, [c("svg", `
+`, [c$1("svg", `
  height: 1em;
  width: 1em;
  `)]);
@@ -13417,7 +14458,7 @@ const NBaseIcon = /* @__PURE__ */ defineComponent({
     onMouseup: Function
   },
   setup(props) {
-    useStyle("-base-icon", style$9, toRef(props, "clsPrefix"));
+    useStyle("-base-icon", style$b, toRef(props, "clsPrefix"));
   },
   render() {
     return h("i", {
@@ -13432,7 +14473,7 @@ const NBaseIcon = /* @__PURE__ */ defineComponent({
     }, this.$slots);
   }
 });
-const style$8 = cB("base-close", `
+const style$a = cB("base-close", `
  display: flex;
  align-items: center;
  justify-content: center;
@@ -13450,7 +14491,7 @@ const style$8 = cB("base-close", `
 `, [cM("absolute", `
  height: var(--n-close-icon-size);
  width: var(--n-close-icon-size);
- `), c("&::before", `
+ `), c$1("&::before", `
  content: "";
  position: absolute;
  width: var(--n-close-size);
@@ -13460,21 +14501,21 @@ const style$8 = cB("base-close", `
  transform: translateY(-50%) translateX(-50%);
  transition: inherit;
  border-radius: inherit;
- `), cNotM("disabled", [c("&:hover", `
+ `), cNotM("disabled", [c$1("&:hover", `
  color: var(--n-close-icon-color-hover);
- `), c("&:hover::before", `
+ `), c$1("&:hover::before", `
  background-color: var(--n-close-color-hover);
- `), c("&:focus::before", `
+ `), c$1("&:focus::before", `
  background-color: var(--n-close-color-hover);
- `), c("&:active", `
+ `), c$1("&:active", `
  color: var(--n-close-icon-color-pressed);
- `), c("&:active::before", `
+ `), c$1("&:active::before", `
  background-color: var(--n-close-color-pressed);
  `)]), cM("disabled", `
  cursor: not-allowed;
  color: var(--n-close-icon-color-disabled);
  background-color: transparent;
- `), cM("round", [c("&::before", `
+ `), cM("round", [c$1("&::before", `
  border-radius: 50%;
  `)])]);
 const NBaseClose = /* @__PURE__ */ defineComponent({
@@ -13501,7 +14542,7 @@ const NBaseClose = /* @__PURE__ */ defineComponent({
     absolute: Boolean
   },
   setup(props) {
-    useStyle("-base-close", style$8, toRef(props, "clsPrefix"));
+    useStyle("-base-close", style$a, toRef(props, "clsPrefix"));
     return () => {
       const {
         clsPrefix,
@@ -13542,17 +14583,17 @@ function iconSwitchTransition({
   top = 0,
   transition = `all .3s ${cubicBezierEaseInOut$2} !important`
 } = {}) {
-  return [c("&.icon-switch-transition-enter-from, &.icon-switch-transition-leave-to", {
+  return [c$1("&.icon-switch-transition-enter-from, &.icon-switch-transition-leave-to", {
     transform: `${originalTransform} scale(0.75)`,
     left,
     top,
     opacity: 0
-  }), c("&.icon-switch-transition-enter-to, &.icon-switch-transition-leave-from", {
+  }), c$1("&.icon-switch-transition-enter-to, &.icon-switch-transition-leave-from", {
     transform: `scale(1) ${originalTransform}`,
     left,
     top,
     opacity: 1
-  }), c("&.icon-switch-transition-enter-active, &.icon-switch-transition-leave-active", {
+  }), c$1("&.icon-switch-transition-enter-active, &.icon-switch-transition-leave-active", {
     transformOrigin: "center",
     position: "absolute",
     left,
@@ -13560,7 +14601,7 @@ function iconSwitchTransition({
     transition
   })];
 }
-const style$7 = c([c("@keyframes rotator", `
+const style$9 = c$1([c$1("@keyframes rotator", `
  0% {
  -webkit-transform: rotate(0deg);
  transform: rotate(0deg);
@@ -13624,7 +14665,7 @@ const NBaseLoading = /* @__PURE__ */ defineComponent({
     }
   }, exposedLoadingProps),
   setup(props) {
-    useStyle("-base-loading", style$7, toRef(props, "clsPrefix"));
+    useStyle("-base-loading", style$9, toRef(props, "clsPrefix"));
   },
   render() {
     const {
@@ -13872,7 +14913,7 @@ const commonVars$1 = {
   railInsetVertical: "2px 4px 2px auto",
   railColor: "transparent"
 };
-function self$6(vars) {
+function self$8(vars) {
   const {
     scrollbarColor,
     scrollbarColorHover,
@@ -13891,7 +14932,7 @@ function self$6(vars) {
 const scrollbarLight = {
   name: "Scrollbar",
   common: derived,
-  self: self$6
+  self: self$8
 };
 const {
   cubicBezierEaseInOut: cubicBezierEaseInOut$1
@@ -13903,40 +14944,40 @@ function fadeInTransition({
   enterCubicBezier = cubicBezierEaseInOut$1,
   leaveCubicBezier = cubicBezierEaseInOut$1
 } = {}) {
-  return [c(`&.${name}-transition-enter-active`, {
+  return [c$1(`&.${name}-transition-enter-active`, {
     transition: `all ${enterDuration} ${enterCubicBezier}!important`
-  }), c(`&.${name}-transition-leave-active`, {
+  }), c$1(`&.${name}-transition-leave-active`, {
     transition: `all ${leaveDuration} ${leaveCubicBezier}!important`
-  }), c(`&.${name}-transition-enter-from, &.${name}-transition-leave-to`, {
+  }), c$1(`&.${name}-transition-enter-from, &.${name}-transition-leave-to`, {
     opacity: 0
-  }), c(`&.${name}-transition-leave-from, &.${name}-transition-enter-to`, {
+  }), c$1(`&.${name}-transition-leave-from, &.${name}-transition-enter-to`, {
     opacity: 1
   })];
 }
-const style$6 = cB("scrollbar", `
+const style$8 = cB("scrollbar", `
  overflow: hidden;
  position: relative;
  z-index: auto;
  height: 100%;
  width: 100%;
-`, [c(">", [cB("scrollbar-container", `
+`, [c$1(">", [cB("scrollbar-container", `
  width: 100%;
  overflow: scroll;
  height: 100%;
  min-height: inherit;
  max-height: inherit;
  scrollbar-width: none;
- `, [c("&::-webkit-scrollbar, &::-webkit-scrollbar-track-piece, &::-webkit-scrollbar-thumb", `
+ `, [c$1("&::-webkit-scrollbar, &::-webkit-scrollbar-track-piece, &::-webkit-scrollbar-thumb", `
  width: 0;
  height: 0;
  display: none;
- `), c(">", [
+ `), c$1(">", [
   // We can't set overflow hidden since it affects positioning.
   cB("scrollbar-content", `
  box-sizing: border-box;
  min-width: 100%;
  `)
-])])]), c(">, +", [cB("scrollbar-rail", `
+])])]), c$1(">, +", [cB("scrollbar-rail", `
  position: absolute;
  pointer-events: none;
  user-select: none;
@@ -13945,25 +14986,25 @@ const style$6 = cB("scrollbar", `
  `, [cM("horizontal", `
  inset: var(--n-scrollbar-rail-inset-horizontal);
  height: var(--n-scrollbar-height);
- `, [c(">", [cE("scrollbar", `
+ `, [c$1(">", [cE("scrollbar", `
  height: var(--n-scrollbar-height);
  border-radius: var(--n-scrollbar-border-radius);
  right: 0;
  `)])]), cM("vertical", `
  inset: var(--n-scrollbar-rail-inset-vertical);
  width: var(--n-scrollbar-width);
- `, [c(">", [cE("scrollbar", `
+ `, [c$1(">", [cE("scrollbar", `
  width: var(--n-scrollbar-width);
  border-radius: var(--n-scrollbar-border-radius);
  bottom: 0;
- `)])]), cM("disabled", [c(">", [cE("scrollbar", "pointer-events: none;")])]), c(">", [cE("scrollbar", `
+ `)])]), cM("disabled", [c$1(">", [cE("scrollbar", "pointer-events: none;")])]), c$1(">", [cE("scrollbar", `
  z-index: 1;
  position: absolute;
  cursor: pointer;
  pointer-events: all;
  background-color: var(--n-scrollbar-color);
  transition: background-color .2s var(--n-scrollbar-bezier);
- `, [fadeInTransition(), c("&:hover", "background-color: var(--n-scrollbar-color-hover);")])])])])]);
+ `, [fadeInTransition(), c$1("&:hover", "background-color: var(--n-scrollbar-color-hover);")])])])])]);
 const scrollbarProps = Object.assign(Object.assign({}, useTheme.props), {
   duration: {
     type: Number,
@@ -14030,7 +15071,7 @@ const Scrollbar = /* @__PURE__ */ defineComponent({
     let memoMouseX = 0;
     let memoMouseY = 0;
     const isIos2 = useIsIos();
-    const themeRef = useTheme("Scrollbar", "-scrollbar", style$6, scrollbarLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Scrollbar", "-scrollbar", style$8, scrollbarLight, props, mergedClsPrefixRef);
     const yBarSizeRef = computed(() => {
       const {
         value: containerHeight
@@ -14680,6 +15721,31 @@ const Scrollbar = /* @__PURE__ */ defineComponent({
   }
 });
 const XScrollbar = Scrollbar;
+const {
+  cubicBezierEaseIn: cubicBezierEaseIn$1,
+  cubicBezierEaseOut: cubicBezierEaseOut$1
+} = commonVariables$3;
+function fadeInScaleUpTransition({
+  transformOrigin = "inherit",
+  duration: duration2 = ".2s",
+  enterScale = ".9",
+  originalTransform = "",
+  originalTransition = ""
+} = {}) {
+  return [c$1("&.fade-in-scale-up-transition-leave-active", {
+    transformOrigin,
+    transition: `opacity ${duration2} ${cubicBezierEaseIn$1}, transform ${duration2} ${cubicBezierEaseIn$1} ${originalTransition && `,${originalTransition}`}`
+  }), c$1("&.fade-in-scale-up-transition-enter-active", {
+    transformOrigin,
+    transition: `opacity ${duration2} ${cubicBezierEaseOut$1}, transform ${duration2} ${cubicBezierEaseOut$1} ${originalTransition && `,${originalTransition}`}`
+  }), c$1("&.fade-in-scale-up-transition-enter-from, &.fade-in-scale-up-transition-leave-to", {
+    opacity: 0,
+    transform: `${originalTransform} scale(${enterScale})`
+  }), c$1("&.fade-in-scale-up-transition-leave-from, &.fade-in-scale-up-transition-enter-to", {
+    opacity: 1,
+    transform: `${originalTransform} scale(1)`
+  })];
+}
 const commonVariables$2 = {
   closeIconSizeTiny: "12px",
   closeIconSizeSmall: "12px",
@@ -14692,7 +15758,7 @@ const commonVariables$2 = {
   padding: "0 7px",
   closeMargin: "0 0 0 4px"
 };
-function self$5(vars) {
+function self$7(vars) {
   const {
     textColor2,
     primaryColorHover,
@@ -14858,7 +15924,7 @@ function self$5(vars) {
 const tagLight = {
   name: "Tag",
   common: derived,
-  self: self$5
+  self: self$7
 };
 const commonProps = {
   color: Object,
@@ -14877,7 +15943,7 @@ const commonProps = {
     default: void 0
   }
 };
-const style$5 = cB("tag", `
+const style$7 = cB("tag", `
  --n-close-margin: var(--n-close-margin-top) var(--n-close-margin-right) var(--n-close-margin-bottom) var(--n-close-margin-left);
  white-space: nowrap;
  position: relative;
@@ -14944,10 +16010,10 @@ const style$5 = cB("tag", `
  box-shadow: none;
  color: var(--n-text-color-checkable);
  background-color: var(--n-color-checkable);
- `, [cNotM("disabled", [c("&:hover", "background-color: var(--n-color-hover-checkable);", [cNotM("checked", "color: var(--n-text-color-hover-checkable);")]), c("&:active", "background-color: var(--n-color-pressed-checkable);", [cNotM("checked", "color: var(--n-text-color-pressed-checkable);")])]), cM("checked", `
+ `, [cNotM("disabled", [c$1("&:hover", "background-color: var(--n-color-hover-checkable);", [cNotM("checked", "color: var(--n-text-color-hover-checkable);")]), c$1("&:active", "background-color: var(--n-color-pressed-checkable);", [cNotM("checked", "color: var(--n-text-color-pressed-checkable);")])]), cM("checked", `
  color: var(--n-text-color-checked);
  background-color: var(--n-color-checked);
- `, [cNotM("disabled", [c("&:hover", "background-color: var(--n-color-checked-hover);"), c("&:active", "background-color: var(--n-color-checked-pressed);")])])])]);
+ `, [cNotM("disabled", [c$1("&:hover", "background-color: var(--n-color-checked-hover);"), c$1("&:active", "background-color: var(--n-color-checked-pressed);")])])])]);
 const tagProps = Object.assign(Object.assign(Object.assign({}, useTheme.props), commonProps), {
   bordered: {
     type: Boolean,
@@ -14975,7 +16041,7 @@ const tagProps = Object.assign(Object.assign(Object.assign({}, useTheme.props), 
   onCheckedChange: Function
 });
 const tagInjectionKey = createInjectionKey("n-tag");
-const __unplugin_components_0$1 = /* @__PURE__ */ defineComponent({
+const __unplugin_components_0$2 = /* @__PURE__ */ defineComponent({
   name: "Tag",
   props: tagProps,
   setup(props) {
@@ -14986,7 +16052,7 @@ const __unplugin_components_0$1 = /* @__PURE__ */ defineComponent({
       inlineThemeDisabled,
       mergedRtlRef
     } = useConfig(props);
-    const themeRef = useTheme("Tag", "-tag", style$5, tagLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Tag", "-tag", style$7, tagLight, props, mergedClsPrefixRef);
     provide(tagInjectionKey, {
       roundRef: toRef(props, "round")
     });
@@ -15199,12 +16265,12 @@ const __unplugin_components_0$1 = /* @__PURE__ */ defineComponent({
     }) : null);
   }
 });
-const style$4 = cB("base-clear", `
+const style$6 = cB("base-clear", `
  flex-shrink: 0;
  height: 1em;
  width: 1em;
  position: relative;
-`, [c(">", [cE("clear", `
+`, [c$1(">", [cE("clear", `
  font-size: var(--n-clear-size);
  height: 1em;
  width: 1em;
@@ -15212,9 +16278,9 @@ const style$4 = cB("base-clear", `
  color: var(--n-clear-color);
  transition: color .3s var(--n-bezier);
  display: flex;
- `, [c("&:hover", `
+ `, [c$1("&:hover", `
  color: var(--n-clear-color-hover)!important;
- `), c("&:active", `
+ `), c$1("&:active", `
  color: var(--n-clear-color-pressed)!important;
  `)]), cE("placeholder", `
  display: flex;
@@ -15239,7 +16305,7 @@ const NBaseClear = /* @__PURE__ */ defineComponent({
     onClear: Function
   },
   setup(props) {
-    useStyle("-base-clear", style$4, toRef(props, "clsPrefix"));
+    useStyle("-base-clear", style$6, toRef(props, "clsPrefix"));
     return {
       handleMouseDown(e) {
         e.preventDefault();
@@ -15334,7 +16400,7 @@ const commonVars = {
   closeMarginRtl: "13px 0 0 14px",
   padding: "13px"
 };
-function self$4(vars) {
+function self$6(vars) {
   const {
     lineHeight: lineHeight2,
     borderRadius,
@@ -15432,7 +16498,7 @@ function self$4(vars) {
 const alertLight = {
   name: "Alert",
   common: derived,
-  self: self$4
+  self: self$6
 };
 const {
   cubicBezierEaseInOut,
@@ -15451,17 +16517,17 @@ function fadeInHeightExpandTransition({
 } = {}) {
   const enterClass = reverse ? "leave" : "enter";
   const leaveClass = reverse ? "enter" : "leave";
-  return [c(`&.fade-in-height-expand-transition-${leaveClass}-from,
+  return [c$1(`&.fade-in-height-expand-transition-${leaveClass}-from,
  &.fade-in-height-expand-transition-${enterClass}-to`, Object.assign(Object.assign({}, enterToProps), {
     opacity: 1
-  })), c(`&.fade-in-height-expand-transition-${leaveClass}-to,
+  })), c$1(`&.fade-in-height-expand-transition-${leaveClass}-to,
  &.fade-in-height-expand-transition-${enterClass}-from`, Object.assign(Object.assign({}, leaveToProps), {
     opacity: 0,
     marginTop: "0 !important",
     marginBottom: "0 !important",
     paddingTop: foldPadding ? "0 !important" : void 0,
     paddingBottom: foldPadding ? "0 !important" : void 0
-  })), c(`&.fade-in-height-expand-transition-${leaveClass}-active`, `
+  })), c$1(`&.fade-in-height-expand-transition-${leaveClass}-active`, `
  overflow: ${overflow};
  transition:
  max-height ${duration2} ${cubicBezierEaseInOut} ${leavingDelay},
@@ -15471,7 +16537,7 @@ function fadeInHeightExpandTransition({
  padding-top ${duration2} ${cubicBezierEaseInOut} ${leavingDelay},
  padding-bottom ${duration2} ${cubicBezierEaseInOut} ${leavingDelay}
  ${originalTransition ? `,${originalTransition}` : ""}
- `), c(`&.fade-in-height-expand-transition-${enterClass}-active`, `
+ `), c$1(`&.fade-in-height-expand-transition-${enterClass}-active`, `
  overflow: ${overflow};
  transition:
  max-height ${duration2} ${cubicBezierEaseInOut},
@@ -15483,7 +16549,7 @@ function fadeInHeightExpandTransition({
  ${originalTransition ? `,${originalTransition}` : ""}
  `)];
 }
-const style$3 = cB("alert", `
+const style$5 = cB("alert", `
  line-height: var(--n-line-height);
  border-radius: var(--n-border-radius);
  position: relative;
@@ -15561,7 +16627,7 @@ const style$3 = cB("alert", `
  font-size: 16px;
  line-height: 19px;
  font-weight: var(--n-title-font-weight);
- `, [c("& +", [cE("content", {
+ `, [c$1("& +", [cE("content", {
     marginTop: "9px"
   })])]), cE("content", {
     transition: "color .3s var(--n-bezier)",
@@ -15602,7 +16668,7 @@ const NAlert = /* @__PURE__ */ defineComponent({
       inlineThemeDisabled,
       mergedRtlRef
     } = useConfig(props);
-    const themeRef = useTheme("Alert", "-alert", style$3, alertLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Alert", "-alert", style$5, alertLight, props, mergedClsPrefixRef);
     const rtlEnabledRef = useRtl("Alert", mergedRtlRef, mergedClsPrefixRef);
     const cssVarsRef = computed(() => {
       const {
@@ -15762,9 +16828,9 @@ const NAlert = /* @__PURE__ */ defineComponent({
     });
   }
 });
-const isChrome = isBrowser$1 && "chrome" in window;
-isBrowser$1 && navigator.userAgent.includes("Firefox");
-const isSafari = isBrowser$1 && navigator.userAgent.includes("Safari") && !isChrome;
+const isChrome = isBrowser$2 && "chrome" in window;
+isBrowser$2 && navigator.userAgent.includes("Firefox");
+const isSafari = isBrowser$2 && navigator.userAgent.includes("Safari") && !isChrome;
 const commonVariables$1 = {
   paddingTiny: "0 8px",
   paddingSmall: "0 10px",
@@ -15772,7 +16838,7 @@ const commonVariables$1 = {
   paddingLarge: "0 14px",
   clearSize: "16px"
 };
-function self$3(vars) {
+function self$5(vars) {
   const {
     textColor2,
     textColor3,
@@ -15875,7 +16941,7 @@ function self$3(vars) {
 const inputLight = {
   name: "Input",
   common: derived,
-  self: self$3
+  self: self$5
 };
 const inputInjectionKey = createInjectionKey("n-input");
 function len(s) {
@@ -15989,7 +17055,7 @@ const WordCount = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const style$2 = cB("input", `
+const style$4 = cB("input", `
  max-width: 100%;
  cursor: text;
  line-height: 1.5;
@@ -16034,14 +17100,14 @@ const style$2 = cB("input", `
  color: var(--n-text-color);
  caret-color: var(--n-caret-color);
  background-color: transparent;
- `, [c("&::-webkit-scrollbar, &::-webkit-scrollbar-track-piece, &::-webkit-scrollbar-thumb", `
+ `, [c$1("&::-webkit-scrollbar, &::-webkit-scrollbar-track-piece, &::-webkit-scrollbar-thumb", `
  width: 0;
  height: 0;
  display: none;
- `), c("&::placeholder", `
+ `), c$1("&::placeholder", `
  color: #0000;
  -webkit-text-fill-color: transparent !important;
- `), c("&:-webkit-autofill ~", [cE("placeholder", "display: none;")])]),
+ `), c$1("&:-webkit-autofill ~", [cE("placeholder", "display: none;")])]),
   cM("round", [cNotM("textarea", "border-radius: calc(var(--n-height) / 2);")]),
   cE("placeholder", `
  pointer-events: none;
@@ -16052,7 +17118,7 @@ const style$2 = cB("input", `
  bottom: 0;
  overflow: hidden;
  color: var(--n-placeholder-color);
- `, [c("span", `
+ `, [c$1("span", `
  width: 100%;
  display: inline-block;
  `)]),
@@ -16087,7 +17153,7 @@ const style$2 = cB("input", `
  padding: 0;
  height: var(--n-height);
  line-height: var(--n-height);
- `, [c("&[type=password]::-ms-reveal", "display: none;"), c("+", [cE("placeholder", `
+ `, [c$1("&[type=password]::-ms-reveal", "display: none;"), c$1("+", [cE("placeholder", `
  display: flex;
  align-items: center; 
  `)])]),
@@ -16163,11 +17229,11 @@ const style$2 = cB("input", `
   cNotM("disabled", [cE("eye", `
  color: var(--n-icon-color);
  cursor: pointer;
- `, [c("&:hover", `
+ `, [c$1("&:hover", `
  color: var(--n-icon-color-hover);
- `), c("&:active", `
+ `), c$1("&:active", `
  color: var(--n-icon-color-pressed);
- `)]), c("&:hover", [cE("state-border", "border: var(--n-border-hover);")]), cM("focus", "background-color: var(--n-color-focus);", [cE("state-border", `
+ `)]), c$1("&:hover", [cE("state-border", "border: var(--n-border-hover);")]), cM("focus", "background-color: var(--n-color-focus);", [cE("state-border", `
  border: var(--n-border-focus);
  box-shadow: var(--n-box-shadow-focus);
  `)])]),
@@ -16213,7 +17279,7 @@ const style$2 = cB("input", `
  transition: color .3s var(--n-bezier);
  color: var(--n-icon-color);
  font-size: var(--n-icon-size);
- `)])]), c(">", [cB("icon", `
+ `)])]), c$1(">", [cB("icon", `
  transition: color .3s var(--n-bezier);
  color: var(--n-icon-color);
  font-size: var(--n-icon-size);
@@ -16235,9 +17301,9 @@ const style$2 = cB("input", `
  caret-color: var(--n-caret-color-${status});
  `), cE("state-border", `
  border: var(--n-border-${status});
- `), c("&:hover", [cE("state-border", `
+ `), c$1("&:hover", [cE("state-border", `
  border: var(--n-border-hover-${status});
- `)]), c("&:focus", `
+ `)]), c$1("&:focus", `
  background-color: var(--n-color-focus-${status});
  `, [cE("state-border", `
  box-shadow: var(--n-box-shadow-focus-${status});
@@ -16343,7 +17409,7 @@ const inputProps = Object.assign(Object.assign({}, useTheme.props), {
   /** deprecated */
   showPasswordToggle: Boolean
 });
-const __unplugin_components_2 = /* @__PURE__ */ defineComponent({
+const __unplugin_components_2$2 = /* @__PURE__ */ defineComponent({
   name: "Input",
   props: inputProps,
   setup(props) {
@@ -16353,7 +17419,7 @@ const __unplugin_components_2 = /* @__PURE__ */ defineComponent({
       inlineThemeDisabled,
       mergedRtlRef
     } = useConfig(props);
-    const themeRef = useTheme("Input", "-input", style$2, inputLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Input", "-input", style$4, inputLight, props, mergedClsPrefixRef);
     if (isSafari) {
       useStyle("-input-safari", safariStyle, mergedClsPrefixRef);
     }
@@ -17442,7 +18508,7 @@ const __unplugin_components_2 = /* @__PURE__ */ defineComponent({
     }) : null);
   }
 });
-const isImageSupportNativeLazy = isBrowser$1 && "loading" in document.createElement("img");
+const isImageSupportNativeLazy = isBrowser$2 && "loading" in document.createElement("img");
 function resolveOptionsAndHash(options = {}) {
   var _a;
   const {
@@ -17520,7 +18586,7 @@ const observeIntersection = (el, options, shouldStartLoadingRef) => {
   shouldStartLoadingRefMap.set(el, shouldStartLoadingRef);
   return unobserve;
 };
-function self$2(vars) {
+function self$4(vars) {
   const {
     borderRadius,
     avatarColor,
@@ -17551,10 +18617,10 @@ function self$2(vars) {
 const avatarLight = {
   name: "Avatar",
   common: derived,
-  self: self$2
+  self: self$4
 };
 const avatarGroupInjectionKey = createInjectionKey("n-avatar-group");
-const style$1 = cB("avatar", `
+const style$3 = cB("avatar", `
  width: var(--n-merged-size);
  height: var(--n-merged-size);
  color: #FFF;
@@ -17571,7 +18637,7 @@ const style$1 = cB("avatar", `
  border-color .3s var(--n-bezier),
  background-color .3s var(--n-bezier),
  color .3s var(--n-bezier);
-`, [insideModal(c("&", "--n-merged-color: var(--n-color-modal);")), insidePopover(c("&", "--n-merged-color: var(--n-color-popover);")), c("img", `
+`, [insideModal(c$1("&", "--n-merged-color: var(--n-color-modal);")), insidePopover(c$1("&", "--n-merged-color: var(--n-color-popover);")), c$1("img", `
  width: 100%;
  height: 100%;
  `), cE("text", `
@@ -17611,7 +18677,7 @@ const avatarProps = Object.assign(Object.assign({}, useTheme.props), {
   /** @deprecated */
   color: String
 });
-const __unplugin_components_1$1 = /* @__PURE__ */ defineComponent({
+const __unplugin_components_3$1 = /* @__PURE__ */ defineComponent({
   name: "Avatar",
   props: avatarProps,
   setup(props) {
@@ -17661,7 +18727,7 @@ const __unplugin_components_1$1 = /* @__PURE__ */ defineComponent({
       if (avatarGroupSize) return avatarGroupSize;
       return "medium";
     });
-    const themeRef = useTheme("Avatar", "-avatar", style$1, avatarLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Avatar", "-avatar", style$3, avatarLight, props, mergedClsPrefixRef);
     const TagInjection = inject(tagInjectionKey, null);
     const mergedRoundRef = computed(() => {
       if (NAvatarGroup) return true;
@@ -17900,7 +18966,7 @@ const configProviderProps = {
   as: {
     type: String,
     validator: () => {
-      warn$1("config-provider", "`as` is deprecated, please use `tag` instead.");
+      warn$2("config-provider", "`as` is deprecated, please use `tag` instead.");
       return true;
     },
     default: void 0
@@ -18069,6 +19135,135 @@ const __unplugin_components_1 = /* @__PURE__ */ defineComponent({
     }, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a)) : (_d = (_c = this.$slots).default) === null || _d === void 0 ? void 0 : _d.call(_c);
   }
 });
+function self$3(vars) {
+  const {
+    textColorBase,
+    opacity1,
+    opacity2,
+    opacity3,
+    opacity4,
+    opacity5
+  } = vars;
+  return {
+    color: textColorBase,
+    opacity1Depth: opacity1,
+    opacity2Depth: opacity2,
+    opacity3Depth: opacity3,
+    opacity4Depth: opacity4,
+    opacity5Depth: opacity5
+  };
+}
+const iconLight = {
+  name: "Icon",
+  common: derived,
+  self: self$3
+};
+const style$2 = cB("icon", `
+ height: 1em;
+ width: 1em;
+ line-height: 1em;
+ text-align: center;
+ display: inline-block;
+ position: relative;
+ fill: currentColor;
+ transform: translateZ(0);
+`, [cM("color-transition", {
+  transition: "color .3s var(--n-bezier)"
+}), cM("depth", {
+  color: "var(--n-color)"
+}, [c$1("svg", {
+  opacity: "var(--n-opacity)",
+  transition: "opacity .3s var(--n-bezier)"
+})]), c$1("svg", {
+  height: "1em",
+  width: "1em"
+})]);
+const iconProps = Object.assign(Object.assign({}, useTheme.props), {
+  depth: [String, Number],
+  size: [Number, String],
+  color: String,
+  component: Object
+});
+const NIcon = /* @__PURE__ */ defineComponent({
+  _n_icon__: true,
+  name: "Icon",
+  inheritAttrs: false,
+  props: iconProps,
+  setup(props) {
+    const {
+      mergedClsPrefixRef,
+      inlineThemeDisabled
+    } = useConfig(props);
+    const themeRef = useTheme("Icon", "-icon", style$2, iconLight, props, mergedClsPrefixRef);
+    const cssVarsRef = computed(() => {
+      const {
+        depth
+      } = props;
+      const {
+        common: {
+          cubicBezierEaseInOut: cubicBezierEaseInOut2
+        },
+        self: self2
+      } = themeRef.value;
+      if (depth !== void 0) {
+        const {
+          color,
+          [`opacity${depth}Depth`]: opacity
+        } = self2;
+        return {
+          "--n-bezier": cubicBezierEaseInOut2,
+          "--n-color": color,
+          "--n-opacity": opacity
+        };
+      }
+      return {
+        "--n-bezier": cubicBezierEaseInOut2,
+        "--n-color": "",
+        "--n-opacity": ""
+      };
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("icon", computed(() => `${props.depth || "d"}`), cssVarsRef, props) : void 0;
+    return {
+      mergedClsPrefix: mergedClsPrefixRef,
+      mergedStyle: computed(() => {
+        const {
+          size: size2,
+          color
+        } = props;
+        return {
+          fontSize: formatLength(size2),
+          color
+        };
+      }),
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
+    };
+  },
+  render() {
+    var _a;
+    const {
+      $parent,
+      depth,
+      mergedClsPrefix,
+      component,
+      onRender,
+      themeClass
+    } = this;
+    if ((_a = $parent === null || $parent === void 0 ? void 0 : $parent.$options) === null || _a === void 0 ? void 0 : _a._n_icon__) {
+      warn$2("icon", "don't wrap `n-icon` inside `n-icon`");
+    }
+    onRender === null || onRender === void 0 ? void 0 : onRender();
+    return h("i", mergeProps(this.$attrs, {
+      role: "img",
+      class: [`${mergedClsPrefix}-icon`, themeClass, {
+        [`${mergedClsPrefix}-icon--depth`]: depth,
+        [`${mergedClsPrefix}-icon--color-transition`]: depth !== void 0
+      }],
+      style: [this.cssVars, this.mergedStyle]
+    }), component ? h(component) : this.$slots);
+  }
+});
 var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
 function getAugmentedNamespace(n2) {
   if (n2.__esModule) return n2;
@@ -18106,7 +19301,7 @@ const commonVariables = {
   iconSize: "20px",
   fontSize: "14px"
 };
-function self$1(vars) {
+function self$2(vars) {
   const {
     textColor2,
     closeIconColor,
@@ -18188,6 +19383,58 @@ function self$1(vars) {
 const messageLight = {
   name: "Message",
   common: derived,
+  self: self$2
+};
+const sizeVariables = {
+  railHeight: "4px",
+  railWidthVertical: "4px",
+  handleSize: "18px",
+  dotHeight: "8px",
+  dotWidth: "8px",
+  dotBorderRadius: "4px"
+};
+function self$1(vars) {
+  const indicatorColor = "rgba(0, 0, 0, .85)";
+  const boxShadow = "0 2px 8px 0 rgba(0, 0, 0, 0.12)";
+  const {
+    railColor,
+    primaryColor,
+    baseColor,
+    cardColor,
+    modalColor,
+    popoverColor,
+    borderRadius,
+    fontSize: fontSize2,
+    opacityDisabled
+  } = vars;
+  return Object.assign(Object.assign({}, sizeVariables), {
+    fontSize: fontSize2,
+    markFontSize: fontSize2,
+    railColor,
+    railColorHover: railColor,
+    fillColor: primaryColor,
+    fillColorHover: primaryColor,
+    opacityDisabled,
+    handleColor: "#FFF",
+    dotColor: cardColor,
+    dotColorModal: modalColor,
+    dotColorPopover: popoverColor,
+    handleBoxShadow: "0 1px 4px 0 rgba(0, 0, 0, 0.3), inset 0 0 1px 0 rgba(0, 0, 0, 0.05)",
+    handleBoxShadowHover: "0 1px 4px 0 rgba(0, 0, 0, 0.3), inset 0 0 1px 0 rgba(0, 0, 0, 0.05)",
+    handleBoxShadowActive: "0 1px 4px 0 rgba(0, 0, 0, 0.3), inset 0 0 1px 0 rgba(0, 0, 0, 0.05)",
+    handleBoxShadowFocus: "0 1px 4px 0 rgba(0, 0, 0, 0.3), inset 0 0 1px 0 rgba(0, 0, 0, 0.05)",
+    indicatorColor,
+    indicatorBoxShadow: boxShadow,
+    indicatorTextColor: baseColor,
+    indicatorBorderRadius: borderRadius,
+    dotBorder: `2px solid ${railColor}`,
+    dotBorderActive: `2px solid ${primaryColor}`,
+    dotBoxShadow: ""
+  });
+}
+const sliderLight = {
+  name: "Slider",
+  common: derived,
   self: self$1
 };
 const messageProps = {
@@ -18209,7 +19456,7 @@ const messageProps = {
 };
 const messageApiInjectionKey = createInjectionKey("n-message-api");
 const messageProviderInjectionKey = createInjectionKey("n-message-provider");
-const style = c([cB("message-wrapper", `
+const style$1 = c$1([cB("message-wrapper", `
  margin: var(--n-margin);
  z-index: 0;
  transform-origin: top center;
@@ -18253,10 +19500,10 @@ const style = c([cB("message-wrapper", `
  width: var(--n-icon-size);
  font-size: var(--n-icon-size);
  flex-shrink: 0;
- `, [["default", "info", "success", "warning", "error", "loading"].map((type) => cM(`${type}-type`, [c("> *", `
+ `, [["default", "info", "success", "warning", "error", "loading"].map((type) => cM(`${type}-type`, [c$1("> *", `
  color: var(--n-icon-color-${type});
  transition: color .3s var(--n-bezier);
- `)])), c("> *", `
+ `)])), c$1("> *", `
  position: absolute;
  left: 0;
  top: 0;
@@ -18268,9 +19515,9 @@ const style = c([cB("message-wrapper", `
  background-color .3s var(--n-bezier),
  color .3s var(--n-bezier);
  flex-shrink: 0;
- `, [c("&:hover", `
+ `, [c$1("&:hover", `
  color: var(--n-close-icon-color-hover);
- `), c("&:active", `
+ `), c$1("&:active", `
  color: var(--n-close-icon-color-pressed);
  `)])]), cB("message-container", `
  z-index: 6000;
@@ -18334,7 +19581,7 @@ const NMessage = /* @__PURE__ */ defineComponent({
       mergedClsPrefixRef
     } = inject(messageProviderInjectionKey);
     const rtlEnabledRef = useRtl("Message", mergedRtlRef, mergedClsPrefixRef);
-    const themeRef = useTheme("Message", "-message", style, messageLight, messageProviderProps2, mergedClsPrefixRef);
+    const themeRef = useTheme("Message", "-message", style$1, messageLight, messageProviderProps2, mergedClsPrefixRef);
     const cssVarsRef = computed(() => {
       const {
         type
@@ -18446,7 +19693,7 @@ const NMessage = /* @__PURE__ */ defineComponent({
       default: () => iconNode
     })) : null, h("div", {
       class: `${mergedClsPrefix}-message__content`
-    }, render$1(content)), closable ? h(NBaseClose, {
+    }, render$9(content)), closable ? h(NBaseClose, {
       clsPrefix: mergedClsPrefix,
       class: `${mergedClsPrefix}-message__close`,
       onClick: handleClose,
@@ -18593,7 +19840,7 @@ const messageProviderProps = Object.assign(Object.assign({}, useTheme.props), {
   containerClass: String,
   containerStyle: [String, Object]
 });
-const __unplugin_components_0 = /* @__PURE__ */ defineComponent({
+const __unplugin_components_0$1 = /* @__PURE__ */ defineComponent({
   name: "MessageProvider",
   props: messageProviderProps,
   setup(props) {
@@ -18707,6 +19954,863 @@ function useMessage() {
   }
   return api;
 }
+function isTouchEvent(e) {
+  return window.TouchEvent && e instanceof window.TouchEvent;
+}
+function useRefs() {
+  const refs = /* @__PURE__ */ new Map();
+  const setRefs = (index) => (el) => {
+    refs.set(index, el);
+  };
+  onBeforeUpdate(() => {
+    refs.clear();
+  });
+  return [refs, setRefs];
+}
+const style = c$1([cB("slider", `
+ display: block;
+ padding: calc((var(--n-handle-size) - var(--n-rail-height)) / 2) 0;
+ position: relative;
+ z-index: 0;
+ width: 100%;
+ cursor: pointer;
+ user-select: none;
+ -webkit-user-select: none;
+ `, [cM("reverse", [cB("slider-handles", [cB("slider-handle-wrapper", `
+ transform: translate(50%, -50%);
+ `)]), cB("slider-dots", [cB("slider-dot", `
+ transform: translateX(50%, -50%);
+ `)]), cM("vertical", [cB("slider-handles", [cB("slider-handle-wrapper", `
+ transform: translate(-50%, -50%);
+ `)]), cB("slider-marks", [cB("slider-mark", `
+ transform: translateY(calc(-50% + var(--n-dot-height) / 2));
+ `)]), cB("slider-dots", [cB("slider-dot", `
+ transform: translateX(-50%) translateY(0);
+ `)])])]), cM("vertical", `
+ padding: 0 calc((var(--n-handle-size) - var(--n-rail-height)) / 2);
+ width: var(--n-rail-width-vertical);
+ height: 100%;
+ `, [cB("slider-handles", `
+ top: calc(var(--n-handle-size) / 2);
+ right: 0;
+ bottom: calc(var(--n-handle-size) / 2);
+ left: 0;
+ `, [cB("slider-handle-wrapper", `
+ top: unset;
+ left: 50%;
+ transform: translate(-50%, 50%);
+ `)]), cB("slider-rail", `
+ height: 100%;
+ `, [cE("fill", `
+ top: unset;
+ right: 0;
+ bottom: unset;
+ left: 0;
+ `)]), cM("with-mark", `
+ width: var(--n-rail-width-vertical);
+ margin: 0 32px 0 8px;
+ `), cB("slider-marks", `
+ top: calc(var(--n-handle-size) / 2);
+ right: unset;
+ bottom: calc(var(--n-handle-size) / 2);
+ left: 22px;
+ font-size: var(--n-mark-font-size);
+ `, [cB("slider-mark", `
+ transform: translateY(50%);
+ white-space: nowrap;
+ `)]), cB("slider-dots", `
+ top: calc(var(--n-handle-size) / 2);
+ right: unset;
+ bottom: calc(var(--n-handle-size) / 2);
+ left: 50%;
+ `, [cB("slider-dot", `
+ transform: translateX(-50%) translateY(50%);
+ `)])]), cM("disabled", `
+ cursor: not-allowed;
+ opacity: var(--n-opacity-disabled);
+ `, [cB("slider-handle", `
+ cursor: not-allowed;
+ `)]), cM("with-mark", `
+ width: 100%;
+ margin: 8px 0 32px 0;
+ `), c$1("&:hover", [cB("slider-rail", {
+  backgroundColor: "var(--n-rail-color-hover)"
+}, [cE("fill", {
+  backgroundColor: "var(--n-fill-color-hover)"
+})]), cB("slider-handle", {
+  boxShadow: "var(--n-handle-box-shadow-hover)"
+})]), cM("active", [cB("slider-rail", {
+  backgroundColor: "var(--n-rail-color-hover)"
+}, [cE("fill", {
+  backgroundColor: "var(--n-fill-color-hover)"
+})]), cB("slider-handle", {
+  boxShadow: "var(--n-handle-box-shadow-hover)"
+})]), cB("slider-marks", `
+ position: absolute;
+ top: 18px;
+ left: calc(var(--n-handle-size) / 2);
+ right: calc(var(--n-handle-size) / 2);
+ `, [cB("slider-mark", `
+ position: absolute;
+ transform: translateX(-50%);
+ white-space: nowrap;
+ `)]), cB("slider-rail", `
+ width: 100%;
+ position: relative;
+ height: var(--n-rail-height);
+ background-color: var(--n-rail-color);
+ transition: background-color .3s var(--n-bezier);
+ border-radius: calc(var(--n-rail-height) / 2);
+ `, [cE("fill", `
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ border-radius: calc(var(--n-rail-height) / 2);
+ transition: background-color .3s var(--n-bezier);
+ background-color: var(--n-fill-color);
+ `)]), cB("slider-handles", `
+ position: absolute;
+ top: 0;
+ right: calc(var(--n-handle-size) / 2);
+ bottom: 0;
+ left: calc(var(--n-handle-size) / 2);
+ `, [cB("slider-handle-wrapper", `
+ outline: none;
+ position: absolute;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ cursor: pointer;
+ display: flex;
+ `, [cB("slider-handle", `
+ height: var(--n-handle-size);
+ width: var(--n-handle-size);
+ border-radius: 50%;
+ overflow: hidden;
+ transition: box-shadow .2s var(--n-bezier), background-color .3s var(--n-bezier);
+ background-color: var(--n-handle-color);
+ box-shadow: var(--n-handle-box-shadow);
+ `, [c$1("&:hover", `
+ box-shadow: var(--n-handle-box-shadow-hover);
+ `)]), c$1("&:focus", [cB("slider-handle", `
+ box-shadow: var(--n-handle-box-shadow-focus);
+ `, [c$1("&:hover", `
+ box-shadow: var(--n-handle-box-shadow-active);
+ `)])])])]), cB("slider-dots", `
+ position: absolute;
+ top: 50%;
+ left: calc(var(--n-handle-size) / 2);
+ right: calc(var(--n-handle-size) / 2);
+ `, [cM("transition-disabled", [cB("slider-dot", "transition: none;")]), cB("slider-dot", `
+ transition:
+ border-color .3s var(--n-bezier),
+ box-shadow .3s var(--n-bezier),
+ background-color .3s var(--n-bezier);
+ position: absolute;
+ transform: translate(-50%, -50%);
+ height: var(--n-dot-height);
+ width: var(--n-dot-width);
+ border-radius: var(--n-dot-border-radius);
+ overflow: hidden;
+ box-sizing: border-box;
+ border: var(--n-dot-border);
+ background-color: var(--n-dot-color);
+ `, [cM("active", "border: var(--n-dot-border-active);")])])]), cB("slider-handle-indicator", `
+ font-size: var(--n-font-size);
+ padding: 6px 10px;
+ border-radius: var(--n-indicator-border-radius);
+ color: var(--n-indicator-text-color);
+ background-color: var(--n-indicator-color);
+ box-shadow: var(--n-indicator-box-shadow);
+ `, [fadeInScaleUpTransition()]), cB("slider-handle-indicator", `
+ font-size: var(--n-font-size);
+ padding: 6px 10px;
+ border-radius: var(--n-indicator-border-radius);
+ color: var(--n-indicator-text-color);
+ background-color: var(--n-indicator-color);
+ box-shadow: var(--n-indicator-box-shadow);
+ `, [cM("top", `
+ margin-bottom: 12px;
+ `), cM("right", `
+ margin-left: 12px;
+ `), cM("bottom", `
+ margin-top: 12px;
+ `), cM("left", `
+ margin-right: 12px;
+ `), fadeInScaleUpTransition()]), insideModal(cB("slider", [cB("slider-dot", "background-color: var(--n-dot-color-modal);")])), insidePopover(cB("slider", [cB("slider-dot", "background-color: var(--n-dot-color-popover);")]))]);
+const eventButtonLeft = 0;
+const sliderProps = Object.assign(Object.assign({}, useTheme.props), {
+  to: useAdjustedTo.propTo,
+  defaultValue: {
+    type: [Number, Array],
+    default: 0
+  },
+  marks: Object,
+  disabled: {
+    type: Boolean,
+    default: void 0
+  },
+  formatTooltip: Function,
+  keyboard: {
+    type: Boolean,
+    default: true
+  },
+  min: {
+    type: Number,
+    default: 0
+  },
+  max: {
+    type: Number,
+    default: 100
+  },
+  step: {
+    type: [Number, String],
+    default: 1
+  },
+  range: Boolean,
+  value: [Number, Array],
+  placement: String,
+  showTooltip: {
+    type: Boolean,
+    default: void 0
+  },
+  tooltip: {
+    type: Boolean,
+    default: true
+  },
+  vertical: Boolean,
+  reverse: Boolean,
+  "onUpdate:value": [Function, Array],
+  onUpdateValue: [Function, Array],
+  onDragstart: [Function],
+  onDragend: [Function]
+});
+const __unplugin_components_2$1 = /* @__PURE__ */ defineComponent({
+  name: "Slider",
+  props: sliderProps,
+  setup(props) {
+    const {
+      mergedClsPrefixRef,
+      namespaceRef,
+      inlineThemeDisabled
+    } = useConfig(props);
+    const themeRef = useTheme("Slider", "-slider", style, sliderLight, props, mergedClsPrefixRef);
+    const handleRailRef = ref(null);
+    const [handleRefs, setHandleRefs] = useRefs();
+    const [followerRefs, setFollowerRefs] = useRefs();
+    const followerEnabledIndexSetRef = ref(/* @__PURE__ */ new Set());
+    const formItem = useFormItem(props);
+    const {
+      mergedDisabledRef
+    } = formItem;
+    const precisionRef = computed(() => {
+      const {
+        step
+      } = props;
+      if (Number(step) <= 0 || step === "mark") return 0;
+      const stepString = step.toString();
+      let precision = 0;
+      if (stepString.includes(".")) {
+        precision = stepString.length - stepString.indexOf(".") - 1;
+      }
+      return precision;
+    });
+    const uncontrolledValueRef = ref(props.defaultValue);
+    const controlledValueRef = toRef(props, "value");
+    const mergedValueRef = useMergedState(controlledValueRef, uncontrolledValueRef);
+    const arrifiedValueRef = computed(() => {
+      const {
+        value: mergedValue
+      } = mergedValueRef;
+      return (props.range ? mergedValue : [mergedValue]).map(clampValue);
+    });
+    const handleCountExceeds2Ref = computed(() => arrifiedValueRef.value.length > 2);
+    const mergedPlacementRef = computed(() => {
+      return props.placement === void 0 ? props.vertical ? "right" : "top" : props.placement;
+    });
+    const markValuesRef = computed(() => {
+      const {
+        marks
+      } = props;
+      return marks ? Object.keys(marks).map(Number.parseFloat) : null;
+    });
+    const activeIndexRef = ref(-1);
+    const previousIndexRef = ref(-1);
+    const hoverIndexRef = ref(-1);
+    const draggingRef = ref(false);
+    const dotTransitionDisabledRef = ref(false);
+    const styleDirectionRef = computed(() => {
+      const {
+        vertical,
+        reverse
+      } = props;
+      const left = reverse ? "right" : "left";
+      const bottom = reverse ? "top" : "bottom";
+      return vertical ? bottom : left;
+    });
+    const fillStyleRef = computed(() => {
+      if (handleCountExceeds2Ref.value) return;
+      const values = arrifiedValueRef.value;
+      const start = valueToPercentage(props.range ? Math.min(...values) : props.min);
+      const end = valueToPercentage(props.range ? Math.max(...values) : values[0]);
+      const {
+        value: styleDirection
+      } = styleDirectionRef;
+      return props.vertical ? {
+        [styleDirection]: `${start}%`,
+        height: `${end - start}%`
+      } : {
+        [styleDirection]: `${start}%`,
+        width: `${end - start}%`
+      };
+    });
+    const markInfosRef = computed(() => {
+      const mergedMarks = [];
+      const {
+        marks
+      } = props;
+      if (marks) {
+        const orderValues = arrifiedValueRef.value.slice();
+        orderValues.sort((a, b) => a - b);
+        const {
+          value: styleDirection
+        } = styleDirectionRef;
+        const {
+          value: handleCountExceeds2
+        } = handleCountExceeds2Ref;
+        const {
+          range
+        } = props;
+        const isActive = handleCountExceeds2 ? () => false : (num) => range ? num >= orderValues[0] && num <= orderValues[orderValues.length - 1] : num <= orderValues[0];
+        for (const key of Object.keys(marks)) {
+          const num = Number(key);
+          mergedMarks.push({
+            active: isActive(num),
+            label: marks[key],
+            style: {
+              [styleDirection]: `${valueToPercentage(num)}%`
+            }
+          });
+        }
+      }
+      return mergedMarks;
+    });
+    function getHandleStyle(value, index) {
+      const percentage = valueToPercentage(value);
+      const {
+        value: styleDirection
+      } = styleDirectionRef;
+      return {
+        [styleDirection]: `${percentage}%`,
+        zIndex: index === activeIndexRef.value ? 1 : 0
+      };
+    }
+    function isShowTooltip(index) {
+      return props.showTooltip || hoverIndexRef.value === index || activeIndexRef.value === index && draggingRef.value;
+    }
+    function shouldKeepTooltipTransition(index) {
+      if (!draggingRef.value) return true;
+      return !(activeIndexRef.value === index && previousIndexRef.value === index);
+    }
+    function focusActiveHandle(index) {
+      var _a;
+      if (~index) {
+        activeIndexRef.value = index;
+        (_a = handleRefs.get(index)) === null || _a === void 0 ? void 0 : _a.focus();
+      }
+    }
+    function syncPosition() {
+      followerRefs.forEach((inst, index) => {
+        if (isShowTooltip(index)) inst.syncPosition();
+      });
+    }
+    function doUpdateValue(value) {
+      const {
+        "onUpdate:value": _onUpdateValue,
+        onUpdateValue
+      } = props;
+      const {
+        nTriggerFormInput,
+        nTriggerFormChange
+      } = formItem;
+      if (onUpdateValue) call(onUpdateValue, value);
+      if (_onUpdateValue) call(_onUpdateValue, value);
+      uncontrolledValueRef.value = value;
+      nTriggerFormInput();
+      nTriggerFormChange();
+    }
+    function dispatchValueUpdate(value) {
+      const {
+        range
+      } = props;
+      if (range) {
+        if (Array.isArray(value)) {
+          const {
+            value: oldValues
+          } = arrifiedValueRef;
+          if (value.join() !== oldValues.join()) {
+            doUpdateValue(value);
+          }
+        }
+      } else if (!Array.isArray(value)) {
+        const oldValue = arrifiedValueRef.value[0];
+        if (oldValue !== value) {
+          doUpdateValue(value);
+        }
+      }
+    }
+    function doDispatchValue(value, index) {
+      if (props.range) {
+        const values = arrifiedValueRef.value.slice();
+        values.splice(index, 1, value);
+        dispatchValueUpdate(values);
+      } else {
+        dispatchValueUpdate(value);
+      }
+    }
+    function sanitizeValue(value, currentValue, stepBuffer) {
+      const stepping = stepBuffer !== void 0;
+      if (!stepBuffer) {
+        stepBuffer = value - currentValue > 0 ? 1 : -1;
+      }
+      const markValues = markValuesRef.value || [];
+      const {
+        step
+      } = props;
+      if (step === "mark") {
+        const closestMark2 = getClosestMark(value, markValues.concat(currentValue), stepping ? stepBuffer : void 0);
+        return closestMark2 ? closestMark2.value : currentValue;
+      }
+      if (step <= 0) return currentValue;
+      const {
+        value: precision
+      } = precisionRef;
+      let closestMark;
+      if (stepping) {
+        const currentStep = Number((currentValue / step).toFixed(precision));
+        const actualStep = Math.floor(currentStep);
+        const leftStep = currentStep > actualStep ? actualStep : actualStep - 1;
+        const rightStep = currentStep < actualStep ? actualStep : actualStep + 1;
+        closestMark = getClosestMark(currentValue, [Number((leftStep * step).toFixed(precision)), Number((rightStep * step).toFixed(precision)), ...markValues], stepBuffer);
+      } else {
+        const roundValue = getRoundValue(value);
+        closestMark = getClosestMark(value, [...markValues, roundValue]);
+      }
+      return closestMark ? clampValue(closestMark.value) : currentValue;
+    }
+    function clampValue(value) {
+      return Math.min(props.max, Math.max(props.min, value));
+    }
+    function valueToPercentage(value) {
+      const {
+        max,
+        min
+      } = props;
+      return (value - min) / (max - min) * 100;
+    }
+    function percentageToValue(percentage) {
+      const {
+        max,
+        min
+      } = props;
+      return min + (max - min) * percentage;
+    }
+    function getRoundValue(value) {
+      const {
+        step,
+        min
+      } = props;
+      if (Number(step) <= 0 || step === "mark") return value;
+      const newValue = Math.round((value - min) / step) * step + min;
+      return Number(newValue.toFixed(precisionRef.value));
+    }
+    function getClosestMark(currentValue, markValues = markValuesRef.value, buffer) {
+      if (!(markValues === null || markValues === void 0 ? void 0 : markValues.length)) return null;
+      let closestMark = null;
+      let index = -1;
+      while (++index < markValues.length) {
+        const diff = markValues[index] - currentValue;
+        const distance = Math.abs(diff);
+        if (
+          // find marks in the same direction
+          (buffer === void 0 || diff * buffer > 0) && (closestMark === null || distance < closestMark.distance)
+        ) {
+          closestMark = {
+            index,
+            distance,
+            value: markValues[index]
+          };
+        }
+      }
+      return closestMark;
+    }
+    function getPointValue(event) {
+      const railEl = handleRailRef.value;
+      if (!railEl) return;
+      const touchEvent = isTouchEvent(event) ? event.touches[0] : event;
+      const railRect = railEl.getBoundingClientRect();
+      let percentage;
+      if (props.vertical) {
+        percentage = (railRect.bottom - touchEvent.clientY) / railRect.height;
+      } else {
+        percentage = (touchEvent.clientX - railRect.left) / railRect.width;
+      }
+      if (props.reverse) {
+        percentage = 1 - percentage;
+      }
+      return percentageToValue(percentage);
+    }
+    function handleRailKeyDown(e) {
+      if (mergedDisabledRef.value || !props.keyboard) return;
+      const {
+        vertical,
+        reverse
+      } = props;
+      switch (e.key) {
+        case "ArrowUp":
+          e.preventDefault();
+          handleStepValue(vertical && reverse ? -1 : 1);
+          break;
+        case "ArrowRight":
+          e.preventDefault();
+          handleStepValue(!vertical && reverse ? -1 : 1);
+          break;
+        case "ArrowDown":
+          e.preventDefault();
+          handleStepValue(vertical && reverse ? 1 : -1);
+          break;
+        case "ArrowLeft":
+          e.preventDefault();
+          handleStepValue(!vertical && reverse ? 1 : -1);
+          break;
+      }
+    }
+    function handleStepValue(ratio) {
+      const activeIndex = activeIndexRef.value;
+      if (activeIndex === -1) return;
+      const {
+        step
+      } = props;
+      const currentValue = arrifiedValueRef.value[activeIndex];
+      const nextValue = Number(step) <= 0 || step === "mark" ? currentValue : currentValue + step * ratio;
+      doDispatchValue(
+        // Avoid the number of value does not change when `step` is null
+        sanitizeValue(nextValue, currentValue, ratio > 0 ? 1 : -1),
+        activeIndex
+      );
+    }
+    function handleRailMouseDown(event) {
+      var _a, _b;
+      if (mergedDisabledRef.value) return;
+      if (!isTouchEvent(event) && event.button !== eventButtonLeft) {
+        return;
+      }
+      const pointValue = getPointValue(event);
+      if (pointValue === void 0) return;
+      const values = arrifiedValueRef.value.slice();
+      const activeIndex = props.range ? (_b = (_a = getClosestMark(pointValue, values)) === null || _a === void 0 ? void 0 : _a.index) !== null && _b !== void 0 ? _b : -1 : 0;
+      if (activeIndex !== -1) {
+        event.preventDefault();
+        focusActiveHandle(activeIndex);
+        startDragging();
+        doDispatchValue(sanitizeValue(pointValue, arrifiedValueRef.value[activeIndex]), activeIndex);
+      }
+    }
+    function startDragging() {
+      if (!draggingRef.value) {
+        draggingRef.value = true;
+        if (props.onDragstart) call(props.onDragstart);
+        on("touchend", document, handleMouseUp);
+        on("mouseup", document, handleMouseUp);
+        on("touchmove", document, handleMouseMove);
+        on("mousemove", document, handleMouseMove);
+      }
+    }
+    function stopDragging() {
+      if (draggingRef.value) {
+        draggingRef.value = false;
+        if (props.onDragend) call(props.onDragend);
+        off("touchend", document, handleMouseUp);
+        off("mouseup", document, handleMouseUp);
+        off("touchmove", document, handleMouseMove);
+        off("mousemove", document, handleMouseMove);
+      }
+    }
+    function handleMouseMove(event) {
+      const {
+        value: activeIndex
+      } = activeIndexRef;
+      if (!draggingRef.value || activeIndex === -1) {
+        stopDragging();
+        return;
+      }
+      const pointValue = getPointValue(event);
+      if (pointValue === void 0) return;
+      doDispatchValue(sanitizeValue(pointValue, arrifiedValueRef.value[activeIndex]), activeIndex);
+    }
+    function handleMouseUp() {
+      stopDragging();
+    }
+    function handleHandleFocus(index) {
+      activeIndexRef.value = index;
+      if (!mergedDisabledRef.value) {
+        hoverIndexRef.value = index;
+      }
+    }
+    function handleHandleBlur(index) {
+      if (activeIndexRef.value === index) {
+        activeIndexRef.value = -1;
+        stopDragging();
+      }
+      if (hoverIndexRef.value === index) {
+        hoverIndexRef.value = -1;
+      }
+    }
+    function handleHandleMouseEnter(index) {
+      hoverIndexRef.value = index;
+    }
+    function handleHandleMouseLeave(index) {
+      if (hoverIndexRef.value === index) {
+        hoverIndexRef.value = -1;
+      }
+    }
+    watch(activeIndexRef, (_, previous) => void nextTick(() => previousIndexRef.value = previous));
+    watch(mergedValueRef, () => {
+      if (props.marks) {
+        if (dotTransitionDisabledRef.value) return;
+        dotTransitionDisabledRef.value = true;
+        void nextTick(() => {
+          dotTransitionDisabledRef.value = false;
+        });
+      }
+      void nextTick(syncPosition);
+    });
+    onBeforeUnmount(() => {
+      stopDragging();
+    });
+    const cssVarsRef = computed(() => {
+      const {
+        self: {
+          markFontSize,
+          railColor,
+          railColorHover,
+          fillColor,
+          fillColorHover,
+          handleColor,
+          opacityDisabled,
+          dotColor,
+          dotColorModal,
+          handleBoxShadow,
+          handleBoxShadowHover,
+          handleBoxShadowActive,
+          handleBoxShadowFocus,
+          dotBorder,
+          dotBoxShadow,
+          railHeight,
+          railWidthVertical,
+          handleSize,
+          dotHeight,
+          dotWidth,
+          dotBorderRadius,
+          fontSize: fontSize2,
+          dotBorderActive,
+          dotColorPopover
+        },
+        common: {
+          cubicBezierEaseInOut: cubicBezierEaseInOut2
+        }
+      } = themeRef.value;
+      return {
+        "--n-bezier": cubicBezierEaseInOut2,
+        "--n-dot-border": dotBorder,
+        "--n-dot-border-active": dotBorderActive,
+        "--n-dot-border-radius": dotBorderRadius,
+        "--n-dot-box-shadow": dotBoxShadow,
+        "--n-dot-color": dotColor,
+        "--n-dot-color-modal": dotColorModal,
+        "--n-dot-color-popover": dotColorPopover,
+        "--n-dot-height": dotHeight,
+        "--n-dot-width": dotWidth,
+        "--n-fill-color": fillColor,
+        "--n-fill-color-hover": fillColorHover,
+        "--n-font-size": fontSize2,
+        "--n-handle-box-shadow": handleBoxShadow,
+        "--n-handle-box-shadow-active": handleBoxShadowActive,
+        "--n-handle-box-shadow-focus": handleBoxShadowFocus,
+        "--n-handle-box-shadow-hover": handleBoxShadowHover,
+        "--n-handle-color": handleColor,
+        "--n-handle-size": handleSize,
+        "--n-opacity-disabled": opacityDisabled,
+        "--n-rail-color": railColor,
+        "--n-rail-color-hover": railColorHover,
+        "--n-rail-height": railHeight,
+        "--n-rail-width-vertical": railWidthVertical,
+        "--n-mark-font-size": markFontSize
+      };
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("slider", void 0, cssVarsRef, props) : void 0;
+    const indicatorCssVarsRef = computed(() => {
+      const {
+        self: {
+          fontSize: fontSize2,
+          indicatorColor,
+          indicatorBoxShadow,
+          indicatorTextColor,
+          indicatorBorderRadius
+        }
+      } = themeRef.value;
+      return {
+        "--n-font-size": fontSize2,
+        "--n-indicator-border-radius": indicatorBorderRadius,
+        "--n-indicator-box-shadow": indicatorBoxShadow,
+        "--n-indicator-color": indicatorColor,
+        "--n-indicator-text-color": indicatorTextColor
+      };
+    });
+    const indicatorThemeClassHandle = inlineThemeDisabled ? useThemeClass("slider-indicator", void 0, indicatorCssVarsRef, props) : void 0;
+    return {
+      mergedClsPrefix: mergedClsPrefixRef,
+      namespace: namespaceRef,
+      uncontrolledValue: uncontrolledValueRef,
+      mergedValue: mergedValueRef,
+      mergedDisabled: mergedDisabledRef,
+      mergedPlacement: mergedPlacementRef,
+      isMounted: isMounted(),
+      adjustedTo: useAdjustedTo(props),
+      dotTransitionDisabled: dotTransitionDisabledRef,
+      markInfos: markInfosRef,
+      isShowTooltip,
+      shouldKeepTooltipTransition,
+      handleRailRef,
+      setHandleRefs,
+      setFollowerRefs,
+      fillStyle: fillStyleRef,
+      getHandleStyle,
+      activeIndex: activeIndexRef,
+      arrifiedValues: arrifiedValueRef,
+      followerEnabledIndexSet: followerEnabledIndexSetRef,
+      handleRailMouseDown,
+      handleHandleFocus,
+      handleHandleBlur,
+      handleHandleMouseEnter,
+      handleHandleMouseLeave,
+      handleRailKeyDown,
+      indicatorCssVars: inlineThemeDisabled ? void 0 : indicatorCssVarsRef,
+      indicatorThemeClass: indicatorThemeClassHandle === null || indicatorThemeClassHandle === void 0 ? void 0 : indicatorThemeClassHandle.themeClass,
+      indicatorOnRender: indicatorThemeClassHandle === null || indicatorThemeClassHandle === void 0 ? void 0 : indicatorThemeClassHandle.onRender,
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
+    };
+  },
+  render() {
+    var _a;
+    const {
+      mergedClsPrefix,
+      themeClass,
+      formatTooltip
+    } = this;
+    (_a = this.onRender) === null || _a === void 0 ? void 0 : _a.call(this);
+    return h("div", {
+      class: [`${mergedClsPrefix}-slider`, themeClass, {
+        [`${mergedClsPrefix}-slider--disabled`]: this.mergedDisabled,
+        [`${mergedClsPrefix}-slider--active`]: this.activeIndex !== -1,
+        [`${mergedClsPrefix}-slider--with-mark`]: this.marks,
+        [`${mergedClsPrefix}-slider--vertical`]: this.vertical,
+        [`${mergedClsPrefix}-slider--reverse`]: this.reverse
+      }],
+      style: this.cssVars,
+      onKeydown: this.handleRailKeyDown,
+      onMousedown: this.handleRailMouseDown,
+      onTouchstart: this.handleRailMouseDown
+    }, h("div", {
+      class: `${mergedClsPrefix}-slider-rail`
+    }, h("div", {
+      class: `${mergedClsPrefix}-slider-rail__fill`,
+      style: this.fillStyle
+    }), this.marks ? h("div", {
+      class: [`${mergedClsPrefix}-slider-dots`, this.dotTransitionDisabled && `${mergedClsPrefix}-slider-dots--transition-disabled`]
+    }, this.markInfos.map((mark) => h("div", {
+      key: mark.label,
+      class: [`${mergedClsPrefix}-slider-dot`, {
+        [`${mergedClsPrefix}-slider-dot--active`]: mark.active
+      }],
+      style: mark.style
+    }))) : null, h("div", {
+      ref: "handleRailRef",
+      class: `${mergedClsPrefix}-slider-handles`
+    }, this.arrifiedValues.map((value, index) => {
+      const showTooltip = this.isShowTooltip(index);
+      return h(Binder, null, {
+        default: () => [h(VTarget, null, {
+          default: () => h("div", {
+            ref: this.setHandleRefs(index),
+            class: `${mergedClsPrefix}-slider-handle-wrapper`,
+            tabindex: this.mergedDisabled ? -1 : 0,
+            role: "slider",
+            "aria-valuenow": value,
+            "aria-valuemin": this.min,
+            "aria-valuemax": this.max,
+            "aria-orientation": this.vertical ? "vertical" : "horizontal",
+            "aria-disabled": this.disabled,
+            style: this.getHandleStyle(value, index),
+            onFocus: () => {
+              this.handleHandleFocus(index);
+            },
+            onBlur: () => {
+              this.handleHandleBlur(index);
+            },
+            onMouseenter: () => {
+              this.handleHandleMouseEnter(index);
+            },
+            onMouseleave: () => {
+              this.handleHandleMouseLeave(index);
+            }
+          }, resolveSlot(this.$slots.thumb, () => [h("div", {
+            class: `${mergedClsPrefix}-slider-handle`
+          })]))
+        }), this.tooltip && h(VFollower, {
+          ref: this.setFollowerRefs(index),
+          show: showTooltip,
+          to: this.adjustedTo,
+          enabled: this.showTooltip && !this.range || this.followerEnabledIndexSet.has(index),
+          teleportDisabled: this.adjustedTo === useAdjustedTo.tdkey,
+          placement: this.mergedPlacement,
+          containerClass: this.namespace
+        }, {
+          default: () => h(Transition, {
+            name: "fade-in-scale-up-transition",
+            appear: this.isMounted,
+            css: this.shouldKeepTooltipTransition(index),
+            onEnter: () => {
+              this.followerEnabledIndexSet.add(index);
+            },
+            onAfterLeave: () => {
+              this.followerEnabledIndexSet.delete(index);
+            }
+          }, {
+            default: () => {
+              var _a2;
+              if (showTooltip) {
+                (_a2 = this.indicatorOnRender) === null || _a2 === void 0 ? void 0 : _a2.call(this);
+                return h("div", {
+                  class: [`${mergedClsPrefix}-slider-handle-indicator`, this.indicatorThemeClass, `${mergedClsPrefix}-slider-handle-indicator--${this.mergedPlacement}`],
+                  style: this.indicatorCssVars
+                }, typeof formatTooltip === "function" ? formatTooltip(value) : value);
+              }
+              return null;
+            }
+          })
+        })]
+      });
+    })), this.marks ? h("div", {
+      class: `${mergedClsPrefix}-slider-marks`
+    }, this.markInfos.map((mark) => h("div", {
+      key: mark.label,
+      class: `${mergedClsPrefix}-slider-mark`,
+      style: mark.style
+    }, mark.label))) : null));
+  }
+});
 if (!t) var t = { map: function(t2, r2) {
   var n2 = {};
   return r2 ? t2.map(function(t3, o2) {
@@ -27625,23 +29729,23 @@ function requireBlowfish() {
           pbox: [],
           sbox: []
         };
-        function F(ctx, x) {
+        function F(ctx2, x) {
           let a = x >> 24 & 255;
           let b = x >> 16 & 255;
           let c2 = x >> 8 & 255;
           let d = x & 255;
-          let y = ctx.sbox[0][a] + ctx.sbox[1][b];
-          y = y ^ ctx.sbox[2][c2];
-          y = y + ctx.sbox[3][d];
+          let y = ctx2.sbox[0][a] + ctx2.sbox[1][b];
+          y = y ^ ctx2.sbox[2][c2];
+          y = y + ctx2.sbox[3][d];
           return y;
         }
-        function BlowFish_Encrypt(ctx, left, right) {
+        function BlowFish_Encrypt(ctx2, left, right) {
           let Xl = left;
           let Xr = right;
           let temp;
           for (let i2 = 0; i2 < N; ++i2) {
-            Xl = Xl ^ ctx.pbox[i2];
-            Xr = F(ctx, Xl) ^ Xr;
+            Xl = Xl ^ ctx2.pbox[i2];
+            Xr = F(ctx2, Xl) ^ Xr;
             temp = Xl;
             Xl = Xr;
             Xr = temp;
@@ -27649,17 +29753,17 @@ function requireBlowfish() {
           temp = Xl;
           Xl = Xr;
           Xr = temp;
-          Xr = Xr ^ ctx.pbox[N];
-          Xl = Xl ^ ctx.pbox[N + 1];
+          Xr = Xr ^ ctx2.pbox[N];
+          Xl = Xl ^ ctx2.pbox[N + 1];
           return { left: Xl, right: Xr };
         }
-        function BlowFish_Decrypt(ctx, left, right) {
+        function BlowFish_Decrypt(ctx2, left, right) {
           let Xl = left;
           let Xr = right;
           let temp;
           for (let i2 = N + 1; i2 > 1; --i2) {
-            Xl = Xl ^ ctx.pbox[i2];
-            Xr = F(ctx, Xl) ^ Xr;
+            Xl = Xl ^ ctx2.pbox[i2];
+            Xr = F(ctx2, Xl) ^ Xr;
             temp = Xl;
             Xl = Xr;
             Xr = temp;
@@ -27667,20 +29771,20 @@ function requireBlowfish() {
           temp = Xl;
           Xl = Xr;
           Xr = temp;
-          Xr = Xr ^ ctx.pbox[1];
-          Xl = Xl ^ ctx.pbox[0];
+          Xr = Xr ^ ctx2.pbox[1];
+          Xl = Xl ^ ctx2.pbox[0];
           return { left: Xl, right: Xr };
         }
-        function BlowFishInit(ctx, key, keysize) {
+        function BlowFishInit(ctx2, key, keysize) {
           for (let Row = 0; Row < 4; Row++) {
-            ctx.sbox[Row] = [];
+            ctx2.sbox[Row] = [];
             for (let Col = 0; Col < 256; Col++) {
-              ctx.sbox[Row][Col] = ORIG_S[Row][Col];
+              ctx2.sbox[Row][Col] = ORIG_S[Row][Col];
             }
           }
           let keyIndex = 0;
           for (let index = 0; index < N + 2; index++) {
-            ctx.pbox[index] = ORIG_P[index] ^ key[keyIndex];
+            ctx2.pbox[index] = ORIG_P[index] ^ key[keyIndex];
             keyIndex++;
             if (keyIndex >= keysize) {
               keyIndex = 0;
@@ -27690,19 +29794,19 @@ function requireBlowfish() {
           let Data2 = 0;
           let res = 0;
           for (let i2 = 0; i2 < N + 2; i2 += 2) {
-            res = BlowFish_Encrypt(ctx, Data1, Data2);
+            res = BlowFish_Encrypt(ctx2, Data1, Data2);
             Data1 = res.left;
             Data2 = res.right;
-            ctx.pbox[i2] = Data1;
-            ctx.pbox[i2 + 1] = Data2;
+            ctx2.pbox[i2] = Data1;
+            ctx2.pbox[i2 + 1] = Data2;
           }
           for (let i2 = 0; i2 < 4; i2++) {
             for (let j = 0; j < 256; j += 2) {
-              res = BlowFish_Encrypt(ctx, Data1, Data2);
+              res = BlowFish_Encrypt(ctx2, Data1, Data2);
               Data1 = res.left;
               Data2 = res.right;
-              ctx.sbox[i2][j] = Data1;
-              ctx.sbox[i2][j + 1] = Data2;
+              ctx2.sbox[i2][j] = Data1;
+              ctx2.sbox[i2][j + 1] = Data2;
             }
           }
           return true;
@@ -27966,6 +30070,9 @@ function mixColor(colorA, colorB, weight = 0.5, needRaw = false, lighter = false
     return [r2, g, b];
   }
   return `rgb(${r2},${g},${b})`;
+}
+function windowBack() {
+  window.history.back();
 }
 function renderMessage(props) {
   let { type } = props;
@@ -28942,7 +31049,7 @@ const usePlayStore = defineStore("play", () => {
     musicChanged
   };
 });
-const _sfc_main$3 = {
+const _sfc_main$6 = {
   __name: "messageApi",
   setup(__props) {
     window.$message = useMessage();
@@ -28951,9 +31058,30 @@ const _sfc_main$3 = {
     };
   }
 };
-const _hoisted_1 = { id: "header" };
-const _hoisted_2 = { id: "header-search" };
-const _sfc_main$2 = {
+const _hoisted_1$c = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$b = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M18 15s-4.419-6-6-6s-6 6-6 6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$a = [
+  _hoisted_2$b
+];
+function render$7(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$c, [..._hoisted_3$a]);
+}
+const __unplugin_components_0 = { name: "hugeicons-arrow-up01", render: render$7 };
+const _hoisted_1$b = { class: "header" };
+const _hoisted_2$a = { class: "header-search" };
+const _sfc_main$5 = {
   __name: "headerTop",
   setup(__props) {
     const userStore = useUserStore();
@@ -28965,17 +31093,25 @@ const _sfc_main$2 = {
       }
     }
     return (_ctx, _cache) => {
-      const _component_n_input = __unplugin_components_2;
-      const _component_n_avatar = __unplugin_components_1$1;
-      return openBlock(), createElementBlock("div", _hoisted_1, [
-        createBaseVNode("div", {
-          id: "header-title",
-          onClick: _cache[0] || (_cache[0] = ($event) => unref(router2).push({ name: "home" }))
-        }, "小丸子音乐"),
-        createBaseVNode("span", _hoisted_2, [
+      const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0;
+      const _component_n_icon = NIcon;
+      const _component_n_input = __unplugin_components_2$2;
+      const _component_n_avatar = __unplugin_components_3$1;
+      return openBlock(), createElementBlock("div", _hoisted_1$b, [
+        createBaseVNode("span", _hoisted_2$a, [
+          createVNode(_component_n_icon, {
+            size: "2rem",
+            style: { "transform": "rotate(-90deg)" },
+            onClick: windowBack
+          }, {
+            default: withCtx(() => [
+              createVNode(_component_i_hugeicons_arrow_up_01)
+            ]),
+            _: 1
+          }, 8, ["onClick"]),
           createVNode(_component_n_input, {
             value: unref(value),
-            "onUpdate:value": _cache[1] || (_cache[1] = ($event) => isRef(value) ? value.value = $event : value = $event),
+            "onUpdate:value": _cache[0] || (_cache[0] = ($event) => isRef(value) ? value.value = $event : value = $event),
             type: "text",
             placeholder: "搜索...",
             onKeyup: search,
@@ -28986,7 +31122,7 @@ const _sfc_main$2 = {
           key: 0,
           class: "header-user",
           round: "",
-          onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
+          onClick: _cache[1] || (_cache[1] = ($event) => unref(router2).push({ name: "login" }))
         }, {
           default: withCtx(() => [
             createTextVNode("登录")
@@ -28998,36 +31134,454 @@ const _sfc_main$2 = {
           class: "header-user",
           round: "",
           src: unref(userStore).avatar,
-          onClick: _cache[3] || (_cache[3] = ($event) => unref(router2).push({ name: "account" }))
+          onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "account" }))
         }, null, 8, ["src"])) : createCommentVNode("", true)
       ]);
     };
   }
 };
+const _export_sfc = (sfc, props) => {
+  const target = sfc.__vccOpts || sfc;
+  for (const [key, val] of props) {
+    target[key] = val;
+  }
+  return target;
+};
+const _withScopeId = (n2) => (pushScopeId("data-v-c47ad7ed"), n2 = n2(), popScopeId(), n2);
+const _hoisted_1$a = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", null, " 画饼的导航栏 ", -1));
+const _sfc_main$4 = {
+  __name: "navigation",
+  setup(__props) {
+    const router2 = useRouter();
+    return (_ctx, _cache) => {
+      return openBlock(), createElementBlock(Fragment, null, [
+        createBaseVNode("div", {
+          class: "header-title",
+          onClick: _cache[0] || (_cache[0] = ($event) => unref(router2).push({ name: "home" }))
+        }, "小丸子音乐"),
+        _hoisted_1$a
+      ], 64);
+    };
+  }
+};
+const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-c47ad7ed"]]);
+const _hoisted_1$9 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$9 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$9 = [
+  _hoisted_2$9
+];
+function render$6(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._hoisted_3$9]);
+}
+const __unplugin_components_9 = { name: "hugeicons-playlist03", render: render$6 };
+const _hoisted_1$8 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$8 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M9 6s6 4.419 6 6s-6 6-6 6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$8 = [
+  _hoisted_2$8
+];
+function render$5(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._hoisted_3$8]);
+}
+const __unplugin_components_8 = { name: "hugeicons-arrow-right01", render: render$5 };
+const _hoisted_1$7 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$7 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$7 = [
+  _hoisted_2$7
+];
+function render$4(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._hoisted_3$7]);
+}
+const __unplugin_components_7 = { name: "hugeicons-pause", render: render$4 };
+const _hoisted_1$6 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$6 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$6 = [
+  _hoisted_2$6
+];
+function render$3(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._hoisted_3$6]);
+}
+const __unplugin_components_6 = { name: "hugeicons-play", render: render$3 };
+const _hoisted_1$5 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$5 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M15 6s-6 4.419-6 6s6 6 6 6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$5 = [
+  _hoisted_2$5
+];
+function render$2(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$5, [..._hoisted_3$5]);
+}
+const __unplugin_components_5 = { name: "hugeicons-arrow-left01", render: render$2 };
+const _hoisted_1$4 = {
+  viewBox: "0 0 1024 1024",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$4 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "currentColor",
+  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9"
+}, null, -1);
+const _hoisted_3$4 = [
+  _hoisted_2$4
+];
+function render$1(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$4, [..._hoisted_3$4]);
+}
+const __unplugin_components_3 = { name: "ant-design-heart-filled", render: render$1 };
+const _hoisted_1$3 = {
+  viewBox: "0 0 1024 1024",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$3 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "currentColor",
+  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3"
+}, null, -1);
+const _hoisted_3$3 = [
+  _hoisted_2$3
+];
+function render(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$3, [..._hoisted_3$3]);
+}
+const __unplugin_components_2 = { name: "ant-design-heart-outlined", render };
+const _hoisted_1$2 = { class: "marquee-outer" };
+const _hoisted_2$2 = { class: "marquee-container" };
+const _hoisted_3$2 = ["innerHTML"];
+const _hoisted_4$2 = ["innerHTML"];
+const _hoisted_5$2 = ["innerHTML"];
+const _sfc_main$3 = {
+  __name: "marqueePlus",
+  props: { html: String },
+  setup(__props) {
+    let props = __props;
+    let text1Ele = ref(null);
+    let sizerEle = ref(null);
+    let staticTextEle = ref(null);
+    let needScroll = ref(false);
+    const resizeObserver = new ResizeObserver(() => {
+      updateIfNeedScroll();
+    });
+    onMounted(() => {
+      updateIfNeedScroll();
+      if (sizerEle.value) {
+        resizeObserver.observe(sizerEle.value);
+      }
+    });
+    onUpdated(() => {
+      updateIfNeedScroll();
+    });
+    onUnmounted(() => {
+      resizeObserver.disconnect();
+    });
+    function updateIfNeedScroll() {
+      if (text1Ele.value != null && sizerEle.value != null && staticTextEle.value != null) {
+        let widthValue = Math.max(text1Ele.value.offsetWidth, staticTextEle.value.offsetWidth);
+        needScroll.value = widthValue > sizerEle.value.offsetWidth;
+        if (needScroll.value) {
+          sizerEle.value.style.setProperty("--marquee-duration", widthValue / 80 + "s");
+        }
+      } else {
+        needScroll.value = false;
+        console.log("marquee 判断 未挂载", text1Ele.value, sizerEle.value);
+      }
+    }
+    return (_ctx, _cache) => {
+      return openBlock(), createElementBlock("div", {
+        class: "marquee-sizer",
+        ref_key: "sizerEle",
+        ref: sizerEle
+      }, [
+        withDirectives(createBaseVNode("div", _hoisted_1$2, [
+          createBaseVNode("div", _hoisted_2$2, [
+            createBaseVNode("div", {
+              class: "marquee-text1 marquee-content",
+              ref_key: "text1Ele",
+              ref: text1Ele,
+              innerHTML: unref(props).html
+            }, null, 8, _hoisted_3$2),
+            createBaseVNode("div", {
+              class: "marquee-text2 marquee-content",
+              innerHTML: unref(props).html
+            }, null, 8, _hoisted_4$2)
+          ])
+        ], 512), [
+          [vShow, unref(needScroll)]
+        ]),
+        withDirectives(createBaseVNode("div", {
+          class: "marquee-static-text",
+          ref_key: "staticTextEle",
+          ref: staticTextEle,
+          innerHTML: unref(props).html
+        }, null, 8, _hoisted_5$2), [
+          [vShow, !unref(needScroll)]
+        ])
+      ], 512);
+    };
+  }
+};
+const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-64834ff0"]]);
+const _hoisted_1$1 = { class: "ctrl-outer" };
+const _hoisted_2$1 = { class: "ctrl-half-top" };
+const _hoisted_3$1 = { class: "ctrl-img-box" };
+const _hoisted_4$1 = ["src"];
+const _hoisted_5$1 = { class: "ctrl-info-box" };
+const _hoisted_6$1 = { class: "ctrl-info-title" };
+const _hoisted_7 = { class: "ctrl-info-artist" };
+const _hoisted_8 = { class: "ctrl-info-lyric" };
+const _hoisted_9 = { class: "ctrl-half-bottom" };
+const _hoisted_10 = { class: "ctrl-progress-box" };
+const _hoisted_11 = { class: "btn-control" };
+const _hoisted_12 = { class: "btn-like button" };
+const _hoisted_13 = { class: "btn-play-control" };
+const _hoisted_14 = { class: "btn-prev button" };
+const _hoisted_15 = { class: "btn-pause button" };
+const _hoisted_16 = { class: "btn-next button" };
+const _hoisted_17 = { class: "btn-list button" };
+const _sfc_main$2 = {
+  __name: "musicController",
+  setup(__props) {
+    let playStore = usePlayStore();
+    let lyricNow = computed(() => {
+      if (!Array.isArray(playStore.currentMusic.lyric) || playStore.currentMusic?.lyric.length < playStore.currentMusic.currentLyricIndex) {
+        return "";
+      }
+      return playStore.currentMusic?.lyric[playStore.currentMusic.currentLyricIndex]?.lrc;
+    });
+    return (_ctx, _cache) => {
+      const _component_n_slider = __unplugin_components_2$1;
+      const _component_i_ant_design_heart_outlined = __unplugin_components_2;
+      const _component_i_ant_design_heart_filled = __unplugin_components_3;
+      const _component_n_icon = NIcon;
+      const _component_i_hugeicons_arrow_left_01 = __unplugin_components_5;
+      const _component_i_hugeicons_play = __unplugin_components_6;
+      const _component_i_hugeicons_pause = __unplugin_components_7;
+      const _component_i_hugeicons_arrow_right_01 = __unplugin_components_8;
+      const _component_i_hugeicons_playlist_03 = __unplugin_components_9;
+      return openBlock(), createElementBlock("div", _hoisted_1$1, [
+        createBaseVNode("div", _hoisted_2$1, [
+          createBaseVNode("div", _hoisted_3$1, [
+            createBaseVNode("img", {
+              class: "ctrl-img",
+              src: unref(playStore).currentMusic.picurl
+            }, null, 8, _hoisted_4$1)
+          ]),
+          createBaseVNode("div", _hoisted_5$1, [
+            createBaseVNode("div", _hoisted_6$1, [
+              createVNode(MarqueePlus, {
+                html: unref(playStore).nameWithTns
+              }, null, 8, ["html"])
+            ]),
+            createBaseVNode("div", _hoisted_7, [
+              createVNode(MarqueePlus, {
+                html: unref(playStore).currentMusic.artist
+              }, null, 8, ["html"])
+            ]),
+            createBaseVNode("div", _hoisted_8, toDisplayString(unref(lyricNow)), 1)
+          ])
+        ]),
+        createBaseVNode("div", _hoisted_9, [
+          createBaseVNode("div", _hoisted_10, [
+            createVNode(_component_n_slider, {
+              value: unref(playStore).musicStatus.currentTime,
+              "onUpdate:value": [
+                _cache[0] || (_cache[0] = ($event) => unref(playStore).musicStatus.currentTime = $event),
+                _cache[1] || (_cache[1] = (value) => unref(playStore).seek(value))
+              ],
+              max: unref(playStore).musicStatus.duration,
+              tooltip: false,
+              "show-tooltip": false
+            }, null, 8, ["value", "max"])
+          ]),
+          createBaseVNode("div", _hoisted_11, [
+            createBaseVNode("div", _hoisted_12, [
+              createVNode(_component_n_icon, {
+                size: "1.5rem",
+                class: "icon"
+              }, {
+                default: withCtx(() => [
+                  !unref(playStore).currentMusic?.isLiked ? (openBlock(), createBlock(_component_i_ant_design_heart_outlined, {
+                    key: 0,
+                    onClick: _cache[2] || (_cache[2] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, true))
+                  })) : (openBlock(), createBlock(_component_i_ant_design_heart_filled, {
+                    key: 1,
+                    onClick: _cache[3] || (_cache[3] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, false))
+                  }))
+                ]),
+                _: 1
+              })
+            ]),
+            createBaseVNode("div", _hoisted_13, [
+              createBaseVNode("div", _hoisted_14, [
+                createVNode(_component_n_icon, {
+                  size: "2.5rem",
+                  class: "icon",
+                  onClick: unref(playStore).prev
+                }, {
+                  default: withCtx(() => [
+                    createVNode(_component_i_hugeicons_arrow_left_01)
+                  ]),
+                  _: 1
+                }, 8, ["onClick"])
+              ]),
+              createBaseVNode("div", _hoisted_15, [
+                unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
+                  key: 0,
+                  size: "2.5rem",
+                  class: "icon",
+                  onClick: _cache[4] || (_cache[4] = () => unref(playStore).play())
+                }, {
+                  default: withCtx(() => [
+                    createVNode(_component_i_hugeicons_play)
+                  ]),
+                  _: 1
+                })) : createCommentVNode("", true),
+                !unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
+                  key: 1,
+                  size: "2.5rem",
+                  class: "icon",
+                  onClick: _cache[5] || (_cache[5] = () => unref(playStore).pause())
+                }, {
+                  default: withCtx(() => [
+                    createVNode(_component_i_hugeicons_pause)
+                  ]),
+                  _: 1
+                })) : createCommentVNode("", true)
+              ]),
+              createBaseVNode("div", _hoisted_16, [
+                createVNode(_component_n_icon, {
+                  size: "2.5rem",
+                  class: "icon",
+                  onClick: unref(playStore).next
+                }, {
+                  default: withCtx(() => [
+                    createVNode(_component_i_hugeicons_arrow_right_01)
+                  ]),
+                  _: 1
+                }, 8, ["onClick"])
+              ])
+            ]),
+            createBaseVNode("div", _hoisted_17, [
+              createVNode(_component_n_icon, {
+                size: "1.5rem",
+                class: "icon",
+                onClick: _cache[6] || (_cache[6] = () => {
+                  _ctx.showPlayingList = !_ctx.showPlayingList;
+                })
+              }, {
+                default: withCtx(() => [
+                  createVNode(_component_i_hugeicons_playlist_03)
+                ]),
+                _: 1
+              })
+            ])
+          ])
+        ])
+      ]);
+    };
+  }
+};
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-7c4936d5"]]);
+const _hoisted_1 = { id: "container" };
+const _hoisted_2 = { class: "container-main" };
+const _hoisted_3 = { class: "container-nav" };
+const _hoisted_4 = { class: "container-content" };
+const _hoisted_5 = { class: "container-router-view" };
+const _hoisted_6 = { class: "container-ctrl-bar" };
 const _sfc_main$1 = {
   __name: "container",
   setup(__props) {
     return (_ctx, _cache) => {
       const _component_router_view = resolveComponent("router-view");
-      return openBlock(), createElementBlock(Fragment, null, [
-        createVNode(_sfc_main$2),
-        createVNode(_component_router_view, null, {
-          default: withCtx(({ Component }) => [
-            _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(KeepAlive, { key: 0 }, [
-              _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
-                key: _ctx.$route.name
-              })) : createCommentVNode("", true)
-            ], 1024)) : createCommentVNode("", true),
-            !_ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
-              key: _ctx.$route.name
-            })) : createCommentVNode("", true)
+      return openBlock(), createElementBlock("div", _hoisted_1, [
+        createBaseVNode("div", _hoisted_2, [
+          createBaseVNode("div", _hoisted_3, [
+            createVNode(navigation)
           ]),
-          _: 1
-        })
-      ], 64);
+          createBaseVNode("div", _hoisted_4, [
+            createVNode(_sfc_main$5),
+            createBaseVNode("div", _hoisted_5, [
+              createVNode(_component_router_view, null, {
+                default: withCtx(({ Component }) => [
+                  _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(KeepAlive, { key: 0 }, [
+                    _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
+                      key: _ctx.$route.name
+                    })) : createCommentVNode("", true)
+                  ], 1024)) : createCommentVNode("", true),
+                  !_ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
+                    key: _ctx.$route.name
+                  })) : createCommentVNode("", true)
+                ]),
+                _: 1
+              })
+            ])
+          ])
+        ]),
+        createBaseVNode("div", _hoisted_6, [
+          createVNode(MusicController)
+        ])
+      ]);
     };
   }
 };
+const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-225ea249"]]);
 function mitt(n2) {
   return { all: n2 = n2 || /* @__PURE__ */ new Map(), on: function(t2, e) {
     var i2 = n2.get(t2);
@@ -29070,15 +31624,15 @@ const _sfc_main = {
       console.log(themeOverrides.value);
     });
     return (_ctx, _cache) => {
-      const _component_n_message_provider = __unplugin_components_0;
+      const _component_n_message_provider = __unplugin_components_0$1;
       const _component_n_config_provider = __unplugin_components_1;
       return openBlock(), createElementBlock("div", null, [
         createVNode(_component_n_config_provider, { "theme-overrides": unref(themeOverrides) }, {
           default: withCtx(() => [
-            createVNode(_sfc_main$1),
+            createVNode(Container),
             createVNode(_component_n_message_provider, null, {
               default: withCtx(() => [
-                createVNode(_sfc_main$3)
+                createVNode(_sfc_main$6)
               ]),
               _: 1
             })
@@ -29095,165 +31649,180 @@ console.log("pinia实例被创建");
 app.use(router);
 app.mount("#app");
 export {
-  __unplugin_components_0$1 as $,
-  getPersonalizedPlaylist as A,
-  createTextVNode as B,
-  derived as C,
-  useTheme as D,
-  defineComponent as E,
+  cNotM as $,
+  useCssVars as A,
+  __unplugin_components_0 as B,
+  __unplugin_components_2 as C,
+  __unplugin_components_3 as D,
+  __unplugin_components_5 as E,
   Fragment as F,
-  h as G,
-  onBeforeUpdate as H,
-  c as I,
-  cB as J,
-  cM as K,
-  cE as L,
-  insideModal as M,
-  insidePopover as N,
-  useConfig as O,
-  useFormItem as P,
-  toRef as Q,
-  useMergedState as R,
-  Scrollbar as S,
-  nextTick as T,
-  useThemeClass as U,
-  isMounted as V,
-  resolveSlot as W,
-  Transition as X,
-  call as Y,
-  on as Z,
-  off as _,
+  __unplugin_components_6 as G,
+  __unplugin_components_7 as H,
+  __unplugin_components_8 as I,
+  __unplugin_components_9 as J,
+  useRouter as K,
+  getPersonalizedPlaylist as L,
+  MarqueePlus as M,
+  NIcon as N,
+  createTextVNode as O,
+  MusicController as P,
+  useTheme as Q,
+  defineComponent as R,
+  h as S,
+  Scrollbar as T,
+  __unplugin_components_0$2 as U,
+  cloudsearch as V,
+  withDirectives as W,
+  vShow as X,
+  derived as Y,
+  cB as Z,
+  _export_sfc as _,
   usePlayStore as a,
-  resolveWrappedSlot as a$,
-  onUpdated as a0,
-  onUnmounted as a1,
-  withDirectives as a2,
-  vShow as a3,
-  cloudsearch as a4,
-  cNotM as a5,
-  watchEffect as a6,
-  loginQrKey as a7,
-  loginQrCreate as a8,
-  loginQrCheck as a9,
-  arrayLikeKeys as aA,
-  isArray$1 as aB,
-  isSymbol as aC,
-  MapCache as aD,
-  toString$1 as aE,
-  toSource as aF,
-  baseGetTag as aG,
-  Map$1 as aH,
-  Symbol$1 as aI,
-  eq as aJ,
-  Uint8Array$1 as aK,
-  isBuffer$1 as aL,
-  Stack as aM,
-  isTypedArray$1 as aN,
-  isObjectLike as aO,
-  isObject$1 as aP,
-  isLength as aQ,
-  isIndex as aR,
-  isArguments as aS,
-  identity as aT,
-  baseFor as aU,
-  arrayMap as aV,
-  cCB as aW,
-  inject as aX,
-  provide as aY,
-  isSlotEmpty as aZ,
-  mergeProps as a_,
-  success as aa,
-  error as ab,
-  verifyCaptcha as ac,
-  loginWithPhone as ad,
-  sendCaptcha as ae,
-  __unplugin_components_2 as af,
-  areaData as ag,
-  getColorFromImg as ah,
-  mixColor as ai,
-  recommendSongs as aj,
-  playlistDetail as ak,
-  fadeInTransition as al,
-  pxfy as am,
-  createKey as an,
-  NBaseLoading as ao,
+  toRef as a$,
+  cE as a0,
+  cM as a1,
+  useConfig as a2,
+  useThemeClass as a3,
+  c$1 as a4,
+  watchEffect as a5,
+  loginQrKey as a6,
+  loginQrCreate as a7,
+  loginQrCheck as a8,
+  success as a9,
+  isPrototype as aA,
+  isArrayLike as aB,
+  arrayLikeKeys as aC,
+  isArray$1 as aD,
+  isSymbol as aE,
+  MapCache as aF,
+  toString$1 as aG,
+  toSource as aH,
+  baseGetTag as aI,
+  Map$1 as aJ,
+  Symbol$1 as aK,
+  eq as aL,
+  Uint8Array$1 as aM,
+  isBuffer$1 as aN,
+  Stack as aO,
+  isTypedArray$1 as aP,
+  isObjectLike as aQ,
+  isObject$1 as aR,
+  isLength as aS,
+  isIndex as aT,
+  isArguments as aU,
+  identity as aV,
+  baseFor as aW,
+  arrayMap as aX,
+  cCB as aY,
+  inject as aZ,
+  formatLength as a_,
+  error as aa,
+  verifyCaptcha as ab,
+  loginWithPhone as ac,
+  sendCaptcha as ad,
+  __unplugin_components_2$2 as ae,
+  areaData as af,
+  getColorFromImg as ag,
+  mixColor as ah,
+  recommendSongs as ai,
+  playlistDetail as aj,
+  fadeInTransition as ak,
+  pxfy as al,
+  createKey as am,
+  NBaseLoading as an,
+  Transition as ao,
   parseArray as ap,
   parseArtist as aq,
   Comment as ar,
-  warn$1 as as,
-  createId as at,
-  getPreciseEventTarget as au,
-  getNative as av,
-  root as aw,
-  overArg as ax,
-  isPrototype as ay,
-  isArrayLike as az,
+  warn$2 as as,
+  on as at,
+  off as au,
+  createId as av,
+  getPreciseEventTarget as aw,
+  getNative as ax,
+  root as ay,
+  overArg as az,
   onBeforeUnmount as b,
-  XScrollbar as b0,
-  useMemo as b1,
-  cloneVNode as b2,
-  Text as b3,
-  createTheme as b4,
-  composite as b5,
-  useMergedClsPrefix as b6,
-  onDeactivated as b7,
-  useStyle as b8,
-  inputLight as b9,
-  NFadeInExpandTransition as bA,
-  NIconSwitchTransition as bB,
-  readonly as bC,
-  getCurrentInstance as bD,
-  CssRender as bE,
-  Teleport as bF,
-  useSsrAdapter as bG,
-  toHexaString as ba,
-  rgba as bb,
-  toHslaString as bc,
-  toHsvaString as bd,
-  toRgbaString as be,
-  hsla as bf,
-  hsva as bg,
-  createInjectionKey as bh,
-  toHexString as bi,
-  toHslString as bj,
-  toRgbString as bk,
-  toHsvString as bl,
-  useLocale as bm,
-  renderSlot as bn,
-  emitter as bo,
-  commonVariables$3 as bp,
-  asModal as bq,
-  useRtl as br,
-  getMargin as bs,
-  ensureValidVNode as bt,
-  NBaseClose as bu,
-  isBrowser$1 as bv,
-  iconSwitchTransition as bw,
-  isSafari as bx,
-  changeColor as by,
-  color2Class as bz,
+  provide as b0,
+  popoverBodyInjectionKey as b1,
+  drawerBodyInjectionKey as b2,
+  modalBodyInjectionKey as b3,
+  useAdjustedTo as b4,
+  VFollower as b5,
+  isSlotEmpty as b6,
+  mergeProps as b7,
+  resolveWrappedSlot as b8,
+  XScrollbar as b9,
+  toHsvString as bA,
+  fadeInScaleUpTransition as bB,
+  useFormItem as bC,
+  useLocale as bD,
+  nextTick as bE,
+  renderSlot as bF,
+  emitter as bG,
+  asModal as bH,
+  insideModal as bI,
+  insidePopover as bJ,
+  useRtl as bK,
+  getMargin as bL,
+  ensureValidVNode as bM,
+  NBaseClose as bN,
+  commonVariables$3 as bO,
+  isBrowser$2 as bP,
+  iconSwitchTransition as bQ,
+  isSafari as bR,
+  changeColor as bS,
+  color2Class as bT,
+  NFadeInExpandTransition as bU,
+  NIconSwitchTransition as bV,
+  isMounted as ba,
+  useMergedState as bb,
+  useMemo as bc,
+  cloneVNode as bd,
+  Text as be,
+  Binder as bf,
+  zindexable as bg,
+  VTarget as bh,
+  call as bi,
+  createTheme as bj,
+  composite as bk,
+  useMergedClsPrefix as bl,
+  onDeactivated as bm,
+  useStyle as bn,
+  inputLight as bo,
+  toHexaString as bp,
+  rgba as bq,
+  toHslaString as br,
+  toHsvaString as bs,
+  toRgbaString as bt,
+  hsla as bu,
+  hsva as bv,
+  createInjectionKey as bw,
+  toHexString as bx,
+  toHslString as by,
+  toRgbString as bz,
   computed as c,
   openBlock as d,
   createElementBlock as e,
   createBaseVNode as f,
   createVNode as g,
-  unref as h,
-  withCtx as i,
-  createBlock as j,
-  createCommentVNode as k,
-  isRef as l,
-  getColorsFromImg as m,
-  likeAndUpdateLikelist as n,
+  withCtx as h,
+  windowBack as i,
+  unref as j,
+  createBlock as k,
+  createCommentVNode as l,
+  isRef as m,
+  getColorsFromImg as n,
   onMounted as o,
-  renderList as p,
-  normalizeClass as q,
+  __unplugin_components_2$1 as p,
+  likeAndUpdateLikelist as q,
   ref as r,
   storeToRefs as s,
   toDisplayString as t,
   useUserStore as u,
-  pushScopeId as v,
+  renderList as v,
   watch as w,
-  popScopeId as x,
-  useCssVars as y,
-  useRouter as z
+  normalizeClass as x,
+  pushScopeId as y,
+  popScopeId as z
 };

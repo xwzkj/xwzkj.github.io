@@ -1,0 +1,140 @@
+
+span {
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-search {
+    display: flex;
+}
+.header-user {
+    cursor: pointer;
+}
+
+.header-title[data-v-c47ad7ed] {
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+[data-v-64834ff0] {
+    box-sizing: border-box;
+    margin: 0;
+}
+.marquee-sizer[data-v-64834ff0] {
+    --marquee-duration: 5s;
+
+    overflow: hidden;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+}
+.marquee-outer[data-v-64834ff0] {
+    display: inline-block;
+}
+.marquee-container[data-v-64834ff0] {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    animation: marquee-64834ff0 var(--marquee-duration) linear infinite;
+}
+.marquee-content[data-v-64834ff0] {
+    display: inline-block;
+}
+.marquee-text2[data-v-64834ff0] {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+.marquee-static-text[data-v-64834ff0] {
+    display: inline-block;
+}
+@keyframes marquee-64834ff0 {
+0% {
+        transform: translateX(0%);
+}
+100% {
+        transform: translateX(-50%);
+}
+}
+
+[data-v-7c4936d5] {
+    box-sizing: border-box;
+}
+.ctrl-outer[data-v-7c4936d5] {
+    width: 25rem;
+    height: 11.5rem;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.ctrl-half-top[data-v-7c4936d5] {
+    display: flex;
+    flex:1;
+}
+.ctrl-img-box[data-v-7c4936d5] {
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.2rem grey;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    width: 20%;
+    /* 宽度等于父元素宽度 */
+    height: 0;
+    /* 初始高度为0 */
+    padding-bottom: 20%;
+    /* 高度被撑开为宽度的100% */
+    overflow: hidden;
+    /* 隐藏溢出部分 */
+}
+.ctrl-img[data-v-7c4936d5] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ctrl-info-box[data-v-7c4936d5] {
+    padding-left: 1rem;
+    width: 70%;
+}
+.ctrl-info-title[data-v-7c4936d5] {
+    font-size: 1.3rem;
+}
+.ctrl-half-bottom[data-v-7c4936d5]{
+    flex: 1;
+}
+.button[data-v-7c4936d5]{
+    cursor: pointer;
+}
+.btn-control[data-v-7c4936d5] {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-play-control[data-v-7c4936d5] {
+    /* 上一曲 暂停 下一曲 按钮 */
+    display: flex;
+}
+
+.container-main[data-v-225ea249] {
+  display: flex;
+}
+.container-nav[data-v-225ea249] {
+  flex: 0 0 auto;
+  width: 12rem;
+}
+.container-content[data-v-225ea249] {
+  flex: 1;
+  height: calc(var(--vh, 1vh) * 100 - 11.5rem);
+  display: flex;
+  flex-direction: column;
+}
+.container-router-view[data-v-225ea249] {
+  overflow-y: scroll;
+  flex: 1;
+}
