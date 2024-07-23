@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-Kb4xDm4T.js","./playinglist-DHQcB4cO.js","./playinglist-D30VJK-5.css","./player-D3J4gP3a.css","./home-wdz0K3PS.js","./itemCard-avF3WtmP.js","./Ellipsis-Mxl3b2tU.js","./clickoutside-C907wKOG.js","./use-compitable-CNVj1ZQU.js","./itemCard-DXnF0dqk.css","./home-CwUGHVsl.css","./search-DYXsKFJa.js","./musicList-Bf0lZjrt.js","./Card-mV8OYqBT.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-Bedup-3L.js","./Button-B6WT_ue9.js","./login-CX2p-lSQ.css","./account-X4fLeRuY.js","./account-s9uuTX7o.css","./playlist-Jr8XgywM.js","./playlist-ucYP6lJM.css","./setting-CnNcmjfo.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-M43PSP-a.js","./playinglist-DdqqML8L.js","./playinglist-D30VJK-5.css","./player-D3T-VxW7.css","./home-8S4yDDpe.js","./itemCard-CxKhXUvy.js","./Ellipsis-Cwlp9lbD.js","./clickoutside-BVXAAvii.js","./use-compitable-rMPOA1fZ.js","./itemCard-DXnF0dqk.css","./home-CwUGHVsl.css","./search-CTzb4k-n.js","./musicList-CwUB0ZAR.js","./Card-Cazat7Sz.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-Drqs-GwR.js","./Button-C-2nIt4i.js","./login-CX2p-lSQ.css","./account-jOHVrFoT.js","./account-s9uuTX7o.css","./playlist-YLJc8PKT.js","./playlist-ucYP6lJM.css","./setting-fRQwW4x0.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.33
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -9026,7 +9026,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-Kb4xDm4T.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-M43PSP-a.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9037,7 +9037,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-wdz0K3PS.js"), true ? __vite__mapDeps([4,5,6,7,8,9,1,2,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-8S4yDDpe.js"), true ? __vite__mapDeps([4,5,6,7,8,9,1,2,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9048,7 +9048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DYXsKFJa.js"), true ? __vite__mapDeps([11,12,8,13,14,15]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CTzb4k-n.js"), true ? __vite__mapDeps([11,12,8,13,14,15]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9059,7 +9059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-Bedup-3L.js"), true ? __vite__mapDeps([16,17,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-Drqs-GwR.js"), true ? __vite__mapDeps([16,17,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9067,7 +9067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-X4fLeRuY.js"), true ? __vite__mapDeps([19,5,6,7,8,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-jOHVrFoT.js"), true ? __vite__mapDeps([19,5,6,7,8,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9078,7 +9078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-Jr8XgywM.js"), true ? __vite__mapDeps([21,12,8,13,14,17,6,7,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-YLJc8PKT.js"), true ? __vite__mapDeps([21,12,8,13,14,17,6,7,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9089,7 +9089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CnNcmjfo.js"), true ? __vite__mapDeps([23,17,13,7,24]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-fRQwW4x0.js"), true ? __vite__mapDeps([23,17,13,7,24]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
