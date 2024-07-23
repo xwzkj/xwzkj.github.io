@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-CqsBc3xg.js","./playinglist-B6w5I-m7.js","./playinglist-D30VJK-5.css","./player-D3J4gP3a.css","./home-tLzafKOH.js","./itemCard-C40dNbhd.js","./Ellipsis-_mJFrJ1J.js","./clickoutside-Bckv0PUS.js","./use-compitable-BrKlxzJw.js","./itemCard-DXnF0dqk.css","./home-BHIMSCyC.css","./search-Df1qJLHC.js","./musicList-DYIicK0o.js","./Card-CNAKJF-D.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-DiuuMO7d.js","./Button-TJFqJeyR.js","./login-CX2p-lSQ.css","./account-ZxGAHZ_0.js","./account-s9uuTX7o.css","./playlist-BKHIYCVS.js","./playlist-ucYP6lJM.css","./setting-D03p4mCz.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-Kb4xDm4T.js","./playinglist-DHQcB4cO.js","./playinglist-D30VJK-5.css","./player-D3J4gP3a.css","./home-wdz0K3PS.js","./itemCard-avF3WtmP.js","./Ellipsis-Mxl3b2tU.js","./clickoutside-C907wKOG.js","./use-compitable-CNVj1ZQU.js","./itemCard-DXnF0dqk.css","./home-CwUGHVsl.css","./search-DYXsKFJa.js","./musicList-Bf0lZjrt.js","./Card-mV8OYqBT.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-Bedup-3L.js","./Button-B6WT_ue9.js","./login-CX2p-lSQ.css","./account-X4fLeRuY.js","./account-s9uuTX7o.css","./playlist-Jr8XgywM.js","./playlist-ucYP6lJM.css","./setting-CnNcmjfo.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.33
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -9026,18 +9026,18 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-CqsBc3xg.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-Kb4xDm4T.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
       meta: {
-        keepAlive: false
+        keepAlive: true
       }
     },
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-tLzafKOH.js"), true ? __vite__mapDeps([4,5,6,7,8,9,1,2,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-wdz0K3PS.js"), true ? __vite__mapDeps([4,5,6,7,8,9,1,2,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9048,7 +9048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-Df1qJLHC.js"), true ? __vite__mapDeps([11,12,8,13,14,15]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-DYXsKFJa.js"), true ? __vite__mapDeps([11,12,8,13,14,15]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9059,7 +9059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DiuuMO7d.js"), true ? __vite__mapDeps([16,17,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-Bedup-3L.js"), true ? __vite__mapDeps([16,17,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9067,7 +9067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-ZxGAHZ_0.js"), true ? __vite__mapDeps([19,5,6,7,8,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-X4fLeRuY.js"), true ? __vite__mapDeps([19,5,6,7,8,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9078,7 +9078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BKHIYCVS.js"), true ? __vite__mapDeps([21,12,8,13,14,17,6,7,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-Jr8XgywM.js"), true ? __vite__mapDeps([21,12,8,13,14,17,6,7,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9089,7 +9089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-D03p4mCz.js"), true ? __vite__mapDeps([23,17,13,7,24]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-CnNcmjfo.js"), true ? __vite__mapDeps([23,17,13,7,24]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -30990,7 +30990,10 @@ const usePlayStore = defineStore("play", () => {
     player.value.currentTime = time2;
     updateProgress(true, { position: time2, duration: player.value.duration });
   }
-  setInterval(() => {
+  player.value.addEventListener("timeupdate", () => {
+    updateLyric();
+  });
+  function updateLyric() {
     try {
       if (musicStatus.value.paused == false && "lyric" in currentMusic.value) {
         for (let i2 = 0; i2 < currentMusic.value.lyric.length; i2++) {
@@ -31001,17 +31004,19 @@ const usePlayStore = defineStore("play", () => {
             next2 = true;
           }
           if (currentMusic.value.lyric[i2].time <= musicStatus.value.currentTime * 1e3 && next2 == true) {
-            lyricIndexNow.value = i2;
+            if (lyricIndexNow.value != i2) {
+              lyricIndexNow.value = i2;
+            }
             break;
           }
         }
       }
     } catch (e) {
       error(`出错了！
-位置:playStore 歌词interval
+位置:playStore updateLyric
 错误信息:${e}`);
     }
-  }, 100);
+  }
   function lrcToMS(lyricLine) {
     let express = /\[(\d+):(\d+)[:.](\d+)\]/;
     let lineTime = express.exec(lyricLine);
@@ -31147,8 +31152,8 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _withScopeId = (n2) => (pushScopeId("data-v-c47ad7ed"), n2 = n2(), popScopeId(), n2);
-const _hoisted_1$a = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", null, " 画饼的导航栏 ", -1));
+const _withScopeId$1 = (n2) => (pushScopeId("data-v-c47ad7ed"), n2 = n2(), popScopeId(), n2);
+const _hoisted_1$a = /* @__PURE__ */ _withScopeId$1(() => /* @__PURE__ */ createBaseVNode("div", null, " 画饼的导航栏 ", -1));
 const _sfc_main$4 = {
   __name: "navigation",
   setup(__props) {
@@ -31325,8 +31330,15 @@ const _sfc_main$3 = {
         resizeObserver.observe(sizerEle.value);
       }
     });
+    let limit = true;
+    watch(props, () => {
+      limit = false;
+    }, { deep: true });
     onUpdated(() => {
-      updateIfNeedScroll();
+      if (!limit) {
+        updateIfNeedScroll();
+      }
+      limit = true;
     });
     onUnmounted(() => {
       resizeObserver.disconnect();
@@ -31377,27 +31389,29 @@ const _sfc_main$3 = {
     };
   }
 };
-const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-64834ff0"]]);
+const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-fd8aef6b"]]);
+const _withScopeId = (n2) => (pushScopeId("data-v-6bc63be7"), n2 = n2(), popScopeId(), n2);
 const _hoisted_1$1 = { class: "ctrl-outer" };
-const _hoisted_2$1 = { class: "ctrl-half-top" };
-const _hoisted_3$1 = { class: "ctrl-img-box" };
-const _hoisted_4$1 = ["src"];
-const _hoisted_5$1 = { class: "ctrl-info-box" };
-const _hoisted_6$1 = { class: "ctrl-info-title" };
-const _hoisted_7 = { class: "ctrl-info-artist" };
-const _hoisted_8 = { class: "ctrl-info-lyric" };
-const _hoisted_9 = { class: "ctrl-half-bottom" };
-const _hoisted_10 = { class: "ctrl-progress-box" };
-const _hoisted_11 = { class: "btn-control" };
-const _hoisted_12 = { class: "btn-like button" };
-const _hoisted_13 = { class: "btn-play-control" };
-const _hoisted_14 = { class: "btn-prev button" };
-const _hoisted_15 = { class: "btn-pause button" };
-const _hoisted_16 = { class: "btn-next button" };
-const _hoisted_17 = { class: "btn-list button" };
+const _hoisted_2$1 = { class: "ctrl-img-box" };
+const _hoisted_3$1 = ["src"];
+const _hoisted_4$1 = { class: "ctrl-info-box" };
+const _hoisted_5$1 = { class: "ctrl-info-title" };
+const _hoisted_6$1 = { class: "ctrl-info-artist" };
+const _hoisted_7 = { class: "ctrl-info-lyric" };
+const _hoisted_8 = { class: "ctrl-center" };
+const _hoisted_9 = { class: "btn-control" };
+const _hoisted_10 = { class: "btn-like button" };
+const _hoisted_11 = { class: "btn-play-control" };
+const _hoisted_12 = { class: "btn-prev button" };
+const _hoisted_13 = { class: "btn-pause button" };
+const _hoisted_14 = { class: "btn-next button" };
+const _hoisted_15 = { class: "btn-list button" };
+const _hoisted_16 = { class: "ctrl-progress-box" };
+const _hoisted_17 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "ctrl-right" }, "此部分还未制作", -1));
 const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
+    let router2 = useRouter();
     let playStore = usePlayStore();
     let lyricNow = computed(() => {
       if (!Array.isArray(playStore.currentMusic.lyric) || playStore.currentMusic?.lyric.length < playStore.currentMusic.currentLyricIndex) {
@@ -31406,7 +31420,6 @@ const _sfc_main$2 = {
       return playStore.currentMusic?.lyric[playStore.currentMusic.currentLyricIndex]?.lrc;
     });
     return (_ctx, _cache) => {
-      const _component_n_slider = __unplugin_components_2$1;
       const _component_i_ant_design_heart_outlined = __unplugin_components_2;
       const _component_i_ant_design_heart_filled = __unplugin_components_3;
       const _component_n_icon = NIcon;
@@ -31415,43 +31428,37 @@ const _sfc_main$2 = {
       const _component_i_hugeicons_pause = __unplugin_components_7;
       const _component_i_hugeicons_arrow_right_01 = __unplugin_components_8;
       const _component_i_hugeicons_playlist_03 = __unplugin_components_9;
+      const _component_n_slider = __unplugin_components_2$1;
       return openBlock(), createElementBlock("div", _hoisted_1$1, [
-        createBaseVNode("div", _hoisted_2$1, [
-          createBaseVNode("div", _hoisted_3$1, [
+        createBaseVNode("div", {
+          class: "ctrl-left",
+          onClick: _cache[0] || (_cache[0] = () => unref(router2).push({ name: "player" }))
+        }, [
+          createBaseVNode("div", _hoisted_2$1, [
             createBaseVNode("img", {
               class: "ctrl-img",
               src: unref(playStore).currentMusic.picurl
-            }, null, 8, _hoisted_4$1)
+            }, null, 8, _hoisted_3$1)
           ]),
-          createBaseVNode("div", _hoisted_5$1, [
-            createBaseVNode("div", _hoisted_6$1, [
+          createBaseVNode("div", _hoisted_4$1, [
+            createBaseVNode("div", _hoisted_5$1, [
               createVNode(MarqueePlus, {
                 html: unref(playStore).nameWithTns
               }, null, 8, ["html"])
             ]),
-            createBaseVNode("div", _hoisted_7, [
+            createBaseVNode("div", _hoisted_6$1, [
               createVNode(MarqueePlus, {
                 html: unref(playStore).currentMusic.artist
               }, null, 8, ["html"])
             ]),
-            createBaseVNode("div", _hoisted_8, toDisplayString(unref(lyricNow)), 1)
+            createBaseVNode("div", _hoisted_7, [
+              createVNode(MarqueePlus, { html: unref(lyricNow) }, null, 8, ["html"])
+            ])
           ])
         ]),
-        createBaseVNode("div", _hoisted_9, [
-          createBaseVNode("div", _hoisted_10, [
-            createVNode(_component_n_slider, {
-              value: unref(playStore).musicStatus.currentTime,
-              "onUpdate:value": [
-                _cache[0] || (_cache[0] = ($event) => unref(playStore).musicStatus.currentTime = $event),
-                _cache[1] || (_cache[1] = (value) => unref(playStore).seek(value))
-              ],
-              max: unref(playStore).musicStatus.duration,
-              tooltip: false,
-              "show-tooltip": false
-            }, null, 8, ["value", "max"])
-          ]),
-          createBaseVNode("div", _hoisted_11, [
-            createBaseVNode("div", _hoisted_12, [
+        createBaseVNode("div", _hoisted_8, [
+          createBaseVNode("div", _hoisted_9, [
+            createBaseVNode("div", _hoisted_10, [
               createVNode(_component_n_icon, {
                 size: "1.5rem",
                 class: "icon"
@@ -31459,17 +31466,17 @@ const _sfc_main$2 = {
                 default: withCtx(() => [
                   !unref(playStore).currentMusic?.isLiked ? (openBlock(), createBlock(_component_i_ant_design_heart_outlined, {
                     key: 0,
-                    onClick: _cache[2] || (_cache[2] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, true))
+                    onClick: _cache[1] || (_cache[1] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, true))
                   })) : (openBlock(), createBlock(_component_i_ant_design_heart_filled, {
                     key: 1,
-                    onClick: _cache[3] || (_cache[3] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, false))
+                    onClick: _cache[2] || (_cache[2] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, false))
                   }))
                 ]),
                 _: 1
               })
             ]),
-            createBaseVNode("div", _hoisted_13, [
-              createBaseVNode("div", _hoisted_14, [
+            createBaseVNode("div", _hoisted_11, [
+              createBaseVNode("div", _hoisted_12, [
                 createVNode(_component_n_icon, {
                   size: "2.5rem",
                   class: "icon",
@@ -31481,12 +31488,12 @@ const _sfc_main$2 = {
                   _: 1
                 }, 8, ["onClick"])
               ]),
-              createBaseVNode("div", _hoisted_15, [
+              createBaseVNode("div", _hoisted_13, [
                 unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
                   key: 0,
                   size: "2.5rem",
                   class: "icon",
-                  onClick: _cache[4] || (_cache[4] = () => unref(playStore).play())
+                  onClick: _cache[3] || (_cache[3] = () => unref(playStore).play())
                 }, {
                   default: withCtx(() => [
                     createVNode(_component_i_hugeicons_play)
@@ -31497,7 +31504,7 @@ const _sfc_main$2 = {
                   key: 1,
                   size: "2.5rem",
                   class: "icon",
-                  onClick: _cache[5] || (_cache[5] = () => unref(playStore).pause())
+                  onClick: _cache[4] || (_cache[4] = () => unref(playStore).pause())
                 }, {
                   default: withCtx(() => [
                     createVNode(_component_i_hugeicons_pause)
@@ -31505,7 +31512,7 @@ const _sfc_main$2 = {
                   _: 1
                 })) : createCommentVNode("", true)
               ]),
-              createBaseVNode("div", _hoisted_16, [
+              createBaseVNode("div", _hoisted_14, [
                 createVNode(_component_n_icon, {
                   size: "2.5rem",
                   class: "icon",
@@ -31518,11 +31525,11 @@ const _sfc_main$2 = {
                 }, 8, ["onClick"])
               ])
             ]),
-            createBaseVNode("div", _hoisted_17, [
+            createBaseVNode("div", _hoisted_15, [
               createVNode(_component_n_icon, {
                 size: "1.5rem",
                 class: "icon",
-                onClick: _cache[6] || (_cache[6] = () => {
+                onClick: _cache[5] || (_cache[5] = () => {
                   _ctx.showPlayingList = !_ctx.showPlayingList;
                 })
               }, {
@@ -31532,13 +31539,26 @@ const _sfc_main$2 = {
                 _: 1
               })
             ])
+          ]),
+          createBaseVNode("div", _hoisted_16, [
+            createVNode(_component_n_slider, {
+              value: unref(playStore).musicStatus.currentTime,
+              "onUpdate:value": [
+                _cache[6] || (_cache[6] = ($event) => unref(playStore).musicStatus.currentTime = $event),
+                _cache[7] || (_cache[7] = (value) => unref(playStore).seek(value))
+              ],
+              max: unref(playStore).musicStatus.duration,
+              tooltip: false,
+              "show-tooltip": false
+            }, null, 8, ["value", "max"])
           ])
-        ])
+        ]),
+        _hoisted_17
       ]);
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-7c4936d5"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-6bc63be7"]]);
 const _hoisted_1 = { id: "container" };
 const _hoisted_2 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };
@@ -31581,7 +31601,7 @@ const _sfc_main$1 = {
     };
   }
 };
-const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-225ea249"]]);
+const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-b73e9aeb"]]);
 function mitt(n2) {
   return { all: n2 = n2 || /* @__PURE__ */ new Map(), on: function(t2, e) {
     var i2 = n2.get(t2);
@@ -31649,7 +31669,7 @@ console.log("pinia实例被创建");
 app.use(router);
 app.mount("#app");
 export {
-  cNotM as $,
+  cE as $,
   useCssVars as A,
   __unplugin_components_0 as B,
   __unplugin_components_2 as C,
@@ -31665,142 +31685,141 @@ export {
   MarqueePlus as M,
   NIcon as N,
   createTextVNode as O,
-  MusicController as P,
-  useTheme as Q,
-  defineComponent as R,
-  h as S,
-  Scrollbar as T,
-  __unplugin_components_0$2 as U,
-  cloudsearch as V,
-  withDirectives as W,
-  vShow as X,
-  derived as Y,
-  cB as Z,
+  useTheme as P,
+  defineComponent as Q,
+  h as R,
+  Scrollbar as S,
+  __unplugin_components_0$2 as T,
+  cloudsearch as U,
+  withDirectives as V,
+  vShow as W,
+  derived as X,
+  cB as Y,
+  cNotM as Z,
   _export_sfc as _,
   usePlayStore as a,
-  toRef as a$,
-  cE as a0,
-  cM as a1,
-  useConfig as a2,
-  useThemeClass as a3,
-  c$1 as a4,
-  watchEffect as a5,
-  loginQrKey as a6,
-  loginQrCreate as a7,
-  loginQrCheck as a8,
-  success as a9,
-  isPrototype as aA,
-  isArrayLike as aB,
-  arrayLikeKeys as aC,
-  isArray$1 as aD,
-  isSymbol as aE,
-  MapCache as aF,
-  toString$1 as aG,
-  toSource as aH,
-  baseGetTag as aI,
-  Map$1 as aJ,
-  Symbol$1 as aK,
-  eq as aL,
-  Uint8Array$1 as aM,
-  isBuffer$1 as aN,
-  Stack as aO,
-  isTypedArray$1 as aP,
-  isObjectLike as aQ,
-  isObject$1 as aR,
-  isLength as aS,
-  isIndex as aT,
-  isArguments as aU,
-  identity as aV,
-  baseFor as aW,
-  arrayMap as aX,
-  cCB as aY,
-  inject as aZ,
-  formatLength as a_,
-  error as aa,
-  verifyCaptcha as ab,
-  loginWithPhone as ac,
-  sendCaptcha as ad,
-  __unplugin_components_2$2 as ae,
-  areaData as af,
-  getColorFromImg as ag,
-  mixColor as ah,
-  recommendSongs as ai,
-  playlistDetail as aj,
-  fadeInTransition as ak,
-  pxfy as al,
-  createKey as am,
-  NBaseLoading as an,
-  Transition as ao,
-  parseArray as ap,
-  parseArtist as aq,
-  Comment as ar,
-  warn$2 as as,
-  on as at,
-  off as au,
-  createId as av,
-  getPreciseEventTarget as aw,
-  getNative as ax,
-  root as ay,
-  overArg as az,
+  provide as a$,
+  cM as a0,
+  useConfig as a1,
+  useThemeClass as a2,
+  c$1 as a3,
+  watchEffect as a4,
+  loginQrKey as a5,
+  loginQrCreate as a6,
+  loginQrCheck as a7,
+  success as a8,
+  error as a9,
+  isArrayLike as aA,
+  arrayLikeKeys as aB,
+  isArray$1 as aC,
+  isSymbol as aD,
+  MapCache as aE,
+  toString$1 as aF,
+  toSource as aG,
+  baseGetTag as aH,
+  Map$1 as aI,
+  Symbol$1 as aJ,
+  eq as aK,
+  Uint8Array$1 as aL,
+  isBuffer$1 as aM,
+  Stack as aN,
+  isTypedArray$1 as aO,
+  isObjectLike as aP,
+  isObject$1 as aQ,
+  isLength as aR,
+  isIndex as aS,
+  isArguments as aT,
+  identity as aU,
+  baseFor as aV,
+  arrayMap as aW,
+  cCB as aX,
+  inject as aY,
+  formatLength as aZ,
+  toRef as a_,
+  verifyCaptcha as aa,
+  loginWithPhone as ab,
+  sendCaptcha as ac,
+  __unplugin_components_2$2 as ad,
+  areaData as ae,
+  getColorFromImg as af,
+  mixColor as ag,
+  recommendSongs as ah,
+  playlistDetail as ai,
+  fadeInTransition as aj,
+  pxfy as ak,
+  createKey as al,
+  NBaseLoading as am,
+  Transition as an,
+  parseArray as ao,
+  parseArtist as ap,
+  Comment as aq,
+  warn$2 as ar,
+  on as as,
+  off as at,
+  createId as au,
+  getPreciseEventTarget as av,
+  getNative as aw,
+  root as ax,
+  overArg as ay,
+  isPrototype as az,
   onBeforeUnmount as b,
-  provide as b0,
-  popoverBodyInjectionKey as b1,
-  drawerBodyInjectionKey as b2,
-  modalBodyInjectionKey as b3,
-  useAdjustedTo as b4,
-  VFollower as b5,
-  isSlotEmpty as b6,
-  mergeProps as b7,
-  resolveWrappedSlot as b8,
-  XScrollbar as b9,
-  toHsvString as bA,
-  fadeInScaleUpTransition as bB,
-  useFormItem as bC,
-  useLocale as bD,
-  nextTick as bE,
-  renderSlot as bF,
-  emitter as bG,
-  asModal as bH,
-  insideModal as bI,
-  insidePopover as bJ,
-  useRtl as bK,
-  getMargin as bL,
-  ensureValidVNode as bM,
-  NBaseClose as bN,
-  commonVariables$3 as bO,
-  isBrowser$2 as bP,
-  iconSwitchTransition as bQ,
-  isSafari as bR,
-  changeColor as bS,
-  color2Class as bT,
-  NFadeInExpandTransition as bU,
-  NIconSwitchTransition as bV,
-  isMounted as ba,
-  useMergedState as bb,
-  useMemo as bc,
-  cloneVNode as bd,
-  Text as be,
-  Binder as bf,
-  zindexable as bg,
-  VTarget as bh,
-  call as bi,
-  createTheme as bj,
-  composite as bk,
-  useMergedClsPrefix as bl,
-  onDeactivated as bm,
-  useStyle as bn,
-  inputLight as bo,
-  toHexaString as bp,
-  rgba as bq,
-  toHslaString as br,
-  toHsvaString as bs,
-  toRgbaString as bt,
-  hsla as bu,
-  hsva as bv,
-  createInjectionKey as bw,
-  toHexString as bx,
-  toHslString as by,
-  toRgbString as bz,
+  popoverBodyInjectionKey as b0,
+  drawerBodyInjectionKey as b1,
+  modalBodyInjectionKey as b2,
+  useAdjustedTo as b3,
+  VFollower as b4,
+  isSlotEmpty as b5,
+  mergeProps as b6,
+  resolveWrappedSlot as b7,
+  XScrollbar as b8,
+  isMounted as b9,
+  fadeInScaleUpTransition as bA,
+  useFormItem as bB,
+  useLocale as bC,
+  nextTick as bD,
+  renderSlot as bE,
+  emitter as bF,
+  asModal as bG,
+  insideModal as bH,
+  insidePopover as bI,
+  useRtl as bJ,
+  getMargin as bK,
+  ensureValidVNode as bL,
+  NBaseClose as bM,
+  commonVariables$3 as bN,
+  isBrowser$2 as bO,
+  iconSwitchTransition as bP,
+  isSafari as bQ,
+  changeColor as bR,
+  color2Class as bS,
+  NFadeInExpandTransition as bT,
+  NIconSwitchTransition as bU,
+  useMergedState as ba,
+  useMemo as bb,
+  cloneVNode as bc,
+  Text as bd,
+  Binder as be,
+  zindexable as bf,
+  VTarget as bg,
+  call as bh,
+  createTheme as bi,
+  composite as bj,
+  useMergedClsPrefix as bk,
+  onDeactivated as bl,
+  useStyle as bm,
+  inputLight as bn,
+  toHexaString as bo,
+  rgba as bp,
+  toHslaString as bq,
+  toHsvaString as br,
+  toRgbaString as bs,
+  hsla as bt,
+  hsva as bu,
+  createInjectionKey as bv,
+  toHexString as bw,
+  toHslString as bx,
+  toRgbString as by,
+  toHsvString as bz,
   computed as c,
   openBlock as d,
   createElementBlock as e,

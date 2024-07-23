@@ -1,10 +1,10 @@
-import { i as itemCard } from "./itemCard-C40dNbhd.js";
-import { _ as _export_sfc, u as useUserStore, r as ref, K as useRouter, L as getPersonalizedPlaylist, d as openBlock, e as createElementBlock, f as createBaseVNode, j as unref, g as createVNode, l as createCommentVNode, F as Fragment, v as renderList, O as createTextVNode, P as MusicController, y as pushScopeId, z as popScopeId } from "./index-C71I_9en.js";
-import { p as playinglist } from "./playinglist-B6w5I-m7.js";
-import "./Ellipsis-_mJFrJ1J.js";
-import "./clickoutside-Bckv0PUS.js";
-import "./use-compitable-BrKlxzJw.js";
-const _withScopeId = (n) => (pushScopeId("data-v-1e7777f3"), n = n(), popScopeId(), n);
+import { i as itemCard } from "./itemCard-avF3WtmP.js";
+import { _ as _export_sfc, u as useUserStore, r as ref, K as useRouter, L as getPersonalizedPlaylist, d as openBlock, e as createElementBlock, f as createBaseVNode, j as unref, g as createVNode, l as createCommentVNode, F as Fragment, v as renderList, O as createTextVNode, y as pushScopeId, z as popScopeId } from "./index-DRKe-m5N.js";
+import { p as playinglist } from "./playinglist-DHQcB4cO.js";
+import "./Ellipsis-Mxl3b2tU.js";
+import "./clickoutside-C907wKOG.js";
+import "./use-compitable-CNVj1ZQU.js";
+const _withScopeId = (n) => (pushScopeId("data-v-c7e11441"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "home" };
 const _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "home-sub-title" }, "精选歌单", -1));
 const _hoisted_3 = { id: "homeRecommendPlaylist" };
@@ -56,8 +56,6 @@ const _sfc_main = {
         _hoisted_6,
         _hoisted_7,
         _hoisted_8,
-        createTextVNode(" 音乐控件卡片预览： "),
-        createVNode(MusicController),
         createTextVNode(" 播放列表预览： "),
         createBaseVNode("div", _hoisted_9, [
           createVNode(playinglist)
@@ -66,7 +64,7 @@ const _sfc_main = {
     };
   }
 };
-const home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-1e7777f3"]]);
+const home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-c7e11441"]]);
 export {
   home as default
 };

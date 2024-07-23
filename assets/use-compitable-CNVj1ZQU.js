@@ -1,4 +1,4 @@
-import { c as computed } from "./index-C71I_9en.js";
+import { c as computed } from "./index-DRKe-m5N.js";
 function useCompitable(reactive, keys) {
   return computed(() => {
     for (const key of keys) {
