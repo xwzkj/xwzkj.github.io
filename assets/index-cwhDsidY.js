@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-DPP51DP8.js","./player-BHoiDX81.css","./home-D0rgFnkU.js","./itemCard-jC-qoZHz.js","./Ellipsis-BJLPPBe6.js","./itemCard-DXnF0dqk.css","./home-BPYR4U23.css","./search-C7uJ4C7R.js","./musicList-LdJlz6Tv.js","./Card-UzEh8VwK.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-DIliciwO.js","./Button-CgI55RZu.js","./login-CX2p-lSQ.css","./account-C0bTEJN1.js","./account-s9uuTX7o.css","./playlist-DsTH68X5.js","./playlist-CuAG0Pwh.css","./setting-89XGaJEy.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-BrruobSs.js","./player-B-FvSr6J.css","./home-CFguvbGA.js","./itemCard-CSGsJq2I.js","./Ellipsis-Bf4n1GrN.js","./itemCard-e-etQdsq.css","./home-BPYR4U23.css","./search-CBqDwhTo.js","./musicList-DMD68Lcn.js","./Card-BbQPVYgZ.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-OVy2uvrJ.js","./Button-Dg_F8xys.js","./login-CX2p-lSQ.css","./account-Dh8PGr7e.js","./account-s9uuTX7o.css","./playlist-BI5pC88U.js","./playlist-CuAG0Pwh.css","./setting-C-jbcLQg.js","./setting-C6y0XIYj.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.34
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -7946,7 +7946,7 @@ function createRouteRecordMatcher(record, parent, options) {
   return matcher;
 }
 function createRouterMatcher(routes, globalOptions) {
-  const matchers = [];
+  const matchers2 = [];
   const matcherMap = /* @__PURE__ */ new Map();
   globalOptions = mergeOptions({ strict: false, end: true, sensitive: false }, globalOptions);
   function getRecordMatcher(name) {
@@ -8014,14 +8014,14 @@ function createRouterMatcher(routes, globalOptions) {
       const matcher = matcherMap.get(matcherRef);
       if (matcher) {
         matcherMap.delete(matcherRef);
-        matchers.splice(matchers.indexOf(matcher), 1);
+        matchers2.splice(matchers2.indexOf(matcher), 1);
         matcher.children.forEach(removeRoute);
         matcher.alias.forEach(removeRoute);
       }
     } else {
-      const index = matchers.indexOf(matcherRef);
+      const index = matchers2.indexOf(matcherRef);
       if (index > -1) {
-        matchers.splice(index, 1);
+        matchers2.splice(index, 1);
         if (matcherRef.record.name)
           matcherMap.delete(matcherRef.record.name);
         matcherRef.children.forEach(removeRoute);
@@ -8030,11 +8030,11 @@ function createRouterMatcher(routes, globalOptions) {
     }
   }
   function getRoutes() {
-    return matchers;
+    return matchers2;
   }
   function insertMatcher(matcher) {
-    const index = findInsertionIndex(matcher, matchers);
-    matchers.splice(index, 0, matcher);
+    const index = findInsertionIndex(matcher, matchers2);
+    matchers2.splice(index, 0, matcher);
     if (matcher.record.name && !isAliasRecord(matcher))
       matcherMap.set(matcher.record.name, matcher);
   }
@@ -8065,13 +8065,13 @@ function createRouterMatcher(routes, globalOptions) {
       path = matcher.stringify(params);
     } else if (location2.path != null) {
       path = location2.path;
-      matcher = matchers.find((m) => m.re.test(path));
+      matcher = matchers2.find((m) => m.re.test(path));
       if (matcher) {
         params = matcher.parse(path);
         name = matcher.record.name;
       }
     } else {
-      matcher = currentLocation.name ? matcherMap.get(currentLocation.name) : matchers.find((m) => m.re.test(currentLocation.path));
+      matcher = currentLocation.name ? matcherMap.get(currentLocation.name) : matchers2.find((m) => m.re.test(currentLocation.path));
       if (!matcher)
         throw createRouterError(1, {
           location: location2,
@@ -8097,7 +8097,7 @@ function createRouterMatcher(routes, globalOptions) {
   }
   routes.forEach((route) => addRoute(route));
   function clearRoutes() {
-    matchers.length = 0;
+    matchers2.length = 0;
     matcherMap.clear();
   }
   return {
@@ -8163,12 +8163,12 @@ function mergeOptions(defaults2, partialOptions) {
   }
   return options;
 }
-function findInsertionIndex(matcher, matchers) {
+function findInsertionIndex(matcher, matchers2) {
   let lower = 0;
-  let upper = matchers.length;
+  let upper = matchers2.length;
   while (lower !== upper) {
     const mid = lower + upper >> 1;
-    const sortOrder = comparePathParserScore(matcher, matchers[mid]);
+    const sortOrder = comparePathParserScore(matcher, matchers2[mid]);
     if (sortOrder < 0) {
       upper = mid;
     } else {
@@ -8177,7 +8177,7 @@ function findInsertionIndex(matcher, matchers) {
   }
   const insertionAncestor = getInsertionAncestor(matcher);
   if (insertionAncestor) {
-    upper = matchers.lastIndexOf(insertionAncestor, upper - 1);
+    upper = matchers2.lastIndexOf(insertionAncestor, upper - 1);
   }
   return upper;
 }
@@ -9054,7 +9054,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-DPP51DP8.js"), true ? __vite__mapDeps([0,1]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-BrruobSs.js"), true ? __vite__mapDeps([0,1]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9065,7 +9065,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-D0rgFnkU.js"), true ? __vite__mapDeps([2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-CFguvbGA.js"), true ? __vite__mapDeps([2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9076,7 +9076,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-C7uJ4C7R.js"), true ? __vite__mapDeps([7,8,9,10,11]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CBqDwhTo.js"), true ? __vite__mapDeps([7,8,9,10,11]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9087,7 +9087,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DIliciwO.js"), true ? __vite__mapDeps([12,13,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-OVy2uvrJ.js"), true ? __vite__mapDeps([12,13,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9095,7 +9095,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-C0bTEJN1.js"), true ? __vite__mapDeps([15,3,4,5,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-Dh8PGr7e.js"), true ? __vite__mapDeps([15,3,4,5,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9106,7 +9106,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-DsTH68X5.js"), true ? __vite__mapDeps([17,8,9,10,13,4,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BI5pC88U.js"), true ? __vite__mapDeps([17,8,9,10,13,4,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9117,7 +9117,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-89XGaJEy.js"), true ? __vite__mapDeps([19,13,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-C-jbcLQg.js"), true ? __vite__mapDeps([19,13,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -11910,7 +11910,7 @@ function getOffset(placement, offsetRect, targetRect, offsetTopToStandardPlaceme
       };
   }
 }
-const style$g = c([
+const style$f = c([
   c(".v-binder-follower-container", {
     position: "absolute",
     left: "0",
@@ -11992,7 +11992,7 @@ const VFollower = /* @__PURE__ */ defineComponent({
       }
     });
     const ssrAdapter2 = useSsrAdapter();
-    style$g.mount({
+    style$f.mount({
       id: "vueuc/binder",
       head: true,
       anchorMetaName: cssrAnchorMetaName$1,
@@ -12720,7 +12720,7 @@ const VResizeObserver = /* @__PURE__ */ defineComponent({
   }
 });
 const hiddenAttr = "v-hidden";
-const style$f = c("[v-hidden]", {
+const style$e = c("[v-hidden]", {
   display: "none!important"
 });
 const VOverflow = /* @__PURE__ */ defineComponent({
@@ -12821,7 +12821,7 @@ const VOverflow = /* @__PURE__ */ defineComponent({
       }
     }
     const ssrAdapter2 = useSsrAdapter();
-    style$f.mount({
+    style$e.mount({
       id: "vueuc/overflow",
       head: true,
       anchorMetaName: cssrAnchorMetaName$1,
@@ -13327,11 +13327,11 @@ function baseIsNative(value) {
   var pattern = isFunction$1(value) ? reIsNative : reIsHostCtor;
   return pattern.test(toSource(value));
 }
-function getValue(object, key) {
+function getValue$1(object, key) {
   return object == null ? void 0 : object[key];
 }
 function getNative(object, key) {
-  var value = getValue(object, key);
+  var value = getValue$1(object, key);
   return baseIsNative(value) ? value : void 0;
 }
 var WeakMap$1 = getNative(root, "WeakMap");
@@ -15716,7 +15716,7 @@ const NFadeInExpandTransition = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const style$e = cB("base-icon", `
+const style$d = cB("base-icon", `
  height: 1em;
  width: 1em;
  line-height: 1em;
@@ -15751,7 +15751,7 @@ const NBaseIcon = /* @__PURE__ */ defineComponent({
     onMouseup: Function
   },
   setup(props) {
-    useStyle("-base-icon", style$e, toRef(props, "clsPrefix"));
+    useStyle("-base-icon", style$d, toRef(props, "clsPrefix"));
   },
   render() {
     return h("i", {
@@ -15766,7 +15766,7 @@ const NBaseIcon = /* @__PURE__ */ defineComponent({
     }, this.$slots);
   }
 });
-const style$d = cB("base-close", `
+const style$c = cB("base-close", `
  display: flex;
  align-items: center;
  justify-content: center;
@@ -15835,7 +15835,7 @@ const NBaseClose = /* @__PURE__ */ defineComponent({
     absolute: Boolean
   },
   setup(props) {
-    useStyle("-base-close", style$d, toRef(props, "clsPrefix"));
+    useStyle("-base-close", style$c, toRef(props, "clsPrefix"));
     return () => {
       const {
         clsPrefix,
@@ -15894,7 +15894,7 @@ function iconSwitchTransition({
     transition
   })];
 }
-const style$c = c$1([c$1("@keyframes rotator", `
+const style$b = c$1([c$1("@keyframes rotator", `
  0% {
  -webkit-transform: rotate(0deg);
  transform: rotate(0deg);
@@ -15958,7 +15958,7 @@ const NBaseLoading = /* @__PURE__ */ defineComponent({
     }
   }, exposedLoadingProps),
   setup(props) {
-    useStyle("-base-loading", style$c, toRef(props, "clsPrefix"));
+    useStyle("-base-loading", style$b, toRef(props, "clsPrefix"));
   },
   render() {
     const {
@@ -16815,12 +16815,12 @@ const derived = Object.assign(Object.assign({
   boxShadow2: "0 3px 6px -4px rgba(0, 0, 0, .12), 0 6px 16px 0 rgba(0, 0, 0, .08), 0 9px 28px 8px rgba(0, 0, 0, .05)",
   boxShadow3: "0 6px 16px -9px rgba(0, 0, 0, .08), 0 9px 28px 0 rgba(0, 0, 0, .05), 0 12px 48px 16px rgba(0, 0, 0, .03)"
 });
-const commonVars$2 = {
+const commonVars$1 = {
   railInsetHorizontal: "auto 2px 4px 2px",
   railInsetVertical: "2px 4px 2px auto",
   railColor: "transparent"
 };
-function self$c(vars) {
+function self$b(vars) {
   const {
     scrollbarColor,
     scrollbarColorHover,
@@ -16828,7 +16828,7 @@ function self$c(vars) {
     scrollbarWidth,
     scrollbarBorderRadius
   } = vars;
-  return Object.assign(Object.assign({}, commonVars$2), {
+  return Object.assign(Object.assign({}, commonVars$1), {
     height: scrollbarHeight,
     width: scrollbarWidth,
     borderRadius: scrollbarBorderRadius,
@@ -16839,7 +16839,7 @@ function self$c(vars) {
 const scrollbarLight = {
   name: "Scrollbar",
   common: derived,
-  self: self$c
+  self: self$b
 };
 const {
   cubicBezierEaseInOut: cubicBezierEaseInOut$1
@@ -16861,7 +16861,7 @@ function fadeInTransition({
     opacity: 1
   })];
 }
-const style$b = cB("scrollbar", `
+const style$a = cB("scrollbar", `
  overflow: hidden;
  position: relative;
  z-index: auto;
@@ -16978,7 +16978,7 @@ const Scrollbar$1 = /* @__PURE__ */ defineComponent({
     let memoMouseX = 0;
     let memoMouseY = 0;
     const isIos2 = useIsIos();
-    const themeRef = useTheme("Scrollbar", "-scrollbar", style$b, scrollbarLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Scrollbar", "-scrollbar", style$a, scrollbarLight, props, mergedClsPrefixRef);
     const yBarSizeRef = computed(() => {
       const {
         value: containerHeight
@@ -17661,7 +17661,7 @@ const commonVariables$4 = {
   arrowHeight: "6px",
   padding: "8px 14px"
 };
-function self$b(vars) {
+function self$a(vars) {
   const {
     boxShadow2,
     popoverColor,
@@ -17682,7 +17682,7 @@ function self$b(vars) {
 const popoverLight = {
   name: "Popover",
   common: derived,
-  self: self$b
+  self: self$a
 };
 const oppositePlacement = {
   top: "bottom",
@@ -17691,7 +17691,7 @@ const oppositePlacement = {
   right: "left"
 };
 const arrowSize = "var(--n-arrow-height) * 1.414";
-const style$a = c$1([cB("popover", `
+const style$9 = c$1([cB("popover", `
  transition:
  box-shadow .3s var(--n-bezier),
  background-color .3s var(--n-bezier),
@@ -17905,7 +17905,7 @@ const NPopoverBody = /* @__PURE__ */ defineComponent({
       mergedClsPrefixRef,
       inlineThemeDisabled
     } = useConfig(props);
-    const themeRef = useTheme("Popover", "-popover", style$a, popoverLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Popover", "-popover", style$9, popoverLight, props, mergedClsPrefixRef);
     const followerRef = ref(null);
     const NPopover2 = inject("NPopover");
     const bodyRef = ref(null);
@@ -18660,7 +18660,7 @@ const commonVariables$3 = {
   padding: "0 7px",
   closeMargin: "0 0 0 4px"
 };
-function self$a(vars) {
+function self$9(vars) {
   const {
     textColor2,
     primaryColorHover,
@@ -18826,7 +18826,7 @@ function self$a(vars) {
 const tagLight = {
   name: "Tag",
   common: derived,
-  self: self$a
+  self: self$9
 };
 const commonProps = {
   color: Object,
@@ -18845,7 +18845,7 @@ const commonProps = {
     default: void 0
   }
 };
-const style$9 = cB("tag", `
+const style$8 = cB("tag", `
  --n-close-margin: var(--n-close-margin-top) var(--n-close-margin-right) var(--n-close-margin-bottom) var(--n-close-margin-left);
  white-space: nowrap;
  position: relative;
@@ -18954,7 +18954,7 @@ const __unplugin_components_0$3 = /* @__PURE__ */ defineComponent({
       inlineThemeDisabled,
       mergedRtlRef
     } = useConfig(props);
-    const themeRef = useTheme("Tag", "-tag", style$9, tagLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Tag", "-tag", style$8, tagLight, props, mergedClsPrefixRef);
     provide(tagInjectionKey, {
       roundRef: toRef(props, "round")
     });
@@ -19167,7 +19167,7 @@ const __unplugin_components_0$3 = /* @__PURE__ */ defineComponent({
     }) : null);
   }
 });
-const style$8 = cB("base-clear", `
+const style$7 = cB("base-clear", `
  flex-shrink: 0;
  height: 1em;
  width: 1em;
@@ -19207,7 +19207,7 @@ const NBaseClear = /* @__PURE__ */ defineComponent({
     onClear: Function
   },
   setup(props) {
-    useStyle("-base-clear", style$8, toRef(props, "clsPrefix"));
+    useStyle("-base-clear", style$7, toRef(props, "clsPrefix"));
     return {
       handleMouseDown(e) {
         e.preventDefault();
@@ -19292,116 +19292,6 @@ const NBaseSuffix = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const commonVars$1 = {
-  iconMargin: "11px 8px 0 12px",
-  iconMarginRtl: "11px 12px 0 8px",
-  iconSize: "24px",
-  closeIconSize: "16px",
-  closeSize: "20px",
-  closeMargin: "13px 14px 0 0",
-  closeMarginRtl: "13px 0 0 14px",
-  padding: "13px"
-};
-function self$9(vars) {
-  const {
-    lineHeight: lineHeight2,
-    borderRadius,
-    fontWeightStrong,
-    baseColor,
-    dividerColor,
-    actionColor,
-    textColor1,
-    textColor2,
-    closeColorHover,
-    closeColorPressed,
-    closeIconColor,
-    closeIconColorHover,
-    closeIconColorPressed,
-    infoColor,
-    successColor,
-    warningColor,
-    errorColor,
-    fontSize: fontSize2
-  } = vars;
-  return Object.assign(Object.assign({}, commonVars$1), {
-    fontSize: fontSize2,
-    lineHeight: lineHeight2,
-    titleFontWeight: fontWeightStrong,
-    borderRadius,
-    border: `1px solid ${dividerColor}`,
-    color: actionColor,
-    titleTextColor: textColor1,
-    iconColor: textColor2,
-    contentTextColor: textColor2,
-    closeBorderRadius: borderRadius,
-    closeColorHover,
-    closeColorPressed,
-    closeIconColor,
-    closeIconColorHover,
-    closeIconColorPressed,
-    borderInfo: `1px solid ${composite(baseColor, changeColor(infoColor, {
-      alpha: 0.25
-    }))}`,
-    colorInfo: composite(baseColor, changeColor(infoColor, {
-      alpha: 0.08
-    })),
-    titleTextColorInfo: textColor1,
-    iconColorInfo: infoColor,
-    contentTextColorInfo: textColor2,
-    closeColorHoverInfo: closeColorHover,
-    closeColorPressedInfo: closeColorPressed,
-    closeIconColorInfo: closeIconColor,
-    closeIconColorHoverInfo: closeIconColorHover,
-    closeIconColorPressedInfo: closeIconColorPressed,
-    borderSuccess: `1px solid ${composite(baseColor, changeColor(successColor, {
-      alpha: 0.25
-    }))}`,
-    colorSuccess: composite(baseColor, changeColor(successColor, {
-      alpha: 0.08
-    })),
-    titleTextColorSuccess: textColor1,
-    iconColorSuccess: successColor,
-    contentTextColorSuccess: textColor2,
-    closeColorHoverSuccess: closeColorHover,
-    closeColorPressedSuccess: closeColorPressed,
-    closeIconColorSuccess: closeIconColor,
-    closeIconColorHoverSuccess: closeIconColorHover,
-    closeIconColorPressedSuccess: closeIconColorPressed,
-    borderWarning: `1px solid ${composite(baseColor, changeColor(warningColor, {
-      alpha: 0.33
-    }))}`,
-    colorWarning: composite(baseColor, changeColor(warningColor, {
-      alpha: 0.08
-    })),
-    titleTextColorWarning: textColor1,
-    iconColorWarning: warningColor,
-    contentTextColorWarning: textColor2,
-    closeColorHoverWarning: closeColorHover,
-    closeColorPressedWarning: closeColorPressed,
-    closeIconColorWarning: closeIconColor,
-    closeIconColorHoverWarning: closeIconColorHover,
-    closeIconColorPressedWarning: closeIconColorPressed,
-    borderError: `1px solid ${composite(baseColor, changeColor(errorColor, {
-      alpha: 0.25
-    }))}`,
-    colorError: composite(baseColor, changeColor(errorColor, {
-      alpha: 0.08
-    })),
-    titleTextColorError: textColor1,
-    iconColorError: errorColor,
-    contentTextColorError: textColor2,
-    closeColorHoverError: closeColorHover,
-    closeColorPressedError: closeColorPressed,
-    closeIconColorError: closeIconColor,
-    closeIconColorHoverError: closeIconColorHover,
-    closeIconColorPressedError: closeIconColorPressed
-  });
-}
-const alertLight = {
-  name: "Alert",
-  common: derived,
-  self: self$9
-};
 const {
   cubicBezierEaseInOut,
   cubicBezierEaseOut,
@@ -19451,285 +19341,6 @@ function fadeInHeightExpandTransition({
  ${originalTransition ? `,${originalTransition}` : ""}
  `)];
 }
-const style$7 = cB("alert", `
- line-height: var(--n-line-height);
- border-radius: var(--n-border-radius);
- position: relative;
- transition: background-color .3s var(--n-bezier);
- background-color: var(--n-color);
- text-align: start;
- word-break: break-word;
-`, [
-  cE("border", `
- border-radius: inherit;
- position: absolute;
- left: 0;
- right: 0;
- top: 0;
- bottom: 0;
- transition: border-color .3s var(--n-bezier);
- border: var(--n-border);
- pointer-events: none;
- `),
-  cM("closable", [cB("alert-body", [cE("title", `
- padding-right: 24px;
- `)])]),
-  cE("icon", {
-    color: "var(--n-icon-color)"
-  }),
-  cB("alert-body", {
-    padding: "var(--n-padding)"
-  }, [cE("title", {
-    color: "var(--n-title-text-color)"
-  }), cE("content", {
-    color: "var(--n-content-text-color)"
-  })]),
-  fadeInHeightExpandTransition({
-    originalTransition: "transform .3s var(--n-bezier)",
-    enterToProps: {
-      transform: "scale(1)"
-    },
-    leaveToProps: {
-      transform: "scale(0.9)"
-    }
-  }),
-  cE("icon", `
- position: absolute;
- left: 0;
- top: 0;
- align-items: center;
- justify-content: center;
- display: flex;
- width: var(--n-icon-size);
- height: var(--n-icon-size);
- font-size: var(--n-icon-size);
- margin: var(--n-icon-margin);
- `),
-  cE("close", `
- transition:
- color .3s var(--n-bezier),
- background-color .3s var(--n-bezier);
- position: absolute;
- right: 0;
- top: 0;
- margin: var(--n-close-margin);
- `),
-  cM("show-icon", [cB("alert-body", {
-    paddingLeft: "calc(var(--n-icon-margin-left) + var(--n-icon-size) + var(--n-icon-margin-right))"
-  })]),
-  // fix: https://github.com/tusen-ai/naive-ui/issues/4588
-  cM("right-adjust", [cB("alert-body", {
-    paddingRight: "calc(var(--n-close-size) + var(--n-padding) + 2px)"
-  })]),
-  cB("alert-body", `
- border-radius: var(--n-border-radius);
- transition: border-color .3s var(--n-bezier);
- `, [cE("title", `
- transition: color .3s var(--n-bezier);
- font-size: 16px;
- line-height: 19px;
- font-weight: var(--n-title-font-weight);
- `, [c$1("& +", [cE("content", {
-    marginTop: "9px"
-  })])]), cE("content", {
-    transition: "color .3s var(--n-bezier)",
-    fontSize: "var(--n-font-size)"
-  })]),
-  cE("icon", {
-    transition: "color .3s var(--n-bezier)"
-  })
-]);
-const alertProps = Object.assign(Object.assign({}, useTheme.props), {
-  title: String,
-  showIcon: {
-    type: Boolean,
-    default: true
-  },
-  type: {
-    type: String,
-    default: "default"
-  },
-  bordered: {
-    type: Boolean,
-    default: true
-  },
-  closable: Boolean,
-  onClose: Function,
-  onAfterLeave: Function,
-  /** @deprecated */
-  onAfterHide: Function
-});
-const NAlert = /* @__PURE__ */ defineComponent({
-  name: "Alert",
-  inheritAttrs: false,
-  props: alertProps,
-  setup(props) {
-    const {
-      mergedClsPrefixRef,
-      mergedBorderedRef,
-      inlineThemeDisabled,
-      mergedRtlRef
-    } = useConfig(props);
-    const themeRef = useTheme("Alert", "-alert", style$7, alertLight, props, mergedClsPrefixRef);
-    const rtlEnabledRef = useRtl("Alert", mergedRtlRef, mergedClsPrefixRef);
-    const cssVarsRef = computed(() => {
-      const {
-        common: {
-          cubicBezierEaseInOut: cubicBezierEaseInOut2
-        },
-        self: self2
-      } = themeRef.value;
-      const {
-        fontSize: fontSize2,
-        borderRadius,
-        titleFontWeight,
-        lineHeight: lineHeight2,
-        iconSize,
-        iconMargin,
-        iconMarginRtl,
-        closeIconSize,
-        closeBorderRadius,
-        closeSize,
-        closeMargin,
-        closeMarginRtl,
-        padding
-      } = self2;
-      const {
-        type
-      } = props;
-      const {
-        left,
-        right
-      } = getMargin(iconMargin);
-      return {
-        "--n-bezier": cubicBezierEaseInOut2,
-        "--n-color": self2[createKey("color", type)],
-        "--n-close-icon-size": closeIconSize,
-        "--n-close-border-radius": closeBorderRadius,
-        "--n-close-color-hover": self2[createKey("closeColorHover", type)],
-        "--n-close-color-pressed": self2[createKey("closeColorPressed", type)],
-        "--n-close-icon-color": self2[createKey("closeIconColor", type)],
-        "--n-close-icon-color-hover": self2[createKey("closeIconColorHover", type)],
-        "--n-close-icon-color-pressed": self2[createKey("closeIconColorPressed", type)],
-        "--n-icon-color": self2[createKey("iconColor", type)],
-        "--n-border": self2[createKey("border", type)],
-        "--n-title-text-color": self2[createKey("titleTextColor", type)],
-        "--n-content-text-color": self2[createKey("contentTextColor", type)],
-        "--n-line-height": lineHeight2,
-        "--n-border-radius": borderRadius,
-        "--n-font-size": fontSize2,
-        "--n-title-font-weight": titleFontWeight,
-        "--n-icon-size": iconSize,
-        "--n-icon-margin": iconMargin,
-        "--n-icon-margin-rtl": iconMarginRtl,
-        "--n-close-size": closeSize,
-        "--n-close-margin": closeMargin,
-        "--n-close-margin-rtl": closeMarginRtl,
-        "--n-padding": padding,
-        "--n-icon-margin-left": left,
-        "--n-icon-margin-right": right
-      };
-    });
-    const themeClassHandle = inlineThemeDisabled ? useThemeClass("alert", computed(() => {
-      return props.type[0];
-    }), cssVarsRef, props) : void 0;
-    const visibleRef = ref(true);
-    const doAfterLeave = () => {
-      const {
-        onAfterLeave,
-        onAfterHide
-        // deprecated
-      } = props;
-      if (onAfterLeave) onAfterLeave();
-      if (onAfterHide) onAfterHide();
-    };
-    const handleCloseClick = () => {
-      var _a;
-      void Promise.resolve((_a = props.onClose) === null || _a === void 0 ? void 0 : _a.call(props)).then((result) => {
-        if (result === false) return;
-        visibleRef.value = false;
-      });
-    };
-    const handleAfterLeave = () => {
-      doAfterLeave();
-    };
-    return {
-      rtlEnabled: rtlEnabledRef,
-      mergedClsPrefix: mergedClsPrefixRef,
-      mergedBordered: mergedBorderedRef,
-      visible: visibleRef,
-      handleCloseClick,
-      handleAfterLeave,
-      mergedTheme: themeRef,
-      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
-      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
-      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
-    };
-  },
-  render() {
-    var _a;
-    (_a = this.onRender) === null || _a === void 0 ? void 0 : _a.call(this);
-    return h(NFadeInExpandTransition, {
-      onAfterLeave: this.handleAfterLeave
-    }, {
-      default: () => {
-        const {
-          mergedClsPrefix,
-          $slots
-        } = this;
-        const attrs = {
-          class: [
-            `${mergedClsPrefix}-alert`,
-            this.themeClass,
-            this.closable && `${mergedClsPrefix}-alert--closable`,
-            this.showIcon && `${mergedClsPrefix}-alert--show-icon`,
-            // fix: https://github.com/tusen-ai/naive-ui/issues/4588
-            !this.title && this.closable && `${mergedClsPrefix}-alert--right-adjust`,
-            this.rtlEnabled && `${mergedClsPrefix}-alert--rtl`
-          ],
-          style: this.cssVars,
-          role: "alert"
-        };
-        return this.visible ? h("div", Object.assign({}, mergeProps(this.$attrs, attrs)), this.closable && h(NBaseClose, {
-          clsPrefix: mergedClsPrefix,
-          class: `${mergedClsPrefix}-alert__close`,
-          onClick: this.handleCloseClick
-        }), this.bordered && h("div", {
-          class: `${mergedClsPrefix}-alert__border`
-        }), this.showIcon && h("div", {
-          class: `${mergedClsPrefix}-alert__icon`,
-          "aria-hidden": "true"
-        }, resolveSlot($slots.icon, () => [h(NBaseIcon, {
-          clsPrefix: mergedClsPrefix
-        }, {
-          default: () => {
-            switch (this.type) {
-              case "success":
-                return h(SuccessIcon, null);
-              case "info":
-                return h(InfoIcon, null);
-              case "warning":
-                return h(WarningIcon, null);
-              case "error":
-                return h(ErrorIcon, null);
-              default:
-                return null;
-            }
-          }
-        })])), h("div", {
-          class: [`${mergedClsPrefix}-alert-body`, this.mergedBordered && `${mergedClsPrefix}-alert-body--bordered`]
-        }, resolveWrappedSlot($slots.header, (children) => {
-          const mergedChildren = children || this.title;
-          return mergedChildren ? h("div", {
-            class: `${mergedClsPrefix}-alert-body__title`
-          }, mergedChildren) : null;
-        }), $slots.default && h("div", {
-          class: `${mergedClsPrefix}-alert-body__content`
-        }, $slots))) : null;
-      }
-    });
-  }
-});
 const isChrome = isBrowser$2 && "chrome" in window;
 isBrowser$2 && navigator.userAgent.includes("Firefox");
 const isSafari = isBrowser$2 && navigator.userAgent.includes("Safari") && !isChrome;
@@ -25224,7 +24835,7 @@ const NMessage = /* @__PURE__ */ defineComponent({
   },
   render() {
     const {
-      render: renderMessage2,
+      render: renderMessage,
       type,
       closable,
       content,
@@ -25245,7 +24856,7 @@ const NMessage = /* @__PURE__ */ defineComponent({
       style: [{
         alignItems: this.placement.startsWith("top") ? "flex-start" : "flex-end"
       }, cssVars]
-    }, renderMessage2 ? renderMessage2(this.$props) : h("div", {
+    }, renderMessage ? renderMessage(this.$props) : h("div", {
       class: [`${mergedClsPrefix}-message ${mergedClsPrefix}-message--${type}-type`, this.rtlEnabled && `${mergedClsPrefix}-message--rtl`]
     }, (iconNode = createIconVNode(icon, type, mergedClsPrefix)) && showIcon ? h("div", {
       class: `${mergedClsPrefix}-message__icon ${mergedClsPrefix}-message__icon--${type}-type`
@@ -35667,40 +35278,17 @@ function mixColor(colorA, colorB, weight = 0.5, needRaw = false, lighter = false
 function windowBack() {
   window.history.back();
 }
-function renderMessage(props) {
-  let { type } = props;
-  return h(
-    NAlert,
-    {
-      closable: props.closable,
-      onClose: props.onClose,
-      type: type === "loading" ? "default" : type,
-      title: props.title,
-      style: {
-        boxShadow: "var(--n-box-shadow)",
-        maxWidth: "calc(100vw - 32px)"
-      }
-    },
-    {
-      default: () => props.content
-    }
-  );
-}
 function error(message) {
-  let sad = ["(>_<)", "Σ(°ロ°)", "(つ﹏⊂)", "（・□・；）", "(o.O)", "(#｀皿´)", "ヽ(≧Д≦)ノ", "（＞д＜）"];
-  let title = sad[random(0, sad.length - 1)];
   console.error("[error]", message);
-  window.$message.error(message, {
-    render: (props) => renderMessage({ ...props, title }),
+  window.$NMessageApi.error(message, {
+    // render: (props) => renderMessage({ ...props, title }),
     closable: true,
-    duration: 3e4
+    duration: 6e4
   });
 }
 function success(message) {
-  let happy = ["o(≧▽≦)o", "(* ^ ω ^)", "(´｡• ω •｡`)", "ヽ(・∀・)ﾉ", "＼(≧▽≦)／", "ヽ(o＾▽＾o)ノ", "(^ヮ^)/", "(´• ω •`)", "(..＞◡＜..)"];
-  let title = happy[random(0, happy.length - 1)];
-  window.$message.success(message, {
-    render: (props) => renderMessage({ ...props, title }),
+  window.$NMessageApi.success(message, {
+    // render: (props) => renderMessage({ ...props, title }),
     closable: false,
     duration: 1500
   });
@@ -36647,16 +36235,652 @@ const usePlayStore = defineStore("play", () => {
     musicChanged
   };
 });
+function bound01(n2, max) {
+  if (isOnePointZero(n2)) {
+    n2 = "100%";
+  }
+  var isPercent = isPercentage(n2);
+  n2 = max === 360 ? n2 : Math.min(max, Math.max(0, parseFloat(n2)));
+  if (isPercent) {
+    n2 = parseInt(String(n2 * max), 10) / 100;
+  }
+  if (Math.abs(n2 - max) < 1e-6) {
+    return 1;
+  }
+  if (max === 360) {
+    n2 = (n2 < 0 ? n2 % max + max : n2 % max) / parseFloat(String(max));
+  } else {
+    n2 = n2 % max / parseFloat(String(max));
+  }
+  return n2;
+}
+function isOnePointZero(n2) {
+  return typeof n2 === "string" && n2.indexOf(".") !== -1 && parseFloat(n2) === 1;
+}
+function isPercentage(n2) {
+  return typeof n2 === "string" && n2.indexOf("%") !== -1;
+}
+function boundAlpha(a) {
+  a = parseFloat(a);
+  if (isNaN(a) || a < 0 || a > 1) {
+    a = 1;
+  }
+  return a;
+}
+function convertToPercentage(n2) {
+  if (n2 <= 1) {
+    return "".concat(Number(n2) * 100, "%");
+  }
+  return n2;
+}
+function pad2(c2) {
+  return c2.length === 1 ? "0" + c2 : String(c2);
+}
+function rgbToRgb(r2, g, b) {
+  return {
+    r: bound01(r2, 255) * 255,
+    g: bound01(g, 255) * 255,
+    b: bound01(b, 255) * 255
+  };
+}
+function hue2rgb(p2, q, t2) {
+  if (t2 < 0) {
+    t2 += 1;
+  }
+  if (t2 > 1) {
+    t2 -= 1;
+  }
+  if (t2 < 1 / 6) {
+    return p2 + (q - p2) * (6 * t2);
+  }
+  if (t2 < 1 / 2) {
+    return q;
+  }
+  if (t2 < 2 / 3) {
+    return p2 + (q - p2) * (2 / 3 - t2) * 6;
+  }
+  return p2;
+}
+function hslToRgb(h2, s, l) {
+  var r2;
+  var g;
+  var b;
+  h2 = bound01(h2, 360);
+  s = bound01(s, 100);
+  l = bound01(l, 100);
+  if (s === 0) {
+    g = l;
+    b = l;
+    r2 = l;
+  } else {
+    var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+    var p2 = 2 * l - q;
+    r2 = hue2rgb(p2, q, h2 + 1 / 3);
+    g = hue2rgb(p2, q, h2);
+    b = hue2rgb(p2, q, h2 - 1 / 3);
+  }
+  return { r: r2 * 255, g: g * 255, b: b * 255 };
+}
+function rgbToHsv(r2, g, b) {
+  r2 = bound01(r2, 255);
+  g = bound01(g, 255);
+  b = bound01(b, 255);
+  var max = Math.max(r2, g, b);
+  var min = Math.min(r2, g, b);
+  var h2 = 0;
+  var v = max;
+  var d = max - min;
+  var s = max === 0 ? 0 : d / max;
+  if (max === min) {
+    h2 = 0;
+  } else {
+    switch (max) {
+      case r2:
+        h2 = (g - b) / d + (g < b ? 6 : 0);
+        break;
+      case g:
+        h2 = (b - r2) / d + 2;
+        break;
+      case b:
+        h2 = (r2 - g) / d + 4;
+        break;
+    }
+    h2 /= 6;
+  }
+  return { h: h2, s, v };
+}
+function hsvToRgb(h2, s, v) {
+  h2 = bound01(h2, 360) * 6;
+  s = bound01(s, 100);
+  v = bound01(v, 100);
+  var i2 = Math.floor(h2);
+  var f = h2 - i2;
+  var p2 = v * (1 - s);
+  var q = v * (1 - f * s);
+  var t2 = v * (1 - (1 - f) * s);
+  var mod = i2 % 6;
+  var r2 = [v, q, p2, p2, t2, v][mod];
+  var g = [t2, v, v, q, p2, p2][mod];
+  var b = [p2, p2, t2, v, v, q][mod];
+  return { r: r2 * 255, g: g * 255, b: b * 255 };
+}
+function rgbToHex(r2, g, b, allow3Char) {
+  var hex2 = [
+    pad2(Math.round(r2).toString(16)),
+    pad2(Math.round(g).toString(16)),
+    pad2(Math.round(b).toString(16))
+  ];
+  return hex2.join("");
+}
+function convertHexToDecimal(h2) {
+  return parseIntFromHex(h2) / 255;
+}
+function parseIntFromHex(val) {
+  return parseInt(val, 16);
+}
+var names = {
+  aliceblue: "#f0f8ff",
+  antiquewhite: "#faebd7",
+  aqua: "#00ffff",
+  aquamarine: "#7fffd4",
+  azure: "#f0ffff",
+  beige: "#f5f5dc",
+  bisque: "#ffe4c4",
+  black: "#000000",
+  blanchedalmond: "#ffebcd",
+  blue: "#0000ff",
+  blueviolet: "#8a2be2",
+  brown: "#a52a2a",
+  burlywood: "#deb887",
+  cadetblue: "#5f9ea0",
+  chartreuse: "#7fff00",
+  chocolate: "#d2691e",
+  coral: "#ff7f50",
+  cornflowerblue: "#6495ed",
+  cornsilk: "#fff8dc",
+  crimson: "#dc143c",
+  cyan: "#00ffff",
+  darkblue: "#00008b",
+  darkcyan: "#008b8b",
+  darkgoldenrod: "#b8860b",
+  darkgray: "#a9a9a9",
+  darkgreen: "#006400",
+  darkgrey: "#a9a9a9",
+  darkkhaki: "#bdb76b",
+  darkmagenta: "#8b008b",
+  darkolivegreen: "#556b2f",
+  darkorange: "#ff8c00",
+  darkorchid: "#9932cc",
+  darkred: "#8b0000",
+  darksalmon: "#e9967a",
+  darkseagreen: "#8fbc8f",
+  darkslateblue: "#483d8b",
+  darkslategray: "#2f4f4f",
+  darkslategrey: "#2f4f4f",
+  darkturquoise: "#00ced1",
+  darkviolet: "#9400d3",
+  deeppink: "#ff1493",
+  deepskyblue: "#00bfff",
+  dimgray: "#696969",
+  dimgrey: "#696969",
+  dodgerblue: "#1e90ff",
+  firebrick: "#b22222",
+  floralwhite: "#fffaf0",
+  forestgreen: "#228b22",
+  fuchsia: "#ff00ff",
+  gainsboro: "#dcdcdc",
+  ghostwhite: "#f8f8ff",
+  goldenrod: "#daa520",
+  gold: "#ffd700",
+  gray: "#808080",
+  green: "#008000",
+  greenyellow: "#adff2f",
+  grey: "#808080",
+  honeydew: "#f0fff0",
+  hotpink: "#ff69b4",
+  indianred: "#cd5c5c",
+  indigo: "#4b0082",
+  ivory: "#fffff0",
+  khaki: "#f0e68c",
+  lavenderblush: "#fff0f5",
+  lavender: "#e6e6fa",
+  lawngreen: "#7cfc00",
+  lemonchiffon: "#fffacd",
+  lightblue: "#add8e6",
+  lightcoral: "#f08080",
+  lightcyan: "#e0ffff",
+  lightgoldenrodyellow: "#fafad2",
+  lightgray: "#d3d3d3",
+  lightgreen: "#90ee90",
+  lightgrey: "#d3d3d3",
+  lightpink: "#ffb6c1",
+  lightsalmon: "#ffa07a",
+  lightseagreen: "#20b2aa",
+  lightskyblue: "#87cefa",
+  lightslategray: "#778899",
+  lightslategrey: "#778899",
+  lightsteelblue: "#b0c4de",
+  lightyellow: "#ffffe0",
+  lime: "#00ff00",
+  limegreen: "#32cd32",
+  linen: "#faf0e6",
+  magenta: "#ff00ff",
+  maroon: "#800000",
+  mediumaquamarine: "#66cdaa",
+  mediumblue: "#0000cd",
+  mediumorchid: "#ba55d3",
+  mediumpurple: "#9370db",
+  mediumseagreen: "#3cb371",
+  mediumslateblue: "#7b68ee",
+  mediumspringgreen: "#00fa9a",
+  mediumturquoise: "#48d1cc",
+  mediumvioletred: "#c71585",
+  midnightblue: "#191970",
+  mintcream: "#f5fffa",
+  mistyrose: "#ffe4e1",
+  moccasin: "#ffe4b5",
+  navajowhite: "#ffdead",
+  navy: "#000080",
+  oldlace: "#fdf5e6",
+  olive: "#808000",
+  olivedrab: "#6b8e23",
+  orange: "#ffa500",
+  orangered: "#ff4500",
+  orchid: "#da70d6",
+  palegoldenrod: "#eee8aa",
+  palegreen: "#98fb98",
+  paleturquoise: "#afeeee",
+  palevioletred: "#db7093",
+  papayawhip: "#ffefd5",
+  peachpuff: "#ffdab9",
+  peru: "#cd853f",
+  pink: "#ffc0cb",
+  plum: "#dda0dd",
+  powderblue: "#b0e0e6",
+  purple: "#800080",
+  rebeccapurple: "#663399",
+  red: "#ff0000",
+  rosybrown: "#bc8f8f",
+  royalblue: "#4169e1",
+  saddlebrown: "#8b4513",
+  salmon: "#fa8072",
+  sandybrown: "#f4a460",
+  seagreen: "#2e8b57",
+  seashell: "#fff5ee",
+  sienna: "#a0522d",
+  silver: "#c0c0c0",
+  skyblue: "#87ceeb",
+  slateblue: "#6a5acd",
+  slategray: "#708090",
+  slategrey: "#708090",
+  snow: "#fffafa",
+  springgreen: "#00ff7f",
+  steelblue: "#4682b4",
+  tan: "#d2b48c",
+  teal: "#008080",
+  thistle: "#d8bfd8",
+  tomato: "#ff6347",
+  turquoise: "#40e0d0",
+  violet: "#ee82ee",
+  wheat: "#f5deb3",
+  white: "#ffffff",
+  whitesmoke: "#f5f5f5",
+  yellow: "#ffff00",
+  yellowgreen: "#9acd32"
+};
+function inputToRGB(color) {
+  var rgb = { r: 0, g: 0, b: 0 };
+  var a = 1;
+  var s = null;
+  var v = null;
+  var l = null;
+  var ok = false;
+  var format = false;
+  if (typeof color === "string") {
+    color = stringInputToObject(color);
+  }
+  if (typeof color === "object") {
+    if (isValidCSSUnit(color.r) && isValidCSSUnit(color.g) && isValidCSSUnit(color.b)) {
+      rgb = rgbToRgb(color.r, color.g, color.b);
+      ok = true;
+      format = String(color.r).substr(-1) === "%" ? "prgb" : "rgb";
+    } else if (isValidCSSUnit(color.h) && isValidCSSUnit(color.s) && isValidCSSUnit(color.v)) {
+      s = convertToPercentage(color.s);
+      v = convertToPercentage(color.v);
+      rgb = hsvToRgb(color.h, s, v);
+      ok = true;
+      format = "hsv";
+    } else if (isValidCSSUnit(color.h) && isValidCSSUnit(color.s) && isValidCSSUnit(color.l)) {
+      s = convertToPercentage(color.s);
+      l = convertToPercentage(color.l);
+      rgb = hslToRgb(color.h, s, l);
+      ok = true;
+      format = "hsl";
+    }
+    if (Object.prototype.hasOwnProperty.call(color, "a")) {
+      a = color.a;
+    }
+  }
+  a = boundAlpha(a);
+  return {
+    ok,
+    format: color.format || format,
+    r: Math.min(255, Math.max(rgb.r, 0)),
+    g: Math.min(255, Math.max(rgb.g, 0)),
+    b: Math.min(255, Math.max(rgb.b, 0)),
+    a
+  };
+}
+var CSS_INTEGER = "[-\\+]?\\d+%?";
+var CSS_NUMBER = "[-\\+]?\\d*\\.\\d+%?";
+var CSS_UNIT = "(?:".concat(CSS_NUMBER, ")|(?:").concat(CSS_INTEGER, ")");
+var PERMISSIVE_MATCH3 = "[\\s|\\(]+(".concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")\\s*\\)?");
+var PERMISSIVE_MATCH4 = "[\\s|\\(]+(".concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")\\s*\\)?");
+var matchers = {
+  CSS_UNIT: new RegExp(CSS_UNIT),
+  rgb: new RegExp("rgb" + PERMISSIVE_MATCH3),
+  rgba: new RegExp("rgba" + PERMISSIVE_MATCH4),
+  hsl: new RegExp("hsl" + PERMISSIVE_MATCH3),
+  hsla: new RegExp("hsla" + PERMISSIVE_MATCH4),
+  hsv: new RegExp("hsv" + PERMISSIVE_MATCH3),
+  hsva: new RegExp("hsva" + PERMISSIVE_MATCH4),
+  hex3: /^#?([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/,
+  hex6: /^#?([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})$/,
+  hex4: /^#?([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/,
+  hex8: /^#?([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})$/
+};
+function stringInputToObject(color) {
+  color = color.trim().toLowerCase();
+  if (color.length === 0) {
+    return false;
+  }
+  var named = false;
+  if (names[color]) {
+    color = names[color];
+    named = true;
+  } else if (color === "transparent") {
+    return { r: 0, g: 0, b: 0, a: 0, format: "name" };
+  }
+  var match2 = matchers.rgb.exec(color);
+  if (match2) {
+    return { r: match2[1], g: match2[2], b: match2[3] };
+  }
+  match2 = matchers.rgba.exec(color);
+  if (match2) {
+    return { r: match2[1], g: match2[2], b: match2[3], a: match2[4] };
+  }
+  match2 = matchers.hsl.exec(color);
+  if (match2) {
+    return { h: match2[1], s: match2[2], l: match2[3] };
+  }
+  match2 = matchers.hsla.exec(color);
+  if (match2) {
+    return { h: match2[1], s: match2[2], l: match2[3], a: match2[4] };
+  }
+  match2 = matchers.hsv.exec(color);
+  if (match2) {
+    return { h: match2[1], s: match2[2], v: match2[3] };
+  }
+  match2 = matchers.hsva.exec(color);
+  if (match2) {
+    return { h: match2[1], s: match2[2], v: match2[3], a: match2[4] };
+  }
+  match2 = matchers.hex8.exec(color);
+  if (match2) {
+    return {
+      r: parseIntFromHex(match2[1]),
+      g: parseIntFromHex(match2[2]),
+      b: parseIntFromHex(match2[3]),
+      a: convertHexToDecimal(match2[4]),
+      format: named ? "name" : "hex8"
+    };
+  }
+  match2 = matchers.hex6.exec(color);
+  if (match2) {
+    return {
+      r: parseIntFromHex(match2[1]),
+      g: parseIntFromHex(match2[2]),
+      b: parseIntFromHex(match2[3]),
+      format: named ? "name" : "hex"
+    };
+  }
+  match2 = matchers.hex4.exec(color);
+  if (match2) {
+    return {
+      r: parseIntFromHex(match2[1] + match2[1]),
+      g: parseIntFromHex(match2[2] + match2[2]),
+      b: parseIntFromHex(match2[3] + match2[3]),
+      a: convertHexToDecimal(match2[4] + match2[4]),
+      format: named ? "name" : "hex8"
+    };
+  }
+  match2 = matchers.hex3.exec(color);
+  if (match2) {
+    return {
+      r: parseIntFromHex(match2[1] + match2[1]),
+      g: parseIntFromHex(match2[2] + match2[2]),
+      b: parseIntFromHex(match2[3] + match2[3]),
+      format: named ? "name" : "hex"
+    };
+  }
+  return false;
+}
+function isValidCSSUnit(color) {
+  return Boolean(matchers.CSS_UNIT.exec(String(color)));
+}
+var hueStep = 2;
+var saturationStep = 0.16;
+var saturationStep2 = 0.05;
+var brightnessStep1 = 0.05;
+var brightnessStep2 = 0.15;
+var lightColorCount = 5;
+var darkColorCount = 4;
+var darkColorMap = [{
+  index: 7,
+  opacity: 0.15
+}, {
+  index: 6,
+  opacity: 0.25
+}, {
+  index: 5,
+  opacity: 0.3
+}, {
+  index: 5,
+  opacity: 0.45
+}, {
+  index: 5,
+  opacity: 0.65
+}, {
+  index: 5,
+  opacity: 0.85
+}, {
+  index: 4,
+  opacity: 0.9
+}, {
+  index: 3,
+  opacity: 0.95
+}, {
+  index: 2,
+  opacity: 0.97
+}, {
+  index: 1,
+  opacity: 0.98
+}];
+function toHsv(_ref) {
+  var r2 = _ref.r, g = _ref.g, b = _ref.b;
+  var hsv = rgbToHsv(r2, g, b);
+  return {
+    h: hsv.h * 360,
+    s: hsv.s,
+    v: hsv.v
+  };
+}
+function toHex(_ref2) {
+  var r2 = _ref2.r, g = _ref2.g, b = _ref2.b;
+  return "#".concat(rgbToHex(r2, g, b));
+}
+function mix(rgb1, rgb2, amount) {
+  var p2 = amount / 100;
+  var rgb = {
+    r: (rgb2.r - rgb1.r) * p2 + rgb1.r,
+    g: (rgb2.g - rgb1.g) * p2 + rgb1.g,
+    b: (rgb2.b - rgb1.b) * p2 + rgb1.b
+  };
+  return rgb;
+}
+function getHue(hsv, i2, light) {
+  var hue;
+  if (Math.round(hsv.h) >= 60 && Math.round(hsv.h) <= 240) {
+    hue = light ? Math.round(hsv.h) - hueStep * i2 : Math.round(hsv.h) + hueStep * i2;
+  } else {
+    hue = light ? Math.round(hsv.h) + hueStep * i2 : Math.round(hsv.h) - hueStep * i2;
+  }
+  if (hue < 0) {
+    hue += 360;
+  } else if (hue >= 360) {
+    hue -= 360;
+  }
+  return hue;
+}
+function getSaturation(hsv, i2, light) {
+  if (hsv.h === 0 && hsv.s === 0) {
+    return hsv.s;
+  }
+  var saturation;
+  if (light) {
+    saturation = hsv.s - saturationStep * i2;
+  } else if (i2 === darkColorCount) {
+    saturation = hsv.s + saturationStep;
+  } else {
+    saturation = hsv.s + saturationStep2 * i2;
+  }
+  if (saturation > 1) {
+    saturation = 1;
+  }
+  if (light && i2 === lightColorCount && saturation > 0.1) {
+    saturation = 0.1;
+  }
+  if (saturation < 0.06) {
+    saturation = 0.06;
+  }
+  return Number(saturation.toFixed(2));
+}
+function getValue(hsv, i2, light) {
+  var value;
+  if (light) {
+    value = hsv.v + brightnessStep1 * i2;
+  } else {
+    value = hsv.v - brightnessStep2 * i2;
+  }
+  if (value > 1) {
+    value = 1;
+  }
+  return Number(value.toFixed(2));
+}
+function generate(color) {
+  var opts = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
+  var patterns = [];
+  var pColor = inputToRGB(color);
+  for (var i2 = lightColorCount; i2 > 0; i2 -= 1) {
+    var hsv = toHsv(pColor);
+    var colorString = toHex(inputToRGB({
+      h: getHue(hsv, i2, true),
+      s: getSaturation(hsv, i2, true),
+      v: getValue(hsv, i2, true)
+    }));
+    patterns.push(colorString);
+  }
+  patterns.push(toHex(pColor));
+  for (var _i = 1; _i <= darkColorCount; _i += 1) {
+    var _hsv = toHsv(pColor);
+    var _colorString = toHex(inputToRGB({
+      h: getHue(_hsv, _i),
+      s: getSaturation(_hsv, _i),
+      v: getValue(_hsv, _i)
+    }));
+    patterns.push(_colorString);
+  }
+  if (opts.theme === "dark") {
+    return darkColorMap.map(function(_ref3) {
+      var index = _ref3.index, opacity = _ref3.opacity;
+      var darkColorString = toHex(mix(inputToRGB(opts.backgroundColor || "#141414"), inputToRGB(patterns[index]), opacity * 100));
+      return darkColorString;
+    });
+  }
+  return patterns;
+}
+function mitt(n2) {
+  return { all: n2 = n2 || /* @__PURE__ */ new Map(), on: function(t2, e) {
+    var i2 = n2.get(t2);
+    i2 ? i2.push(e) : n2.set(t2, [e]);
+  }, off: function(t2, e) {
+    var i2 = n2.get(t2);
+    i2 && (e ? i2.splice(i2.indexOf(e) >>> 0, 1) : n2.set(t2, []));
+  }, emit: function(t2, e) {
+    var i2 = n2.get(t2);
+    i2 && i2.slice().map(function(n3) {
+      n3(e);
+    }), (i2 = n2.get("*")) && i2.slice().map(function(n3) {
+      n3(t2, e);
+    });
+  } };
+}
+const emitter = mitt();
+const useThemeStore = defineStore("theme", {
+  state: () => ({
+    mainColor: "",
+    mainColors: [""]
+  }),
+  getters: {
+    styleColors: (state) => {
+      return { text: state.mainColors[8], background: state.mainColors[0] };
+    }
+  },
+  actions: {
+    initByLocalStorage() {
+      let { version: version2, mainColors } = JSON.parse(localStorage.getItem("theme") ?? '{"version":0}');
+      if (version2 == 2 && mainColors) {
+        this.mainColors = mainColors;
+      } else {
+        this.mainColors = generate("#c49526");
+      }
+      this.update();
+    },
+    update() {
+      emitter.emit("changeTheme", {
+        common: {
+          primaryColor: this.mainColors[5],
+          primaryColorHover: this.mainColors[4],
+          primaryColorSuppl: this.mainColors[4],
+          primaryColorPressed: this.mainColors[6]
+        }
+      });
+      this.save();
+    },
+    setMainColor(color) {
+      this.mainColor = color;
+      this.mainColors = generate(color);
+      this.update();
+    },
+    save() {
+      localStorage.setItem("theme", JSON.stringify({
+        version: 2,
+        mainColors: this.mainColors,
+        mainColor: this.mainColor
+      }));
+    }
+  }
+});
 const _sfc_main$7 = {
   __name: "messageApi",
   setup(__props) {
-    window.$message = useMessage();
+    window.$NMessageApi = useMessage();
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div");
     };
   }
 };
-const _hoisted_1$i = {
+const _hoisted_1$j = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -36674,10 +36898,10 @@ const _hoisted_3$g = [
   _hoisted_2$h
 ];
 function render$c(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$i, [..._hoisted_3$g]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$j, [..._hoisted_3$g]);
 }
 const __unplugin_components_0 = { name: "hugeicons-arrow-up01", render: render$c };
-const _hoisted_1$h = { class: "header" };
+const _hoisted_1$i = { class: "header" };
 const _hoisted_2$g = { class: "header-search" };
 const _sfc_main$6 = {
   __name: "headerTop",
@@ -36695,7 +36919,7 @@ const _sfc_main$6 = {
       const _component_n_icon = NIcon;
       const _component_n_input = __unplugin_components_2$2;
       const _component_n_avatar = __unplugin_components_3$1;
-      return openBlock(), createElementBlock("div", _hoisted_1$h, [
+      return openBlock(), createElementBlock("div", _hoisted_1$i, [
         createBaseVNode("span", _hoisted_2$g, [
           createVNode(_component_n_icon, {
             size: "2rem",
@@ -36738,7 +36962,7 @@ const _sfc_main$6 = {
     };
   }
 };
-const _hoisted_1$g = {
+const _hoisted_1$h = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -36756,10 +36980,10 @@ const _hoisted_3$f = [
   _hoisted_2$f
 ];
 function render$b(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$g, [..._hoisted_3$f]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$h, [..._hoisted_3$f]);
 }
 const HugeiconsHome06 = { name: "hugeicons-home-06", render: render$b };
-const _hoisted_1$f = {
+const _hoisted_1$g = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -36786,10 +37010,10 @@ const _hoisted_3$e = [
   _hoisted_2$e
 ];
 function render$a(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$e]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$g, [..._hoisted_3$e]);
 }
 const HugeiconsUserAccount = { name: "hugeicons-user-account", render: render$a };
-const _hoisted_1$e = {
+const _hoisted_1$f = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -36809,10 +37033,10 @@ const _hoisted_3$d = [
   _hoisted_2$d
 ];
 function render$9(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$d]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$d]);
 }
 const HugeiconsLogin01 = { name: "hugeicons-login-01", render: render$9 };
-const _hoisted_1$d = {
+const _hoisted_1$e = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -36832,10 +37056,10 @@ const _hoisted_3$c = [
   _hoisted_2$c
 ];
 function render$8(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$d, [..._hoisted_3$c]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$c]);
 }
 const HugeiconsHeartCheck = { name: "hugeicons-heart-check", render: render$8 };
-const _hoisted_1$c = {
+const _hoisted_1$d = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -36855,10 +37079,10 @@ const _hoisted_3$b = [
   _hoisted_2$b
 ];
 function render$7(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$c, [..._hoisted_3$b]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$d, [..._hoisted_3$b]);
 }
 const HugeiconsSettings05 = { name: "hugeicons-settings-05", render: render$7 };
-const _hoisted_1$b = { class: "nav-outer" };
+const _hoisted_1$c = { class: "nav-outer" };
 const _sfc_main$5 = /* @__PURE__ */ defineComponent({
   __name: "navigation",
   setup(__props) {
@@ -36922,7 +37146,7 @@ const _sfc_main$5 = /* @__PURE__ */ defineComponent({
     );
     return (_ctx, _cache) => {
       const _component_n_menu = __unplugin_components_0$2;
-      return openBlock(), createElementBlock("div", _hoisted_1$b, [
+      return openBlock(), createElementBlock("div", _hoisted_1$c, [
         createBaseVNode("div", {
           class: "header-title",
           onClick: _cache[0] || (_cache[0] = ($event) => unref(router2).push({ name: "home" }))
@@ -36945,8 +37169,8 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-54f9908f"]]);
-const _hoisted_1$a = {
+const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-b14037af"]]);
+const _hoisted_1$b = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -36964,10 +37188,10 @@ const _hoisted_3$a = [
   _hoisted_2$a
 ];
 function render$6(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$a, [..._hoisted_3$a]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$b, [..._hoisted_3$a]);
 }
 const __unplugin_components_9 = { name: "hugeicons-playlist03", render: render$6 };
-const _hoisted_1$9 = {
+const _hoisted_1$a = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -36985,10 +37209,10 @@ const _hoisted_3$9 = [
   _hoisted_2$9
 ];
 function render$5(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._hoisted_3$9]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$a, [..._hoisted_3$9]);
 }
 const __unplugin_components_8 = { name: "hugeicons-arrow-right01", render: render$5 };
-const _hoisted_1$8 = {
+const _hoisted_1$9 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -37006,10 +37230,10 @@ const _hoisted_3$8 = [
   _hoisted_2$8
 ];
 function render$4(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._hoisted_3$8]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._hoisted_3$8]);
 }
 const __unplugin_components_7 = { name: "hugeicons-pause", render: render$4 };
-const _hoisted_1$7 = {
+const _hoisted_1$8 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -37027,10 +37251,10 @@ const _hoisted_3$7 = [
   _hoisted_2$7
 ];
 function render$3(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._hoisted_3$7]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._hoisted_3$7]);
 }
 const __unplugin_components_6 = { name: "hugeicons-play", render: render$3 };
-const _hoisted_1$6 = {
+const _hoisted_1$7 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
@@ -37048,10 +37272,10 @@ const _hoisted_3$6 = [
   _hoisted_2$6
 ];
 function render$2(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._hoisted_3$6]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._hoisted_3$6]);
 }
 const __unplugin_components_5 = { name: "hugeicons-arrow-left01", render: render$2 };
-const _hoisted_1$5 = {
+const _hoisted_1$6 = {
   viewBox: "0 0 1024 1024",
   width: "1.2em",
   height: "1.2em"
@@ -37064,10 +37288,10 @@ const _hoisted_3$5 = [
   _hoisted_2$5
 ];
 function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$5, [..._hoisted_3$5]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._hoisted_3$5]);
 }
 const __unplugin_components_3 = { name: "ant-design-heart-filled", render: render$1 };
-const _hoisted_1$4 = {
+const _hoisted_1$5 = {
   viewBox: "0 0 1024 1024",
   width: "1.2em",
   height: "1.2em"
@@ -37080,10 +37304,10 @@ const _hoisted_3$4 = [
   _hoisted_2$4
 ];
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$4, [..._hoisted_3$4]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$5, [..._hoisted_3$4]);
 }
 const __unplugin_components_2 = { name: "ant-design-heart-outlined", render };
-const _hoisted_1$3 = { class: "marquee-outer" };
+const _hoisted_1$4 = { class: "marquee-outer" };
 const _hoisted_2$3 = { class: "marquee-container" };
 const _hoisted_3$3 = ["innerHTML"];
 const _hoisted_4$3 = ["innerHTML"];
@@ -37137,7 +37361,7 @@ const _sfc_main$4 = {
         ref_key: "sizerEle",
         ref: sizerEle
       }, [
-        withDirectives(createBaseVNode("div", _hoisted_1$3, [
+        withDirectives(createBaseVNode("div", _hoisted_1$4, [
           createBaseVNode("div", _hoisted_2$3, [
             createBaseVNode("div", {
               class: "marquee-text1 marquee-content",
@@ -37166,7 +37390,7 @@ const _sfc_main$4 = {
   }
 };
 const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-fd8aef6b"]]);
-const _hoisted_1$2 = { class: "playinglist" };
+const _hoisted_1$3 = { class: "playinglist" };
 const _hoisted_2$2 = ["onClick"];
 const _hoisted_3$2 = ["src", "alt"];
 const _hoisted_4$2 = { class: "text" };
@@ -37195,7 +37419,7 @@ const _sfc_main$3 = {
     return (_ctx, _cache) => {
       const _component_n_tag = __unplugin_components_0$3;
       const _component_n_scrollbar = Scrollbar;
-      return openBlock(), createElementBlock("div", _hoisted_1$2, [
+      return openBlock(), createElementBlock("div", _hoisted_1$3, [
         createVNode(_component_n_scrollbar, {
           class: "playinglist-scrollbar",
           ref_key: "playinglistScrollbarRef",
@@ -37258,8 +37482,8 @@ const _sfc_main$3 = {
   }
 };
 const playinglist = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-956a7834"]]);
-const _withScopeId = (n2) => (pushScopeId("data-v-2ae08bd0"), n2 = n2(), popScopeId(), n2);
-const _hoisted_1$1 = { class: "ctrl-outer" };
+const _withScopeId = (n2) => (pushScopeId("data-v-d6c187e7"), n2 = n2(), popScopeId(), n2);
+const _hoisted_1$2 = { class: "ctrl-outer" };
 const _hoisted_2$1 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };
 const _hoisted_4$1 = ["src"];
@@ -37296,8 +37520,8 @@ const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "22ae1b24": unref(ctrlTop),
-      "a4409e10": unref(ctrlHeight)
+      "4d0a3f63": unref(ctrlTop),
+      "267db059": unref(ctrlHeight)
     }));
     let router2 = useRouter();
     let playStore = usePlayStore();
@@ -37322,7 +37546,7 @@ const _sfc_main$2 = {
       const _component_i_hugeicons_arrow_right_01 = __unplugin_components_8;
       const _component_n_slider = __unplugin_components_2$1;
       const _component_i_hugeicons_playlist_03 = __unplugin_components_9;
-      return openBlock(), createElementBlock("div", _hoisted_1$1, [
+      return openBlock(), createElementBlock("div", _hoisted_1$2, [
         createBaseVNode("div", _hoisted_2$1, [
           createBaseVNode("div", {
             class: "ctrl-left",
@@ -37331,18 +37555,18 @@ const _sfc_main$2 = {
             createBaseVNode("div", _hoisted_3$1, [
               createBaseVNode("img", {
                 class: "ctrl-img",
-                src: unref(playStore).currentMusic.picurl
+                src: unref(playStore).currentMusic.picurl ?? "/icon.png"
               }, null, 8, _hoisted_4$1)
             ]),
             createBaseVNode("div", _hoisted_5$1, [
               createBaseVNode("div", _hoisted_6, [
                 createVNode(MarqueePlus, {
-                  html: unref(playStore).nameWithTns
+                  html: unref(playStore).nameWithTns ?? "奶酪音乐"
                 }, null, 8, ["html"])
               ]),
               createBaseVNode("div", _hoisted_7, [
                 createVNode(MarqueePlus, {
-                  html: unref(playStore).currentMusic.artist
+                  html: unref(playStore).currentMusic.artist ?? ""
                 }, null, 8, ["html"])
               ]),
               createBaseVNode("div", _hoisted_8, [
@@ -37462,8 +37686,8 @@ const _sfc_main$2 = {
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-2ae08bd0"]]);
-const _hoisted_1 = { class: "container" };
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-d6c187e7"]]);
+const _hoisted_1$1 = { class: "container" };
 const _hoisted_2 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };
 const _hoisted_4 = { class: "container-content" };
@@ -37473,7 +37697,7 @@ const _sfc_main$1 = {
   setup(__props) {
     return (_ctx, _cache) => {
       const _component_router_view = resolveComponent("router-view");
-      return openBlock(), createElementBlock("div", _hoisted_1, [
+      return openBlock(), createElementBlock("div", _hoisted_1$1, [
         createBaseVNode("div", _hoisted_2, [
           createBaseVNode("div", _hoisted_3, [
             createVNode(navigation)
@@ -37502,27 +37726,15 @@ const _sfc_main$1 = {
     };
   }
 };
-const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-6e40df1a"]]);
-function mitt(n2) {
-  return { all: n2 = n2 || /* @__PURE__ */ new Map(), on: function(t2, e) {
-    var i2 = n2.get(t2);
-    i2 ? i2.push(e) : n2.set(t2, [e]);
-  }, off: function(t2, e) {
-    var i2 = n2.get(t2);
-    i2 && (e ? i2.splice(i2.indexOf(e) >>> 0, 1) : n2.set(t2, []));
-  }, emit: function(t2, e) {
-    var i2 = n2.get(t2);
-    i2 && i2.slice().map(function(n3) {
-      n3(e);
-    }), (i2 = n2.get("*")) && i2.slice().map(function(n3) {
-      n3(t2, e);
-    });
-  } };
-}
-const emitter = mitt();
+const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-583a6762"]]);
+const _hoisted_1 = { class: "app" };
 const _sfc_main = {
   __name: "App",
   setup(__props) {
+    useCssVars((_ctx) => ({
+      "51b4616a": unref(bgcolor),
+      "c1b42ffa": unref(textColor)
+    }));
     let themeOverrides = ref({
       common: {
         borderRadius: "10px",
@@ -37531,6 +37743,13 @@ const _sfc_main = {
     });
     let userStore = useUserStore();
     let playStore = usePlayStore();
+    let themeStore = useThemeStore();
+    let textColor = computed(() => {
+      return themeStore.styleColors.text;
+    });
+    let bgcolor = computed(() => {
+      return themeStore.styleColors.background;
+    });
     userStore.updateByStorage();
     onMounted(() => {
       if (userStore.isLogin === true && Date.now() - userStore.updateTime > 1e3 * 60 * 3) {
@@ -37539,6 +37758,7 @@ const _sfc_main = {
       if (localStorage.getItem("playlist") != null) {
         playStore.playlistInit();
       }
+      themeStore.initByLocalStorage();
     });
     emitter.on("changeTheme", (theme) => {
       objDeepMerge(themeOverrides.value, theme);
@@ -37547,7 +37767,7 @@ const _sfc_main = {
     return (_ctx, _cache) => {
       const _component_n_message_provider = __unplugin_components_0$1;
       const _component_n_config_provider = __unplugin_components_1;
-      return openBlock(), createElementBlock("div", null, [
+      return openBlock(), createElementBlock("div", _hoisted_1, [
         createVNode(_component_n_config_provider, { "theme-overrides": unref(themeOverrides) }, {
           default: withCtx(() => [
             createVNode(Container),
@@ -37570,7 +37790,7 @@ console.log("pinia实例被创建");
 app.use(router);
 app.mount("#app");
 export {
-  defineComponent as $,
+  cM as $,
   pushScopeId as A,
   popScopeId as B,
   useCssVars as C,
@@ -37585,110 +37805,111 @@ export {
   __unplugin_components_9 as L,
   MarqueePlus as M,
   NIcon as N,
-  useRouter as O,
-  getPersonalizedPlaylist as P,
-  createTextVNode as Q,
-  cloudsearch as R,
+  useUserStore as O,
+  useRouter as P,
+  getPersonalizedPlaylist as Q,
+  createTextVNode as R,
   Scrollbar as S,
-  withDirectives as T,
-  vShow as U,
-  derived as V,
-  cB as W,
-  cNotM as X,
-  cE as Y,
-  cM as Z,
+  cloudsearch as T,
+  withDirectives as U,
+  vShow as V,
+  derived as W,
+  cB as X,
+  cNotM as Y,
+  cE as Z,
   _export_sfc as _,
   usePlayStore as a,
-  VTarget as a$,
-  useTheme as a0,
-  useConfig as a1,
-  useThemeClass as a2,
-  h as a3,
-  c$1 as a4,
-  watchEffect as a5,
-  loginQrKey as a6,
-  loginQrCreate as a7,
-  loginQrCheck as a8,
-  success as a9,
-  inputLight as aA,
-  toHexaString as aB,
-  rgba as aC,
-  toHslaString as aD,
-  toHsvaString as aE,
-  toRgbaString as aF,
-  hsla as aG,
-  hsva as aH,
-  on as aI,
-  off as aJ,
-  createInjectionKey as aK,
-  inject as aL,
-  toHexString as aM,
-  toHslString as aN,
-  toRgbString as aO,
-  toHsvString as aP,
-  warn$2 as aQ,
-  fadeInScaleUpTransition as aR,
-  useFormItem as aS,
-  useLocale as aT,
-  provide as aU,
-  toRef as aV,
-  useMergedState as aW,
-  isMounted as aX,
-  useAdjustedTo as aY,
-  getPreciseEventTarget as aZ,
-  Binder as a_,
-  error as aa,
-  verifyCaptcha as ab,
-  loginWithPhone as ac,
-  sendCaptcha as ad,
-  __unplugin_components_2$2 as ae,
-  areaData as af,
-  getColorFromImg as ag,
-  mixColor as ah,
-  recommendSongs as ai,
-  playlistDetail as aj,
-  __unplugin_components_0$3 as ak,
-  fadeInTransition as al,
-  pxfy as am,
-  createKey as an,
-  useCompitable as ao,
-  NBaseLoading as ap,
-  Transition as aq,
-  parseArray as ar,
-  parseArtist as as,
-  createTheme as at,
-  tooltipLight as au,
-  useMergedClsPrefix as av,
-  onDeactivated as aw,
-  NTooltip as ax,
-  mergeProps as ay,
-  useStyle as az,
+  getPreciseEventTarget as a$,
+  defineComponent as a0,
+  useTheme as a1,
+  useConfig as a2,
+  useThemeClass as a3,
+  h as a4,
+  c$1 as a5,
+  watchEffect as a6,
+  loginQrKey as a7,
+  loginQrCreate as a8,
+  loginQrCheck as a9,
+  mergeProps as aA,
+  useStyle as aB,
+  inputLight as aC,
+  toHexaString as aD,
+  rgba as aE,
+  toHslaString as aF,
+  toHsvaString as aG,
+  toRgbaString as aH,
+  hsla as aI,
+  hsva as aJ,
+  on as aK,
+  off as aL,
+  createInjectionKey as aM,
+  inject as aN,
+  toHexString as aO,
+  toHslString as aP,
+  toRgbString as aQ,
+  toHsvString as aR,
+  warn$2 as aS,
+  fadeInScaleUpTransition as aT,
+  useFormItem as aU,
+  useLocale as aV,
+  provide as aW,
+  toRef as aX,
+  useMergedState as aY,
+  isMounted as aZ,
+  useAdjustedTo as a_,
+  success as aa,
+  error as ab,
+  verifyCaptcha as ac,
+  loginWithPhone as ad,
+  sendCaptcha as ae,
+  __unplugin_components_2$2 as af,
+  areaData as ag,
+  getColorFromImg as ah,
+  mixColor as ai,
+  normalizeStyle as aj,
+  recommendSongs as ak,
+  playlistDetail as al,
+  __unplugin_components_0$3 as am,
+  fadeInTransition as an,
+  pxfy as ao,
+  createKey as ap,
+  useCompitable as aq,
+  NBaseLoading as ar,
+  Transition as as,
+  parseArray as at,
+  parseArtist as au,
+  createTheme as av,
+  tooltipLight as aw,
+  useMergedClsPrefix as ax,
+  onDeactivated as ay,
+  NTooltip as az,
   onBeforeUnmount as b,
-  VFollower as b0,
-  clickoutside as b1,
-  call as b2,
-  nextTick as b3,
-  renderSlot as b4,
-  emitter as b5,
-  asModal as b6,
-  insideModal as b7,
-  insidePopover as b8,
-  useRtl as b9,
-  getMargin as ba,
-  resolveWrappedSlot as bb,
-  ensureValidVNode as bc,
-  NBaseClose as bd,
-  commonVariables$5 as be,
-  composite as bf,
-  isBrowser$2 as bg,
-  iconSwitchTransition as bh,
-  isSafari as bi,
-  useMemo as bj,
-  changeColor as bk,
-  color2Class as bl,
-  NFadeInExpandTransition as bm,
-  isSlotEmpty as bn,
-  NIconSwitchTransition as bo,
+  Binder as b0,
+  VTarget as b1,
+  VFollower as b2,
+  clickoutside as b3,
+  call as b4,
+  nextTick as b5,
+  renderSlot as b6,
+  asModal as b7,
+  insideModal as b8,
+  insidePopover as b9,
+  useRtl as ba,
+  getMargin as bb,
+  resolveWrappedSlot as bc,
+  ensureValidVNode as bd,
+  NBaseClose as be,
+  commonVariables$5 as bf,
+  composite as bg,
+  isBrowser$2 as bh,
+  iconSwitchTransition as bi,
+  isSafari as bj,
+  useMemo as bk,
+  changeColor as bl,
+  color2Class as bm,
+  NFadeInExpandTransition as bn,
+  isSlotEmpty as bo,
+  NIconSwitchTransition as bp,
   computed as c,
   openBlock as d,
   createElementBlock as e,
@@ -37707,7 +37928,7 @@ export {
   ref as r,
   storeToRefs as s,
   toDisplayString as t,
-  useUserStore as u,
+  useThemeStore as u,
   likeAndUpdateLikelist as v,
   watch as w,
   renderList as x,

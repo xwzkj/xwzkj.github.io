@@ -1,5 +1,5 @@
-import { d as openBlock, e as createElementBlock, f as createBaseVNode, _ as _export_sfc, C as useCssVars, r as ref, O as useRouter, j as unref, g as createVNode, h as withCtx, Q as createTextVNode, t as toDisplayString, ag as getColorFromImg, ah as mixColor, N as NIcon, A as pushScopeId, B as popScopeId } from "./index-DrtoPhs1.js";
-import { _ as __unplugin_components_1$1 } from "./Ellipsis-BJLPPBe6.js";
+import { d as openBlock, e as createElementBlock, f as createBaseVNode, _ as _export_sfc, C as useCssVars, u as useThemeStore, r as ref, P as useRouter, j as unref, g as createVNode, h as withCtx, R as createTextVNode, t as toDisplayString, aj as normalizeStyle, ah as getColorFromImg, ai as mixColor, N as NIcon, A as pushScopeId, B as popScopeId } from "./index-cwhDsidY.js";
+import { _ as __unplugin_components_1$1 } from "./Ellipsis-Bf4n1GrN.js";
 const _hoisted_1$1 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -22,7 +22,7 @@ function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._hoisted_4$1]);
 }
 const __unplugin_components_1 = { name: "ic-twotone-calendar-today", render };
-const _withScopeId = (n) => (pushScopeId("data-v-675c3624"), n = n(), popScopeId(), n);
+const _withScopeId = (n) => (pushScopeId("data-v-e3070f89"), n = n(), popScopeId(), n);
 const _hoisted_1 = ["src"];
 const _hoisted_2 = { class: "item-card-name" };
 const _hoisted_3 = { class: "item-card-date-box" };
@@ -33,10 +33,11 @@ const _sfc_main = {
   props: ["imgurl", "text", "click", "isDailySongs"],
   setup(__props) {
     useCssVars((_ctx) => ({
-      "226a5fa6": unref(itemColor)
+      "7f0777a4": unref(itemColor)
     }));
+    let themeStore = useThemeStore();
     let props = __props;
-    let itemColor = ref("rgb(173,213,239)");
+    let itemColor = ref(themeStore.mainColors?.[1]);
     let itemCardImg = ref(null);
     let date = (/* @__PURE__ */ new Date()).getDate();
     function getImgMainColor() {
@@ -72,7 +73,8 @@ const _sfc_main = {
       ])) : (openBlock(), createElementBlock("div", {
         key: 1,
         class: "item-card-outer",
-        onClick: _cache[1] || (_cache[1] = ($event) => unref(router).push({ name: "playlist", query: { isDailySongs: true } }))
+        onClick: _cache[1] || (_cache[1] = ($event) => unref(router).push({ name: "playlist", query: { isDailySongs: true } })),
+        style: normalizeStyle({ backgroundColor: unref(themeStore).mainColors?.[1] })
       }, [
         createBaseVNode("div", _hoisted_3, [
           createVNode(_component_n_icon, {
@@ -87,11 +89,11 @@ const _sfc_main = {
           })
         ]),
         _hoisted_5
-      ]));
+      ], 4));
     };
   }
 };
-const itemCard = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-675c3624"]]);
+const itemCard = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-e3070f89"]]);
 export {
   itemCard as i
 };

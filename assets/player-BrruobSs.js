@@ -1,5 +1,5 @@
-import { _ as _export_sfc, u as useUserStore, a as usePlayStore, s as storeToRefs, r as ref, c as computed, o as onMounted, w as watch, b as onBeforeUnmount, d as openBlock, e as createElementBlock, f as createBaseVNode, g as createVNode, h as withCtx, i as windowBack, j as unref, M as MarqueePlus, t as toDisplayString, k as createBlock, l as createCommentVNode, m as isRef, n as withModifiers, p as getColorsFromImg, N as NIcon, q as __unplugin_components_2, S as Scrollbar, v as likeAndUpdateLikelist, F as Fragment, x as renderList, y as normalizeClass, z as playinglist, A as pushScopeId, B as popScopeId, C as useCssVars, D as __unplugin_components_0, E as __unplugin_components_2$1, G as __unplugin_components_3, H as __unplugin_components_5, I as __unplugin_components_6, J as __unplugin_components_7, K as __unplugin_components_8, L as __unplugin_components_9 } from "./index-DrtoPhs1.js";
-const _withScopeId = (n) => (pushScopeId("data-v-74ef3134"), n = n(), popScopeId(), n);
+import { _ as _export_sfc, u as useThemeStore, a as usePlayStore, s as storeToRefs, r as ref, c as computed, o as onMounted, w as watch, b as onBeforeUnmount, d as openBlock, e as createElementBlock, f as createBaseVNode, g as createVNode, h as withCtx, i as windowBack, j as unref, M as MarqueePlus, t as toDisplayString, k as createBlock, l as createCommentVNode, m as isRef, n as withModifiers, p as getColorsFromImg, N as NIcon, q as __unplugin_components_2, S as Scrollbar, v as likeAndUpdateLikelist, F as Fragment, x as renderList, y as normalizeClass, z as playinglist, A as pushScopeId, B as popScopeId, C as useCssVars, D as __unplugin_components_0, E as __unplugin_components_2$1, G as __unplugin_components_3, H as __unplugin_components_5, I as __unplugin_components_6, J as __unplugin_components_7, K as __unplugin_components_8, L as __unplugin_components_9 } from "./index-cwhDsidY.js";
+const _withScopeId = (n) => (pushScopeId("data-v-2a55a8f0"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "playerOoouter" };
 const _hoisted_2 = { id: "playerOuter" };
 const _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { id: "playerBackground" }, null, -1));
@@ -50,10 +50,11 @@ const _sfc_main = {
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "0a7945e1": unref(background),
-      "f4a8ba08": unref(playingListTop)
+      "33638034": unref(background),
+      "80ff0a52": unref(bgMask),
+      "5f7a7bcf": unref(playingListTop)
     }));
-    useUserStore();
+    let themeStore = useThemeStore();
     let playStore = usePlayStore();
     let { currentMusic } = storeToRefs(playStore);
     let lyricScrollbarRef = ref();
@@ -62,6 +63,9 @@ const _sfc_main = {
     let displayList = ref(false);
     let playingListTop = computed(() => {
       return displayList.value ? "0%" : "100%";
+    });
+    let bgMask = computed(() => {
+      return themeStore.styleColors.background + "90";
     });
     onMounted(async () => {
       watch(() => currentMusic.value.currentLyricIndex, (value) => {
@@ -268,7 +272,7 @@ const _sfc_main = {
     };
   }
 };
-const player = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-74ef3134"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-2a55a8f0"]]);
 export {
   player as default
 };
