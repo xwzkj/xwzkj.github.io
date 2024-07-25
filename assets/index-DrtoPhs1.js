@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-Bk4hjnnb.js","./playinglist-Bq4IKMbT.js","./playinglist-D30VJK-5.css","./player-D3T-VxW7.css","./home-CzSrCBaK.js","./itemCard-BuTwfN2U.js","./Ellipsis-C7Pi-t4v.js","./itemCard-DXnF0dqk.css","./home-CwUGHVsl.css","./search-Dp_WE-rg.js","./musicList-AS6fSFx_.js","./Card-TaHexhhU.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-DJqkAhVV.js","./Button-kQAzULRg.js","./login-CX2p-lSQ.css","./account-ByPeyNeA.js","./account-s9uuTX7o.css","./playlist-CknxObcM.js","./playlist-CuAG0Pwh.css","./setting-CvemlbKK.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-DPP51DP8.js","./player-BHoiDX81.css","./home-D0rgFnkU.js","./itemCard-jC-qoZHz.js","./Ellipsis-BJLPPBe6.js","./itemCard-DXnF0dqk.css","./home-BPYR4U23.css","./search-C7uJ4C7R.js","./musicList-LdJlz6Tv.js","./Card-UzEh8VwK.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-DIliciwO.js","./Button-CgI55RZu.js","./login-CX2p-lSQ.css","./account-C0bTEJN1.js","./account-s9uuTX7o.css","./playlist-DsTH68X5.js","./playlist-CuAG0Pwh.css","./setting-89XGaJEy.js","./setting-CMET-JMW.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.34
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -7071,6 +7071,31 @@ function hasCSSTransform(el, root2, moveClass) {
   container.removeChild(clone);
   return hasTransform;
 }
+const systemModifiers = ["ctrl", "shift", "alt", "meta"];
+const modifierGuards = {
+  stop: (e) => e.stopPropagation(),
+  prevent: (e) => e.preventDefault(),
+  self: (e) => e.target !== e.currentTarget,
+  ctrl: (e) => !e.ctrlKey,
+  shift: (e) => !e.shiftKey,
+  alt: (e) => !e.altKey,
+  meta: (e) => !e.metaKey,
+  left: (e) => "button" in e && e.button !== 0,
+  middle: (e) => "button" in e && e.button !== 1,
+  right: (e) => "button" in e && e.button !== 2,
+  exact: (e, modifiers) => systemModifiers.some((m) => e[`${m}Key`] && !modifiers.includes(m))
+};
+const withModifiers = (fn, modifiers) => {
+  const cache2 = fn._withMods || (fn._withMods = {});
+  const cacheKey = modifiers.join(".");
+  return cache2[cacheKey] || (cache2[cacheKey] = (event, ...args) => {
+    for (let i2 = 0; i2 < modifiers.length; i2++) {
+      const guard = modifierGuards[modifiers[i2]];
+      if (guard && guard(event, modifiers)) return;
+    }
+    return fn(event, ...args);
+  });
+};
 const rendererOptions = /* @__PURE__ */ extend$1({ patchProp }, nodeOps);
 let renderer;
 function ensureRenderer() {
@@ -9029,7 +9054,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-Bk4hjnnb.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-DPP51DP8.js"), true ? __vite__mapDeps([0,1]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9040,7 +9065,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-CzSrCBaK.js"), true ? __vite__mapDeps([4,5,6,7,1,2,8]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-D0rgFnkU.js"), true ? __vite__mapDeps([2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9051,7 +9076,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-Dp_WE-rg.js"), true ? __vite__mapDeps([9,10,11,12,13]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-C7uJ4C7R.js"), true ? __vite__mapDeps([7,8,9,10,11]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9062,7 +9087,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DJqkAhVV.js"), true ? __vite__mapDeps([14,15,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-DIliciwO.js"), true ? __vite__mapDeps([12,13,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9070,7 +9095,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-ByPeyNeA.js"), true ? __vite__mapDeps([17,5,6,7,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-C0bTEJN1.js"), true ? __vite__mapDeps([15,3,4,5,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9081,7 +9106,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-CknxObcM.js"), true ? __vite__mapDeps([19,10,11,12,15,6,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-DsTH68X5.js"), true ? __vite__mapDeps([17,8,9,10,13,4,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9092,7 +9117,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CvemlbKK.js"), true ? __vite__mapDeps([21,15,11,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-89XGaJEy.js"), true ? __vite__mapDeps([19,13,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9837,7 +9862,7 @@ function call(funcs, ...args) {
 function keysOf(obj) {
   return Object.keys(obj);
 }
-function render$9(r2, ...args) {
+function render$e(r2, ...args) {
   if (typeof r2 === "function") {
     return r2(...args);
   } else if (typeof r2 === "string") {
@@ -10186,7 +10211,7 @@ function traverseCNode(node, selectorPaths, styles, instance, params) {
   if ($ && $.after)
     $.after(instance.context);
 }
-function render$8(node, instance, props) {
+function render$d(node, instance, props) {
   const styles = [];
   traverseCNode(node, [], styles, instance, props);
   return styles.join("\n\n");
@@ -10278,7 +10303,7 @@ function mount(instance, node, id, props, head, force, anchorMetaName, parent, s
   return target;
 }
 function wrappedRender(props) {
-  return render$8(this, this.instance, props);
+  return render$d(this, this.instance, props);
 }
 function wrappedMount(options = {}) {
   const { id, ssr, props, head = false, force = false, anchorMetaName, parent } = options;
@@ -16887,7 +16912,7 @@ const style$b = cB("scrollbar", `
  background-color: var(--n-scrollbar-color);
  transition: background-color .2s var(--n-scrollbar-bezier);
  `, [fadeInTransition(), c$1("&:hover", "background-color: var(--n-scrollbar-color-hover);")])])])])]);
-const scrollbarProps = Object.assign(Object.assign({}, useTheme.props), {
+const scrollbarProps$1 = Object.assign(Object.assign({}, useTheme.props), {
   duration: {
     type: Number,
     default: 0
@@ -16918,9 +16943,9 @@ const scrollbarProps = Object.assign(Object.assign({}, useTheme.props), {
   internalOnUpdateScrollLeft: Function,
   internalHoistYRail: Boolean
 });
-const Scrollbar = /* @__PURE__ */ defineComponent({
+const Scrollbar$1 = /* @__PURE__ */ defineComponent({
   name: "Scrollbar",
-  props: scrollbarProps,
+  props: scrollbarProps$1,
   inheritAttrs: false,
   setup(props) {
     const {
@@ -17602,7 +17627,7 @@ const Scrollbar = /* @__PURE__ */ defineComponent({
     }
   }
 });
-const XScrollbar = Scrollbar;
+const XScrollbar = Scrollbar$1;
 const {
   cubicBezierEaseIn: cubicBezierEaseIn$1,
   cubicBezierEaseOut: cubicBezierEaseOut$1
@@ -21198,7 +21223,7 @@ const __unplugin_components_2$2 = /* @__PURE__ */ defineComponent({
       class: `${mergedClsPrefix}-input-wrapper`
     }, resolveWrappedSlot($slots.prefix, (children) => children && h("div", {
       class: `${mergedClsPrefix}-input__prefix`
-    }, children)), type === "textarea" ? h(Scrollbar, {
+    }, children)), type === "textarea" ? h(Scrollbar$1, {
       ref: "textareaScrollbarInstRef",
       class: `${mergedClsPrefix}-input__textarea`,
       container: this.getTextareaScrollContainer,
@@ -22566,10 +22591,10 @@ const NDropdownOption = /* @__PURE__ */ defineComponent({
       "data-dropdown-option": true
     }, optionNodeProps), h("div", mergeProps(builtinProps, props), [h("div", {
       class: [`${clsPrefix}-dropdown-option-body__prefix`, siblingHasIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, [renderIcon ? renderIcon(rawNode) : render$9(rawNode.icon)]), h("div", {
+    }, [renderIcon ? renderIcon(rawNode) : render$e(rawNode.icon)]), h("div", {
       "data-dropdown-option": true,
       class: `${clsPrefix}-dropdown-option-body__label`
-    }, renderLabel ? renderLabel(rawNode) : render$9((_b = rawNode[this.labelField]) !== null && _b !== void 0 ? _b : rawNode.title)), h("div", {
+    }, renderLabel ? renderLabel(rawNode) : render$e((_b = rawNode[this.labelField]) !== null && _b !== void 0 ? _b : rawNode.title)), h("div", {
       "data-dropdown-option": true,
       class: [`${clsPrefix}-dropdown-option-body__suffix`, siblingHasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`]
     }, this.hasSubmenu ? h(NIcon, null, {
@@ -22660,10 +22685,10 @@ const NDropdownGroupHeader = /* @__PURE__ */ defineComponent({
     }, h("div", {
       "data-dropdown-option": true,
       class: [`${clsPrefix}-dropdown-option-body__prefix`, showIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, render$9(rawNode.icon)), h("div", {
+    }, render$e(rawNode.icon)), h("div", {
       class: `${clsPrefix}-dropdown-option-body__label`,
       "data-dropdown-option": true
-    }, renderLabel ? renderLabel(rawNode) : render$9((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
+    }, renderLabel ? renderLabel(rawNode) : render$e((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
       class: [`${clsPrefix}-dropdown-option-body__suffix`, hasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`],
       "data-dropdown-option": true
     })));
@@ -23773,7 +23798,7 @@ const NMenuOptionGroup = /* @__PURE__ */ defineComponent({
       }, h("div", Object.assign({}, attrs, {
         class: [`${mergedClsPrefix}-menu-item-group-title`, attrs === null || attrs === void 0 ? void 0 : attrs.class],
         style: [(attrs === null || attrs === void 0 ? void 0 : attrs.style) || "", paddingLeft !== void 0 ? `padding-left: ${paddingLeft}px;` : ""]
-      }), render$9(props.title), props.extra ? h(Fragment, null, " ", render$9(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
+      }), render$e(props.title), props.extra ? h(Fragment, null, " ", render$e(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
     };
   }
 });
@@ -23853,7 +23878,7 @@ const NMenuOptionContent = /* @__PURE__ */ defineComponent({
         expandIcon
       }
     } = this;
-    const icon = renderIcon ? renderIcon(tmNode.rawNode) : render$9(this.icon);
+    const icon = renderIcon ? renderIcon(tmNode.rawNode) : render$e(this.icon);
     return h("div", {
       onClick: (e) => {
         var _a;
@@ -23875,9 +23900,9 @@ const NMenuOptionContent = /* @__PURE__ */ defineComponent({
     }, [icon]), h("div", {
       class: `${clsPrefix}-menu-item-content-header`,
       role: "none"
-    }, this.isEllipsisPlaceholder ? this.title : renderLabel ? renderLabel(tmNode.rawNode) : render$9(this.title), this.extra || renderExtra ? h("span", {
+    }, this.isEllipsisPlaceholder ? this.title : renderLabel ? renderLabel(tmNode.rawNode) : render$e(this.title), this.extra || renderExtra ? h("span", {
       class: `${clsPrefix}-menu-item-content-header__extra`
-    }, " ", renderExtra ? renderExtra(tmNode.rawNode) : render$9(this.extra)) : null), this.showArrow ? h(NBaseIcon, {
+    }, " ", renderExtra ? renderExtra(tmNode.rawNode) : render$e(this.extra)) : null), this.showArrow ? h(NBaseIcon, {
       ariaHidden: true,
       class: `${clsPrefix}-menu-item-content__arrow`,
       clsPrefix
@@ -24175,7 +24200,7 @@ const NMenuOption = /* @__PURE__ */ defineComponent({
       disabled: !this.dropdownEnabled || this.title === void 0,
       internalExtraClass: ["menu-tooltip"]
     }, {
-      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$9(this.title),
+      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$e(this.title),
       trigger: () => h(NMenuOptionContent, {
         tmNode,
         clsPrefix: mergedClsPrefix,
@@ -25228,7 +25253,7 @@ const NMessage = /* @__PURE__ */ defineComponent({
       default: () => iconNode
     })) : null, h("div", {
       class: `${mergedClsPrefix}-message__content`
-    }, render$9(content)), closable ? h(NBaseClose, {
+    }, render$e(content)), closable ? h(NBaseClose, {
       clsPrefix: mergedClsPrefix,
       class: `${mergedClsPrefix}-message__close`,
       onClick: handleClose,
@@ -25489,6 +25514,39 @@ function useMessage() {
   }
   return api;
 }
+const scrollbarProps = Object.assign(Object.assign({}, useTheme.props), {
+  trigger: String,
+  xScrollable: Boolean,
+  onScroll: Function,
+  contentClass: String,
+  contentStyle: [Object, String],
+  size: Number
+});
+const Scrollbar = /* @__PURE__ */ defineComponent({
+  name: "Scrollbar",
+  props: scrollbarProps,
+  setup() {
+    const scrollbarInstRef = ref(null);
+    const exposedMethods = {
+      scrollTo: (...args) => {
+        var _a;
+        (_a = scrollbarInstRef.value) === null || _a === void 0 ? void 0 : _a.scrollTo(args[0], args[1]);
+      },
+      scrollBy: (...args) => {
+        var _a;
+        (_a = scrollbarInstRef.value) === null || _a === void 0 ? void 0 : _a.scrollBy(args[0], args[1]);
+      }
+    };
+    return Object.assign(Object.assign({}, exposedMethods), {
+      scrollbarInstRef
+    });
+  },
+  render() {
+    return h(Scrollbar$1, Object.assign({
+      ref: "scrollbarInstRef"
+    }, this.$props), this.$slots);
+  }
+});
 function isTouchEvent(e) {
   return window.TouchEvent && e instanceof window.TouchEvent;
 }
@@ -36589,7 +36647,7 @@ const usePlayStore = defineStore("play", () => {
     musicChanged
   };
 });
-const _sfc_main$6 = {
+const _sfc_main$7 = {
   __name: "messageApi",
   setup(__props) {
     window.$message = useMessage();
@@ -36598,12 +36656,12 @@ const _sfc_main$6 = {
     };
   }
 };
-const _hoisted_1$c = {
+const _hoisted_1$i = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$b = /* @__PURE__ */ createBaseVNode("path", {
+const _hoisted_2$h = /* @__PURE__ */ createBaseVNode("path", {
   fill: "none",
   stroke: "currentColor",
   "stroke-linecap": "round",
@@ -36612,16 +36670,16 @@ const _hoisted_2$b = /* @__PURE__ */ createBaseVNode("path", {
   d: "M18 15s-4.419-6-6-6s-6 6-6 6",
   color: "currentColor"
 }, null, -1);
-const _hoisted_3$a = [
-  _hoisted_2$b
+const _hoisted_3$g = [
+  _hoisted_2$h
 ];
-function render$7(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$c, [..._hoisted_3$a]);
+function render$c(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$i, [..._hoisted_3$g]);
 }
-const __unplugin_components_0 = { name: "hugeicons-arrow-up01", render: render$7 };
-const _hoisted_1$b = { class: "header" };
-const _hoisted_2$a = { class: "header-search" };
-const _sfc_main$5 = {
+const __unplugin_components_0 = { name: "hugeicons-arrow-up01", render: render$c };
+const _hoisted_1$h = { class: "header" };
+const _hoisted_2$g = { class: "header-search" };
+const _sfc_main$6 = {
   __name: "headerTop",
   setup(__props) {
     const userStore = useUserStore();
@@ -36637,8 +36695,8 @@ const _sfc_main$5 = {
       const _component_n_icon = NIcon;
       const _component_n_input = __unplugin_components_2$2;
       const _component_n_avatar = __unplugin_components_3$1;
-      return openBlock(), createElementBlock("div", _hoisted_1$b, [
-        createBaseVNode("span", _hoisted_2$a, [
+      return openBlock(), createElementBlock("div", _hoisted_1$h, [
+        createBaseVNode("span", _hoisted_2$g, [
           createVNode(_component_n_icon, {
             size: "2rem",
             style: { "transform": "rotate(-90deg)" },
@@ -36680,48 +36738,191 @@ const _sfc_main$5 = {
     };
   }
 };
-const _hoisted_1$a = { class: "nav-outer" };
-const _sfc_main$4 = /* @__PURE__ */ defineComponent({
+const _hoisted_1$g = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$f = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$f = [
+  _hoisted_2$f
+];
+function render$b(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$g, [..._hoisted_3$f]);
+}
+const HugeiconsHome06 = { name: "hugeicons-home-06", render: render$b };
+const _hoisted_1$f = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$e = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 9h4m-4 3.5h3" }),
+  /* @__PURE__ */ createBaseVNode("rect", {
+    width: "20",
+    height: "18",
+    x: "2",
+    y: "3",
+    rx: "5"
+  }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M5 16c1.208-2.581 5.712-2.75 7 0m-1.5-7a2 2 0 1 1-4 0a2 2 0 0 1 4 0" })
+], -1);
+const _hoisted_3$e = [
+  _hoisted_2$e
+];
+function render$a(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$e]);
+}
+const HugeiconsUserAccount = { name: "hugeicons-user-account", render: render$a };
+const _hoisted_1$e = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$d = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
+], -1);
+const _hoisted_3$d = [
+  _hoisted_2$d
+];
+function render$9(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$d]);
+}
+const HugeiconsLogin01 = { name: "hugeicons-login-01", render: render$9 };
+const _hoisted_1$d = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$c = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
+], -1);
+const _hoisted_3$c = [
+  _hoisted_2$c
+];
+function render$8(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$d, [..._hoisted_3$c]);
+}
+const HugeiconsHeartCheck = { name: "hugeicons-heart-check", render: render$8 };
+const _hoisted_1$c = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$b = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
+], -1);
+const _hoisted_3$b = [
+  _hoisted_2$b
+];
+function render$7(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$c, [..._hoisted_3$b]);
+}
+const HugeiconsSettings05 = { name: "hugeicons-settings-05", render: render$7 };
+const _hoisted_1$b = { class: "nav-outer" };
+const _sfc_main$5 = /* @__PURE__ */ defineComponent({
   __name: "navigation",
   setup(__props) {
     const router2 = useRouter();
     const route = useRoute();
     const userStore = useUserStore();
+    function renderIcon(icon) {
+      return () => h(NIcon, null, { default: () => h(icon) });
+    }
     function renderLink(name, text, props) {
       return () => h(RouterLink, { to: { name, query: props } }, () => text);
     }
     let activeNow = ref("home");
     watch(
-      () => route.name,
+      () => route,
       (val) => {
-        updateActiveItem(val);
-      }
+        updateActiveItem(val.name, val.query);
+      },
+      { deep: true }
     );
-    function updateActiveItem(key) {
-      activeNow.value = key;
+    function updateActiveItem(key, query) {
+      if (key == "playlist" && query.id == userStore.playlists?.[0]?.id) {
+        activeNow.value = "likedList";
+      } else {
+        activeNow.value = key;
+      }
     }
     let menuData = computed(
       () => {
         return [
           {
             label: renderLink("home", "首页"),
-            key: "home"
+            key: "home",
+            icon: renderIcon(HugeiconsHome06)
           },
           {
-            label: renderLink("account", "我的"),
-            key: "account"
+            show: !userStore.isLogin,
+            label: renderLink("login", "登录"),
+            key: "login",
+            icon: renderIcon(HugeiconsLogin01)
           },
           {
             show: userStore.isLogin,
-            label: renderLink("playlist", "我喜欢的音乐", { id: userStore.playlists?.[0].id }),
-            key: "likedList"
+            label: renderLink("account", "我的"),
+            key: "account",
+            icon: renderIcon(HugeiconsUserAccount)
+          },
+          {
+            show: userStore.isLogin,
+            label: renderLink("playlist", "我喜欢的音乐", { id: userStore.playlists?.[0]?.id }),
+            key: "likedList",
+            icon: renderIcon(HugeiconsHeartCheck)
+          },
+          {
+            label: renderLink("setting", "设置"),
+            key: "setting",
+            icon: renderIcon(HugeiconsSettings05)
           }
         ];
       }
     );
     return (_ctx, _cache) => {
       const _component_n_menu = __unplugin_components_0$2;
-      return openBlock(), createElementBlock("div", _hoisted_1$a, [
+      return openBlock(), createElementBlock("div", _hoisted_1$b, [
         createBaseVNode("div", {
           class: "header-title",
           onClick: _cache[0] || (_cache[0] = ($event) => unref(router2).push({ name: "home" }))
@@ -36744,7 +36945,28 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-8a047884"]]);
+const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-54f9908f"]]);
+const _hoisted_1$a = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$a = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$a = [
+  _hoisted_2$a
+];
+function render$6(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$a, [..._hoisted_3$a]);
+}
+const __unplugin_components_9 = { name: "hugeicons-playlist03", render: render$6 };
 const _hoisted_1$9 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -36756,16 +36978,16 @@ const _hoisted_2$9 = /* @__PURE__ */ createBaseVNode("path", {
   "stroke-linecap": "round",
   "stroke-linejoin": "round",
   "stroke-width": "1.5",
-  d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
+  d: "M9 6s6 4.419 6 6s-6 6-6 6",
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$9 = [
   _hoisted_2$9
 ];
-function render$6(_ctx, _cache) {
+function render$5(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._hoisted_3$9]);
 }
-const __unplugin_components_9 = { name: "hugeicons-playlist03", render: render$6 };
+const __unplugin_components_8 = { name: "hugeicons-arrow-right01", render: render$5 };
 const _hoisted_1$8 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -36777,16 +36999,16 @@ const _hoisted_2$8 = /* @__PURE__ */ createBaseVNode("path", {
   "stroke-linecap": "round",
   "stroke-linejoin": "round",
   "stroke-width": "1.5",
-  d: "M9 6s6 4.419 6 6s-6 6-6 6",
+  d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z",
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$8 = [
   _hoisted_2$8
 ];
-function render$5(_ctx, _cache) {
+function render$4(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._hoisted_3$8]);
 }
-const __unplugin_components_8 = { name: "hugeicons-arrow-right01", render: render$5 };
+const __unplugin_components_7 = { name: "hugeicons-pause", render: render$4 };
 const _hoisted_1$7 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -36798,16 +37020,16 @@ const _hoisted_2$7 = /* @__PURE__ */ createBaseVNode("path", {
   "stroke-linecap": "round",
   "stroke-linejoin": "round",
   "stroke-width": "1.5",
-  d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z",
+  d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692",
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$7 = [
   _hoisted_2$7
 ];
-function render$4(_ctx, _cache) {
+function render$3(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._hoisted_3$7]);
 }
-const __unplugin_components_7 = { name: "hugeicons-pause", render: render$4 };
+const __unplugin_components_6 = { name: "hugeicons-play", render: render$3 };
 const _hoisted_1$6 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -36819,37 +37041,32 @@ const _hoisted_2$6 = /* @__PURE__ */ createBaseVNode("path", {
   "stroke-linecap": "round",
   "stroke-linejoin": "round",
   "stroke-width": "1.5",
-  d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692",
+  d: "M15 6s-6 4.419-6 6s6 6 6 6",
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$6 = [
   _hoisted_2$6
 ];
-function render$3(_ctx, _cache) {
+function render$2(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._hoisted_3$6]);
 }
-const __unplugin_components_6 = { name: "hugeicons-play", render: render$3 };
+const __unplugin_components_5 = { name: "hugeicons-arrow-left01", render: render$2 };
 const _hoisted_1$5 = {
-  viewBox: "0 0 24 24",
+  viewBox: "0 0 1024 1024",
   width: "1.2em",
   height: "1.2em"
 };
 const _hoisted_2$5 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M15 6s-6 4.419-6 6s6 6 6 6",
-  color: "currentColor"
+  fill: "currentColor",
+  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9"
 }, null, -1);
 const _hoisted_3$5 = [
   _hoisted_2$5
 ];
-function render$2(_ctx, _cache) {
+function render$1(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$5, [..._hoisted_3$5]);
 }
-const __unplugin_components_5 = { name: "hugeicons-arrow-left01", render: render$2 };
+const __unplugin_components_3 = { name: "ant-design-heart-filled", render: render$1 };
 const _hoisted_1$4 = {
   viewBox: "0 0 1024 1024",
   width: "1.2em",
@@ -36857,37 +37074,21 @@ const _hoisted_1$4 = {
 };
 const _hoisted_2$4 = /* @__PURE__ */ createBaseVNode("path", {
   fill: "currentColor",
-  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9"
+  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3"
 }, null, -1);
 const _hoisted_3$4 = [
   _hoisted_2$4
 ];
-function render$1(_ctx, _cache) {
+function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$4, [..._hoisted_3$4]);
 }
-const __unplugin_components_3 = { name: "ant-design-heart-filled", render: render$1 };
-const _hoisted_1$3 = {
-  viewBox: "0 0 1024 1024",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$3 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "currentColor",
-  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3"
-}, null, -1);
-const _hoisted_3$3 = [
-  _hoisted_2$3
-];
-function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$3, [..._hoisted_3$3]);
-}
 const __unplugin_components_2 = { name: "ant-design-heart-outlined", render };
-const _hoisted_1$2 = { class: "marquee-outer" };
-const _hoisted_2$2 = { class: "marquee-container" };
-const _hoisted_3$2 = ["innerHTML"];
-const _hoisted_4$2 = ["innerHTML"];
-const _hoisted_5$2 = ["innerHTML"];
-const _sfc_main$3 = {
+const _hoisted_1$3 = { class: "marquee-outer" };
+const _hoisted_2$3 = { class: "marquee-container" };
+const _hoisted_3$3 = ["innerHTML"];
+const _hoisted_4$3 = ["innerHTML"];
+const _hoisted_5$3 = ["innerHTML"];
+const _sfc_main$4 = {
   __name: "marqueePlus",
   props: { html: String },
   setup(__props) {
@@ -36936,18 +37137,18 @@ const _sfc_main$3 = {
         ref_key: "sizerEle",
         ref: sizerEle
       }, [
-        withDirectives(createBaseVNode("div", _hoisted_1$2, [
-          createBaseVNode("div", _hoisted_2$2, [
+        withDirectives(createBaseVNode("div", _hoisted_1$3, [
+          createBaseVNode("div", _hoisted_2$3, [
             createBaseVNode("div", {
               class: "marquee-text1 marquee-content",
               ref_key: "text1Ele",
               ref: text1Ele,
               innerHTML: unref(props).html
-            }, null, 8, _hoisted_3$2),
+            }, null, 8, _hoisted_3$3),
             createBaseVNode("div", {
               class: "marquee-text2 marquee-content",
               innerHTML: unref(props).html
-            }, null, 8, _hoisted_4$2)
+            }, null, 8, _hoisted_4$3)
           ])
         ], 512), [
           [vShow, unref(needScroll)]
@@ -36957,30 +37158,123 @@ const _sfc_main$3 = {
           ref_key: "staticTextEle",
           ref: staticTextEle,
           innerHTML: unref(props).html
-        }, null, 8, _hoisted_5$2), [
+        }, null, 8, _hoisted_5$3), [
           [vShow, !unref(needScroll)]
         ])
       ], 512);
     };
   }
 };
-const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-fd8aef6b"]]);
-const _withScopeId = (n2) => (pushScopeId("data-v-6071966b"), n2 = n2(), popScopeId(), n2);
+const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-fd8aef6b"]]);
+const _hoisted_1$2 = { class: "playinglist" };
+const _hoisted_2$2 = ["onClick"];
+const _hoisted_3$2 = ["src", "alt"];
+const _hoisted_4$2 = { class: "text" };
+const _hoisted_5$2 = { class: "name" };
+const _hoisted_6$1 = { class: "tns" };
+const _hoisted_7$1 = { class: "artist" };
+const _sfc_main$3 = {
+  __name: "playinglist",
+  setup(__props) {
+    const playStore = usePlayStore();
+    let playinglistScrollbarRef = ref(null);
+    let playinglistItemRef = ref([]);
+    function play(index) {
+      playStore.playlistIndex = index;
+      playStore.play(true);
+    }
+    onMounted(() => {
+      scrollToCurrent();
+    });
+    watch(() => playStore.playlistIndex, (value) => {
+      scrollToCurrent();
+    });
+    function scrollToCurrent() {
+      playinglistScrollbarRef.value.scrollTo({ top: playinglistItemRef.value?.[playStore.playlistIndex]?.offsetTop - 80, behavior: "smooth" });
+    }
+    return (_ctx, _cache) => {
+      const _component_n_tag = __unplugin_components_0$3;
+      const _component_n_scrollbar = Scrollbar;
+      return openBlock(), createElementBlock("div", _hoisted_1$2, [
+        createVNode(_component_n_scrollbar, {
+          class: "playinglist-scrollbar",
+          ref_key: "playinglistScrollbarRef",
+          ref: playinglistScrollbarRef
+        }, {
+          default: withCtx(() => [
+            createBaseVNode("ul", null, [
+              (openBlock(true), createElementBlock(Fragment, null, renderList(unref(playStore).playlist, (item, index) => {
+                return openBlock(), createElementBlock("li", {
+                  key: item.id,
+                  onClick: ($event) => play(index),
+                  class: "playinglist-item",
+                  ref_for: true,
+                  ref_key: "playinglistItemRef",
+                  ref: playinglistItemRef
+                }, [
+                  createBaseVNode("img", {
+                    class: "playinglist-img",
+                    src: item.picurl + "?param=80y80",
+                    alt: item.name,
+                    loading: "lazy"
+                  }, null, 8, _hoisted_3$2),
+                  createBaseVNode("div", _hoisted_4$2, [
+                    createBaseVNode("div", _hoisted_5$2, [
+                      item.fee == 1 ? (openBlock(), createBlock(_component_n_tag, {
+                        key: 0,
+                        type: "warning",
+                        size: "small",
+                        bordered: false
+                      }, {
+                        default: withCtx(() => [
+                          createTextVNode("VIP")
+                        ]),
+                        _: 1
+                      })) : createCommentVNode("", true),
+                      item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
+                        key: 1,
+                        type: "info",
+                        size: "small",
+                        bordered: false
+                      }, {
+                        default: withCtx(() => [
+                          createTextVNode("数字专辑")
+                        ]),
+                        _: 1
+                      })) : createCommentVNode("", true),
+                      createTextVNode(" " + toDisplayString(item.name), 1)
+                    ]),
+                    createBaseVNode("div", _hoisted_6$1, toDisplayString(item.tns), 1),
+                    createBaseVNode("div", _hoisted_7$1, toDisplayString(item.artist), 1)
+                  ])
+                ], 8, _hoisted_2$2);
+              }), 128))
+            ])
+          ]),
+          _: 1
+        }, 512)
+      ]);
+    };
+  }
+};
+const playinglist = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-956a7834"]]);
+const _withScopeId = (n2) => (pushScopeId("data-v-2ae08bd0"), n2 = n2(), popScopeId(), n2);
 const _hoisted_1$1 = { class: "ctrl-outer" };
-const _hoisted_2$1 = { class: "ctrl-img-box" };
-const _hoisted_3$1 = ["src"];
-const _hoisted_4$1 = { class: "ctrl-info-box" };
-const _hoisted_5$1 = { class: "ctrl-info-title" };
-const _hoisted_6$1 = { class: "ctrl-info-artist" };
-const _hoisted_7 = { class: "ctrl-info-lyric" };
-const _hoisted_8 = { class: "ctrl-center" };
-const _hoisted_9 = { class: "btn-control" };
-const _hoisted_10 = { class: "btn-like button" };
-const _hoisted_11 = { class: "btn-play-control" };
-const _hoisted_12 = { class: "btn-prev button" };
-const _hoisted_13 = { class: "btn-pause button" };
-const _hoisted_14 = { class: "btn-next button" };
-const _hoisted_15 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("svg", {
+const _hoisted_2$1 = { class: "ctrl-box" };
+const _hoisted_3$1 = { class: "ctrl-img-box" };
+const _hoisted_4$1 = ["src"];
+const _hoisted_5$1 = { class: "ctrl-info-box" };
+const _hoisted_6 = { class: "ctrl-info-title" };
+const _hoisted_7 = { class: "ctrl-info-artist" };
+const _hoisted_8 = { class: "ctrl-info-lyric" };
+const _hoisted_9 = { class: "ctrl-center" };
+const _hoisted_10 = { class: "btn-control" };
+const _hoisted_11 = { class: "btn-like button" };
+const _hoisted_12 = { class: "btn-play-control" };
+const _hoisted_13 = { class: "btn-prev button" };
+const _hoisted_14 = { class: "btn-pause button" };
+const _hoisted_15 = { class: "btn-next button" };
+const _hoisted_16 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("svg", {
   t: "1721825346602",
   class: "icon",
   height: "1.5rem",
@@ -36995,14 +37289,23 @@ const _hoisted_15 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBas
     "p-id": "1885"
   })
 ], -1));
-const _hoisted_16 = { class: "ctrl-progress-box" };
-const _hoisted_17 = { class: "ctrl-right" };
-const _hoisted_18 = { class: "btn-list button" };
+const _hoisted_17 = { class: "ctrl-progress-box" };
+const _hoisted_18 = { class: "ctrl-right" };
+const _hoisted_19 = { class: "btn-list button" };
 const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
+    useCssVars((_ctx) => ({
+      "22ae1b24": unref(ctrlTop),
+      "a4409e10": unref(ctrlHeight)
+    }));
     let router2 = useRouter();
     let playStore = usePlayStore();
+    let showPlayingList = ref(false);
+    let ctrlTop = computed(() => {
+      return showPlayingList.value ? "0vh" : `calc(var(--vh,1vh) * 100 - ${ctrlHeight.value})`;
+    });
+    let ctrlHeight = ref("7rem");
     let lyricNow = computed(() => {
       if (!Array.isArray(playStore.currentMusic.lyric) || playStore.currentMusic?.lyric.length < playStore.currentMusic.currentLyricIndex) {
         return "";
@@ -37020,143 +37323,151 @@ const _sfc_main$2 = {
       const _component_n_slider = __unplugin_components_2$1;
       const _component_i_hugeicons_playlist_03 = __unplugin_components_9;
       return openBlock(), createElementBlock("div", _hoisted_1$1, [
-        createBaseVNode("div", {
-          class: "ctrl-left",
-          onClick: _cache[0] || (_cache[0] = () => unref(router2).push({ name: "player" }))
-        }, [
-          createBaseVNode("div", _hoisted_2$1, [
-            createBaseVNode("img", {
-              class: "ctrl-img",
-              src: unref(playStore).currentMusic.picurl
-            }, null, 8, _hoisted_3$1)
-          ]),
-          createBaseVNode("div", _hoisted_4$1, [
+        createBaseVNode("div", _hoisted_2$1, [
+          createBaseVNode("div", {
+            class: "ctrl-left",
+            onClick: _cache[0] || (_cache[0] = () => unref(router2).push({ name: "player" }))
+          }, [
+            createBaseVNode("div", _hoisted_3$1, [
+              createBaseVNode("img", {
+                class: "ctrl-img",
+                src: unref(playStore).currentMusic.picurl
+              }, null, 8, _hoisted_4$1)
+            ]),
             createBaseVNode("div", _hoisted_5$1, [
-              createVNode(MarqueePlus, {
-                html: unref(playStore).nameWithTns
-              }, null, 8, ["html"])
-            ]),
-            createBaseVNode("div", _hoisted_6$1, [
-              createVNode(MarqueePlus, {
-                html: unref(playStore).currentMusic.artist
-              }, null, 8, ["html"])
-            ]),
-            createBaseVNode("div", _hoisted_7, [
-              createVNode(MarqueePlus, { html: unref(lyricNow) }, null, 8, ["html"])
+              createBaseVNode("div", _hoisted_6, [
+                createVNode(MarqueePlus, {
+                  html: unref(playStore).nameWithTns
+                }, null, 8, ["html"])
+              ]),
+              createBaseVNode("div", _hoisted_7, [
+                createVNode(MarqueePlus, {
+                  html: unref(playStore).currentMusic.artist
+                }, null, 8, ["html"])
+              ]),
+              createBaseVNode("div", _hoisted_8, [
+                createVNode(MarqueePlus, { html: unref(lyricNow) }, null, 8, ["html"])
+              ])
             ])
-          ])
-        ]),
-        createBaseVNode("div", _hoisted_8, [
+          ]),
           createBaseVNode("div", _hoisted_9, [
             createBaseVNode("div", _hoisted_10, [
+              createBaseVNode("div", _hoisted_11, [
+                createVNode(_component_n_icon, {
+                  size: "1.5rem",
+                  class: "icon"
+                }, {
+                  default: withCtx(() => [
+                    !unref(playStore).currentMusic?.isLiked ? (openBlock(), createBlock(_component_i_ant_design_heart_outlined, {
+                      key: 0,
+                      onClick: _cache[1] || (_cache[1] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, true))
+                    })) : (openBlock(), createBlock(_component_i_ant_design_heart_filled, {
+                      key: 1,
+                      onClick: _cache[2] || (_cache[2] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, false))
+                    }))
+                  ]),
+                  _: 1
+                })
+              ]),
+              createBaseVNode("div", _hoisted_12, [
+                createBaseVNode("div", _hoisted_13, [
+                  createVNode(_component_n_icon, {
+                    size: "2.5rem",
+                    class: "icon",
+                    onClick: unref(playStore).prev
+                  }, {
+                    default: withCtx(() => [
+                      createVNode(_component_i_hugeicons_arrow_left_01)
+                    ]),
+                    _: 1
+                  }, 8, ["onClick"])
+                ]),
+                createBaseVNode("div", _hoisted_14, [
+                  unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
+                    key: 0,
+                    size: "2.5rem",
+                    class: "icon",
+                    onClick: _cache[3] || (_cache[3] = () => unref(playStore).play())
+                  }, {
+                    default: withCtx(() => [
+                      createVNode(_component_i_hugeicons_play)
+                    ]),
+                    _: 1
+                  })) : createCommentVNode("", true),
+                  !unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
+                    key: 1,
+                    size: "2.5rem",
+                    class: "icon",
+                    onClick: _cache[4] || (_cache[4] = () => unref(playStore).pause())
+                  }, {
+                    default: withCtx(() => [
+                      createVNode(_component_i_hugeicons_pause)
+                    ]),
+                    _: 1
+                  })) : createCommentVNode("", true)
+                ]),
+                createBaseVNode("div", _hoisted_15, [
+                  createVNode(_component_n_icon, {
+                    size: "2.5rem",
+                    class: "icon",
+                    onClick: unref(playStore).next
+                  }, {
+                    default: withCtx(() => [
+                      createVNode(_component_i_hugeicons_arrow_right_01)
+                    ]),
+                    _: 1
+                  }, 8, ["onClick"])
+                ])
+              ]),
+              _hoisted_16
+            ]),
+            createBaseVNode("div", _hoisted_17, [
+              createVNode(_component_n_slider, {
+                value: unref(playStore).musicStatus.currentTime,
+                "onUpdate:value": [
+                  _cache[5] || (_cache[5] = ($event) => unref(playStore).musicStatus.currentTime = $event),
+                  _cache[6] || (_cache[6] = (value) => unref(playStore).seek(value))
+                ],
+                max: unref(playStore).musicStatus.duration,
+                tooltip: false,
+                "show-tooltip": false
+              }, null, 8, ["value", "max"])
+            ])
+          ]),
+          createBaseVNode("div", _hoisted_18, [
+            createBaseVNode("div", _hoisted_19, [
               createVNode(_component_n_icon, {
                 size: "1.5rem",
-                class: "icon"
+                class: "icon",
+                onClick: _cache[7] || (_cache[7] = () => {
+                  isRef(showPlayingList) ? showPlayingList.value = !unref(showPlayingList) : showPlayingList = !unref(showPlayingList);
+                })
               }, {
                 default: withCtx(() => [
-                  !unref(playStore).currentMusic?.isLiked ? (openBlock(), createBlock(_component_i_ant_design_heart_outlined, {
-                    key: 0,
-                    onClick: _cache[1] || (_cache[1] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, true))
-                  })) : (openBlock(), createBlock(_component_i_ant_design_heart_filled, {
-                    key: 1,
-                    onClick: _cache[2] || (_cache[2] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, false))
-                  }))
+                  createVNode(_component_i_hugeicons_playlist_03)
                 ]),
                 _: 1
               })
-            ]),
-            createBaseVNode("div", _hoisted_11, [
-              createBaseVNode("div", _hoisted_12, [
-                createVNode(_component_n_icon, {
-                  size: "2.5rem",
-                  class: "icon",
-                  onClick: unref(playStore).prev
-                }, {
-                  default: withCtx(() => [
-                    createVNode(_component_i_hugeicons_arrow_left_01)
-                  ]),
-                  _: 1
-                }, 8, ["onClick"])
-              ]),
-              createBaseVNode("div", _hoisted_13, [
-                unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
-                  key: 0,
-                  size: "2.5rem",
-                  class: "icon",
-                  onClick: _cache[3] || (_cache[3] = () => unref(playStore).play())
-                }, {
-                  default: withCtx(() => [
-                    createVNode(_component_i_hugeicons_play)
-                  ]),
-                  _: 1
-                })) : createCommentVNode("", true),
-                !unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
-                  key: 1,
-                  size: "2.5rem",
-                  class: "icon",
-                  onClick: _cache[4] || (_cache[4] = () => unref(playStore).pause())
-                }, {
-                  default: withCtx(() => [
-                    createVNode(_component_i_hugeicons_pause)
-                  ]),
-                  _: 1
-                })) : createCommentVNode("", true)
-              ]),
-              createBaseVNode("div", _hoisted_14, [
-                createVNode(_component_n_icon, {
-                  size: "2.5rem",
-                  class: "icon",
-                  onClick: unref(playStore).next
-                }, {
-                  default: withCtx(() => [
-                    createVNode(_component_i_hugeicons_arrow_right_01)
-                  ]),
-                  _: 1
-                }, 8, ["onClick"])
-              ])
-            ]),
-            _hoisted_15
-          ]),
-          createBaseVNode("div", _hoisted_16, [
-            createVNode(_component_n_slider, {
-              value: unref(playStore).musicStatus.currentTime,
-              "onUpdate:value": [
-                _cache[5] || (_cache[5] = ($event) => unref(playStore).musicStatus.currentTime = $event),
-                _cache[6] || (_cache[6] = (value) => unref(playStore).seek(value))
-              ],
-              max: unref(playStore).musicStatus.duration,
-              tooltip: false,
-              "show-tooltip": false
-            }, null, 8, ["value", "max"])
+            ])
           ])
         ]),
-        createBaseVNode("div", _hoisted_17, [
-          createBaseVNode("div", _hoisted_18, [
-            createVNode(_component_n_icon, {
-              size: "1.5rem",
-              class: "icon",
-              onClick: _cache[7] || (_cache[7] = () => {
-                _ctx.showPlayingList = !_ctx.showPlayingList;
-              })
-            }, {
-              default: withCtx(() => [
-                createVNode(_component_i_hugeicons_playlist_03)
-              ]),
-              _: 1
-            })
-          ])
+        createBaseVNode("div", {
+          class: "ctrl-playinglist",
+          onClick: _cache[8] || (_cache[8] = withModifiers(() => {
+          }, ["stop"]))
+        }, [
+          createVNode(playinglist)
         ])
       ]);
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-6071966b"]]);
-const _hoisted_1 = { id: "container" };
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-2ae08bd0"]]);
+const _hoisted_1 = { class: "container" };
 const _hoisted_2 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };
 const _hoisted_4 = { class: "container-content" };
 const _hoisted_5 = { class: "container-router-view" };
-const _hoisted_6 = { class: "container-ctrl-bar" };
 const _sfc_main$1 = {
   __name: "container",
   setup(__props) {
@@ -37168,7 +37479,7 @@ const _sfc_main$1 = {
             createVNode(navigation)
           ]),
           createBaseVNode("div", _hoisted_4, [
-            createVNode(_sfc_main$5),
+            createVNode(_sfc_main$6),
             createBaseVNode("div", _hoisted_5, [
               createVNode(_component_router_view, null, {
                 default: withCtx(({ Component }) => [
@@ -37186,14 +37497,12 @@ const _sfc_main$1 = {
             ])
           ])
         ]),
-        createBaseVNode("div", _hoisted_6, [
-          createVNode(MusicController)
-        ])
+        createVNode(MusicController)
       ]);
     };
   }
 };
-const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-b73e9aeb"]]);
+const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-6e40df1a"]]);
 function mitt(n2) {
   return { all: n2 = n2 || /* @__PURE__ */ new Map(), on: function(t2, e) {
     var i2 = n2.get(t2);
@@ -37244,7 +37553,7 @@ const _sfc_main = {
             createVNode(Container),
             createVNode(_component_n_message_provider, null, {
               default: withCtx(() => [
-                createVNode(_sfc_main$6)
+                createVNode(_sfc_main$7)
               ]),
               _: 1
             })
@@ -37261,123 +37570,125 @@ console.log("pinia实例被创建");
 app.use(router);
 app.mount("#app");
 export {
-  cE as $,
-  useCssVars as A,
-  __unplugin_components_0 as B,
-  __unplugin_components_2 as C,
-  __unplugin_components_3 as D,
-  __unplugin_components_5 as E,
+  defineComponent as $,
+  pushScopeId as A,
+  popScopeId as B,
+  useCssVars as C,
+  __unplugin_components_0 as D,
+  __unplugin_components_2 as E,
   Fragment as F,
-  __unplugin_components_6 as G,
-  __unplugin_components_7 as H,
-  __unplugin_components_8 as I,
-  __unplugin_components_9 as J,
-  useRouter as K,
-  getPersonalizedPlaylist as L,
+  __unplugin_components_3 as G,
+  __unplugin_components_5 as H,
+  __unplugin_components_6 as I,
+  __unplugin_components_7 as J,
+  __unplugin_components_8 as K,
+  __unplugin_components_9 as L,
   MarqueePlus as M,
   NIcon as N,
-  createTextVNode as O,
-  useTheme as P,
-  defineComponent as Q,
-  h as R,
+  useRouter as O,
+  getPersonalizedPlaylist as P,
+  createTextVNode as Q,
+  cloudsearch as R,
   Scrollbar as S,
-  __unplugin_components_0$3 as T,
-  cloudsearch as U,
-  withDirectives as V,
-  vShow as W,
-  derived as X,
-  cB as Y,
-  cNotM as Z,
+  withDirectives as T,
+  vShow as U,
+  derived as V,
+  cB as W,
+  cNotM as X,
+  cE as Y,
+  cM as Z,
   _export_sfc as _,
   usePlayStore as a,
-  clickoutside as a$,
-  cM as a0,
+  VTarget as a$,
+  useTheme as a0,
   useConfig as a1,
   useThemeClass as a2,
-  c$1 as a3,
-  watchEffect as a4,
-  loginQrKey as a5,
-  loginQrCreate as a6,
-  loginQrCheck as a7,
-  success as a8,
-  error as a9,
-  rgba as aA,
-  toHslaString as aB,
-  toHsvaString as aC,
-  toRgbaString as aD,
-  hsla as aE,
-  hsva as aF,
-  on as aG,
-  off as aH,
-  createInjectionKey as aI,
-  inject as aJ,
-  toHexString as aK,
-  toHslString as aL,
-  toRgbString as aM,
-  toHsvString as aN,
-  warn$2 as aO,
-  fadeInScaleUpTransition as aP,
-  useFormItem as aQ,
-  useLocale as aR,
-  provide as aS,
-  toRef as aT,
-  useMergedState as aU,
-  isMounted as aV,
-  useAdjustedTo as aW,
-  getPreciseEventTarget as aX,
-  Binder as aY,
-  VTarget as aZ,
-  VFollower as a_,
-  verifyCaptcha as aa,
-  loginWithPhone as ab,
-  sendCaptcha as ac,
-  __unplugin_components_2$2 as ad,
-  areaData as ae,
-  getColorFromImg as af,
-  mixColor as ag,
-  recommendSongs as ah,
-  playlistDetail as ai,
-  fadeInTransition as aj,
-  pxfy as ak,
-  createKey as al,
-  useCompitable as am,
-  NBaseLoading as an,
-  Transition as ao,
-  parseArray as ap,
-  parseArtist as aq,
-  createTheme as ar,
-  tooltipLight as as,
-  useMergedClsPrefix as at,
-  onDeactivated as au,
-  NTooltip as av,
-  mergeProps as aw,
-  useStyle as ax,
-  inputLight as ay,
-  toHexaString as az,
+  h as a3,
+  c$1 as a4,
+  watchEffect as a5,
+  loginQrKey as a6,
+  loginQrCreate as a7,
+  loginQrCheck as a8,
+  success as a9,
+  inputLight as aA,
+  toHexaString as aB,
+  rgba as aC,
+  toHslaString as aD,
+  toHsvaString as aE,
+  toRgbaString as aF,
+  hsla as aG,
+  hsva as aH,
+  on as aI,
+  off as aJ,
+  createInjectionKey as aK,
+  inject as aL,
+  toHexString as aM,
+  toHslString as aN,
+  toRgbString as aO,
+  toHsvString as aP,
+  warn$2 as aQ,
+  fadeInScaleUpTransition as aR,
+  useFormItem as aS,
+  useLocale as aT,
+  provide as aU,
+  toRef as aV,
+  useMergedState as aW,
+  isMounted as aX,
+  useAdjustedTo as aY,
+  getPreciseEventTarget as aZ,
+  Binder as a_,
+  error as aa,
+  verifyCaptcha as ab,
+  loginWithPhone as ac,
+  sendCaptcha as ad,
+  __unplugin_components_2$2 as ae,
+  areaData as af,
+  getColorFromImg as ag,
+  mixColor as ah,
+  recommendSongs as ai,
+  playlistDetail as aj,
+  __unplugin_components_0$3 as ak,
+  fadeInTransition as al,
+  pxfy as am,
+  createKey as an,
+  useCompitable as ao,
+  NBaseLoading as ap,
+  Transition as aq,
+  parseArray as ar,
+  parseArtist as as,
+  createTheme as at,
+  tooltipLight as au,
+  useMergedClsPrefix as av,
+  onDeactivated as aw,
+  NTooltip as ax,
+  mergeProps as ay,
+  useStyle as az,
   onBeforeUnmount as b,
-  call as b0,
-  nextTick as b1,
-  renderSlot as b2,
-  emitter as b3,
-  asModal as b4,
-  insideModal as b5,
-  insidePopover as b6,
-  useRtl as b7,
-  getMargin as b8,
-  resolveWrappedSlot as b9,
-  ensureValidVNode as ba,
-  NBaseClose as bb,
-  commonVariables$5 as bc,
-  composite as bd,
-  isBrowser$2 as be,
-  iconSwitchTransition as bf,
-  isSafari as bg,
-  useMemo as bh,
-  changeColor as bi,
-  color2Class as bj,
-  NFadeInExpandTransition as bk,
-  isSlotEmpty as bl,
-  NIconSwitchTransition as bm,
+  VFollower as b0,
+  clickoutside as b1,
+  call as b2,
+  nextTick as b3,
+  renderSlot as b4,
+  emitter as b5,
+  asModal as b6,
+  insideModal as b7,
+  insidePopover as b8,
+  useRtl as b9,
+  getMargin as ba,
+  resolveWrappedSlot as bb,
+  ensureValidVNode as bc,
+  NBaseClose as bd,
+  commonVariables$5 as be,
+  composite as bf,
+  isBrowser$2 as bg,
+  iconSwitchTransition as bh,
+  isSafari as bi,
+  useMemo as bj,
+  changeColor as bk,
+  color2Class as bl,
+  NFadeInExpandTransition as bm,
+  isSlotEmpty as bn,
+  NIconSwitchTransition as bo,
   computed as c,
   openBlock as d,
   createElementBlock as e,
@@ -37389,17 +37700,17 @@ export {
   createBlock as k,
   createCommentVNode as l,
   isRef as m,
-  getColorsFromImg as n,
+  withModifiers as n,
   onMounted as o,
-  __unplugin_components_2$1 as p,
-  likeAndUpdateLikelist as q,
+  getColorsFromImg as p,
+  __unplugin_components_2$1 as q,
   ref as r,
   storeToRefs as s,
   toDisplayString as t,
   useUserStore as u,
-  renderList as v,
+  likeAndUpdateLikelist as v,
   watch as w,
-  normalizeClass as x,
-  pushScopeId as y,
-  popScopeId as z
+  renderList as x,
+  normalizeClass as y,
+  playinglist as z
 };

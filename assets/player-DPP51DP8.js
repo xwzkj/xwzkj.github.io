@@ -1,6 +1,5 @@
-import { _ as _export_sfc, u as useUserStore, a as usePlayStore, s as storeToRefs, r as ref, c as computed, o as onMounted, w as watch, b as onBeforeUnmount, d as openBlock, e as createElementBlock, f as createBaseVNode, g as createVNode, h as withCtx, i as windowBack, j as unref, M as MarqueePlus, t as toDisplayString, k as createBlock, l as createCommentVNode, m as isRef, n as getColorsFromImg, N as NIcon, p as __unplugin_components_2, q as likeAndUpdateLikelist, F as Fragment, v as renderList, x as normalizeClass, y as pushScopeId, z as popScopeId, A as useCssVars, B as __unplugin_components_0, C as __unplugin_components_2$1, D as __unplugin_components_3, E as __unplugin_components_5, G as __unplugin_components_6, H as __unplugin_components_7, I as __unplugin_components_8, J as __unplugin_components_9 } from "./index-DNTExrNd.js";
-import { S as Scrollbar, p as playinglist } from "./playinglist-Bq4IKMbT.js";
-const _withScopeId = (n) => (pushScopeId("data-v-5d74e976"), n = n(), popScopeId(), n);
+import { _ as _export_sfc, u as useUserStore, a as usePlayStore, s as storeToRefs, r as ref, c as computed, o as onMounted, w as watch, b as onBeforeUnmount, d as openBlock, e as createElementBlock, f as createBaseVNode, g as createVNode, h as withCtx, i as windowBack, j as unref, M as MarqueePlus, t as toDisplayString, k as createBlock, l as createCommentVNode, m as isRef, n as withModifiers, p as getColorsFromImg, N as NIcon, q as __unplugin_components_2, S as Scrollbar, v as likeAndUpdateLikelist, F as Fragment, x as renderList, y as normalizeClass, z as playinglist, A as pushScopeId, B as popScopeId, C as useCssVars, D as __unplugin_components_0, E as __unplugin_components_2$1, G as __unplugin_components_3, H as __unplugin_components_5, I as __unplugin_components_6, J as __unplugin_components_7, K as __unplugin_components_8, L as __unplugin_components_9 } from "./index-DrtoPhs1.js";
+const _withScopeId = (n) => (pushScopeId("data-v-74ef3134"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "playerOoouter" };
 const _hoisted_2 = { id: "playerOuter" };
 const _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { id: "playerBackground" }, null, -1));
@@ -47,13 +46,12 @@ const _hoisted_22 = { class: "lyric-list" };
 const _hoisted_23 = ["id"];
 const _hoisted_24 = { class: "lyric-roma" };
 const _hoisted_25 = { class: "lyric-tran" };
-const _hoisted_26 = { class: "player-playinglist" };
 const _sfc_main = {
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "66181323": unref(background),
-      "2ebdff3e": unref(playingListTop)
+      "0a7945e1": unref(background),
+      "f4a8ba08": unref(playingListTop)
     }));
     useUserStore();
     let playStore = usePlayStore();
@@ -254,11 +252,15 @@ const _sfc_main = {
         ]),
         createBaseVNode("div", {
           class: "player-playinglist-box",
-          onClick: _cache[7] || (_cache[7] = () => {
+          onClick: _cache[8] || (_cache[8] = () => {
             isRef(displayList) ? displayList.value = false : displayList = false;
           })
         }, [
-          createBaseVNode("div", _hoisted_26, [
+          createBaseVNode("div", {
+            class: "player-playinglist",
+            onClick: _cache[7] || (_cache[7] = withModifiers(() => {
+            }, ["stop"]))
+          }, [
             createVNode(playinglist)
           ])
         ])
@@ -266,7 +268,7 @@ const _sfc_main = {
     };
   }
 };
-const player = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-5d74e976"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-74ef3134"]]);
 export {
   player as default
 };
