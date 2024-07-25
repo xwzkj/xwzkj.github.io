@@ -1,10 +1,8 @@
-import { _ as _export_sfc, a as usePlayStore, K as useRouter, r as ref, w as watch, o as onMounted, ah as recommendSongs, ai as playlistDetail, d as openBlock, e as createElementBlock, j as unref, f as createBaseVNode, l as createCommentVNode, t as toDisplayString, F as Fragment, v as renderList, g as createVNode, h as withCtx, k as createBlock, O as createTextVNode, T as __unplugin_components_0 } from "./index-DGJ4V9Hy.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-BdKvGuS6.js";
-import { B as Button } from "./Button-DaB_Ahyb.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-DJ1XCylR.js";
-import "./use-compitable-CBhwcCGD.js";
-import "./Card-Bx4QGBp-.js";
-import "./clickoutside-D3o0UUwp.js";
+import { _ as _export_sfc, a as usePlayStore, K as useRouter, r as ref, w as watch, o as onMounted, ah as recommendSongs, ai as playlistDetail, d as openBlock, e as createElementBlock, j as unref, f as createBaseVNode, l as createCommentVNode, t as toDisplayString, F as Fragment, v as renderList, g as createVNode, h as withCtx, k as createBlock, O as createTextVNode, T as __unplugin_components_0 } from "./index-DNTExrNd.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-AS6fSFx_.js";
+import { B as Button } from "./Button-kQAzULRg.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-C7Pi-t4v.js";
+import "./Card-TaHexhhU.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
@@ -30,10 +28,10 @@ const _hoisted_14 = {
 };
 const _sfc_main = {
   __name: "playlist",
-  props: ["id", "isDailySongs"],
+  props: ["id", "isDailySongs", "autoPlay"],
   setup(__props) {
     const playStore = usePlayStore();
-    const router = useRouter();
+    useRouter();
     let loading = ref(false);
     let result = ref([]);
     let props = __props;
@@ -61,19 +59,20 @@ const _sfc_main = {
         let res = await playlistDetail(props.id);
         result.value = res.data.playlist;
       }
+      if (props.autoPlay) {
+        playAll();
+      }
     }
     async function playAll() {
       loading.value = true;
       await playStore.playlistInit(null, result.value.tracks);
       playStore.play(true);
-      router.push({ name: "player" });
       loading.value = false;
     }
     async function play(id) {
       loading.value = true;
       await playStore.addMusic([id], 0, true);
       playStore.play(true);
-      router.push({ name: "player" });
       loading.value = false;
     }
     return (_ctx, _cache) => {
@@ -147,7 +146,7 @@ const _sfc_main = {
     };
   }
 };
-const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-adda1e30"]]);
+const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-0f3a4cfc"]]);
 export {
   playlist as default
 };

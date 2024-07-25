@@ -3,6 +3,7 @@ span {
     margin: 0;
 }
 .header {
+    padding-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,10 +17,11 @@ span {
     cursor: pointer;
 }
 
-.header-title[data-v-1f7f6a96] {
+.header-title[data-v-8a047884] {
     font-size: 1.5rem;
     cursor: pointer;
     font-weight: 600;
+    padding: 1rem;
 }
 
 [data-v-fd8aef6b] {
@@ -62,10 +64,10 @@ span {
 }
 }
 
-[data-v-82cfd013] {
+[data-v-6071966b] {
     box-sizing: border-box;
 }
-.ctrl-outer[data-v-82cfd013] {
+.ctrl-outer[data-v-6071966b] {
     width: 100%;
     height: 7rem;
     border: 1px solid grey;
@@ -74,12 +76,12 @@ span {
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-82cfd013] {
+.ctrl-left[data-v-6071966b] {
     display: flex;
     width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-82cfd013] {
+.ctrl-img-box[data-v-6071966b] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -92,36 +94,36 @@ span {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-82cfd013] {
+.ctrl-img[data-v-6071966b] {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.ctrl-info-box[data-v-82cfd013] {
+.ctrl-info-box[data-v-6071966b] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-82cfd013] {
+.ctrl-info-title[data-v-6071966b] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-82cfd013] {
+.ctrl-center[data-v-6071966b] {
     width: calc(100% / 3.5);
 }
-.button[data-v-82cfd013] {
+.button[data-v-6071966b] {
     cursor: pointer;
 }
-.btn-control[data-v-82cfd013] {
+.btn-control[data-v-6071966b] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-82cfd013] {
+.btn-play-control[data-v-6071966b] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -129,10 +131,11 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-82cfd013] {
+.ctrl-right[data-v-6071966b] {
     width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .container-main[data-v-b73e9aeb] {
