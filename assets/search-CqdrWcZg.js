@@ -1,6 +1,6 @@
-import { _ as _export_sfc, a as usePlayStore, P as useRouter, r as ref, w as watch, o as onMounted, T as cloudsearch, d as openBlock, e as createElementBlock, U as withDirectives, V as vShow, j as unref, f as createBaseVNode, k as createBlock, l as createCommentVNode, F as Fragment } from "./index-cwhDsidY.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DMD68Lcn.js";
-import "./Card-BbQPVYgZ.js";
+import { _ as _export_sfc, a as usePlayStore, P as useRouter, r as ref, w as watch, o as onMounted, T as cloudsearch, d as openBlock, e as createElementBlock, U as withDirectives, V as vShow, j as unref, f as createBaseVNode, k as createBlock, l as createCommentVNode, F as Fragment } from "./index-kdNq7zRv.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-D6mKA9lv.js";
+import "./Card-rcTEI1pX.js";
 const _sfc_main = {
   __name: "search",
   props: ["keyword"],

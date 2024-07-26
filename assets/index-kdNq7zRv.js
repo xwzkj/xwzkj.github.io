@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-BrruobSs.js","./player-B-FvSr6J.css","./home-CFguvbGA.js","./itemCard-CSGsJq2I.js","./Ellipsis-Bf4n1GrN.js","./itemCard-e-etQdsq.css","./home-BPYR4U23.css","./search-CBqDwhTo.js","./musicList-DMD68Lcn.js","./Card-BbQPVYgZ.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-OVy2uvrJ.js","./Button-Dg_F8xys.js","./login-CX2p-lSQ.css","./account-Dh8PGr7e.js","./account-s9uuTX7o.css","./playlist-BI5pC88U.js","./playlist-CuAG0Pwh.css","./setting-C-jbcLQg.js","./setting-C6y0XIYj.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-GpIyVm5S.js","./player-B-FvSr6J.css","./home-ZEjgVt-n.js","./itemCard-D_itqDx3.js","./Ellipsis-CcNh2Ixk.js","./itemCard-e-etQdsq.css","./home-BPYR4U23.css","./search-CqdrWcZg.js","./musicList-D6mKA9lv.js","./Card-rcTEI1pX.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-K9iAjNJb.js","./Button-Dz6GmzRB.js","./login-CX2p-lSQ.css","./account-uT7noglp.js","./account-s9uuTX7o.css","./playlist-BsIi0RPR.js","./playlist-CuAG0Pwh.css","./setting-BqOPVYSQ.js","./setting-C6y0XIYj.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.34
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -9054,7 +9054,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-BrruobSs.js"), true ? __vite__mapDeps([0,1]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-GpIyVm5S.js"), true ? __vite__mapDeps([0,1]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9065,7 +9065,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-CFguvbGA.js"), true ? __vite__mapDeps([2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-ZEjgVt-n.js"), true ? __vite__mapDeps([2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9076,7 +9076,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-CBqDwhTo.js"), true ? __vite__mapDeps([7,8,9,10,11]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CqdrWcZg.js"), true ? __vite__mapDeps([7,8,9,10,11]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9087,7 +9087,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-OVy2uvrJ.js"), true ? __vite__mapDeps([12,13,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-K9iAjNJb.js"), true ? __vite__mapDeps([12,13,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9095,7 +9095,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-Dh8PGr7e.js"), true ? __vite__mapDeps([15,3,4,5,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-uT7noglp.js"), true ? __vite__mapDeps([15,3,4,5,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9106,7 +9106,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BI5pC88U.js"), true ? __vite__mapDeps([17,8,9,10,13,4,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BsIi0RPR.js"), true ? __vite__mapDeps([17,8,9,10,13,4,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9117,7 +9117,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-C-jbcLQg.js"), true ? __vite__mapDeps([19,13,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BqOPVYSQ.js"), true ? __vite__mapDeps([19,13,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -35087,7 +35087,7 @@ apiURL：${apiurl}
 ${JSON.stringify(e.response)}`);
   }
 };
-if (window.hasOwnProperty("netease")) {
+if (window.$isElectron) {
   request = async (param, _) => {
     let { url, method, params, data } = param;
     if (localStorage.getItem("cookie")) {
@@ -36187,6 +36187,9 @@ const usePlayStore = defineStore("play", () => {
           if (currentMusic.value.lyric[i2].time <= musicStatus.value.currentTime * 1e3 && next2 == true) {
             if (lyricIndexNow.value != i2) {
               lyricIndexNow.value = i2;
+              if (window.$isElectron) {
+                window?.lyric(JSON.stringify(currentMusic.value?.lyric?.[i2]));
+              }
             }
             break;
           }
@@ -37732,9 +37735,10 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "51b4616a": unref(bgcolor),
-      "c1b42ffa": unref(textColor)
+      "aa203a50": unref(bgcolor),
+      "ae8d6760": unref(textColor)
     }));
+    window.$isElectron = window.hasOwnProperty("netease");
     let themeOverrides = ref({
       common: {
         borderRadius: "10px",
