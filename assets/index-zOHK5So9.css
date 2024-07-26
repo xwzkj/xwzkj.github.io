@@ -25,11 +25,11 @@ span {
     padding: 1rem;
 }
 
-[data-v-fd8aef6b] {
+[data-v-633ab8bf] {
     box-sizing: border-box;
     margin: 0;
 }
-.marquee-sizer[data-v-fd8aef6b] {
+.marquee-sizer[data-v-633ab8bf] {
     --marquee-duration: 5s;
 
     overflow: hidden;
@@ -37,31 +37,40 @@ span {
     height: 100%;
     width: 100%;
 }
-.marquee-outer[data-v-fd8aef6b] {
+.marquee-outer[data-v-633ab8bf] {
     display: inline-block;
 }
-.marquee-container[data-v-fd8aef6b] {
+.marquee-container[data-v-633ab8bf] {
     display: inline-block;
     height: 100%;
     position: relative;
-    animation: marquee-fd8aef6b var(--marquee-duration) linear infinite;
+    animation: var(--d3d70608) var(--690caf85) linear var(--2bf00532) var(--d3d86dd6) forwards;
 }
-.marquee-content[data-v-fd8aef6b] {
+.marquee-content[data-v-633ab8bf] {
     display: inline-block;
 }
-.marquee-text2[data-v-fd8aef6b] {
-    margin-left: 2.5em;
-    margin-right: 2.5em;
+.marquee-text2[data-v-633ab8bf] {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
 }
-.marquee-static-text[data-v-fd8aef6b] {
+.marquee-static-text[data-v-633ab8bf] {
     display: inline-block;
 }
-@keyframes marquee-fd8aef6b {
+
+@keyframes marquee {
 0% {
         transform: translateX(0%);
 }
 100% {
         transform: translateX(-50%);
+}
+}
+@keyframes marquee-lyric {
+0% {
+        transform: translateX(0%);
+}
+100% {
+        transform: translateX(var(--0c43f223));
 }
 }
 
@@ -108,13 +117,13 @@ ul[data-v-956a7834] {
     width: 100%;
 }
 
-[data-v-d6c187e7] {
+[data-v-5cf3f66c] {
     box-sizing: border-box;
 }
-.ctrl-outer[data-v-d6c187e7] {
+.ctrl-outer[data-v-5cf3f66c] {
     position: fixed;
     z-index: 1;
-    top: var(--4d0a3f63);
+    top: var(--68c6e148);
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -128,17 +137,17 @@ ul[data-v-956a7834] {
     backdrop-filter: blur(20px);
     transition: all 0.5s ease-in-out;
 }
-.ctrl-box[data-v-d6c187e7] {
+.ctrl-box[data-v-5cf3f66c] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-d6c187e7] {
+.ctrl-left[data-v-5cf3f66c] {
     display: flex;
     width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-d6c187e7] {
+.ctrl-img-box[data-v-5cf3f66c] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -151,37 +160,37 @@ ul[data-v-956a7834] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-d6c187e7] {
+.ctrl-img[data-v-5cf3f66c] {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.ctrl-info-box[data-v-d6c187e7] {
+.ctrl-info-box[data-v-5cf3f66c] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-d6c187e7] {
+.ctrl-info-title[data-v-5cf3f66c] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-d6c187e7] {
+.ctrl-center[data-v-5cf3f66c] {
     padding-top: 0.8rem;
     width: calc(100% / 3.5);
 }
-.button[data-v-d6c187e7] {
+.button[data-v-5cf3f66c] {
     cursor: pointer;
 }
-.btn-control[data-v-d6c187e7] {
+.btn-control[data-v-5cf3f66c] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-d6c187e7] {
+.btn-play-control[data-v-5cf3f66c] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -189,7 +198,7 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-d6c187e7] {
+.ctrl-right[data-v-5cf3f66c] {
     width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
@@ -200,10 +209,10 @@ right---------------------------------------------------------
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-d6c187e7] {
+.ctrl-playinglist[data-v-5cf3f66c] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--267db059));
+    height: calc(var(--vh, 1vh) * 100 - var(--6b0631c0));
     flex: 1;
 }
 

@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-GpIyVm5S.js","./player-B-FvSr6J.css","./home-ZEjgVt-n.js","./itemCard-D_itqDx3.js","./Ellipsis-CcNh2Ixk.js","./itemCard-e-etQdsq.css","./home-BPYR4U23.css","./search-CqdrWcZg.js","./musicList-D6mKA9lv.js","./Card-rcTEI1pX.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-K9iAjNJb.js","./Button-Dz6GmzRB.js","./login-CX2p-lSQ.css","./account-uT7noglp.js","./account-s9uuTX7o.css","./playlist-BsIi0RPR.js","./playlist-CuAG0Pwh.css","./setting-BqOPVYSQ.js","./setting-C6y0XIYj.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-BKVl6w6J.js","./player-B-FvSr6J.css","./home-BNWmzhBd.js","./itemCard-Bc48e_EG.js","./Ellipsis-KRSoP3QY.js","./itemCard-e-etQdsq.css","./home-BPYR4U23.css","./search-C5lTYU-3.js","./musicList-CS5MiuzZ.js","./Card-Cd5T6KIj.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-uF6h15aD.js","./Button-4kOh-fhO.js","./login-CX2p-lSQ.css","./account-DXuPF1cT.js","./account-s9uuTX7o.css","./playlist-Cnnw5F-8.js","./playlist-CuAG0Pwh.css","./setting-BBwWoM-y.js","./setting-C6y0XIYj.css"])))=>i.map(i=>d[i]);
 /**
 * @vue/shared v3.4.34
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -9054,7 +9054,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-GpIyVm5S.js"), true ? __vite__mapDeps([0,1]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-BKVl6w6J.js"), true ? __vite__mapDeps([0,1]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9065,7 +9065,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-ZEjgVt-n.js"), true ? __vite__mapDeps([2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BNWmzhBd.js"), true ? __vite__mapDeps([2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9076,7 +9076,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-CqdrWcZg.js"), true ? __vite__mapDeps([7,8,9,10,11]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-C5lTYU-3.js"), true ? __vite__mapDeps([7,8,9,10,11]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9087,7 +9087,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-K9iAjNJb.js"), true ? __vite__mapDeps([12,13,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-uF6h15aD.js"), true ? __vite__mapDeps([12,13,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -9095,7 +9095,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-uT7noglp.js"), true ? __vite__mapDeps([15,3,4,5,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-DXuPF1cT.js"), true ? __vite__mapDeps([15,3,4,5,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9106,7 +9106,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BsIi0RPR.js"), true ? __vite__mapDeps([17,8,9,10,13,4,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-Cnnw5F-8.js"), true ? __vite__mapDeps([17,8,9,10,13,4,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9117,7 +9117,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BqOPVYSQ.js"), true ? __vite__mapDeps([19,13,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BBwWoM-y.js"), true ? __vite__mapDeps([19,13,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -36188,7 +36188,7 @@ const usePlayStore = defineStore("play", () => {
             if (lyricIndexNow.value != i2) {
               lyricIndexNow.value = i2;
               if (window.$isElectron) {
-                window?.lyric(JSON.stringify(currentMusic.value?.lyric?.[i2]));
+                window?.sendLyric(JSON.stringify(currentMusic.value?.lyric?.[i2]));
               }
             }
             break;
@@ -36866,11 +36866,16 @@ const useThemeStore = defineStore("theme", {
       this.update();
     },
     save() {
-      localStorage.setItem("theme", JSON.stringify({
+      let stringData = JSON.stringify({
         version: 2,
         mainColors: this.mainColors,
-        mainColor: this.mainColor
-      }));
+        mainColor: this.mainColor,
+        styleColors: this.styleColors
+      });
+      localStorage.setItem("theme", stringData);
+      if (window.isElectron) {
+        window.sendThemeColor(stringData);
+      }
     }
   }
 });
@@ -37317,13 +37322,27 @@ const _hoisted_4$3 = ["innerHTML"];
 const _hoisted_5$3 = ["innerHTML"];
 const _sfc_main$4 = {
   __name: "marqueePlus",
-  props: { html: String },
+  props: { html: String, speed: Number, lyricMode: Boolean },
   setup(__props) {
+    useCssVars((_ctx) => ({
+      "d3d70608": unref(marqueeAnimation).name,
+      "690caf85": unref(marqueeAnimation).duration,
+      "2bf00532": unref(marqueeAnimation).delay,
+      "d3d86dd6": unref(marqueeAnimation).loop,
+      "0c43f223": unref(marqueeAnimation).lyricDistance
+    }));
     let props = __props;
     let text1Ele = ref(null);
     let sizerEle = ref(null);
     let staticTextEle = ref(null);
     let needScroll = ref(false);
+    let marqueeAnimation = ref({
+      loop: "infinite",
+      name: "marquee",
+      duration: "5s",
+      delay: "0.3s",
+      lyricDistance: "-50%"
+    });
     const resizeObserver = new ResizeObserver(() => {
       updateIfNeedScroll();
     });
@@ -37335,6 +37354,7 @@ const _sfc_main$4 = {
     });
     let limit = true;
     watch(props, () => {
+      marqueeAnimation.value.name = "";
       limit = false;
     }, { deep: true });
     onUpdated(() => {
@@ -37351,7 +37371,10 @@ const _sfc_main$4 = {
         let widthValue = Math.max(text1Ele.value.offsetWidth, staticTextEle.value.offsetWidth);
         needScroll.value = widthValue > sizerEle.value.offsetWidth;
         if (needScroll.value) {
-          sizerEle.value.style.setProperty("--marquee-duration", widthValue / 80 + "s");
+          marqueeAnimation.value.name = props.lyricMode ? "marquee-lyric" : "marquee";
+          marqueeAnimation.value.duration = (props.lyricMode ? widthValue - sizerEle.value.offsetWidth : widthValue) / (props.speed ?? 80) + "s";
+          marqueeAnimation.value.loop = props.lyricMode ? "1" : "infinite";
+          marqueeAnimation.value.lyricDistance = "-" + (widthValue - sizerEle.value.offsetWidth) + "px";
         }
       } else {
         needScroll.value = false;
@@ -37372,10 +37395,12 @@ const _sfc_main$4 = {
               ref: text1Ele,
               innerHTML: unref(props).html
             }, null, 8, _hoisted_3$3),
-            createBaseVNode("div", {
+            withDirectives(createBaseVNode("div", {
               class: "marquee-text2 marquee-content",
               innerHTML: unref(props).html
-            }, null, 8, _hoisted_4$3)
+            }, null, 8, _hoisted_4$3), [
+              [vShow, !unref(props).lyricMode]
+            ])
           ])
         ], 512), [
           [vShow, unref(needScroll)]
@@ -37392,7 +37417,7 @@ const _sfc_main$4 = {
     };
   }
 };
-const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-fd8aef6b"]]);
+const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-633ab8bf"]]);
 const _hoisted_1$3 = { class: "playinglist" };
 const _hoisted_2$2 = ["onClick"];
 const _hoisted_3$2 = ["src", "alt"];
@@ -37485,7 +37510,7 @@ const _sfc_main$3 = {
   }
 };
 const playinglist = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-956a7834"]]);
-const _withScopeId = (n2) => (pushScopeId("data-v-d6c187e7"), n2 = n2(), popScopeId(), n2);
+const _withScopeId = (n2) => (pushScopeId("data-v-5cf3f66c"), n2 = n2(), popScopeId(), n2);
 const _hoisted_1$2 = { class: "ctrl-outer" };
 const _hoisted_2$1 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };
@@ -37523,8 +37548,8 @@ const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "4d0a3f63": unref(ctrlTop),
-      "267db059": unref(ctrlHeight)
+      "68c6e148": unref(ctrlTop),
+      "6b0631c0": unref(ctrlHeight)
     }));
     let router2 = useRouter();
     let playStore = usePlayStore();
@@ -37564,16 +37589,22 @@ const _sfc_main$2 = {
             createBaseVNode("div", _hoisted_5$1, [
               createBaseVNode("div", _hoisted_6, [
                 createVNode(MarqueePlus, {
-                  html: unref(playStore).nameWithTns ?? "奶酪音乐"
+                  html: unref(playStore).nameWithTns ?? "奶酪音乐",
+                  speed: 40
                 }, null, 8, ["html"])
               ]),
               createBaseVNode("div", _hoisted_7, [
                 createVNode(MarqueePlus, {
-                  html: unref(playStore).currentMusic.artist ?? ""
+                  html: unref(playStore).currentMusic.artist ?? "",
+                  speed: 40
                 }, null, 8, ["html"])
               ]),
               createBaseVNode("div", _hoisted_8, [
-                createVNode(MarqueePlus, { html: unref(lyricNow) }, null, 8, ["html"])
+                createVNode(MarqueePlus, {
+                  html: unref(lyricNow),
+                  speed: 60,
+                  lyricMode: true
+                }, null, 8, ["html"])
               ])
             ])
           ]),
@@ -37689,7 +37720,7 @@ const _sfc_main$2 = {
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-d6c187e7"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-5cf3f66c"]]);
 const _hoisted_1$1 = { class: "container" };
 const _hoisted_2 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };
