@@ -1,6 +1,7 @@
-import { _ as _export_sfc, O as useUserStore, P as useRouter, r as ref, ag as areaData, d as openBlock, e as createElementBlock, f as createBaseVNode, j as unref, t as toDisplayString, F as Fragment, x as renderList, ah as getColorFromImg, ai as mixColor, g as createVNode, A as pushScopeId, B as popScopeId, C as useCssVars } from "./index-BPSpxJb3.js";
-import { i as itemCard } from "./itemCard-Bc48e_EG.js";
-import "./Ellipsis-KRSoP3QY.js";
+import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aS as toDisplayString, F as Fragment, aR as renderList, aM as createVNode, a$ as pushScopeId, b0 as popScopeId, aT as useCssVars } from "./marqueePlus-C24UHMTj.js";
+import { k as useUserStore, m as useRouter, C as areaData, D as getColorFromImg, E as mixColor } from "./index-C2Fy2Cxi.js";
+import { i as itemCard } from "./itemCard-B3OEFOyF.js";
+import "./Ellipsis-CRKickPS.js";
 const _withScopeId = (n) => (pushScopeId("data-v-a7b1ef24"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "accountUserDetail" };
 const _hoisted_2 = ["src"];

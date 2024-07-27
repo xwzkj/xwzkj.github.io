@@ -1,0 +1,49 @@
+
+[data-v-633ab8bf] {
+    box-sizing: border-box;
+    margin: 0;
+}
+.marquee-sizer[data-v-633ab8bf] {
+    --marquee-duration: 5s;
+
+    overflow: hidden;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+}
+.marquee-outer[data-v-633ab8bf] {
+    display: inline-block;
+}
+.marquee-container[data-v-633ab8bf] {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    animation: var(--d3d70608) var(--690caf85) linear var(--2bf00532) var(--d3d86dd6) forwards;
+}
+.marquee-content[data-v-633ab8bf] {
+    display: inline-block;
+}
+.marquee-text2[data-v-633ab8bf] {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+.marquee-static-text[data-v-633ab8bf] {
+    display: inline-block;
+}
+
+@keyframes marquee {
+0% {
+        transform: translateX(0%);
+}
+100% {
+        transform: translateX(-50%);
+}
+}
+@keyframes marquee-lyric {
+0% {
+        transform: translateX(0%);
+}
+100% {
+        transform: translateX(var(--0c43f223));
+}
+}

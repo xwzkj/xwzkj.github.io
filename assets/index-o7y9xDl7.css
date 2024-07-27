@@ -25,55 +25,6 @@ span {
     padding: 1rem;
 }
 
-[data-v-633ab8bf] {
-    box-sizing: border-box;
-    margin: 0;
-}
-.marquee-sizer[data-v-633ab8bf] {
-    --marquee-duration: 5s;
-
-    overflow: hidden;
-    white-space: nowrap;
-    height: 100%;
-    width: 100%;
-}
-.marquee-outer[data-v-633ab8bf] {
-    display: inline-block;
-}
-.marquee-container[data-v-633ab8bf] {
-    display: inline-block;
-    height: 100%;
-    position: relative;
-    animation: var(--d3d70608) var(--690caf85) linear var(--2bf00532) var(--d3d86dd6) forwards;
-}
-.marquee-content[data-v-633ab8bf] {
-    display: inline-block;
-}
-.marquee-text2[data-v-633ab8bf] {
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-}
-.marquee-static-text[data-v-633ab8bf] {
-    display: inline-block;
-}
-
-@keyframes marquee {
-0% {
-        transform: translateX(0%);
-}
-100% {
-        transform: translateX(-50%);
-}
-}
-@keyframes marquee-lyric {
-0% {
-        transform: translateX(0%);
-}
-100% {
-        transform: translateX(var(--0c43f223));
-}
-}
-
 .playinglist[data-v-956a7834] {
     height: 100%;
     width: 100%;
@@ -117,13 +68,13 @@ ul[data-v-956a7834] {
     width: 100%;
 }
 
-[data-v-5cf3f66c] {
+[data-v-b63e61c3] {
     box-sizing: border-box;
 }
-.ctrl-outer[data-v-5cf3f66c] {
+.ctrl-outer[data-v-b63e61c3] {
     position: fixed;
     z-index: 1;
-    top: var(--68c6e148);
+    top: var(--756fa77a);
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -137,17 +88,17 @@ ul[data-v-956a7834] {
     backdrop-filter: blur(20px);
     transition: all 0.5s ease-in-out;
 }
-.ctrl-box[data-v-5cf3f66c] {
+.ctrl-box[data-v-b63e61c3] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-5cf3f66c] {
+.ctrl-left[data-v-b63e61c3] {
     display: flex;
     width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-5cf3f66c] {
+.ctrl-img-box[data-v-b63e61c3] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -160,37 +111,37 @@ ul[data-v-956a7834] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-5cf3f66c] {
+.ctrl-img[data-v-b63e61c3] {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.ctrl-info-box[data-v-5cf3f66c] {
+.ctrl-info-box[data-v-b63e61c3] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-5cf3f66c] {
+.ctrl-info-title[data-v-b63e61c3] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-5cf3f66c] {
+.ctrl-center[data-v-b63e61c3] {
     padding-top: 0.8rem;
     width: calc(100% / 3.5);
 }
-.button[data-v-5cf3f66c] {
+.button[data-v-b63e61c3] {
     cursor: pointer;
 }
-.btn-control[data-v-5cf3f66c] {
+.btn-control[data-v-b63e61c3] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-5cf3f66c] {
+.btn-play-control[data-v-b63e61c3] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -198,7 +149,7 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-5cf3f66c] {
+.ctrl-right[data-v-b63e61c3] {
     width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
@@ -209,10 +160,10 @@ right---------------------------------------------------------
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-5cf3f66c] {
+.ctrl-playinglist[data-v-b63e61c3] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--6b0631c0));
+    height: calc(var(--vh, 1vh) * 100 - var(--5663d10e));
     flex: 1;
 }
 
@@ -240,12 +191,12 @@ right---------------------------------------------------------
 }
 
 .app{
-  background-color: var(--aa203a50);
+  background-color: var(--05c77b2c);
 }
 .icon,
 .n-icon{
-  color: var(--ae8d6760);
+  color: var(--a7e7c0b8);
 }
 div{
-  color: var(--ae8d6760);
+  color: var(--a7e7c0b8);
 }

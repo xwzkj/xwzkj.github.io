@@ -1,6 +1,7 @@
-import { i as itemCard } from "./itemCard-Bc48e_EG.js";
-import { _ as _export_sfc, O as useUserStore, r as ref, P as useRouter, Q as getPersonalizedPlaylist, d as openBlock, e as createElementBlock, f as createBaseVNode, j as unref, g as createVNode, l as createCommentVNode, F as Fragment, x as renderList, A as pushScopeId, B as popScopeId, R as createTextVNode } from "./index-BPSpxJb3.js";
-import "./Ellipsis-KRSoP3QY.js";
+import { i as itemCard } from "./itemCard-B3OEFOyF.js";
+import { k as useUserStore, m as useRouter, n as getPersonalizedPlaylist } from "./index-C2Fy2Cxi.js";
+import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aM as createVNode, aP as createCommentVNode, F as Fragment, aR as renderList, a$ as pushScopeId, b0 as popScopeId, v as createTextVNode } from "./marqueePlus-C24UHMTj.js";
+import "./Ellipsis-CRKickPS.js";
 const _withScopeId = (n) => (pushScopeId("data-v-be2babf4"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "home" };
 const _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "home-sub-title" }, "精选歌单", -1));

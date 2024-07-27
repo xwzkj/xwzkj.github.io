@@ -1,4 +1,5 @@
-import { W as derived, a5 as c, X as cB, b7 as asModal, $ as cM, Z as cE, b8 as insideModal, b9 as insidePopover, a0 as defineComponent, a2 as useConfig, a1 as useTheme, ba as useRtl, c as computed, ap as createKey, bb as getMargin, a3 as useThemeClass, a4 as h, bc as resolveWrappedSlot, b4 as call, bd as ensureValidVNode, be as NBaseClose } from "./index-BPSpxJb3.js";
+import { a6 as useRtl, a7 as getMargin, a8 as resolveWrappedSlot, a5 as call, a9 as ensureValidVNode, aa as NBaseClose } from "./index-C2Fy2Cxi.js";
+import { an as derived, ai as c, ah as cB, be as asModal, aj as cM, am as cE, aA as insideModal, aB as insidePopover, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, ay as createKey, aq as useThemeClass, h } from "./marqueePlus-C24UHMTj.js";
 const commonVariables = {
   paddingSmall: "12px 16px 12px",
   paddingMedium: "19px 24px 20px",
