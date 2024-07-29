@@ -1,7 +1,7 @@
-import { Q as useStyle, R as inputLight, T as on, U as off, B as __unplugin_components_2, V as fadeInScaleUpTransition, W as useFormItem, X as useLocale, Y as useMergedState, Z as isMounted, $ as useAdjustedTo, a0 as getPreciseEventTarget, a1 as Binder, a2 as VTarget, a3 as VFollower, a4 as clickoutside, a5 as call, k as useUserStore, u as useThemeStore, v as success } from "./index-C2Fy2Cxi.js";
-import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aF as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, j as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aM as createVNode, aN as withCtx, L as renderSlot, u as unref, aG as NIcon, D as onMounted, v as createTextVNode, f as isRef } from "./marqueePlus-C24UHMTj.js";
-import { b as buttonLight, B as Button } from "./Button-qea0bwfP.js";
-import { _ as __unplugin_components_3 } from "./Card-CiJgeE7n.js";
+import { Q as useStyle, R as inputLight, T as on, U as off, B as __unplugin_components_2, V as fadeInScaleUpTransition, W as useFormItem, X as useLocale, Y as useMergedState, Z as isMounted, $ as useAdjustedTo, a0 as getPreciseEventTarget, a1 as Binder, a2 as VTarget, a3 as VFollower, a4 as clickoutside, a5 as call, k as useUserStore, u as useThemeStore, v as success } from "./index-BypGJIdY.js";
+import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aF as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, j as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aM as createVNode, aN as withCtx, L as renderSlot, u as unref, aG as NIcon, D as onMounted, v as createTextVNode, f as isRef } from "./marqueePlus-C24UHMTj.js";
+import { b as buttonLight, B as Button } from "./Button-B0ZcVsvN.js";
+import { _ as __unplugin_components_3 } from "./Card-BnXvXSLm.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1847,7 +1847,7 @@ const _hoisted_3$1 = [
 function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$2, [..._hoisted_3$1]);
 }
-const __unplugin_components_0 = { name: "hugeicons-link-square01", render };
+const __unplugin_components_0 = markRaw({ name: "hugeicons-link-square01", render });
 const _hoisted_1$1 = { class: "setting-item-outer" };
 const _hoisted_2 = { class: "setting-item" };
 const _hoisted_3 = { class: "title" };

@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-NBNcVQCq.js","./marqueePlus-C24UHMTj.js","./marqueePlus-CLo2Jn4F.css","./player-B-FvSr6J.css","./home-_Ip3rQCs.js","./itemCard-B3OEFOyF.js","./Ellipsis-CRKickPS.js","./itemCard-e-etQdsq.css","./home-BPYR4U23.css","./search-DqU2Ki4V.js","./musicList-Bw6lcq7R.js","./Card-CiJgeE7n.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-BK_c5xmc.js","./Button-qea0bwfP.js","./login-CX2p-lSQ.css","./account-BEBzXT1U.js","./account-s9uuTX7o.css","./playlist-BmZpZgQx.js","./playlist-CuAG0Pwh.css","./setting-CzA_qs4h.js","./setting-C6y0XIYj.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-B2uQivhc.js","./marqueePlus-C24UHMTj.js","./marqueePlus-CLo2Jn4F.css","./player-B-FvSr6J.css","./home-Btqh5W4F.js","./itemCard-B_5DKefC.js","./Ellipsis-Cf1x6r0E.js","./itemCard-e-etQdsq.css","./home-BPYR4U23.css","./search-D_5KT_79.js","./musicList-DhIx4QwA.js","./Card-BnXvXSLm.js","./musicList-DfeUOXRf.css","./search-C5fKSBIZ.css","./login-CZKbqQiz.js","./Button-B0ZcVsvN.js","./login-CX2p-lSQ.css","./account-CEsOXnOP.js","./account-s9uuTX7o.css","./playlist-CwhFh8lx.js","./playlist-CuAG0Pwh.css","./setting-C-0L7Phu.js","./setting-C6y0XIYj.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, t as toRaw, f as isRef, g as isReactive, j as toRef, k as hasInjectionContext, l as getCurrentScope, o as onScopeDispose, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, aO as createBlock, aP as createCommentVNode, aQ as _export_sfc, aR as renderList, aS as toDisplayString, aT as useCssVars, aU as MarqueePlus, aV as withModifiers, aW as resolveComponent, aX as KeepAlive, aY as resolveDynamicComponent, aZ as createApp } from "./marqueePlus-C24UHMTj.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1918,7 +1918,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-NBNcVQCq.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-B2uQivhc.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1929,7 +1929,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-_Ip3rQCs.js"), true ? __vite__mapDeps([4,5,1,2,6,7,8]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-Btqh5W4F.js"), true ? __vite__mapDeps([4,5,1,2,6,7,8]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1940,7 +1940,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DqU2Ki4V.js"), true ? __vite__mapDeps([9,1,2,10,11,12,13]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-D_5KT_79.js"), true ? __vite__mapDeps([9,1,2,10,11,12,13]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1951,7 +1951,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BK_c5xmc.js"), true ? __vite__mapDeps([14,1,2,15,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CZKbqQiz.js"), true ? __vite__mapDeps([14,1,2,15,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1959,7 +1959,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-BEBzXT1U.js"), true ? __vite__mapDeps([17,1,2,5,6,7,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-CEsOXnOP.js"), true ? __vite__mapDeps([17,1,2,5,6,7,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1970,7 +1970,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BmZpZgQx.js"), true ? __vite__mapDeps([19,10,1,2,11,12,15,6,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CwhFh8lx.js"), true ? __vite__mapDeps([19,10,1,2,11,12,15,6,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1981,7 +1981,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CzA_qs4h.js"), true ? __vite__mapDeps([21,1,2,15,11,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-C-0L7Phu.js"), true ? __vite__mapDeps([21,1,2,15,11,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1993,8 +1993,8 @@ const router = createRouter({
 });
 var isVue2 = false;
 /*!
- * pinia v2.1.7
- * (c) 2023 Eduardo San Martin Morote
+ * pinia v2.2.0
+ * (c) 2024 Eduardo San Martin Morote
  * @license MIT
  */
 let activePinia;
@@ -2068,11 +2068,12 @@ function triggerSubscriptions(subscriptions, ...args) {
   });
 }
 const fallbackRunWithContext = (fn) => fn();
+const ACTION_MARKER = Symbol();
+const ACTION_NAME = Symbol();
 function mergeReactiveObjects(target, patchToApply) {
   if (target instanceof Map && patchToApply instanceof Map) {
     patchToApply.forEach((value, key) => target.set(key, value));
-  }
-  if (target instanceof Set && patchToApply instanceof Set) {
+  } else if (target instanceof Set && patchToApply instanceof Set) {
     patchToApply.forEach(target.add, target);
   }
   for (const key in patchToApply) {
@@ -2125,10 +2126,7 @@ function createOptionsStore(id, options, pinia2, hot) {
 function createSetupStore($id, setup, options = {}, pinia2, hot, isOptionsStore) {
   let scope;
   const optionsForPlugin = assign({ actions: {} }, options);
-  const $subscribeOptions = {
-    deep: true
-    // flush: 'post',
-  };
+  const $subscribeOptions = { deep: true };
   let isListening;
   let isSyncListening;
   let subscriptions = [];
@@ -2186,8 +2184,12 @@ function createSetupStore($id, setup, options = {}, pinia2, hot, isOptionsStore)
     actionSubscriptions = [];
     pinia2._s.delete($id);
   }
-  function wrapAction(name, action) {
-    return function() {
+  const action = (fn, name = "") => {
+    if (ACTION_MARKER in fn) {
+      fn[ACTION_NAME] = name;
+      return fn;
+    }
+    const wrappedAction = function() {
       setActivePinia(pinia2);
       const args = Array.from(arguments);
       const afterCallbackList = [];
@@ -2200,14 +2202,14 @@ function createSetupStore($id, setup, options = {}, pinia2, hot, isOptionsStore)
       }
       triggerSubscriptions(actionSubscriptions, {
         args,
-        name,
+        name: wrappedAction[ACTION_NAME],
         store,
         after,
         onError
       });
       let ret;
       try {
-        ret = action.apply(this && this.$id === $id ? this : store, args);
+        ret = fn.apply(this && this.$id === $id ? this : store, args);
       } catch (error2) {
         triggerSubscriptions(onErrorCallbackList, error2);
         throw error2;
@@ -2224,7 +2226,10 @@ function createSetupStore($id, setup, options = {}, pinia2, hot, isOptionsStore)
       triggerSubscriptions(afterCallbackList, ret);
       return ret;
     };
-  }
+    wrappedAction[ACTION_MARKER] = true;
+    wrappedAction[ACTION_NAME] = name;
+    return wrappedAction;
+  };
   const partialStore = {
     _p: pinia2,
     // _s: scope,
@@ -2250,7 +2255,7 @@ function createSetupStore($id, setup, options = {}, pinia2, hot, isOptionsStore)
   const store = reactive(partialStore);
   pinia2._s.set($id, store);
   const runWithContext = pinia2._a && pinia2._a.runWithContext || fallbackRunWithContext;
-  const setupStore = runWithContext(() => pinia2._e.run(() => (scope = effectScope()).run(setup)));
+  const setupStore = runWithContext(() => pinia2._e.run(() => (scope = effectScope()).run(() => setup({ action }))));
   for (const key in setupStore) {
     const prop = setupStore[key];
     if (isRef(prop) && !isComputed(prop) || isReactive(prop)) {
@@ -2267,7 +2272,7 @@ function createSetupStore($id, setup, options = {}, pinia2, hot, isOptionsStore)
         }
       }
     } else if (typeof prop === "function") {
-      const actionValue = wrapAction(key, prop);
+      const actionValue = action(prop, key);
       {
         setupStore[key] = actionValue;
       }
@@ -27718,7 +27723,7 @@ const _hoisted_3$g = [
 function render$d(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$j, [..._hoisted_3$g]);
 }
-const __unplugin_components_0 = { name: "hugeicons-arrow-up01", render: render$d };
+const __unplugin_components_0 = markRaw({ name: "hugeicons-arrow-up01", render: render$d });
 const _hoisted_1$i = { class: "header" };
 const _hoisted_2$g = { class: "header-search" };
 const _sfc_main$5 = {
@@ -27800,7 +27805,7 @@ const _hoisted_3$f = [
 function render$c(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$h, [..._hoisted_3$f]);
 }
-const HugeiconsHome06 = { name: "hugeicons-home-06", render: render$c };
+const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$c });
 const _hoisted_1$g = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -27830,7 +27835,7 @@ const _hoisted_3$e = [
 function render$b(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$g, [..._hoisted_3$e]);
 }
-const HugeiconsUserAccount = { name: "hugeicons-user-account", render: render$b };
+const HugeiconsUserAccount = markRaw({ name: "hugeicons-user-account", render: render$b });
 const _hoisted_1$f = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -27853,7 +27858,7 @@ const _hoisted_3$d = [
 function render$a(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$d]);
 }
-const HugeiconsLogin01 = { name: "hugeicons-login-01", render: render$a };
+const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$a });
 const _hoisted_1$e = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -27876,7 +27881,7 @@ const _hoisted_3$c = [
 function render$9(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$c]);
 }
-const HugeiconsHeartCheck = { name: "hugeicons-heart-check", render: render$9 };
+const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$9 });
 const _hoisted_1$d = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -27899,7 +27904,7 @@ const _hoisted_3$b = [
 function render$8(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$d, [..._hoisted_3$b]);
 }
-const HugeiconsSettings05 = { name: "hugeicons-settings-05", render: render$8 };
+const HugeiconsSettings05 = markRaw({ name: "hugeicons-settings-05", render: render$8 });
 const _hoisted_1$c = { class: "nav-outer" };
 const _sfc_main$4 = /* @__PURE__ */ defineComponent({
   __name: "navigation",
@@ -28001,7 +28006,7 @@ const _hoisted_3$a = [
 function render$7(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$b, [..._hoisted_3$a]);
 }
-const __unplugin_components_9 = { name: "hugeicons-playlist03", render: render$7 };
+const __unplugin_components_9 = markRaw({ name: "hugeicons-playlist03", render: render$7 });
 const _hoisted_1$a = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -28022,7 +28027,7 @@ const _hoisted_3$9 = [
 function render$6(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$a, [..._hoisted_3$9]);
 }
-const __unplugin_components_7$1 = { name: "hugeicons-exchange01", render: render$6 };
+const __unplugin_components_7$1 = markRaw({ name: "hugeicons-exchange01", render: render$6 });
 const _hoisted_1$9 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -28043,7 +28048,7 @@ const _hoisted_3$8 = [
 function render$5(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._hoisted_3$8]);
 }
-const __unplugin_components_8 = { name: "hugeicons-arrow-right01", render: render$5 };
+const __unplugin_components_8 = markRaw({ name: "hugeicons-arrow-right01", render: render$5 });
 const _hoisted_1$8 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -28064,7 +28069,7 @@ const _hoisted_3$7 = [
 function render$4(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._hoisted_3$7]);
 }
-const __unplugin_components_7 = { name: "hugeicons-pause", render: render$4 };
+const __unplugin_components_7 = markRaw({ name: "hugeicons-pause", render: render$4 });
 const _hoisted_1$7 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -28085,7 +28090,7 @@ const _hoisted_3$6 = [
 function render$3(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._hoisted_3$6]);
 }
-const __unplugin_components_6 = { name: "hugeicons-play", render: render$3 };
+const __unplugin_components_6 = markRaw({ name: "hugeicons-play", render: render$3 });
 const _hoisted_1$6 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -28106,7 +28111,7 @@ const _hoisted_3$5 = [
 function render$2(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._hoisted_3$5]);
 }
-const __unplugin_components_5 = { name: "hugeicons-arrow-left01", render: render$2 };
+const __unplugin_components_5 = markRaw({ name: "hugeicons-arrow-left01", render: render$2 });
 const _hoisted_1$5 = {
   viewBox: "0 0 1024 1024",
   width: "1.2em",
@@ -28122,7 +28127,7 @@ const _hoisted_3$4 = [
 function render$1(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$5, [..._hoisted_3$4]);
 }
-const __unplugin_components_3 = { name: "ant-design-heart-filled", render: render$1 };
+const __unplugin_components_3 = markRaw({ name: "ant-design-heart-filled", render: render$1 });
 const _hoisted_1$4 = {
   viewBox: "0 0 1024 1024",
   width: "1.2em",
@@ -28138,7 +28143,7 @@ const _hoisted_3$3 = [
 function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$4, [..._hoisted_3$3]);
 }
-const __unplugin_components_2 = { name: "ant-design-heart-outlined", render };
+const __unplugin_components_2 = markRaw({ name: "ant-design-heart-outlined", render });
 const _hoisted_1$3 = { class: "playinglist" };
 const _hoisted_2$2 = ["onClick"];
 const _hoisted_3$2 = ["src", "alt"];

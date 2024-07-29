@@ -1,6 +1,6 @@
-import { aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aT as useCssVars, b as ref, u as unref, aM as createVNode, aN as withCtx, v as createTextVNode, aS as toDisplayString, b1 as normalizeStyle, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-C24UHMTj.js";
-import { u as useThemeStore, m as useRouter, D as getColorFromImg, E as mixColor } from "./index-C2Fy2Cxi.js";
-import { _ as __unplugin_components_1$1 } from "./Ellipsis-CRKickPS.js";
+import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aT as useCssVars, b as ref, u as unref, aM as createVNode, aN as withCtx, v as createTextVNode, aS as toDisplayString, b1 as normalizeStyle, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-C24UHMTj.js";
+import { u as useThemeStore, m as useRouter, D as getColorFromImg, E as mixColor } from "./index-BypGJIdY.js";
+import { _ as __unplugin_components_1$1 } from "./Ellipsis-Cf1x6r0E.js";
 const _hoisted_1$1 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -22,7 +22,7 @@ const _hoisted_4$1 = [
 function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._hoisted_4$1]);
 }
-const __unplugin_components_1 = { name: "ic-twotone-calendar-today", render };
+const __unplugin_components_1 = markRaw({ name: "ic-twotone-calendar-today", render });
 const _withScopeId = (n) => (pushScopeId("data-v-e3070f89"), n = n(), popScopeId(), n);
 const _hoisted_1 = ["src"];
 const _hoisted_2 = { class: "item-card-name" };

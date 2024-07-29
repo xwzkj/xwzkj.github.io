@@ -1,6 +1,6 @@
 import { an as derived, ai as c, ah as cB, aj as cM, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, ay as createKey, aq as useThemeClass, b as ref, ae as watchEffect, h, af as Transition, aQ as _export_sfc, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, F as Fragment, aR as renderList, aS as toDisplayString, u as unref, aP as createCommentVNode, aO as createBlock, v as createTextVNode, I as withDirectives, at as vShow, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-C24UHMTj.js";
-import { I as fadeInTransition, J as pxfy, K as useCompitable, N as NBaseLoading, k as useUserStore, L as parseArray, M as parseArtist, l as likeAndUpdateLikelist, H as __unplugin_components_0, c as __unplugin_components_2, d as __unplugin_components_3$2 } from "./index-C2Fy2Cxi.js";
-import { _ as __unplugin_components_3$1 } from "./Card-CiJgeE7n.js";
+import { I as fadeInTransition, J as pxfy, K as useCompitable, N as NBaseLoading, k as useUserStore, L as parseArray, M as parseArtist, l as likeAndUpdateLikelist, H as __unplugin_components_0, c as __unplugin_components_2, d as __unplugin_components_3$2 } from "./index-BypGJIdY.js";
+import { _ as __unplugin_components_3$1 } from "./Card-BnXvXSLm.js";
 function self(vars) {
   const {
     opacityDisabled,

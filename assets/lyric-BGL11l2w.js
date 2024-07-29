@@ -1,4 +1,4 @@
-import { aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, d as defineComponent, aT as useCssVars, b as ref, c as computed, D as onMounted, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aG as NIcon, aZ as createApp } from "./marqueePlus-C24UHMTj.js";
+import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, d as defineComponent, aT as useCssVars, b as ref, c as computed, D as onMounted, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aG as NIcon, aZ as createApp } from "./marqueePlus-C24UHMTj.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -21,7 +21,7 @@ const _hoisted_3$2 = [
 function render$1(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$2, [..._hoisted_3$2]);
 }
-const __unplugin_components_2 = { name: "hugeicons-square-lock02", render: render$1 };
+const __unplugin_components_2 = markRaw({ name: "hugeicons-square-lock02", render: render$1 });
 const _hoisted_1$1 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -42,7 +42,7 @@ const _hoisted_3$1 = [
 function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._hoisted_3$1]);
 }
-const __unplugin_components_0 = { name: "hugeicons-drag-drop", render };
+const __unplugin_components_0 = markRaw({ name: "hugeicons-drag-drop", render });
 const _hoisted_1 = { class: "outer" };
 const _hoisted_2 = { class: "lyric" };
 const _hoisted_3 = { class: "ctrl" };
