@@ -1,6 +1,6 @@
-import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, d as defineComponent, ao as useTheme, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, E as onBeforeUnmount, u as unref, aO as createBlock, aP as createCommentVNode, v as createTextVNode, aS as toDisplayString, aM as createVNode, aN as withCtx, f as isRef, I as withDirectives, at as vShow, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-C24UHMTj.js";
-import { k as useUserStore, m as useRouter, q as loginQrKey, r as loginQrCreate, t as loginQrCheck, v as success, x as error, y as verifyCaptcha, z as loginWithPhone, A as sendCaptcha, B as __unplugin_components_2 } from "./index-BypGJIdY.js";
-import { B as Button } from "./Button-B0ZcVsvN.js";
+import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, d as defineComponent, ao as useTheme, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, E as onBeforeUnmount, u as unref, aO as createBlock, aP as createCommentVNode, v as createTextVNode, aT as toDisplayString, aM as createVNode, aN as withCtx, f as isRef, I as withDirectives, at as vShow, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-C5N4P5J_.js";
+import { k as useUserStore, m as useRouter, q as loginQrKey, r as loginQrCreate, t as loginQrCheck, v as success, x as error, y as verifyCaptcha, z as loginWithPhone, A as sendCaptcha, B as __unplugin_components_2 } from "./index-CmN-032t.js";
+import { B as Button } from "./Button-BUS-mxKg.js";
 function self$1(vars) {
   const {
     textColor1,
@@ -1205,7 +1205,7 @@ function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._hoisted_3$1]);
 }
 const __unplugin_components_0 = markRaw({ name: "hugeicons-smart-phone01", render });
-const _withScopeId = (n) => (pushScopeId("data-v-07f5c57d"), n = n(), popScopeId(), n);
+const _withScopeId = (n) => (pushScopeId("data-v-9c667a67"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "login-container" };
 const _hoisted_2 = { class: "login" };
 const _hoisted_3 = { class: "login-row-qr" };
@@ -1326,7 +1326,8 @@ const _sfc_main = {
               unref(qrcode) != "" ? (openBlock(), createBlock(unref(NQrCode), {
                 key: 0,
                 value: unref(qrcode),
-                size: 200
+                size: 200,
+                "background-color": "rgba(255,255,255,0)"
               }, null, 8, ["value"])) : createCommentVNode("", true),
               unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_5, [
                 createTextVNode("等待生成二维码"),
@@ -1444,7 +1445,7 @@ const _sfc_main = {
     };
   }
 };
-const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-07f5c57d"]]);
+const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-9c667a67"]]);
 export {
   login as default
 };

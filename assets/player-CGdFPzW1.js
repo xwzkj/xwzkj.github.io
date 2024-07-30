@@ -1,6 +1,6 @@
-import { u as useThemeStore, a as usePlayStore, s as storeToRefs, w as windowBack, g as getColorsFromImg, _ as __unplugin_components_2, S as Scrollbar, l as likeAndUpdateLikelist, p as playinglist, b as __unplugin_components_0, c as __unplugin_components_2$1, d as __unplugin_components_3, e as __unplugin_components_5, f as __unplugin_components_6, h as __unplugin_components_7, i as __unplugin_components_8, j as __unplugin_components_9 } from "./index-BypGJIdY.js";
-import { aQ as _export_sfc, b as ref, c as computed, D as onMounted, w as watch, E as onBeforeUnmount, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aS as toDisplayString, aO as createBlock, aP as createCommentVNode, f as isRef, aV as withModifiers, aG as NIcon, F as Fragment, aR as renderList, a_ as normalizeClass, a$ as pushScopeId, b0 as popScopeId, aT as useCssVars } from "./marqueePlus-C24UHMTj.js";
-const _withScopeId = (n) => (pushScopeId("data-v-2a55a8f0"), n = n(), popScopeId(), n);
+import { u as useThemeStore, a as usePlayStore, s as storeToRefs, w as windowBack, g as getColorsFromImg, _ as __unplugin_components_2, S as Scrollbar, l as likeAndUpdateLikelist, p as playinglist, b as __unplugin_components_0, c as __unplugin_components_2$1, d as __unplugin_components_3, e as __unplugin_components_5, f as __unplugin_components_6, h as __unplugin_components_7, i as __unplugin_components_8, j as __unplugin_components_9 } from "./index-CmN-032t.js";
+import { aQ as _export_sfc, b as ref, c as computed, D as onMounted, w as watch, E as onBeforeUnmount, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aT as toDisplayString, aO as createBlock, aP as createCommentVNode, f as isRef, aV as withModifiers, aG as NIcon, F as Fragment, aS as renderList, a_ as normalizeClass, a$ as pushScopeId, b0 as popScopeId, aR as useCssVars } from "./marqueePlus-C5N4P5J_.js";
+const _withScopeId = (n) => (pushScopeId("data-v-b10dfa72"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "playerOoouter" };
 const _hoisted_2 = { id: "playerOuter" };
 const _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { id: "playerBackground" }, null, -1));
@@ -12,7 +12,10 @@ const _hoisted_6 = {
 };
 const _hoisted_7 = { id: "container-player" };
 const _hoisted_8 = { id: "music-name" };
-const _hoisted_9 = { id: "music-artist" };
+const _hoisted_9 = {
+  id: "music-artist",
+  class: "text2"
+};
 const _hoisted_10 = { id: "player-centerblock" };
 const _hoisted_11 = { id: "music-img-container" };
 const _hoisted_12 = ["alt", "src"];
@@ -51,9 +54,9 @@ const _sfc_main = {
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "33638034": unref(background),
-      "80ff0a52": unref(bgMask),
-      "5f7a7bcf": unref(playingListTop)
+      "62d0763d": unref(background),
+      "105eedb4": unref(themeStore).mainColors[0] + `90`,
+      "f8097550": unref(playingListTop)
     }));
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
@@ -64,9 +67,6 @@ const _sfc_main = {
     let displayList = ref(false);
     let playingListTop = computed(() => {
       return displayList.value ? "0%" : "100%";
-    });
-    let bgMask = computed(() => {
-      return themeStore.styleColors.background + "90";
     });
     onMounted(async () => {
       watch(() => currentMusic.value.currentLyricIndex, (value) => {
@@ -113,10 +113,10 @@ const _sfc_main = {
               createBaseVNode("div", _hoisted_7, [
                 createBaseVNode("div", _hoisted_8, [
                   createVNode(MarqueePlus, {
-                    html: unref(playStore).nameWithTns
+                    html: unref(playStore).nameWithTns ?? `暂未播放~~`
                   }, null, 8, ["html"])
                 ]),
-                createBaseVNode("div", _hoisted_9, toDisplayString(unref(currentMusic).artist), 1),
+                createBaseVNode("div", _hoisted_9, toDisplayString(unref(currentMusic).artist ?? ``), 1),
                 createBaseVNode("div", _hoisted_10, [
                   createBaseVNode("div", _hoisted_11, [
                     createBaseVNode("img", {
@@ -273,7 +273,7 @@ const _sfc_main = {
     };
   }
 };
-const player = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-2a55a8f0"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-b10dfa72"]]);
 export {
   player as default
 };

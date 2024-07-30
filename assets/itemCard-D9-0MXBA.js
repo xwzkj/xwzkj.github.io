@@ -1,6 +1,6 @@
-import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aT as useCssVars, b as ref, u as unref, aM as createVNode, aN as withCtx, v as createTextVNode, aS as toDisplayString, b1 as normalizeStyle, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-C24UHMTj.js";
-import { u as useThemeStore, m as useRouter, D as getColorFromImg, E as mixColor } from "./index-BypGJIdY.js";
-import { _ as __unplugin_components_1$1 } from "./Ellipsis-Cf1x6r0E.js";
+import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aR as useCssVars, b as ref, u as unref, aM as createVNode, aN as withCtx, v as createTextVNode, aT as toDisplayString, b1 as normalizeStyle, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-C5N4P5J_.js";
+import { u as useThemeStore, m as useRouter, D as getColorFromImg, E as mixColor } from "./index-CmN-032t.js";
+import { _ as __unplugin_components_1$1 } from "./Ellipsis-BnhbelF8.js";
 const _hoisted_1$1 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -23,18 +23,18 @@ function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._hoisted_4$1]);
 }
 const __unplugin_components_1 = markRaw({ name: "ic-twotone-calendar-today", render });
-const _withScopeId = (n) => (pushScopeId("data-v-e3070f89"), n = n(), popScopeId(), n);
+const _withScopeId = (n) => (pushScopeId("data-v-5c7c70b4"), n = n(), popScopeId(), n);
 const _hoisted_1 = ["src"];
-const _hoisted_2 = { class: "item-card-name" };
-const _hoisted_3 = { class: "item-card-date-box" };
+const _hoisted_2 = { class: "item-card-name text1" };
+const _hoisted_3 = { class: "item-card-date-box text2" };
 const _hoisted_4 = { class: "item-card-date" };
-const _hoisted_5 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "item-card-name" }, "每日推荐", -1));
+const _hoisted_5 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "item-card-name text1" }, "每日推荐", -1));
 const _sfc_main = {
   __name: "itemCard",
   props: ["imgurl", "text", "click", "isDailySongs"],
   setup(__props) {
     useCssVars((_ctx) => ({
-      "7f0777a4": unref(itemColor)
+      "7d659316": unref(itemColor)
     }));
     let themeStore = useThemeStore();
     let props = __props;
@@ -94,7 +94,7 @@ const _sfc_main = {
     };
   }
 };
-const itemCard = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-e3070f89"]]);
+const itemCard = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-5c7c70b4"]]);
 export {
   itemCard as i
 };

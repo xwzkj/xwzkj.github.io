@@ -18,63 +18,60 @@ span {
     cursor: pointer;
 }
 
-.header-title[data-v-b14037af] {
+.nav-outer[data-v-74ac2553] {
+    width: 100%;
+    height: 100%;
+}
+.header-title[data-v-74ac2553] {
     font-size: 1.5rem;
     cursor: pointer;
     font-weight: 500;
     padding: 1rem;
 }
 
-.playinglist[data-v-956a7834] {
+.playinglist[data-v-6022213c] {
     height: 100%;
     width: 100%;
 }
-ul[data-v-956a7834] {
+ul[data-v-6022213c] {
     list-style: none;
     padding: 0;
 }
-.playinglist-item[data-v-956a7834] {
-    border: 0.1rem solid rgba(0, 0, 0, 0);
+.playinglist-item[data-v-6022213c] {
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.233);
+    box-shadow: 0 0 2px var(--e38416bc);
     display: flex;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--3d2b9eb5);
 }
-.playinglist-img[data-v-956a7834] {
+.playinglist-img[data-v-6022213c] {
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0.2rem var(--e38416bc);
     margin-right: 0.5rem;
 }
-.tns[data-v-956a7834] {
-    color: #b3b3b3;
-}
-.artist[data-v-956a7834] {
-    color: #8b8b8b;
-}
-.text[data-v-956a7834] {
+.text[data-v-6022213c] {
     width: calc(100% - 3rem)
 }
-.name[data-v-956a7834],
-.tns[data-v-956a7834],
-.artist[data-v-956a7834] {
+.name[data-v-6022213c],
+.tns[data-v-6022213c],
+.artist[data-v-6022213c] {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 100%;
 }
 
-[data-v-b63e61c3] {
+[data-v-cdb0b8ba] {
     box-sizing: border-box;
 }
-.ctrl-outer[data-v-b63e61c3] {
+.ctrl-outer[data-v-cdb0b8ba] {
     position: fixed;
     z-index: 1;
-    top: var(--756fa77a);
+    top: var(--42c73830);
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -88,17 +85,17 @@ ul[data-v-956a7834] {
     backdrop-filter: blur(20px);
     transition: all 0.5s ease-in-out;
 }
-.ctrl-box[data-v-b63e61c3] {
+.ctrl-box[data-v-cdb0b8ba] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-b63e61c3] {
+.ctrl-left[data-v-cdb0b8ba] {
     display: flex;
     width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-b63e61c3] {
+.ctrl-img-box[data-v-cdb0b8ba] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -111,37 +108,37 @@ ul[data-v-956a7834] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-b63e61c3] {
+.ctrl-img[data-v-cdb0b8ba] {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.ctrl-info-box[data-v-b63e61c3] {
+.ctrl-info-box[data-v-cdb0b8ba] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-b63e61c3] {
+.ctrl-info-title[data-v-cdb0b8ba] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-b63e61c3] {
+.ctrl-center[data-v-cdb0b8ba] {
     padding-top: 0.8rem;
     width: calc(100% / 3.5);
 }
-.button[data-v-b63e61c3] {
+.button[data-v-cdb0b8ba] {
     cursor: pointer;
 }
-.btn-control[data-v-b63e61c3] {
+.btn-control[data-v-cdb0b8ba] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-b63e61c3] {
+.btn-play-control[data-v-cdb0b8ba] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -149,7 +146,7 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-b63e61c3] {
+.ctrl-right[data-v-cdb0b8ba] {
     width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
@@ -160,43 +157,85 @@ right---------------------------------------------------------
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-b63e61c3] {
+.ctrl-playinglist[data-v-cdb0b8ba] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--5663d10e));
+    height: calc(var(--vh, 1vh) * 100 - var(--0f4a2f28));
     flex: 1;
 }
 
-.container[data-v-583a6762] {
+.container[data-v-12e71393] {
   height: calc(var(--vh, 1vh) * 100);
   width: calc(var(--vw, 1vw) * 100);
+  max-width: calc(var(--vw, 1vw) * 100);
   overflow: hidden;
 }
-.container-main[data-v-583a6762] {
+.container-main[data-v-12e71393] {
   display: flex;
   height: calc(var(--vh, 1vh) * 100 - 7rem);
 }
-.container-nav[data-v-583a6762] {
+.container-nav[data-v-12e71393] {
   flex: 0 0 auto;
   width: 12rem;
 }
-.container-content[data-v-583a6762] {
+.container-content[data-v-12e71393] {
   flex: 1;
+  max-width: calc(var(--vw, 1vw) * 100 - 12rem);
   display: flex;
   flex-direction: column;
 }
-.container-router-view[data-v-583a6762] {
+.container-router-view[data-v-12e71393] {
+  max-width: 100%;
   overflow-y: scroll;
   flex: 1;
 }
 
 .app{
-  background-color: var(--05c77b2c);
+  background-color: var(--368da77e);
 }
 .icon,
 .n-icon{
-  color: var(--a7e7c0b8);
+  color: var(--368da876);
 }
-div{
-  color: var(--a7e7c0b8);
+.text1{
+  color: var(--368da895);
+}
+.text2{
+  color: var(--368da857);
+}
+.text3{
+  color: var(--368da838);
+}
+
+
+/* 主题色 */
+.color0{
+  color: var(--368da77e);
+}
+.color1{
+  color: var(--368da79d);
+}
+.color2{
+  color: var(--368da7bc);
+}
+.color3{
+  color: var(--368da7db);
+}
+.color4{
+  color: var(--368da7fa);
+}
+.color5{
+  color: var(--368da819);
+}
+.color6{
+  color: var(--368da838);
+}
+.color7{
+  color: var(--368da857);
+}
+.color8{
+  color: var(--368da876);
+}
+.color9{
+  color: var(--368da895);
 }

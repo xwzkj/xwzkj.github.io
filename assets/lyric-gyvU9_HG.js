@@ -1,4 +1,4 @@
-import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, d as defineComponent, aT as useCssVars, b as ref, c as computed, D as onMounted, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aG as NIcon, aZ as createApp } from "./marqueePlus-C24UHMTj.js";
+import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, d as defineComponent, aR as useCssVars, b as ref, c as computed, D as onMounted, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aG as NIcon, aZ as createApp } from "./marqueePlus-C5N4P5J_.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -46,18 +46,25 @@ const __unplugin_components_0 = markRaw({ name: "hugeicons-drag-drop", render })
 const _hoisted_1 = { class: "outer" };
 const _hoisted_2 = { class: "lyric" };
 const _hoisted_3 = { class: "ctrl" };
-const _hoisted_4 = { class: "lyric-lrc marquee" };
-const _hoisted_5 = { class: "lyric-sec marquee" };
+const _hoisted_4 = { class: "ctrl-box" };
+const _hoisted_5 = { class: "lyric-lrc marquee" };
+const _hoisted_6 = { class: "lyric-sec marquee" };
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "lyricApp",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "dfc2322e": unref(mainColors)[0] + 80,
-      "b4aaa0c6": unref(mainColors)[7],
-      "b4aaa278": unref(mainColors)[0],
-      "b4aaa142": unref(mainColors)[5]
+      "6070ac52": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
+      "49d4b2e2": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
+      "b61bd6c6": unref(isLocked) ? `none` : `block`,
+      "fb81559a": unref(mainColors)[7],
+      "00d98a0e": unref(displayCtrl) ? `flex` : `none`,
+      "65704270": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
+      "fb81574c": unref(mainColors)[0],
+      "fb815616": unref(mainColors)[5]
     }));
-    let bgColor = ref("rgba(255,255,255,0)");
+    let isLocked = ref(false);
+    let needLockWhenMouseLeave = false;
+    let displayCtrl = ref(false);
     let mainColors = ref(["#fff9db", "#fff3bf", "#ffec99", "#ffe066", "#ffd43b", "#fcc419", "#fab005", "#f59f00", "#f08c00", "#e67700"]);
     let lyricText = ref({});
     let lyric = computed(() => {
@@ -78,11 +85,36 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       console.log(theme);
       mainColors.value = JSON.parse(theme)?.mainColors;
     }
+    async function switchLock() {
+      window.lyricWindowLock(!isLocked.value);
+      needLockWhenMouseLeave = false;
+      isLocked.value = await updateIsLocked();
+    }
+    async function updateIsLocked() {
+      isLocked.value = await window.isLyricWindowLocked();
+      return isLocked.value;
+    }
     onMounted(() => {
+      updateIsLocked();
       let outer = document.querySelector(".outer");
-      document.querySelector(".lyric");
-      outer.addEventListener("mousemove", (event) => {
-        bgColor.value = "rgba(255,255,255,0)";
+      let lockEle = document.querySelector(".lock");
+      lockEle.addEventListener("mouseenter", async () => {
+        if (await updateIsLocked()) {
+          window.lyricWindowLock(false);
+          needLockWhenMouseLeave = true;
+        }
+      });
+      lockEle.addEventListener("mouseleave", async () => {
+        if (needLockWhenMouseLeave) {
+          window.lyricWindowLock(true);
+          updateIsLocked();
+        }
+      });
+      outer.addEventListener("mouseenter", async () => {
+        displayCtrl.value = true;
+      });
+      outer.addEventListener("mouseleave", async () => {
+        displayCtrl.value = false;
       });
     });
     return (_ctx, _cache) => {
@@ -92,30 +124,36 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       return openBlock(), createElementBlock("div", _hoisted_1, [
         createBaseVNode("div", _hoisted_2, [
           createBaseVNode("div", _hoisted_3, [
-            createVNode(_component_n_icon, {
-              size: "2rem",
-              class: "drag"
-            }, {
-              default: withCtx(() => [
-                createVNode(_component_i_hugeicons_drag_drop)
-              ]),
-              _: 1
-            }),
-            createVNode(_component_n_icon, { size: "2rem" }, {
-              default: withCtx(() => [
-                createVNode(_component_i_hugeicons_square_lock_02)
-              ]),
-              _: 1
-            })
+            createBaseVNode("div", _hoisted_4, [
+              createVNode(_component_n_icon, {
+                size: "2rem",
+                class: "drag none-after-lock"
+              }, {
+                default: withCtx(() => [
+                  createVNode(_component_i_hugeicons_drag_drop)
+                ]),
+                _: 1
+              }),
+              createVNode(_component_n_icon, {
+                size: "2rem",
+                class: "lock",
+                onClick: switchLock
+              }, {
+                default: withCtx(() => [
+                  createVNode(_component_i_hugeicons_square_lock_02)
+                ]),
+                _: 1
+              })
+            ])
           ]),
-          createBaseVNode("div", _hoisted_4, [
+          createBaseVNode("div", _hoisted_5, [
             createVNode(MarqueePlus, {
               html: unref(lyric).lrc,
               speed: 160,
               lyricMode: true
             }, null, 8, ["html"])
           ]),
-          createBaseVNode("div", _hoisted_5, [
+          createBaseVNode("div", _hoisted_6, [
             createVNode(MarqueePlus, {
               html: unref(lyric).tran,
               speed: 140,

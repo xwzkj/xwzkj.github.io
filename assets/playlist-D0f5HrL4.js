@@ -1,9 +1,9 @@
-import { a as usePlayStore, m as useRouter, F as recommendSongs, G as playlistDetail, H as __unplugin_components_0 } from "./index-BypGJIdY.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DhIx4QwA.js";
-import { aQ as _export_sfc, b as ref, w as watch, D as onMounted, aJ as openBlock, aK as createElementBlock, u as unref, aL as createBaseVNode, aP as createCommentVNode, aS as toDisplayString, F as Fragment, aR as renderList, aM as createVNode, aN as withCtx, aO as createBlock, v as createTextVNode } from "./marqueePlus-C24UHMTj.js";
-import { B as Button } from "./Button-B0ZcVsvN.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-Cf1x6r0E.js";
-import "./Card-BnXvXSLm.js";
+import { a as usePlayStore, m as useRouter, F as recommendSongs, G as playlistDetail, H as __unplugin_components_0 } from "./index-CmN-032t.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-bO6QUKT_.js";
+import { aQ as _export_sfc, b as ref, w as watch, D as onMounted, aJ as openBlock, aK as createElementBlock, u as unref, aL as createBaseVNode, aP as createCommentVNode, aT as toDisplayString, F as Fragment, aS as renderList, aM as createVNode, aN as withCtx, aO as createBlock, v as createTextVNode } from "./marqueePlus-C5N4P5J_.js";
+import { B as Button } from "./Button-BUS-mxKg.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-BnhbelF8.js";
+import "./Card-BqULUVRo.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
@@ -12,17 +12,17 @@ const _hoisted_3 = {
 };
 const _hoisted_4 = ["src"];
 const _hoisted_5 = { class: "playlistInfo" };
-const _hoisted_6 = { class: "playlistName playlist-info-item" };
+const _hoisted_6 = { class: "playlistName playlist-info-item text1" };
 const _hoisted_7 = {
   key: 0,
   class: "playlistAuthor playlist-info-item"
 };
 const _hoisted_8 = ["src"];
-const _hoisted_9 = { class: "playlistAuthorName" };
+const _hoisted_9 = { class: "playlistAuthorName text2" };
 const _hoisted_10 = { class: "playlistTagContainer" };
-const _hoisted_11 = { class: "playlist-desc playlist-info-item" };
+const _hoisted_11 = { class: "playlist-desc playlist-info-item text2" };
 const _hoisted_12 = { class: "playlistControler playlist-info-item" };
-const _hoisted_13 = { id: "playlistMusicList" };
+const _hoisted_13 = { class: "playlist-musiclist" };
 const _hoisted_14 = {
   class: "playlist-spin",
   key: "playlst-spin"
@@ -147,7 +147,7 @@ const _sfc_main = {
     };
   }
 };
-const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-0f3a4cfc"]]);
+const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-64497009"]]);
 export {
   playlist as default
 };

@@ -1,28 +1,28 @@
-import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aS as toDisplayString, F as Fragment, aR as renderList, aM as createVNode, a$ as pushScopeId, b0 as popScopeId, aT as useCssVars } from "./marqueePlus-C24UHMTj.js";
-import { k as useUserStore, m as useRouter, C as areaData, D as getColorFromImg, E as mixColor } from "./index-BypGJIdY.js";
-import { i as itemCard } from "./itemCard-B_5DKefC.js";
-import "./Ellipsis-Cf1x6r0E.js";
-const _withScopeId = (n) => (pushScopeId("data-v-a7b1ef24"), n = n(), popScopeId(), n);
-const _hoisted_1 = { id: "accountUserDetail" };
+import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aT as toDisplayString, F as Fragment, aS as renderList, aM as createVNode, a$ as pushScopeId, b0 as popScopeId, aR as useCssVars } from "./marqueePlus-C5N4P5J_.js";
+import { k as useUserStore, u as useThemeStore, m as useRouter, C as areaData } from "./index-CmN-032t.js";
+import { i as itemCard } from "./itemCard-D9-0MXBA.js";
+import "./Ellipsis-BnhbelF8.js";
+const _withScopeId = (n) => (pushScopeId("data-v-dba52ce7"), n = n(), popScopeId(), n);
+const _hoisted_1 = { class: "account-user-detail" };
 const _hoisted_2 = ["src"];
-const _hoisted_3 = { id: "accountUserDataInfo" };
-const _hoisted_4 = { id: "accountUserName" };
+const _hoisted_3 = { class: "account-user-data-info" };
+const _hoisted_4 = { class: "account-user-name text1" };
 const _hoisted_5 = ["src"];
-const _hoisted_6 = { id: "accountUserArea" };
-const _hoisted_7 = { id: "accountUserPlaylistsDiv" };
-const _hoisted_8 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { id: "accountUserPlaylistsTitle" }, "我的歌单", -1));
-const _hoisted_9 = { id: "accountUserPlaylistsUl" };
+const _hoisted_6 = { class: "account-user-area text2" };
+const _hoisted_7 = { class: "account-user-playlists-div" };
+const _hoisted_8 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "account-user-playlists-title" }, "我的歌单", -1));
+const _hoisted_9 = { class: "account-user-playlists-ul" };
 const _hoisted_10 = { class: "user-playlist-li" };
 const _sfc_main = {
   __name: "account",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "34a88366": unref(usrAvaColor)
+      "06589c2a": unref(themeStore).mainColors[1] + `80`
     }));
     const userStore = useUserStore();
+    const themeStore = useThemeStore();
     const router = useRouter();
     let Area = ref("未知");
-    let usrAvaColor = ref("#FFFFFF");
     getArea(userStore.province, userStore.city);
     async function getArea(province, city) {
       if (province in areaData.province && city in areaData.city) {
@@ -31,23 +31,19 @@ const _sfc_main = {
         Area.value = "未知";
       }
     }
-    function getImgMainColor() {
-      let color = getColorFromImg(document.getElementById("accountUserAvatar"), true);
-      usrAvaColor.value = mixColor(color, [255, 255, 255], 0.35);
-    }
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", null, [
         createBaseVNode("div", _hoisted_1, [
           createBaseVNode("img", {
-            id: "accountUserAvatar",
-            src: `${unref(userStore).avatar}?param=200y200`,
-            onLoad: getImgMainColor,
+            class: "account-user-avatar",
+            src: unref(userStore).avatar,
+            onLoad: _cache[0] || (_cache[0] = (...args) => _ctx.getImgMainColor && _ctx.getImgMainColor(...args)),
             crossorigin: "anonymous"
           }, null, 40, _hoisted_2),
           createBaseVNode("div", _hoisted_3, [
             createBaseVNode("span", _hoisted_4, toDisplayString(unref(userStore).name), 1),
             createBaseVNode("img", {
-              id: "accountUserVIP",
+              class: "account-userVIP",
               src: `${unref(userStore).vipIcon}`
             }, null, 8, _hoisted_5),
             createBaseVNode("span", _hoisted_6, "地区：" + toDisplayString(unref(Area)), 1)
@@ -71,7 +67,7 @@ const _sfc_main = {
     };
   }
 };
-const account = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-a7b1ef24"]]);
+const account = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-dba52ce7"]]);
 export {
   account as default
 };

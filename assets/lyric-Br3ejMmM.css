@@ -1,0 +1,59 @@
+
+.outer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 1rem;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+}
+.outer:hover {
+    background: var(--6070ac52);
+    border: 1px solid var(--49d4b2e2);
+}
+.none-after-lock {
+    display: var(--b61bd6c6);
+}
+.ctrl {
+    height: 2.2rem;
+    color: var(--fb81559a);
+}
+.ctrl-box {
+    display: var(--00d98a0e);
+    justify-content: space-around;
+}
+.drag {
+    cursor: move;
+    -webkit-app-region: drag;
+}
+.lock {
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.lock:hover {
+    background-color: var(--65704270);
+}
+.lyric {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    color: var(--fb81574c);
+    text-shadow:
+        var(--fb815616) 0 0 0.3rem,
+        var(--fb815616) 0 0 0.3rem,
+        var(--fb815616) 0 0 0.3rem,
+        var(--fb815616) 0 0 0.3rem;
+}
+.lyric-lrc {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.lyric-sec {
+    font-size: 2rem;
+    font-weight: bold;
+}

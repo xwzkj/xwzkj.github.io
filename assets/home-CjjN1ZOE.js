@@ -1,8 +1,8 @@
-import { i as itemCard } from "./itemCard-B_5DKefC.js";
-import { k as useUserStore, m as useRouter, n as getPersonalizedPlaylist } from "./index-BypGJIdY.js";
-import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aM as createVNode, aP as createCommentVNode, F as Fragment, aR as renderList, a$ as pushScopeId, b0 as popScopeId, v as createTextVNode } from "./marqueePlus-C24UHMTj.js";
-import "./Ellipsis-Cf1x6r0E.js";
-const _withScopeId = (n) => (pushScopeId("data-v-be2babf4"), n = n(), popScopeId(), n);
+import { i as itemCard } from "./itemCard-D9-0MXBA.js";
+import { k as useUserStore, m as useRouter, n as getPersonalizedPlaylist } from "./index-CmN-032t.js";
+import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aM as createVNode, aP as createCommentVNode, F as Fragment, aS as renderList, a$ as pushScopeId, b0 as popScopeId, v as createTextVNode } from "./marqueePlus-C5N4P5J_.js";
+import "./Ellipsis-BnhbelF8.js";
+const _withScopeId = (n) => (pushScopeId("data-v-5e42119e"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "home" };
 const _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "home-sub-title" }, "精选歌单", -1));
 const _hoisted_3 = { id: "homeRecommendPlaylist" };
@@ -10,10 +10,6 @@ const _hoisted_4 = { key: 0 };
 const _hoisted_5 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", null, [
   /* @__PURE__ */ createTextVNode("登录页面"),
   /* @__PURE__ */ createBaseVNode("a", { href: "#/login" }, "点我")
-], -1));
-const _hoisted_6 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", null, [
-  /* @__PURE__ */ createTextVNode("设置"),
-  /* @__PURE__ */ createBaseVNode("a", { href: "#/setting" }, "点我")
 ], -1));
 const _sfc_main = {
   __name: "home",
@@ -44,13 +40,12 @@ const _sfc_main = {
             ]);
           }), 128))
         ]),
-        _hoisted_5,
-        _hoisted_6
+        _hoisted_5
       ]);
     };
   }
 };
-const home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-be2babf4"]]);
+const home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-5e42119e"]]);
 export {
   home as default
 };

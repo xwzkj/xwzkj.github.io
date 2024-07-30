@@ -1,7 +1,7 @@
-import { Q as useStyle, R as inputLight, T as on, U as off, B as __unplugin_components_2, V as fadeInScaleUpTransition, W as useFormItem, X as useLocale, Y as useMergedState, Z as isMounted, $ as useAdjustedTo, a0 as getPreciseEventTarget, a1 as Binder, a2 as VTarget, a3 as VFollower, a4 as clickoutside, a5 as call, k as useUserStore, u as useThemeStore, v as success } from "./index-BypGJIdY.js";
-import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aF as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, j as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aM as createVNode, aN as withCtx, L as renderSlot, u as unref, aG as NIcon, D as onMounted, v as createTextVNode, f as isRef } from "./marqueePlus-C24UHMTj.js";
-import { b as buttonLight, B as Button } from "./Button-B0ZcVsvN.js";
-import { _ as __unplugin_components_3 } from "./Card-BnXvXSLm.js";
+import { Q as useStyle, R as inputLight, T as on, U as off, B as __unplugin_components_2, V as fadeInScaleUpTransition, W as useFormItem, X as useLocale, Y as useMergedState, Z as isMounted, $ as useAdjustedTo, a0 as getPreciseEventTarget, a1 as Binder, a2 as VTarget, a3 as VFollower, a4 as clickoutside, a5 as call, k as useUserStore, u as useThemeStore, v as success } from "./index-CmN-032t.js";
+import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aF as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, j as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aM as createVNode, aN as withCtx, L as renderSlot, u as unref, aG as NIcon, D as onMounted, v as createTextVNode, f as isRef } from "./marqueePlus-C5N4P5J_.js";
+import { b as buttonLight, B as Button } from "./Button-BUS-mxKg.js";
+import { _ as __unplugin_components_3 } from "./Card-BqULUVRo.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1851,8 +1851,8 @@ const __unplugin_components_0 = markRaw({ name: "hugeicons-link-square01", rende
 const _hoisted_1$1 = { class: "setting-item-outer" };
 const _hoisted_2 = { class: "setting-item" };
 const _hoisted_3 = { class: "title" };
-const _hoisted_4 = { class: "t1" };
-const _hoisted_5 = { class: "t2" };
+const _hoisted_4 = { class: "t1 text1" };
+const _hoisted_5 = { class: "t2 text2" };
 const _hoisted_6 = { class: "action" };
 const _sfc_main$1 = {
   __name: "settingItem",
@@ -1905,7 +1905,7 @@ const _sfc_main$1 = {
     };
   }
 };
-const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-2d1729d3"]]);
+const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-2a083c33"]]);
 const _hoisted_1 = { class: "setting" };
 const _sfc_main = {
   __name: "setting",
@@ -1973,7 +1973,7 @@ const _sfc_main = {
               createTextVNode("主题色")
             ]),
             t2: withCtx(() => [
-              createTextVNode("自定义！好耶")
+              createTextVNode("默认是c49526")
             ]),
             action: withCtx(() => [
               createVNode(_component_n_color_picker, {
@@ -2013,7 +2013,7 @@ const _sfc_main = {
     };
   }
 };
-const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-96c78ddd"]]);
+const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-8f86363f"]]);
 export {
   setting as default
 };
