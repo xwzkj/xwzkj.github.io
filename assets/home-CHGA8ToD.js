@@ -1,8 +1,8 @@
-import { i as itemCard } from "./itemCard-D9-0MXBA.js";
-import { k as useUserStore, m as useRouter, n as getPersonalizedPlaylist } from "./index-CmN-032t.js";
-import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aM as createVNode, aP as createCommentVNode, F as Fragment, aS as renderList, a$ as pushScopeId, b0 as popScopeId, v as createTextVNode } from "./marqueePlus-C5N4P5J_.js";
-import "./Ellipsis-BnhbelF8.js";
-const _withScopeId = (n) => (pushScopeId("data-v-5e42119e"), n = n(), popScopeId(), n);
+import { i as itemCard } from "./itemCard-CcSC6Qoi.js";
+import { k as useUserStore, m as useRouter, n as getPersonalizedPlaylist } from "./index-DyPH-l1o.js";
+import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aM as createVNode, aP as createCommentVNode, F as Fragment, aS as renderList, a$ as pushScopeId, b0 as popScopeId, v as createTextVNode } from "./marqueePlus-CsZR2GmR.js";
+import "./Ellipsis-D6aVVFJ_.js";
+const _withScopeId = (n) => (pushScopeId("data-v-50f9e917"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "home" };
 const _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "home-sub-title" }, "精选歌单", -1));
 const _hoisted_3 = { id: "homeRecommendPlaylist" };
@@ -19,7 +19,7 @@ const _sfc_main = {
     let router = useRouter();
     getPersonalizedPlaylist().then((res) => {
       personalizedPlaylist.value = res.data;
-      console.log(res.data);
+      console.log(res);
     });
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", _hoisted_1, [
@@ -45,7 +45,7 @@ const _sfc_main = {
     };
   }
 };
-const home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-5e42119e"]]);
+const home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-50f9e917"]]);
 export {
   home as default
 };

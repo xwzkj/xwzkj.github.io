@@ -1,4 +1,4 @@
-import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, d as defineComponent, aR as useCssVars, b as ref, c as computed, D as onMounted, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aG as NIcon, aZ as createApp } from "./marqueePlus-C5N4P5J_.js";
+import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, d as defineComponent, aR as useCssVars, b as ref, c as computed, D as onMounted, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aG as NIcon, aZ as createApp } from "./marqueePlus-CsZR2GmR.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -53,14 +53,14 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "lyricApp",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "6070ac52": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
-      "49d4b2e2": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
-      "b61bd6c6": unref(isLocked) ? `none` : `block`,
-      "fb81559a": unref(mainColors)[7],
-      "00d98a0e": unref(displayCtrl) ? `flex` : `none`,
-      "65704270": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
-      "fb81574c": unref(mainColors)[0],
-      "fb815616": unref(mainColors)[5]
+      "a2732c3c": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
+      "ba07e638": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
+      "7eb1f89c": unref(isLocked) ? `none` : `block`,
+      "d4e5c5f0": unref(mainColors)[7],
+      "030f07e3": unref(displayCtrl) ? `flex` : `none`,
+      "26fe4c5a": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
+      "d4e5c7a2": unref(mainColors)[0],
+      "d4e5c66c": unref(mainColors)[5]
     }));
     let isLocked = ref(false);
     let needLockWhenMouseLeave = false;
@@ -80,6 +80,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     function changeLyric(event, lyric2) {
       let lyricObj = JSON.parse(lyric2);
       lyricText.value = lyricObj;
+      updateIsLocked();
     }
     function changeTheme(event, theme) {
       console.log(theme);
@@ -99,22 +100,31 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       let outer = document.querySelector(".outer");
       let lockEle = document.querySelector(".lock");
       lockEle.addEventListener("mouseenter", async () => {
+        console.log("lock mouse enter");
         if (await updateIsLocked()) {
           window.lyricWindowLock(false);
           needLockWhenMouseLeave = true;
         }
       });
       lockEle.addEventListener("mouseleave", async () => {
+        console.log("lock mouse leave");
         if (needLockWhenMouseLeave) {
           window.lyricWindowLock(true);
           updateIsLocked();
         }
       });
+      let flag;
       outer.addEventListener("mouseenter", async () => {
+        console.log("outer mouse enter");
+        clearTimeout(flag);
         displayCtrl.value = true;
       });
       outer.addEventListener("mouseleave", async () => {
-        displayCtrl.value = false;
+        console.log("outer mouse leave");
+        clearTimeout(flag);
+        flag = setTimeout(() => {
+          displayCtrl.value = false;
+        }, 1e3);
       });
     });
     return (_ctx, _cache) => {

@@ -1,15 +1,15 @@
 
-li[data-v-5e42119e] {
+li[data-v-50f9e917] {
     list-style: none;
 }
-ul[data-v-5e42119e] {
+ul[data-v-50f9e917] {
     padding: 0;
 }
-#homeRecommendPlaylist[data-v-5e42119e] {
+#homeRecommendPlaylist[data-v-50f9e917] {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
 }
-.home-sub-title[data-v-5e42119e] {
+.home-sub-title[data-v-50f9e917] {
     margin:1rem;
     font-size: 1.5rem;
     font-weight: 500;

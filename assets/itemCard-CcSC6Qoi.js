@@ -1,6 +1,6 @@
-import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aR as useCssVars, b as ref, u as unref, aM as createVNode, aN as withCtx, v as createTextVNode, aT as toDisplayString, b1 as normalizeStyle, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-C5N4P5J_.js";
-import { u as useThemeStore, m as useRouter, D as getColorFromImg, E as mixColor } from "./index-CmN-032t.js";
-import { _ as __unplugin_components_1$1 } from "./Ellipsis-BnhbelF8.js";
+import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aQ as _export_sfc, aR as useCssVars, b as ref, u as unref, aM as createVNode, aN as withCtx, v as createTextVNode, aT as toDisplayString, b1 as normalizeStyle, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-CsZR2GmR.js";
+import { u as useThemeStore, m as useRouter, D as getColorFromImg, E as mixColor } from "./index-DyPH-l1o.js";
+import { _ as __unplugin_components_1$1 } from "./Ellipsis-D6aVVFJ_.js";
 const _hoisted_1$1 = {
   viewBox: "0 0 24 24",
   width: "1.2em",

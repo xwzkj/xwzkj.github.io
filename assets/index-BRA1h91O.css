@@ -190,52 +190,52 @@ right---------------------------------------------------------
   flex: 1;
 }
 
-.app{
-  background-color: var(--368da77e);
+.app {
+  background-color: var(--05ee0932);
 }
 .icon,
-.n-icon{
-  color: var(--368da876);
+.n-icon {
+  color: var(--05ee0a2a);
 }
-.text1{
-  color: var(--368da895);
+.text1 {
+  color: var(--05ee0a49);
 }
-.text2{
-  color: var(--368da857);
+.text2 {
+  color: var(--05ee0a0b);
 }
-.text3{
-  color: var(--368da838);
+.text3 {
+  color: var(--05ee09ec);
 }
 
 
 /* 主题色 */
-.color0{
-  color: var(--368da77e);
+.color0 {
+  color: var(--05ee0932);
 }
-.color1{
-  color: var(--368da79d);
+.color1 {
+  color: var(--05ee0951);
 }
-.color2{
-  color: var(--368da7bc);
+.color2 {
+  color: var(--05ee0970);
 }
-.color3{
-  color: var(--368da7db);
+.color3 {
+  color: var(--05ee098f);
 }
-.color4{
-  color: var(--368da7fa);
+.color4 {
+  color: var(--05ee09ae);
 }
-.color5{
-  color: var(--368da819);
+.color5 {
+  color: var(--05ee09cd);
 }
-.color6{
-  color: var(--368da838);
+.color6 {
+  color: var(--05ee09ec);
 }
-.color7{
-  color: var(--368da857);
+.color7 {
+  color: var(--05ee0a0b);
 }
-.color8{
-  color: var(--368da876);
+.color8 {
+  color: var(--05ee0a2a);
 }
-.color9{
-  color: var(--368da895);
+.color9 {
+  color: var(--05ee0a49);
 }

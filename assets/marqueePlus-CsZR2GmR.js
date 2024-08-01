@@ -1,5 +1,5 @@
 /**
-* @vue/shared v3.4.34
+* @vue/shared v3.4.35
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -190,7 +190,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.4.34
+* @vue/reactivity v3.4.35
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -1231,7 +1231,7 @@ function propertyToRef(source, key, defaultValue) {
   return isRef(val) ? val : new ObjectRefImpl(source, key, defaultValue);
 }
 /**
-* @vue/runtime-core v3.4.34
+* @vue/runtime-core v3.4.35
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -3212,20 +3212,33 @@ function normalizePropsOptions(comp, appContext, asMixin = false) {
       if (validatePropName(normalizedKey)) {
         const opt = raw[key];
         const prop = normalized[normalizedKey] = isArray$1(opt) || isFunction$1(opt) ? { type: opt } : extend({}, opt);
-        if (prop) {
-          const booleanIndex = getTypeIndex(Boolean, prop.type);
-          const stringIndex = getTypeIndex(String, prop.type);
-          prop[
-            0
-            /* shouldCast */
-          ] = booleanIndex > -1;
-          prop[
-            1
-            /* shouldCastTrue */
-          ] = stringIndex < 0 || booleanIndex < stringIndex;
-          if (booleanIndex > -1 || hasOwn(prop, "default")) {
-            needCastKeys.push(normalizedKey);
+        const propType = prop.type;
+        let shouldCast = false;
+        let shouldCastTrue = true;
+        if (isArray$1(propType)) {
+          for (let index = 0; index < propType.length; ++index) {
+            const type = propType[index];
+            const typeName = isFunction$1(type) && type.name;
+            if (typeName === "Boolean") {
+              shouldCast = true;
+              break;
+            } else if (typeName === "String") {
+              shouldCastTrue = false;
+            }
           }
+        } else {
+          shouldCast = isFunction$1(propType) && propType.name === "Boolean";
+        }
+        prop[
+          0
+          /* shouldCast */
+        ] = shouldCast;
+        prop[
+          1
+          /* shouldCastTrue */
+        ] = shouldCastTrue;
+        if (shouldCast || hasOwn(prop, "default")) {
+          needCastKeys.push(normalizedKey);
         }
       }
     }
@@ -3241,29 +3254,6 @@ function validatePropName(key) {
     return true;
   }
   return false;
-}
-function getType(ctor) {
-  if (ctor === null) {
-    return "null";
-  }
-  if (typeof ctor === "function") {
-    return ctor.name || "";
-  } else if (typeof ctor === "object") {
-    const name = ctor.constructor && ctor.constructor.name;
-    return name || "";
-  }
-  return "";
-}
-function isSameType(a, b) {
-  return getType(a) === getType(b);
-}
-function getTypeIndex(type, expectedTypes) {
-  if (isArray$1(expectedTypes)) {
-    return expectedTypes.findIndex((t) => isSameType(t, type));
-  } else if (isFunction$1(expectedTypes)) {
-    return isSameType(expectedTypes, type) ? 0 : -1;
-  }
-  return -1;
 }
 const isInternalKey = (key) => key[0] === "_" || key === "$stable";
 const normalizeSlotValue = (value) => isArray$1(value) ? value.map(normalizeVNode) : [normalizeVNode(value)];
@@ -3457,15 +3447,11 @@ const TeleportImpl = {
     if (n1 == null) {
       const placeholder = n2.el = createText("");
       const mainAnchor = n2.anchor = createText("");
-      const target = n2.target = resolveTarget(n2.props, querySelector);
-      const targetStart = n2.targetStart = createText("");
-      const targetAnchor = n2.targetAnchor = createText("");
       insert(placeholder, container, anchor);
       insert(mainAnchor, container, anchor);
-      targetStart[TeleportEndKey] = targetAnchor;
+      const target = n2.target = resolveTarget(n2.props, querySelector);
+      const targetAnchor = prepareAnchor(target, n2, createText, insert);
       if (target) {
-        insert(targetStart, target);
-        insert(targetAnchor, target);
         if (namespace2 === "svg" || isTargetSVG(target)) {
           namespace2 = "svg";
         } else if (namespace2 === "mathml" || isTargetMathML(target)) {
@@ -3629,7 +3615,7 @@ function moveTeleport(vnode, container, parentAnchor, { o: { insert }, m: move }
   }
 }
 function hydrateTeleport(node, vnode, parentComponent, parentSuspense, slotScopeIds, optimized, {
-  o: { nextSibling, parentNode, querySelector }
+  o: { nextSibling, parentNode, querySelector, insert, createText }
 }, hydrateChildren) {
   const target = vnode.target = resolveTarget(
     vnode.props,
@@ -3648,20 +3634,28 @@ function hydrateTeleport(node, vnode, parentComponent, parentSuspense, slotScope
           slotScopeIds,
           optimized
         );
-        vnode.targetAnchor = targetNode;
+        vnode.targetStart = targetNode;
+        vnode.targetAnchor = targetNode && nextSibling(targetNode);
       } else {
         vnode.anchor = nextSibling(node);
         let targetAnchor = targetNode;
         while (targetAnchor) {
-          targetAnchor = nextSibling(targetAnchor);
-          if (targetAnchor && targetAnchor.nodeType === 8 && targetAnchor.data === "teleport anchor") {
-            vnode.targetAnchor = targetAnchor;
-            target._lpa = vnode.targetAnchor && nextSibling(vnode.targetAnchor);
-            break;
+          if (targetAnchor && targetAnchor.nodeType === 8) {
+            if (targetAnchor.data === "teleport start anchor") {
+              vnode.targetStart = targetAnchor;
+            } else if (targetAnchor.data === "teleport anchor") {
+              vnode.targetAnchor = targetAnchor;
+              target._lpa = vnode.targetAnchor && nextSibling(vnode.targetAnchor);
+              break;
+            }
           }
+          targetAnchor = nextSibling(targetAnchor);
+        }
+        if (!vnode.targetAnchor) {
+          prepareAnchor(target, vnode, createText, insert);
         }
         hydrateChildren(
-          targetNode,
+          targetNode && nextSibling(targetNode),
           vnode,
           target,
           parentComponent,
@@ -3686,6 +3680,16 @@ function updateCssVars(vnode) {
     }
     ctx.ut();
   }
+}
+function prepareAnchor(target, vnode, createText, insert) {
+  const targetStart = vnode.targetStart = createText("");
+  const targetAnchor = vnode.targetAnchor = createText("");
+  targetStart[TeleportEndKey] = targetAnchor;
+  if (target) {
+    insert(targetStart, target);
+    insert(targetAnchor, target);
+  }
+  return targetAnchor;
 }
 const queuePostRenderEffect = queueEffectWithSuspense;
 function createRenderer(options) {
@@ -6206,9 +6210,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.4.34";
+const version = "3.4.35";
 /**
-* @vue/runtime-dom v3.4.34
+* @vue/runtime-dom v3.4.35
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/

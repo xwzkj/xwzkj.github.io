@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-CGdFPzW1.js","./marqueePlus-C5N4P5J_.js","./marqueePlus-CLo2Jn4F.css","./player-D-ZiTY5f.css","./home-CjjN1ZOE.js","./itemCard-D9-0MXBA.js","./Ellipsis-BnhbelF8.js","./itemCard-Bgy-kfmm.css","./home-nWvfJ__W.css","./search-DLrNL8q4.js","./musicList-bO6QUKT_.js","./Card-BqULUVRo.js","./musicList-C2Gx6pRn.css","./search-C5fKSBIZ.css","./login-BiVlCiRy.js","./Button-BUS-mxKg.js","./login-B9OJSZbP.css","./account-BXHgta-V.js","./account-isDwt7mc.css","./playlist-D0f5HrL4.js","./playlist-CtSiGqQ1.css","./setting-CCgucuIq.js","./setting-CCdcvzAW.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, t as toRaw, f as isRef, g as isReactive, j as toRef, k as hasInjectionContext, l as getCurrentScope, o as onScopeDispose, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, aO as createBlock, aP as createCommentVNode, aQ as _export_sfc, aR as useCssVars, aS as renderList, aT as toDisplayString, aU as MarqueePlus, aV as withModifiers, aW as resolveComponent, aX as KeepAlive, aY as resolveDynamicComponent, aZ as createApp } from "./marqueePlus-C5N4P5J_.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-ptyN32uf.js","./marqueePlus-CsZR2GmR.js","./marqueePlus-CLo2Jn4F.css","./player-D-ZiTY5f.css","./home-CHGA8ToD.js","./itemCard-CcSC6Qoi.js","./Ellipsis-D6aVVFJ_.js","./itemCard-Bgy-kfmm.css","./home-BchFyFaE.css","./search-BCuH4jnM.js","./musicList-BzZVjZn8.js","./Card-CCs3e6I0.js","./musicList-C2Gx6pRn.css","./search-C5fKSBIZ.css","./login-CQHKfeVy.js","./Button-D5GdTuBL.js","./login-B9OJSZbP.css","./account-Cu-r7ZNp.js","./account-isDwt7mc.css","./playlist-CA16yX4V.js","./playlist-CtSiGqQ1.css","./setting-S5RKaMLi.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, t as toRaw, f as isRef, g as isReactive, j as toRef, k as hasInjectionContext, l as getCurrentScope, o as onScopeDispose, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, aO as createBlock, aP as createCommentVNode, aQ as _export_sfc, aR as useCssVars, aS as renderList, aT as toDisplayString, aU as MarqueePlus, aV as withModifiers, aW as resolveComponent, aX as KeepAlive, aY as resolveDynamicComponent, aZ as createApp } from "./marqueePlus-CsZR2GmR.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -67,7 +67,7 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
   });
 };
 /*!
-  * vue-router v4.4.0
+  * vue-router v4.4.2
   * (c) 2024 Eduardo San Martin Morote
   * @license MIT
   */
@@ -1918,7 +1918,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-CGdFPzW1.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-ptyN32uf.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1929,7 +1929,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-CjjN1ZOE.js"), true ? __vite__mapDeps([4,5,1,2,6,7,8]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-CHGA8ToD.js"), true ? __vite__mapDeps([4,5,1,2,6,7,8]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1940,7 +1940,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DLrNL8q4.js"), true ? __vite__mapDeps([9,1,2,10,11,12,13]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-BCuH4jnM.js"), true ? __vite__mapDeps([9,1,2,10,11,12,13]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1951,7 +1951,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BiVlCiRy.js"), true ? __vite__mapDeps([14,1,2,15,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CQHKfeVy.js"), true ? __vite__mapDeps([14,1,2,15,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1959,7 +1959,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-BXHgta-V.js"), true ? __vite__mapDeps([17,1,2,5,6,7,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-Cu-r7ZNp.js"), true ? __vite__mapDeps([17,1,2,5,6,7,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1970,7 +1970,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-D0f5HrL4.js"), true ? __vite__mapDeps([19,10,1,2,11,12,15,6,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CA16yX4V.js"), true ? __vite__mapDeps([19,10,1,2,11,12,15,6,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1981,7 +1981,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CCgucuIq.js"), true ? __vite__mapDeps([21,1,2,15,11,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-S5RKaMLi.js"), true ? __vite__mapDeps([21,1,2,15,11,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -9885,7 +9885,7 @@ const tagProps = Object.assign(Object.assign(Object.assign({}, useTheme.props), 
   onCheckedChange: Function
 });
 const tagInjectionKey = createInjectionKey("n-tag");
-const __unplugin_components_0$3 = defineComponent({
+const __unplugin_components_0$4 = defineComponent({
   name: "Tag",
   props: tagProps,
   setup(props) {
@@ -10864,7 +10864,7 @@ const inputProps = Object.assign(Object.assign({}, useTheme.props), {
   /** deprecated */
   showPasswordToggle: Boolean
 });
-const __unplugin_components_2$2 = defineComponent({
+const __unplugin_components_0$3 = defineComponent({
   name: "Input",
   props: inputProps,
   setup(props) {
@@ -25900,13 +25900,24 @@ apiURL：${apiurl}
 ${JSON.stringify(e.response)}`);
   }
 };
-if (window.$isElectron) {
+if (window.isElectron) {
+  console.log("当前是electron环境！");
   request = async (param, _) => {
-    let { url, method, params, data } = param;
-    if (localStorage.getItem("cookie")) {
-      data = { ...data, cookie: localStorage.getItem("cookie") };
+    console.log(param);
+    try {
+      let { url, method, params, data } = param;
+      if (localStorage.getItem("cookie")) {
+        data = { ...data, cookie: localStorage.getItem("cookie") };
+      }
+      return await window.netease(url, { ...data, ...params });
+    } catch (e) {
+      error(`本地版 api请求错误！
+apiURL：${apiurl} 
+参数：${JSON.stringify(param)} 
+
+返回信息：
+${JSON.stringify(e.response)}`);
     }
-    return await window.netease(url, { ...data, ...params });
   };
 }
 function loginStatus() {
@@ -25962,12 +25973,22 @@ function songDetail(ids) {
     data: { ids }
   });
 }
-function songUrlV1(id, level) {
-  return request({
-    url: "/song/url/v1",
-    method: "post",
-    data: { id, level }
-  });
+function songUrlV1(id, level, specialApi = null, cookie = null) {
+  if (specialApi) {
+    return axios.get(specialApi, {
+      params: {
+        id,
+        level,
+        cookie
+      }
+    });
+  } else {
+    return request({
+      url: "/song/url/v1",
+      method: "post",
+      data: { id, level }
+    });
+  }
 }
 function lyricNew(id) {
   return request({
@@ -26737,6 +26758,23 @@ const useUserStore = defineStore("user", {
     }
   }
 });
+function mitt(n2) {
+  return { all: n2 = n2 || /* @__PURE__ */ new Map(), on: function(t2, e) {
+    var i2 = n2.get(t2);
+    i2 ? i2.push(e) : n2.set(t2, [e]);
+  }, off: function(t2, e) {
+    var i2 = n2.get(t2);
+    i2 && (e ? i2.splice(i2.indexOf(e) >>> 0, 1) : n2.set(t2, []));
+  }, emit: function(t2, e) {
+    var i2 = n2.get(t2);
+    i2 && i2.slice().map(function(n3) {
+      n3(e);
+    }), (i2 = n2.get("*")) && i2.slice().map(function(n3) {
+      n3(t2, e);
+    });
+  } };
+}
+const emitter = mitt();
 const usePlayStore = defineStore("play", () => {
   console.log("playstore被创建 ");
   let player = ref(new Audio());
@@ -26871,7 +26909,7 @@ const usePlayStore = defineStore("play", () => {
     }
   }
   async function getAudioUrl(id) {
-    let res = await songUrlV1(id, "jymaster");
+    let res = await songUrlV1(id, "jymaster", localStorage.getItem("specialApi"), localStorage.getItem("cookie"));
     res = res.data.data[0].url;
     player.value.src = res;
     return res;
@@ -27017,7 +27055,7 @@ const usePlayStore = defineStore("play", () => {
     }
   }
   function lrcToMS(lyricLine) {
-    let express = /\[(\d+):(\d+)[:.](\d+)\]/;
+    let express = /\[(\d+)[:.](\d+)[:.](\d+)\]/;
     let lineTime = express.exec(lyricLine);
     if (lineTime == null) {
       return 0;
@@ -27028,7 +27066,7 @@ const usePlayStore = defineStore("play", () => {
     return (parseInt(lineTime[1]) * 60 + parseInt(lineTime[2])) * 1e3 + parseInt(lineTime[3].slice(0, 2)) * 10;
   }
   function lrcToLyric(lyricLine) {
-    let express = /\[\d+:\d+[:.]\d+\](.*)/;
+    let express = /\[\d+[:.]\d+[:.]\d+\](.*)/;
     let lineTime = express.exec(lyricLine);
     if (lineTime == null) {
       return "";
@@ -27627,23 +27665,6 @@ function generate(color) {
   }
   return patterns;
 }
-function mitt(n2) {
-  return { all: n2 = n2 || /* @__PURE__ */ new Map(), on: function(t2, e) {
-    var i2 = n2.get(t2);
-    i2 ? i2.push(e) : n2.set(t2, [e]);
-  }, off: function(t2, e) {
-    var i2 = n2.get(t2);
-    i2 && (e ? i2.splice(i2.indexOf(e) >>> 0, 1) : n2.set(t2, []));
-  }, emit: function(t2, e) {
-    var i2 = n2.get(t2);
-    i2 && i2.slice().map(function(n3) {
-      n3(e);
-    }), (i2 = n2.get("*")) && i2.slice().map(function(n3) {
-      n3(t2, e);
-    });
-  } };
-}
-const emitter = mitt();
 const useThemeStore = defineStore("theme", {
   state: () => ({
     mainColor: "",
@@ -27736,7 +27757,7 @@ const _sfc_main$5 = {
     return (_ctx, _cache) => {
       const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0;
       const _component_n_icon = NIcon;
-      const _component_n_input = __unplugin_components_2$2;
+      const _component_n_input = __unplugin_components_0$3;
       const _component_n_avatar = __unplugin_components_3$1;
       return openBlock(), createElementBlock("div", _hoisted_1$i, [
         createBaseVNode("span", _hoisted_2$g, [
@@ -28172,7 +28193,7 @@ const _sfc_main$3 = {
       playinglistScrollbarRef.value.scrollTo({ top: playinglistItemRef.value?.[playStore.playlistIndex]?.offsetTop - 80, behavior: "smooth" });
     }
     return (_ctx, _cache) => {
-      const _component_n_tag = __unplugin_components_0$3;
+      const _component_n_tag = __unplugin_components_0$4;
       const _component_n_scrollbar = Scrollbar;
       return openBlock(), createElementBlock("div", _hoisted_1$3, [
         createVNode(_component_n_scrollbar, {
@@ -28489,18 +28510,20 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "368da77e": unref(themeStore).mainColors[0],
-      "368da876": unref(themeStore).mainColors[8],
-      "368da895": unref(themeStore).mainColors[9],
-      "368da857": unref(themeStore).mainColors[7],
-      "368da838": unref(themeStore).mainColors[6],
-      "368da79d": unref(themeStore).mainColors[1],
-      "368da7bc": unref(themeStore).mainColors[2],
-      "368da7db": unref(themeStore).mainColors[3],
-      "368da7fa": unref(themeStore).mainColors[4],
-      "368da819": unref(themeStore).mainColors[5]
+      "05ee0932": unref(themeStore).mainColors[0],
+      "05ee0a2a": unref(themeStore).mainColors[8],
+      "05ee0a49": unref(themeStore).mainColors[9],
+      "05ee0a0b": unref(themeStore).mainColors[7],
+      "05ee09ec": unref(themeStore).mainColors[6],
+      "05ee0951": unref(themeStore).mainColors[1],
+      "05ee0970": unref(themeStore).mainColors[2],
+      "05ee098f": unref(themeStore).mainColors[3],
+      "05ee09ae": unref(themeStore).mainColors[4],
+      "05ee09cd": unref(themeStore).mainColors[5]
     }));
-    window.isElectron = window.hasOwnProperty("netease");
+    if (!window.hasOwnProperty("isElectron")) {
+      window.isElectron = false;
+    }
     let themeOverrides = ref({
       common: {
         borderRadius: "10px",
@@ -28522,7 +28545,6 @@ const _sfc_main = {
     });
     emitter.on("changeTheme", (theme) => {
       objDeepMerge(themeOverrides.value, theme);
-      console.log(themeOverrides.value);
     });
     return (_ctx, _cache) => {
       const _component_n_message_provider = __unplugin_components_0$1;
@@ -28552,13 +28574,13 @@ app.mount("#app");
 export {
   useAdjustedTo as $,
   sendCaptcha as A,
-  __unplugin_components_2$2 as B,
+  __unplugin_components_0$3 as B,
   areaData as C,
   getColorFromImg as D,
   mixColor as E,
   recommendSongs as F,
   playlistDetail as G,
-  __unplugin_components_0$3 as H,
+  __unplugin_components_0$4 as H,
   fadeInTransition as I,
   pxfy as J,
   useCompitable as K,
