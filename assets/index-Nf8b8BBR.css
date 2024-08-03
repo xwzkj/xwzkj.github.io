@@ -1,9 +1,9 @@
 
-.nav-outer[data-v-92e25a40] {
+.nav-outer[data-v-1f54f60f] {
     width: 100%;
     height: 100%;
 }
-.header-title[data-v-92e25a40] {
+.header-title[data-v-1f54f60f] {
     font-size: 1.5rem;
     cursor: pointer;
     font-weight: 500;
@@ -31,7 +31,7 @@ span {
 .header-nav {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 100vw;
     height: calc(var(--vh, 1vh) * 100);
     z-index: 10;
@@ -45,54 +45,54 @@ span {
 .header-user {
         margin-right: 0;
 }
-.header-search{
+.header-search {
         margin-left: 0;
 }
 }
 
-.playinglist[data-v-6022213c] {
+.playinglist[data-v-985db90b] {
     height: 100%;
     width: 100%;
 }
-ul[data-v-6022213c] {
+ul[data-v-985db90b] {
     list-style: none;
     padding: 0;
 }
-.playinglist-item[data-v-6022213c] {
+.playinglist-item[data-v-985db90b] {
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    box-shadow: 0 0 2px var(--e38416bc);
+    box-shadow: 0 0 2px var(--1310ddb4);
     display: flex;
-    background-color: var(--3d2b9eb5);
+    background-color: var(--7c02f072);
 }
-.playinglist-img[data-v-6022213c] {
+.playinglist-img[data-v-985db90b] {
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0 0.2rem var(--e38416bc);
+    box-shadow: 0 0 0.2rem var(--1310ddb4);
     margin-right: 0.5rem;
 }
-.text[data-v-6022213c] {
+.text[data-v-985db90b] {
     width: calc(100% - 3rem)
 }
-.name[data-v-6022213c],
-.tns[data-v-6022213c],
-.artist[data-v-6022213c] {
+.name[data-v-985db90b],
+.tns[data-v-985db90b],
+.artist[data-v-985db90b] {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 100%;
 }
 
-[data-v-70d70b75] {
+[data-v-b935210c] {
     box-sizing: border-box;
 }
-.ctrl-outer[data-v-70d70b75] {
+.ctrl-outer[data-v-b935210c] {
     position: fixed;
     z-index: 1;
-    top: calc(var(--vh, 1vh) * 100 - var(--0872f175));
+    top: calc(var(--vh, 1vh) * 100 - var(--6fec3d24));
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -106,18 +106,18 @@ ul[data-v-6022213c] {
     backdrop-filter: blur(20px);
     /* transition: all 0.5s ease-in-out; */
 }
-.ctrl-box[data-v-70d70b75] {
+.ctrl-box[data-v-b935210c] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-70d70b75] {
-    flex:1;
+.ctrl-left[data-v-b935210c] {
+    flex: 1;
     display: flex;
     max-width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-70d70b75] {
+.ctrl-img-box[data-v-b935210c] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -130,38 +130,38 @@ ul[data-v-6022213c] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-70d70b75] {
+.ctrl-img[data-v-b935210c] {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.ctrl-info-box[data-v-70d70b75] {
+.ctrl-info-box[data-v-b935210c] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-70d70b75] {
+.ctrl-info-title[data-v-b935210c] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-70d70b75] {
-    flex:1;
+.ctrl-center[data-v-b935210c] {
+    flex: 1;
     padding-top: 0.8rem;
     max-width: calc(100% / 3.5);
 }
-.button[data-v-70d70b75] {
+.button[data-v-b935210c] {
     cursor: pointer;
 }
-.btn-control[data-v-70d70b75] {
+.btn-control[data-v-b935210c] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-70d70b75] {
+.btn-play-control[data-v-b935210c] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -169,8 +169,8 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-70d70b75] {
-    flex:1;
+.ctrl-right[data-v-b935210c] {
+    flex: 1;
     max-width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
@@ -181,18 +181,18 @@ right---------------------------------------------------------
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-70d70b75] {
+.ctrl-playinglist[data-v-b935210c] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--0872f175));
+    height: calc(var(--vh, 1vh) * 100 - var(--6fec3d24));
     flex: 1;
 }
 @media screen and (max-width: 600px) {
-.ctrl-info-box[data-v-70d70b75]{
+.ctrl-info-box[data-v-b935210c] {
         display: none;
 }
-.btn-like[data-v-70d70b75],
-    .btn-loop[data-v-70d70b75]{
+.btn-like[data-v-b935210c],
+    .btn-loop[data-v-b935210c] {
         display: none;
 }
 }

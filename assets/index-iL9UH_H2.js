@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-7LsXbwEG.js","./marqueePlus-BxO7MkB3.js","./marqueePlus-CLo2Jn4F.css","./player-og3EosA7.css","./home-RbBgYNM4.js","./itemCard-Dqw9soK2.js","./Ellipsis-BPCRcw0L.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-dM83hakE.js","./musicList-DXkvOAje.js","./Card-CO633ZwS.js","./musicList-C2Gx6pRn.css","./search-C5fKSBIZ.css","./login-tCY5zsCk.js","./Button-DiBs-NmM.js","./login-B9OJSZbP.css","./account-R48pMegI.js","./account-CZ8eyIhU.css","./playlist-CTccYpMF.js","./playlist-CtSiGqQ1.css","./setting-DSJlKZk-.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, t as toRaw, f as isRef, g as isReactive, j as toRef, k as hasInjectionContext, l as getCurrentScope, o as onScopeDispose, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as _export_sfc, aO as withCtx, aP as createBlock, aQ as createCommentVNode, aR as useCssVars, aS as renderList, aT as toDisplayString, aU as MarqueePlus, aV as withModifiers, aW as resolveComponent, aX as KeepAlive, aY as resolveDynamicComponent, aZ as createApp } from "./marqueePlus-BxO7MkB3.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-UYs-3T1p.js","./marqueePlus-CS0JqBVm.js","./marqueePlus-CLo2Jn4F.css","./player-og3EosA7.css","./home-CdSI_Fas.js","./itemCard-D4YCmWuD.js","./Ellipsis-BqI0AptB.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-vxkezrQT.js","./musicList-Ra1zBRmC.js","./Card-DRR8tYFx.js","./musicList-C2Gx6pRn.css","./search-C5fKSBIZ.css","./login-Bne2vf0J.js","./Button-C1YT1FY-.js","./login-BZBt2RaQ.css","./account-Bx5ujzRQ.js","./account-CZ8eyIhU.css","./playlist-CR_1JFGF.js","./playlist-CtSiGqQ1.css","./setting-DRtwfQjw.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, t as toRaw, f as isRef, g as isReactive, j as toRef, k as hasInjectionContext, l as getCurrentScope, o as onScopeDispose, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as pushScopeId, aO as popScopeId, aP as _export_sfc, aQ as withCtx, aR as createBlock, aS as createCommentVNode, aT as useCssVars, aU as renderList, aV as toDisplayString, aW as MarqueePlus, aX as withModifiers, aY as resolveComponent, aZ as KeepAlive, a_ as resolveDynamicComponent, a$ as createApp } from "./marqueePlus-CS0JqBVm.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -1918,7 +1918,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-7LsXbwEG.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-UYs-3T1p.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1929,7 +1929,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-RbBgYNM4.js"), true ? __vite__mapDeps([4,5,1,2,6,7,8]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-CdSI_Fas.js"), true ? __vite__mapDeps([4,5,1,2,6,7,8]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1940,7 +1940,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-dM83hakE.js"), true ? __vite__mapDeps([9,1,2,10,11,12,13]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-vxkezrQT.js"), true ? __vite__mapDeps([9,1,2,10,11,12,13]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1951,7 +1951,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-tCY5zsCk.js"), true ? __vite__mapDeps([14,1,2,15,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-Bne2vf0J.js"), true ? __vite__mapDeps([14,1,2,15,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1959,7 +1959,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-R48pMegI.js"), true ? __vite__mapDeps([17,1,2,5,6,7,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-Bx5ujzRQ.js"), true ? __vite__mapDeps([17,1,2,5,6,7,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1970,7 +1970,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-CTccYpMF.js"), true ? __vite__mapDeps([19,10,1,2,11,12,15,6,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CR_1JFGF.js"), true ? __vite__mapDeps([19,10,1,2,11,12,15,6,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1981,7 +1981,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DSJlKZk-.js"), true ? __vite__mapDeps([21,1,2,15,11,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-DRtwfQjw.js"), true ? __vite__mapDeps([21,1,2,15,11,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -27780,7 +27780,7 @@ const _hoisted_1$k = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$i = /* @__PURE__ */ createBaseVNode("path", {
+const _hoisted_2$j = /* @__PURE__ */ createBaseVNode("path", {
   fill: "none",
   stroke: "currentColor",
   "stroke-linecap": "round",
@@ -27790,7 +27790,7 @@ const _hoisted_2$i = /* @__PURE__ */ createBaseVNode("path", {
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$h = [
-  _hoisted_2$i
+  _hoisted_2$j
 ];
 function render$e(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$k, [..._hoisted_3$h]);
@@ -27801,7 +27801,7 @@ const _hoisted_1$j = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$h = /* @__PURE__ */ createBaseVNode("path", {
+const _hoisted_2$i = /* @__PURE__ */ createBaseVNode("path", {
   fill: "none",
   stroke: "currentColor",
   "stroke-linecap": "round",
@@ -27811,551 +27811,12 @@ const _hoisted_2$h = /* @__PURE__ */ createBaseVNode("path", {
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$g = [
-  _hoisted_2$h
+  _hoisted_2$i
 ];
 function render$d(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$j, [..._hoisted_3$g]);
 }
 const __unplugin_components_0 = markRaw({ name: "hugeicons-right-to-left-list-dash", render: render$d });
-const _hoisted_1$i = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$g = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$f = [
-  _hoisted_2$g
-];
-function render$c(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$i, [..._hoisted_3$f]);
-}
-const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$c });
-const _hoisted_1$h = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$f = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 9h4m-4 3.5h3" }),
-  /* @__PURE__ */ createBaseVNode("rect", {
-    width: "20",
-    height: "18",
-    x: "2",
-    y: "3",
-    rx: "5"
-  }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M5 16c1.208-2.581 5.712-2.75 7 0m-1.5-7a2 2 0 1 1-4 0a2 2 0 0 1 4 0" })
-], -1);
-const _hoisted_3$e = [
-  _hoisted_2$f
-];
-function render$b(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$h, [..._hoisted_3$e]);
-}
-const HugeiconsUserAccount = markRaw({ name: "hugeicons-user-account", render: render$b });
-const _hoisted_1$g = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$e = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
-], -1);
-const _hoisted_3$d = [
-  _hoisted_2$e
-];
-function render$a(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$g, [..._hoisted_3$d]);
-}
-const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$a });
-const _hoisted_1$f = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$d = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
-], -1);
-const _hoisted_3$c = [
-  _hoisted_2$d
-];
-function render$9(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$c]);
-}
-const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$9 });
-const _hoisted_1$e = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$c = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
-], -1);
-const _hoisted_3$b = [
-  _hoisted_2$c
-];
-function render$8(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$b]);
-}
-const HugeiconsSettings05 = markRaw({ name: "hugeicons-settings-05", render: render$8 });
-const _hoisted_1$d = { class: "nav-outer" };
-const _sfc_main$5 = /* @__PURE__ */ defineComponent({
-  __name: "navigation",
-  setup(__props) {
-    const router2 = useRouter();
-    const route = useRoute();
-    const userStore = useUserStore();
-    function renderIcon(icon) {
-      return () => h(NIcon, null, { default: () => h(icon) });
-    }
-    function renderLink(name, text, props) {
-      return () => h(RouterLink, { to: { name, query: props } }, () => text);
-    }
-    let activeNow = ref("home");
-    watch(
-      () => route,
-      (val) => {
-        updateActiveItem(val.name, val.query);
-      },
-      { deep: true }
-    );
-    onMounted(() => {
-      updateActiveItem(route.name, route.query);
-    });
-    function updateActiveItem(key, query) {
-      if (key == "playlist" && query.id == userStore.playlists?.[0]?.id) {
-        activeNow.value = "likedList";
-      } else {
-        activeNow.value = key;
-      }
-    }
-    let menuData = computed(
-      () => {
-        return [
-          {
-            label: renderLink("home", "首页"),
-            key: "home",
-            icon: renderIcon(HugeiconsHome06)
-          },
-          {
-            show: !userStore.isLogin,
-            label: renderLink("login", "登录"),
-            key: "login",
-            icon: renderIcon(HugeiconsLogin01)
-          },
-          {
-            show: userStore.isLogin,
-            label: renderLink("account", "我的"),
-            key: "account",
-            icon: renderIcon(HugeiconsUserAccount)
-          },
-          {
-            show: userStore.isLogin,
-            label: renderLink("playlist", "我喜欢的音乐", { id: userStore.playlists?.[0]?.id }),
-            key: "likedList",
-            icon: renderIcon(HugeiconsHeartCheck)
-          },
-          {
-            label: renderLink("setting", "设置"),
-            key: "setting",
-            icon: renderIcon(HugeiconsSettings05)
-          }
-        ];
-      }
-    );
-    return (_ctx, _cache) => {
-      const _component_n_menu = __unplugin_components_0$3;
-      return openBlock(), createElementBlock("div", _hoisted_1$d, [
-        createBaseVNode("div", {
-          class: "header-title",
-          onClick: _cache[0] || (_cache[0] = ($event) => unref(router2).push({ name: "home" }))
-        }, "奶酪音乐"),
-        createBaseVNode("div", null, [
-          createVNode(_component_n_menu, {
-            options: unref(menuData),
-            value: unref(activeNow),
-            "onUpdate:value": _cache[1] || (_cache[1] = ($event) => isRef(activeNow) ? activeNow.value = $event : activeNow = $event)
-          }, null, 8, ["options", "value"])
-        ])
-      ]);
-    };
-  }
-});
-const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-92e25a40"]]);
-const _hoisted_1$c = { class: "header" };
-const _hoisted_2$b = { class: "header-search" };
-const _sfc_main$4 = {
-  __name: "headerTop",
-  setup(__props) {
-    const userStore = useUserStore();
-    let value = ref("");
-    let showNav = ref(false);
-    const router2 = useRouter();
-    function search(event) {
-      if (event.keyCode == 13) {
-        router2.push({ name: "search", query: { keyword: value.value } });
-      }
-    }
-    return (_ctx, _cache) => {
-      const _component_i_hugeicons_right_to_left_list_dash = __unplugin_components_0;
-      const _component_n_icon = NIcon;
-      const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0$1;
-      const _component_n_input = __unplugin_components_0$4;
-      const _component_n_avatar = __unplugin_components_4;
-      return openBlock(), createElementBlock("div", _hoisted_1$c, [
-        createVNode(_component_n_icon, {
-          class: "header-menu",
-          size: "2rem",
-          onClick: _cache[0] || (_cache[0] = ($event) => isRef(showNav) ? showNav.value = true : showNav = true)
-        }, {
-          default: withCtx(() => [
-            createVNode(_component_i_hugeicons_right_to_left_list_dash)
-          ]),
-          _: 1
-        }),
-        createBaseVNode("span", _hoisted_2$b, [
-          createVNode(_component_n_icon, {
-            size: "2rem",
-            style: { "transform": "rotate(-90deg)" },
-            onClick: windowBack
-          }, {
-            default: withCtx(() => [
-              createVNode(_component_i_hugeicons_arrow_up_01)
-            ]),
-            _: 1
-          }, 8, ["onClick"]),
-          createVNode(_component_n_input, {
-            value: unref(value),
-            "onUpdate:value": _cache[1] || (_cache[1] = ($event) => isRef(value) ? value.value = $event : value = $event),
-            type: "text",
-            placeholder: "搜索...",
-            onKeyup: search,
-            clearable: true
-          }, null, 8, ["value"])
-        ]),
-        !unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
-          key: 0,
-          class: "header-user text2",
-          round: "",
-          onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
-        }, {
-          default: withCtx(() => [
-            createTextVNode("登录")
-          ]),
-          _: 1
-        })) : createCommentVNode("", true),
-        unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
-          key: 1,
-          class: "header-user",
-          round: "",
-          src: unref(userStore).avatar,
-          onClick: _cache[3] || (_cache[3] = ($event) => unref(router2).push({ name: "account" }))
-        }, null, 8, ["src"])) : createCommentVNode("", true),
-        unref(showNav) ? (openBlock(), createElementBlock("div", {
-          key: 2,
-          class: "header-nav bg",
-          onClick: _cache[4] || (_cache[4] = ($event) => isRef(showNav) ? showNav.value = false : showNav = false)
-        }, [
-          createVNode(navigation)
-        ])) : createCommentVNode("", true)
-      ]);
-    };
-  }
-};
-const _hoisted_1$b = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$a = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$a = [
-  _hoisted_2$a
-];
-function render$7(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$b, [..._hoisted_3$a]);
-}
-const __unplugin_components_9 = markRaw({ name: "hugeicons-playlist03", render: render$7 });
-const _hoisted_1$a = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$9 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M16.977 19.5A9 9 0 0 0 10 3.223M16.977 19.5V16m0 3.5H20.5M7 4.516a9 9 0 0 0 7 16.261M7 4.516V8m0-3.484H3.5",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$9 = [
-  _hoisted_2$9
-];
-function render$6(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$a, [..._hoisted_3$9]);
-}
-const __unplugin_components_7$1 = markRaw({ name: "hugeicons-exchange01", render: render$6 });
-const _hoisted_1$9 = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$8 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M9 6s6 4.419 6 6s-6 6-6 6",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$8 = [
-  _hoisted_2$8
-];
-function render$5(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._hoisted_3$8]);
-}
-const __unplugin_components_8 = markRaw({ name: "hugeicons-arrow-right01", render: render$5 });
-const _hoisted_1$8 = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$7 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$7 = [
-  _hoisted_2$7
-];
-function render$4(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._hoisted_3$7]);
-}
-const __unplugin_components_7 = markRaw({ name: "hugeicons-pause", render: render$4 });
-const _hoisted_1$7 = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$6 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$6 = [
-  _hoisted_2$6
-];
-function render$3(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._hoisted_3$6]);
-}
-const __unplugin_components_6 = markRaw({ name: "hugeicons-play", render: render$3 });
-const _hoisted_1$6 = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$5 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M15 6s-6 4.419-6 6s6 6 6 6",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$5 = [
-  _hoisted_2$5
-];
-function render$2(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._hoisted_3$5]);
-}
-const __unplugin_components_5 = markRaw({ name: "hugeicons-arrow-left01", render: render$2 });
-const _hoisted_1$5 = {
-  viewBox: "0 0 1024 1024",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$4 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "currentColor",
-  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9"
-}, null, -1);
-const _hoisted_3$4 = [
-  _hoisted_2$4
-];
-function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$5, [..._hoisted_3$4]);
-}
-const __unplugin_components_3 = markRaw({ name: "ant-design-heart-filled", render: render$1 });
-const _hoisted_1$4 = {
-  viewBox: "0 0 1024 1024",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$3 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "currentColor",
-  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3"
-}, null, -1);
-const _hoisted_3$3 = [
-  _hoisted_2$3
-];
-function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$4, [..._hoisted_3$3]);
-}
-const __unplugin_components_2 = markRaw({ name: "ant-design-heart-outlined", render });
-const _hoisted_1$3 = { class: "playinglist" };
-const _hoisted_2$2 = ["onClick"];
-const _hoisted_3$2 = ["src", "alt"];
-const _hoisted_4$2 = { class: "text" };
-const _hoisted_5$2 = { class: "name text1" };
-const _hoisted_6$1 = { class: "tns text3" };
-const _hoisted_7$1 = { class: "artist text2" };
-const _sfc_main$3 = {
-  __name: "playinglist",
-  setup(__props) {
-    useCssVars((_ctx) => ({
-      "e38416bc": unref(themeStore).mainColors[4] + `a0`,
-      "3d2b9eb5": unref(themeStore).mainColors[0] + `80`
-    }));
-    const playStore = usePlayStore();
-    const themeStore = useThemeStore();
-    let playinglistScrollbarRef = ref(null);
-    let playinglistItemRef = ref([]);
-    function play(index) {
-      playStore.playlistIndex = index;
-      playStore.play(true);
-    }
-    onMounted(() => {
-      scrollToCurrent();
-    });
-    watch(() => playStore.playlistIndex, (value) => {
-      scrollToCurrent();
-    });
-    function scrollToCurrent() {
-      playinglistScrollbarRef.value.scrollTo({ top: playinglistItemRef.value?.[playStore.playlistIndex]?.offsetTop - 80, behavior: "smooth" });
-    }
-    return (_ctx, _cache) => {
-      const _component_n_tag = __unplugin_components_0$5;
-      const _component_n_scrollbar = Scrollbar;
-      return openBlock(), createElementBlock("div", _hoisted_1$3, [
-        createVNode(_component_n_scrollbar, {
-          class: "playinglist-scrollbar",
-          ref_key: "playinglistScrollbarRef",
-          ref: playinglistScrollbarRef
-        }, {
-          default: withCtx(() => [
-            createBaseVNode("ul", null, [
-              (openBlock(true), createElementBlock(Fragment, null, renderList(unref(playStore).playlist, (item, index) => {
-                return openBlock(), createElementBlock("li", {
-                  key: item.id,
-                  onClick: ($event) => play(index),
-                  class: "playinglist-item",
-                  ref_for: true,
-                  ref_key: "playinglistItemRef",
-                  ref: playinglistItemRef
-                }, [
-                  createBaseVNode("img", {
-                    class: "playinglist-img",
-                    src: item.picurl + "?param=80y80",
-                    alt: item.name,
-                    loading: "lazy"
-                  }, null, 8, _hoisted_3$2),
-                  createBaseVNode("div", _hoisted_4$2, [
-                    createBaseVNode("div", _hoisted_5$2, [
-                      item.fee == 1 ? (openBlock(), createBlock(_component_n_tag, {
-                        key: 0,
-                        type: "warning",
-                        size: "small",
-                        bordered: false
-                      }, {
-                        default: withCtx(() => [
-                          createTextVNode("VIP")
-                        ]),
-                        _: 1
-                      })) : createCommentVNode("", true),
-                      item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
-                        key: 1,
-                        type: "info",
-                        size: "small",
-                        bordered: false
-                      }, {
-                        default: withCtx(() => [
-                          createTextVNode("数字专辑")
-                        ]),
-                        _: 1
-                      })) : createCommentVNode("", true),
-                      createTextVNode(" " + toDisplayString(item.name), 1)
-                    ]),
-                    createBaseVNode("div", _hoisted_6$1, toDisplayString(item.tns), 1),
-                    createBaseVNode("div", _hoisted_7$1, toDisplayString(item.artist), 1)
-                  ])
-                ], 8, _hoisted_2$2);
-              }), 128))
-            ])
-          ]),
-          _: 1
-        }, 512)
-      ]);
-    };
-  }
-};
-const playinglist = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-6022213c"]]);
 var defaultInstanceSettings = {
   update: null,
   begin: null,
@@ -29746,6 +29207,568 @@ anime.penner = penner;
 anime.random = function(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
+const _hoisted_1$i = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$h = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$f = [
+  _hoisted_2$h
+];
+function render$c(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$i, [..._hoisted_3$f]);
+}
+const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$c });
+const _hoisted_1$h = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$g = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 9h4m-4 3.5h3" }),
+  /* @__PURE__ */ createBaseVNode("rect", {
+    width: "20",
+    height: "18",
+    x: "2",
+    y: "3",
+    rx: "5"
+  }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M5 16c1.208-2.581 5.712-2.75 7 0m-1.5-7a2 2 0 1 1-4 0a2 2 0 0 1 4 0" })
+], -1);
+const _hoisted_3$e = [
+  _hoisted_2$g
+];
+function render$b(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$h, [..._hoisted_3$e]);
+}
+const HugeiconsUserAccount = markRaw({ name: "hugeicons-user-account", render: render$b });
+const _hoisted_1$g = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$f = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
+], -1);
+const _hoisted_3$d = [
+  _hoisted_2$f
+];
+function render$a(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$g, [..._hoisted_3$d]);
+}
+const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$a });
+const _hoisted_1$f = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$e = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
+], -1);
+const _hoisted_3$c = [
+  _hoisted_2$e
+];
+function render$9(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$c]);
+}
+const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$9 });
+const _hoisted_1$e = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$d = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
+], -1);
+const _hoisted_3$b = [
+  _hoisted_2$d
+];
+function render$8(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$b]);
+}
+const HugeiconsSettings05 = markRaw({ name: "hugeicons-settings-05", render: render$8 });
+const _withScopeId = (n2) => (pushScopeId("data-v-1f54f60f"), n2 = n2(), popScopeId(), n2);
+const _hoisted_1$d = { class: "nav-outer" };
+const _hoisted_2$c = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "header-title text1" }, "奶酪音乐", -1));
+const _sfc_main$5 = /* @__PURE__ */ defineComponent({
+  __name: "navigation",
+  setup(__props) {
+    useRouter();
+    const route = useRoute();
+    const userStore = useUserStore();
+    function renderIcon(icon) {
+      return () => h(NIcon, null, { default: () => h(icon) });
+    }
+    function renderLink(name, text, props) {
+      return () => h(RouterLink, { to: { name, query: props } }, () => text);
+    }
+    let activeNow = ref("home");
+    watch(
+      () => route,
+      (val) => {
+        updateActiveItem(val.name, val.query);
+      },
+      { deep: true }
+    );
+    onMounted(() => {
+      updateActiveItem(route.name, route.query);
+    });
+    function updateActiveItem(key, query) {
+      if (key == "playlist" && query.id == userStore.playlists?.[0]?.id) {
+        activeNow.value = "likedList";
+      } else {
+        activeNow.value = key;
+      }
+    }
+    let menuData = computed(
+      () => {
+        return [
+          {
+            label: renderLink("home", "首页"),
+            key: "home",
+            icon: renderIcon(HugeiconsHome06)
+          },
+          {
+            show: !userStore.isLogin,
+            label: renderLink("login", "登录"),
+            key: "login",
+            icon: renderIcon(HugeiconsLogin01)
+          },
+          {
+            show: userStore.isLogin,
+            label: renderLink("account", "我的"),
+            key: "account",
+            icon: renderIcon(HugeiconsUserAccount)
+          },
+          {
+            show: userStore.isLogin,
+            label: renderLink("playlist", "我喜欢的音乐", { id: userStore.playlists?.[0]?.id }),
+            key: "likedList",
+            icon: renderIcon(HugeiconsHeartCheck)
+          },
+          {
+            label: renderLink("setting", "设置"),
+            key: "setting",
+            icon: renderIcon(HugeiconsSettings05)
+          }
+        ];
+      }
+    );
+    return (_ctx, _cache) => {
+      const _component_n_menu = __unplugin_components_0$3;
+      return openBlock(), createElementBlock("div", _hoisted_1$d, [
+        _hoisted_2$c,
+        createBaseVNode("div", null, [
+          createVNode(_component_n_menu, {
+            options: unref(menuData),
+            value: unref(activeNow),
+            "onUpdate:value": _cache[0] || (_cache[0] = ($event) => isRef(activeNow) ? activeNow.value = $event : activeNow = $event)
+          }, null, 8, ["options", "value"])
+        ])
+      ]);
+    };
+  }
+});
+const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-1f54f60f"]]);
+const _hoisted_1$c = { class: "header" };
+const _hoisted_2$b = { class: "header-search" };
+const _sfc_main$4 = {
+  __name: "headerTop",
+  setup(__props) {
+    const userStore = useUserStore();
+    let value = ref("");
+    let showNav = false;
+    let showNavVIf = ref(false);
+    const router2 = useRouter();
+    function search(event) {
+      if (event.keyCode == 13) {
+        router2.push({ name: "search", query: { keyword: value.value } });
+      }
+    }
+    function switchNavShow(isShow = "auto") {
+      if (isShow === "auto") {
+        showNav = !showNav;
+      } else if (typeof isShow === "boolean") {
+        showNav = isShow;
+      } else {
+        throw new Error("nav动画 参数错误");
+      }
+      console.log(showNav);
+      anime({
+        targets: ".header-nav",
+        translateX: showNav ? "100%" : "0%",
+        duration: 500,
+        easing: "easeInOutQuad",
+        begin: () => {
+          if (showNav == true) {
+            showNavVIf.value = showNav;
+          }
+        },
+        complete: () => {
+          showNavVIf.value = showNav;
+        }
+      });
+    }
+    return (_ctx, _cache) => {
+      const _component_i_hugeicons_right_to_left_list_dash = __unplugin_components_0;
+      const _component_n_icon = NIcon;
+      const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0$1;
+      const _component_n_input = __unplugin_components_0$4;
+      const _component_n_avatar = __unplugin_components_4;
+      return openBlock(), createElementBlock("div", _hoisted_1$c, [
+        createVNode(_component_n_icon, {
+          class: "header-menu",
+          size: "2rem",
+          onClick: _cache[0] || (_cache[0] = ($event) => switchNavShow(true))
+        }, {
+          default: withCtx(() => [
+            createVNode(_component_i_hugeicons_right_to_left_list_dash)
+          ]),
+          _: 1
+        }),
+        createBaseVNode("span", _hoisted_2$b, [
+          createVNode(_component_n_icon, {
+            size: "2rem",
+            style: { "transform": "rotate(-90deg)" },
+            onClick: windowBack
+          }, {
+            default: withCtx(() => [
+              createVNode(_component_i_hugeicons_arrow_up_01)
+            ]),
+            _: 1
+          }, 8, ["onClick"]),
+          createVNode(_component_n_input, {
+            value: unref(value),
+            "onUpdate:value": _cache[1] || (_cache[1] = ($event) => isRef(value) ? value.value = $event : value = $event),
+            type: "text",
+            placeholder: "搜索...",
+            onKeyup: search,
+            clearable: true
+          }, null, 8, ["value"])
+        ]),
+        !unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
+          key: 0,
+          class: "header-user text2",
+          round: "",
+          onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
+        }, {
+          default: withCtx(() => [
+            createTextVNode("登录")
+          ]),
+          _: 1
+        })) : createCommentVNode("", true),
+        unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
+          key: 1,
+          class: "header-user",
+          round: "",
+          src: unref(userStore).avatar,
+          onClick: _cache[3] || (_cache[3] = ($event) => unref(router2).push({ name: "account" }))
+        }, null, 8, ["src"])) : createCommentVNode("", true),
+        createBaseVNode("div", {
+          class: "header-nav bg",
+          onClick: _cache[4] || (_cache[4] = ($event) => switchNavShow(false))
+        }, [
+          unref(showNavVIf) ? (openBlock(), createBlock(navigation, { key: 0 })) : createCommentVNode("", true)
+        ])
+      ]);
+    };
+  }
+};
+const _hoisted_1$b = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$a = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$a = [
+  _hoisted_2$a
+];
+function render$7(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$b, [..._hoisted_3$a]);
+}
+const __unplugin_components_9 = markRaw({ name: "hugeicons-playlist03", render: render$7 });
+const _hoisted_1$a = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$9 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M16.977 19.5A9 9 0 0 0 10 3.223M16.977 19.5V16m0 3.5H20.5M7 4.516a9 9 0 0 0 7 16.261M7 4.516V8m0-3.484H3.5",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$9 = [
+  _hoisted_2$9
+];
+function render$6(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$a, [..._hoisted_3$9]);
+}
+const __unplugin_components_7$1 = markRaw({ name: "hugeicons-exchange01", render: render$6 });
+const _hoisted_1$9 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$8 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M9 6s6 4.419 6 6s-6 6-6 6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$8 = [
+  _hoisted_2$8
+];
+function render$5(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._hoisted_3$8]);
+}
+const __unplugin_components_8 = markRaw({ name: "hugeicons-arrow-right01", render: render$5 });
+const _hoisted_1$8 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$7 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$7 = [
+  _hoisted_2$7
+];
+function render$4(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._hoisted_3$7]);
+}
+const __unplugin_components_7 = markRaw({ name: "hugeicons-pause", render: render$4 });
+const _hoisted_1$7 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$6 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$6 = [
+  _hoisted_2$6
+];
+function render$3(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._hoisted_3$6]);
+}
+const __unplugin_components_6 = markRaw({ name: "hugeicons-play", render: render$3 });
+const _hoisted_1$6 = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$5 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M15 6s-6 4.419-6 6s6 6 6 6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$5 = [
+  _hoisted_2$5
+];
+function render$2(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._hoisted_3$5]);
+}
+const __unplugin_components_5 = markRaw({ name: "hugeicons-arrow-left01", render: render$2 });
+const _hoisted_1$5 = {
+  viewBox: "0 0 1024 1024",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$4 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "currentColor",
+  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9"
+}, null, -1);
+const _hoisted_3$4 = [
+  _hoisted_2$4
+];
+function render$1(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$5, [..._hoisted_3$4]);
+}
+const __unplugin_components_3 = markRaw({ name: "ant-design-heart-filled", render: render$1 });
+const _hoisted_1$4 = {
+  viewBox: "0 0 1024 1024",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$3 = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "currentColor",
+  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3"
+}, null, -1);
+const _hoisted_3$3 = [
+  _hoisted_2$3
+];
+function render(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$4, [..._hoisted_3$3]);
+}
+const __unplugin_components_2 = markRaw({ name: "ant-design-heart-outlined", render });
+const _hoisted_1$3 = { class: "playinglist" };
+const _hoisted_2$2 = ["onClick"];
+const _hoisted_3$2 = ["src", "alt"];
+const _hoisted_4$2 = { class: "text" };
+const _hoisted_5$2 = { class: "name text1" };
+const _hoisted_6$1 = { class: "tns text3" };
+const _hoisted_7$1 = { class: "artist text2" };
+const _sfc_main$3 = {
+  __name: "playinglist",
+  setup(__props) {
+    useCssVars((_ctx) => ({
+      "1310ddb4": unref(themeStore).mainColors[4] + `a0`,
+      "7c02f072": unref(themeStore).mainColors[0] + `80`
+    }));
+    const playStore = usePlayStore();
+    const themeStore = useThemeStore();
+    let playinglistScrollbarRef = ref(null);
+    let playinglistItemRef = ref([]);
+    function play(index) {
+      playStore.playlistIndex = index;
+      playStore.play(true);
+    }
+    onMounted(() => {
+      scrollToCurrent(false);
+    });
+    watch(() => playStore.playlistIndex, (value) => {
+      scrollToCurrent();
+    });
+    function scrollToCurrent(smooth = true) {
+      playinglistScrollbarRef.value.scrollTo({ top: playinglistItemRef.value?.[playStore.playlistIndex]?.offsetTop - 80, behavior: smooth ? "smooth" : "auto" });
+    }
+    return (_ctx, _cache) => {
+      const _component_n_tag = __unplugin_components_0$5;
+      const _component_n_scrollbar = Scrollbar;
+      return openBlock(), createElementBlock("div", _hoisted_1$3, [
+        createVNode(_component_n_scrollbar, {
+          class: "playinglist-scrollbar",
+          ref_key: "playinglistScrollbarRef",
+          ref: playinglistScrollbarRef
+        }, {
+          default: withCtx(() => [
+            createBaseVNode("ul", null, [
+              (openBlock(true), createElementBlock(Fragment, null, renderList(unref(playStore).playlist, (item, index) => {
+                return openBlock(), createElementBlock("li", {
+                  key: item.id,
+                  onClick: ($event) => play(index),
+                  class: "playinglist-item",
+                  ref_for: true,
+                  ref_key: "playinglistItemRef",
+                  ref: playinglistItemRef
+                }, [
+                  createBaseVNode("img", {
+                    class: "playinglist-img",
+                    src: item.picurl + "?param=80y80",
+                    alt: item.name,
+                    loading: "lazy"
+                  }, null, 8, _hoisted_3$2),
+                  createBaseVNode("div", _hoisted_4$2, [
+                    createBaseVNode("div", _hoisted_5$2, [
+                      item.fee == 1 ? (openBlock(), createBlock(_component_n_tag, {
+                        key: 0,
+                        type: "warning",
+                        size: "small",
+                        bordered: false
+                      }, {
+                        default: withCtx(() => [
+                          createTextVNode("VIP")
+                        ]),
+                        _: 1
+                      })) : createCommentVNode("", true),
+                      item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
+                        key: 1,
+                        type: "info",
+                        size: "small",
+                        bordered: false
+                      }, {
+                        default: withCtx(() => [
+                          createTextVNode("数字专辑")
+                        ]),
+                        _: 1
+                      })) : createCommentVNode("", true),
+                      createTextVNode(" " + toDisplayString(item.name), 1)
+                    ]),
+                    createBaseVNode("div", _hoisted_6$1, toDisplayString(item.tns), 1),
+                    createBaseVNode("div", _hoisted_7$1, toDisplayString(item.artist), 1)
+                  ])
+                ], 8, _hoisted_2$2);
+              }), 128))
+            ])
+          ]),
+          _: 1
+        }, 512)
+      ]);
+    };
+  }
+};
+const playinglist = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-985db90b"]]);
 const _hoisted_1$2 = { class: "ctrl-box" };
 const _hoisted_2$1 = { class: "ctrl-img-box" };
 const _hoisted_3$1 = ["src"];
@@ -29768,12 +29791,13 @@ const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "0872f175": unref(ctrlHeight) + `rem`
+      "6fec3d24": unref(ctrlHeight) + `rem`
     }));
     let router2 = useRouter();
     let playStore = usePlayStore();
     let outerEle = ref(null);
-    let showPlayingList = ref(false);
+    let showPlayingList = false;
+    let showPlayingListVIf = ref(false);
     let ctrlHeight = ref(7);
     let lyricNow = computed(() => {
       if (!Array.isArray(playStore.currentMusic.lyric) || playStore.currentMusic?.lyric.length < playStore.currentMusic.currentLyricIndex) {
@@ -29782,14 +29806,21 @@ const _sfc_main$2 = {
       return playStore.currentMusic?.lyric[playStore.currentMusic.currentLyricIndex]?.lrc;
     });
     function switchShow() {
-      showPlayingList.value = !showPlayingList.value;
-      console.log(showPlayingList.value);
+      showPlayingList = !showPlayingList;
       let a = -window.innerHeight + ctrlHeight.value * 16;
       anime({
         targets: outerEle.value,
-        translateY: showPlayingList.value ? `${a}px` : "0px",
+        translateY: showPlayingList ? `${a}px` : "0px",
         duration: 500,
-        easing: "easeInOutCubic"
+        easing: "easeInOutCubic",
+        begin: () => {
+          if (showPlayingList == true) {
+            showPlayingListVIf.value = showPlayingList;
+          }
+        },
+        complete: () => {
+          showPlayingListVIf.value = showPlayingList;
+        }
       });
     }
     return (_ctx, _cache) => {
@@ -29950,18 +29981,19 @@ const _sfc_main$2 = {
             ])
           ])
         ]),
-        createBaseVNode("div", {
+        unref(showPlayingListVIf) ? (openBlock(), createElementBlock("div", {
+          key: 0,
           class: "ctrl-playinglist",
           onClick: _cache[7] || (_cache[7] = withModifiers(() => {
           }, ["stop"]))
         }, [
           createVNode(playinglist)
-        ])
+        ])) : createCommentVNode("", true)
       ], 512);
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-70d70b75"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-b935210c"]]);
 const _hoisted_1$1 = { class: "container" };
 const _hoisted_2 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };

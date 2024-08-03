@@ -1,6 +1,6 @@
-import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, d as defineComponent, ao as useTheme, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aN as _export_sfc, E as onBeforeUnmount, u as unref, aP as createBlock, aQ as createCommentVNode, v as createTextVNode, aT as toDisplayString, aM as createVNode, aO as withCtx, f as isRef, I as withDirectives, at as vShow, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-BxO7MkB3.js";
-import { k as useUserStore, m as useRouter, q as loginQrKey, r as loginQrCreate, t as loginQrCheck, v as success, x as error, y as verifyCaptcha, z as loginWithPhone, A as sendCaptcha, B as __unplugin_components_0$1 } from "./index-DLuLVGgt.js";
-import { B as Button } from "./Button-DiBs-NmM.js";
+import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, d as defineComponent, ao as useTheme, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aP as _export_sfc, E as onBeforeUnmount, u as unref, aR as createBlock, aS as createCommentVNode, v as createTextVNode, aV as toDisplayString, aM as createVNode, aQ as withCtx, f as isRef, I as withDirectives, at as vShow, aG as NIcon, aN as pushScopeId, aO as popScopeId } from "./marqueePlus-CS0JqBVm.js";
+import { u as useThemeStore, k as useUserStore, m as useRouter, q as loginQrKey, r as loginQrCreate, t as loginQrCheck, v as success, x as error, y as verifyCaptcha, z as loginWithPhone, A as sendCaptcha, B as __unplugin_components_0$1 } from "./index-iL9UH_H2.js";
+import { B as Button } from "./Button-C1YT1FY-.js";
 function self$1(vars) {
   const {
     textColor1,
@@ -1205,27 +1205,39 @@ function render(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._hoisted_3$1]);
 }
 const __unplugin_components_0 = markRaw({ name: "hugeicons-smart-phone01", render });
-const _withScopeId = (n) => (pushScopeId("data-v-9c667a67"), n = n(), popScopeId(), n);
+const _withScopeId = (n) => (pushScopeId("data-v-a7f23343"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "login-container" };
 const _hoisted_2 = { class: "login" };
 const _hoisted_3 = { class: "login-row-qr" };
 const _hoisted_4 = { class: "login-qr" };
 const _hoisted_5 = {
   key: 1,
-  style: { "text-align": "center", "color": "lightgray" }
+  style: { "text-align": "center" },
+  class: "text3"
 };
 const _hoisted_6 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("br", null, null, -1));
-const _hoisted_7 = { key: 2 };
+const _hoisted_7 = {
+  key: 2,
+  class: "text2"
+};
 const _hoisted_8 = { class: "login-row-passwd" };
 const _hoisted_9 = { class: "login-passwd" };
 const _hoisted_10 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { style: { "width": "100%" } }, [
-  /* @__PURE__ */ createBaseVNode("div", { style: { "font-size": "1.5rem" } }, "登录")
+  /* @__PURE__ */ createBaseVNode("div", {
+    style: { "font-size": "1.5rem" },
+    class: "text1"
+  }, "登录"),
+  /* @__PURE__ */ createBaseVNode("div", {
+    style: { "font-size": "1rem" },
+    class: "text2"
+  }, "使用云音乐账号")
 ], -1));
 const _hoisted_11 = { class: "login-input-container" };
 const _hoisted_12 = { class: "login-input-container" };
 const _sfc_main = {
   __name: "login",
   setup(__props) {
+    let themeStore = useThemeStore();
     let userStore = useUserStore();
     let router = useRouter();
     let qrcode = ref("");
@@ -1327,8 +1339,9 @@ const _sfc_main = {
                 key: 0,
                 value: unref(qrcode),
                 size: 200,
-                "background-color": "rgba(255,255,255,0)"
-              }, null, 8, ["value"])) : createCommentVNode("", true),
+                "background-color": "rgba(255,255,255,0)",
+                color: unref(themeStore).mainColors[9]
+              }, null, 8, ["value", "color"])) : createCommentVNode("", true),
               unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_5, [
                 createTextVNode("等待生成二维码"),
                 _hoisted_6,
@@ -1445,7 +1458,7 @@ const _sfc_main = {
     };
   }
 };
-const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-9c667a67"]]);
+const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-a7f23343"]]);
 export {
   login as default
 };
