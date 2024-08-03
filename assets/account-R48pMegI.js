@@ -1,8 +1,8 @@
-import { aQ as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aT as toDisplayString, F as Fragment, aS as renderList, aM as createVNode, a$ as pushScopeId, b0 as popScopeId, aR as useCssVars } from "./marqueePlus-CsZR2GmR.js";
-import { k as useUserStore, u as useThemeStore, m as useRouter, C as areaData } from "./index-DyPH-l1o.js";
-import { i as itemCard } from "./itemCard-CcSC6Qoi.js";
-import "./Ellipsis-D6aVVFJ_.js";
-const _withScopeId = (n) => (pushScopeId("data-v-dba52ce7"), n = n(), popScopeId(), n);
+import { aN as _export_sfc, b as ref, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, u as unref, aT as toDisplayString, F as Fragment, aS as renderList, aM as createVNode, a$ as pushScopeId, b0 as popScopeId, aR as useCssVars } from "./marqueePlus-BxO7MkB3.js";
+import { k as useUserStore, u as useThemeStore, m as useRouter, C as areaData } from "./index-DLuLVGgt.js";
+import { i as itemCard } from "./itemCard-Dqw9soK2.js";
+import "./Ellipsis-BPCRcw0L.js";
+const _withScopeId = (n) => (pushScopeId("data-v-ee36bbe5"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "account-user-detail" };
 const _hoisted_2 = ["src"];
 const _hoisted_3 = { class: "account-user-data-info" };
@@ -17,7 +17,7 @@ const _sfc_main = {
   __name: "account",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "06589c2a": unref(themeStore).mainColors[1] + `80`
+      "4ae75e68": unref(themeStore).mainColors[1] + `80`
     }));
     const userStore = useUserStore();
     const themeStore = useThemeStore();
@@ -67,7 +67,7 @@ const _sfc_main = {
     };
   }
 };
-const account = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-dba52ce7"]]);
+const account = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ee36bbe5"]]);
 export {
   account as default
 };

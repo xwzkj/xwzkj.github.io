@@ -1,6 +1,6 @@
-import { an as derived, ai as c, ah as cB, aj as cM, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, ay as createKey, aq as useThemeClass, b as ref, ae as watchEffect, h, af as Transition, aQ as _export_sfc, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, F as Fragment, aS as renderList, aT as toDisplayString, u as unref, aP as createCommentVNode, aO as createBlock, v as createTextVNode, I as withDirectives, at as vShow, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-CsZR2GmR.js";
-import { I as fadeInTransition, J as pxfy, K as useCompitable, N as NBaseLoading, k as useUserStore, L as parseArray, M as parseArtist, l as likeAndUpdateLikelist, H as __unplugin_components_0, c as __unplugin_components_2, d as __unplugin_components_3$1 } from "./index-DyPH-l1o.js";
-import { _ as __unplugin_components_5 } from "./Card-CCs3e6I0.js";
+import { an as derived, ai as c, ah as cB, aj as cM, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, ay as createKey, aq as useThemeClass, b as ref, ae as watchEffect, h, af as Transition, aN as _export_sfc, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aO as withCtx, F as Fragment, aS as renderList, aT as toDisplayString, u as unref, aQ as createCommentVNode, aP as createBlock, v as createTextVNode, I as withDirectives, at as vShow, aG as NIcon, a$ as pushScopeId, b0 as popScopeId } from "./marqueePlus-BxO7MkB3.js";
+import { I as fadeInTransition, J as pxfy, K as useCompitable, N as NBaseLoading, k as useUserStore, L as parseArray, M as parseArtist, l as likeAndUpdateLikelist, H as __unplugin_components_0, c as __unplugin_components_2, d as __unplugin_components_3$1 } from "./index-DLuLVGgt.js";
+import { _ as __unplugin_components_5 } from "./Card-CO633ZwS.js";
 function self(vars) {
   const {
     opacityDisabled,

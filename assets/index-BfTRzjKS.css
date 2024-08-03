@@ -1,4 +1,15 @@
 
+.nav-outer[data-v-92e25a40] {
+    width: 100%;
+    height: 100%;
+}
+.header-title[data-v-92e25a40] {
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1rem;
+}
+
 span {
     margin: 0;
 }
@@ -17,16 +28,26 @@ span {
     margin-right: 2rem;
     cursor: pointer;
 }
-
-.nav-outer[data-v-74ac2553] {
-    width: 100%;
-    height: 100%;
+.header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(var(--vh, 1vh) * 100);
+    z-index: 10;
 }
-.header-title[data-v-74ac2553] {
-    font-size: 1.5rem;
-    cursor: pointer;
-    font-weight: 500;
-    padding: 1rem;
+@media screen and (min-width: 600px) {
+.header-menu {
+        display: none;
+}
+}
+@media screen and (max-width: 600px) {
+.header-user {
+        margin-right: 0;
+}
+.header-search{
+        margin-left: 0;
+}
 }
 
 .playinglist[data-v-6022213c] {
@@ -65,13 +86,13 @@ ul[data-v-6022213c] {
     width: 100%;
 }
 
-[data-v-cdb0b8ba] {
+[data-v-70d70b75] {
     box-sizing: border-box;
 }
-.ctrl-outer[data-v-cdb0b8ba] {
+.ctrl-outer[data-v-70d70b75] {
     position: fixed;
     z-index: 1;
-    top: var(--42c73830);
+    top: calc(var(--vh, 1vh) * 100 - var(--0872f175));
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -83,19 +104,20 @@ ul[data-v-6022213c] {
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.65);
     backdrop-filter: blur(20px);
-    transition: all 0.5s ease-in-out;
+    /* transition: all 0.5s ease-in-out; */
 }
-.ctrl-box[data-v-cdb0b8ba] {
+.ctrl-box[data-v-70d70b75] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-cdb0b8ba] {
+.ctrl-left[data-v-70d70b75] {
+    flex:1;
     display: flex;
-    width: calc(100% / 3.5);
+    max-width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-cdb0b8ba] {
+.ctrl-img-box[data-v-70d70b75] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -108,37 +130,38 @@ ul[data-v-6022213c] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-cdb0b8ba] {
+.ctrl-img[data-v-70d70b75] {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.ctrl-info-box[data-v-cdb0b8ba] {
+.ctrl-info-box[data-v-70d70b75] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-cdb0b8ba] {
+.ctrl-info-title[data-v-70d70b75] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-cdb0b8ba] {
+.ctrl-center[data-v-70d70b75] {
+    flex:1;
     padding-top: 0.8rem;
-    width: calc(100% / 3.5);
+    max-width: calc(100% / 3.5);
 }
-.button[data-v-cdb0b8ba] {
+.button[data-v-70d70b75] {
     cursor: pointer;
 }
-.btn-control[data-v-cdb0b8ba] {
+.btn-control[data-v-70d70b75] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-cdb0b8ba] {
+.btn-play-control[data-v-70d70b75] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -146,8 +169,9 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-cdb0b8ba] {
-    width: calc(100% / 3.5);
+.ctrl-right[data-v-70d70b75] {
+    flex:1;
+    max-width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -157,85 +181,107 @@ right---------------------------------------------------------
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-cdb0b8ba] {
+.ctrl-playinglist[data-v-70d70b75] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--0f4a2f28));
+    height: calc(var(--vh, 1vh) * 100 - var(--0872f175));
     flex: 1;
 }
+@media screen and (max-width: 600px) {
+.ctrl-info-box[data-v-70d70b75]{
+        display: none;
+}
+.btn-like[data-v-70d70b75],
+    .btn-loop[data-v-70d70b75]{
+        display: none;
+}
+}
 
-.container[data-v-12e71393] {
+.container[data-v-8419d038] {
   height: calc(var(--vh, 1vh) * 100);
   width: calc(var(--vw, 1vw) * 100);
   max-width: calc(var(--vw, 1vw) * 100);
   overflow: hidden;
 }
-.container-main[data-v-12e71393] {
+.container-main[data-v-8419d038] {
   display: flex;
   height: calc(var(--vh, 1vh) * 100 - 7rem);
 }
-.container-nav[data-v-12e71393] {
+.container-nav[data-v-8419d038] {
   flex: 0 0 auto;
   width: 12rem;
 }
-.container-content[data-v-12e71393] {
+.container-content[data-v-8419d038] {
   flex: 1;
-  max-width: calc(var(--vw, 1vw) * 100 - 12rem);
   display: flex;
   flex-direction: column;
 }
-.container-router-view[data-v-12e71393] {
+.container-router-view[data-v-8419d038] {
   max-width: 100%;
   overflow-y: scroll;
   flex: 1;
 }
+@media screen and (min-width: 600px) {
+.container-content[data-v-8419d038]{
+  max-width: calc(var(--vw, 1vw) * 100 - 12rem);
+}
+}
+@media screen and (max-width: 600px) {
+.container-content[data-v-8419d038]{
+  max-width: calc(var(--vw, 1vw) * 100);
+}
+.container-nav[data-v-8419d038]{
+    display: none;
+}
+}
 
-.app {
-  background-color: var(--05ee0932);
+.app,
+.bg {
+  background-color: var(--2e637a67);
 }
 .icon,
 .n-icon {
-  color: var(--05ee0a2a);
+  color: var(--2e637b5f);
 }
 .text1 {
-  color: var(--05ee0a49);
+  color: var(--2e637b7e);
 }
 .text2 {
-  color: var(--05ee0a0b);
+  color: var(--2e637b40);
 }
 .text3 {
-  color: var(--05ee09ec);
+  color: var(--2e637b21);
 }
 
 
 /* 主题色 */
 .color0 {
-  color: var(--05ee0932);
+  color: var(--2e637a67);
 }
 .color1 {
-  color: var(--05ee0951);
+  color: var(--2e637a86);
 }
 .color2 {
-  color: var(--05ee0970);
+  color: var(--2e637aa5);
 }
 .color3 {
-  color: var(--05ee098f);
+  color: var(--2e637ac4);
 }
 .color4 {
-  color: var(--05ee09ae);
+  color: var(--2e637ae3);
 }
 .color5 {
-  color: var(--05ee09cd);
+  color: var(--2e637b02);
 }
 .color6 {
-  color: var(--05ee09ec);
+  color: var(--2e637b21);
 }
 .color7 {
-  color: var(--05ee0a0b);
+  color: var(--2e637b40);
 }
 .color8 {
-  color: var(--05ee0a2a);
+  color: var(--2e637b5f);
 }
 .color9 {
-  color: var(--05ee0a49);
+  color: var(--2e637b7e);
 }

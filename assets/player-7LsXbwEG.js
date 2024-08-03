@@ -1,6 +1,6 @@
-import { u as useThemeStore, a as usePlayStore, s as storeToRefs, w as windowBack, g as getColorsFromImg, _ as __unplugin_components_2, S as Scrollbar, l as likeAndUpdateLikelist, p as playinglist, b as __unplugin_components_0, c as __unplugin_components_2$1, d as __unplugin_components_3, e as __unplugin_components_5, f as __unplugin_components_6, h as __unplugin_components_7, i as __unplugin_components_8, j as __unplugin_components_9 } from "./index-DyPH-l1o.js";
-import { aQ as _export_sfc, b as ref, c as computed, D as onMounted, w as watch, E as onBeforeUnmount, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, u as unref, aU as MarqueePlus, aT as toDisplayString, aO as createBlock, aP as createCommentVNode, f as isRef, aV as withModifiers, aG as NIcon, F as Fragment, aS as renderList, a_ as normalizeClass, a$ as pushScopeId, b0 as popScopeId, aR as useCssVars } from "./marqueePlus-CsZR2GmR.js";
-const _withScopeId = (n) => (pushScopeId("data-v-b10dfa72"), n = n(), popScopeId(), n);
+import { u as useThemeStore, a as usePlayStore, s as storeToRefs, w as windowBack, g as getColorsFromImg, _ as __unplugin_components_2, S as Scrollbar, l as likeAndUpdateLikelist, p as playinglist, b as __unplugin_components_0, c as __unplugin_components_2$1, d as __unplugin_components_3, e as __unplugin_components_5, f as __unplugin_components_6, h as __unplugin_components_7, i as __unplugin_components_8, j as __unplugin_components_9 } from "./index-DLuLVGgt.js";
+import { aN as _export_sfc, b as ref, c as computed, D as onMounted, w as watch, E as onBeforeUnmount, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aO as withCtx, u as unref, aU as MarqueePlus, aT as toDisplayString, aP as createBlock, aQ as createCommentVNode, f as isRef, aV as withModifiers, aG as NIcon, F as Fragment, aS as renderList, a_ as normalizeClass, a$ as pushScopeId, b0 as popScopeId, aR as useCssVars } from "./marqueePlus-BxO7MkB3.js";
+const _withScopeId = (n) => (pushScopeId("data-v-ca08bfe8"), n = n(), popScopeId(), n);
 const _hoisted_1 = { id: "playerOoouter" };
 const _hoisted_2 = { id: "playerOuter" };
 const _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { id: "playerBackground" }, null, -1));
@@ -54,9 +54,9 @@ const _sfc_main = {
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "62d0763d": unref(background),
-      "105eedb4": unref(themeStore).mainColors[0] + `90`,
-      "f8097550": unref(playingListTop)
+      "5434d1fe": unref(background),
+      "69924ae2": unref(themeStore).mainColors[0] + `90`,
+      "17022944": unref(playingListTran)
     }));
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
@@ -65,8 +65,8 @@ const _sfc_main = {
     let background = ref("");
     let id_clock1 = NaN;
     let displayList = ref(false);
-    let playingListTop = computed(() => {
-      return displayList.value ? "0%" : "100%";
+    let playingListTran = computed(() => {
+      return displayList.value ? "-100%" : "0%";
     });
     onMounted(async () => {
       watch(() => currentMusic.value.currentLyricIndex, (value) => {
@@ -273,7 +273,7 @@ const _sfc_main = {
     };
   }
 };
-const player = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-b10dfa72"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ca08bfe8"]]);
 export {
   player as default
 };

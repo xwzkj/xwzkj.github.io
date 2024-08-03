@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-ptyN32uf.js","./marqueePlus-CsZR2GmR.js","./marqueePlus-CLo2Jn4F.css","./player-D-ZiTY5f.css","./home-CHGA8ToD.js","./itemCard-CcSC6Qoi.js","./Ellipsis-D6aVVFJ_.js","./itemCard-Bgy-kfmm.css","./home-BchFyFaE.css","./search-BCuH4jnM.js","./musicList-BzZVjZn8.js","./Card-CCs3e6I0.js","./musicList-C2Gx6pRn.css","./search-C5fKSBIZ.css","./login-CQHKfeVy.js","./Button-D5GdTuBL.js","./login-B9OJSZbP.css","./account-Cu-r7ZNp.js","./account-isDwt7mc.css","./playlist-CA16yX4V.js","./playlist-CtSiGqQ1.css","./setting-S5RKaMLi.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, t as toRaw, f as isRef, g as isReactive, j as toRef, k as hasInjectionContext, l as getCurrentScope, o as onScopeDispose, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as withCtx, aO as createBlock, aP as createCommentVNode, aQ as _export_sfc, aR as useCssVars, aS as renderList, aT as toDisplayString, aU as MarqueePlus, aV as withModifiers, aW as resolveComponent, aX as KeepAlive, aY as resolveDynamicComponent, aZ as createApp } from "./marqueePlus-CsZR2GmR.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./player-7LsXbwEG.js","./marqueePlus-BxO7MkB3.js","./marqueePlus-CLo2Jn4F.css","./player-og3EosA7.css","./home-RbBgYNM4.js","./itemCard-Dqw9soK2.js","./Ellipsis-BPCRcw0L.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-dM83hakE.js","./musicList-DXkvOAje.js","./Card-CO633ZwS.js","./musicList-C2Gx6pRn.css","./search-C5fKSBIZ.css","./login-tCY5zsCk.js","./Button-DiBs-NmM.js","./login-B9OJSZbP.css","./account-R48pMegI.js","./account-CZ8eyIhU.css","./playlist-CTccYpMF.js","./playlist-CtSiGqQ1.css","./setting-DSJlKZk-.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, t as toRaw, f as isRef, g as isReactive, j as toRef, k as hasInjectionContext, l as getCurrentScope, o as onScopeDispose, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as _export_sfc, aO as withCtx, aP as createBlock, aQ as createCommentVNode, aR as useCssVars, aS as renderList, aT as toDisplayString, aU as MarqueePlus, aV as withModifiers, aW as resolveComponent, aX as KeepAlive, aY as resolveDynamicComponent, aZ as createApp } from "./marqueePlus-BxO7MkB3.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -1918,7 +1918,7 @@ const router = createRouter({
     {
       name: "player",
       path: "/player",
-      component: () => __vitePreload(() => import("./player-ptyN32uf.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./player-7LsXbwEG.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1929,7 +1929,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-CHGA8ToD.js"), true ? __vite__mapDeps([4,5,1,2,6,7,8]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-RbBgYNM4.js"), true ? __vite__mapDeps([4,5,1,2,6,7,8]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1940,7 +1940,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-BCuH4jnM.js"), true ? __vite__mapDeps([9,1,2,10,11,12,13]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-dM83hakE.js"), true ? __vite__mapDeps([9,1,2,10,11,12,13]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1951,7 +1951,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-CQHKfeVy.js"), true ? __vite__mapDeps([14,1,2,15,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-tCY5zsCk.js"), true ? __vite__mapDeps([14,1,2,15,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1959,7 +1959,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-Cu-r7ZNp.js"), true ? __vite__mapDeps([17,1,2,5,6,7,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-R48pMegI.js"), true ? __vite__mapDeps([17,1,2,5,6,7,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1970,7 +1970,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-CA16yX4V.js"), true ? __vite__mapDeps([19,10,1,2,11,12,15,6,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CTccYpMF.js"), true ? __vite__mapDeps([19,10,1,2,11,12,15,6,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1981,7 +1981,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-S5RKaMLi.js"), true ? __vite__mapDeps([21,1,2,15,11,22]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-DSJlKZk-.js"), true ? __vite__mapDeps([21,1,2,15,11,22]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2485,7 +2485,7 @@ function call(funcs, ...args) {
 function keysOf(obj) {
   return Object.keys(obj);
 }
-function render$e(r2, ...args) {
+function render$f(r2, ...args) {
   if (typeof r2 === "function") {
     return r2(...args);
   } else if (typeof r2 === "string") {
@@ -4282,7 +4282,7 @@ var isReplacedElement = function(target) {
   return false;
 };
 var global$1 = typeof window !== "undefined" ? window : {};
-var cache = /* @__PURE__ */ new WeakMap();
+var cache$1 = /* @__PURE__ */ new WeakMap();
 var scrollRegexp = /auto|scroll/;
 var verticalRegexp = /^tb|vertical/;
 var IE = /msie|trident/i.test(global$1.navigator && global$1.navigator.userAgent);
@@ -4311,11 +4311,11 @@ var calculateBoxSizes = function(target, forceRecalculation) {
   if (forceRecalculation === void 0) {
     forceRecalculation = false;
   }
-  if (cache.has(target) && !forceRecalculation) {
-    return cache.get(target);
+  if (cache$1.has(target) && !forceRecalculation) {
+    return cache$1.get(target);
   }
   if (isHidden(target)) {
-    cache.set(target, zeroBoxes);
+    cache$1.set(target, zeroBoxes);
     return zeroBoxes;
   }
   var cs = getComputedStyle(target);
@@ -4350,7 +4350,7 @@ var calculateBoxSizes = function(target, forceRecalculation) {
     contentBoxSize: size(contentWidth, contentHeight, switchSizes),
     contentRect: new DOMRectReadOnly(paddingLeft, paddingTop, contentWidth, contentHeight)
   });
-  cache.set(target, boxes);
+  cache$1.set(target, boxes);
   return boxes;
 };
 var calculateBoxSize = function(target, observedBox, forceRecalculation) {
@@ -4430,7 +4430,7 @@ var gatherActiveObservationsAtDepth = function(depth) {
     });
   });
 };
-var process = function() {
+var process$1 = function() {
   var depth = 0;
   gatherActiveObservationsAtDepth(depth);
   while (hasActiveObservations()) {
@@ -4519,7 +4519,7 @@ var Scheduler = function() {
     queueResizeObserver(function() {
       var elementsHaveResized = false;
       try {
-        elementsHaveResized = process();
+        elementsHaveResized = process$1();
       } finally {
         scheduled = false;
         timeout = until - time();
@@ -7143,7 +7143,7 @@ const NBaseLoading = defineComponent({
     }));
   }
 });
-function toArray$1(arg) {
+function toArray$2(arg) {
   if (Array.isArray(arg))
     return arg;
   return [arg];
@@ -7408,7 +7408,7 @@ function getExtendedCheckedKeySet(checkedKeys, treeMate, allowNotLoaded, isUnche
   });
   return extendedKeySet;
 }
-function getPath(key, { includeGroup = false, includeSelf = true }, treeMate) {
+function getPath$1(key, { includeGroup = false, includeSelf = true }, treeMate) {
   var _a;
   const treeNodeMap = treeMate.treeNodeMap;
   let treeNode = key === null || key === void 0 ? null : (_a = treeNodeMap.get(key)) !== null && _a !== void 0 ? _a : null;
@@ -7714,7 +7714,7 @@ function createTreeMate(rawNodes, options = {}) {
       return getFirstAvailableNode(treeNodes);
     },
     getPath(key, options2 = {}) {
-      return getPath(key, options2, treemate);
+      return getPath$1(key, options2, treemate);
     },
     getCheckedKeys(checkedKeys, options2 = {}) {
       const { cascade = true, leafOnly = false, checkStrategy = "all", allowNotLoaded = false } = options2;
@@ -7732,7 +7732,7 @@ function createTreeMate(rawNodes, options = {}) {
       return getCheckedKeys({
         checkedKeys: unwrapCheckedKeys(checkedKeys),
         indeterminateKeys: unwrapIndeterminateKeys(checkedKeys),
-        keysToCheck: keysToCheck === void 0 || keysToCheck === null ? [] : toArray$1(keysToCheck),
+        keysToCheck: keysToCheck === void 0 || keysToCheck === null ? [] : toArray$2(keysToCheck),
         cascade,
         leafOnly,
         checkStrategy,
@@ -7744,7 +7744,7 @@ function createTreeMate(rawNodes, options = {}) {
       return getCheckedKeys({
         checkedKeys: unwrapCheckedKeys(checkedKeys),
         indeterminateKeys: unwrapIndeterminateKeys(checkedKeys),
-        keysToUncheck: keysToUncheck === null || keysToUncheck === void 0 ? [] : toArray$1(keysToUncheck),
+        keysToUncheck: keysToUncheck === null || keysToUncheck === void 0 ? [] : toArray$2(keysToUncheck),
         cascade,
         leafOnly,
         checkStrategy,
@@ -9885,7 +9885,7 @@ const tagProps = Object.assign(Object.assign(Object.assign({}, useTheme.props), 
   onCheckedChange: Function
 });
 const tagInjectionKey = createInjectionKey("n-tag");
-const __unplugin_components_0$4 = defineComponent({
+const __unplugin_components_0$5 = defineComponent({
   name: "Tag",
   props: tagProps,
   setup(props) {
@@ -10864,7 +10864,7 @@ const inputProps = Object.assign(Object.assign({}, useTheme.props), {
   /** deprecated */
   showPasswordToggle: Boolean
 });
-const __unplugin_components_0$3 = defineComponent({
+const __unplugin_components_0$4 = defineComponent({
   name: "Input",
   props: inputProps,
   setup(props) {
@@ -12132,7 +12132,7 @@ const avatarProps = Object.assign(Object.assign({}, useTheme.props), {
   /** @deprecated */
   color: String
 });
-const __unplugin_components_3$1 = defineComponent({
+const __unplugin_components_4 = defineComponent({
   name: "Avatar",
   props: avatarProps,
   setup(props) {
@@ -13015,10 +13015,10 @@ const NDropdownOption = defineComponent({
       "data-dropdown-option": true
     }, optionNodeProps), h("div", mergeProps(builtinProps, props), [h("div", {
       class: [`${clsPrefix}-dropdown-option-body__prefix`, siblingHasIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, [renderIcon ? renderIcon(rawNode) : render$e(rawNode.icon)]), h("div", {
+    }, [renderIcon ? renderIcon(rawNode) : render$f(rawNode.icon)]), h("div", {
       "data-dropdown-option": true,
       class: `${clsPrefix}-dropdown-option-body__label`
-    }, renderLabel ? renderLabel(rawNode) : render$e((_b = rawNode[this.labelField]) !== null && _b !== void 0 ? _b : rawNode.title)), h("div", {
+    }, renderLabel ? renderLabel(rawNode) : render$f((_b = rawNode[this.labelField]) !== null && _b !== void 0 ? _b : rawNode.title)), h("div", {
       "data-dropdown-option": true,
       class: [`${clsPrefix}-dropdown-option-body__suffix`, siblingHasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`]
     }, this.hasSubmenu ? h(NIcon, null, {
@@ -13109,10 +13109,10 @@ const NDropdownGroupHeader = defineComponent({
     }, h("div", {
       "data-dropdown-option": true,
       class: [`${clsPrefix}-dropdown-option-body__prefix`, showIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, render$e(rawNode.icon)), h("div", {
+    }, render$f(rawNode.icon)), h("div", {
       class: `${clsPrefix}-dropdown-option-body__label`,
       "data-dropdown-option": true
-    }, renderLabel ? renderLabel(rawNode) : render$e((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
+    }, renderLabel ? renderLabel(rawNode) : render$f((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
       class: [`${clsPrefix}-dropdown-option-body__suffix`, hasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`],
       "data-dropdown-option": true
     })));
@@ -14222,7 +14222,7 @@ const NMenuOptionGroup = defineComponent({
       }, h("div", Object.assign({}, attrs, {
         class: [`${mergedClsPrefix}-menu-item-group-title`, attrs === null || attrs === void 0 ? void 0 : attrs.class],
         style: [(attrs === null || attrs === void 0 ? void 0 : attrs.style) || "", paddingLeft !== void 0 ? `padding-left: ${paddingLeft}px;` : ""]
-      }), render$e(props.title), props.extra ? h(Fragment, null, " ", render$e(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
+      }), render$f(props.title), props.extra ? h(Fragment, null, " ", render$f(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
     };
   }
 });
@@ -14302,7 +14302,7 @@ const NMenuOptionContent = defineComponent({
         expandIcon
       }
     } = this;
-    const icon = renderIcon ? renderIcon(tmNode.rawNode) : render$e(this.icon);
+    const icon = renderIcon ? renderIcon(tmNode.rawNode) : render$f(this.icon);
     return h("div", {
       onClick: (e) => {
         var _a;
@@ -14324,9 +14324,9 @@ const NMenuOptionContent = defineComponent({
     }, [icon]), h("div", {
       class: `${clsPrefix}-menu-item-content-header`,
       role: "none"
-    }, this.isEllipsisPlaceholder ? this.title : renderLabel ? renderLabel(tmNode.rawNode) : render$e(this.title), this.extra || renderExtra ? h("span", {
+    }, this.isEllipsisPlaceholder ? this.title : renderLabel ? renderLabel(tmNode.rawNode) : render$f(this.title), this.extra || renderExtra ? h("span", {
       class: `${clsPrefix}-menu-item-content-header__extra`
-    }, " ", renderExtra ? renderExtra(tmNode.rawNode) : render$e(this.extra)) : null), this.showArrow ? h(NBaseIcon, {
+    }, " ", renderExtra ? renderExtra(tmNode.rawNode) : render$f(this.extra)) : null), this.showArrow ? h(NBaseIcon, {
       ariaHidden: true,
       class: `${clsPrefix}-menu-item-content__arrow`,
       clsPrefix
@@ -14624,7 +14624,7 @@ const NMenuOption = defineComponent({
       disabled: !this.dropdownEnabled || this.title === void 0,
       internalExtraClass: ["menu-tooltip"]
     }, {
-      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$e(this.title),
+      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$f(this.title),
       trigger: () => h(NMenuOptionContent, {
         tmNode,
         clsPrefix: mergedClsPrefix,
@@ -14996,7 +14996,7 @@ const menuProps = Object.assign(Object.assign({}, useTheme.props), {
   expandedNames: Array,
   defaultExpandedNames: Array
 });
-const __unplugin_components_0$2 = defineComponent({
+const __unplugin_components_0$3 = defineComponent({
   name: "Menu",
   props: menuProps,
   setup(props) {
@@ -15677,7 +15677,7 @@ const NMessage = defineComponent({
       default: () => iconNode
     })) : null, h("div", {
       class: `${mergedClsPrefix}-message__content`
-    }, render$e(content)), closable ? h(NBaseClose, {
+    }, render$f(content)), closable ? h(NBaseClose, {
       clsPrefix: mergedClsPrefix,
       class: `${mergedClsPrefix}-message__close`,
       onClick: handleClose,
@@ -15824,7 +15824,7 @@ const messageProviderProps = Object.assign(Object.assign({}, useTheme.props), {
   containerClass: String,
   containerStyle: [String, Object]
 });
-const __unplugin_components_0$1 = defineComponent({
+const __unplugin_components_0$2 = defineComponent({
   name: "MessageProvider",
   props: messageProviderProps,
   setup(props) {
@@ -17213,7 +17213,7 @@ const endsWith = (str, searchString, position) => {
   const lastIndex = str.indexOf(searchString, position);
   return lastIndex !== -1 && lastIndex === position;
 };
-const toArray = (thing) => {
+const toArray$1 = (thing) => {
   if (!thing) return null;
   if (isArray(thing)) return thing;
   let i2 = thing.length;
@@ -17344,6 +17344,26 @@ const toJSONObject = (obj) => {
 };
 const isAsyncFn = kindOfTest("AsyncFunction");
 const isThenable = (thing) => thing && (isObject(thing) || isFunction(thing)) && isFunction(thing.then) && isFunction(thing.catch);
+const _setImmediate = ((setImmediateSupported, postMessageSupported) => {
+  if (setImmediateSupported) {
+    return setImmediate;
+  }
+  return postMessageSupported ? ((token, callbacks2) => {
+    _global.addEventListener("message", ({ source, data }) => {
+      if (source === _global && data === token) {
+        callbacks2.length && callbacks2.shift()();
+      }
+    }, false);
+    return (cb) => {
+      callbacks2.push(cb);
+      _global.postMessage(token, "*");
+    };
+  })(`axios@${Math.random()}`, []) : (cb) => setTimeout(cb);
+})(
+  typeof setImmediate === "function",
+  isFunction(_global.postMessage)
+);
+const asap = typeof queueMicrotask !== "undefined" ? queueMicrotask.bind(_global) : typeof process !== "undefined" && process.nextTick || _setImmediate;
 const utils$1 = {
   isArray,
   isArrayBuffer,
@@ -17379,7 +17399,7 @@ const utils$1 = {
   kindOf,
   kindOfTest,
   endsWith,
-  toArray,
+  toArray: toArray$1,
   forEachEntry,
   matchAll,
   isHTMLForm,
@@ -17400,7 +17420,9 @@ const utils$1 = {
   isSpecCompliantForm,
   toJSONObject,
   isAsyncFn,
-  isThenable
+  isThenable,
+  setImmediate: _setImmediate,
+  asap
 };
 function AxiosError(message, code, config, request2, response) {
   Error.call(this);
@@ -18235,27 +18257,35 @@ function speedometer(samplesCount, min) {
 }
 function throttle(fn, freq) {
   let timestamp = 0;
-  const threshold = 1e3 / freq;
-  let timer = null;
-  return function throttled() {
-    const force = this === true;
-    const now = Date.now();
-    if (force || now - timestamp > threshold) {
-      if (timer) {
-        clearTimeout(timer);
-        timer = null;
-      }
-      timestamp = now;
-      return fn.apply(null, arguments);
+  let threshold = 1e3 / freq;
+  let lastArgs;
+  let timer;
+  const invoke = (args, now = Date.now()) => {
+    timestamp = now;
+    lastArgs = null;
+    if (timer) {
+      clearTimeout(timer);
+      timer = null;
     }
-    if (!timer) {
-      timer = setTimeout(() => {
-        timer = null;
-        timestamp = Date.now();
-        return fn.apply(null, arguments);
-      }, threshold - (now - timestamp));
+    fn.apply(null, args);
+  };
+  const throttled = (...args) => {
+    const now = Date.now();
+    const passed = now - timestamp;
+    if (passed >= threshold) {
+      invoke(args, now);
+    } else {
+      lastArgs = args;
+      if (!timer) {
+        timer = setTimeout(() => {
+          timer = null;
+          invoke(lastArgs);
+        }, threshold - passed);
+      }
     }
   };
+  const flush = () => lastArgs && invoke(lastArgs);
+  return [throttled, flush];
 }
 const progressEventReducer = (listener, isDownloadStream, freq = 3) => {
   let bytesNotified = 0;
@@ -18275,12 +18305,21 @@ const progressEventReducer = (listener, isDownloadStream, freq = 3) => {
       rate: rate ? rate : void 0,
       estimated: rate && total && inRange ? (total - loaded) / rate : void 0,
       event: e,
-      lengthComputable: total != null
+      lengthComputable: total != null,
+      [isDownloadStream ? "download" : "upload"]: true
     };
-    data[isDownloadStream ? "download" : "upload"] = true;
     listener(data);
   }, freq);
 };
+const progressEventDecorator = (total, throttled) => {
+  const lengthComputable = total != null;
+  return [(loaded) => throttled[0]({
+    lengthComputable,
+    total,
+    loaded
+  }), throttled[1]];
+};
+const asyncDecorator = (fn) => (...args) => utils$1.asap(() => fn(...args));
 const isURLSameOrigin = platform.hasStandardBrowserEnv ? (
   // Standard browser envs have full support of the APIs needed to test
   // whether the request URL is of the same origin as current location.
@@ -18478,15 +18517,15 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
     const _config = resolveConfig(config);
     let requestData = _config.data;
     const requestHeaders = AxiosHeaders.from(_config.headers).normalize();
-    let { responseType } = _config;
+    let { responseType, onUploadProgress, onDownloadProgress } = _config;
     let onCanceled;
+    let uploadThrottled, downloadThrottled;
+    let flushUpload, flushDownload;
     function done() {
-      if (_config.cancelToken) {
-        _config.cancelToken.unsubscribe(onCanceled);
-      }
-      if (_config.signal) {
-        _config.signal.removeEventListener("abort", onCanceled);
-      }
+      flushUpload && flushUpload();
+      flushDownload && flushDownload();
+      _config.cancelToken && _config.cancelToken.unsubscribe(onCanceled);
+      _config.signal && _config.signal.removeEventListener("abort", onCanceled);
     }
     let request2 = new XMLHttpRequest();
     request2.open(_config.method.toUpperCase(), _config.url, true);
@@ -18533,11 +18572,11 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
       if (!request2) {
         return;
       }
-      reject(new AxiosError("Request aborted", AxiosError.ECONNABORTED, _config, request2));
+      reject(new AxiosError("Request aborted", AxiosError.ECONNABORTED, config, request2));
       request2 = null;
     };
     request2.onerror = function handleError() {
-      reject(new AxiosError("Network Error", AxiosError.ERR_NETWORK, _config, request2));
+      reject(new AxiosError("Network Error", AxiosError.ERR_NETWORK, config, request2));
       request2 = null;
     };
     request2.ontimeout = function handleTimeout() {
@@ -18549,7 +18588,7 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
       reject(new AxiosError(
         timeoutErrorMessage,
         transitional2.clarifyTimeoutError ? AxiosError.ETIMEDOUT : AxiosError.ECONNABORTED,
-        _config,
+        config,
         request2
       ));
       request2 = null;
@@ -18566,11 +18605,14 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
     if (responseType && responseType !== "json") {
       request2.responseType = _config.responseType;
     }
-    if (typeof _config.onDownloadProgress === "function") {
-      request2.addEventListener("progress", progressEventReducer(_config.onDownloadProgress, true));
+    if (onDownloadProgress) {
+      [downloadThrottled, flushDownload] = progressEventReducer(onDownloadProgress, true);
+      request2.addEventListener("progress", downloadThrottled);
     }
-    if (typeof _config.onUploadProgress === "function" && request2.upload) {
-      request2.upload.addEventListener("progress", progressEventReducer(_config.onUploadProgress));
+    if (onUploadProgress && request2.upload) {
+      [uploadThrottled, flushUpload] = progressEventReducer(onUploadProgress);
+      request2.upload.addEventListener("progress", uploadThrottled);
+      request2.upload.addEventListener("loadend", flushUpload);
     }
     if (_config.cancelToken || _config.signal) {
       onCanceled = (cancel) => {
@@ -18648,39 +18690,52 @@ const readBytes = async function* (iterable, chunkSize, encode2) {
 const trackStream = (stream, chunkSize, onProgress, onFinish, encode2) => {
   const iterator = readBytes(stream, chunkSize, encode2);
   let bytes = 0;
+  let done;
+  let _onFinish = (e) => {
+    if (!done) {
+      done = true;
+      onFinish && onFinish(e);
+    }
+  };
   return new ReadableStream({
-    type: "bytes",
     async pull(controller) {
-      const { done, value } = await iterator.next();
-      if (done) {
-        controller.close();
-        onFinish();
-        return;
+      try {
+        const { done: done2, value } = await iterator.next();
+        if (done2) {
+          _onFinish();
+          controller.close();
+          return;
+        }
+        let len2 = value.byteLength;
+        if (onProgress) {
+          let loadedBytes = bytes += len2;
+          onProgress(loadedBytes);
+        }
+        controller.enqueue(new Uint8Array(value));
+      } catch (err) {
+        _onFinish(err);
+        throw err;
       }
-      let len2 = value.byteLength;
-      onProgress && onProgress(bytes += len2);
-      controller.enqueue(new Uint8Array(value));
     },
     cancel(reason) {
-      onFinish(reason);
+      _onFinish(reason);
       return iterator.return();
     }
   }, {
     highWaterMark: 2
   });
 };
-const fetchProgressDecorator = (total, fn) => {
-  const lengthComputable = total != null;
-  return (loaded) => setTimeout(() => fn({
-    lengthComputable,
-    total,
-    loaded
-  }));
-};
 const isFetchSupported = typeof fetch === "function" && typeof Request === "function" && typeof Response === "function";
 const isReadableStreamSupported = isFetchSupported && typeof ReadableStream === "function";
 const encodeText = isFetchSupported && (typeof TextEncoder === "function" ? /* @__PURE__ */ ((encoder) => (str) => encoder.encode(str))(new TextEncoder()) : async (str) => new Uint8Array(await new Response(str).arrayBuffer()));
-const supportsRequestStream = isReadableStreamSupported && (() => {
+const test = (fn, ...args) => {
+  try {
+    return !!fn(...args);
+  } catch (e) {
+    return false;
+  }
+};
+const supportsRequestStream = isReadableStreamSupported && test(() => {
   let duplexAccessed = false;
   const hasContentType = new Request(platform.origin, {
     body: new ReadableStream(),
@@ -18691,14 +18746,9 @@ const supportsRequestStream = isReadableStreamSupported && (() => {
     }
   }).headers.has("Content-Type");
   return duplexAccessed && !hasContentType;
-})();
+});
 const DEFAULT_CHUNK_SIZE = 64 * 1024;
-const supportsResponseStream = isReadableStreamSupported && !!(() => {
-  try {
-    return utils$1.isReadableStream(new Response("").body);
-  } catch (err) {
-  }
-})();
+const supportsResponseStream = isReadableStreamSupported && test(() => utils$1.isReadableStream(new Response("").body));
 const resolvers = {
   stream: supportsResponseStream && ((res) => res.body)
 };
@@ -18719,7 +18769,7 @@ const getBodyLength = async (body) => {
   if (utils$1.isSpecCompliantForm(body)) {
     return (await new Request(body).arrayBuffer()).byteLength;
   }
-  if (utils$1.isArrayBufferView(body)) {
+  if (utils$1.isArrayBufferView(body) || utils$1.isArrayBuffer(body)) {
     return body.byteLength;
   }
   if (utils$1.isURLSearchParams(body)) {
@@ -18770,14 +18820,15 @@ const fetchAdapter = isFetchSupported && (async (config) => {
         headers.setContentType(contentTypeHeader);
       }
       if (_request.body) {
-        data = trackStream(_request.body, DEFAULT_CHUNK_SIZE, fetchProgressDecorator(
+        const [onProgress, flush] = progressEventDecorator(
           requestContentLength,
-          progressEventReducer(onUploadProgress)
-        ), null, encodeText);
+          progressEventReducer(asyncDecorator(onUploadProgress))
+        );
+        data = trackStream(_request.body, DEFAULT_CHUNK_SIZE, onProgress, flush, encodeText);
       }
     }
     if (!utils$1.isString(withCredentials)) {
-      withCredentials = withCredentials ? "cors" : "omit";
+      withCredentials = withCredentials ? "include" : "omit";
     }
     request2 = new Request(url, {
       ...fetchOptions,
@@ -18786,7 +18837,7 @@ const fetchAdapter = isFetchSupported && (async (config) => {
       headers: headers.normalize().toJSON(),
       body: data,
       duplex: "half",
-      withCredentials
+      credentials: withCredentials
     });
     let response = await fetch(request2);
     const isStreamResponse = supportsResponseStream && (responseType === "stream" || responseType === "response");
@@ -18796,11 +18847,15 @@ const fetchAdapter = isFetchSupported && (async (config) => {
         options[prop] = response[prop];
       });
       const responseContentLength = utils$1.toFiniteNumber(response.headers.get("content-length"));
+      const [onProgress, flush] = onDownloadProgress && progressEventDecorator(
+        responseContentLength,
+        progressEventReducer(asyncDecorator(onDownloadProgress), true)
+      ) || [];
       response = new Response(
-        trackStream(response.body, DEFAULT_CHUNK_SIZE, onDownloadProgress && fetchProgressDecorator(
-          responseContentLength,
-          progressEventReducer(onDownloadProgress, true)
-        ), isStreamResponse && onFinish, encodeText),
+        trackStream(response.body, DEFAULT_CHUNK_SIZE, onProgress, () => {
+          flush && flush();
+          isStreamResponse && onFinish();
+        }, encodeText),
         options
       );
     }
@@ -18926,7 +18981,7 @@ function dispatchRequest(config) {
     return Promise.reject(reason);
   });
 }
-const VERSION = "1.7.2";
+const VERSION = "1.7.3";
 const validators$1 = {};
 ["object", "boolean", "number", "function", "string", "symbol"].forEach((type, i2) => {
   validators$1[type] = function validator2(thing) {
@@ -27720,6 +27775,27 @@ const _sfc_main$6 = {
     };
   }
 };
+const _hoisted_1$k = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$i = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M18 15s-4.419-6-6-6s-6 6-6 6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$h = [
+  _hoisted_2$i
+];
+function render$e(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$k, [..._hoisted_3$h]);
+}
+const __unplugin_components_0$1 = markRaw({ name: "hugeicons-arrow-up01", render: render$e });
 const _hoisted_1$j = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -27731,7 +27807,7 @@ const _hoisted_2$h = /* @__PURE__ */ createBaseVNode("path", {
   "stroke-linecap": "round",
   "stroke-linejoin": "round",
   "stroke-width": "1.5",
-  d: "M18 15s-4.419-6-6-6s-6 6-6 6",
+  d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2",
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$g = [
@@ -27740,74 +27816,13 @@ const _hoisted_3$g = [
 function render$d(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$j, [..._hoisted_3$g]);
 }
-const __unplugin_components_0 = markRaw({ name: "hugeicons-arrow-up01", render: render$d });
-const _hoisted_1$i = { class: "header" };
-const _hoisted_2$g = { class: "header-search" };
-const _sfc_main$5 = {
-  __name: "headerTop",
-  setup(__props) {
-    const userStore = useUserStore();
-    let value = ref("");
-    const router2 = useRouter();
-    function search(event) {
-      if (event.keyCode == 13) {
-        router2.push({ name: "search", query: { keyword: value.value } });
-      }
-    }
-    return (_ctx, _cache) => {
-      const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0;
-      const _component_n_icon = NIcon;
-      const _component_n_input = __unplugin_components_0$3;
-      const _component_n_avatar = __unplugin_components_3$1;
-      return openBlock(), createElementBlock("div", _hoisted_1$i, [
-        createBaseVNode("span", _hoisted_2$g, [
-          createVNode(_component_n_icon, {
-            size: "2rem",
-            style: { "transform": "rotate(-90deg)" },
-            onClick: windowBack
-          }, {
-            default: withCtx(() => [
-              createVNode(_component_i_hugeicons_arrow_up_01)
-            ]),
-            _: 1
-          }, 8, ["onClick"]),
-          createVNode(_component_n_input, {
-            value: unref(value),
-            "onUpdate:value": _cache[0] || (_cache[0] = ($event) => isRef(value) ? value.value = $event : value = $event),
-            type: "text",
-            placeholder: "搜索...",
-            onKeyup: search,
-            clearable: true
-          }, null, 8, ["value"])
-        ]),
-        !unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
-          key: 0,
-          class: "header-user text2",
-          round: "",
-          onClick: _cache[1] || (_cache[1] = ($event) => unref(router2).push({ name: "login" }))
-        }, {
-          default: withCtx(() => [
-            createTextVNode("登录")
-          ]),
-          _: 1
-        })) : createCommentVNode("", true),
-        unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
-          key: 1,
-          class: "header-user",
-          round: "",
-          src: unref(userStore).avatar,
-          onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "account" }))
-        }, null, 8, ["src"])) : createCommentVNode("", true)
-      ]);
-    };
-  }
-};
-const _hoisted_1$h = {
+const __unplugin_components_0 = markRaw({ name: "hugeicons-right-to-left-list-dash", render: render$d });
+const _hoisted_1$i = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$f = /* @__PURE__ */ createBaseVNode("path", {
+const _hoisted_2$g = /* @__PURE__ */ createBaseVNode("path", {
   fill: "none",
   stroke: "currentColor",
   "stroke-linecap": "round",
@@ -27817,18 +27832,18 @@ const _hoisted_2$f = /* @__PURE__ */ createBaseVNode("path", {
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$f = [
-  _hoisted_2$f
+  _hoisted_2$g
 ];
 function render$c(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$h, [..._hoisted_3$f]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$i, [..._hoisted_3$f]);
 }
 const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$c });
-const _hoisted_1$g = {
+const _hoisted_1$h = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$e = /* @__PURE__ */ createBaseVNode("g", {
+const _hoisted_2$f = /* @__PURE__ */ createBaseVNode("g", {
   fill: "none",
   stroke: "currentColor",
   "stroke-linecap": "round",
@@ -27847,12 +27862,35 @@ const _hoisted_2$e = /* @__PURE__ */ createBaseVNode("g", {
   /* @__PURE__ */ createBaseVNode("path", { d: "M5 16c1.208-2.581 5.712-2.75 7 0m-1.5-7a2 2 0 1 1-4 0a2 2 0 0 1 4 0" })
 ], -1);
 const _hoisted_3$e = [
-  _hoisted_2$e
+  _hoisted_2$f
 ];
 function render$b(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$g, [..._hoisted_3$e]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$h, [..._hoisted_3$e]);
 }
 const HugeiconsUserAccount = markRaw({ name: "hugeicons-user-account", render: render$b });
+const _hoisted_1$g = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$e = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
+], -1);
+const _hoisted_3$d = [
+  _hoisted_2$e
+];
+function render$a(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$g, [..._hoisted_3$d]);
+}
+const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$a });
 const _hoisted_1$f = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -27866,16 +27904,16 @@ const _hoisted_2$d = /* @__PURE__ */ createBaseVNode("g", {
   "stroke-width": "1.5",
   color: "currentColor"
 }, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
+  /* @__PURE__ */ createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
 ], -1);
-const _hoisted_3$d = [
+const _hoisted_3$c = [
   _hoisted_2$d
 ];
-function render$a(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$d]);
+function render$9(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$c]);
 }
-const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$a });
+const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$9 });
 const _hoisted_1$e = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -27889,41 +27927,18 @@ const _hoisted_2$c = /* @__PURE__ */ createBaseVNode("g", {
   "stroke-width": "1.5",
   color: "currentColor"
 }, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
-], -1);
-const _hoisted_3$c = [
-  _hoisted_2$c
-];
-function render$9(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$c]);
-}
-const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$9 });
-const _hoisted_1$d = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$b = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
   /* @__PURE__ */ createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
   /* @__PURE__ */ createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
 ], -1);
 const _hoisted_3$b = [
-  _hoisted_2$b
+  _hoisted_2$c
 ];
 function render$8(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$d, [..._hoisted_3$b]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$b]);
 }
 const HugeiconsSettings05 = markRaw({ name: "hugeicons-settings-05", render: render$8 });
-const _hoisted_1$c = { class: "nav-outer" };
-const _sfc_main$4 = /* @__PURE__ */ defineComponent({
+const _hoisted_1$d = { class: "nav-outer" };
+const _sfc_main$5 = /* @__PURE__ */ defineComponent({
   __name: "navigation",
   setup(__props) {
     const router2 = useRouter();
@@ -27943,6 +27958,9 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
       },
       { deep: true }
     );
+    onMounted(() => {
+      updateActiveItem(route.name, route.query);
+    });
     function updateActiveItem(key, query) {
       if (key == "playlist" && query.id == userStore.playlists?.[0]?.id) {
         activeNow.value = "likedList";
@@ -27985,8 +28003,8 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
       }
     );
     return (_ctx, _cache) => {
-      const _component_n_menu = __unplugin_components_0$2;
-      return openBlock(), createElementBlock("div", _hoisted_1$c, [
+      const _component_n_menu = __unplugin_components_0$3;
+      return openBlock(), createElementBlock("div", _hoisted_1$d, [
         createBaseVNode("div", {
           class: "header-title",
           onClick: _cache[0] || (_cache[0] = ($event) => unref(router2).push({ name: "home" }))
@@ -28002,7 +28020,87 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-74ac2553"]]);
+const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-92e25a40"]]);
+const _hoisted_1$c = { class: "header" };
+const _hoisted_2$b = { class: "header-search" };
+const _sfc_main$4 = {
+  __name: "headerTop",
+  setup(__props) {
+    const userStore = useUserStore();
+    let value = ref("");
+    let showNav = ref(false);
+    const router2 = useRouter();
+    function search(event) {
+      if (event.keyCode == 13) {
+        router2.push({ name: "search", query: { keyword: value.value } });
+      }
+    }
+    return (_ctx, _cache) => {
+      const _component_i_hugeicons_right_to_left_list_dash = __unplugin_components_0;
+      const _component_n_icon = NIcon;
+      const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0$1;
+      const _component_n_input = __unplugin_components_0$4;
+      const _component_n_avatar = __unplugin_components_4;
+      return openBlock(), createElementBlock("div", _hoisted_1$c, [
+        createVNode(_component_n_icon, {
+          class: "header-menu",
+          size: "2rem",
+          onClick: _cache[0] || (_cache[0] = ($event) => isRef(showNav) ? showNav.value = true : showNav = true)
+        }, {
+          default: withCtx(() => [
+            createVNode(_component_i_hugeicons_right_to_left_list_dash)
+          ]),
+          _: 1
+        }),
+        createBaseVNode("span", _hoisted_2$b, [
+          createVNode(_component_n_icon, {
+            size: "2rem",
+            style: { "transform": "rotate(-90deg)" },
+            onClick: windowBack
+          }, {
+            default: withCtx(() => [
+              createVNode(_component_i_hugeicons_arrow_up_01)
+            ]),
+            _: 1
+          }, 8, ["onClick"]),
+          createVNode(_component_n_input, {
+            value: unref(value),
+            "onUpdate:value": _cache[1] || (_cache[1] = ($event) => isRef(value) ? value.value = $event : value = $event),
+            type: "text",
+            placeholder: "搜索...",
+            onKeyup: search,
+            clearable: true
+          }, null, 8, ["value"])
+        ]),
+        !unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
+          key: 0,
+          class: "header-user text2",
+          round: "",
+          onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
+        }, {
+          default: withCtx(() => [
+            createTextVNode("登录")
+          ]),
+          _: 1
+        })) : createCommentVNode("", true),
+        unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
+          key: 1,
+          class: "header-user",
+          round: "",
+          src: unref(userStore).avatar,
+          onClick: _cache[3] || (_cache[3] = ($event) => unref(router2).push({ name: "account" }))
+        }, null, 8, ["src"])) : createCommentVNode("", true),
+        unref(showNav) ? (openBlock(), createElementBlock("div", {
+          key: 2,
+          class: "header-nav bg",
+          onClick: _cache[4] || (_cache[4] = ($event) => isRef(showNav) ? showNav.value = false : showNav = false)
+        }, [
+          createVNode(navigation)
+        ])) : createCommentVNode("", true)
+      ]);
+    };
+  }
+};
 const _hoisted_1$b = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -28193,7 +28291,7 @@ const _sfc_main$3 = {
       playinglistScrollbarRef.value.scrollTo({ top: playinglistItemRef.value?.[playStore.playlistIndex]?.offsetTop - 80, behavior: "smooth" });
     }
     return (_ctx, _cache) => {
-      const _component_n_tag = __unplugin_components_0$4;
+      const _component_n_tag = __unplugin_components_0$5;
       const _component_n_scrollbar = Scrollbar;
       return openBlock(), createElementBlock("div", _hoisted_1$3, [
         createVNode(_component_n_scrollbar, {
@@ -28258,45 +28356,1442 @@ const _sfc_main$3 = {
   }
 };
 const playinglist = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-6022213c"]]);
-const _hoisted_1$2 = { class: "ctrl-outer" };
-const _hoisted_2$1 = { class: "ctrl-box" };
-const _hoisted_3$1 = { class: "ctrl-img-box" };
-const _hoisted_4$1 = ["src"];
-const _hoisted_5$1 = { class: "ctrl-info-box" };
-const _hoisted_6 = { class: "ctrl-info-title text1" };
-const _hoisted_7 = { class: "ctrl-info-artist text2" };
-const _hoisted_8 = { class: "ctrl-info-lyric text3" };
-const _hoisted_9 = { class: "ctrl-center" };
-const _hoisted_10 = { class: "btn-control" };
-const _hoisted_11 = { class: "btn-like button" };
-const _hoisted_12 = { class: "btn-play-control" };
-const _hoisted_13 = { class: "btn-prev button" };
-const _hoisted_14 = { class: "btn-pause button" };
-const _hoisted_15 = { class: "btn-next button" };
-const _hoisted_16 = { class: "btn-loop button" };
-const _hoisted_17 = { class: "ctrl-progress-box" };
-const _hoisted_18 = { class: "ctrl-right" };
-const _hoisted_19 = { class: "btn-list button" };
+var defaultInstanceSettings = {
+  update: null,
+  begin: null,
+  loopBegin: null,
+  changeBegin: null,
+  change: null,
+  changeComplete: null,
+  loopComplete: null,
+  complete: null,
+  loop: 1,
+  direction: "normal",
+  autoplay: true,
+  timelineOffset: 0
+};
+var defaultTweenSettings = {
+  duration: 1e3,
+  delay: 0,
+  endDelay: 0,
+  easing: "easeOutElastic(1, .5)",
+  round: 0
+};
+var validTransforms = ["translateX", "translateY", "translateZ", "rotate", "rotateX", "rotateY", "rotateZ", "scale", "scaleX", "scaleY", "scaleZ", "skew", "skewX", "skewY", "perspective", "matrix", "matrix3d"];
+var cache = {
+  CSS: {},
+  springs: {}
+};
+function minMax(val, min, max) {
+  return Math.min(Math.max(val, min), max);
+}
+function stringContains(str, text) {
+  return str.indexOf(text) > -1;
+}
+function applyArguments(func, args) {
+  return func.apply(null, args);
+}
+var is = {
+  arr: function(a) {
+    return Array.isArray(a);
+  },
+  obj: function(a) {
+    return stringContains(Object.prototype.toString.call(a), "Object");
+  },
+  pth: function(a) {
+    return is.obj(a) && a.hasOwnProperty("totalLength");
+  },
+  svg: function(a) {
+    return a instanceof SVGElement;
+  },
+  inp: function(a) {
+    return a instanceof HTMLInputElement;
+  },
+  dom: function(a) {
+    return a.nodeType || is.svg(a);
+  },
+  str: function(a) {
+    return typeof a === "string";
+  },
+  fnc: function(a) {
+    return typeof a === "function";
+  },
+  und: function(a) {
+    return typeof a === "undefined";
+  },
+  nil: function(a) {
+    return is.und(a) || a === null;
+  },
+  hex: function(a) {
+    return /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(a);
+  },
+  rgb: function(a) {
+    return /^rgb/.test(a);
+  },
+  hsl: function(a) {
+    return /^hsl/.test(a);
+  },
+  col: function(a) {
+    return is.hex(a) || is.rgb(a) || is.hsl(a);
+  },
+  key: function(a) {
+    return !defaultInstanceSettings.hasOwnProperty(a) && !defaultTweenSettings.hasOwnProperty(a) && a !== "targets" && a !== "keyframes";
+  }
+};
+function parseEasingParameters(string) {
+  var match2 = /\(([^)]+)\)/.exec(string);
+  return match2 ? match2[1].split(",").map(function(p) {
+    return parseFloat(p);
+  }) : [];
+}
+function spring(string, duration2) {
+  var params = parseEasingParameters(string);
+  var mass = minMax(is.und(params[0]) ? 1 : params[0], 0.1, 100);
+  var stiffness = minMax(is.und(params[1]) ? 100 : params[1], 0.1, 100);
+  var damping = minMax(is.und(params[2]) ? 10 : params[2], 0.1, 100);
+  var velocity = minMax(is.und(params[3]) ? 0 : params[3], 0.1, 100);
+  var w0 = Math.sqrt(stiffness / mass);
+  var zeta = damping / (2 * Math.sqrt(stiffness * mass));
+  var wd = zeta < 1 ? w0 * Math.sqrt(1 - zeta * zeta) : 0;
+  var a = 1;
+  var b = zeta < 1 ? (zeta * w0 + -velocity) / wd : -velocity + w0;
+  function solver(t2) {
+    var progress = duration2 ? duration2 * t2 / 1e3 : t2;
+    if (zeta < 1) {
+      progress = Math.exp(-progress * zeta * w0) * (a * Math.cos(wd * progress) + b * Math.sin(wd * progress));
+    } else {
+      progress = (a + b * progress) * Math.exp(-progress * w0);
+    }
+    if (t2 === 0 || t2 === 1) {
+      return t2;
+    }
+    return 1 - progress;
+  }
+  function getDuration() {
+    var cached = cache.springs[string];
+    if (cached) {
+      return cached;
+    }
+    var frame = 1 / 6;
+    var elapsed = 0;
+    var rest = 0;
+    while (true) {
+      elapsed += frame;
+      if (solver(elapsed) === 1) {
+        rest++;
+        if (rest >= 16) {
+          break;
+        }
+      } else {
+        rest = 0;
+      }
+    }
+    var duration3 = elapsed * frame * 1e3;
+    cache.springs[string] = duration3;
+    return duration3;
+  }
+  return duration2 ? solver : getDuration;
+}
+function steps(steps2) {
+  if (steps2 === void 0) steps2 = 10;
+  return function(t2) {
+    return Math.ceil(minMax(t2, 1e-6, 1) * steps2) * (1 / steps2);
+  };
+}
+var bezier = function() {
+  var kSplineTableSize = 11;
+  var kSampleStepSize = 1 / (kSplineTableSize - 1);
+  function A(aA1, aA2) {
+    return 1 - 3 * aA2 + 3 * aA1;
+  }
+  function B(aA1, aA2) {
+    return 3 * aA2 - 6 * aA1;
+  }
+  function C(aA1) {
+    return 3 * aA1;
+  }
+  function calcBezier(aT, aA1, aA2) {
+    return ((A(aA1, aA2) * aT + B(aA1, aA2)) * aT + C(aA1)) * aT;
+  }
+  function getSlope(aT, aA1, aA2) {
+    return 3 * A(aA1, aA2) * aT * aT + 2 * B(aA1, aA2) * aT + C(aA1);
+  }
+  function binarySubdivide(aX, aA, aB, mX1, mX2) {
+    var currentX, currentT, i2 = 0;
+    do {
+      currentT = aA + (aB - aA) / 2;
+      currentX = calcBezier(currentT, mX1, mX2) - aX;
+      if (currentX > 0) {
+        aB = currentT;
+      } else {
+        aA = currentT;
+      }
+    } while (Math.abs(currentX) > 1e-7 && ++i2 < 10);
+    return currentT;
+  }
+  function newtonRaphsonIterate(aX, aGuessT, mX1, mX2) {
+    for (var i2 = 0; i2 < 4; ++i2) {
+      var currentSlope = getSlope(aGuessT, mX1, mX2);
+      if (currentSlope === 0) {
+        return aGuessT;
+      }
+      var currentX = calcBezier(aGuessT, mX1, mX2) - aX;
+      aGuessT -= currentX / currentSlope;
+    }
+    return aGuessT;
+  }
+  function bezier2(mX1, mY1, mX2, mY2) {
+    if (!(0 <= mX1 && mX1 <= 1 && 0 <= mX2 && mX2 <= 1)) {
+      return;
+    }
+    var sampleValues = new Float32Array(kSplineTableSize);
+    if (mX1 !== mY1 || mX2 !== mY2) {
+      for (var i2 = 0; i2 < kSplineTableSize; ++i2) {
+        sampleValues[i2] = calcBezier(i2 * kSampleStepSize, mX1, mX2);
+      }
+    }
+    function getTForX(aX) {
+      var intervalStart = 0;
+      var currentSample = 1;
+      var lastSample = kSplineTableSize - 1;
+      for (; currentSample !== lastSample && sampleValues[currentSample] <= aX; ++currentSample) {
+        intervalStart += kSampleStepSize;
+      }
+      --currentSample;
+      var dist = (aX - sampleValues[currentSample]) / (sampleValues[currentSample + 1] - sampleValues[currentSample]);
+      var guessForT = intervalStart + dist * kSampleStepSize;
+      var initialSlope = getSlope(guessForT, mX1, mX2);
+      if (initialSlope >= 1e-3) {
+        return newtonRaphsonIterate(aX, guessForT, mX1, mX2);
+      } else if (initialSlope === 0) {
+        return guessForT;
+      } else {
+        return binarySubdivide(aX, intervalStart, intervalStart + kSampleStepSize, mX1, mX2);
+      }
+    }
+    return function(x) {
+      if (mX1 === mY1 && mX2 === mY2) {
+        return x;
+      }
+      if (x === 0 || x === 1) {
+        return x;
+      }
+      return calcBezier(getTForX(x), mY1, mY2);
+    };
+  }
+  return bezier2;
+}();
+var penner = function() {
+  var eases = { linear: function() {
+    return function(t2) {
+      return t2;
+    };
+  } };
+  var functionEasings = {
+    Sine: function() {
+      return function(t2) {
+        return 1 - Math.cos(t2 * Math.PI / 2);
+      };
+    },
+    Expo: function() {
+      return function(t2) {
+        return t2 ? Math.pow(2, 10 * t2 - 10) : 0;
+      };
+    },
+    Circ: function() {
+      return function(t2) {
+        return 1 - Math.sqrt(1 - t2 * t2);
+      };
+    },
+    Back: function() {
+      return function(t2) {
+        return t2 * t2 * (3 * t2 - 2);
+      };
+    },
+    Bounce: function() {
+      return function(t2) {
+        var pow2, b = 4;
+        while (t2 < ((pow2 = Math.pow(2, --b)) - 1) / 11) {
+        }
+        return 1 / Math.pow(4, 3 - b) - 7.5625 * Math.pow((pow2 * 3 - 2) / 22 - t2, 2);
+      };
+    },
+    Elastic: function(amplitude, period) {
+      if (amplitude === void 0) amplitude = 1;
+      if (period === void 0) period = 0.5;
+      var a = minMax(amplitude, 1, 10);
+      var p = minMax(period, 0.1, 2);
+      return function(t2) {
+        return t2 === 0 || t2 === 1 ? t2 : -a * Math.pow(2, 10 * (t2 - 1)) * Math.sin((t2 - 1 - p / (Math.PI * 2) * Math.asin(1 / a)) * (Math.PI * 2) / p);
+      };
+    }
+  };
+  var baseEasings = ["Quad", "Cubic", "Quart", "Quint"];
+  baseEasings.forEach(function(name, i2) {
+    functionEasings[name] = function() {
+      return function(t2) {
+        return Math.pow(t2, i2 + 2);
+      };
+    };
+  });
+  Object.keys(functionEasings).forEach(function(name) {
+    var easeIn = functionEasings[name];
+    eases["easeIn" + name] = easeIn;
+    eases["easeOut" + name] = function(a, b) {
+      return function(t2) {
+        return 1 - easeIn(a, b)(1 - t2);
+      };
+    };
+    eases["easeInOut" + name] = function(a, b) {
+      return function(t2) {
+        return t2 < 0.5 ? easeIn(a, b)(t2 * 2) / 2 : 1 - easeIn(a, b)(t2 * -2 + 2) / 2;
+      };
+    };
+    eases["easeOutIn" + name] = function(a, b) {
+      return function(t2) {
+        return t2 < 0.5 ? (1 - easeIn(a, b)(1 - t2 * 2)) / 2 : (easeIn(a, b)(t2 * 2 - 1) + 1) / 2;
+      };
+    };
+  });
+  return eases;
+}();
+function parseEasings(easing, duration2) {
+  if (is.fnc(easing)) {
+    return easing;
+  }
+  var name = easing.split("(")[0];
+  var ease = penner[name];
+  var args = parseEasingParameters(easing);
+  switch (name) {
+    case "spring":
+      return spring(easing, duration2);
+    case "cubicBezier":
+      return applyArguments(bezier, args);
+    case "steps":
+      return applyArguments(steps, args);
+    default:
+      return applyArguments(ease, args);
+  }
+}
+function selectString(str) {
+  try {
+    var nodes = document.querySelectorAll(str);
+    return nodes;
+  } catch (e) {
+    return;
+  }
+}
+function filterArray(arr, callback) {
+  var len2 = arr.length;
+  var thisArg = arguments.length >= 2 ? arguments[1] : void 0;
+  var result = [];
+  for (var i2 = 0; i2 < len2; i2++) {
+    if (i2 in arr) {
+      var val = arr[i2];
+      if (callback.call(thisArg, val, i2, arr)) {
+        result.push(val);
+      }
+    }
+  }
+  return result;
+}
+function flattenArray(arr) {
+  return arr.reduce(function(a, b) {
+    return a.concat(is.arr(b) ? flattenArray(b) : b);
+  }, []);
+}
+function toArray(o2) {
+  if (is.arr(o2)) {
+    return o2;
+  }
+  if (is.str(o2)) {
+    o2 = selectString(o2) || o2;
+  }
+  if (o2 instanceof NodeList || o2 instanceof HTMLCollection) {
+    return [].slice.call(o2);
+  }
+  return [o2];
+}
+function arrayContains(arr, val) {
+  return arr.some(function(a) {
+    return a === val;
+  });
+}
+function cloneObject(o2) {
+  var clone = {};
+  for (var p in o2) {
+    clone[p] = o2[p];
+  }
+  return clone;
+}
+function replaceObjectProps(o1, o2) {
+  var o3 = cloneObject(o1);
+  for (var p in o1) {
+    o3[p] = o2.hasOwnProperty(p) ? o2[p] : o1[p];
+  }
+  return o3;
+}
+function mergeObjects(o1, o2) {
+  var o3 = cloneObject(o1);
+  for (var p in o2) {
+    o3[p] = is.und(o1[p]) ? o2[p] : o1[p];
+  }
+  return o3;
+}
+function rgbToRgba(rgbValue) {
+  var rgb = /rgb\((\d+,\s*[\d]+,\s*[\d]+)\)/g.exec(rgbValue);
+  return rgb ? "rgba(" + rgb[1] + ",1)" : rgbValue;
+}
+function hexToRgba(hexValue) {
+  var rgx = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+  var hex = hexValue.replace(rgx, function(m, r3, g2, b2) {
+    return r3 + r3 + g2 + g2 + b2 + b2;
+  });
+  var rgb = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  var r2 = parseInt(rgb[1], 16);
+  var g = parseInt(rgb[2], 16);
+  var b = parseInt(rgb[3], 16);
+  return "rgba(" + r2 + "," + g + "," + b + ",1)";
+}
+function hslToRgba(hslValue) {
+  var hsl = /hsl\((\d+),\s*([\d.]+)%,\s*([\d.]+)%\)/g.exec(hslValue) || /hsla\((\d+),\s*([\d.]+)%,\s*([\d.]+)%,\s*([\d.]+)\)/g.exec(hslValue);
+  var h2 = parseInt(hsl[1], 10) / 360;
+  var s = parseInt(hsl[2], 10) / 100;
+  var l = parseInt(hsl[3], 10) / 100;
+  var a = hsl[4] || 1;
+  function hue2rgb2(p2, q2, t2) {
+    if (t2 < 0) {
+      t2 += 1;
+    }
+    if (t2 > 1) {
+      t2 -= 1;
+    }
+    if (t2 < 1 / 6) {
+      return p2 + (q2 - p2) * 6 * t2;
+    }
+    if (t2 < 1 / 2) {
+      return q2;
+    }
+    if (t2 < 2 / 3) {
+      return p2 + (q2 - p2) * (2 / 3 - t2) * 6;
+    }
+    return p2;
+  }
+  var r2, g, b;
+  if (s == 0) {
+    r2 = g = b = l;
+  } else {
+    var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+    var p = 2 * l - q;
+    r2 = hue2rgb2(p, q, h2 + 1 / 3);
+    g = hue2rgb2(p, q, h2);
+    b = hue2rgb2(p, q, h2 - 1 / 3);
+  }
+  return "rgba(" + r2 * 255 + "," + g * 255 + "," + b * 255 + "," + a + ")";
+}
+function colorToRgb(val) {
+  if (is.rgb(val)) {
+    return rgbToRgba(val);
+  }
+  if (is.hex(val)) {
+    return hexToRgba(val);
+  }
+  if (is.hsl(val)) {
+    return hslToRgba(val);
+  }
+}
+function getUnit(val) {
+  var split = /[+-]?\d*\.?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?(%|px|pt|em|rem|in|cm|mm|ex|ch|pc|vw|vh|vmin|vmax|deg|rad|turn)?$/.exec(val);
+  if (split) {
+    return split[1];
+  }
+}
+function getTransformUnit(propName) {
+  if (stringContains(propName, "translate") || propName === "perspective") {
+    return "px";
+  }
+  if (stringContains(propName, "rotate") || stringContains(propName, "skew")) {
+    return "deg";
+  }
+}
+function getFunctionValue(val, animatable) {
+  if (!is.fnc(val)) {
+    return val;
+  }
+  return val(animatable.target, animatable.id, animatable.total);
+}
+function getAttribute(el, prop) {
+  return el.getAttribute(prop);
+}
+function convertPxToUnit(el, value, unit) {
+  var valueUnit = getUnit(value);
+  if (arrayContains([unit, "deg", "rad", "turn"], valueUnit)) {
+    return value;
+  }
+  var cached = cache.CSS[value + unit];
+  if (!is.und(cached)) {
+    return cached;
+  }
+  var baseline = 100;
+  var tempEl = document.createElement(el.tagName);
+  var parentEl = el.parentNode && el.parentNode !== document ? el.parentNode : document.body;
+  parentEl.appendChild(tempEl);
+  tempEl.style.position = "absolute";
+  tempEl.style.width = baseline + unit;
+  var factor = baseline / tempEl.offsetWidth;
+  parentEl.removeChild(tempEl);
+  var convertedUnit = factor * parseFloat(value);
+  cache.CSS[value + unit] = convertedUnit;
+  return convertedUnit;
+}
+function getCSSValue(el, prop, unit) {
+  if (prop in el.style) {
+    var uppercasePropName = prop.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
+    var value = el.style[prop] || getComputedStyle(el).getPropertyValue(uppercasePropName) || "0";
+    return unit ? convertPxToUnit(el, value, unit) : value;
+  }
+}
+function getAnimationType(el, prop) {
+  if (is.dom(el) && !is.inp(el) && (!is.nil(getAttribute(el, prop)) || is.svg(el) && el[prop])) {
+    return "attribute";
+  }
+  if (is.dom(el) && arrayContains(validTransforms, prop)) {
+    return "transform";
+  }
+  if (is.dom(el) && (prop !== "transform" && getCSSValue(el, prop))) {
+    return "css";
+  }
+  if (el[prop] != null) {
+    return "object";
+  }
+}
+function getElementTransforms(el) {
+  if (!is.dom(el)) {
+    return;
+  }
+  var str = el.style.transform || "";
+  var reg = /(\w+)\(([^)]*)\)/g;
+  var transforms = /* @__PURE__ */ new Map();
+  var m;
+  while (m = reg.exec(str)) {
+    transforms.set(m[1], m[2]);
+  }
+  return transforms;
+}
+function getTransformValue(el, propName, animatable, unit) {
+  var defaultVal = stringContains(propName, "scale") ? 1 : 0 + getTransformUnit(propName);
+  var value = getElementTransforms(el).get(propName) || defaultVal;
+  if (animatable) {
+    animatable.transforms.list.set(propName, value);
+    animatable.transforms["last"] = propName;
+  }
+  return unit ? convertPxToUnit(el, value, unit) : value;
+}
+function getOriginalTargetValue(target, propName, unit, animatable) {
+  switch (getAnimationType(target, propName)) {
+    case "transform":
+      return getTransformValue(target, propName, animatable, unit);
+    case "css":
+      return getCSSValue(target, propName, unit);
+    case "attribute":
+      return getAttribute(target, propName);
+    default:
+      return target[propName] || 0;
+  }
+}
+function getRelativeValue(to, from) {
+  var operator = /^(\*=|\+=|-=)/.exec(to);
+  if (!operator) {
+    return to;
+  }
+  var u = getUnit(to) || 0;
+  var x = parseFloat(from);
+  var y = parseFloat(to.replace(operator[0], ""));
+  switch (operator[0][0]) {
+    case "+":
+      return x + y + u;
+    case "-":
+      return x - y + u;
+    case "*":
+      return x * y + u;
+  }
+}
+function validateValue(val, unit) {
+  if (is.col(val)) {
+    return colorToRgb(val);
+  }
+  if (/\s/g.test(val)) {
+    return val;
+  }
+  var originalUnit = getUnit(val);
+  var unitLess = originalUnit ? val.substr(0, val.length - originalUnit.length) : val;
+  if (unit) {
+    return unitLess + unit;
+  }
+  return unitLess;
+}
+function getDistance(p1, p2) {
+  return Math.sqrt(Math.pow(p2.x - p1.x, 2) + Math.pow(p2.y - p1.y, 2));
+}
+function getCircleLength(el) {
+  return Math.PI * 2 * getAttribute(el, "r");
+}
+function getRectLength(el) {
+  return getAttribute(el, "width") * 2 + getAttribute(el, "height") * 2;
+}
+function getLineLength(el) {
+  return getDistance(
+    { x: getAttribute(el, "x1"), y: getAttribute(el, "y1") },
+    { x: getAttribute(el, "x2"), y: getAttribute(el, "y2") }
+  );
+}
+function getPolylineLength(el) {
+  var points = el.points;
+  var totalLength = 0;
+  var previousPos;
+  for (var i2 = 0; i2 < points.numberOfItems; i2++) {
+    var currentPos = points.getItem(i2);
+    if (i2 > 0) {
+      totalLength += getDistance(previousPos, currentPos);
+    }
+    previousPos = currentPos;
+  }
+  return totalLength;
+}
+function getPolygonLength(el) {
+  var points = el.points;
+  return getPolylineLength(el) + getDistance(points.getItem(points.numberOfItems - 1), points.getItem(0));
+}
+function getTotalLength(el) {
+  if (el.getTotalLength) {
+    return el.getTotalLength();
+  }
+  switch (el.tagName.toLowerCase()) {
+    case "circle":
+      return getCircleLength(el);
+    case "rect":
+      return getRectLength(el);
+    case "line":
+      return getLineLength(el);
+    case "polyline":
+      return getPolylineLength(el);
+    case "polygon":
+      return getPolygonLength(el);
+  }
+}
+function setDashoffset(el) {
+  var pathLength = getTotalLength(el);
+  el.setAttribute("stroke-dasharray", pathLength);
+  return pathLength;
+}
+function getParentSvgEl(el) {
+  var parentEl = el.parentNode;
+  while (is.svg(parentEl)) {
+    if (!is.svg(parentEl.parentNode)) {
+      break;
+    }
+    parentEl = parentEl.parentNode;
+  }
+  return parentEl;
+}
+function getParentSvg(pathEl, svgData) {
+  var svg = svgData || {};
+  var parentSvgEl = svg.el || getParentSvgEl(pathEl);
+  var rect = parentSvgEl.getBoundingClientRect();
+  var viewBoxAttr = getAttribute(parentSvgEl, "viewBox");
+  var width = rect.width;
+  var height = rect.height;
+  var viewBox = svg.viewBox || (viewBoxAttr ? viewBoxAttr.split(" ") : [0, 0, width, height]);
+  return {
+    el: parentSvgEl,
+    viewBox,
+    x: viewBox[0] / 1,
+    y: viewBox[1] / 1,
+    w: width,
+    h: height,
+    vW: viewBox[2],
+    vH: viewBox[3]
+  };
+}
+function getPath(path, percent) {
+  var pathEl = is.str(path) ? selectString(path)[0] : path;
+  var p = percent || 100;
+  return function(property2) {
+    return {
+      property: property2,
+      el: pathEl,
+      svg: getParentSvg(pathEl),
+      totalLength: getTotalLength(pathEl) * (p / 100)
+    };
+  };
+}
+function getPathProgress(path, progress, isPathTargetInsideSVG) {
+  function point(offset) {
+    if (offset === void 0) offset = 0;
+    var l = progress + offset >= 1 ? progress + offset : 0;
+    return path.el.getPointAtLength(l);
+  }
+  var svg = getParentSvg(path.el, path.svg);
+  var p = point();
+  var p0 = point(-1);
+  var p1 = point(1);
+  var scaleX = isPathTargetInsideSVG ? 1 : svg.w / svg.vW;
+  var scaleY = isPathTargetInsideSVG ? 1 : svg.h / svg.vH;
+  switch (path.property) {
+    case "x":
+      return (p.x - svg.x) * scaleX;
+    case "y":
+      return (p.y - svg.y) * scaleY;
+    case "angle":
+      return Math.atan2(p1.y - p0.y, p1.x - p0.x) * 180 / Math.PI;
+  }
+}
+function decomposeValue(val, unit) {
+  var rgx = /[+-]?\d*\.?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?/g;
+  var value = validateValue(is.pth(val) ? val.totalLength : val, unit) + "";
+  return {
+    original: value,
+    numbers: value.match(rgx) ? value.match(rgx).map(Number) : [0],
+    strings: is.str(val) || unit ? value.split(rgx) : []
+  };
+}
+function parseTargets(targets) {
+  var targetsArray = targets ? flattenArray(is.arr(targets) ? targets.map(toArray) : toArray(targets)) : [];
+  return filterArray(targetsArray, function(item, pos, self2) {
+    return self2.indexOf(item) === pos;
+  });
+}
+function getAnimatables(targets) {
+  var parsed = parseTargets(targets);
+  return parsed.map(function(t2, i2) {
+    return { target: t2, id: i2, total: parsed.length, transforms: { list: getElementTransforms(t2) } };
+  });
+}
+function normalizePropertyTweens(prop, tweenSettings) {
+  var settings = cloneObject(tweenSettings);
+  if (/^spring/.test(settings.easing)) {
+    settings.duration = spring(settings.easing);
+  }
+  if (is.arr(prop)) {
+    var l = prop.length;
+    var isFromTo = l === 2 && !is.obj(prop[0]);
+    if (!isFromTo) {
+      if (!is.fnc(tweenSettings.duration)) {
+        settings.duration = tweenSettings.duration / l;
+      }
+    } else {
+      prop = { value: prop };
+    }
+  }
+  var propArray = is.arr(prop) ? prop : [prop];
+  return propArray.map(function(v, i2) {
+    var obj = is.obj(v) && !is.pth(v) ? v : { value: v };
+    if (is.und(obj.delay)) {
+      obj.delay = !i2 ? tweenSettings.delay : 0;
+    }
+    if (is.und(obj.endDelay)) {
+      obj.endDelay = i2 === propArray.length - 1 ? tweenSettings.endDelay : 0;
+    }
+    return obj;
+  }).map(function(k) {
+    return mergeObjects(k, settings);
+  });
+}
+function flattenKeyframes(keyframes) {
+  var propertyNames = filterArray(flattenArray(keyframes.map(function(key) {
+    return Object.keys(key);
+  })), function(p) {
+    return is.key(p);
+  }).reduce(function(a, b) {
+    if (a.indexOf(b) < 0) {
+      a.push(b);
+    }
+    return a;
+  }, []);
+  var properties = {};
+  var loop = function(i3) {
+    var propName = propertyNames[i3];
+    properties[propName] = keyframes.map(function(key) {
+      var newKey = {};
+      for (var p in key) {
+        if (is.key(p)) {
+          if (p == propName) {
+            newKey.value = key[p];
+          }
+        } else {
+          newKey[p] = key[p];
+        }
+      }
+      return newKey;
+    });
+  };
+  for (var i2 = 0; i2 < propertyNames.length; i2++) loop(i2);
+  return properties;
+}
+function getProperties(tweenSettings, params) {
+  var properties = [];
+  var keyframes = params.keyframes;
+  if (keyframes) {
+    params = mergeObjects(flattenKeyframes(keyframes), params);
+  }
+  for (var p in params) {
+    if (is.key(p)) {
+      properties.push({
+        name: p,
+        tweens: normalizePropertyTweens(params[p], tweenSettings)
+      });
+    }
+  }
+  return properties;
+}
+function normalizeTweenValues(tween, animatable) {
+  var t2 = {};
+  for (var p in tween) {
+    var value = getFunctionValue(tween[p], animatable);
+    if (is.arr(value)) {
+      value = value.map(function(v) {
+        return getFunctionValue(v, animatable);
+      });
+      if (value.length === 1) {
+        value = value[0];
+      }
+    }
+    t2[p] = value;
+  }
+  t2.duration = parseFloat(t2.duration);
+  t2.delay = parseFloat(t2.delay);
+  return t2;
+}
+function normalizeTweens(prop, animatable) {
+  var previousTween;
+  return prop.tweens.map(function(t2) {
+    var tween = normalizeTweenValues(t2, animatable);
+    var tweenValue = tween.value;
+    var to = is.arr(tweenValue) ? tweenValue[1] : tweenValue;
+    var toUnit = getUnit(to);
+    var originalValue = getOriginalTargetValue(animatable.target, prop.name, toUnit, animatable);
+    var previousValue = previousTween ? previousTween.to.original : originalValue;
+    var from = is.arr(tweenValue) ? tweenValue[0] : previousValue;
+    var fromUnit = getUnit(from) || getUnit(originalValue);
+    var unit = toUnit || fromUnit;
+    if (is.und(to)) {
+      to = previousValue;
+    }
+    tween.from = decomposeValue(from, unit);
+    tween.to = decomposeValue(getRelativeValue(to, from), unit);
+    tween.start = previousTween ? previousTween.end : 0;
+    tween.end = tween.start + tween.delay + tween.duration + tween.endDelay;
+    tween.easing = parseEasings(tween.easing, tween.duration);
+    tween.isPath = is.pth(tweenValue);
+    tween.isPathTargetInsideSVG = tween.isPath && is.svg(animatable.target);
+    tween.isColor = is.col(tween.from.original);
+    if (tween.isColor) {
+      tween.round = 1;
+    }
+    previousTween = tween;
+    return tween;
+  });
+}
+var setProgressValue = {
+  css: function(t2, p, v) {
+    return t2.style[p] = v;
+  },
+  attribute: function(t2, p, v) {
+    return t2.setAttribute(p, v);
+  },
+  object: function(t2, p, v) {
+    return t2[p] = v;
+  },
+  transform: function(t2, p, v, transforms, manual) {
+    transforms.list.set(p, v);
+    if (p === transforms.last || manual) {
+      var str = "";
+      transforms.list.forEach(function(value, prop) {
+        str += prop + "(" + value + ") ";
+      });
+      t2.style.transform = str;
+    }
+  }
+};
+function setTargetsValue(targets, properties) {
+  var animatables = getAnimatables(targets);
+  animatables.forEach(function(animatable) {
+    for (var property2 in properties) {
+      var value = getFunctionValue(properties[property2], animatable);
+      var target = animatable.target;
+      var valueUnit = getUnit(value);
+      var originalValue = getOriginalTargetValue(target, property2, valueUnit, animatable);
+      var unit = valueUnit || getUnit(originalValue);
+      var to = getRelativeValue(validateValue(value, unit), originalValue);
+      var animType = getAnimationType(target, property2);
+      setProgressValue[animType](target, property2, to, animatable.transforms, true);
+    }
+  });
+}
+function createAnimation(animatable, prop) {
+  var animType = getAnimationType(animatable.target, prop.name);
+  if (animType) {
+    var tweens = normalizeTweens(prop, animatable);
+    var lastTween = tweens[tweens.length - 1];
+    return {
+      type: animType,
+      property: prop.name,
+      animatable,
+      tweens,
+      duration: lastTween.end,
+      delay: tweens[0].delay,
+      endDelay: lastTween.endDelay
+    };
+  }
+}
+function getAnimations(animatables, properties) {
+  return filterArray(flattenArray(animatables.map(function(animatable) {
+    return properties.map(function(prop) {
+      return createAnimation(animatable, prop);
+    });
+  })), function(a) {
+    return !is.und(a);
+  });
+}
+function getInstanceTimings(animations, tweenSettings) {
+  var animLength = animations.length;
+  var getTlOffset = function(anim) {
+    return anim.timelineOffset ? anim.timelineOffset : 0;
+  };
+  var timings = {};
+  timings.duration = animLength ? Math.max.apply(Math, animations.map(function(anim) {
+    return getTlOffset(anim) + anim.duration;
+  })) : tweenSettings.duration;
+  timings.delay = animLength ? Math.min.apply(Math, animations.map(function(anim) {
+    return getTlOffset(anim) + anim.delay;
+  })) : tweenSettings.delay;
+  timings.endDelay = animLength ? timings.duration - Math.max.apply(Math, animations.map(function(anim) {
+    return getTlOffset(anim) + anim.duration - anim.endDelay;
+  })) : tweenSettings.endDelay;
+  return timings;
+}
+var instanceID = 0;
+function createNewInstance(params) {
+  var instanceSettings = replaceObjectProps(defaultInstanceSettings, params);
+  var tweenSettings = replaceObjectProps(defaultTweenSettings, params);
+  var properties = getProperties(tweenSettings, params);
+  var animatables = getAnimatables(params.targets);
+  var animations = getAnimations(animatables, properties);
+  var timings = getInstanceTimings(animations, tweenSettings);
+  var id = instanceID;
+  instanceID++;
+  return mergeObjects(instanceSettings, {
+    id,
+    children: [],
+    animatables,
+    animations,
+    duration: timings.duration,
+    delay: timings.delay,
+    endDelay: timings.endDelay
+  });
+}
+var activeInstances = [];
+var engine = function() {
+  var raf;
+  function play() {
+    if (!raf && (!isDocumentHidden() || !anime.suspendWhenDocumentHidden) && activeInstances.length > 0) {
+      raf = requestAnimationFrame(step);
+    }
+  }
+  function step(t2) {
+    var activeInstancesLength = activeInstances.length;
+    var i2 = 0;
+    while (i2 < activeInstancesLength) {
+      var activeInstance = activeInstances[i2];
+      if (!activeInstance.paused) {
+        activeInstance.tick(t2);
+        i2++;
+      } else {
+        activeInstances.splice(i2, 1);
+        activeInstancesLength--;
+      }
+    }
+    raf = i2 > 0 ? requestAnimationFrame(step) : void 0;
+  }
+  function handleVisibilityChange() {
+    if (!anime.suspendWhenDocumentHidden) {
+      return;
+    }
+    if (isDocumentHidden()) {
+      raf = cancelAnimationFrame(raf);
+    } else {
+      activeInstances.forEach(
+        function(instance) {
+          return instance._onDocumentVisibility();
+        }
+      );
+      engine();
+    }
+  }
+  if (typeof document !== "undefined") {
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+  }
+  return play;
+}();
+function isDocumentHidden() {
+  return !!document && document.hidden;
+}
+function anime(params) {
+  if (params === void 0) params = {};
+  var startTime = 0, lastTime = 0, now = 0;
+  var children, childrenLength = 0;
+  var resolve = null;
+  function makePromise(instance2) {
+    var promise = window.Promise && new Promise(function(_resolve) {
+      return resolve = _resolve;
+    });
+    instance2.finished = promise;
+    return promise;
+  }
+  var instance = createNewInstance(params);
+  makePromise(instance);
+  function toggleInstanceDirection() {
+    var direction = instance.direction;
+    if (direction !== "alternate") {
+      instance.direction = direction !== "normal" ? "normal" : "reverse";
+    }
+    instance.reversed = !instance.reversed;
+    children.forEach(function(child) {
+      return child.reversed = instance.reversed;
+    });
+  }
+  function adjustTime(time2) {
+    return instance.reversed ? instance.duration - time2 : time2;
+  }
+  function resetTime() {
+    startTime = 0;
+    lastTime = adjustTime(instance.currentTime) * (1 / anime.speed);
+  }
+  function seekChild(time2, child) {
+    if (child) {
+      child.seek(time2 - child.timelineOffset);
+    }
+  }
+  function syncInstanceChildren(time2) {
+    if (!instance.reversePlayback) {
+      for (var i2 = 0; i2 < childrenLength; i2++) {
+        seekChild(time2, children[i2]);
+      }
+    } else {
+      for (var i$1 = childrenLength; i$1--; ) {
+        seekChild(time2, children[i$1]);
+      }
+    }
+  }
+  function setAnimationsProgress(insTime) {
+    var i2 = 0;
+    var animations = instance.animations;
+    var animationsLength = animations.length;
+    while (i2 < animationsLength) {
+      var anim = animations[i2];
+      var animatable = anim.animatable;
+      var tweens = anim.tweens;
+      var tweenLength = tweens.length - 1;
+      var tween = tweens[tweenLength];
+      if (tweenLength) {
+        tween = filterArray(tweens, function(t2) {
+          return insTime < t2.end;
+        })[0] || tween;
+      }
+      var elapsed = minMax(insTime - tween.start - tween.delay, 0, tween.duration) / tween.duration;
+      var eased = isNaN(elapsed) ? 1 : tween.easing(elapsed);
+      var strings = tween.to.strings;
+      var round = tween.round;
+      var numbers = [];
+      var toNumbersLength = tween.to.numbers.length;
+      var progress = void 0;
+      for (var n2 = 0; n2 < toNumbersLength; n2++) {
+        var value = void 0;
+        var toNumber = tween.to.numbers[n2];
+        var fromNumber = tween.from.numbers[n2] || 0;
+        if (!tween.isPath) {
+          value = fromNumber + eased * (toNumber - fromNumber);
+        } else {
+          value = getPathProgress(tween.value, eased * toNumber, tween.isPathTargetInsideSVG);
+        }
+        if (round) {
+          if (!(tween.isColor && n2 > 2)) {
+            value = Math.round(value * round) / round;
+          }
+        }
+        numbers.push(value);
+      }
+      var stringsLength = strings.length;
+      if (!stringsLength) {
+        progress = numbers[0];
+      } else {
+        progress = strings[0];
+        for (var s = 0; s < stringsLength; s++) {
+          strings[s];
+          var b = strings[s + 1];
+          var n$1 = numbers[s];
+          if (!isNaN(n$1)) {
+            if (!b) {
+              progress += n$1 + " ";
+            } else {
+              progress += n$1 + b;
+            }
+          }
+        }
+      }
+      setProgressValue[anim.type](animatable.target, anim.property, progress, animatable.transforms);
+      anim.currentValue = progress;
+      i2++;
+    }
+  }
+  function setCallback(cb) {
+    if (instance[cb] && !instance.passThrough) {
+      instance[cb](instance);
+    }
+  }
+  function countIteration() {
+    if (instance.remaining && instance.remaining !== true) {
+      instance.remaining--;
+    }
+  }
+  function setInstanceProgress(engineTime) {
+    var insDuration = instance.duration;
+    var insDelay = instance.delay;
+    var insEndDelay = insDuration - instance.endDelay;
+    var insTime = adjustTime(engineTime);
+    instance.progress = minMax(insTime / insDuration * 100, 0, 100);
+    instance.reversePlayback = insTime < instance.currentTime;
+    if (children) {
+      syncInstanceChildren(insTime);
+    }
+    if (!instance.began && instance.currentTime > 0) {
+      instance.began = true;
+      setCallback("begin");
+    }
+    if (!instance.loopBegan && instance.currentTime > 0) {
+      instance.loopBegan = true;
+      setCallback("loopBegin");
+    }
+    if (insTime <= insDelay && instance.currentTime !== 0) {
+      setAnimationsProgress(0);
+    }
+    if (insTime >= insEndDelay && instance.currentTime !== insDuration || !insDuration) {
+      setAnimationsProgress(insDuration);
+    }
+    if (insTime > insDelay && insTime < insEndDelay) {
+      if (!instance.changeBegan) {
+        instance.changeBegan = true;
+        instance.changeCompleted = false;
+        setCallback("changeBegin");
+      }
+      setCallback("change");
+      setAnimationsProgress(insTime);
+    } else {
+      if (instance.changeBegan) {
+        instance.changeCompleted = true;
+        instance.changeBegan = false;
+        setCallback("changeComplete");
+      }
+    }
+    instance.currentTime = minMax(insTime, 0, insDuration);
+    if (instance.began) {
+      setCallback("update");
+    }
+    if (engineTime >= insDuration) {
+      lastTime = 0;
+      countIteration();
+      if (!instance.remaining) {
+        instance.paused = true;
+        if (!instance.completed) {
+          instance.completed = true;
+          setCallback("loopComplete");
+          setCallback("complete");
+          if (!instance.passThrough && "Promise" in window) {
+            resolve();
+            makePromise(instance);
+          }
+        }
+      } else {
+        startTime = now;
+        setCallback("loopComplete");
+        instance.loopBegan = false;
+        if (instance.direction === "alternate") {
+          toggleInstanceDirection();
+        }
+      }
+    }
+  }
+  instance.reset = function() {
+    var direction = instance.direction;
+    instance.passThrough = false;
+    instance.currentTime = 0;
+    instance.progress = 0;
+    instance.paused = true;
+    instance.began = false;
+    instance.loopBegan = false;
+    instance.changeBegan = false;
+    instance.completed = false;
+    instance.changeCompleted = false;
+    instance.reversePlayback = false;
+    instance.reversed = direction === "reverse";
+    instance.remaining = instance.loop;
+    children = instance.children;
+    childrenLength = children.length;
+    for (var i2 = childrenLength; i2--; ) {
+      instance.children[i2].reset();
+    }
+    if (instance.reversed && instance.loop !== true || direction === "alternate" && instance.loop === 1) {
+      instance.remaining++;
+    }
+    setAnimationsProgress(instance.reversed ? instance.duration : 0);
+  };
+  instance._onDocumentVisibility = resetTime;
+  instance.set = function(targets, properties) {
+    setTargetsValue(targets, properties);
+    return instance;
+  };
+  instance.tick = function(t2) {
+    now = t2;
+    if (!startTime) {
+      startTime = now;
+    }
+    setInstanceProgress((now + (lastTime - startTime)) * anime.speed);
+  };
+  instance.seek = function(time2) {
+    setInstanceProgress(adjustTime(time2));
+  };
+  instance.pause = function() {
+    instance.paused = true;
+    resetTime();
+  };
+  instance.play = function() {
+    if (!instance.paused) {
+      return;
+    }
+    if (instance.completed) {
+      instance.reset();
+    }
+    instance.paused = false;
+    activeInstances.push(instance);
+    resetTime();
+    engine();
+  };
+  instance.reverse = function() {
+    toggleInstanceDirection();
+    instance.completed = instance.reversed ? false : true;
+    resetTime();
+  };
+  instance.restart = function() {
+    instance.reset();
+    instance.play();
+  };
+  instance.remove = function(targets) {
+    var targetsArray = parseTargets(targets);
+    removeTargetsFromInstance(targetsArray, instance);
+  };
+  instance.reset();
+  if (instance.autoplay) {
+    instance.play();
+  }
+  return instance;
+}
+function removeTargetsFromAnimations(targetsArray, animations) {
+  for (var a = animations.length; a--; ) {
+    if (arrayContains(targetsArray, animations[a].animatable.target)) {
+      animations.splice(a, 1);
+    }
+  }
+}
+function removeTargetsFromInstance(targetsArray, instance) {
+  var animations = instance.animations;
+  var children = instance.children;
+  removeTargetsFromAnimations(targetsArray, animations);
+  for (var c2 = children.length; c2--; ) {
+    var child = children[c2];
+    var childAnimations = child.animations;
+    removeTargetsFromAnimations(targetsArray, childAnimations);
+    if (!childAnimations.length && !child.children.length) {
+      children.splice(c2, 1);
+    }
+  }
+  if (!animations.length && !children.length) {
+    instance.pause();
+  }
+}
+function removeTargetsFromActiveInstances(targets) {
+  var targetsArray = parseTargets(targets);
+  for (var i2 = activeInstances.length; i2--; ) {
+    var instance = activeInstances[i2];
+    removeTargetsFromInstance(targetsArray, instance);
+  }
+}
+function stagger(val, params) {
+  if (params === void 0) params = {};
+  var direction = params.direction || "normal";
+  var easing = params.easing ? parseEasings(params.easing) : null;
+  var grid = params.grid;
+  var axis = params.axis;
+  var fromIndex = params.from || 0;
+  var fromFirst = fromIndex === "first";
+  var fromCenter = fromIndex === "center";
+  var fromLast = fromIndex === "last";
+  var isRange = is.arr(val);
+  var val1 = isRange ? parseFloat(val[0]) : parseFloat(val);
+  var val2 = isRange ? parseFloat(val[1]) : 0;
+  var unit = getUnit(isRange ? val[1] : val) || 0;
+  var start = params.start || 0 + (isRange ? val1 : 0);
+  var values = [];
+  var maxValue = 0;
+  return function(el, i2, t2) {
+    if (fromFirst) {
+      fromIndex = 0;
+    }
+    if (fromCenter) {
+      fromIndex = (t2 - 1) / 2;
+    }
+    if (fromLast) {
+      fromIndex = t2 - 1;
+    }
+    if (!values.length) {
+      for (var index = 0; index < t2; index++) {
+        if (!grid) {
+          values.push(Math.abs(fromIndex - index));
+        } else {
+          var fromX = !fromCenter ? fromIndex % grid[0] : (grid[0] - 1) / 2;
+          var fromY = !fromCenter ? Math.floor(fromIndex / grid[0]) : (grid[1] - 1) / 2;
+          var toX = index % grid[0];
+          var toY = Math.floor(index / grid[0]);
+          var distanceX = fromX - toX;
+          var distanceY = fromY - toY;
+          var value = Math.sqrt(distanceX * distanceX + distanceY * distanceY);
+          if (axis === "x") {
+            value = -distanceX;
+          }
+          if (axis === "y") {
+            value = -distanceY;
+          }
+          values.push(value);
+        }
+        maxValue = Math.max.apply(Math, values);
+      }
+      if (easing) {
+        values = values.map(function(val3) {
+          return easing(val3 / maxValue) * maxValue;
+        });
+      }
+      if (direction === "reverse") {
+        values = values.map(function(val3) {
+          return axis ? val3 < 0 ? val3 * -1 : -val3 : Math.abs(maxValue - val3);
+        });
+      }
+    }
+    var spacing = isRange ? (val2 - val1) / maxValue : val1;
+    return start + spacing * (Math.round(values[i2] * 100) / 100) + unit;
+  };
+}
+function timeline(params) {
+  if (params === void 0) params = {};
+  var tl = anime(params);
+  tl.duration = 0;
+  tl.add = function(instanceParams, timelineOffset) {
+    var tlIndex = activeInstances.indexOf(tl);
+    var children = tl.children;
+    if (tlIndex > -1) {
+      activeInstances.splice(tlIndex, 1);
+    }
+    function passThrough(ins2) {
+      ins2.passThrough = true;
+    }
+    for (var i2 = 0; i2 < children.length; i2++) {
+      passThrough(children[i2]);
+    }
+    var insParams = mergeObjects(instanceParams, replaceObjectProps(defaultTweenSettings, params));
+    insParams.targets = insParams.targets || params.targets;
+    var tlDuration = tl.duration;
+    insParams.autoplay = false;
+    insParams.direction = tl.direction;
+    insParams.timelineOffset = is.und(timelineOffset) ? tlDuration : getRelativeValue(timelineOffset, tlDuration);
+    passThrough(tl);
+    tl.seek(insParams.timelineOffset);
+    var ins = anime(insParams);
+    passThrough(ins);
+    children.push(ins);
+    var timings = getInstanceTimings(children, params);
+    tl.delay = timings.delay;
+    tl.endDelay = timings.endDelay;
+    tl.duration = timings.duration;
+    tl.seek(0);
+    tl.reset();
+    if (tl.autoplay) {
+      tl.play();
+    }
+    return tl;
+  };
+  return tl;
+}
+anime.version = "3.2.1";
+anime.speed = 1;
+anime.suspendWhenDocumentHidden = true;
+anime.running = activeInstances;
+anime.remove = removeTargetsFromActiveInstances;
+anime.get = getOriginalTargetValue;
+anime.set = setTargetsValue;
+anime.convertPx = convertPxToUnit;
+anime.path = getPath;
+anime.setDashoffset = setDashoffset;
+anime.stagger = stagger;
+anime.timeline = timeline;
+anime.easing = parseEasings;
+anime.penner = penner;
+anime.random = function(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+const _hoisted_1$2 = { class: "ctrl-box" };
+const _hoisted_2$1 = { class: "ctrl-img-box" };
+const _hoisted_3$1 = ["src"];
+const _hoisted_4$1 = { class: "ctrl-info-box" };
+const _hoisted_5$1 = { class: "ctrl-info-title text1" };
+const _hoisted_6 = { class: "ctrl-info-artist text2" };
+const _hoisted_7 = { class: "ctrl-info-lyric text3" };
+const _hoisted_8 = { class: "ctrl-center" };
+const _hoisted_9 = { class: "btn-control" };
+const _hoisted_10 = { class: "btn-like button" };
+const _hoisted_11 = { class: "btn-play-control" };
+const _hoisted_12 = { class: "btn-prev button" };
+const _hoisted_13 = { class: "btn-pause button" };
+const _hoisted_14 = { class: "btn-next button" };
+const _hoisted_15 = { class: "btn-loop button" };
+const _hoisted_16 = { class: "ctrl-progress-box" };
+const _hoisted_17 = { class: "ctrl-right" };
+const _hoisted_18 = { class: "btn-list button" };
 const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "42c73830": unref(ctrlTop),
-      "0f4a2f28": unref(ctrlHeight)
+      "0872f175": unref(ctrlHeight) + `rem`
     }));
     let router2 = useRouter();
     let playStore = usePlayStore();
+    let outerEle = ref(null);
     let showPlayingList = ref(false);
-    let ctrlTop = computed(() => {
-      return showPlayingList.value ? "0vh" : `calc(var(--vh,1vh) * 100 - ${ctrlHeight.value})`;
-    });
-    let ctrlHeight = ref("7rem");
+    let ctrlHeight = ref(7);
     let lyricNow = computed(() => {
       if (!Array.isArray(playStore.currentMusic.lyric) || playStore.currentMusic?.lyric.length < playStore.currentMusic.currentLyricIndex) {
         return "";
       }
       return playStore.currentMusic?.lyric[playStore.currentMusic.currentLyricIndex]?.lrc;
     });
+    function switchShow() {
+      showPlayingList.value = !showPlayingList.value;
+      console.log(showPlayingList.value);
+      let a = -window.innerHeight + ctrlHeight.value * 16;
+      anime({
+        targets: outerEle.value,
+        translateY: showPlayingList.value ? `${a}px` : "0px",
+        duration: 500,
+        easing: "easeInOutCubic"
+      });
+    }
     return (_ctx, _cache) => {
       const _component_i_ant_design_heart_outlined = __unplugin_components_2;
       const _component_i_ant_design_heart_filled = __unplugin_components_3;
@@ -28308,32 +29803,36 @@ const _sfc_main$2 = {
       const _component_i_hugeicons_exchange_01 = __unplugin_components_7$1;
       const _component_n_slider = __unplugin_components_2$1;
       const _component_i_hugeicons_playlist_03 = __unplugin_components_9;
-      return openBlock(), createElementBlock("div", _hoisted_1$2, [
-        createBaseVNode("div", _hoisted_2$1, [
+      return openBlock(), createElementBlock("div", {
+        class: "ctrl-outer",
+        ref_key: "outerEle",
+        ref: outerEle
+      }, [
+        createBaseVNode("div", _hoisted_1$2, [
           createBaseVNode("div", {
             class: "ctrl-left",
             onClick: _cache[0] || (_cache[0] = () => unref(router2).push({ name: "player" }))
           }, [
-            createBaseVNode("div", _hoisted_3$1, [
+            createBaseVNode("div", _hoisted_2$1, [
               createBaseVNode("img", {
                 class: "ctrl-img",
                 src: unref(playStore).currentMusic.picurl ?? "/icon.png"
-              }, null, 8, _hoisted_4$1)
+              }, null, 8, _hoisted_3$1)
             ]),
-            createBaseVNode("div", _hoisted_5$1, [
-              createBaseVNode("div", _hoisted_6, [
+            createBaseVNode("div", _hoisted_4$1, [
+              createBaseVNode("div", _hoisted_5$1, [
                 createVNode(MarqueePlus, {
                   html: unref(playStore).nameWithTns ?? "奶酪音乐",
                   speed: 40
                 }, null, 8, ["html"])
               ]),
-              createBaseVNode("div", _hoisted_7, [
+              createBaseVNode("div", _hoisted_6, [
                 createVNode(MarqueePlus, {
                   html: unref(playStore).currentMusic.artist ?? "",
                   speed: 40
                 }, null, 8, ["html"])
               ]),
-              createBaseVNode("div", _hoisted_8, [
+              createBaseVNode("div", _hoisted_7, [
                 createVNode(MarqueePlus, {
                   html: unref(lyricNow),
                   speed: 60,
@@ -28342,9 +29841,9 @@ const _sfc_main$2 = {
               ])
             ])
           ]),
-          createBaseVNode("div", _hoisted_9, [
-            createBaseVNode("div", _hoisted_10, [
-              createBaseVNode("div", _hoisted_11, [
+          createBaseVNode("div", _hoisted_8, [
+            createBaseVNode("div", _hoisted_9, [
+              createBaseVNode("div", _hoisted_10, [
                 createVNode(_component_n_icon, {
                   size: "1.5rem",
                   class: "icon"
@@ -28361,8 +29860,8 @@ const _sfc_main$2 = {
                   _: 1
                 })
               ]),
-              createBaseVNode("div", _hoisted_12, [
-                createBaseVNode("div", _hoisted_13, [
+              createBaseVNode("div", _hoisted_11, [
+                createBaseVNode("div", _hoisted_12, [
                   createVNode(_component_n_icon, {
                     size: "2.5rem",
                     class: "icon",
@@ -28374,7 +29873,7 @@ const _sfc_main$2 = {
                     _: 1
                   }, 8, ["onClick"])
                 ]),
-                createBaseVNode("div", _hoisted_14, [
+                createBaseVNode("div", _hoisted_13, [
                   unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
                     key: 0,
                     size: "2.5rem",
@@ -28398,7 +29897,7 @@ const _sfc_main$2 = {
                     _: 1
                   })) : createCommentVNode("", true)
                 ]),
-                createBaseVNode("div", _hoisted_15, [
+                createBaseVNode("div", _hoisted_14, [
                   createVNode(_component_n_icon, {
                     size: "2.5rem",
                     class: "icon",
@@ -28411,7 +29910,7 @@ const _sfc_main$2 = {
                   }, 8, ["onClick"])
                 ])
               ]),
-              createBaseVNode("div", _hoisted_16, [
+              createBaseVNode("div", _hoisted_15, [
                 createVNode(_component_n_icon, {
                   size: "1.5rem",
                   class: "icon"
@@ -28423,7 +29922,7 @@ const _sfc_main$2 = {
                 })
               ])
             ]),
-            createBaseVNode("div", _hoisted_17, [
+            createBaseVNode("div", _hoisted_16, [
               createVNode(_component_n_slider, {
                 value: unref(playStore).musicStatus.currentTime,
                 "onUpdate:value": [
@@ -28436,14 +29935,12 @@ const _sfc_main$2 = {
               }, null, 8, ["value", "max"])
             ])
           ]),
-          createBaseVNode("div", _hoisted_18, [
-            createBaseVNode("div", _hoisted_19, [
+          createBaseVNode("div", _hoisted_17, [
+            createBaseVNode("div", _hoisted_18, [
               createVNode(_component_n_icon, {
                 size: "1.5rem",
                 class: "icon",
-                onClick: _cache[7] || (_cache[7] = () => {
-                  isRef(showPlayingList) ? showPlayingList.value = !unref(showPlayingList) : showPlayingList = !unref(showPlayingList);
-                })
+                onClick: switchShow
               }, {
                 default: withCtx(() => [
                   createVNode(_component_i_hugeicons_playlist_03)
@@ -28455,16 +29952,16 @@ const _sfc_main$2 = {
         ]),
         createBaseVNode("div", {
           class: "ctrl-playinglist",
-          onClick: _cache[8] || (_cache[8] = withModifiers(() => {
+          onClick: _cache[7] || (_cache[7] = withModifiers(() => {
           }, ["stop"]))
         }, [
           createVNode(playinglist)
         ])
-      ]);
+      ], 512);
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-cdb0b8ba"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-70d70b75"]]);
 const _hoisted_1$1 = { class: "container" };
 const _hoisted_2 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };
@@ -28481,7 +29978,7 @@ const _sfc_main$1 = {
             createVNode(navigation)
           ]),
           createBaseVNode("div", _hoisted_4, [
-            createVNode(_sfc_main$5),
+            createVNode(_sfc_main$4),
             createBaseVNode("div", _hoisted_5, [
               createVNode(_component_router_view, null, {
                 default: withCtx(({ Component }) => [
@@ -28504,22 +30001,22 @@ const _sfc_main$1 = {
     };
   }
 };
-const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-12e71393"]]);
+const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-8419d038"]]);
 const _hoisted_1 = { class: "app" };
 const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "05ee0932": unref(themeStore).mainColors[0],
-      "05ee0a2a": unref(themeStore).mainColors[8],
-      "05ee0a49": unref(themeStore).mainColors[9],
-      "05ee0a0b": unref(themeStore).mainColors[7],
-      "05ee09ec": unref(themeStore).mainColors[6],
-      "05ee0951": unref(themeStore).mainColors[1],
-      "05ee0970": unref(themeStore).mainColors[2],
-      "05ee098f": unref(themeStore).mainColors[3],
-      "05ee09ae": unref(themeStore).mainColors[4],
-      "05ee09cd": unref(themeStore).mainColors[5]
+      "2e637a67": unref(themeStore).mainColors[0],
+      "2e637b5f": unref(themeStore).mainColors[8],
+      "2e637b7e": unref(themeStore).mainColors[9],
+      "2e637b40": unref(themeStore).mainColors[7],
+      "2e637b21": unref(themeStore).mainColors[6],
+      "2e637a86": unref(themeStore).mainColors[1],
+      "2e637aa5": unref(themeStore).mainColors[2],
+      "2e637ac4": unref(themeStore).mainColors[3],
+      "2e637ae3": unref(themeStore).mainColors[4],
+      "2e637b02": unref(themeStore).mainColors[5]
     }));
     if (!window.hasOwnProperty("isElectron")) {
       window.isElectron = false;
@@ -28547,7 +30044,7 @@ const _sfc_main = {
       objDeepMerge(themeOverrides.value, theme);
     });
     return (_ctx, _cache) => {
-      const _component_n_message_provider = __unplugin_components_0$1;
+      const _component_n_message_provider = __unplugin_components_0$2;
       const _component_n_config_provider = __unplugin_components_1;
       return openBlock(), createElementBlock("div", _hoisted_1, [
         createVNode(_component_n_config_provider, { "theme-overrides": unref(themeOverrides) }, {
@@ -28574,13 +30071,13 @@ app.mount("#app");
 export {
   useAdjustedTo as $,
   sendCaptcha as A,
-  __unplugin_components_0$3 as B,
+  __unplugin_components_0$4 as B,
   areaData as C,
   getColorFromImg as D,
   mixColor as E,
   recommendSongs as F,
   playlistDetail as G,
-  __unplugin_components_0$4 as H,
+  __unplugin_components_0$5 as H,
   fadeInTransition as I,
   pxfy as J,
   useCompitable as K,
@@ -28620,7 +30117,7 @@ export {
   NFadeInExpandTransition as ag,
   isSlotEmpty as ah,
   NIconSwitchTransition as ai,
-  __unplugin_components_0 as b,
+  __unplugin_components_0$1 as b,
   __unplugin_components_2 as c,
   __unplugin_components_3 as d,
   __unplugin_components_5 as e,
