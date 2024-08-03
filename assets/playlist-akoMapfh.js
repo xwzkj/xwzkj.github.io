@@ -1,9 +1,9 @@
-import { a as usePlayStore, m as useRouter, F as recommendSongs, G as playlistDetail, H as __unplugin_components_0 } from "./index-iL9UH_H2.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Ra1zBRmC.js";
-import { aP as _export_sfc, b as ref, w as watch, D as onMounted, aJ as openBlock, aK as createElementBlock, u as unref, aL as createBaseVNode, aS as createCommentVNode, aV as toDisplayString, F as Fragment, aU as renderList, aM as createVNode, aQ as withCtx, aR as createBlock, v as createTextVNode } from "./marqueePlus-CS0JqBVm.js";
-import { B as Button } from "./Button-C1YT1FY-.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-BqI0AptB.js";
-import "./Card-DRR8tYFx.js";
+import { b as usePlayStore, a as useRouter, r as recommendSongs, p as playlistDetail, o as __unplugin_components_0 } from "./index-Cv4AMwow.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DuLyVivA.js";
+import { aP as _export_sfc, b as ref, w as watch, D as onMounted, aK as createElementBlock, u as unref, aL as createBaseVNode, aS as createCommentVNode, aV as toDisplayString, F as Fragment, aU as renderList, aM as createVNode, aQ as withCtx, aJ as openBlock, aR as createBlock, v as createTextVNode } from "./marqueePlus-D2jTBZhS.js";
+import { B as Button } from "./Button-DH_hS252.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-DBBwjSNW.js";
+import "./Card-DSHeIRGN.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {

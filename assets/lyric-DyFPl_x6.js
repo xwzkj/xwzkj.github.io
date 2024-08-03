@@ -1,4 +1,4 @@
-import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, d as defineComponent, aT as useCssVars, b as ref, c as computed, D as onMounted, aM as createVNode, aQ as withCtx, u as unref, aW as MarqueePlus, aG as NIcon, a$ as createApp } from "./marqueePlus-CS0JqBVm.js";
+import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, d as defineComponent, aT as useCssVars, u as unref, b as ref, c as computed, D as onMounted, aM as createVNode, aQ as withCtx, aW as MarqueePlus, aG as NIcon, b0 as createApp } from "./marqueePlus-D2jTBZhS.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
