@@ -10,18 +10,18 @@
     border: 1px solid transparent;
 }
 .outer:hover {
-    background: var(--a2732c3c);
-    border: 1px solid var(--ba07e638);
+    background: var(--b8916d5e);
+    border: 1px solid var(--1c711c55);
 }
 .none-after-lock {
-    display: var(--7eb1f89c);
+    display: var(--deb7063a);
 }
 .ctrl {
     height: 2.2rem;
-    color: var(--d4e5c5f0);
+    color: var(--1b69e00e);
 }
 .ctrl-box {
-    display: var(--030f07e3);
+    display: var(--6cda0e58);
     justify-content: space-around;
 }
 .drag {
@@ -34,7 +34,7 @@
     transition: all 0.5s;
 }
 .lock:hover {
-    background-color: var(--26fe4c5a);
+    background-color: var(--6138cf7c);
 }
 .lyric {
     padding-left: 10px;
@@ -42,12 +42,12 @@
     width: 100%;
     height: 100%;
     user-select: none;
-    color: var(--d4e5c7a2);
+    color: var(--1b69e1c0);
     text-shadow:
-        var(--d4e5c66c) 0 0 0.3rem,
-        var(--d4e5c66c) 0 0 0.3rem,
-        var(--d4e5c66c) 0 0 0.3rem,
-        var(--d4e5c66c) 0 0 0.3rem;
+        var(--1b69e08a) 0 0 0.3rem,
+        var(--1b69e08a) 0 0 0.3rem,
+        var(--1b69e08a) 0 0 0.3rem,
+        var(--1b69e08a) 0 0 0.3rem;
 }
 .lyric-lrc {
     font-size: 3rem;

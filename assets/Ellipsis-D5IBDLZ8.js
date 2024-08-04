@@ -1,5 +1,5 @@
 import { aF as createTheme, an as derived, ah as cB, ak as cNotM, aj as cM, d as defineComponent, ao as useTheme, b2 as useMergedClsPrefix, b as ref, c as computed, N as onDeactivated, h, ar as mergeProps } from "./marqueePlus-D2jTBZhS.js";
-import { C as tooltipLight, D as NTooltip } from "./index-BBvt5FyF.js";
+import { C as tooltipLight, D as NTooltip } from "./index-ClgdxZ1V.js";
 const ellipsisLight = createTheme({
   name: "Ellipsis",
   common: derived,

@@ -1,37 +1,37 @@
 
-.loading-center[data-v-2915721e] {
+.loading-center[data-v-3f1dd96e] {
     width: 100%;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.result-li[data-v-2915721e] {
+.result-li[data-v-3f1dd96e] {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.result-name[data-v-2915721e] {
+.result-name[data-v-3f1dd96e] {
     flex: 35%;
     flex-wrap: nowrap;
     cursor: pointer;
 }
-.result-ar[data-v-2915721e] {
+.result-ar[data-v-3f1dd96e] {
     flex: 20%;
     flex-wrap: nowrap;
     height: 100%;
 }
-.result-img[data-v-2915721e] {
+.result-img[data-v-3f1dd96e] {
     width: 2rem;
     border-radius: 0.5rem;
 }
-.result-al[data-v-2915721e] {
+.result-al[data-v-3f1dd96e] {
     flex: 20%;
 }
-.result-dt[data-v-2915721e] {
+.result-dt[data-v-3f1dd96e] {
     flex: 10%;
 }
-.result[data-v-2915721e] {
+.result[data-v-3f1dd96e] {
     padding: 0.2rem;
     display: flex;
     font-size: 1rem;

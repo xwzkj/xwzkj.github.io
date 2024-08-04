@@ -1,9 +1,9 @@
-import { b as usePlayStore, a as useRouter, r as recommendSongs, p as playlistDetail, o as __unplugin_components_0 } from "./index-BBvt5FyF.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DMpG8RsA.js";
+import { b as usePlayStore, a as useRouter, r as recommendSongs, p as playlistDetail, o as __unplugin_components_0 } from "./index-ClgdxZ1V.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-ByEe-Zsp.js";
 import { aP as _export_sfc, b as ref, w as watch, D as onMounted, aK as createElementBlock, u as unref, aL as createBaseVNode, aS as createCommentVNode, aV as toDisplayString, F as Fragment, aU as renderList, aM as createVNode, aQ as withCtx, aJ as openBlock, aR as createBlock, v as createTextVNode } from "./marqueePlus-D2jTBZhS.js";
-import { B as Button } from "./Button-DRkswO1e.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-FVVHzKTA.js";
-import "./Card-CF8SXGjx.js";
+import { B as Button } from "./Button-BcWQW8u1.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-D5IBDLZ8.js";
+import "./Card-Dvf9dPvT.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
@@ -72,7 +72,7 @@ const _sfc_main = {
     }
     async function play(id) {
       loading.value = true;
-      await playStore.addMusic([id], 0, true);
+      await playStore.addMusic([id], "now", true);
       playStore.play(true);
       loading.value = false;
     }
@@ -147,7 +147,7 @@ const _sfc_main = {
     };
   }
 };
-const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-64497009"]]);
+const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-b141e1ea"]]);
 export {
   playlist as default
 };

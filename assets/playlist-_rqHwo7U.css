@@ -1,68 +1,68 @@
 
-.playlist-spin[data-v-64497009] {
+.playlist-spin[data-v-b141e1ea] {
     width: 100%;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.playlistTag[data-v-64497009] {
+.playlistTag[data-v-b141e1ea] {
     margin-left: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
-.playlistDetail[data-v-64497009] {
+.playlistDetail[data-v-b141e1ea] {
     display: flex;
     width: 100%;
 }
-.playlistImg[data-v-64497009] {
+.playlistImg[data-v-b141e1ea] {
     margin: 1rem;
     flex:1;
 }
-.playlistImg img[data-v-64497009] {
+.playlistImg img[data-v-b141e1ea] {
     width: 100%;
     border-radius: 0.8rem;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
-.playlistInfo[data-v-64497009] {
+.playlistInfo[data-v-b141e1ea] {
     display: flex;
     /* width:calc(var(--vw,1vw)*100 - 12rem); */
     flex: 1;
     flex-direction: column;
     position: relative;
 }
-.playlistAuthor[data-v-64497009] {
+.playlistAuthor[data-v-b141e1ea] {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 0.5rem;
 }
-.playlistTagContainer[data-v-64497009] {
+.playlistTagContainer[data-v-b141e1ea] {
     display: flex;
     flex-wrap: wrap;
 }
-.playlistAuthorName[data-v-64497009] {
+.playlistAuthorName[data-v-b141e1ea] {
     margin-left: 0.5rem;
 }
-.playlistAuthorAvatar[data-v-64497009] {
+.playlistAuthorAvatar[data-v-b141e1ea] {
     width: 2rem;
     border-radius: 1rem;
     height: auto;
 }
-.playlistName[data-v-64497009] {
+.playlistName[data-v-b141e1ea] {
     font-size: 1.5rem;
     padding-top: 1rem;
     font-weight: 500;
 }
-.playlist-info-item[data-v-64497009] {
+.playlist-info-item[data-v-b141e1ea] {
     max-width: 100%;
     /* display: none; */
 }
-.playlist-musiclist[data-v-64497009]{
+.playlist-musiclist[data-v-b141e1ea]{
     max-width: 100%;
 }
 @media (min-width:620px) {
-.playlistImg[data-v-64497009] {
+.playlistImg[data-v-b141e1ea] {
         flex: none;
         width: 10rem;
         height: 10rem;
