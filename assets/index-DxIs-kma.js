@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-CdzVHCyc.js","./itemCard-efHNuluu.js","./marqueePlus-D2jTBZhS.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-D5IBDLZ8.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-D7aejKqS.js","./musicList-ByEe-Zsp.js","./Card-Dvf9dPvT.js","./musicList-C2Gx6pRn.css","./search-Bwf6tg_B.css","./login-vupdkkDR.js","./Button-BcWQW8u1.js","./login-BZBt2RaQ.css","./account-6YGwiv3A.js","./account-CZ8eyIhU.css","./playlist-CYG5uolv.js","./playlist-_rqHwo7U.css","./setting-DNdXWTnZ.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-D8dIWr_n.js","./itemCard-D09vzDuq.js","./marqueePlus-D2jTBZhS.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-DLS2fnxa.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-CwWpYoA2.js","./musicList-hQLHsNsc.js","./Card-DRoC_C2Y.js","./musicList-C2Gx6pRn.css","./search-Bwf6tg_B.css","./login-CCSSqrvA.js","./Button-D1SaX7x-.js","./login-BZBt2RaQ.css","./account-DnMywbmW.js","./account-CZ8eyIhU.css","./playlist-SLxev0KR.js","./playlist-_rqHwo7U.css","./setting-BKCKvCuY.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as pushScopeId, aO as popScopeId, aP as _export_sfc, aQ as withCtx, aR as createBlock, aS as createCommentVNode, aT as useCssVars, aU as renderList, aV as toDisplayString, aW as MarqueePlus, aX as normalizeClass, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./marqueePlus-D2jTBZhS.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1918,7 +1918,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-CdzVHCyc.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-D8dIWr_n.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1929,7 +1929,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-D7aejKqS.js"), true ? __vite__mapDeps([7,2,3,8,9,10,11]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CwWpYoA2.js"), true ? __vite__mapDeps([7,2,3,8,9,10,11]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1940,7 +1940,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-vupdkkDR.js"), true ? __vite__mapDeps([12,2,3,13,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CCSSqrvA.js"), true ? __vite__mapDeps([12,2,3,13,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1948,7 +1948,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-6YGwiv3A.js"), true ? __vite__mapDeps([15,2,3,1,4,5,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-DnMywbmW.js"), true ? __vite__mapDeps([15,2,3,1,4,5,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1959,7 +1959,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-CYG5uolv.js"), true ? __vite__mapDeps([17,8,2,3,9,10,13,4,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-SLxev0KR.js"), true ? __vite__mapDeps([17,8,2,3,9,10,13,4,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1970,7 +1970,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DNdXWTnZ.js"), true ? __vite__mapDeps([19,2,3,13,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BKCKvCuY.js"), true ? __vite__mapDeps([19,2,3,13,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -3941,7 +3941,7 @@ function getOffset(placement, offsetRect, targetRect, offsetTopToStandardPlaceme
       };
   }
 }
-const style$e = c([
+const style$f = c([
   c(".v-binder-follower-container", {
     position: "absolute",
     left: "0",
@@ -4023,7 +4023,7 @@ const VFollower = defineComponent({
       }
     });
     const ssrAdapter = useSsrAdapter();
-    style$e.mount({
+    style$f.mount({
       id: "vueuc/binder",
       head: true,
       anchorMetaName: cssrAnchorMetaName,
@@ -4751,7 +4751,7 @@ const VResizeObserver = defineComponent({
   }
 });
 const hiddenAttr = "v-hidden";
-const style$d = c("[v-hidden]", {
+const style$e = c("[v-hidden]", {
   display: "none!important"
 });
 const VOverflow = defineComponent({
@@ -4852,7 +4852,7 @@ const VOverflow = defineComponent({
       }
     }
     const ssrAdapter = useSsrAdapter();
-    style$d.mount({
+    style$e.mount({
       id: "vueuc/overflow",
       head: true,
       anchorMetaName: cssrAnchorMetaName,
@@ -6823,7 +6823,7 @@ const NFadeInExpandTransition = defineComponent({
     };
   }
 });
-const style$c = cB("base-icon", `
+const style$d = cB("base-icon", `
  height: 1em;
  width: 1em;
  line-height: 1em;
@@ -6858,7 +6858,7 @@ const NBaseIcon = defineComponent({
     onMouseup: Function
   },
   setup(props) {
-    useStyle("-base-icon", style$c, toRef(props, "clsPrefix"));
+    useStyle("-base-icon", style$d, toRef(props, "clsPrefix"));
   },
   render() {
     return h("i", {
@@ -6873,7 +6873,7 @@ const NBaseIcon = defineComponent({
     }, this.$slots);
   }
 });
-const style$b = cB("base-close", `
+const style$c = cB("base-close", `
  display: flex;
  align-items: center;
  justify-content: center;
@@ -6942,7 +6942,7 @@ const NBaseClose = defineComponent({
     absolute: Boolean
   },
   setup(props) {
-    useStyle("-base-close", style$b, toRef(props, "clsPrefix"));
+    useStyle("-base-close", style$c, toRef(props, "clsPrefix"));
     return () => {
       const {
         clsPrefix,
@@ -7001,7 +7001,7 @@ function iconSwitchTransition({
     transition
   })];
 }
-const style$a = c$1([c$1("@keyframes rotator", `
+const style$b = c$1([c$1("@keyframes rotator", `
  0% {
  -webkit-transform: rotate(0deg);
  transform: rotate(0deg);
@@ -7065,7 +7065,7 @@ const NBaseLoading = defineComponent({
     }
   }, exposedLoadingProps),
   setup(props) {
-    useStyle("-base-loading", style$a, toRef(props, "clsPrefix"));
+    useStyle("-base-loading", style$b, toRef(props, "clsPrefix"));
   },
   render() {
     const {
@@ -7748,12 +7748,12 @@ function createTreeMate(rawNodes, options = {}) {
   };
   return treemate;
 }
-const commonVars$1 = {
+const commonVars$2 = {
   railInsetHorizontal: "auto 2px 4px 2px",
   railInsetVertical: "2px 4px 2px auto",
   railColor: "transparent"
 };
-function self$a(vars) {
+function self$b(vars) {
   const {
     scrollbarColor,
     scrollbarColorHover,
@@ -7761,7 +7761,7 @@ function self$a(vars) {
     scrollbarWidth,
     scrollbarBorderRadius
   } = vars;
-  return Object.assign(Object.assign({}, commonVars$1), {
+  return Object.assign(Object.assign({}, commonVars$2), {
     height: scrollbarHeight,
     width: scrollbarWidth,
     borderRadius: scrollbarBorderRadius,
@@ -7772,7 +7772,7 @@ function self$a(vars) {
 const scrollbarLight = {
   name: "Scrollbar",
   common: derived,
-  self: self$a
+  self: self$b
 };
 const {
   cubicBezierEaseInOut: cubicBezierEaseInOut$1
@@ -7794,7 +7794,7 @@ function fadeInTransition({
     opacity: 1
   })];
 }
-const style$9 = cB("scrollbar", `
+const style$a = cB("scrollbar", `
  overflow: hidden;
  position: relative;
  z-index: auto;
@@ -7911,7 +7911,7 @@ const Scrollbar$1 = defineComponent({
     let memoMouseX = 0;
     let memoMouseY = 0;
     const isIos2 = useIsIos();
-    const themeRef = useTheme("Scrollbar", "-scrollbar", style$9, scrollbarLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Scrollbar", "-scrollbar", style$a, scrollbarLight, props, mergedClsPrefixRef);
     const yBarSizeRef = computed(() => {
       const {
         value: containerHeight
@@ -8594,7 +8594,7 @@ const commonVariables$4 = {
   arrowHeight: "6px",
   padding: "8px 14px"
 };
-function self$9(vars) {
+function self$a(vars) {
   const {
     boxShadow2,
     popoverColor,
@@ -8615,7 +8615,7 @@ function self$9(vars) {
 const popoverLight = {
   name: "Popover",
   common: derived,
-  self: self$9
+  self: self$a
 };
 const oppositePlacement = {
   top: "bottom",
@@ -8624,7 +8624,7 @@ const oppositePlacement = {
   right: "left"
 };
 const arrowSize = "var(--n-arrow-height) * 1.414";
-const style$8 = c$1([cB("popover", `
+const style$9 = c$1([cB("popover", `
  transition:
  box-shadow .3s var(--n-bezier),
  background-color .3s var(--n-bezier),
@@ -8838,7 +8838,7 @@ const NPopoverBody = defineComponent({
       mergedClsPrefixRef,
       inlineThemeDisabled
     } = useConfig(props);
-    const themeRef = useTheme("Popover", "-popover", style$8, popoverLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Popover", "-popover", style$9, popoverLight, props, mergedClsPrefixRef);
     const followerRef = ref(null);
     const NPopover2 = inject("NPopover");
     const bodyRef = ref(null);
@@ -9593,7 +9593,7 @@ const commonVariables$3 = {
   padding: "0 7px",
   closeMargin: "0 0 0 4px"
 };
-function self$8(vars) {
+function self$9(vars) {
   const {
     textColor2,
     primaryColorHover,
@@ -9759,7 +9759,7 @@ function self$8(vars) {
 const tagLight = {
   name: "Tag",
   common: derived,
-  self: self$8
+  self: self$9
 };
 const commonProps = {
   color: Object,
@@ -9778,7 +9778,7 @@ const commonProps = {
     default: void 0
   }
 };
-const style$7 = cB("tag", `
+const style$8 = cB("tag", `
  --n-close-margin: var(--n-close-margin-top) var(--n-close-margin-right) var(--n-close-margin-bottom) var(--n-close-margin-left);
  white-space: nowrap;
  position: relative;
@@ -9887,7 +9887,7 @@ const __unplugin_components_0$5 = defineComponent({
       inlineThemeDisabled,
       mergedRtlRef
     } = useConfig(props);
-    const themeRef = useTheme("Tag", "-tag", style$7, tagLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Tag", "-tag", style$8, tagLight, props, mergedClsPrefixRef);
     provide(tagInjectionKey, {
       roundRef: toRef(props, "round")
     });
@@ -10100,7 +10100,7 @@ const __unplugin_components_0$5 = defineComponent({
     }) : null);
   }
 });
-const style$6 = cB("base-clear", `
+const style$7 = cB("base-clear", `
  flex-shrink: 0;
  height: 1em;
  width: 1em;
@@ -10140,7 +10140,7 @@ const NBaseClear = defineComponent({
     onClear: Function
   },
   setup(props) {
-    useStyle("-base-clear", style$6, toRef(props, "clsPrefix"));
+    useStyle("-base-clear", style$7, toRef(props, "clsPrefix"));
     return {
       handleMouseDown(e) {
         e.preventDefault();
@@ -10284,7 +10284,7 @@ const commonVariables$2 = {
   paddingLarge: "0 14px",
   clearSize: "16px"
 };
-function self$7(vars) {
+function self$8(vars) {
   const {
     textColor2,
     textColor3,
@@ -10387,7 +10387,7 @@ function self$7(vars) {
 const inputLight = {
   name: "Input",
   common: derived,
-  self: self$7
+  self: self$8
 };
 const inputInjectionKey = createInjectionKey("n-input");
 function len(s) {
@@ -10501,7 +10501,7 @@ const WordCount = defineComponent({
     };
   }
 });
-const style$5 = cB("input", `
+const style$6 = cB("input", `
  max-width: 100%;
  cursor: text;
  line-height: 1.5;
@@ -10865,7 +10865,7 @@ const __unplugin_components_0$4 = defineComponent({
       inlineThemeDisabled,
       mergedRtlRef
     } = useConfig(props);
-    const themeRef = useTheme("Input", "-input", style$5, inputLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Input", "-input", style$6, inputLight, props, mergedClsPrefixRef);
     if (isSafari) {
       useStyle("-input-safari", safariStyle, mergedClsPrefixRef);
     }
@@ -12032,7 +12032,7 @@ const observeIntersection = (el, options, shouldStartLoadingRef) => {
   shouldStartLoadingRefMap.set(el, shouldStartLoadingRef);
   return unobserve;
 };
-function self$6(vars) {
+function self$7(vars) {
   const {
     borderRadius,
     avatarColor,
@@ -12063,10 +12063,10 @@ function self$6(vars) {
 const avatarLight = {
   name: "Avatar",
   common: derived,
-  self: self$6
+  self: self$7
 };
 const avatarGroupInjectionKey = createInjectionKey("n-avatar-group");
-const style$4 = cB("avatar", `
+const style$5 = cB("avatar", `
  width: var(--n-merged-size);
  height: var(--n-merged-size);
  color: #FFF;
@@ -12173,7 +12173,7 @@ const __unplugin_components_4$2 = defineComponent({
       if (avatarGroupSize) return avatarGroupSize;
       return "medium";
     });
-    const themeRef = useTheme("Avatar", "-avatar", style$4, avatarLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Avatar", "-avatar", style$5, avatarLight, props, mergedClsPrefixRef);
     const TagInjection = inject(tagInjectionKey, null);
     const mergedRoundRef = computed(() => {
       if (NAvatarGroup) return true;
@@ -12418,7 +12418,7 @@ const configProviderProps = {
     default: void 0
   }
 };
-const __unplugin_components_1 = defineComponent({
+const __unplugin_components_2$1 = defineComponent({
   name: "ConfigProvider",
   alias: ["App"],
   props: configProviderProps,
@@ -12581,16 +12581,16 @@ const __unplugin_components_1 = defineComponent({
     }, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a)) : (_d = (_c = this.$slots).default) === null || _d === void 0 ? void 0 : _d.call(_c);
   }
 });
-const commonVars = {
+const commonVars$1 = {
   padding: "8px 14px"
 };
-function self$5(vars) {
+function self$6(vars) {
   const {
     borderRadius,
     boxShadow2,
     baseColor
   } = vars;
-  return Object.assign(Object.assign({}, commonVars), {
+  return Object.assign(Object.assign({}, commonVars$1), {
     borderRadius,
     boxShadow: boxShadow2,
     color: composite(baseColor, "rgba(0, 0, 0, .85)"),
@@ -12603,7 +12603,7 @@ const tooltipLight = createTheme({
   peers: {
     Popover: popoverLight
   },
-  self: self$5
+  self: self$6
 });
 const commonVariables$1 = {
   padding: "4px 0",
@@ -12628,7 +12628,7 @@ const commonVariables$1 = {
   optionIconPrefixWidthLarge: "40px",
   optionIconPrefixWidthHuge: "40px"
 };
-function self$4(vars) {
+function self$5(vars) {
   const {
     primaryColor,
     textColor2,
@@ -12693,7 +12693,7 @@ const dropdownLight = createTheme({
   peers: {
     Popover: popoverLight
   },
-  self: self$4
+  self: self$5
 });
 const tooltipProps = Object.assign(Object.assign({}, popoverBaseProps), useTheme.props);
 const NTooltip = defineComponent({
@@ -13309,7 +13309,7 @@ const NDropdownMenu = defineComponent({
     }) : null);
   }
 });
-const style$3 = cB("dropdown-menu", `
+const style$4 = cB("dropdown-menu", `
  transform-origin: var(--v-transform-origin);
  background-color: var(--n-color);
  border-radius: var(--n-border-radius);
@@ -13543,7 +13543,7 @@ const NDropdown = defineComponent({
       mergedClsPrefixRef,
       inlineThemeDisabled
     } = useConfig(props);
-    const themeRef = useTheme("Dropdown", "-dropdown", style$3, dropdownLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Dropdown", "-dropdown", style$4, dropdownLight, props, mergedClsPrefixRef);
     provide(dropdownInjectionKey, {
       labelFieldRef: toRef(props, "labelField"),
       childrenFieldRef: toRef(props, "childrenField"),
@@ -13811,6 +13811,69 @@ function getAugmentedNamespace(n2) {
   });
   return a;
 }
+const commonVars = {
+  closeMargin: "16px 12px",
+  closeSize: "20px",
+  closeIconSize: "16px",
+  width: "365px",
+  padding: "16px",
+  titleFontSize: "16px",
+  metaFontSize: "12px",
+  descriptionFontSize: "12px"
+};
+function self$4(vars) {
+  const {
+    textColor2,
+    successColor,
+    infoColor,
+    warningColor,
+    errorColor,
+    popoverColor,
+    closeIconColor,
+    closeIconColorHover,
+    closeIconColorPressed,
+    closeColorHover,
+    closeColorPressed,
+    textColor1,
+    textColor3,
+    borderRadius,
+    fontWeightStrong,
+    boxShadow2,
+    lineHeight,
+    fontSize
+  } = vars;
+  return Object.assign(Object.assign({}, commonVars), {
+    borderRadius,
+    lineHeight,
+    fontSize,
+    headerFontWeight: fontWeightStrong,
+    iconColor: textColor2,
+    iconColorSuccess: successColor,
+    iconColorInfo: infoColor,
+    iconColorWarning: warningColor,
+    iconColorError: errorColor,
+    color: popoverColor,
+    textColor: textColor2,
+    closeIconColor,
+    closeIconColorHover,
+    closeIconColorPressed,
+    closeBorderRadius: borderRadius,
+    closeColorHover,
+    closeColorPressed,
+    headerTextColor: textColor1,
+    descriptionTextColor: textColor3,
+    actionTextColor: textColor2,
+    boxShadow: boxShadow2
+  });
+}
+const notificationLight = createTheme({
+  name: "Notification",
+  common: derived,
+  peers: {
+    Scrollbar: scrollbarLight
+  },
+  self: self$4
+});
 const commonVariables = {
   margin: "0 0 8px 0",
   padding: "10px 20px",
@@ -14732,7 +14795,7 @@ const horizontalHoverStyleChildren = [cE("icon", `
  `), cE("extra", `
  color: var(--n-item-text-color-hover-horizontal);
  `)])];
-const style$2 = c$1([cB("menu", `
+const style$3 = c$1([cB("menu", `
  background-color: var(--n-color);
  color: var(--n-item-text-color);
  overflow: hidden;
@@ -14995,7 +15058,7 @@ const __unplugin_components_0$3 = defineComponent({
       mergedClsPrefixRef,
       inlineThemeDisabled
     } = useConfig(props);
-    const themeRef = useTheme("Menu", "-menu", style$2, menuLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Menu", "-menu", style$3, menuLight, props, mergedClsPrefixRef);
     const layoutSider = inject(layoutSiderInjectionKey, null);
     const mergedCollapsedRef = computed(() => {
       var _a;
@@ -15431,7 +15494,7 @@ const messageProps = {
 };
 const messageApiInjectionKey = createInjectionKey("n-message-api");
 const messageProviderInjectionKey = createInjectionKey("n-message-provider");
-const style$1 = c$1([cB("message-wrapper", `
+const style$2 = c$1([cB("message-wrapper", `
  margin: var(--n-margin);
  z-index: 0;
  transform-origin: top center;
@@ -15534,7 +15597,7 @@ const style$1 = c$1([cB("message-wrapper", `
  justify-content: flex-end;
  align-items: flex-end;
  `)])]);
-const iconRenderMap = {
+const iconRenderMap$1 = {
   info: () => h(InfoIcon, null),
   success: () => h(SuccessIcon, null),
   warning: () => h(WarningIcon, null),
@@ -15556,7 +15619,7 @@ const NMessage = defineComponent({
       mergedClsPrefixRef
     } = inject(messageProviderInjectionKey);
     const rtlEnabledRef = useRtl("Message", mergedRtlRef, mergedClsPrefixRef);
-    const themeRef = useTheme("Message", "-message", style$1, messageLight, messageProviderProps2, mergedClsPrefixRef);
+    const themeRef = useTheme("Message", "-message", style$2, messageLight, messageProviderProps2, mergedClsPrefixRef);
     const cssVarsRef = computed(() => {
       const {
         type
@@ -15684,7 +15747,7 @@ function createIconVNode(icon, type, clsPrefix) {
       clsPrefix,
       strokeWidth: 24,
       scale: 0.85
-    }) : iconRenderMap[type]();
+    }) : iconRenderMap$1[type]();
     if (!innerIcon) return null;
     return h(NBaseIcon, {
       clsPrefix,
@@ -15926,6 +15989,743 @@ function useMessage() {
   const api = inject(messageApiInjectionKey, null);
   if (api === null) {
     throwError("use-message", "No outer <n-message-provider /> founded. See prerequisite in https://www.naiveui.com/en-US/os-theme/components/message for more details. If you want to use `useMessage` outside setup, please check https://www.naiveui.com/zh-CN/os-theme/components/message#Q-&-A.");
+  }
+  return api;
+}
+const notificationProviderInjectionKey = createInjectionKey("n-notification-provider");
+const NotificationContainer = defineComponent({
+  name: "NotificationContainer",
+  props: {
+    scrollable: {
+      type: Boolean,
+      required: true
+    },
+    placement: {
+      type: String,
+      required: true
+    }
+  },
+  setup() {
+    const {
+      mergedThemeRef,
+      mergedClsPrefixRef,
+      wipTransitionCountRef
+    } = inject(notificationProviderInjectionKey);
+    const selfRef = ref(null);
+    watchEffect(() => {
+      var _a, _b;
+      if (wipTransitionCountRef.value > 0) {
+        (_a = selfRef === null || selfRef === void 0 ? void 0 : selfRef.value) === null || _a === void 0 ? void 0 : _a.classList.add("transitioning");
+      } else {
+        (_b = selfRef === null || selfRef === void 0 ? void 0 : selfRef.value) === null || _b === void 0 ? void 0 : _b.classList.remove("transitioning");
+      }
+    });
+    return {
+      selfRef,
+      mergedTheme: mergedThemeRef,
+      mergedClsPrefix: mergedClsPrefixRef,
+      transitioning: wipTransitionCountRef
+    };
+  },
+  render() {
+    const {
+      $slots,
+      scrollable,
+      mergedClsPrefix,
+      mergedTheme,
+      placement
+    } = this;
+    return h("div", {
+      ref: "selfRef",
+      class: [`${mergedClsPrefix}-notification-container`, scrollable && `${mergedClsPrefix}-notification-container--scrollable`, `${mergedClsPrefix}-notification-container--${placement}`]
+    }, scrollable ? h(Scrollbar$1, {
+      theme: mergedTheme.peers.Scrollbar,
+      themeOverrides: mergedTheme.peerOverrides.Scrollbar,
+      contentStyle: {
+        overflow: "hidden"
+      }
+    }, $slots) : $slots);
+  }
+});
+const iconRenderMap = {
+  info: () => h(InfoIcon, null),
+  success: () => h(SuccessIcon, null),
+  warning: () => h(WarningIcon, null),
+  error: () => h(ErrorIcon, null),
+  default: () => null
+};
+const notificationProps = {
+  closable: {
+    type: Boolean,
+    default: true
+  },
+  type: {
+    type: String,
+    default: "default"
+  },
+  avatar: Function,
+  title: [String, Function],
+  description: [String, Function],
+  content: [String, Function],
+  meta: [String, Function],
+  action: [String, Function],
+  onClose: {
+    type: Function,
+    required: true
+  },
+  keepAliveOnHover: Boolean,
+  onMouseenter: Function,
+  onMouseleave: Function
+};
+const notificationPropKeys = keysOf(notificationProps);
+const Notification = defineComponent({
+  name: "Notification",
+  props: notificationProps,
+  setup(props) {
+    const {
+      mergedClsPrefixRef,
+      mergedThemeRef,
+      props: providerProps
+    } = inject(notificationProviderInjectionKey);
+    const {
+      inlineThemeDisabled,
+      mergedRtlRef
+    } = useConfig();
+    const rtlEnabledRef = useRtl("Notification", mergedRtlRef, mergedClsPrefixRef);
+    const cssVarsRef = computed(() => {
+      const {
+        type
+      } = props;
+      const {
+        self: {
+          color,
+          textColor,
+          closeIconColor,
+          closeIconColorHover,
+          closeIconColorPressed,
+          headerTextColor,
+          descriptionTextColor,
+          actionTextColor,
+          borderRadius,
+          headerFontWeight,
+          boxShadow,
+          lineHeight,
+          fontSize,
+          closeMargin,
+          closeSize,
+          width,
+          padding,
+          closeIconSize,
+          closeBorderRadius,
+          closeColorHover,
+          closeColorPressed,
+          titleFontSize,
+          metaFontSize,
+          descriptionFontSize,
+          [createKey("iconColor", type)]: iconColor
+        },
+        common: {
+          cubicBezierEaseOut: cubicBezierEaseOut2,
+          cubicBezierEaseIn: cubicBezierEaseIn2,
+          cubicBezierEaseInOut: cubicBezierEaseInOut2
+        }
+      } = mergedThemeRef.value;
+      const {
+        left,
+        right,
+        top,
+        bottom
+      } = getMargin(padding);
+      return {
+        "--n-color": color,
+        "--n-font-size": fontSize,
+        "--n-text-color": textColor,
+        "--n-description-text-color": descriptionTextColor,
+        "--n-action-text-color": actionTextColor,
+        "--n-title-text-color": headerTextColor,
+        "--n-title-font-weight": headerFontWeight,
+        "--n-bezier": cubicBezierEaseInOut2,
+        "--n-bezier-ease-out": cubicBezierEaseOut2,
+        "--n-bezier-ease-in": cubicBezierEaseIn2,
+        "--n-border-radius": borderRadius,
+        "--n-box-shadow": boxShadow,
+        "--n-close-border-radius": closeBorderRadius,
+        "--n-close-color-hover": closeColorHover,
+        "--n-close-color-pressed": closeColorPressed,
+        "--n-close-icon-color": closeIconColor,
+        "--n-close-icon-color-hover": closeIconColorHover,
+        "--n-close-icon-color-pressed": closeIconColorPressed,
+        "--n-line-height": lineHeight,
+        "--n-icon-color": iconColor,
+        "--n-close-margin": closeMargin,
+        "--n-close-size": closeSize,
+        "--n-close-icon-size": closeIconSize,
+        "--n-width": width,
+        "--n-padding-left": left,
+        "--n-padding-right": right,
+        "--n-padding-top": top,
+        "--n-padding-bottom": bottom,
+        "--n-title-font-size": titleFontSize,
+        "--n-meta-font-size": metaFontSize,
+        "--n-description-font-size": descriptionFontSize
+      };
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("notification", computed(() => props.type[0]), cssVarsRef, providerProps) : void 0;
+    return {
+      mergedClsPrefix: mergedClsPrefixRef,
+      showAvatar: computed(() => {
+        return props.avatar || props.type !== "default";
+      }),
+      handleCloseClick() {
+        props.onClose();
+      },
+      rtlEnabled: rtlEnabledRef,
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
+    };
+  },
+  render() {
+    var _a;
+    const {
+      mergedClsPrefix
+    } = this;
+    (_a = this.onRender) === null || _a === void 0 ? void 0 : _a.call(this);
+    return h("div", {
+      class: [`${mergedClsPrefix}-notification-wrapper`, this.themeClass],
+      onMouseenter: this.onMouseenter,
+      onMouseleave: this.onMouseleave,
+      style: this.cssVars
+    }, h("div", {
+      class: [`${mergedClsPrefix}-notification`, this.rtlEnabled && `${mergedClsPrefix}-notification--rtl`, this.themeClass, {
+        [`${mergedClsPrefix}-notification--closable`]: this.closable,
+        [`${mergedClsPrefix}-notification--show-avatar`]: this.showAvatar
+      }],
+      style: this.cssVars
+    }, this.showAvatar ? h("div", {
+      class: `${mergedClsPrefix}-notification__avatar`
+    }, this.avatar ? render$h(this.avatar) : this.type !== "default" ? h(NBaseIcon, {
+      clsPrefix: mergedClsPrefix
+    }, {
+      default: () => iconRenderMap[this.type]()
+    }) : null) : null, this.closable ? h(NBaseClose, {
+      clsPrefix: mergedClsPrefix,
+      class: `${mergedClsPrefix}-notification__close`,
+      onClick: this.handleCloseClick
+    }) : null, h("div", {
+      ref: "bodyRef",
+      class: `${mergedClsPrefix}-notification-main`
+    }, this.title ? h("div", {
+      class: `${mergedClsPrefix}-notification-main__header`
+    }, render$h(this.title)) : null, this.description ? h("div", {
+      class: `${mergedClsPrefix}-notification-main__description`
+    }, render$h(this.description)) : null, this.content ? h("pre", {
+      class: `${mergedClsPrefix}-notification-main__content`
+    }, render$h(this.content)) : null, this.meta || this.action ? h("div", {
+      class: `${mergedClsPrefix}-notification-main-footer`
+    }, this.meta ? h("div", {
+      class: `${mergedClsPrefix}-notification-main-footer__meta`
+    }, render$h(this.meta)) : null, this.action ? h("div", {
+      class: `${mergedClsPrefix}-notification-main-footer__action`
+    }, render$h(this.action)) : null) : null)));
+  }
+});
+const notificationEnvOptions = Object.assign(Object.assign({}, notificationProps), {
+  duration: Number,
+  onClose: Function,
+  onLeave: Function,
+  onAfterEnter: Function,
+  onAfterLeave: Function,
+  /** @deprecated */
+  onHide: Function,
+  /** @deprecated */
+  onAfterShow: Function,
+  /** @deprecated */
+  onAfterHide: Function
+});
+const NotificationEnvironment = defineComponent({
+  name: "NotificationEnvironment",
+  props: Object.assign(Object.assign({}, notificationEnvOptions), {
+    // private
+    internalKey: {
+      type: String,
+      required: true
+    },
+    onInternalAfterLeave: {
+      type: Function,
+      required: true
+    }
+  }),
+  setup(props) {
+    const {
+      wipTransitionCountRef
+    } = inject(notificationProviderInjectionKey);
+    const showRef = ref(true);
+    let timerId = null;
+    function hide() {
+      showRef.value = false;
+      if (timerId) {
+        window.clearTimeout(timerId);
+      }
+    }
+    function handleBeforeEnter(el) {
+      wipTransitionCountRef.value++;
+      void nextTick(() => {
+        el.style.height = `${el.offsetHeight}px`;
+        el.style.maxHeight = "0";
+        el.style.transition = "none";
+        void el.offsetHeight;
+        el.style.transition = "";
+        el.style.maxHeight = el.style.height;
+      });
+    }
+    function handleAfterEnter(el) {
+      wipTransitionCountRef.value--;
+      el.style.height = "";
+      el.style.maxHeight = "";
+      const {
+        onAfterEnter,
+        onAfterShow
+      } = props;
+      if (onAfterEnter) onAfterEnter();
+      if (onAfterShow) onAfterShow();
+    }
+    function handleBeforeLeave(el) {
+      wipTransitionCountRef.value++;
+      el.style.maxHeight = `${el.offsetHeight}px`;
+      el.style.height = `${el.offsetHeight}px`;
+      void el.offsetHeight;
+    }
+    function handleLeave(el) {
+      const {
+        onHide
+      } = props;
+      if (onHide) onHide();
+      el.style.maxHeight = "0";
+      void el.offsetHeight;
+    }
+    function handleAfterLeave() {
+      wipTransitionCountRef.value--;
+      const {
+        onAfterLeave,
+        onInternalAfterLeave,
+        onAfterHide,
+        internalKey
+      } = props;
+      if (onAfterLeave) onAfterLeave();
+      onInternalAfterLeave(internalKey);
+      if (onAfterHide) onAfterHide();
+    }
+    function setHideTimeout() {
+      const {
+        duration: duration2
+      } = props;
+      if (duration2) {
+        timerId = window.setTimeout(hide, duration2);
+      }
+    }
+    function handleMouseenter(e) {
+      if (e.currentTarget !== e.target) return;
+      if (timerId !== null) {
+        window.clearTimeout(timerId);
+        timerId = null;
+      }
+    }
+    function handleMouseleave(e) {
+      if (e.currentTarget !== e.target) return;
+      setHideTimeout();
+    }
+    function handleClose() {
+      const {
+        onClose
+      } = props;
+      if (onClose) {
+        void Promise.resolve(onClose()).then((feedback) => {
+          if (feedback === false) return;
+          hide();
+        });
+      } else {
+        hide();
+      }
+    }
+    onMounted(() => {
+      if (props.duration) {
+        timerId = window.setTimeout(hide, props.duration);
+      }
+    });
+    return {
+      show: showRef,
+      hide,
+      handleClose,
+      handleAfterLeave,
+      handleLeave,
+      handleBeforeLeave,
+      handleAfterEnter,
+      handleBeforeEnter,
+      handleMouseenter,
+      handleMouseleave
+    };
+  },
+  render() {
+    return h(Transition, {
+      name: "notification-transition",
+      appear: true,
+      // convert to any since Element is not compatible with HTMLElement
+      onBeforeEnter: this.handleBeforeEnter,
+      onAfterEnter: this.handleAfterEnter,
+      onBeforeLeave: this.handleBeforeLeave,
+      onLeave: this.handleLeave,
+      onAfterLeave: this.handleAfterLeave
+    }, {
+      default: () => {
+        return this.show ? h(Notification, Object.assign({}, keep(this.$props, notificationPropKeys), {
+          onClose: this.handleClose,
+          onMouseenter: this.duration && this.keepAliveOnHover ? this.handleMouseenter : void 0,
+          onMouseleave: this.duration && this.keepAliveOnHover ? this.handleMouseleave : void 0
+        })) : null;
+      }
+    });
+  }
+});
+const style$1 = c$1([cB("notification-container", `
+ z-index: 4000;
+ position: fixed;
+ overflow: visible;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ `, [c$1(">", [cB("scrollbar", `
+ width: initial;
+ overflow: visible;
+ height: -moz-fit-content !important;
+ height: fit-content !important;
+ max-height: 100vh !important;
+ `, [c$1(">", [cB("scrollbar-container", `
+ height: -moz-fit-content !important;
+ height: fit-content !important;
+ max-height: 100vh !important;
+ `, [cB("scrollbar-content", `
+ padding-top: 12px;
+ padding-bottom: 33px;
+ `)])])])]), cM("top, top-right, top-left", `
+ top: 12px;
+ `, [c$1("&.transitioning >", [cB("scrollbar", [c$1(">", [cB("scrollbar-container", `
+ min-height: 100vh !important;
+ `)])])])]), cM("bottom, bottom-right, bottom-left", `
+ bottom: 12px;
+ `, [c$1(">", [cB("scrollbar", [c$1(">", [cB("scrollbar-container", [cB("scrollbar-content", `
+ padding-bottom: 12px;
+ `)])])])]), cB("notification-wrapper", `
+ display: flex;
+ align-items: flex-end;
+ margin-bottom: 0;
+ margin-top: 12px;
+ `)]), cM("top, bottom", `
+ left: 50%;
+ transform: translateX(-50%);
+ `, [cB("notification-wrapper", [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
+ transform: scale(0.85);
+ `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
+ transform: scale(1);
+ `)])]), cM("top", [cB("notification-wrapper", `
+ transform-origin: top center;
+ `)]), cM("bottom", [cB("notification-wrapper", `
+ transform-origin: bottom center;
+ `)]), cM("top-right, bottom-right", [cB("notification", `
+ margin-left: 28px;
+ margin-right: 16px;
+ `)]), cM("top-left, bottom-left", [cB("notification", `
+ margin-left: 16px;
+ margin-right: 28px;
+ `)]), cM("top-right", `
+ right: 0;
+ `, [placementTransformStyle("top-right")]), cM("top-left", `
+ left: 0;
+ `, [placementTransformStyle("top-left")]), cM("bottom-right", `
+ right: 0;
+ `, [placementTransformStyle("bottom-right")]), cM("bottom-left", `
+ left: 0;
+ `, [placementTransformStyle("bottom-left")]), cM("scrollable", [cM("top-right", `
+ top: 0;
+ `), cM("top-left", `
+ top: 0;
+ `), cM("bottom-right", `
+ bottom: 0;
+ `), cM("bottom-left", `
+ bottom: 0;
+ `)]), cB("notification-wrapper", `
+ margin-bottom: 12px;
+ `, [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
+ opacity: 0;
+ margin-top: 0 !important;
+ margin-bottom: 0 !important;
+ `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
+ opacity: 1;
+ `), c$1("&.notification-transition-leave-active", `
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier),
+ transform .3s var(--n-bezier-ease-in),
+ max-height .3s var(--n-bezier),
+ margin-top .3s linear,
+ margin-bottom .3s linear,
+ box-shadow .3s var(--n-bezier);
+ `), c$1("&.notification-transition-enter-active", `
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier),
+ transform .3s var(--n-bezier-ease-out),
+ max-height .3s var(--n-bezier),
+ margin-top .3s linear,
+ margin-bottom .3s linear,
+ box-shadow .3s var(--n-bezier);
+ `)]), cB("notification", `
+ background-color: var(--n-color);
+ color: var(--n-text-color);
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier),
+ box-shadow .3s var(--n-bezier);
+ font-family: inherit;
+ font-size: var(--n-font-size);
+ font-weight: 400;
+ position: relative;
+ display: flex;
+ overflow: hidden;
+ flex-shrink: 0;
+ padding-left: var(--n-padding-left);
+ padding-right: var(--n-padding-right);
+ width: var(--n-width);
+ max-width: calc(100vw - 16px - 16px);
+ border-radius: var(--n-border-radius);
+ box-shadow: var(--n-box-shadow);
+ box-sizing: border-box;
+ opacity: 1;
+ `, [cE("avatar", [cB("icon", `
+ color: var(--n-icon-color);
+ `), cB("base-icon", `
+ color: var(--n-icon-color);
+ `)]), cM("show-avatar", [cB("notification-main", `
+ margin-left: 40px;
+ width: calc(100% - 40px); 
+ `)]), cM("closable", [cB("notification-main", [c$1("> *:first-child", `
+ padding-right: 20px;
+ `)]), cE("close", `
+ position: absolute;
+ top: 0;
+ right: 0;
+ margin: var(--n-close-margin);
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier);
+ `)]), cE("avatar", `
+ position: absolute;
+ top: var(--n-padding-top);
+ left: var(--n-padding-left);
+ width: 28px;
+ height: 28px;
+ font-size: 28px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ `, [cB("icon", "transition: color .3s var(--n-bezier);")]), cB("notification-main", `
+ padding-top: var(--n-padding-top);
+ padding-bottom: var(--n-padding-bottom);
+ box-sizing: border-box;
+ display: flex;
+ flex-direction: column;
+ margin-left: 8px;
+ width: calc(100% - 8px);
+ `, [cB("notification-main-footer", `
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 12px;
+ `, [cE("meta", `
+ font-size: var(--n-meta-font-size);
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-description-text-color);
+ `), cE("action", `
+ cursor: pointer;
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-action-text-color);
+ `)]), cE("header", `
+ font-weight: var(--n-title-font-weight);
+ font-size: var(--n-title-font-size);
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-title-text-color);
+ `), cE("description", `
+ margin-top: 8px;
+ font-size: var(--n-description-font-size);
+ white-space: pre-wrap;
+ word-wrap: break-word;
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-description-text-color);
+ `), cE("content", `
+ line-height: var(--n-line-height);
+ margin: 12px 0 0 0;
+ font-family: inherit;
+ white-space: pre-wrap;
+ word-wrap: break-word;
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-text-color);
+ `, [c$1("&:first-child", "margin: 0;")])])])])]);
+function placementTransformStyle(placement) {
+  const direction = placement.split("-")[1];
+  const transformXEnter = direction === "left" ? "calc(-100%)" : "calc(100%)";
+  const transformXLeave = "0";
+  return cB("notification-wrapper", [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
+ transform: translate(${transformXEnter}, 0);
+ `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
+ transform: translate(${transformXLeave}, 0);
+ `)]);
+}
+const notificationApiInjectionKey = createInjectionKey("n-notification-api");
+const notificationProviderProps = Object.assign(Object.assign({}, useTheme.props), {
+  containerClass: String,
+  containerStyle: [String, Object],
+  to: [String, Object],
+  scrollable: {
+    type: Boolean,
+    default: true
+  },
+  max: Number,
+  placement: {
+    type: String,
+    default: "top-right"
+  },
+  keepAliveOnHover: Boolean
+});
+const __unplugin_components_1 = defineComponent({
+  name: "NotificationProvider",
+  props: notificationProviderProps,
+  setup(props) {
+    const {
+      mergedClsPrefixRef
+    } = useConfig(props);
+    const notificationListRef = ref([]);
+    const notificationRefs = {};
+    const leavingKeySet = /* @__PURE__ */ new Set();
+    function create(options) {
+      const key = createId();
+      const destroy = () => {
+        leavingKeySet.add(key);
+        if (notificationRefs[key]) {
+          notificationRefs[key].hide();
+        }
+      };
+      const notificationReactive = reactive(Object.assign(Object.assign({}, options), {
+        key,
+        destroy,
+        hide: destroy,
+        deactivate: destroy
+      }));
+      const {
+        max
+      } = props;
+      if (max && notificationListRef.value.length - leavingKeySet.size >= max) {
+        let someoneMountedRemoved = false;
+        let index = 0;
+        for (const notification of notificationListRef.value) {
+          if (!leavingKeySet.has(notification.key)) {
+            if (notificationRefs[notification.key]) {
+              notification.destroy();
+              someoneMountedRemoved = true;
+            }
+            break;
+          }
+          index++;
+        }
+        if (!someoneMountedRemoved) {
+          notificationListRef.value.splice(index, 1);
+        }
+      }
+      notificationListRef.value.push(notificationReactive);
+      return notificationReactive;
+    }
+    const apis = ["info", "success", "warning", "error"].map((type) => {
+      return (options) => create(Object.assign(Object.assign({}, options), {
+        type
+      }));
+    });
+    function handleAfterLeave(key) {
+      leavingKeySet.delete(key);
+      notificationListRef.value.splice(notificationListRef.value.findIndex((notification) => notification.key === key), 1);
+    }
+    const themeRef = useTheme("Notification", "-notification", style$1, notificationLight, props, mergedClsPrefixRef);
+    const api = {
+      create,
+      info: apis[0],
+      success: apis[1],
+      warning: apis[2],
+      error: apis[3],
+      open,
+      destroyAll
+    };
+    const wipTransitionCountRef = ref(0);
+    provide(notificationApiInjectionKey, api);
+    provide(notificationProviderInjectionKey, {
+      props,
+      mergedClsPrefixRef,
+      mergedThemeRef: themeRef,
+      wipTransitionCountRef
+    });
+    function open(options) {
+      return create(options);
+    }
+    function destroyAll() {
+      Object.values(notificationListRef.value).forEach((notification) => {
+        notification.hide();
+      });
+    }
+    return Object.assign({
+      mergedClsPrefix: mergedClsPrefixRef,
+      notificationList: notificationListRef,
+      notificationRefs,
+      handleAfterLeave
+    }, api);
+  },
+  render() {
+    var _a, _b, _c;
+    const {
+      placement
+    } = this;
+    return h(Fragment, null, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a), this.notificationList.length ? h(Teleport, {
+      to: (_c = this.to) !== null && _c !== void 0 ? _c : "body"
+    }, h(NotificationContainer, {
+      class: this.containerClass,
+      style: this.containerStyle,
+      scrollable: this.scrollable && placement !== "top" && placement !== "bottom",
+      placement
+    }, {
+      default: () => {
+        return this.notificationList.map((notification) => {
+          return h(NotificationEnvironment, Object.assign({
+            ref: (inst) => {
+              const refKey = notification.key;
+              if (inst === null) {
+                delete this.notificationRefs[refKey];
+              } else {
+                this.notificationRefs[refKey] = inst;
+              }
+            }
+          }, omit(notification, ["destroy", "hide", "deactivate"]), {
+            internalKey: notification.key,
+            onInternalAfterLeave: this.handleAfterLeave,
+            keepAliveOnHover: notification.keepAliveOnHover === void 0 ? this.keepAliveOnHover : notification.keepAliveOnHover
+          }));
+        });
+      }
+    })) : null);
+  }
+});
+function useNotification() {
+  const api = inject(notificationApiInjectionKey, null);
+  if (api === null) {
+    throwError("use-notification", "No outer `n-notification-provider` found.");
   }
   return api;
 }
@@ -25918,34 +26718,41 @@ var cryptoJsExports = cryptoJs.exports;
 let apiurl = "https://api.xwzkj.top";
 let musicApi = axios.create({
   baseURL: apiurl,
-  timeout: 2e4
-  // withCredentials: true,//跨域时可能因为允许的源是通配符（*）而阻止访问接口 故直接通过参数传递cookie
+  timeout: 2e4,
+  withCredentials: true
 });
 let request = async (params, realTimeSync = true) => {
-  const userStore = useUserStore(pinia);
-  if (realTimeSync) {
-    params.params = { ...params.params, timestamp: Date.now() };
-  }
-  params.params = { ...params.params, realIP: userStore.ip };
-  if (localStorage.getItem("cookie") != null && apiurl.slice(0, 4) == "http") {
-    if (params.method == "post") {
-      params.data = { ...params.data, cookie: userStore.cookie };
-    } else if (params.method == "get") {
-      params.params = { ...params.params, cookie: userStore.cookie };
+  try {
+    const userStore = useUserStore(pinia);
+    if (realTimeSync) {
+      params.params = { ...params.params, timestamp: Date.now() };
     }
+    params.params = { ...params.params, realIP: userStore.ip ?? "111.37.150.114" };
+    if (localStorage.getItem("cookie") != null && apiurl.slice(0, 4) == "http") {
+      if (params.method == "post") {
+        params.data = { ...params.data, cookie: userStore.cookie };
+      } else if (params.method == "get") {
+        params.params = { ...params.params, cookie: userStore.cookie };
+      }
+    }
+    let req = await musicApi.request(params);
+    return req;
+  } catch (e) {
+    error(`${e.name}
+${e.message}
+${e?.response?.data?.message}`, `API网络请求错误！可尝试使用客户端`);
   }
-  let req = await musicApi.request(params);
-  return req;
 };
 if (window.isElectron) {
   console.log("当前是electron环境！");
   request = async (param, _) => {
-    console.log(param);
     let { url, method, params, data } = param;
     if (localStorage.getItem("cookie")) {
       data = { ...data, cookie: localStorage.getItem("cookie") };
     }
-    return await window.netease(url, { ...data, ...params });
+    let res = await window.netease(url, { ...data, ...params });
+    console.log("本地api", param, res);
+    return res;
   };
 }
 function loginStatus() {
@@ -26069,15 +26876,22 @@ function verifyCaptcha(phone, captcha) {
     data: { phone, captcha }
   });
 }
+function playlistTracks(op, pid, tracks) {
+  if (!op || !pid || !tracks) {
+    throw new Error("[api][歌单添加或删除歌曲]参数不能为空");
+  }
+  return request({
+    url: "/playlist/tracks",
+    method: "post",
+    params: { op, pid, tracks }
+  });
+}
 function like(id, like2 = true) {
   if (id == void 0 || id == null) {
     throw new Error("[api][like]id不能为空");
   }
-  return request({
-    url: "/like",
-    method: "post",
-    params: { id, like: like2 }
-  });
+  const userStore = useUserStore(pinia);
+  return playlistTracks(like2 ? "add" : "del", userStore.playlists?.[0]?.id, String(id));
 }
 async function likeAndUpdateLikelist(id, isLike = true) {
   const userStore = useUserStore(pinia);
@@ -26140,19 +26954,23 @@ function mixColor(colorA, colorB, weight = 0.5, needRaw = false, lighter = false
 function windowBack() {
   window.history.back();
 }
-function error(message) {
-  console.error("[error]", message);
-  window.$NMessageApi.error(message, {
-    // render: (props) => renderMessage({ ...props, title }),
+function error(content, title) {
+  console.error("[error]", content, title);
+  window.$NNotificationApi.error({
+    content,
+    title,
     closable: true,
-    duration: 6e4
+    duration: 1e4,
+    keepAliveOnHover: true
   });
 }
-function success(message) {
-  window.$NMessageApi.success(message, {
-    // render: (props) => renderMessage({ ...props, title }),
-    closable: false,
-    duration: 1500
+function success(content, title) {
+  window.$NNotificationApi.success({
+    content,
+    title,
+    closable: true,
+    duration: 1500,
+    keepAliveOnHover: true
   });
 }
 function parseArtist(arObj) {
@@ -26754,7 +27572,7 @@ const useUserStore = defineStore("user", {
       let user = JSON.parse(localStorage.getItem("user"));
       this.updateByObj(user);
       if (this.ip == "") {
-        this.ip = `114.114.${random(0, 255)}.${random(0, 255)}`;
+        this.ip = `111.37.150.${random(0, 255)}`;
       }
       console.log("pinia updatedByStorage");
     },
@@ -26979,7 +27797,7 @@ const usePlayStore = defineStore("play", () => {
         playlist.value = parseDetailToList(dataFromApi);
         setPlayMode();
       } else if (ids == null && "version" in storageNow && storageNow.version == 3) {
-        playlistIndex.value = storageNow.current;
+        playOrderIndex.value = storageNow.current;
         playlist.value = storageNow.playlist;
         playOrder.value = storageNow.playOrder;
         setPlayMode(storageNow.playMode);
@@ -27034,7 +27852,7 @@ const usePlayStore = defineStore("play", () => {
       let { url, lyric, ...a } = item;
       return a;
     });
-    let storage = { version: 3, playlist: list, current: playlistIndex.value, playOrder: playOrder.value, playMode: playMode.value };
+    let storage = { version: 3, playlist: list, current: playOrderIndex.value, playOrder: playOrder.value, playMode: playMode.value };
     localStorage.removeItem("playlist");
     localStorage.setItem("playlist", JSON.stringify(storage));
   }
@@ -27798,10 +28616,19 @@ const useThemeStore = defineStore("theme", {
     }
   }
 });
-const _sfc_main$7 = {
+const _sfc_main$8 = {
   __name: "messageApi",
   setup(__props) {
     window.$NMessageApi = useMessage();
+    return (_ctx, _cache) => {
+      return openBlock(), createElementBlock("div");
+    };
+  }
+};
+const _sfc_main$7 = {
+  __name: "notificationApi",
+  setup(__props) {
+    window.$NNotificationApi = useNotification();
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div");
     };
@@ -30169,7 +30996,7 @@ const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "09449344": unref(ctrlHeight) + `rem`
+      "76ad8046": unref(ctrlHeight) + `rem`
     }));
     emitter.on("switchShowPlayer", () => {
       switchShowPlayer();
@@ -30193,7 +31020,7 @@ const _sfc_main$2 = {
       anime({
         targets: outerEle.value,
         translateY: showPlayingList ? `${a}px` : "0px",
-        duration: 500,
+        duration: 700,
         easing: "easeInOutCubic",
         begin: () => {
           if (showPlayingList == true) {
@@ -30210,7 +31037,7 @@ const _sfc_main$2 = {
       anime({
         targets: ".ctrl-player",
         translateY: showPlayer ? `-100%` : "0%",
-        duration: 500,
+        duration: 700,
         easing: "easeInOutCubic",
         begin: () => {
           if (showPlayer == true) {
@@ -30407,7 +31234,7 @@ const _sfc_main$2 = {
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-01160be8"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-192bf6fb"]]);
 const _hoisted_1$1 = { class: "container" };
 const _hoisted_2 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };
@@ -30453,16 +31280,16 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "2e637a67": unref(themeStore).mainColors[0],
-      "2e637b5f": unref(themeStore).mainColors[8],
-      "2e637b7e": unref(themeStore).mainColors[9],
-      "2e637b40": unref(themeStore).mainColors[7],
-      "2e637b21": unref(themeStore).mainColors[6],
-      "2e637a86": unref(themeStore).mainColors[1],
-      "2e637aa5": unref(themeStore).mainColors[2],
-      "2e637ac4": unref(themeStore).mainColors[3],
-      "2e637ae3": unref(themeStore).mainColors[4],
-      "2e637b02": unref(themeStore).mainColors[5]
+      "5a1a2d17": unref(themeStore).mainColors[0],
+      "5a1a2e0f": unref(themeStore).mainColors[8],
+      "5a1a2e2e": unref(themeStore).mainColors[9],
+      "5a1a2df0": unref(themeStore).mainColors[7],
+      "5a1a2dd1": unref(themeStore).mainColors[6],
+      "5a1a2d36": unref(themeStore).mainColors[1],
+      "5a1a2d55": unref(themeStore).mainColors[2],
+      "5a1a2d74": unref(themeStore).mainColors[3],
+      "5a1a2d93": unref(themeStore).mainColors[4],
+      "5a1a2db2": unref(themeStore).mainColors[5]
     }));
     if (!window.hasOwnProperty("isElectron")) {
       window.isElectron = false;
@@ -30491,12 +31318,19 @@ const _sfc_main = {
     });
     return (_ctx, _cache) => {
       const _component_n_message_provider = __unplugin_components_0$2;
-      const _component_n_config_provider = __unplugin_components_1;
+      const _component_n_notification_provider = __unplugin_components_1;
+      const _component_n_config_provider = __unplugin_components_2$1;
       return openBlock(), createElementBlock("div", _hoisted_1, [
         createVNode(_component_n_config_provider, { "theme-overrides": unref(themeOverrides) }, {
           default: withCtx(() => [
             createVNode(Container),
             createVNode(_component_n_message_provider, null, {
+              default: withCtx(() => [
+                createVNode(_sfc_main$8)
+              ]),
+              _: 1
+            }),
+            createVNode(_component_n_notification_provider, null, {
               default: withCtx(() => [
                 createVNode(_sfc_main$7)
               ]),

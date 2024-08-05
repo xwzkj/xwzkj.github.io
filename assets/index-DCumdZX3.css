@@ -303,16 +303,16 @@ ul[data-v-c532f165] {
 }
 }
 
-[data-v-01160be8] {
+[data-v-192bf6fb] {
     box-sizing: border-box;
 }
-.ctrl-outer-outer[data-v-01160be8] {
+.ctrl-outer-outer[data-v-192bf6fb] {
     position: relative;
 }
-.ctrl-outer[data-v-01160be8] {
+.ctrl-outer[data-v-192bf6fb] {
     position: fixed;
     z-index: 1;
-    top: calc(var(--vh, 1vh) * 100 - var(--09449344));
+    top: calc(var(--vh, 1vh) * 100 - var(--76ad8046));
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -326,18 +326,18 @@ ul[data-v-c532f165] {
     backdrop-filter: blur(20px);
     /* transition: all 0.5s ease-in-out; */
 }
-.ctrl-box[data-v-01160be8] {
+.ctrl-box[data-v-192bf6fb] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-01160be8] {
+.ctrl-left[data-v-192bf6fb] {
     flex: 1;
     display: flex;
     max-width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-01160be8] {
+.ctrl-img-box[data-v-192bf6fb] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -350,38 +350,38 @@ ul[data-v-c532f165] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-01160be8] {
+.ctrl-img[data-v-192bf6fb] {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.ctrl-info-box[data-v-01160be8] {
+.ctrl-info-box[data-v-192bf6fb] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-01160be8] {
+.ctrl-info-title[data-v-192bf6fb] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-01160be8] {
+.ctrl-center[data-v-192bf6fb] {
     flex: 1;
     padding-top: 0.8rem;
     max-width: calc(100% / 3.5);
 }
-.button[data-v-01160be8] {
+.button[data-v-192bf6fb] {
     cursor: pointer;
 }
-.btn-control[data-v-01160be8] {
+.btn-control[data-v-192bf6fb] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-01160be8] {
+.btn-play-control[data-v-192bf6fb] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -389,7 +389,7 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-01160be8] {
+.ctrl-right[data-v-192bf6fb] {
     flex: 1;
     max-width: calc(100% / 3.5);
     display: flex;
@@ -401,17 +401,17 @@ right---------------------------------------------------------
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-01160be8] {
+.ctrl-playinglist[data-v-192bf6fb] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--09449344));
+    height: calc(var(--vh, 1vh) * 100 - var(--76ad8046));
     flex: 1;
 }
 
 /* ***************************************************************
 播放器-------------------------------------------------------------------===================
 *****************************************************************/
-.ctrl-player[data-v-01160be8] {
+.ctrl-player[data-v-192bf6fb] {
     position: fixed;
     top: calc(var(--vh, 1vh) * 100);
     left: 0;
@@ -421,11 +421,11 @@ right---------------------------------------------------------
     z-index: 10;
 }
 @media screen and (max-width: 600px) {
-.ctrl-info-box[data-v-01160be8] {
+.ctrl-info-box[data-v-192bf6fb] {
         display: none;
 }
-.btn-like[data-v-01160be8],
-    .btn-loop[data-v-01160be8] {
+.btn-like[data-v-192bf6fb],
+    .btn-loop[data-v-192bf6fb] {
         display: none;
 }
 }
@@ -470,51 +470,51 @@ right---------------------------------------------------------
 
 .app,
 .bg {
-  background-color: var(--2e637a67);
+  background-color: var(--5a1a2d17);
 }
 .icon,
 .n-icon {
-  color: var(--2e637b5f);
+  color: var(--5a1a2e0f);
 }
 .text1 {
-  color: var(--2e637b7e);
+  color: var(--5a1a2e2e);
 }
 .text2 {
-  color: var(--2e637b40);
+  color: var(--5a1a2df0);
 }
 .text3 {
-  color: var(--2e637b21);
+  color: var(--5a1a2dd1);
 }
 
 
 /* 主题色 */
 .color0 {
-  color: var(--2e637a67);
+  color: var(--5a1a2d17);
 }
 .color1 {
-  color: var(--2e637a86);
+  color: var(--5a1a2d36);
 }
 .color2 {
-  color: var(--2e637aa5);
+  color: var(--5a1a2d55);
 }
 .color3 {
-  color: var(--2e637ac4);
+  color: var(--5a1a2d74);
 }
 .color4 {
-  color: var(--2e637ae3);
+  color: var(--5a1a2d93);
 }
 .color5 {
-  color: var(--2e637b02);
+  color: var(--5a1a2db2);
 }
 .color6 {
-  color: var(--2e637b21);
+  color: var(--5a1a2dd1);
 }
 .color7 {
-  color: var(--2e637b40);
+  color: var(--5a1a2df0);
 }
 .color8 {
-  color: var(--2e637b5f);
+  color: var(--5a1a2e0f);
 }
 .color9 {
-  color: var(--2e637b7e);
+  color: var(--5a1a2e2e);
 }
