@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-gc1aNFnW.js","./itemCard-BuXZlBIu.js","./marqueePlus-DbmZO9-7.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-DtFrk6h0.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-BufOcAdY.js","./musicList-Czj_OfsB.js","./Card-BDozjdv_.js","./musicList-C2Gx6pRn.css","./search-Bwf6tg_B.css","./login-DBbboVxb.js","./Button-BHKzYjOB.js","./login-BZBt2RaQ.css","./account-D2jcC-pY.js","./account-CZ8eyIhU.css","./playlist-B3EF9jXT.js","./playlist-_rqHwo7U.css","./setting-CGw2_5d5.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BEc7igcN.js","./itemCard-dnKWs5qK.js","./marqueePlus-DbmZO9-7.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-BBuzmke5.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-Cpjs5sLu.js","./musicList-CmcTQfyz.js","./Card-C3umNC66.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-CsSj7qlP.js","./Button-hROLuOlL.js","./login-BZBt2RaQ.css","./account-Ddwl1nK2.js","./account-CZ8eyIhU.css","./playlist-FCPYWKcq.js","./playlist-_rqHwo7U.css","./setting-B3cJK7X9.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as pushScopeId, aO as popScopeId, aP as _export_sfc, aQ as withCtx, aR as createBlock, aS as createCommentVNode, aT as useCssVars, aU as renderList, aV as toDisplayString, aW as MarqueePlus, aX as normalizeClass, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./marqueePlus-DbmZO9-7.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -58,7 +58,9 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
     );
   }
   return promise.then(() => baseModule()).catch((err) => {
-    const e = new Event("vite:preloadError", { cancelable: true });
+    const e = new Event("vite:preloadError", {
+      cancelable: true
+    });
     e.payload = err;
     window.dispatchEvent(e);
     if (!e.defaultPrevented) {
@@ -1918,7 +1920,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-gc1aNFnW.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BEc7igcN.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1929,18 +1931,18 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-BufOcAdY.js"), true ? __vite__mapDeps([7,2,3,8,9,10,11]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-Cpjs5sLu.js"), true ? __vite__mapDeps([7,2,3,8,9,10,11]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
-      },
-      meta: {
-        keepAlive: true
       }
+      // meta: {
+      //     keepAlive: true
+      // }
     },
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DBbboVxb.js"), true ? __vite__mapDeps([12,2,3,13,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CsSj7qlP.js"), true ? __vite__mapDeps([12,2,3,13,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1948,7 +1950,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-D2jcC-pY.js"), true ? __vite__mapDeps([15,2,3,1,4,5,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-Ddwl1nK2.js"), true ? __vite__mapDeps([15,2,3,1,4,5,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1959,24 +1961,24 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-B3EF9jXT.js"), true ? __vite__mapDeps([17,8,2,3,9,10,13,4,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-FCPYWKcq.js"), true ? __vite__mapDeps([17,8,2,3,9,10,13,4,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
-      },
-      meta: {
-        keepAlive: true
       }
+      // meta: {
+      //     keepAlive: true
+      // }
     },
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CGw2_5d5.js"), true ? __vite__mapDeps([19,2,3,13,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-B3cJK7X9.js"), true ? __vite__mapDeps([19,2,3,13,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
-      },
-      meta: {
-        keepAlive: true
       }
+      // meta: {
+      //     keepAlive: true
+      // }
     }
   ]
 });
@@ -2476,7 +2478,7 @@ function call(funcs, ...args) {
 function keysOf(obj) {
   return Object.keys(obj);
 }
-function render$h(r2, ...args) {
+function render$i(r2, ...args) {
   if (typeof r2 === "function") {
     return r2(...args);
   } else if (typeof r2 === "string") {
@@ -8056,15 +8058,15 @@ const Scrollbar$1 = defineComponent({
         position,
         behavior,
         el,
-        debounce = true
+        debounce: debounce2 = true
       } = options;
       if (left !== void 0 || top !== void 0) {
         scrollToPosition2(left !== null && left !== void 0 ? left : 0, top !== null && top !== void 0 ? top : 0, 0, false, behavior);
       }
       if (el !== void 0) {
-        scrollToPosition2(0, el.offsetTop, el.offsetHeight, debounce, behavior);
+        scrollToPosition2(0, el.offsetTop, el.offsetHeight, debounce2, behavior);
       } else if (index !== void 0 && elSize !== void 0) {
-        scrollToPosition2(0, index * elSize, elSize, debounce, behavior);
+        scrollToPosition2(0, index * elSize, elSize, debounce2, behavior);
       } else if (position === "bottom") {
         scrollToPosition2(0, Number.MAX_SAFE_INTEGER, 0, false, behavior);
       } else if (position === "top") {
@@ -8103,12 +8105,12 @@ const Scrollbar$1 = defineComponent({
         container.scrollBy(options, y || 0);
       }
     };
-    function scrollToPosition2(left, top, elSize, debounce, behavior) {
+    function scrollToPosition2(left, top, elSize, debounce2, behavior) {
       const {
         value: container
       } = mergedContainerRef;
       if (!container) return;
-      if (debounce) {
+      if (debounce2) {
         const {
           scrollTop,
           offsetHeight
@@ -13006,10 +13008,10 @@ const NDropdownOption = defineComponent({
       "data-dropdown-option": true
     }, optionNodeProps), h("div", mergeProps(builtinProps, props), [h("div", {
       class: [`${clsPrefix}-dropdown-option-body__prefix`, siblingHasIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, [renderIcon ? renderIcon(rawNode) : render$h(rawNode.icon)]), h("div", {
+    }, [renderIcon ? renderIcon(rawNode) : render$i(rawNode.icon)]), h("div", {
       "data-dropdown-option": true,
       class: `${clsPrefix}-dropdown-option-body__label`
-    }, renderLabel ? renderLabel(rawNode) : render$h((_b = rawNode[this.labelField]) !== null && _b !== void 0 ? _b : rawNode.title)), h("div", {
+    }, renderLabel ? renderLabel(rawNode) : render$i((_b = rawNode[this.labelField]) !== null && _b !== void 0 ? _b : rawNode.title)), h("div", {
       "data-dropdown-option": true,
       class: [`${clsPrefix}-dropdown-option-body__suffix`, siblingHasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`]
     }, this.hasSubmenu ? h(NIcon, null, {
@@ -13100,10 +13102,10 @@ const NDropdownGroupHeader = defineComponent({
     }, h("div", {
       "data-dropdown-option": true,
       class: [`${clsPrefix}-dropdown-option-body__prefix`, showIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, render$h(rawNode.icon)), h("div", {
+    }, render$i(rawNode.icon)), h("div", {
       class: `${clsPrefix}-dropdown-option-body__label`,
       "data-dropdown-option": true
-    }, renderLabel ? renderLabel(rawNode) : render$h((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
+    }, renderLabel ? renderLabel(rawNode) : render$i((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
       class: [`${clsPrefix}-dropdown-option-body__suffix`, hasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`],
       "data-dropdown-option": true
     })));
@@ -14276,7 +14278,7 @@ const NMenuOptionGroup = defineComponent({
       }, h("div", Object.assign({}, attrs, {
         class: [`${mergedClsPrefix}-menu-item-group-title`, attrs === null || attrs === void 0 ? void 0 : attrs.class],
         style: [(attrs === null || attrs === void 0 ? void 0 : attrs.style) || "", paddingLeft !== void 0 ? `padding-left: ${paddingLeft}px;` : ""]
-      }), render$h(props.title), props.extra ? h(Fragment, null, " ", render$h(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
+      }), render$i(props.title), props.extra ? h(Fragment, null, " ", render$i(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
     };
   }
 });
@@ -14356,7 +14358,7 @@ const NMenuOptionContent = defineComponent({
         expandIcon
       }
     } = this;
-    const icon = renderIcon ? renderIcon(tmNode.rawNode) : render$h(this.icon);
+    const icon = renderIcon ? renderIcon(tmNode.rawNode) : render$i(this.icon);
     return h("div", {
       onClick: (e) => {
         var _a;
@@ -14378,9 +14380,9 @@ const NMenuOptionContent = defineComponent({
     }, [icon]), h("div", {
       class: `${clsPrefix}-menu-item-content-header`,
       role: "none"
-    }, this.isEllipsisPlaceholder ? this.title : renderLabel ? renderLabel(tmNode.rawNode) : render$h(this.title), this.extra || renderExtra ? h("span", {
+    }, this.isEllipsisPlaceholder ? this.title : renderLabel ? renderLabel(tmNode.rawNode) : render$i(this.title), this.extra || renderExtra ? h("span", {
       class: `${clsPrefix}-menu-item-content-header__extra`
-    }, " ", renderExtra ? renderExtra(tmNode.rawNode) : render$h(this.extra)) : null), this.showArrow ? h(NBaseIcon, {
+    }, " ", renderExtra ? renderExtra(tmNode.rawNode) : render$i(this.extra)) : null), this.showArrow ? h(NBaseIcon, {
       ariaHidden: true,
       class: `${clsPrefix}-menu-item-content__arrow`,
       clsPrefix
@@ -14678,7 +14680,7 @@ const NMenuOption = defineComponent({
       disabled: !this.dropdownEnabled || this.title === void 0,
       internalExtraClass: ["menu-tooltip"]
     }, {
-      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$h(this.title),
+      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$i(this.title),
       trigger: () => h(NMenuOptionContent, {
         tmNode,
         clsPrefix: mergedClsPrefix,
@@ -15731,7 +15733,7 @@ const NMessage = defineComponent({
       default: () => iconNode
     })) : null, h("div", {
       class: `${mergedClsPrefix}-message__content`
-    }, render$h(content)), closable ? h(NBaseClose, {
+    }, render$i(content)), closable ? h(NBaseClose, {
       clsPrefix: mergedClsPrefix,
       class: `${mergedClsPrefix}-message__close`,
       onClick: handleClose,
@@ -16204,7 +16206,7 @@ const Notification = defineComponent({
       style: this.cssVars
     }, this.showAvatar ? h("div", {
       class: `${mergedClsPrefix}-notification__avatar`
-    }, this.avatar ? render$h(this.avatar) : this.type !== "default" ? h(NBaseIcon, {
+    }, this.avatar ? render$i(this.avatar) : this.type !== "default" ? h(NBaseIcon, {
       clsPrefix: mergedClsPrefix
     }, {
       default: () => iconRenderMap[this.type]()
@@ -16217,17 +16219,17 @@ const Notification = defineComponent({
       class: `${mergedClsPrefix}-notification-main`
     }, this.title ? h("div", {
       class: `${mergedClsPrefix}-notification-main__header`
-    }, render$h(this.title)) : null, this.description ? h("div", {
+    }, render$i(this.title)) : null, this.description ? h("div", {
       class: `${mergedClsPrefix}-notification-main__description`
-    }, render$h(this.description)) : null, this.content ? h("pre", {
+    }, render$i(this.description)) : null, this.content ? h("pre", {
       class: `${mergedClsPrefix}-notification-main__content`
-    }, render$h(this.content)) : null, this.meta || this.action ? h("div", {
+    }, render$i(this.content)) : null, this.meta || this.action ? h("div", {
       class: `${mergedClsPrefix}-notification-main-footer`
     }, this.meta ? h("div", {
       class: `${mergedClsPrefix}-notification-main-footer__meta`
-    }, render$h(this.meta)) : null, this.action ? h("div", {
+    }, render$i(this.meta)) : null, this.action ? h("div", {
       class: `${mergedClsPrefix}-notification-main-footer__action`
-    }, render$h(this.action)) : null) : null)));
+    }, render$i(this.action)) : null) : null)));
   }
 });
 const notificationEnvOptions = Object.assign(Object.assign({}, notificationProps), {
@@ -26718,8 +26720,8 @@ var cryptoJsExports = cryptoJs.exports;
 let apiurl = "https://api.xwzkj.top";
 let musicApi = axios.create({
   baseURL: apiurl,
-  timeout: 2e4,
-  withCredentials: true
+  timeout: 2e4
+  // withCredentials: true,
 });
 let request = async (params, realTimeSync = true) => {
   try {
@@ -26750,6 +26752,7 @@ if (window.isElectron) {
     if (localStorage.getItem("cookie")) {
       data = { ...data, cookie: localStorage.getItem("cookie") };
     }
+    console.log("本地api-请求", param);
     let res = await window.netease(url, { ...data, ...params });
     console.log("本地api", param, res);
     return res;
@@ -27007,6 +27010,27 @@ function mergeMusicObjArrs(arr1, arr2) {
 }
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
+}
+function debounce(fn, delay, mode = 0) {
+  let timer = {};
+  switch (mode) {
+    case 0:
+      return function(...params) {
+        if (!timer) {
+          timer = setTimeout(() => {
+            timer = null;
+            fn(...params);
+          }, delay);
+        }
+      };
+    case 1:
+      return function(...params) {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+          fn(...params);
+        }, delay);
+      };
+  }
 }
 const areaData = {
   "province": {
@@ -27524,8 +27548,9 @@ const useUserStore = defineStore("user", {
       }
     },
     async updateByCookie(cookie) {
-      let match2 = localStorage.getItem("cookie") || document.cookie.match(/MUSIC_U=[^;]+/)?.[0];
-      if (!cookie && match2) {
+      let match2 = cookie || localStorage.getItem("cookie") || document.cookie;
+      match2 = match2?.match(/MUSIC_U=[^;]+/)?.[0];
+      if (match2) {
         cookie = match2;
       } else if (!cookie) {
         this.logout();
@@ -27628,18 +27653,23 @@ const usePlayStore = defineStore("play", () => {
   let currentMusic = computed(() => {
     let userStore = useUserStore();
     return {
+      id: 0,
+      picurl: "/icon.png",
+      name: "暂无歌曲",
+      artist: "",
       ...playlist.value[playlistIndex.value],
+      //以上默认内容会被覆盖
       isLiked: userStore.likedSongs.includes(playlist.value[playlistIndex.value]?.id),
       currentLyricIndex: lyricIndexNow.value
     };
   });
   let musicStatus = ref({ duration: 0, currentTime: 0, paused: true });
   let playlist = ref([]);
-  let playlistIndex = computed(() => {
-    return playOrder.value?.[playOrderIndex.value] || 0;
-  });
+  let playlistIndex = ref(0);
   let playOrder = ref([]);
-  let playOrderIndex = ref(0);
+  let playOrderIndex = computed(() => {
+    return playOrder.value.findIndex((v) => v == playlistIndex.value);
+  });
   let playMode = ref(0);
   let nameWithTns = computed(() => {
     let tns = currentMusic.value.tns;
@@ -27789,15 +27819,15 @@ const usePlayStore = defineStore("play", () => {
   async function playlistInit(ids = null, dataFromApi = null) {
     stop();
     playlist.value = [];
-    playlistIndex.value = 0;
+    playlistIndex.value = -1;
     playOrder.value = [];
     if (ids == null) {
       let storageNow = JSON.parse(localStorage.getItem("playlist") || "{}");
       if (dataFromApi) {
         playlist.value = parseDetailToList(dataFromApi);
-        setPlayMode();
+        listRandom();
       } else if (ids == null && "version" in storageNow && storageNow.version == 3) {
-        playOrderIndex.value = storageNow.current;
+        playlistIndex.value = storageNow.current;
         playlist.value = storageNow.playlist;
         playOrder.value = storageNow.playOrder;
         setPlayMode(storageNow.playMode);
@@ -27806,6 +27836,11 @@ const usePlayStore = defineStore("play", () => {
       }
     } else {
       await addMusic(ids, 0, true);
+    }
+    if (playlistIndex.value == -1 && playMode.value == 1) {
+      playlistIndex.value = playOrder.value[0];
+    } else if (playlistIndex.value == -1) {
+      playlistIndex.value = 0;
     }
     save();
     musicChanged();
@@ -27831,28 +27866,29 @@ const usePlayStore = defineStore("play", () => {
     list = mergeMusicObjArrs(list, res);
     playlist.value.splice(position, 0, ...list);
     if (letIndexIsNew == true) {
-      playOrderIndex.value = playOrder.value.findIndex((item) => item == position);
+      playlistIndex.value = position;
+    } else {
+      if (position < playlistIndex.value) {
+        playlistIndex.value += position;
+      }
     }
-    if (playMode == 1) {
-      listRandom(position);
-    }
-    setPlayMode();
+    listRandom();
+    return playlist.value;
   }
   function listRandom(startIndex = 0) {
     let listOrder = [];
-    for (let i2 = 0; i2 < playlist.value.length - startIndex; i2++) {
-      listOrder.push(i2 + startIndex);
+    for (let i2 = 0; i2 < playlist.value.length; i2++) {
+      listOrder.push(i2);
     }
     listOrder.sort(() => Math.random() - 0.5);
-    console.log(listOrder);
-    playOrder.value.splice(startIndex, playlist.value.length - startIndex, ...listOrder);
+    playOrder.value = listOrder;
   }
   function save() {
     let list = playlist.value.map((item) => {
       let { url, lyric, ...a } = item;
       return a;
     });
-    let storage = { version: 3, playlist: list, current: playOrderIndex.value, playOrder: playOrder.value, playMode: playMode.value };
+    let storage = { version: 3, playlist: list, current: playlistIndex.value, playOrder: playOrder.value, playMode: playMode.value };
     localStorage.removeItem("playlist");
     localStorage.setItem("playlist", JSON.stringify(storage));
   }
@@ -27877,26 +27913,46 @@ const usePlayStore = defineStore("play", () => {
     updateProgress(true);
   }
   async function playWithPlaylistIndex(index) {
-    playOrderIndex.value = playOrder.value.findIndex((item) => item == index);
+    playlistIndex.value = index;
     await play(true);
   }
   function next() {
     pause();
     console.log(`[playStore]next`);
-    if (playOrderIndex.value < playOrder.value.length - 1) {
-      playOrderIndex.value++;
-    } else {
-      playOrderIndex.value = 0;
+    const computIndex = (length, indexNow) => {
+      if (indexNow < length - 1) {
+        return indexNow + 1;
+      } else {
+        return 0;
+      }
+    };
+    switch (playMode.value) {
+      case 0:
+        playlistIndex.value = computIndex(playlist.value.length, playlistIndex.value);
+        break;
+      case 1:
+        playlistIndex.value = playOrder.value[computIndex(playOrder.value.length, playOrderIndex.value)];
+        break;
     }
     play(true);
   }
   function prev() {
     pause();
     console.log(`[playStore]prev`);
-    if (playOrderIndex.value > 0) {
-      playOrderIndex.value--;
-    } else {
-      playOrderIndex.value = playOrder.value.length - 1;
+    const computIndex = (length, indexNow) => {
+      if (indexNow > 0) {
+        return indexNow - 1;
+      } else {
+        return length - 1;
+      }
+    };
+    switch (playMode.value) {
+      case 0:
+        playlistIndex.value = computIndex(playlist.value.length, playlistIndex.value);
+        break;
+      case 1:
+        playlistIndex.value = playOrder.value[computIndex(playOrder.value.length, playOrderIndex.value)];
+        break;
     }
     play(true);
   }
@@ -27908,17 +27964,6 @@ const usePlayStore = defineStore("play", () => {
     if (mode == null) {
       mode = playMode.value ?? 0;
       console.log(playMode);
-    }
-    switch (mode) {
-      case 0:
-        let indexNow = playlistIndex.value;
-        playOrder.value = [];
-        playOrder.value = playlist.value.map((item, index) => index);
-        playOrderIndex.value = indexNow;
-        break;
-      case 1:
-        listRandom(playlistIndex.value + 1);
-        break;
     }
     console.log(`[playStore]setPlayMode ${mode}`);
     playMode.value = mode;
@@ -27979,7 +28024,6 @@ const usePlayStore = defineStore("play", () => {
     playlist,
     playOrder,
     playlistIndex,
-    playOrderIndex,
     playMode,
     musicStatus,
     nameWithTns,
@@ -28616,6 +28660,37 @@ const useThemeStore = defineStore("theme", {
     }
   }
 });
+const useSettingStore = defineStore("setting", {
+  state: () => ({
+    showLyricWindow: false
+  }),
+  actions: {
+    init() {
+      let obj = JSON.parse(localStorage.getItem("setting"));
+      if (obj && obj.version == 1) {
+        let { showLyricWindow } = obj;
+        this.showLyricWindow = showLyricWindow;
+      }
+    },
+    setLyricWindowShow(show = "auto") {
+      if (window.isElectron) {
+        if (show == "auto") {
+          show = this.showLyricWindow ?? false;
+        }
+        window.setLyricWindowShow(show);
+        this.showLyricWindow = show;
+        this.save();
+      }
+    },
+    save() {
+      let stringData = JSON.stringify({
+        version: 1,
+        showLyricWindow: this.showLyricWindow
+      });
+      localStorage.setItem("setting", stringData);
+    }
+  }
+});
 const _sfc_main$8 = {
   __name: "messageApi",
   setup(__props) {
@@ -28634,6 +28709,27 @@ const _sfc_main$7 = {
     };
   }
 };
+const _hoisted_1$o = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$n = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  d: "M18 15s-4.419-6-6-6s-6 6-6 6",
+  color: "currentColor"
+}, null, -1);
+const _hoisted_3$l = [
+  _hoisted_2$n
+];
+function render$h(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$o, [..._hoisted_3$l]);
+}
+const __unplugin_components_0$1 = markRaw({ name: "hugeicons-arrow-up01", render: render$h });
 const _hoisted_1$n = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -28645,7 +28741,7 @@ const _hoisted_2$m = /* @__PURE__ */ createBaseVNode("path", {
   "stroke-linecap": "round",
   "stroke-linejoin": "round",
   "stroke-width": "1.5",
-  d: "M18 15s-4.419-6-6-6s-6 6-6 6",
+  d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2",
   color: "currentColor"
 }, null, -1);
 const _hoisted_3$k = [
@@ -28654,28 +28750,7 @@ const _hoisted_3$k = [
 function render$g(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$n, [..._hoisted_3$k]);
 }
-const __unplugin_components_0$1 = markRaw({ name: "hugeicons-arrow-up01", render: render$g });
-const _hoisted_1$m = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$l = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$j = [
-  _hoisted_2$l
-];
-function render$f(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$m, [..._hoisted_3$j]);
-}
-const __unplugin_components_0 = markRaw({ name: "hugeicons-right-to-left-list-dash", render: render$f });
+const __unplugin_components_0 = markRaw({ name: "hugeicons-right-to-left-list-dash", render: render$g });
 var defaultInstanceSettings = {
   update: null,
   begin: null,
@@ -30066,12 +30141,12 @@ anime.penner = penner;
 anime.random = function(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-const _hoisted_1$l = {
+const _hoisted_1$m = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$k = /* @__PURE__ */ createBaseVNode("path", {
+const _hoisted_2$l = /* @__PURE__ */ createBaseVNode("path", {
   fill: "none",
   stroke: "currentColor",
   "stroke-linecap": "round",
@@ -30080,19 +30155,19 @@ const _hoisted_2$k = /* @__PURE__ */ createBaseVNode("path", {
   d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009",
   color: "currentColor"
 }, null, -1);
-const _hoisted_3$i = [
-  _hoisted_2$k
+const _hoisted_3$j = [
+  _hoisted_2$l
 ];
-function render$e(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$l, [..._hoisted_3$i]);
+function render$f(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$m, [..._hoisted_3$j]);
 }
-const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$e });
-const _hoisted_1$k = {
+const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$f });
+const _hoisted_1$l = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$j = /* @__PURE__ */ createBaseVNode("g", {
+const _hoisted_2$k = /* @__PURE__ */ createBaseVNode("g", {
   fill: "none",
   stroke: "currentColor",
   "stroke-linecap": "round",
@@ -30110,13 +30185,36 @@ const _hoisted_2$j = /* @__PURE__ */ createBaseVNode("g", {
   }),
   /* @__PURE__ */ createBaseVNode("path", { d: "M5 16c1.208-2.581 5.712-2.75 7 0m-1.5-7a2 2 0 1 1-4 0a2 2 0 0 1 4 0" })
 ], -1);
+const _hoisted_3$i = [
+  _hoisted_2$k
+];
+function render$e(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$l, [..._hoisted_3$i]);
+}
+const HugeiconsUserAccount = markRaw({ name: "hugeicons-user-account", render: render$e });
+const _hoisted_1$k = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$j = /* @__PURE__ */ createBaseVNode("g", {
+  fill: "none",
+  stroke: "currentColor",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "1.5",
+  color: "currentColor"
+}, [
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
+], -1);
 const _hoisted_3$h = [
   _hoisted_2$j
 ];
 function render$d(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$k, [..._hoisted_3$h]);
 }
-const HugeiconsUserAccount = markRaw({ name: "hugeicons-user-account", render: render$d });
+const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$d });
 const _hoisted_1$j = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -30130,8 +30228,8 @@ const _hoisted_2$i = /* @__PURE__ */ createBaseVNode("g", {
   "stroke-width": "1.5",
   color: "currentColor"
 }, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
+  /* @__PURE__ */ createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
 ], -1);
 const _hoisted_3$g = [
   _hoisted_2$i
@@ -30139,7 +30237,7 @@ const _hoisted_3$g = [
 function render$c(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$j, [..._hoisted_3$g]);
 }
-const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$c });
+const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$c });
 const _hoisted_1$i = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -30153,8 +30251,8 @@ const _hoisted_2$h = /* @__PURE__ */ createBaseVNode("g", {
   "stroke-width": "1.5",
   color: "currentColor"
 }, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
+  /* @__PURE__ */ createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
+  /* @__PURE__ */ createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
 ], -1);
 const _hoisted_3$f = [
   _hoisted_2$h
@@ -30162,33 +30260,10 @@ const _hoisted_3$f = [
 function render$b(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$i, [..._hoisted_3$f]);
 }
-const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$b });
-const _hoisted_1$h = {
-  viewBox: "0 0 24 24",
-  width: "1.2em",
-  height: "1.2em"
-};
-const _hoisted_2$g = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
-], -1);
-const _hoisted_3$e = [
-  _hoisted_2$g
-];
-function render$a(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$h, [..._hoisted_3$e]);
-}
-const HugeiconsSettings05 = markRaw({ name: "hugeicons-settings-05", render: render$a });
+const HugeiconsSettings05 = markRaw({ name: "hugeicons-settings-05", render: render$b });
 const _withScopeId$1 = (n2) => (pushScopeId("data-v-1f54f60f"), n2 = n2(), popScopeId(), n2);
-const _hoisted_1$g = { class: "nav-outer" };
-const _hoisted_2$f = /* @__PURE__ */ _withScopeId$1(() => /* @__PURE__ */ createBaseVNode("div", { class: "header-title text1" }, "奶酪音乐", -1));
+const _hoisted_1$h = { class: "nav-outer" };
+const _hoisted_2$g = /* @__PURE__ */ _withScopeId$1(() => /* @__PURE__ */ createBaseVNode("div", { class: "header-title text1" }, "奶酪音乐", -1));
 const _sfc_main$6 = /* @__PURE__ */ defineComponent({
   __name: "navigation",
   setup(__props) {
@@ -30255,8 +30330,8 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
     );
     return (_ctx, _cache) => {
       const _component_n_menu = __unplugin_components_0$3;
-      return openBlock(), createElementBlock("div", _hoisted_1$g, [
-        _hoisted_2$f,
+      return openBlock(), createElementBlock("div", _hoisted_1$h, [
+        _hoisted_2$g,
         createBaseVNode("div", null, [
           createVNode(_component_n_menu, {
             options: unref(menuData),
@@ -30269,8 +30344,8 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
   }
 });
 const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-1f54f60f"]]);
-const _hoisted_1$f = { class: "header" };
-const _hoisted_2$e = { class: "header-search" };
+const _hoisted_1$g = { class: "header" };
+const _hoisted_2$f = { class: "header-search" };
 const _sfc_main$5 = {
   __name: "headerTop",
   setup(__props) {
@@ -30314,7 +30389,7 @@ const _sfc_main$5 = {
       const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0$1;
       const _component_n_input = __unplugin_components_0$4;
       const _component_n_avatar = __unplugin_components_4$2;
-      return openBlock(), createElementBlock("div", _hoisted_1$f, [
+      return openBlock(), createElementBlock("div", _hoisted_1$g, [
         createVNode(_component_n_icon, {
           class: "header-menu",
           size: "2rem",
@@ -30325,7 +30400,7 @@ const _sfc_main$5 = {
           ]),
           _: 1
         }),
-        createBaseVNode("span", _hoisted_2$e, [
+        createBaseVNode("span", _hoisted_2$f, [
           createVNode(_component_n_icon, {
             size: "2rem",
             style: { "transform": "rotate(-90deg)" },
@@ -30375,12 +30450,12 @@ const _sfc_main$5 = {
     };
   }
 };
-const _hoisted_1$e = {
+const _hoisted_1$f = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$d = /* @__PURE__ */ createBaseVNode("path", {
+const _hoisted_2$e = /* @__PURE__ */ createBaseVNode("path", {
   fill: "none",
   stroke: "currentColor",
   "stroke-linecap": "round",
@@ -30389,13 +30464,31 @@ const _hoisted_2$d = /* @__PURE__ */ createBaseVNode("path", {
   d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
   color: "currentColor"
 }, null, -1);
+const _hoisted_3$e = [
+  _hoisted_2$e
+];
+function render$a(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$e]);
+}
+const __unplugin_components_11 = markRaw({ name: "hugeicons-playlist03", render: render$a });
+const _hoisted_1$e = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+const _hoisted_2$d = /* @__PURE__ */ createBaseVNode("path", {
+  fill: "currentColor",
+  "fill-rule": "evenodd",
+  d: "M11.943 1.25h.114c2.309 0 4.118 0 5.53.19c1.444.194 2.584.6 3.479 1.494c.895.895 1.3 2.035 1.494 3.48c.19 1.411.19 3.22.19 5.529v.114c0 2.309 0 4.118-.19 5.53c-.194 1.444-.6 2.584-1.494 3.479c-.895.895-2.035 1.3-3.48 1.494c-1.411.19-3.22.19-5.529.19h-.114c-2.309 0-4.118 0-5.53-.19c-1.444-.194-2.584-.6-3.479-1.494c-.895-.895-1.3-2.035-1.494-3.48c-.19-1.411-.19-3.22-.19-5.529v-.114c0-2.309 0-4.118.19-5.53c.194-1.444.6-2.584 1.494-3.479c.895-.895 2.035-1.3 3.48-1.494c1.411-.19 3.22-.19 5.529-.19m-5.33 1.676c-1.278.172-2.049.5-2.618 1.069c-.57.57-.897 1.34-1.069 2.619c-.174 1.3-.176 3.008-.176 5.386s.002 4.086.176 5.386c.172 1.279.5 2.05 1.069 2.62c.57.569 1.34.896 2.619 1.068c1.3.174 3.008.176 5.386.176s4.086-.002 5.386-.176c1.279-.172 2.05-.5 2.62-1.069c.569-.57.896-1.34 1.068-2.619c.174-1.3.176-3.008.176-5.386s-.002-4.086-.176-5.386c-.172-1.279-.5-2.05-1.069-2.62c-.57-.569-1.34-.896-2.619-1.068c-1.3-.174-3.008-.176-5.386-.176s-4.086.002-5.386.176M12 6.25a.75.75 0 0 1 .75.75v10a.75.75 0 0 1-1.5 0V7a.75.75 0 0 1 .75-.75m-5 2a.75.75 0 0 1 .75.75v6a.75.75 0 0 1-1.5 0V9A.75.75 0 0 1 7 8.25m10 1a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75",
+  "clip-rule": "evenodd"
+}, null, -1);
 const _hoisted_3$d = [
   _hoisted_2$d
 ];
 function render$9(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$d]);
 }
-const __unplugin_components_10 = markRaw({ name: "hugeicons-playlist03", render: render$9 });
+const __unplugin_components_10 = markRaw({ name: "solar-soundwave-square-outline", render: render$9 });
 const _hoisted_1$d = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -30692,7 +30785,7 @@ const _hoisted_17$1 = { class: "btn-control" };
 const _hoisted_18$1 = { class: "btn-loop button" };
 const _hoisted_19$1 = { class: "btn-play-control" };
 const _hoisted_20$1 = { class: "btn-prev button" };
-const _hoisted_21 = { class: "btn-pause button" };
+const _hoisted_21$1 = { class: "btn-pause button" };
 const _hoisted_22 = { class: "btn-next button" };
 const _hoisted_23 = { class: "btn-list button" };
 const _hoisted_24 = { class: "lyric-list" };
@@ -30749,7 +30842,7 @@ const _sfc_main$3 = {
       const _component_i_hugeicons_play = __unplugin_components_4$1;
       const _component_i_hugeicons_pause = __unplugin_components_5;
       const _component_i_hugeicons_arrow_right_01 = __unplugin_components_6;
-      const _component_i_hugeicons_playlist_03 = __unplugin_components_10;
+      const _component_i_hugeicons_playlist_03 = __unplugin_components_11;
       const _component_n_scrollbar = Scrollbar;
       return openBlock(), createElementBlock("div", _hoisted_1$3, [
         createBaseVNode("div", _hoisted_2$2, [
@@ -30865,7 +30958,7 @@ const _sfc_main$3 = {
                             _: 1
                           }, 8, ["onClick"])
                         ]),
-                        createBaseVNode("div", _hoisted_21, [
+                        createBaseVNode("div", _hoisted_21$1, [
                           unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
                             key: 0,
                             size: "4rem",
@@ -30990,17 +31083,27 @@ const _hoisted_15 = { class: "btn-next button" };
 const _hoisted_16 = { class: "btn-loop button" };
 const _hoisted_17 = { class: "ctrl-progress-box" };
 const _hoisted_18 = { class: "ctrl-right" };
-const _hoisted_19 = { class: "btn-list button" };
-const _hoisted_20 = { class: "ctrl-player" };
+const _hoisted_19 = {
+  class: "btn-sound button",
+  title: "音效 目前未制作"
+};
+const _hoisted_20 = {
+  class: "btn-list button",
+  title: "播放列表",
+  style: { "padding-top": "0.2rem" }
+};
+const _hoisted_21 = { class: "ctrl-player" };
 const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "76ad8046": unref(ctrlHeight) + `rem`
+      "932e0550": unref(ctrlHeight) + `rem`
     }));
     emitter.on("switchShowPlayer", () => {
       switchShowPlayer();
     });
+    let settingStore = useSettingStore();
+    let isElectron = ref(window.isElectron);
     let playStore = usePlayStore();
     let outerEle = ref(null);
     let ctrlHeight = ref(7);
@@ -31060,7 +31163,8 @@ const _sfc_main$2 = {
       const _component_i_hugeicons_exchange_01 = __unplugin_components_7;
       const _component_i_hugeicons_magic_wand_01 = __unplugin_components_8;
       const _component_n_slider = __unplugin_components_9;
-      const _component_i_hugeicons_playlist_03 = __unplugin_components_10;
+      const _component_i_solar_soundwave_square_outline = __unplugin_components_10;
+      const _component_i_hugeicons_playlist_03 = __unplugin_components_11;
       return openBlock(), createElementBlock("div", _hoisted_1$2, [
         createBaseVNode("div", {
           class: "ctrl-outer",
@@ -31201,7 +31305,24 @@ const _sfc_main$2 = {
               ])
             ]),
             createBaseVNode("div", _hoisted_18, [
+              unref(isElectron) ? (openBlock(), createElementBlock("div", {
+                key: 0,
+                class: normalizeClass(["btn-desktop-lyric button icon", { "btn-desktop-lyric-active": unref(settingStore).showLyricWindow }]),
+                onClick: _cache[8] || (_cache[8] = () => unref(settingStore).setLyricWindowShow(!unref(settingStore).showLyricWindow)),
+                title: "桌面歌词"
+              }, " 词 ", 2)) : createCommentVNode("", true),
               createBaseVNode("div", _hoisted_19, [
+                createVNode(_component_n_icon, {
+                  size: "1.5rem",
+                  class: "icon"
+                }, {
+                  default: withCtx(() => [
+                    createVNode(_component_i_solar_soundwave_square_outline)
+                  ]),
+                  _: 1
+                })
+              ]),
+              createBaseVNode("div", _hoisted_20, [
                 createVNode(_component_n_icon, {
                   size: "1.5rem",
                   class: "icon",
@@ -31217,7 +31338,7 @@ const _sfc_main$2 = {
           ]),
           withDirectives(createBaseVNode("div", {
             class: "ctrl-playinglist",
-            onClick: _cache[8] || (_cache[8] = withModifiers(() => {
+            onClick: _cache[9] || (_cache[9] = withModifiers(() => {
             }, ["stop"]))
           }, [
             createVNode(playinglist)
@@ -31225,7 +31346,7 @@ const _sfc_main$2 = {
             [vShow, unref(showPlayingListVIf)]
           ])
         ], 512),
-        createBaseVNode("div", _hoisted_20, [
+        createBaseVNode("div", _hoisted_21, [
           withDirectives(createVNode(player, null, null, 512), [
             [vShow, unref(showPlayerVIf)]
           ])
@@ -31234,7 +31355,7 @@ const _sfc_main$2 = {
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-192bf6fb"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-d5d3a67a"]]);
 const _hoisted_1$1 = { class: "container" };
 const _hoisted_2 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };
@@ -31280,19 +31401,23 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "5a1a2d17": unref(themeStore).mainColors[0],
-      "5a1a2e0f": unref(themeStore).mainColors[8],
-      "5a1a2e2e": unref(themeStore).mainColors[9],
-      "5a1a2df0": unref(themeStore).mainColors[7],
-      "5a1a2dd1": unref(themeStore).mainColors[6],
-      "5a1a2d36": unref(themeStore).mainColors[1],
-      "5a1a2d55": unref(themeStore).mainColors[2],
-      "5a1a2d74": unref(themeStore).mainColors[3],
-      "5a1a2d93": unref(themeStore).mainColors[4],
-      "5a1a2db2": unref(themeStore).mainColors[5]
+      "77cf201c": unref(themeStore).mainColors[0],
+      "77cf1e2c": unref(themeStore).mainColors[8],
+      "77cf1dee": unref(themeStore).mainColors[9],
+      "77cf1e6a": unref(themeStore).mainColors[7],
+      "77cf1ea8": unref(themeStore).mainColors[6],
+      "77cf1fde": unref(themeStore).mainColors[1],
+      "77cf1fa0": unref(themeStore).mainColors[2],
+      "77cf1f62": unref(themeStore).mainColors[3],
+      "77cf1f24": unref(themeStore).mainColors[4],
+      "77cf1ee6": unref(themeStore).mainColors[5]
     }));
+    let settingStore = useSettingStore();
+    settingStore.init();
     if (!window.hasOwnProperty("isElectron")) {
       window.isElectron = false;
+    } else {
+      settingStore.setLyricWindowShow("auto");
     }
     let themeOverrides = ref({
       common: {
@@ -31316,6 +31441,16 @@ const _sfc_main = {
     emitter.on("changeTheme", (theme) => {
       objDeepMerge(themeOverrides.value, theme);
     });
+    let setRealVhVw = () => {
+      let realVh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${realVh}px`);
+      let realVw = window.innerWidth * 0.01;
+      document.documentElement.style.setProperty("--vw", `${realVw}px`);
+    };
+    setRealVhVw = debounce(setRealVhVw, 100, 1);
+    window.addEventListener("resize", setRealVhVw);
+    window.addEventListener("orientationchange", setRealVhVw);
+    document.addEventListener("DOMContentLoaded", setRealVhVw);
     return (_ctx, _cache) => {
       const _component_n_message_provider = __unplugin_components_0$2;
       const _component_n_notification_provider = __unplugin_components_1;

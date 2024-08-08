@@ -1,7 +1,7 @@
 import { aP as _export_sfc, b as ref, w as watch, D as onMounted, aK as createElementBlock, I as withDirectives, at as vShow, u as unref, aL as createBaseVNode, aR as createBlock, aS as createCommentVNode, F as Fragment, aJ as openBlock } from "./marqueePlus-DbmZO9-7.js";
-import { b as usePlayStore, c as cloudsearch } from "./index-BKXVWy0R.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Czj_OfsB.js";
-import "./Card-BDozjdv_.js";
+import { b as usePlayStore, c as cloudsearch } from "./index-C2wVJERS.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-CmcTQfyz.js";
+import "./Card-C3umNC66.js";
 const _sfc_main = {
   __name: "search",
   props: ["keyword"],
@@ -21,7 +21,7 @@ const _sfc_main = {
       result.value = res.data.result.songs;
     }
     async function play(id) {
-      await playStore.addMusic([id], 0, true);
+      await playStore.addMusic([id], "now", true);
       playStore.play(true);
     }
     return (_ctx, _cache) => {
@@ -44,7 +44,7 @@ const _sfc_main = {
     };
   }
 };
-const search = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-3f1dd96e"]]);
+const search = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ced1c3c2"]]);
 export {
   search as default
 };

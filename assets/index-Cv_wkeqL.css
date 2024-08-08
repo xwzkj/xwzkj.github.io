@@ -303,16 +303,16 @@ ul[data-v-c532f165] {
 }
 }
 
-[data-v-192bf6fb] {
+[data-v-d5d3a67a] {
     box-sizing: border-box;
 }
-.ctrl-outer-outer[data-v-192bf6fb] {
+.ctrl-outer-outer[data-v-d5d3a67a] {
     position: relative;
 }
-.ctrl-outer[data-v-192bf6fb] {
+.ctrl-outer[data-v-d5d3a67a] {
     position: fixed;
     z-index: 1;
-    top: calc(var(--vh, 1vh) * 100 - var(--76ad8046));
+    top: calc(var(--vh, 1vh) * 100 - var(--932e0550));
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -326,18 +326,18 @@ ul[data-v-c532f165] {
     backdrop-filter: blur(20px);
     /* transition: all 0.5s ease-in-out; */
 }
-.ctrl-box[data-v-192bf6fb] {
+.ctrl-box[data-v-d5d3a67a] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-192bf6fb] {
+.ctrl-left[data-v-d5d3a67a] {
     flex: 1;
     display: flex;
     max-width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-192bf6fb] {
+.ctrl-img-box[data-v-d5d3a67a] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -350,38 +350,38 @@ ul[data-v-c532f165] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-192bf6fb] {
+.ctrl-img[data-v-d5d3a67a] {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.ctrl-info-box[data-v-192bf6fb] {
+.ctrl-info-box[data-v-d5d3a67a] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-192bf6fb] {
+.ctrl-info-title[data-v-d5d3a67a] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-192bf6fb] {
+.ctrl-center[data-v-d5d3a67a] {
     flex: 1;
     padding-top: 0.8rem;
     max-width: calc(100% / 3.5);
 }
-.button[data-v-192bf6fb] {
+.button[data-v-d5d3a67a] {
     cursor: pointer;
 }
-.btn-control[data-v-192bf6fb] {
+.btn-control[data-v-d5d3a67a] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-192bf6fb] {
+.btn-play-control[data-v-d5d3a67a] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -389,29 +389,42 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-192bf6fb] {
+.ctrl-right[data-v-d5d3a67a] {
     flex: 1;
     max-width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
+.btn-desktop-lyric[data-v-d5d3a67a],
+.btn-sound[data-v-d5d3a67a] {
+    margin-right: 1rem;
+}
+.btn-desktop-lyric[data-v-d5d3a67a] {
+    font-weight: 400;
+    font-size: 1.2rem;
+    vertical-align: text-top;
+    padding-bottom: 0.35rem;
+    transition: all 0.2s linear;
+}
+.btn-desktop-lyric-active[data-v-d5d3a67a] {
+    font-weight: 800 !important;
+}
 
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-192bf6fb] {
+.ctrl-playinglist[data-v-d5d3a67a] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--76ad8046));
+    height: calc(var(--vh, 1vh) * 100 - var(--932e0550));
     flex: 1;
 }
 
 /* ***************************************************************
 播放器-------------------------------------------------------------------===================
 *****************************************************************/
-.ctrl-player[data-v-192bf6fb] {
+.ctrl-player[data-v-d5d3a67a] {
     position: fixed;
     top: calc(var(--vh, 1vh) * 100);
     left: 0;
@@ -421,11 +434,11 @@ right---------------------------------------------------------
     z-index: 10;
 }
 @media screen and (max-width: 600px) {
-.ctrl-info-box[data-v-192bf6fb] {
+.ctrl-info-box[data-v-d5d3a67a] {
         display: none;
 }
-.btn-like[data-v-192bf6fb],
-    .btn-loop[data-v-192bf6fb] {
+.btn-like[data-v-d5d3a67a],
+    .btn-loop[data-v-d5d3a67a] {
         display: none;
 }
 }
@@ -470,51 +483,51 @@ right---------------------------------------------------------
 
 .app,
 .bg {
-  background-color: var(--5a1a2d17);
+  background-color: var(--77cf201c);
 }
 .icon,
 .n-icon {
-  color: var(--5a1a2e0f);
+  color: var(--77cf1e2c);
 }
 .text1 {
-  color: var(--5a1a2e2e);
+  color: var(--77cf1dee);
 }
 .text2 {
-  color: var(--5a1a2df0);
+  color: var(--77cf1e6a);
 }
 .text3 {
-  color: var(--5a1a2dd1);
+  color: var(--77cf1ea8);
 }
 
 
 /* 主题色 */
 .color0 {
-  color: var(--5a1a2d17);
+  color: var(--77cf201c);
 }
 .color1 {
-  color: var(--5a1a2d36);
+  color: var(--77cf1fde);
 }
 .color2 {
-  color: var(--5a1a2d55);
+  color: var(--77cf1fa0);
 }
 .color3 {
-  color: var(--5a1a2d74);
+  color: var(--77cf1f62);
 }
 .color4 {
-  color: var(--5a1a2d93);
+  color: var(--77cf1f24);
 }
 .color5 {
-  color: var(--5a1a2db2);
+  color: var(--77cf1ee6);
 }
 .color6 {
-  color: var(--5a1a2dd1);
+  color: var(--77cf1ea8);
 }
 .color7 {
-  color: var(--5a1a2df0);
+  color: var(--77cf1e6a);
 }
 .color8 {
-  color: var(--5a1a2e0f);
+  color: var(--77cf1e2c);
 }
 .color9 {
-  color: var(--5a1a2e2e);
+  color: var(--77cf1dee);
 }

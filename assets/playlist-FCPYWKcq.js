@@ -1,9 +1,9 @@
-import { b as usePlayStore, a as useRouter, r as recommendSongs, p as playlistDetail, o as __unplugin_components_0 } from "./index-BKXVWy0R.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Czj_OfsB.js";
+import { b as usePlayStore, a as useRouter, r as recommendSongs, p as playlistDetail, o as __unplugin_components_0 } from "./index-C2wVJERS.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-CmcTQfyz.js";
 import { aP as _export_sfc, b as ref, w as watch, D as onMounted, aK as createElementBlock, u as unref, aL as createBaseVNode, aS as createCommentVNode, aV as toDisplayString, F as Fragment, aU as renderList, aM as createVNode, aQ as withCtx, aJ as openBlock, aR as createBlock, v as createTextVNode } from "./marqueePlus-DbmZO9-7.js";
-import { B as Button } from "./Button-BHKzYjOB.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-DtFrk6h0.js";
-import "./Card-BDozjdv_.js";
+import { B as Button } from "./Button-hROLuOlL.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-BBuzmke5.js";
+import "./Card-C3umNC66.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
