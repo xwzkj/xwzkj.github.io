@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BEc7igcN.js","./itemCard-dnKWs5qK.js","./marqueePlus-DbmZO9-7.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-BBuzmke5.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-Cpjs5sLu.js","./musicList-CmcTQfyz.js","./Card-C3umNC66.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-CsSj7qlP.js","./Button-hROLuOlL.js","./login-BZBt2RaQ.css","./account-Ddwl1nK2.js","./account-CZ8eyIhU.css","./playlist-FCPYWKcq.js","./playlist-_rqHwo7U.css","./setting-B3cJK7X9.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as pushScopeId, aO as popScopeId, aP as _export_sfc, aQ as withCtx, aR as createBlock, aS as createCommentVNode, aT as useCssVars, aU as renderList, aV as toDisplayString, aW as MarqueePlus, aX as normalizeClass, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./marqueePlus-DbmZO9-7.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-CdU3ivFV.js","./itemCard-CEScPgn5.js","./marqueePlus-CgmJ6Y4x.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-BDmxSoao.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-8wLLB0dI.js","./musicList-DL-IX9aW.js","./Card-Dq3pgHW9.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-YSVU3PgG.js","./Button-DRg_az3G.js","./login-BZBt2RaQ.css","./account-CA5h9GL6.js","./account-CZ8eyIhU.css","./playlist-4sKmb5ku.js","./playlist-_rqHwo7U.css","./setting-jSaFh4Kz.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as pushScopeId, aO as popScopeId, aP as _export_sfc, aQ as withCtx, aR as createBlock, aS as createCommentVNode, aT as useCssVars, aU as renderList, aV as toDisplayString, aW as MarqueePlus, aX as normalizeClass, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./marqueePlus-CgmJ6Y4x.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -1920,7 +1920,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-BEc7igcN.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-CdU3ivFV.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1931,7 +1931,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-Cpjs5sLu.js"), true ? __vite__mapDeps([7,2,3,8,9,10,11]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-8wLLB0dI.js"), true ? __vite__mapDeps([7,2,3,8,9,10,11]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1942,7 +1942,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-CsSj7qlP.js"), true ? __vite__mapDeps([12,2,3,13,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-YSVU3PgG.js"), true ? __vite__mapDeps([12,2,3,13,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1950,7 +1950,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-Ddwl1nK2.js"), true ? __vite__mapDeps([15,2,3,1,4,5,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-CA5h9GL6.js"), true ? __vite__mapDeps([15,2,3,1,4,5,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1961,7 +1961,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-FCPYWKcq.js"), true ? __vite__mapDeps([17,8,2,3,9,10,13,4,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-4sKmb5ku.js"), true ? __vite__mapDeps([17,8,2,3,9,10,13,4,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1972,7 +1972,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-B3cJK7X9.js"), true ? __vite__mapDeps([19,2,3,13,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-jSaFh4Kz.js"), true ? __vite__mapDeps([19,2,3,13,9,20]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -27866,7 +27866,7 @@ const usePlayStore = defineStore("play", () => {
     list = mergeMusicObjArrs(list, res);
     playlist.value.splice(position, 0, ...list);
     if (letIndexIsNew == true) {
-      playlistIndex.value = position;
+      playlistIndex.value = Math.min(position, playlist.value.length - 1);
     } else {
       if (position < playlistIndex.value) {
         playlistIndex.value += position;

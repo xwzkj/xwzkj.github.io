@@ -1,5 +1,5 @@
 /**
-* @vue/shared v3.4.36
+* @vue/shared v3.4.37
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -190,7 +190,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.4.36
+* @vue/reactivity v3.4.37
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -563,7 +563,7 @@ class BaseReactiveHandler {
       return isShallow2;
     } else if (key === "__v_raw") {
       if (receiver === (isReadonly2 ? isShallow2 ? shallowReadonlyMap : readonlyMap : isShallow2 ? shallowReactiveMap : reactiveMap).get(target) || // receiver is not the reactive proxy, but has the same prototype
-      // this means the reciever is a user proxy of the reactive proxy
+      // this means the receiver is a user proxy of the reactive proxy
       Object.getPrototypeOf(target) === Object.getPrototypeOf(receiver)) {
         return target;
       }
@@ -1231,7 +1231,7 @@ function propertyToRef(source, key, defaultValue) {
   return isRef(val) ? val : new ObjectRefImpl(source, key, defaultValue);
 }
 /**
-* @vue/runtime-core v3.4.36
+* @vue/runtime-core v3.4.37
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -2052,7 +2052,7 @@ const KeepAliveImpl = {
     }
     function pruneCacheEntry(key) {
       const cached = cache.get(key);
-      if (!current || !isSameVNodeType(cached, current)) {
+      if (cached && (!current || !isSameVNodeType(cached, current))) {
         unmount2(cached);
       } else if (current) {
         resetShapeFlag(current);
@@ -2111,6 +2111,10 @@ const KeepAliveImpl = {
         return rawVNode;
       }
       let vnode = getInnerChild(rawVNode);
+      if (vnode.type === Comment) {
+        current = null;
+        return vnode;
+      }
       const comp = vnode.type;
       const name = getComponentName(
         isAsyncWrapper(vnode) ? vnode.type.__asyncResolved || {} : comp
@@ -2961,7 +2965,7 @@ function provide(key, value) {
 function inject(key, defaultValue, treatDefaultAsFactory = false) {
   const instance = currentInstance || currentRenderingInstance;
   if (instance || currentApp) {
-    const provides = instance ? instance.parent == null ? instance.vnode.appContext && instance.vnode.appContext.provides : instance.parent.provides : currentApp._context.provides;
+    const provides = currentApp ? currentApp._context.provides : instance ? instance.parent == null ? instance.vnode.appContext && instance.vnode.appContext.provides : instance.parent.provides : void 0;
     if (provides && key in provides) {
       return provides[key];
     } else if (arguments.length > 1) {
@@ -4921,13 +4925,13 @@ function baseCreateRenderer(options, createHydrationFns) {
         namespace2
       );
     }
+    container._vnode = vnode;
     if (!isFlushing2) {
       isFlushing2 = true;
       flushPreFlushCbs();
       flushPostFlushCbs();
       isFlushing2 = false;
     }
-    container._vnode = vnode;
   };
   const internals = {
     p: patch,
@@ -6210,9 +6214,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.4.36";
+const version = "3.4.37";
 /**
-* @vue/runtime-dom v3.4.36
+* @vue/runtime-dom v3.4.37
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -6615,8 +6619,10 @@ function useCssVars(getter) {
     setVarsOnVNode(instance.subTree, vars);
     updateTeleports(vars);
   };
-  onMounted(() => {
+  onBeforeMount(() => {
     watchPostEffect(setVars);
+  });
+  onMounted(() => {
     const ob = new MutationObserver(setVars);
     ob.observe(instance.subTree.el.parentNode, { childList: true });
     onUnmounted(() => ob.disconnect());
