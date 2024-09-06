@@ -1,6 +1,5 @@
-import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, d as defineComponent, ao as useTheme, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aP as _export_sfc, E as onBeforeUnmount, u as unref, aR as createBlock, aS as createCommentVNode, v as createTextVNode, aV as toDisplayString, aM as createVNode, aQ as withCtx, f as isRef, I as withDirectives, at as vShow, aG as NIcon, aN as pushScopeId, aO as popScopeId } from "./marqueePlus-oXg9xsbo.js";
-import { d as useThemeStore, u as useUserStore, a as useRouter, l as loginQrKey, e as loginQrCreate, f as loginQrCheck, s as success, h as error, v as verifyCaptcha, i as loginWithPhone, j as sendCaptcha, _ as __unplugin_components_0$1 } from "./index-74IMZhHi.js";
-import { B as Button } from "./Button-C7BfeqoM.js";
+import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, d as defineComponent, ao as useTheme, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, E as onBeforeUnmount, u as unref, aQ as createBlock, aR as createCommentVNode, v as createTextVNode, aU as toDisplayString, aN as createVNode, aP as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./marqueePlus-BkPUv9Mq.js";
+import { d as useThemeStore, u as useUserStore, a as useRouter, l as loginQrKey, e as loginQrCreate, f as loginQrCheck, s as success, h as error, v as verifyCaptcha, i as loginWithPhone, j as sendCaptcha, _ as __unplugin_components_0$1, B as Button } from "./index-Cy5aucrj.js";
 function self$1(vars) {
   const {
     textColor1,
@@ -1141,22 +1140,20 @@ const _hoisted_1$3 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$3 = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M22 13.49c-.275 4.243-3.613 7.623-7.805 7.9c-1.43.095-2.923.095-4.35 0a4.9 4.9 0 0 1-1.488-.339c-.513-.21-.77-.316-.9-.3c-.131.016-.32.155-.699.434c-.667.49-1.508.844-2.755.813c-.63-.015-.945-.023-1.086-.263s.034-.572.386-1.237c.487-.922.796-1.978.328-2.823c-.806-1.208-1.49-2.639-1.59-4.184a20 20 0 0 1 0-2.52c.274-4.243 3.613-7.622 7.804-7.9a33 33 0 0 1 2.676-.067M8.5 15h7m-7-5H12" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M16.737 5.176v-1.39c0-.206.009-.414.083-.606c.195-.51.715-1.179 1.66-1.179c.944 0 1.484.669 1.68 1.18c.073.191.082.399.082.604v1.39M16.807 11h3.386c.997 0 1.805-.807 1.805-1.802V7.196c0-.995-.808-1.802-1.805-1.802h-3.386c-.997 0-1.805.807-1.805 1.802v2.001c0 .995.808 1.802 1.805 1.802" })
-], -1);
-const _hoisted_3$3 = [
-  _hoisted_2$3
-];
 function render$2(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$3, [..._hoisted_3$3]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$3, _cache[0] || (_cache[0] = [
+    createBaseVNode("g", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      color: "currentColor"
+    }, [
+      createBaseVNode("path", { d: "M22 13.49c-.275 4.243-3.613 7.623-7.805 7.9c-1.43.095-2.923.095-4.35 0a4.9 4.9 0 0 1-1.488-.339c-.513-.21-.77-.316-.9-.3c-.131.016-.32.155-.699.434c-.667.49-1.508.844-2.755.813c-.63-.015-.945-.023-1.086-.263s.034-.572.386-1.237c.487-.922.796-1.978.328-2.823c-.806-1.208-1.49-2.639-1.59-4.184a20 20 0 0 1 0-2.52c.274-4.243 3.613-7.622 7.804-7.9a33 33 0 0 1 2.676-.067M8.5 15h7m-7-5H12" }),
+      createBaseVNode("path", { d: "M16.737 5.176v-1.39c0-.206.009-.414.083-.606c.195-.51.715-1.179 1.66-1.179c.944 0 1.484.669 1.68 1.18c.073.191.082.399.082.604v1.39M16.807 11h3.386c.997 0 1.805-.807 1.805-1.802V7.196c0-.995-.808-1.802-1.805-1.802h-3.386c-.997 0-1.805.807-1.805 1.802v2.001c0 .995.808 1.802 1.805 1.802" })
+    ], -1)
+  ]));
 }
 const __unplugin_components_4 = markRaw({ name: "hugeicons-message-lock01", render: render$2 });
 const _hoisted_1$2 = {
@@ -1164,22 +1161,20 @@ const _hoisted_1$2 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$2 = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14.491 15.5h.009m-5 0h.009m-5.241 3.345c.225 1.67 1.608 2.979 3.292 3.056c1.416.065 2.855.099 4.44.099s3.024-.034 4.44-.1c1.684-.076 3.067-1.385 3.292-3.055c.147-1.09.268-2.207.268-3.345s-.121-2.255-.268-3.345c-.225-1.67-1.608-2.979-3.292-3.056A95 95 0 0 0 12 9c-1.585 0-3.024.034-4.44.1c-1.684.076-3.067 1.385-3.292 3.055C4.12 13.245 4 14.362 4 15.5s.121 2.255.268 3.345" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M7.5 9V6.5a4.5 4.5 0 0 1 9 0V9" })
-], -1);
-const _hoisted_3$2 = [
-  _hoisted_2$2
-];
 function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$2, [..._hoisted_3$2]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$2, _cache[0] || (_cache[0] = [
+    createBaseVNode("g", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      color: "currentColor"
+    }, [
+      createBaseVNode("path", { d: "M14.491 15.5h.009m-5 0h.009m-5.241 3.345c.225 1.67 1.608 2.979 3.292 3.056c1.416.065 2.855.099 4.44.099s3.024-.034 4.44-.1c1.684-.076 3.067-1.385 3.292-3.055c.147-1.09.268-2.207.268-3.345s-.121-2.255-.268-3.345c-.225-1.67-1.608-2.979-3.292-3.056A95 95 0 0 0 12 9c-1.585 0-3.024.034-4.44.1c-1.684.076-3.067 1.385-3.292 3.055C4.12 13.245 4 14.362 4 15.5s.121 2.255.268 3.345" }),
+      createBaseVNode("path", { d: "M7.5 9V6.5a4.5 4.5 0 0 1 9 0V9" })
+    ], -1)
+  ]));
 }
 const __unplugin_components_3 = markRaw({ name: "hugeicons-square-lock-password", render: render$1 });
 const _hoisted_1$1 = {
@@ -1187,25 +1182,22 @@ const _hoisted_1$1 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$1 = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M5 9c0-3.3 0-4.95 1.025-5.975S8.7 2 12 2s4.95 0 5.975 1.025S19 5.7 19 9v6c0 3.3 0 4.95-1.025 5.975S15.3 22 12 22s-4.95 0-5.975-1.025S5 18.3 5 15zm6 10h2" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "m9 2l.089.534c.193 1.157.29 1.736.686 2.088C10.19 4.989 10.776 5 12 5s1.81-.01 2.225-.378c.397-.352.493-.93.686-2.088L15 2" })
-], -1);
-const _hoisted_3$1 = [
-  _hoisted_2$1
-];
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._hoisted_3$1]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$1, _cache[0] || (_cache[0] = [
+    createBaseVNode("g", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      color: "currentColor"
+    }, [
+      createBaseVNode("path", { d: "M5 9c0-3.3 0-4.95 1.025-5.975S8.7 2 12 2s4.95 0 5.975 1.025S19 5.7 19 9v6c0 3.3 0 4.95-1.025 5.975S15.3 22 12 22s-4.95 0-5.975-1.025S5 18.3 5 15zm6 10h2" }),
+      createBaseVNode("path", { d: "m9 2l.089.534c.193 1.157.29 1.736.686 2.088C10.19 4.989 10.776 5 12 5s1.81-.01 2.225-.378c.397-.352.493-.93.686-2.088L15 2" })
+    ], -1)
+  ]));
 }
 const __unplugin_components_0 = markRaw({ name: "hugeicons-smart-phone01", render });
-const _withScopeId = (n) => (pushScopeId("data-v-a7f23343"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "login-container" };
 const _hoisted_2 = { class: "login" };
 const _hoisted_3 = { class: "login-row-qr" };
@@ -1215,25 +1207,14 @@ const _hoisted_5 = {
   style: { "text-align": "center" },
   class: "text3"
 };
-const _hoisted_6 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("br", null, null, -1));
-const _hoisted_7 = {
+const _hoisted_6 = {
   key: 2,
   class: "text2"
 };
-const _hoisted_8 = { class: "login-row-passwd" };
-const _hoisted_9 = { class: "login-passwd" };
-const _hoisted_10 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { style: { "width": "100%" } }, [
-  /* @__PURE__ */ createBaseVNode("div", {
-    style: { "font-size": "1.5rem" },
-    class: "text1"
-  }, "登录"),
-  /* @__PURE__ */ createBaseVNode("div", {
-    style: { "font-size": "1rem" },
-    class: "text2"
-  }, "使用云音乐账号")
-], -1));
-const _hoisted_11 = { class: "login-input-container" };
-const _hoisted_12 = { class: "login-input-container" };
+const _hoisted_7 = { class: "login-row-passwd" };
+const _hoisted_8 = { class: "login-passwd" };
+const _hoisted_9 = { class: "login-input-container" };
+const _hoisted_10 = { class: "login-input-container" };
 const _sfc_main = {
   __name: "login",
   setup(__props) {
@@ -1342,18 +1323,27 @@ const _sfc_main = {
                 "background-color": "rgba(255,255,255,0)",
                 color: unref(themeStore).mainColors[9]
               }, null, 8, ["value", "color"])) : createCommentVNode("", true),
-              unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_5, [
+              unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_5, _cache[4] || (_cache[4] = [
                 createTextVNode("等待生成二维码"),
-                _hoisted_6,
+                createBaseVNode("br", null, null, -1),
                 createTextVNode("若长时间未生成 大概是炸了")
-              ])) : createCommentVNode("", true),
-              unref(qrcode) != "" ? (openBlock(), createElementBlock("span", _hoisted_7, toDisplayString(unref(qrStatus)), 1)) : createCommentVNode("", true)
+              ]))) : createCommentVNode("", true),
+              unref(qrcode) != "" ? (openBlock(), createElementBlock("span", _hoisted_6, toDisplayString(unref(qrStatus)), 1)) : createCommentVNode("", true)
             ])
           ]),
-          createBaseVNode("div", _hoisted_8, [
-            createBaseVNode("div", _hoisted_9, [
-              _hoisted_10,
-              createBaseVNode("div", _hoisted_11, [
+          createBaseVNode("div", _hoisted_7, [
+            createBaseVNode("div", _hoisted_8, [
+              _cache[8] || (_cache[8] = createBaseVNode("div", { style: { "width": "100%" } }, [
+                createBaseVNode("div", {
+                  style: { "font-size": "1.5rem" },
+                  class: "text1"
+                }, "登录"),
+                createBaseVNode("div", {
+                  style: { "font-size": "1rem" },
+                  class: "text2"
+                }, "使用云音乐账号")
+              ], -1)),
+              createBaseVNode("div", _hoisted_9, [
                 createVNode(_component_n_input, {
                   value: unref(name),
                   "onUpdate:value": _cache[0] || (_cache[0] = ($event) => isRef(name) ? name.value = $event : name = $event),
@@ -1372,7 +1362,7 @@ const _sfc_main = {
                   _: 1
                 }, 8, ["value"])
               ]),
-              createBaseVNode("div", _hoisted_12, [
+              createBaseVNode("div", _hoisted_10, [
                 createVNode(_component_n_input, {
                   value: unref(key),
                   "onUpdate:value": _cache[1] || (_cache[1] = ($event) => isRef(key) ? key.value = $event : key = $event),
@@ -1396,9 +1386,9 @@ const _sfc_main = {
                   _: 1
                 }, 8, ["value", "type", "placeholder"]),
                 withDirectives(createVNode(_component_n_button, { onClick: sendCaptcha$1 }, {
-                  default: withCtx(() => [
+                  default: withCtx(() => _cache[5] || (_cache[5] = [
                     createTextVNode("获取验证码")
-                  ]),
+                  ])),
                   _: 1
                 }, 512), [
                   [vShow, unref(currentMethod) == "sms"]
@@ -1408,15 +1398,15 @@ const _sfc_main = {
                 style: { "width": "100%" },
                 onClick: login2
               }, {
-                default: withCtx(() => [
+                default: withCtx(() => _cache[6] || (_cache[6] = [
                   createTextVNode("登录")
-                ]),
+                ])),
                 _: 1
               }),
               createVNode(_component_n_divider, { class: "login-divider" }, {
-                default: withCtx(() => [
+                default: withCtx(() => _cache[7] || (_cache[7] = [
                   createTextVNode("或者")
-                ]),
+                ])),
                 _: 1
               }),
               createBaseVNode("div", null, [

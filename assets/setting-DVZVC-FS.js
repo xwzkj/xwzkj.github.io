@@ -1,7 +1,5 @@
-import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aF as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, q as toRef, w as watch, aq as useThemeClass, af as Transition, I as withDirectives, ay as createKey, n as nextTick, m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aP as _export_sfc, aM as createVNode, aQ as withCtx, L as renderSlot, u as unref, aR as createBlock, f as isRef, aS as createCommentVNode, aG as NIcon, D as onMounted, at as vShow, v as createTextVNode } from "./marqueePlus-oXg9xsbo.js";
-import { E as useStyle, F as inputLight, G as on, H as off, _ as __unplugin_components_0$1, I as fadeInScaleUpTransition, J as useFormItem, K as useLocale, L as useMergedState, M as isMounted, O as useAdjustedTo, P as getPreciseEventTarget, Q as Binder, V as VTarget, R as VFollower, S as clickoutside, T as call, u as useUserStore, d as useThemeStore, s as success } from "./index-74IMZhHi.js";
-import { b as buttonLight, B as Button } from "./Button-C7BfeqoM.js";
-import { _ as __unplugin_components_5 } from "./Card-DxAo0qwM.js";
+import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b2 as toHexaString, b3 as rgba, b4 as toHslaString, b5 as toHsvaString, b6 as toRgbaString, b7 as hsla, b8 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, b9 as toHexString, ba as toHslString, bb as toRgbString, bc as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, q as toRef, w as watch, aq as useThemeClass, af as Transition, I as withDirectives, ay as createKey, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode } from "./marqueePlus-BkPUv9Mq.js";
+import { G as useStyle, H as inputLight, I as buttonLight, J as on, K as off, _ as __unplugin_components_0$1, L as fadeInScaleUpTransition, M as useFormItem, O as useLocale, P as useMergedState, Q as isMounted, R as useAdjustedTo, S as getPreciseEventTarget, T as Binder, V as VTarget, U as VFollower, W as clickoutside, X as call, B as Button, A as __unplugin_components_5, u as useUserStore, d as useThemeStore, s as success } from "./index-Cy5aucrj.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1832,22 +1830,20 @@ const _hoisted_1$3 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$2 = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M8 13.75s1.6.912 2.4 2.25c0 0 2.4-5.25 5.6-7" })
-], -1);
-const _hoisted_3$2 = [
-  _hoisted_2$2
-];
 function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$3, [..._hoisted_3$2]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$3, _cache[0] || (_cache[0] = [
+    createBaseVNode("g", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      color: "currentColor"
+    }, [
+      createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
+      createBaseVNode("path", { d: "M8 13.75s1.6.912 2.4 2.25c0 0 2.4-5.25 5.6-7" })
+    ], -1)
+  ]));
 }
 const __unplugin_components_2 = markRaw({ name: "hugeicons-checkmark-square01", render: render$1 });
 const _hoisted_1$2 = {
@@ -1855,20 +1851,18 @@ const _hoisted_1$2 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$1 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M11.1 3.002c-3.648.007-5.56.096-6.78 1.317C3.002 5.637 3.002 7.758 3.002 12s0 6.363 1.318 7.681s3.438 1.318 7.68 1.318s6.363 0 7.681-1.318c1.221-1.22 1.31-3.132 1.317-6.78m-.518-9.384l-5.548 5.534m5.549-5.534c-.494-.494-3.822-.448-4.525-.438m4.525.438c.494.495.448 3.826.438 4.53",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$1 = [
-  _hoisted_2$1
-];
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$2, [..._hoisted_3$1]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$2, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M11.1 3.002c-3.648.007-5.56.096-6.78 1.317C3.002 5.637 3.002 7.758 3.002 12s0 6.363 1.318 7.681s3.438 1.318 7.68 1.318s6.363 0 7.681-1.318c1.221-1.22 1.31-3.132 1.317-6.78m-.518-9.384l-5.548 5.534m5.549-5.534c-.494-.494-3.822-.448-4.525-.438m4.525.438c.494.495.448 3.826.438 4.53",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_1 = markRaw({ name: "hugeicons-link-square01", render });
 const _hoisted_1$1 = { class: "setting-item-outer" };
@@ -1985,12 +1979,12 @@ const _sfc_main = {
       return openBlock(), createElementBlock("div", null, [
         createBaseVNode("div", _hoisted_1, [
           withDirectives(createVNode(settingItem, { actionOnClick: loginByCookie }, {
-            t1: withCtx(() => [
+            t1: withCtx(() => _cache[1] || (_cache[1] = [
               createTextVNode("手动输入cookie来登录")
-            ]),
-            t2: withCtx(() => [
+            ])),
+            t2: withCtx(() => _cache[2] || (_cache[2] = [
               createTextVNode("奇奇怪怪的登录方式 仅网页端可用")
-            ]),
+            ])),
             _: 1
           }, 512), [
             [vShow, !unref(isElectron)]
@@ -2000,39 +1994,39 @@ const _sfc_main = {
             actionOnClick: updateSpecialApi,
             defaultValue: unref(defaultSpecialApi)
           }, {
-            t1: withCtx(() => [
+            t1: withCtx(() => _cache[3] || (_cache[3] = [
               createTextVNode("设置专用api")
-            ]),
-            t2: withCtx(() => [
+            ])),
+            t2: withCtx(() => _cache[4] || (_cache[4] = [
               createTextVNode("用于获取歌曲的url")
-            ]),
+            ])),
             _: 1
           }, 8, ["defaultValue"]),
           createVNode(settingItem, { actionOnClick: update }, {
-            t1: withCtx(() => [
+            t1: withCtx(() => _cache[5] || (_cache[5] = [
               createTextVNode("马上更新用户信息！")
-            ]),
-            t2: withCtx(() => [
+            ])),
+            t2: withCtx(() => _cache[6] || (_cache[6] = [
               createTextVNode("每三分钟自动更新")
-            ]),
+            ])),
             _: 1
           }),
           createVNode(settingItem, { actionOnClick: showCk }, {
-            t1: withCtx(() => [
+            t1: withCtx(() => _cache[7] || (_cache[7] = [
               createTextVNode("查看当前的cookie")
-            ]),
-            t2: withCtx(() => [
+            ])),
+            t2: withCtx(() => _cache[8] || (_cache[8] = [
               createTextVNode("言简意赅")
-            ]),
+            ])),
             _: 1
           }),
           createVNode(settingItem, null, {
-            t1: withCtx(() => [
+            t1: withCtx(() => _cache[9] || (_cache[9] = [
               createTextVNode("主题色")
-            ]),
-            t2: withCtx(() => [
+            ])),
+            t2: withCtx(() => _cache[10] || (_cache[10] = [
               createTextVNode("默认是#c49526")
-            ]),
+            ])),
             action: withCtx(() => [
               createVNode(_component_n_color_picker, {
                 class: "color-picker",
@@ -2045,12 +2039,12 @@ const _sfc_main = {
             _: 1
           }),
           createVNode(settingItem, null, {
-            t1: withCtx(() => [
+            t1: withCtx(() => _cache[11] || (_cache[11] = [
               createTextVNode("退出登录")
-            ]),
-            t2: withCtx(() => [
+            ])),
+            t2: withCtx(() => _cache[12] || (_cache[12] = [
               createTextVNode("拜拜~")
-            ]),
+            ])),
             action: withCtx(() => [
               createVNode(_component_n_button, {
                 class: "button",
@@ -2058,9 +2052,9 @@ const _sfc_main = {
                 secondary: "",
                 onClick: logout
               }, {
-                default: withCtx(() => [
+                default: withCtx(() => _cache[13] || (_cache[13] = [
                   createTextVNode("退出登录")
-                ]),
+                ])),
                 _: 1
               })
             ]),

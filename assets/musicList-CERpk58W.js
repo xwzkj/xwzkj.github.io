@@ -1,6 +1,5 @@
-import { an as derived, ai as c, ah as cB, aj as cM, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, aq as useThemeClass, b as ref, ae as watchEffect, h, af as Transition, ay as createKey, aP as _export_sfc, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aQ as withCtx, F as Fragment, aU as renderList, aV as toDisplayString, u as unref, aS as createCommentVNode, aR as createBlock, v as createTextVNode, I as withDirectives, at as vShow, aG as NIcon, aN as pushScopeId, aO as popScopeId } from "./marqueePlus-oXg9xsbo.js";
-import { q as fadeInTransition, t as useCompitable, N as NBaseLoading, w as pxfy, u as useUserStore, x as parseArray, y as parseArtist, z as likeAndUpdateLikelist, o as __unplugin_components_0, A as __unplugin_components_2, B as __unplugin_components_3$1 } from "./index-74IMZhHi.js";
-import { _ as __unplugin_components_5 } from "./Card-DxAo0qwM.js";
+import { an as derived, ai as c, ah as cB, aj as cM, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, aq as useThemeClass, b as ref, ae as watchEffect, h, af as Transition, ay as createKey, aO as _export_sfc, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aP as withCtx, F as Fragment, aT as renderList, aU as toDisplayString, u as unref, aR as createCommentVNode, aQ as createBlock, v as createTextVNode, I as withDirectives, at as vShow, aH as NIcon } from "./marqueePlus-BkPUv9Mq.js";
+import { q as fadeInTransition, t as useCompitable, N as NBaseLoading, w as pxfy, u as useUserStore, x as parseArray, y as parseArtist, z as likeAndUpdateLikelist, A as __unplugin_components_5, o as __unplugin_components_0, C as __unplugin_components_2, D as __unplugin_components_3$1 } from "./index-Cy5aucrj.js";
 function self(vars) {
   const {
     opacityDisabled,
@@ -220,32 +219,25 @@ const __unplugin_components_3 = defineComponent({
     })) : icon;
   }
 });
-const _withScopeId = (n) => (pushScopeId("data-v-ba051f4c"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "music-list" };
 const _hoisted_2 = { class: "list-head-div" };
-const _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "list-head-card-content" }, [
-  /* @__PURE__ */ createBaseVNode("div", { class: "head-num text2" }, "#"),
-  /* @__PURE__ */ createBaseVNode("div", { class: "head-music text2" }, "歌曲"),
-  /* @__PURE__ */ createBaseVNode("div", { class: "head-action text2" }, " "),
-  /* @__PURE__ */ createBaseVNode("div", { class: "head-album text2" }, "专辑")
-], -1));
-const _hoisted_4 = { class: "list-items" };
-const _hoisted_5 = { class: "list-item-card-content" };
-const _hoisted_6 = { class: "item-num text2" };
-const _hoisted_7 = ["onClick"];
-const _hoisted_8 = ["src", "alt"];
-const _hoisted_9 = { class: "item-music-detail" };
-const _hoisted_10 = { class: "item-music-name" };
-const _hoisted_11 = { class: "item-music-text text1" };
-const _hoisted_12 = {
+const _hoisted_3 = { class: "list-items" };
+const _hoisted_4 = { class: "list-item-card-content" };
+const _hoisted_5 = { class: "item-num text2" };
+const _hoisted_6 = ["onClick"];
+const _hoisted_7 = ["src", "alt"];
+const _hoisted_8 = { class: "item-music-detail" };
+const _hoisted_9 = { class: "item-music-name" };
+const _hoisted_10 = { class: "item-music-text text1" };
+const _hoisted_11 = {
   key: 0,
   class: "item-music-text text2"
 };
-const _hoisted_13 = { class: "item-music-ar" };
-const _hoisted_14 = { class: "item-music-text text2" };
-const _hoisted_15 = { class: "item-action" };
-const _hoisted_16 = { class: "item-album" };
-const _hoisted_17 = { class: "item-album-al text2" };
+const _hoisted_12 = { class: "item-music-ar" };
+const _hoisted_13 = { class: "item-music-text text2" };
+const _hoisted_14 = { class: "item-action" };
+const _hoisted_15 = { class: "item-album" };
+const _hoisted_16 = { class: "item-album-al text2" };
 const _sfc_main = {
   __name: "musicList",
   props: ["value", "nameOnClick"],
@@ -275,13 +267,18 @@ const _sfc_main = {
             class: "list-head-card",
             "content-style": "padding-top:0;padding-bottom:0;"
           }, {
-            default: withCtx(() => [
-              _hoisted_3
-            ]),
+            default: withCtx(() => _cache[0] || (_cache[0] = [
+              createBaseVNode("div", { class: "list-head-card-content" }, [
+                createBaseVNode("div", { class: "head-num text2" }, "#"),
+                createBaseVNode("div", { class: "head-music text2" }, "歌曲"),
+                createBaseVNode("div", { class: "head-action text2" }, " "),
+                createBaseVNode("div", { class: "head-album text2" }, "专辑")
+              ], -1)
+            ])),
             _: 1
           })
         ]),
-        createBaseVNode("div", _hoisted_4, [
+        createBaseVNode("div", _hoisted_3, [
           (openBlock(true), createElementBlock(Fragment, null, renderList(unref(props).value, (item, index) => {
             return openBlock(), createElementBlock("div", {
               key: index,
@@ -289,8 +286,8 @@ const _sfc_main = {
             }, [
               createVNode(_component_n_card, { class: "list-item-card" }, {
                 default: withCtx(() => [
-                  createBaseVNode("div", _hoisted_5, [
-                    createBaseVNode("div", _hoisted_6, toDisplayString(index + 1), 1),
+                  createBaseVNode("div", _hoisted_4, [
+                    createBaseVNode("div", _hoisted_5, toDisplayString(index + 1), 1),
                     createBaseVNode("div", {
                       class: "item-music",
                       onClick: ($event) => unref(props).nameOnClick(item.id)
@@ -300,22 +297,22 @@ const _sfc_main = {
                         src: item.al.picUrl + "?param=80y80",
                         alt: item.al.name,
                         loading: "lazy"
-                      }, null, 8, _hoisted_8),
-                      createBaseVNode("div", _hoisted_9, [
-                        createBaseVNode("div", _hoisted_10, [
-                          createBaseVNode("span", _hoisted_11, toDisplayString(item.name), 1),
-                          parseArray(item.tns) != "" ? (openBlock(), createElementBlock("span", _hoisted_12, " (" + toDisplayString(parseArray(item.tns)) + ")", 1)) : createCommentVNode("", true)
+                      }, null, 8, _hoisted_7),
+                      createBaseVNode("div", _hoisted_8, [
+                        createBaseVNode("div", _hoisted_9, [
+                          createBaseVNode("span", _hoisted_10, toDisplayString(item.name), 1),
+                          parseArray(item.tns) != "" ? (openBlock(), createElementBlock("span", _hoisted_11, " (" + toDisplayString(parseArray(item.tns)) + ")", 1)) : createCommentVNode("", true)
                         ]),
-                        createBaseVNode("div", _hoisted_13, [
+                        createBaseVNode("div", _hoisted_12, [
                           item.fee == 1 ? (openBlock(), createBlock(_component_n_tag, {
                             key: 0,
                             type: "warning",
                             size: "small",
                             bordered: false
                           }, {
-                            default: withCtx(() => [
+                            default: withCtx(() => _cache[1] || (_cache[1] = [
                               createTextVNode("VIP")
-                            ]),
+                            ])),
                             _: 1
                           })) : createCommentVNode("", true),
                           item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
@@ -324,16 +321,16 @@ const _sfc_main = {
                             size: "small",
                             bordered: false
                           }, {
-                            default: withCtx(() => [
+                            default: withCtx(() => _cache[2] || (_cache[2] = [
                               createTextVNode("数字专辑")
-                            ]),
+                            ])),
                             _: 1
                           })) : createCommentVNode("", true),
-                          createBaseVNode("span", _hoisted_14, toDisplayString(parseArtist(item.ar)), 1)
+                          createBaseVNode("span", _hoisted_13, toDisplayString(parseArtist(item.ar)), 1)
                         ])
                       ])
-                    ], 8, _hoisted_7),
-                    createBaseVNode("div", _hoisted_15, [
+                    ], 8, _hoisted_6),
+                    createBaseVNode("div", _hoisted_14, [
                       createVNode(_component_n_icon, {
                         size: "1.3rem",
                         class: "like-button"
@@ -353,8 +350,8 @@ const _sfc_main = {
                         _: 2
                       }, 1024)
                     ]),
-                    createBaseVNode("div", _hoisted_16, [
-                      createBaseVNode("span", _hoisted_17, [
+                    createBaseVNode("div", _hoisted_15, [
+                      createBaseVNode("span", _hoisted_16, [
                         createBaseVNode("span", null, toDisplayString(item.al.name), 1)
                       ])
                     ])

@@ -1,34 +1,29 @@
-import { m as markRaw, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aP as _export_sfc, aT as useCssVars, u as unref, b as ref, aM as createVNode, aQ as withCtx, v as createTextVNode, aV as toDisplayString, b1 as normalizeStyle, aG as NIcon, aN as pushScopeId, aO as popScopeId } from "./marqueePlus-oXg9xsbo.js";
-import { d as useThemeStore, a as useRouter, m as getColorFromImg, n as mixColor } from "./index-74IMZhHi.js";
-import { _ as __unplugin_components_1$1 } from "./Ellipsis-lIF-10Gf.js";
+import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aS as useCssVars, u as unref, b as ref, aN as createVNode, aP as withCtx, v as createTextVNode, aU as toDisplayString, b0 as normalizeStyle, aH as NIcon } from "./marqueePlus-BkPUv9Mq.js";
+import { d as useThemeStore, a as useRouter, m as getColorFromImg, n as mixColor } from "./index-Cy5aucrj.js";
+import { _ as __unplugin_components_1$1 } from "./Ellipsis-eNoXR8hF.js";
 const _hoisted_1$1 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$1 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "currentColor",
-  d: "M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m0 2v3H4V5zM4 21V10h16v11z"
-}, null, -1);
-const _hoisted_3$1 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "currentColor",
-  d: "M4 5.01h16V8H4z",
-  opacity: ".3"
-}, null, -1);
-const _hoisted_4$1 = [
-  _hoisted_2$1,
-  _hoisted_3$1
-];
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._hoisted_4$1]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$1, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "currentColor",
+      d: "M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m0 2v3H4V5zM4 21V10h16v11z"
+    }, null, -1),
+    createBaseVNode("path", {
+      fill: "currentColor",
+      d: "M4 5.01h16V8H4z",
+      opacity: ".3"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_1 = markRaw({ name: "ic-twotone-calendar-today", render });
-const _withScopeId = (n) => (pushScopeId("data-v-5c7c70b4"), n = n(), popScopeId(), n);
 const _hoisted_1 = ["src"];
 const _hoisted_2 = { class: "item-card-name text1" };
 const _hoisted_3 = { class: "item-card-date-box text2" };
 const _hoisted_4 = { class: "item-card-date" };
-const _hoisted_5 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "item-card-name text1" }, "每日推荐", -1));
 const _sfc_main = {
   __name: "itemCard",
   props: ["imgurl", "text", "click", "isDailySongs"],
@@ -89,7 +84,7 @@ const _sfc_main = {
             _: 1
           })
         ]),
-        _hoisted_5
+        _cache[2] || (_cache[2] = createBaseVNode("div", { class: "item-card-name text1" }, "每日推荐", -1))
       ], 4));
     };
   }

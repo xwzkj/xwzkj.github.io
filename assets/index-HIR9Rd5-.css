@@ -483,51 +483,51 @@ right---------------------------------------------------------
 
 .app,
 .bg {
-  background-color: var(--77cf201c);
+  background-color: var(--2cec3bcb);
 }
 .icon,
 .n-icon {
-  color: var(--77cf1e2c);
+  color: var(--2cec3cc3);
 }
 .text1 {
-  color: var(--77cf1dee);
+  color: var(--2cec3ce2);
 }
 .text2 {
-  color: var(--77cf1e6a);
+  color: var(--2cec3ca4);
 }
 .text3 {
-  color: var(--77cf1ea8);
+  color: var(--2cec3c85);
 }
 
 
 /* 主题色 */
 .color0 {
-  color: var(--77cf201c);
+  color: var(--2cec3bcb);
 }
 .color1 {
-  color: var(--77cf1fde);
+  color: var(--2cec3bea);
 }
 .color2 {
-  color: var(--77cf1fa0);
+  color: var(--2cec3c09);
 }
 .color3 {
-  color: var(--77cf1f62);
+  color: var(--2cec3c28);
 }
 .color4 {
-  color: var(--77cf1f24);
+  color: var(--2cec3c47);
 }
 .color5 {
-  color: var(--77cf1ee6);
+  color: var(--2cec3c66);
 }
 .color6 {
-  color: var(--77cf1ea8);
+  color: var(--2cec3c85);
 }
 .color7 {
-  color: var(--77cf1e6a);
+  color: var(--2cec3ca4);
 }
 .color8 {
-  color: var(--77cf1e2c);
+  color: var(--2cec3cc3);
 }
 .color9 {
-  color: var(--77cf1dee);
+  color: var(--2cec3ce2);
 }

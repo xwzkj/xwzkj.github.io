@@ -1,8 +1,7 @@
-import { aP as _export_sfc, aT as useCssVars, b as ref, aK as createElementBlock, aL as createBaseVNode, u as unref, aV as toDisplayString, F as Fragment, aU as renderList, aJ as openBlock, aM as createVNode, aN as pushScopeId, aO as popScopeId } from "./marqueePlus-oXg9xsbo.js";
-import { u as useUserStore, d as useThemeStore, a as useRouter, k as areaData } from "./index-74IMZhHi.js";
-import { i as itemCard } from "./itemCard-NZdIaCQc.js";
-import "./Ellipsis-lIF-10Gf.js";
-const _withScopeId = (n) => (pushScopeId("data-v-ee36bbe5"), n = n(), popScopeId(), n);
+import { aO as _export_sfc, aS as useCssVars, b as ref, aL as createElementBlock, aM as createBaseVNode, u as unref, aU as toDisplayString, F as Fragment, aT as renderList, aK as openBlock, aN as createVNode } from "./marqueePlus-BkPUv9Mq.js";
+import { u as useUserStore, d as useThemeStore, a as useRouter, k as areaData } from "./index-Cy5aucrj.js";
+import { i as itemCard } from "./itemCard-Bnhtz34Q.js";
+import "./Ellipsis-eNoXR8hF.js";
 const _hoisted_1 = { class: "account-user-detail" };
 const _hoisted_2 = ["src"];
 const _hoisted_3 = { class: "account-user-data-info" };
@@ -10,9 +9,8 @@ const _hoisted_4 = { class: "account-user-name text1" };
 const _hoisted_5 = ["src"];
 const _hoisted_6 = { class: "account-user-area text2" };
 const _hoisted_7 = { class: "account-user-playlists-div" };
-const _hoisted_8 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "account-user-playlists-title" }, "我的歌单", -1));
-const _hoisted_9 = { class: "account-user-playlists-ul" };
-const _hoisted_10 = { class: "user-playlist-li" };
+const _hoisted_8 = { class: "account-user-playlists-ul" };
+const _hoisted_9 = { class: "user-playlist-li" };
 const _sfc_main = {
   __name: "account",
   setup(__props) {
@@ -50,10 +48,10 @@ const _sfc_main = {
           ])
         ]),
         createBaseVNode("div", _hoisted_7, [
-          _hoisted_8,
-          createBaseVNode("ul", _hoisted_9, [
+          _cache[1] || (_cache[1] = createBaseVNode("div", { class: "account-user-playlists-title" }, "我的歌单", -1)),
+          createBaseVNode("ul", _hoisted_8, [
             (openBlock(true), createElementBlock(Fragment, null, renderList(unref(userStore).playlists, (item) => {
-              return openBlock(), createElementBlock("li", _hoisted_10, [
+              return openBlock(), createElementBlock("li", _hoisted_9, [
                 createVNode(itemCard, {
                   imgurl: item.coverImgUrl,
                   text: item.name,

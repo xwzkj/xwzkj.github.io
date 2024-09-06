@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-CPtuwTFa.js","./itemCard-NZdIaCQc.js","./marqueePlus-oXg9xsbo.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-lIF-10Gf.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-CZrulMN3.js","./musicList-CbUGJ6lf.js","./Card-DxAo0qwM.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-D_RYQJFz.js","./Button-C7BfeqoM.js","./login-BZBt2RaQ.css","./account-BReXl8e7.js","./account-CZ8eyIhU.css","./playlist-BppNI7X2.js","./playlist-_rqHwo7U.css","./setting-DNfM95U_.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$5, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as merge$2, aD as defaultClsPrefix, aE as murmur2, aF as createTheme, aG as NIcon, aH as throwError, aI as onBeforeUpdate, aJ as openBlock, aK as createElementBlock, aL as createBaseVNode, aM as createVNode, aN as pushScopeId, aO as popScopeId, aP as _export_sfc, aQ as withCtx, aR as createBlock, aS as createCommentVNode, aT as useCssVars, aU as renderList, aV as toDisplayString, aW as MarqueePlus, aX as normalizeClass, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./marqueePlus-oXg9xsbo.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-otU6yLnb.js","./itemCard-Bnhtz34Q.js","./marqueePlus-BkPUv9Mq.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-eNoXR8hF.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-CcoEY5dW.js","./musicList-CERpk58W.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-ClZCWwAG.js","./login-BZBt2RaQ.css","./account-B4FMtDuR.js","./account-CZ8eyIhU.css","./playlist-GgaV1P26.js","./playlist-_rqHwo7U.css","./setting-DVZVC-FS.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as withModifiers, aY as resolveComponent, aZ as KeepAlive, a_ as resolveDynamicComponent, a$ as createApp } from "./marqueePlus-BkPUv9Mq.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -38,8 +38,8 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
         link.rel = isCss ? "stylesheet" : scriptRel;
         if (!isCss) {
           link.as = "script";
-          link.crossOrigin = "";
         }
+        link.crossOrigin = "";
         link.href = dep;
         if (cspNonce) {
           link.setAttribute("nonce", cspNonce);
@@ -1920,7 +1920,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-CPtuwTFa.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-otU6yLnb.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1931,7 +1931,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-CZrulMN3.js"), true ? __vite__mapDeps([7,2,3,8,9,10,11]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CcoEY5dW.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1942,7 +1942,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-D_RYQJFz.js"), true ? __vite__mapDeps([12,2,3,13,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-ClZCWwAG.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1950,7 +1950,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-BReXl8e7.js"), true ? __vite__mapDeps([15,2,3,1,4,5,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-B4FMtDuR.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1961,7 +1961,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BppNI7X2.js"), true ? __vite__mapDeps([17,8,2,3,9,10,13,4,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-GgaV1P26.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1972,7 +1972,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DNfM95U_.js"), true ? __vite__mapDeps([19,2,3,13,9,20]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-DVZVC-FS.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2575,6 +2575,10 @@ function isJsdom() {
   return _isJsdom;
 }
 const isBrowser$1 = typeof document !== "undefined" && typeof window !== "undefined";
+const eventSet = /* @__PURE__ */ new WeakSet();
+function eventEffectNotPerformed(event) {
+  return !eventSet.has(event);
+}
 function useDeferredTrue(valueRef, delay, shouldDelayRef) {
   const delayedRef = ref(valueRef.value);
   let timerId = null;
@@ -2980,6 +2984,96 @@ function createDelegate() {
   };
 }
 const { on, off } = createDelegate();
+const mousePositionRef = ref(null);
+function clickHandler(e) {
+  if (e.clientX > 0 || e.clientY > 0) {
+    mousePositionRef.value = {
+      x: e.clientX,
+      y: e.clientY
+    };
+  } else {
+    const { target } = e;
+    if (target instanceof Element) {
+      const { left, top, width, height } = target.getBoundingClientRect();
+      if (left > 0 || top > 0) {
+        mousePositionRef.value = {
+          x: left + width / 2,
+          y: top + height / 2
+        };
+      } else {
+        mousePositionRef.value = { x: 0, y: 0 };
+      }
+    } else {
+      mousePositionRef.value = null;
+    }
+  }
+}
+let usedCount$1 = 0;
+let managable$1 = true;
+function useClickPosition() {
+  if (!isBrowser)
+    return readonly(ref(null));
+  if (usedCount$1 === 0)
+    on("click", document, clickHandler, true);
+  const setup = () => {
+    usedCount$1 += 1;
+  };
+  if (managable$1 && (managable$1 = hasInstance())) {
+    onBeforeMount(setup);
+    onBeforeUnmount(() => {
+      usedCount$1 -= 1;
+      if (usedCount$1 === 0)
+        off("click", document, clickHandler, true);
+    });
+  } else {
+    setup();
+  }
+  return readonly(mousePositionRef);
+}
+const clickedTimeRef = ref(void 0);
+let usedCount = 0;
+function handleClick() {
+  clickedTimeRef.value = Date.now();
+}
+let managable = true;
+function useClicked(timeout) {
+  if (!isBrowser)
+    return readonly(ref(false));
+  const clickedRef = ref(false);
+  let timerId = null;
+  function clearTimer() {
+    if (timerId !== null)
+      window.clearTimeout(timerId);
+  }
+  function clickedHandler() {
+    clearTimer();
+    clickedRef.value = true;
+    timerId = window.setTimeout(() => {
+      clickedRef.value = false;
+    }, timeout);
+  }
+  if (usedCount === 0) {
+    on("click", window, handleClick, true);
+  }
+  const setup = () => {
+    usedCount += 1;
+    on("click", window, clickedHandler, true);
+  };
+  if (managable && (managable = hasInstance())) {
+    onBeforeMount(setup);
+    onBeforeUnmount(() => {
+      usedCount -= 1;
+      if (usedCount === 0) {
+        off("click", window, handleClick, true);
+      }
+      off("click", window, clickedHandler, true);
+      clearTimer();
+    });
+  } else {
+    setup();
+  }
+  return readonly(clickedRef);
+}
 function useMergedState(controlledStateRef, uncontrolledStateRef) {
   watch(controlledStateRef, (value) => {
     if (value !== void 0) {
@@ -3123,6 +3217,8 @@ function useKeyboard(options = {}, enabledRef) {
 }
 const internalSelectionMenuBodyInjectionKey = createInjectionKey("n-internal-select-menu-body");
 const modalBodyInjectionKey = createInjectionKey("n-modal-body");
+const modalProviderInjectionKey$1 = createInjectionKey("n-modal-provider");
+const modalInjectionKey = createInjectionKey("n-modal");
 const drawerBodyInjectionKey = createInjectionKey("n-drawer-body");
 const popoverBodyInjectionKey = createInjectionKey("n-popover-body");
 const teleportDisabled = "__disabled__";
@@ -3944,7 +4040,7 @@ function getOffset(placement, offsetRect, targetRect, offsetTopToStandardPlaceme
       };
   }
 }
-const style$f = c([
+const style$k = c([
   c(".v-binder-follower-container", {
     position: "absolute",
     left: "0",
@@ -4026,7 +4122,7 @@ const VFollower = defineComponent({
       }
     });
     const ssrAdapter = useSsrAdapter();
-    style$f.mount({
+    style$k.mount({
       id: "vueuc/binder",
       head: true,
       anchorMetaName: cssrAnchorMetaName,
@@ -4754,7 +4850,7 @@ const VResizeObserver = defineComponent({
   }
 });
 const hiddenAttr = "v-hidden";
-const style$e = c("[v-hidden]", {
+const style$j = c("[v-hidden]", {
   display: "none!important"
 });
 const VOverflow = defineComponent({
@@ -4855,7 +4951,7 @@ const VOverflow = defineComponent({
       }
     }
     const ssrAdapter = useSsrAdapter();
-    style$e.mount({
+    style$j.mount({
       id: "vueuc/overflow",
       head: true,
       anchorMetaName: cssrAnchorMetaName,
@@ -5146,6 +5242,94 @@ const FocusTrap = defineComponent({
     ]);
   }
 });
+let lockCount = 0;
+let originalMarginRight = "";
+let originalOverflow = "";
+let originalOverflowX = "";
+let originalOverflowY = "";
+const lockHtmlScrollRightCompensationRef = ref("0px");
+function useLockHtmlScroll(lockRef) {
+  if (typeof document === "undefined") return;
+  const el = document.documentElement;
+  let watchStopHandle;
+  let activated = false;
+  const unlock = () => {
+    el.style.marginRight = originalMarginRight;
+    el.style.overflow = originalOverflow;
+    el.style.overflowX = originalOverflowX;
+    el.style.overflowY = originalOverflowY;
+    lockHtmlScrollRightCompensationRef.value = "0px";
+  };
+  onMounted(() => {
+    watchStopHandle = watch(lockRef, (value) => {
+      if (value) {
+        if (!lockCount) {
+          const scrollbarWidth = window.innerWidth - el.offsetWidth;
+          if (scrollbarWidth > 0) {
+            originalMarginRight = el.style.marginRight;
+            el.style.marginRight = `${scrollbarWidth}px`;
+            lockHtmlScrollRightCompensationRef.value = `${scrollbarWidth}px`;
+          }
+          originalOverflow = el.style.overflow;
+          originalOverflowX = el.style.overflowX;
+          originalOverflowY = el.style.overflowY;
+          el.style.overflow = "hidden";
+          el.style.overflowX = "hidden";
+          el.style.overflowY = "hidden";
+        }
+        activated = true;
+        lockCount++;
+      } else {
+        lockCount--;
+        if (!lockCount) {
+          unlock();
+        }
+        activated = false;
+      }
+    }, {
+      immediate: true
+    });
+  });
+  onBeforeUnmount(() => {
+    watchStopHandle === null || watchStopHandle === void 0 ? void 0 : watchStopHandle();
+    if (activated) {
+      lockCount--;
+      if (!lockCount) {
+        unlock();
+      }
+      activated = false;
+    }
+  });
+}
+const isComposingRef = ref(false);
+function compositionStartHandler() {
+  isComposingRef.value = true;
+}
+function compositionEndHandler() {
+  isComposingRef.value = false;
+}
+let mountedCount = 0;
+function useIsComposing() {
+  if (isBrowser$1) {
+    onBeforeMount(() => {
+      if (!mountedCount) {
+        window.addEventListener("compositionstart", compositionStartHandler);
+        window.addEventListener("compositionend", compositionEndHandler);
+      }
+      mountedCount++;
+    });
+    onBeforeUnmount(() => {
+      if (mountedCount <= 1) {
+        window.removeEventListener("compositionstart", compositionStartHandler);
+        window.removeEventListener("compositionend", compositionEndHandler);
+        mountedCount = 0;
+      } else {
+        mountedCount--;
+      }
+    });
+  }
+  return isComposingRef;
+}
 function useReactivated(callback) {
   const isDeactivatedRef = {
     isDeactivated: false
@@ -6826,7 +7010,7 @@ const NFadeInExpandTransition = defineComponent({
     };
   }
 });
-const style$d = cB("base-icon", `
+const style$i = cB("base-icon", `
  height: 1em;
  width: 1em;
  line-height: 1em;
@@ -6861,7 +7045,7 @@ const NBaseIcon = defineComponent({
     onMouseup: Function
   },
   setup(props) {
-    useStyle("-base-icon", style$d, toRef(props, "clsPrefix"));
+    useStyle("-base-icon", style$i, toRef(props, "clsPrefix"));
   },
   render() {
     return h("i", {
@@ -6876,7 +7060,7 @@ const NBaseIcon = defineComponent({
     }, this.$slots);
   }
 });
-const style$c = cB("base-close", `
+const style$h = cB("base-close", `
  display: flex;
  align-items: center;
  justify-content: center;
@@ -6945,7 +7129,7 @@ const NBaseClose = defineComponent({
     absolute: Boolean
   },
   setup(props) {
-    useStyle("-base-close", style$c, toRef(props, "clsPrefix"));
+    useStyle("-base-close", style$h, toRef(props, "clsPrefix"));
     return () => {
       const {
         clsPrefix,
@@ -6978,13 +7162,13 @@ const NBaseClose = defineComponent({
   }
 });
 const {
-  cubicBezierEaseInOut: cubicBezierEaseInOut$2
-} = commonVariables$5;
+  cubicBezierEaseInOut: cubicBezierEaseInOut$3
+} = commonVariables$7;
 function iconSwitchTransition({
   originalTransform = "",
   left = 0,
   top = 0,
-  transition = `all .3s ${cubicBezierEaseInOut$2} !important`
+  transition = `all .3s ${cubicBezierEaseInOut$3} !important`
 } = {}) {
   return [c$1("&.icon-switch-transition-enter-from, &.icon-switch-transition-leave-to", {
     transform: `${originalTransform} scale(0.75)`,
@@ -7004,7 +7188,7 @@ function iconSwitchTransition({
     transition
   })];
 }
-const style$b = c$1([c$1("@keyframes rotator", `
+const style$g = c$1([c$1("@keyframes rotator", `
  0% {
  -webkit-transform: rotate(0deg);
  transform: rotate(0deg);
@@ -7068,7 +7252,7 @@ const NBaseLoading = defineComponent({
     }
   }, exposedLoadingProps),
   setup(props) {
-    useStyle("-base-loading", style$b, toRef(props, "clsPrefix"));
+    useStyle("-base-loading", style$g, toRef(props, "clsPrefix"));
   },
   render() {
     const {
@@ -7751,12 +7935,12 @@ function createTreeMate(rawNodes, options = {}) {
   };
   return treemate;
 }
-const commonVars$2 = {
+const commonVars$3 = {
   railInsetHorizontal: "auto 2px 4px 2px",
   railInsetVertical: "2px 4px 2px auto",
   railColor: "transparent"
 };
-function self$b(vars) {
+function self$f(vars) {
   const {
     scrollbarColor,
     scrollbarColorHover,
@@ -7764,7 +7948,7 @@ function self$b(vars) {
     scrollbarWidth,
     scrollbarBorderRadius
   } = vars;
-  return Object.assign(Object.assign({}, commonVars$2), {
+  return Object.assign(Object.assign({}, commonVars$3), {
     height: scrollbarHeight,
     width: scrollbarWidth,
     borderRadius: scrollbarBorderRadius,
@@ -7775,17 +7959,17 @@ function self$b(vars) {
 const scrollbarLight = {
   name: "Scrollbar",
   common: derived,
-  self: self$b
+  self: self$f
 };
 const {
-  cubicBezierEaseInOut: cubicBezierEaseInOut$1
-} = commonVariables$5;
+  cubicBezierEaseInOut: cubicBezierEaseInOut$2
+} = commonVariables$7;
 function fadeInTransition({
   name = "fade-in",
   enterDuration = "0.2s",
   leaveDuration = "0.2s",
-  enterCubicBezier = cubicBezierEaseInOut$1,
-  leaveCubicBezier = cubicBezierEaseInOut$1
+  enterCubicBezier = cubicBezierEaseInOut$2,
+  leaveCubicBezier = cubicBezierEaseInOut$2
 } = {}) {
   return [c$1(`&.${name}-transition-enter-active`, {
     transition: `all ${enterDuration} ${enterCubicBezier}!important`
@@ -7797,7 +7981,7 @@ function fadeInTransition({
     opacity: 1
   })];
 }
-const style$a = cB("scrollbar", `
+const style$f = cB("scrollbar", `
  overflow: hidden;
  position: relative;
  z-index: auto;
@@ -7914,7 +8098,7 @@ const Scrollbar$1 = defineComponent({
     let memoMouseX = 0;
     let memoMouseY = 0;
     const isIos2 = useIsIos();
-    const themeRef = useTheme("Scrollbar", "-scrollbar", style$a, scrollbarLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Scrollbar", "-scrollbar", style$f, scrollbarLight, props, mergedClsPrefixRef);
     const yBarSizeRef = computed(() => {
       const {
         value: containerHeight
@@ -8567,7 +8751,7 @@ const XScrollbar = Scrollbar$1;
 const {
   cubicBezierEaseIn: cubicBezierEaseIn$1,
   cubicBezierEaseOut: cubicBezierEaseOut$1
-} = commonVariables$5;
+} = commonVariables$7;
 function fadeInScaleUpTransition({
   transformOrigin = "inherit",
   duration: duration2 = ".2s",
@@ -8589,7 +8773,65 @@ function fadeInScaleUpTransition({
     transform: `${originalTransform} scale(1)`
   })];
 }
-const commonVariables$4 = {
+const style$e = cB("base-wave", `
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ border-radius: inherit;
+`);
+const NBaseWave = defineComponent({
+  name: "BaseWave",
+  props: {
+    clsPrefix: {
+      type: String,
+      required: true
+    }
+  },
+  setup(props) {
+    useStyle("-base-wave", style$e, toRef(props, "clsPrefix"));
+    const selfRef = ref(null);
+    const activeRef = ref(false);
+    let animationTimerId = null;
+    onBeforeUnmount(() => {
+      if (animationTimerId !== null) {
+        window.clearTimeout(animationTimerId);
+      }
+    });
+    return {
+      active: activeRef,
+      selfRef,
+      play() {
+        if (animationTimerId !== null) {
+          window.clearTimeout(animationTimerId);
+          activeRef.value = false;
+          animationTimerId = null;
+        }
+        void nextTick(() => {
+          var _a;
+          void ((_a = selfRef.value) === null || _a === void 0 ? void 0 : _a.offsetHeight);
+          activeRef.value = true;
+          animationTimerId = window.setTimeout(() => {
+            activeRef.value = false;
+            animationTimerId = null;
+          }, 1e3);
+        });
+      }
+    };
+  },
+  render() {
+    const {
+      clsPrefix
+    } = this;
+    return h("div", {
+      ref: "selfRef",
+      "aria-hidden": true,
+      class: [`${clsPrefix}-base-wave`, this.active && `${clsPrefix}-base-wave--active`]
+    });
+  }
+});
+const commonVariables$6 = {
   space: "6px",
   spaceArrow: "10px",
   arrowOffset: "10px",
@@ -8597,7 +8839,7 @@ const commonVariables$4 = {
   arrowHeight: "6px",
   padding: "8px 14px"
 };
-function self$a(vars) {
+function self$e(vars) {
   const {
     boxShadow2,
     popoverColor,
@@ -8606,7 +8848,7 @@ function self$a(vars) {
     fontSize,
     dividerColor
   } = vars;
-  return Object.assign(Object.assign({}, commonVariables$4), {
+  return Object.assign(Object.assign({}, commonVariables$6), {
     fontSize,
     borderRadius,
     color: popoverColor,
@@ -8618,7 +8860,7 @@ function self$a(vars) {
 const popoverLight = {
   name: "Popover",
   common: derived,
-  self: self$a
+  self: self$e
 };
 const oppositePlacement = {
   top: "bottom",
@@ -8627,7 +8869,7 @@ const oppositePlacement = {
   right: "left"
 };
 const arrowSize = "var(--n-arrow-height) * 1.414";
-const style$9 = c$1([cB("popover", `
+const style$d = c$1([cB("popover", `
  transition:
  box-shadow .3s var(--n-bezier),
  background-color .3s var(--n-bezier),
@@ -8841,7 +9083,7 @@ const NPopoverBody = defineComponent({
       mergedClsPrefixRef,
       inlineThemeDisabled
     } = useConfig(props);
-    const themeRef = useTheme("Popover", "-popover", style$9, popoverLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Popover", "-popover", style$d, popoverLight, props, mergedClsPrefixRef);
     const followerRef = ref(null);
     const NPopover2 = inject("NPopover");
     const bodyRef = ref(null);
@@ -9408,7 +9650,7 @@ const NPopover = defineComponent({
       }
       (_a = props.onClickoutside) === null || _a === void 0 ? void 0 : _a.call(props, e);
     }
-    function handleClick() {
+    function handleClick2() {
       if (props.trigger === "click" && !getMergedDisabled()) {
         clearShowTimer();
         clearHideTimer();
@@ -9462,7 +9704,7 @@ const NPopover = defineComponent({
       mergedShowArrow: mergedShowArrowRef,
       getMergedShow,
       setShow,
-      handleClick,
+      handleClick: handleClick2,
       handleMouseEnter,
       handleMouseLeave,
       handleFocus,
@@ -9584,7 +9826,7 @@ const NPopover = defineComponent({
     });
   }
 });
-const commonVariables$3 = {
+const commonVariables$5 = {
   closeIconSizeTiny: "12px",
   closeIconSizeSmall: "12px",
   closeIconSizeMedium: "14px",
@@ -9596,7 +9838,7 @@ const commonVariables$3 = {
   padding: "0 7px",
   closeMargin: "0 0 0 4px"
 };
-function self$9(vars) {
+function self$d(vars) {
   const {
     textColor2,
     primaryColorHover,
@@ -9628,7 +9870,7 @@ function self$9(vars) {
     buttonColor2Pressed,
     fontWeightStrong
   } = vars;
-  return Object.assign(Object.assign({}, commonVariables$3), {
+  return Object.assign(Object.assign({}, commonVariables$5), {
     closeBorderRadius: borderRadius,
     heightTiny: heightMini,
     heightSmall: heightTiny,
@@ -9762,7 +10004,7 @@ function self$9(vars) {
 const tagLight = {
   name: "Tag",
   common: derived,
-  self: self$9
+  self: self$d
 };
 const commonProps = {
   color: Object,
@@ -9781,7 +10023,7 @@ const commonProps = {
     default: void 0
   }
 };
-const style$8 = cB("tag", `
+const style$c = cB("tag", `
  --n-close-margin: var(--n-close-margin-top) var(--n-close-margin-right) var(--n-close-margin-bottom) var(--n-close-margin-left);
  white-space: nowrap;
  position: relative;
@@ -9879,7 +10121,7 @@ const tagProps = Object.assign(Object.assign(Object.assign({}, useTheme.props), 
   onCheckedChange: Function
 });
 const tagInjectionKey = createInjectionKey("n-tag");
-const __unplugin_components_0$5 = defineComponent({
+const __unplugin_components_0$4 = defineComponent({
   name: "Tag",
   props: tagProps,
   setup(props) {
@@ -9890,11 +10132,11 @@ const __unplugin_components_0$5 = defineComponent({
       inlineThemeDisabled,
       mergedRtlRef
     } = useConfig(props);
-    const themeRef = useTheme("Tag", "-tag", style$8, tagLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Tag", "-tag", style$c, tagLight, props, mergedClsPrefixRef);
     provide(tagInjectionKey, {
       roundRef: toRef(props, "round")
     });
-    function handleClick() {
+    function handleClick2() {
       if (!props.disabled) {
         if (props.checkable) {
           const {
@@ -10040,7 +10282,7 @@ const __unplugin_components_0$5 = defineComponent({
       mergedClsPrefix: mergedClsPrefixRef,
       contentRef,
       mergedBordered: mergedBorderedRef,
-      handleClick,
+      handleClick: handleClick2,
       handleCloseClick,
       cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
       themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
@@ -10103,7 +10345,7 @@ const __unplugin_components_0$5 = defineComponent({
     }) : null);
   }
 });
-const style$7 = cB("base-clear", `
+const style$b = cB("base-clear", `
  flex-shrink: 0;
  height: 1em;
  width: 1em;
@@ -10143,7 +10385,7 @@ const NBaseClear = defineComponent({
     onClear: Function
   },
   setup(props) {
-    useStyle("-base-clear", style$7, toRef(props, "clsPrefix"));
+    useStyle("-base-clear", style$b, toRef(props, "clsPrefix"));
     return {
       handleMouseDown(e) {
         e.preventDefault();
@@ -10229,10 +10471,39 @@ const NBaseSuffix = defineComponent({
   }
 });
 const {
+  cubicBezierEaseInOut: cubicBezierEaseInOut$1
+} = commonVariables$7;
+function fadeInWidthExpandTransition({
+  duration: duration2 = ".2s",
+  delay = ".1s"
+} = {}) {
+  return [c$1("&.fade-in-width-expand-transition-leave-from, &.fade-in-width-expand-transition-enter-to", {
+    opacity: 1
+  }), c$1("&.fade-in-width-expand-transition-leave-to, &.fade-in-width-expand-transition-enter-from", `
+ opacity: 0!important;
+ margin-left: 0!important;
+ margin-right: 0!important;
+ `), c$1("&.fade-in-width-expand-transition-leave-active", `
+ overflow: hidden;
+ transition:
+ opacity ${duration2} ${cubicBezierEaseInOut$1},
+ max-width ${duration2} ${cubicBezierEaseInOut$1} ${delay},
+ margin-left ${duration2} ${cubicBezierEaseInOut$1} ${delay},
+ margin-right ${duration2} ${cubicBezierEaseInOut$1} ${delay};
+ `), c$1("&.fade-in-width-expand-transition-enter-active", `
+ overflow: hidden;
+ transition:
+ opacity ${duration2} ${cubicBezierEaseInOut$1} ${delay},
+ max-width ${duration2} ${cubicBezierEaseInOut$1},
+ margin-left ${duration2} ${cubicBezierEaseInOut$1},
+ margin-right ${duration2} ${cubicBezierEaseInOut$1};
+ `)];
+}
+const {
   cubicBezierEaseInOut,
   cubicBezierEaseOut,
   cubicBezierEaseIn
-} = commonVariables$5;
+} = commonVariables$7;
 function fadeInHeightExpandTransition({
   overflow = "hidden",
   duration: duration2 = ".3s",
@@ -10280,14 +10551,14 @@ function fadeInHeightExpandTransition({
 const isChrome = isBrowser$1 && "chrome" in window;
 isBrowser$1 && navigator.userAgent.includes("Firefox");
 const isSafari = isBrowser$1 && navigator.userAgent.includes("Safari") && !isChrome;
-const commonVariables$2 = {
+const commonVariables$4 = {
   paddingTiny: "0 8px",
   paddingSmall: "0 10px",
   paddingMedium: "0 12px",
   paddingLarge: "0 14px",
   clearSize: "16px"
 };
-function self$8(vars) {
+function self$c(vars) {
   const {
     textColor2,
     textColor3,
@@ -10322,7 +10593,7 @@ function self$8(vars) {
     iconColorHover,
     iconColorPressed
   } = vars;
-  return Object.assign(Object.assign({}, commonVariables$2), {
+  return Object.assign(Object.assign({}, commonVariables$4), {
     countTextColorDisabled: textColorDisabled,
     countTextColor: textColor3,
     heightTiny,
@@ -10390,7 +10661,7 @@ function self$8(vars) {
 const inputLight = {
   name: "Input",
   common: derived,
-  self: self$8
+  self: self$c
 };
 const inputInjectionKey = createInjectionKey("n-input");
 function len(s) {
@@ -10504,7 +10775,7 @@ const WordCount = defineComponent({
     };
   }
 });
-const style$6 = cB("input", `
+const style$a = cB("input", `
  max-width: 100%;
  cursor: text;
  line-height: 1.5;
@@ -10858,7 +11129,7 @@ const inputProps = Object.assign(Object.assign({}, useTheme.props), {
   /** deprecated */
   showPasswordToggle: Boolean
 });
-const __unplugin_components_0$4 = defineComponent({
+const __unplugin_components_0$3 = defineComponent({
   name: "Input",
   props: inputProps,
   setup(props) {
@@ -10868,7 +11139,7 @@ const __unplugin_components_0$4 = defineComponent({
       inlineThemeDisabled,
       mergedRtlRef
     } = useConfig(props);
-    const themeRef = useTheme("Input", "-input", style$6, inputLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Input", "-input", style$a, inputLight, props, mergedClsPrefixRef);
     if (isSafari) {
       useStyle("-input-safari", safariStyle, mergedClsPrefixRef);
     }
@@ -10895,7 +11166,7 @@ const __unplugin_components_0$4 = defineComponent({
     } = formItem;
     const focusedRef = ref(false);
     const hoverRef = ref(false);
-    const isComposingRef = ref(false);
+    const isComposingRef2 = ref(false);
     const activatedRef = ref(false);
     let syncSource = null;
     const mergedPlaceholderRef = computed(() => {
@@ -10919,7 +11190,7 @@ const __unplugin_components_0$4 = defineComponent({
     const showPlaceholder1Ref = computed(() => {
       const {
         value: isComposing
-      } = isComposingRef;
+      } = isComposingRef2;
       const {
         value: mergedValue
       } = mergedValueRef;
@@ -10931,7 +11202,7 @@ const __unplugin_components_0$4 = defineComponent({
     const showPlaceholder2Ref = computed(() => {
       const {
         value: isComposing
-      } = isComposingRef;
+      } = isComposingRef2;
       const {
         value: mergedValue
       } = mergedValueRef;
@@ -11129,10 +11400,10 @@ const __unplugin_components_0$4 = defineComponent({
       if (onWrapperBlur) call(onWrapperBlur, e);
     }
     function handleCompositionStart() {
-      isComposingRef.value = true;
+      isComposingRef2.value = true;
     }
     function handleCompositionEnd(e) {
-      isComposingRef.value = false;
+      isComposingRef2.value = false;
       if (e.target === inputEl2Ref.value) {
         handleInput(e, 1);
       } else {
@@ -11143,7 +11414,7 @@ const __unplugin_components_0$4 = defineComponent({
       const targetValue = e.target.value;
       syncMirror(targetValue);
       if (e instanceof InputEvent && !e.isComposing) {
-        isComposingRef.value = false;
+        isComposingRef2.value = false;
       }
       if (props.type === "textarea") {
         const {
@@ -11154,7 +11425,7 @@ const __unplugin_components_0$4 = defineComponent({
         }
       }
       syncSource = targetValue;
-      if (isComposingRef.value) return;
+      if (isComposingRef2.value) return;
       focusedInputCursorControl.recordCursor();
       const isIncomingValueValid = allowInput(targetValue);
       if (isIncomingValueValid) {
@@ -11276,7 +11547,7 @@ const __unplugin_components_0$4 = defineComponent({
     function handleChange(e, index) {
       handleInput(e, index, "change");
     }
-    function handleClick(e) {
+    function handleClick2(e) {
       doClick(e);
     }
     function handleClear(e) {
@@ -11539,7 +11810,7 @@ const __unplugin_components_0$4 = defineComponent({
       wrapperElRef,
       inputElRef,
       textareaElRef,
-      isCompositing: isComposingRef,
+      isCompositing: isComposingRef2,
       clear: clearValue,
       focus,
       blur,
@@ -11688,7 +11959,7 @@ const __unplugin_components_0$4 = defineComponent({
       showPlaceholder1: showPlaceholder1Ref,
       showPlaceholder2: showPlaceholder2Ref,
       mergedFocus: mergedFocusRef,
-      isComposing: isComposingRef,
+      isComposing: isComposingRef2,
       activated: activatedRef,
       showClearButton,
       mergedSize: mergedSizeRef,
@@ -11713,7 +11984,7 @@ const __unplugin_components_0$4 = defineComponent({
       handleMouseLeave,
       handleMouseDown,
       handleChange,
-      handleClick,
+      handleClick: handleClick2,
       handleClear,
       handlePasswordToggleClick,
       handlePasswordToggleMousedown,
@@ -12035,7 +12306,7 @@ const observeIntersection = (el, options, shouldStartLoadingRef) => {
   shouldStartLoadingRefMap.set(el, shouldStartLoadingRef);
   return unobserve;
 };
-function self$7(vars) {
+function self$b(vars) {
   const {
     borderRadius,
     avatarColor,
@@ -12066,10 +12337,10 @@ function self$7(vars) {
 const avatarLight = {
   name: "Avatar",
   common: derived,
-  self: self$7
+  self: self$b
 };
 const avatarGroupInjectionKey = createInjectionKey("n-avatar-group");
-const style$5 = cB("avatar", `
+const style$9 = cB("avatar", `
  width: var(--n-merged-size);
  height: var(--n-merged-size);
  color: #FFF;
@@ -12126,7 +12397,7 @@ const avatarProps = Object.assign(Object.assign({}, useTheme.props), {
   /** @deprecated */
   color: String
 });
-const __unplugin_components_4$2 = defineComponent({
+const __unplugin_components_4$3 = defineComponent({
   name: "Avatar",
   props: avatarProps,
   setup(props) {
@@ -12176,7 +12447,7 @@ const __unplugin_components_4$2 = defineComponent({
       if (avatarGroupSize) return avatarGroupSize;
       return "medium";
     });
-    const themeRef = useTheme("Avatar", "-avatar", style$5, avatarLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Avatar", "-avatar", style$9, avatarLight, props, mergedClsPrefixRef);
     const TagInjection = inject(tagInjectionKey, null);
     const mergedRoundRef = computed(() => {
       if (NAvatarGroup) return true;
@@ -12381,6 +12652,1295 @@ const __unplugin_components_4$2 = defineComponent({
     }, img, lazy && placeholderNode);
   }
 });
+function createHoverColor(rgb) {
+  return composite(rgb, [255, 255, 255, 0.16]);
+}
+function createPressedColor(rgb) {
+  return composite(rgb, [0, 0, 0, 0.12]);
+}
+const buttonGroupInjectionKey = createInjectionKey("n-button-group");
+const commonVariables$3 = {
+  paddingTiny: "0 6px",
+  paddingSmall: "0 10px",
+  paddingMedium: "0 14px",
+  paddingLarge: "0 18px",
+  paddingRoundTiny: "0 10px",
+  paddingRoundSmall: "0 14px",
+  paddingRoundMedium: "0 18px",
+  paddingRoundLarge: "0 22px",
+  iconMarginTiny: "6px",
+  iconMarginSmall: "6px",
+  iconMarginMedium: "6px",
+  iconMarginLarge: "6px",
+  iconSizeTiny: "14px",
+  iconSizeSmall: "18px",
+  iconSizeMedium: "18px",
+  iconSizeLarge: "20px",
+  rippleDuration: ".6s"
+};
+function self$a(vars) {
+  const {
+    heightTiny,
+    heightSmall,
+    heightMedium,
+    heightLarge,
+    borderRadius,
+    fontSizeTiny,
+    fontSizeSmall,
+    fontSizeMedium,
+    fontSizeLarge,
+    opacityDisabled,
+    textColor2,
+    textColor3,
+    primaryColorHover,
+    primaryColorPressed,
+    borderColor,
+    primaryColor,
+    baseColor,
+    infoColor,
+    infoColorHover,
+    infoColorPressed,
+    successColor,
+    successColorHover,
+    successColorPressed,
+    warningColor,
+    warningColorHover,
+    warningColorPressed,
+    errorColor,
+    errorColorHover,
+    errorColorPressed,
+    fontWeight,
+    buttonColor2,
+    buttonColor2Hover,
+    buttonColor2Pressed,
+    fontWeightStrong
+  } = vars;
+  return Object.assign(Object.assign({}, commonVariables$3), {
+    heightTiny,
+    heightSmall,
+    heightMedium,
+    heightLarge,
+    borderRadiusTiny: borderRadius,
+    borderRadiusSmall: borderRadius,
+    borderRadiusMedium: borderRadius,
+    borderRadiusLarge: borderRadius,
+    fontSizeTiny,
+    fontSizeSmall,
+    fontSizeMedium,
+    fontSizeLarge,
+    opacityDisabled,
+    // secondary
+    colorOpacitySecondary: "0.16",
+    colorOpacitySecondaryHover: "0.22",
+    colorOpacitySecondaryPressed: "0.28",
+    colorSecondary: buttonColor2,
+    colorSecondaryHover: buttonColor2Hover,
+    colorSecondaryPressed: buttonColor2Pressed,
+    // tertiary
+    colorTertiary: buttonColor2,
+    colorTertiaryHover: buttonColor2Hover,
+    colorTertiaryPressed: buttonColor2Pressed,
+    // quaternary
+    colorQuaternary: "#0000",
+    colorQuaternaryHover: buttonColor2Hover,
+    colorQuaternaryPressed: buttonColor2Pressed,
+    // default type
+    color: "#0000",
+    colorHover: "#0000",
+    colorPressed: "#0000",
+    colorFocus: "#0000",
+    colorDisabled: "#0000",
+    textColor: textColor2,
+    textColorTertiary: textColor3,
+    textColorHover: primaryColorHover,
+    textColorPressed: primaryColorPressed,
+    textColorFocus: primaryColorHover,
+    textColorDisabled: textColor2,
+    textColorText: textColor2,
+    textColorTextHover: primaryColorHover,
+    textColorTextPressed: primaryColorPressed,
+    textColorTextFocus: primaryColorHover,
+    textColorTextDisabled: textColor2,
+    textColorGhost: textColor2,
+    textColorGhostHover: primaryColorHover,
+    textColorGhostPressed: primaryColorPressed,
+    textColorGhostFocus: primaryColorHover,
+    textColorGhostDisabled: textColor2,
+    border: `1px solid ${borderColor}`,
+    borderHover: `1px solid ${primaryColorHover}`,
+    borderPressed: `1px solid ${primaryColorPressed}`,
+    borderFocus: `1px solid ${primaryColorHover}`,
+    borderDisabled: `1px solid ${borderColor}`,
+    rippleColor: primaryColor,
+    // primary
+    colorPrimary: primaryColor,
+    colorHoverPrimary: primaryColorHover,
+    colorPressedPrimary: primaryColorPressed,
+    colorFocusPrimary: primaryColorHover,
+    colorDisabledPrimary: primaryColor,
+    textColorPrimary: baseColor,
+    textColorHoverPrimary: baseColor,
+    textColorPressedPrimary: baseColor,
+    textColorFocusPrimary: baseColor,
+    textColorDisabledPrimary: baseColor,
+    textColorTextPrimary: primaryColor,
+    textColorTextHoverPrimary: primaryColorHover,
+    textColorTextPressedPrimary: primaryColorPressed,
+    textColorTextFocusPrimary: primaryColorHover,
+    textColorTextDisabledPrimary: textColor2,
+    textColorGhostPrimary: primaryColor,
+    textColorGhostHoverPrimary: primaryColorHover,
+    textColorGhostPressedPrimary: primaryColorPressed,
+    textColorGhostFocusPrimary: primaryColorHover,
+    textColorGhostDisabledPrimary: primaryColor,
+    borderPrimary: `1px solid ${primaryColor}`,
+    borderHoverPrimary: `1px solid ${primaryColorHover}`,
+    borderPressedPrimary: `1px solid ${primaryColorPressed}`,
+    borderFocusPrimary: `1px solid ${primaryColorHover}`,
+    borderDisabledPrimary: `1px solid ${primaryColor}`,
+    rippleColorPrimary: primaryColor,
+    // info
+    colorInfo: infoColor,
+    colorHoverInfo: infoColorHover,
+    colorPressedInfo: infoColorPressed,
+    colorFocusInfo: infoColorHover,
+    colorDisabledInfo: infoColor,
+    textColorInfo: baseColor,
+    textColorHoverInfo: baseColor,
+    textColorPressedInfo: baseColor,
+    textColorFocusInfo: baseColor,
+    textColorDisabledInfo: baseColor,
+    textColorTextInfo: infoColor,
+    textColorTextHoverInfo: infoColorHover,
+    textColorTextPressedInfo: infoColorPressed,
+    textColorTextFocusInfo: infoColorHover,
+    textColorTextDisabledInfo: textColor2,
+    textColorGhostInfo: infoColor,
+    textColorGhostHoverInfo: infoColorHover,
+    textColorGhostPressedInfo: infoColorPressed,
+    textColorGhostFocusInfo: infoColorHover,
+    textColorGhostDisabledInfo: infoColor,
+    borderInfo: `1px solid ${infoColor}`,
+    borderHoverInfo: `1px solid ${infoColorHover}`,
+    borderPressedInfo: `1px solid ${infoColorPressed}`,
+    borderFocusInfo: `1px solid ${infoColorHover}`,
+    borderDisabledInfo: `1px solid ${infoColor}`,
+    rippleColorInfo: infoColor,
+    // success
+    colorSuccess: successColor,
+    colorHoverSuccess: successColorHover,
+    colorPressedSuccess: successColorPressed,
+    colorFocusSuccess: successColorHover,
+    colorDisabledSuccess: successColor,
+    textColorSuccess: baseColor,
+    textColorHoverSuccess: baseColor,
+    textColorPressedSuccess: baseColor,
+    textColorFocusSuccess: baseColor,
+    textColorDisabledSuccess: baseColor,
+    textColorTextSuccess: successColor,
+    textColorTextHoverSuccess: successColorHover,
+    textColorTextPressedSuccess: successColorPressed,
+    textColorTextFocusSuccess: successColorHover,
+    textColorTextDisabledSuccess: textColor2,
+    textColorGhostSuccess: successColor,
+    textColorGhostHoverSuccess: successColorHover,
+    textColorGhostPressedSuccess: successColorPressed,
+    textColorGhostFocusSuccess: successColorHover,
+    textColorGhostDisabledSuccess: successColor,
+    borderSuccess: `1px solid ${successColor}`,
+    borderHoverSuccess: `1px solid ${successColorHover}`,
+    borderPressedSuccess: `1px solid ${successColorPressed}`,
+    borderFocusSuccess: `1px solid ${successColorHover}`,
+    borderDisabledSuccess: `1px solid ${successColor}`,
+    rippleColorSuccess: successColor,
+    // warning
+    colorWarning: warningColor,
+    colorHoverWarning: warningColorHover,
+    colorPressedWarning: warningColorPressed,
+    colorFocusWarning: warningColorHover,
+    colorDisabledWarning: warningColor,
+    textColorWarning: baseColor,
+    textColorHoverWarning: baseColor,
+    textColorPressedWarning: baseColor,
+    textColorFocusWarning: baseColor,
+    textColorDisabledWarning: baseColor,
+    textColorTextWarning: warningColor,
+    textColorTextHoverWarning: warningColorHover,
+    textColorTextPressedWarning: warningColorPressed,
+    textColorTextFocusWarning: warningColorHover,
+    textColorTextDisabledWarning: textColor2,
+    textColorGhostWarning: warningColor,
+    textColorGhostHoverWarning: warningColorHover,
+    textColorGhostPressedWarning: warningColorPressed,
+    textColorGhostFocusWarning: warningColorHover,
+    textColorGhostDisabledWarning: warningColor,
+    borderWarning: `1px solid ${warningColor}`,
+    borderHoverWarning: `1px solid ${warningColorHover}`,
+    borderPressedWarning: `1px solid ${warningColorPressed}`,
+    borderFocusWarning: `1px solid ${warningColorHover}`,
+    borderDisabledWarning: `1px solid ${warningColor}`,
+    rippleColorWarning: warningColor,
+    // error
+    colorError: errorColor,
+    colorHoverError: errorColorHover,
+    colorPressedError: errorColorPressed,
+    colorFocusError: errorColorHover,
+    colorDisabledError: errorColor,
+    textColorError: baseColor,
+    textColorHoverError: baseColor,
+    textColorPressedError: baseColor,
+    textColorFocusError: baseColor,
+    textColorDisabledError: baseColor,
+    textColorTextError: errorColor,
+    textColorTextHoverError: errorColorHover,
+    textColorTextPressedError: errorColorPressed,
+    textColorTextFocusError: errorColorHover,
+    textColorTextDisabledError: textColor2,
+    textColorGhostError: errorColor,
+    textColorGhostHoverError: errorColorHover,
+    textColorGhostPressedError: errorColorPressed,
+    textColorGhostFocusError: errorColorHover,
+    textColorGhostDisabledError: errorColor,
+    borderError: `1px solid ${errorColor}`,
+    borderHoverError: `1px solid ${errorColorHover}`,
+    borderPressedError: `1px solid ${errorColorPressed}`,
+    borderFocusError: `1px solid ${errorColorHover}`,
+    borderDisabledError: `1px solid ${errorColor}`,
+    rippleColorError: errorColor,
+    waveOpacity: "0.6",
+    fontWeight,
+    fontWeightStrong
+  });
+}
+const buttonLight = {
+  name: "Button",
+  common: derived,
+  self: self$a
+};
+const style$8 = c$1([cB("button", `
+ margin: 0;
+ font-weight: var(--n-font-weight);
+ line-height: 1;
+ font-family: inherit;
+ padding: var(--n-padding);
+ height: var(--n-height);
+ font-size: var(--n-font-size);
+ border-radius: var(--n-border-radius);
+ color: var(--n-text-color);
+ background-color: var(--n-color);
+ width: var(--n-width);
+ white-space: nowrap;
+ outline: none;
+ position: relative;
+ z-index: auto;
+ border: none;
+ display: inline-flex;
+ flex-wrap: nowrap;
+ flex-shrink: 0;
+ align-items: center;
+ justify-content: center;
+ user-select: none;
+ -webkit-user-select: none;
+ text-align: center;
+ cursor: pointer;
+ text-decoration: none;
+ transition:
+ color .3s var(--n-bezier),
+ background-color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier),
+ border-color .3s var(--n-bezier);
+ `, [cM("color", [cE("border", {
+  borderColor: "var(--n-border-color)"
+}), cM("disabled", [cE("border", {
+  borderColor: "var(--n-border-color-disabled)"
+})]), cNotM("disabled", [c$1("&:focus", [cE("state-border", {
+  borderColor: "var(--n-border-color-focus)"
+})]), c$1("&:hover", [cE("state-border", {
+  borderColor: "var(--n-border-color-hover)"
+})]), c$1("&:active", [cE("state-border", {
+  borderColor: "var(--n-border-color-pressed)"
+})]), cM("pressed", [cE("state-border", {
+  borderColor: "var(--n-border-color-pressed)"
+})])])]), cM("disabled", {
+  backgroundColor: "var(--n-color-disabled)",
+  color: "var(--n-text-color-disabled)"
+}, [cE("border", {
+  border: "var(--n-border-disabled)"
+})]), cNotM("disabled", [c$1("&:focus", {
+  backgroundColor: "var(--n-color-focus)",
+  color: "var(--n-text-color-focus)"
+}, [cE("state-border", {
+  border: "var(--n-border-focus)"
+})]), c$1("&:hover", {
+  backgroundColor: "var(--n-color-hover)",
+  color: "var(--n-text-color-hover)"
+}, [cE("state-border", {
+  border: "var(--n-border-hover)"
+})]), c$1("&:active", {
+  backgroundColor: "var(--n-color-pressed)",
+  color: "var(--n-text-color-pressed)"
+}, [cE("state-border", {
+  border: "var(--n-border-pressed)"
+})]), cM("pressed", {
+  backgroundColor: "var(--n-color-pressed)",
+  color: "var(--n-text-color-pressed)"
+}, [cE("state-border", {
+  border: "var(--n-border-pressed)"
+})])]), cM("loading", "cursor: wait;"), cB("base-wave", `
+ pointer-events: none;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ animation-iteration-count: 1;
+ animation-duration: var(--n-ripple-duration);
+ animation-timing-function: var(--n-bezier-ease-out), var(--n-bezier-ease-out);
+ `, [cM("active", {
+  zIndex: 1,
+  animationName: "button-wave-spread, button-wave-opacity"
+})]), isBrowser$1 && "MozBoxSizing" in document.createElement("div").style ? c$1("&::moz-focus-inner", {
+  border: 0
+}) : null, cE("border, state-border", `
+ position: absolute;
+ left: 0;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ border-radius: inherit;
+ transition: border-color .3s var(--n-bezier);
+ pointer-events: none;
+ `), cE("border", {
+  border: "var(--n-border)"
+}), cE("state-border", {
+  border: "var(--n-border)",
+  borderColor: "#0000",
+  zIndex: 1
+}), cE("icon", `
+ margin: var(--n-icon-margin);
+ margin-left: 0;
+ height: var(--n-icon-size);
+ width: var(--n-icon-size);
+ max-width: var(--n-icon-size);
+ font-size: var(--n-icon-size);
+ position: relative;
+ flex-shrink: 0;
+ `, [cB("icon-slot", `
+ height: var(--n-icon-size);
+ width: var(--n-icon-size);
+ position: absolute;
+ left: 0;
+ top: 50%;
+ transform: translateY(-50%);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ `, [iconSwitchTransition({
+  top: "50%",
+  originalTransform: "translateY(-50%)"
+})]), fadeInWidthExpandTransition()]), cE("content", `
+ display: flex;
+ align-items: center;
+ flex-wrap: nowrap;
+ min-width: 0;
+ `, [c$1("~", [cE("icon", {
+  margin: "var(--n-icon-margin)",
+  marginRight: 0
+})])]), cM("block", `
+ display: flex;
+ width: 100%;
+ `), cM("dashed", [cE("border, state-border", {
+  borderStyle: "dashed !important"
+})]), cM("disabled", {
+  cursor: "not-allowed",
+  opacity: "var(--n-opacity-disabled)"
+})]), c$1("@keyframes button-wave-spread", {
+  from: {
+    boxShadow: "0 0 0.5px 0 var(--n-ripple-color)"
+  },
+  to: {
+    // don't use exact 5px since chrome will display the animation with glitches
+    boxShadow: "0 0 0.5px 4.5px var(--n-ripple-color)"
+  }
+}), c$1("@keyframes button-wave-opacity", {
+  from: {
+    opacity: "var(--n-wave-opacity)"
+  },
+  to: {
+    opacity: 0
+  }
+})]);
+const buttonProps = Object.assign(Object.assign({}, useTheme.props), {
+  color: String,
+  textColor: String,
+  text: Boolean,
+  block: Boolean,
+  loading: Boolean,
+  disabled: Boolean,
+  circle: Boolean,
+  size: String,
+  ghost: Boolean,
+  round: Boolean,
+  secondary: Boolean,
+  tertiary: Boolean,
+  quaternary: Boolean,
+  strong: Boolean,
+  focusable: {
+    type: Boolean,
+    default: true
+  },
+  keyboard: {
+    type: Boolean,
+    default: true
+  },
+  tag: {
+    type: String,
+    default: "button"
+  },
+  type: {
+    type: String,
+    default: "default"
+  },
+  dashed: Boolean,
+  renderIcon: Function,
+  iconPlacement: {
+    type: String,
+    default: "left"
+  },
+  attrType: {
+    type: String,
+    default: "button"
+  },
+  bordered: {
+    type: Boolean,
+    default: true
+  },
+  onClick: [Function, Array],
+  nativeFocusBehavior: {
+    type: Boolean,
+    default: !isSafari
+  }
+});
+const Button = defineComponent({
+  name: "Button",
+  props: buttonProps,
+  setup(props) {
+    const selfElRef = ref(null);
+    const waveElRef = ref(null);
+    const enterPressedRef = ref(false);
+    const showBorderRef = useMemo(() => {
+      return !props.quaternary && !props.tertiary && !props.secondary && !props.text && (!props.color || props.ghost || props.dashed) && props.bordered;
+    });
+    const NButtonGroup = inject(buttonGroupInjectionKey, {});
+    const {
+      mergedSizeRef
+    } = useFormItem({}, {
+      defaultSize: "medium",
+      mergedSize: (NFormItem) => {
+        const {
+          size: size2
+        } = props;
+        if (size2) return size2;
+        const {
+          size: buttonGroupSize
+        } = NButtonGroup;
+        if (buttonGroupSize) return buttonGroupSize;
+        const {
+          mergedSize: formItemSize
+        } = NFormItem || {};
+        if (formItemSize) {
+          return formItemSize.value;
+        }
+        return "medium";
+      }
+    });
+    const mergedFocusableRef = computed(() => {
+      return props.focusable && !props.disabled;
+    });
+    const handleMousedown = (e) => {
+      var _a;
+      if (!mergedFocusableRef.value) {
+        e.preventDefault();
+      }
+      if (props.nativeFocusBehavior) {
+        return;
+      }
+      e.preventDefault();
+      if (props.disabled) {
+        return;
+      }
+      if (mergedFocusableRef.value) {
+        (_a = selfElRef.value) === null || _a === void 0 ? void 0 : _a.focus({
+          preventScroll: true
+        });
+      }
+    };
+    const handleClick2 = (e) => {
+      var _a;
+      if (!props.disabled && !props.loading) {
+        const {
+          onClick
+        } = props;
+        if (onClick) call(onClick, e);
+        if (!props.text) {
+          (_a = waveElRef.value) === null || _a === void 0 ? void 0 : _a.play();
+        }
+      }
+    };
+    const handleKeyup = (e) => {
+      switch (e.key) {
+        case "Enter":
+          if (!props.keyboard) {
+            return;
+          }
+          enterPressedRef.value = false;
+      }
+    };
+    const handleKeydown = (e) => {
+      switch (e.key) {
+        case "Enter":
+          if (!props.keyboard || props.loading) {
+            e.preventDefault();
+            return;
+          }
+          enterPressedRef.value = true;
+      }
+    };
+    const handleBlur = () => {
+      enterPressedRef.value = false;
+    };
+    const {
+      inlineThemeDisabled,
+      mergedClsPrefixRef,
+      mergedRtlRef
+    } = useConfig(props);
+    const themeRef = useTheme("Button", "-button", style$8, buttonLight, props, mergedClsPrefixRef);
+    const rtlEnabledRef = useRtl("Button", mergedRtlRef, mergedClsPrefixRef);
+    const cssVarsRef = computed(() => {
+      const theme = themeRef.value;
+      const {
+        common: {
+          cubicBezierEaseInOut: cubicBezierEaseInOut2,
+          cubicBezierEaseOut: cubicBezierEaseOut2
+        },
+        self: self2
+      } = theme;
+      const {
+        rippleDuration,
+        opacityDisabled,
+        fontWeight,
+        fontWeightStrong
+      } = self2;
+      const size2 = mergedSizeRef.value;
+      const {
+        dashed,
+        type,
+        ghost,
+        text,
+        color,
+        round,
+        circle,
+        textColor,
+        secondary,
+        tertiary,
+        quaternary,
+        strong
+      } = props;
+      const fontProps = {
+        "font-weight": strong ? fontWeightStrong : fontWeight
+      };
+      let colorProps = {
+        "--n-color": "initial",
+        "--n-color-hover": "initial",
+        "--n-color-pressed": "initial",
+        "--n-color-focus": "initial",
+        "--n-color-disabled": "initial",
+        "--n-ripple-color": "initial",
+        "--n-text-color": "initial",
+        "--n-text-color-hover": "initial",
+        "--n-text-color-pressed": "initial",
+        "--n-text-color-focus": "initial",
+        "--n-text-color-disabled": "initial"
+      };
+      const typeIsTertiary = type === "tertiary";
+      const typeIsDefault = type === "default";
+      const mergedType = typeIsTertiary ? "default" : type;
+      if (text) {
+        const propTextColor = textColor || color;
+        const mergedTextColor = propTextColor || self2[createKey("textColorText", mergedType)];
+        colorProps = {
+          "--n-color": "#0000",
+          "--n-color-hover": "#0000",
+          "--n-color-pressed": "#0000",
+          "--n-color-focus": "#0000",
+          "--n-color-disabled": "#0000",
+          "--n-ripple-color": "#0000",
+          "--n-text-color": mergedTextColor,
+          "--n-text-color-hover": propTextColor ? createHoverColor(propTextColor) : self2[createKey("textColorTextHover", mergedType)],
+          "--n-text-color-pressed": propTextColor ? createPressedColor(propTextColor) : self2[createKey("textColorTextPressed", mergedType)],
+          "--n-text-color-focus": propTextColor ? createHoverColor(propTextColor) : self2[createKey("textColorTextHover", mergedType)],
+          "--n-text-color-disabled": propTextColor || self2[createKey("textColorTextDisabled", mergedType)]
+        };
+      } else if (ghost || dashed) {
+        const mergedTextColor = textColor || color;
+        colorProps = {
+          "--n-color": "#0000",
+          "--n-color-hover": "#0000",
+          "--n-color-pressed": "#0000",
+          "--n-color-focus": "#0000",
+          "--n-color-disabled": "#0000",
+          "--n-ripple-color": color || self2[createKey("rippleColor", mergedType)],
+          "--n-text-color": mergedTextColor || self2[createKey("textColorGhost", mergedType)],
+          "--n-text-color-hover": mergedTextColor ? createHoverColor(mergedTextColor) : self2[createKey("textColorGhostHover", mergedType)],
+          "--n-text-color-pressed": mergedTextColor ? createPressedColor(mergedTextColor) : self2[createKey("textColorGhostPressed", mergedType)],
+          "--n-text-color-focus": mergedTextColor ? createHoverColor(mergedTextColor) : self2[createKey("textColorGhostHover", mergedType)],
+          "--n-text-color-disabled": mergedTextColor || self2[createKey("textColorGhostDisabled", mergedType)]
+        };
+      } else if (secondary) {
+        const typeTextColor = typeIsDefault ? self2.textColor : typeIsTertiary ? self2.textColorTertiary : self2[createKey("color", mergedType)];
+        const mergedTextColor = color || typeTextColor;
+        const isColoredType = type !== "default" && type !== "tertiary";
+        colorProps = {
+          "--n-color": isColoredType ? changeColor(mergedTextColor, {
+            alpha: Number(self2.colorOpacitySecondary)
+          }) : self2.colorSecondary,
+          "--n-color-hover": isColoredType ? changeColor(mergedTextColor, {
+            alpha: Number(self2.colorOpacitySecondaryHover)
+          }) : self2.colorSecondaryHover,
+          "--n-color-pressed": isColoredType ? changeColor(mergedTextColor, {
+            alpha: Number(self2.colorOpacitySecondaryPressed)
+          }) : self2.colorSecondaryPressed,
+          "--n-color-focus": isColoredType ? changeColor(mergedTextColor, {
+            alpha: Number(self2.colorOpacitySecondaryHover)
+          }) : self2.colorSecondaryHover,
+          "--n-color-disabled": self2.colorSecondary,
+          "--n-ripple-color": "#0000",
+          "--n-text-color": mergedTextColor,
+          "--n-text-color-hover": mergedTextColor,
+          "--n-text-color-pressed": mergedTextColor,
+          "--n-text-color-focus": mergedTextColor,
+          "--n-text-color-disabled": mergedTextColor
+        };
+      } else if (tertiary || quaternary) {
+        const typeColor = typeIsDefault ? self2.textColor : typeIsTertiary ? self2.textColorTertiary : self2[createKey("color", mergedType)];
+        const mergedColor = color || typeColor;
+        if (tertiary) {
+          colorProps["--n-color"] = self2.colorTertiary;
+          colorProps["--n-color-hover"] = self2.colorTertiaryHover;
+          colorProps["--n-color-pressed"] = self2.colorTertiaryPressed;
+          colorProps["--n-color-focus"] = self2.colorSecondaryHover;
+          colorProps["--n-color-disabled"] = self2.colorTertiary;
+        } else {
+          colorProps["--n-color"] = self2.colorQuaternary;
+          colorProps["--n-color-hover"] = self2.colorQuaternaryHover;
+          colorProps["--n-color-pressed"] = self2.colorQuaternaryPressed;
+          colorProps["--n-color-focus"] = self2.colorQuaternaryHover;
+          colorProps["--n-color-disabled"] = self2.colorQuaternary;
+        }
+        colorProps["--n-ripple-color"] = "#0000";
+        colorProps["--n-text-color"] = mergedColor;
+        colorProps["--n-text-color-hover"] = mergedColor;
+        colorProps["--n-text-color-pressed"] = mergedColor;
+        colorProps["--n-text-color-focus"] = mergedColor;
+        colorProps["--n-text-color-disabled"] = mergedColor;
+      } else {
+        colorProps = {
+          "--n-color": color || self2[createKey("color", mergedType)],
+          "--n-color-hover": color ? createHoverColor(color) : self2[createKey("colorHover", mergedType)],
+          "--n-color-pressed": color ? createPressedColor(color) : self2[createKey("colorPressed", mergedType)],
+          "--n-color-focus": color ? createHoverColor(color) : self2[createKey("colorFocus", mergedType)],
+          "--n-color-disabled": color || self2[createKey("colorDisabled", mergedType)],
+          "--n-ripple-color": color || self2[createKey("rippleColor", mergedType)],
+          "--n-text-color": textColor || (color ? self2.textColorPrimary : typeIsTertiary ? self2.textColorTertiary : self2[createKey("textColor", mergedType)]),
+          "--n-text-color-hover": textColor || (color ? self2.textColorHoverPrimary : self2[createKey("textColorHover", mergedType)]),
+          "--n-text-color-pressed": textColor || (color ? self2.textColorPressedPrimary : self2[createKey("textColorPressed", mergedType)]),
+          "--n-text-color-focus": textColor || (color ? self2.textColorFocusPrimary : self2[createKey("textColorFocus", mergedType)]),
+          "--n-text-color-disabled": textColor || (color ? self2.textColorDisabledPrimary : self2[createKey("textColorDisabled", mergedType)])
+        };
+      }
+      let borderProps = {
+        "--n-border": "initial",
+        "--n-border-hover": "initial",
+        "--n-border-pressed": "initial",
+        "--n-border-focus": "initial",
+        "--n-border-disabled": "initial"
+      };
+      if (text) {
+        borderProps = {
+          "--n-border": "none",
+          "--n-border-hover": "none",
+          "--n-border-pressed": "none",
+          "--n-border-focus": "none",
+          "--n-border-disabled": "none"
+        };
+      } else {
+        borderProps = {
+          "--n-border": self2[createKey("border", mergedType)],
+          "--n-border-hover": self2[createKey("borderHover", mergedType)],
+          "--n-border-pressed": self2[createKey("borderPressed", mergedType)],
+          "--n-border-focus": self2[createKey("borderFocus", mergedType)],
+          "--n-border-disabled": self2[createKey("borderDisabled", mergedType)]
+        };
+      }
+      const {
+        [createKey("height", size2)]: height,
+        [createKey("fontSize", size2)]: fontSize,
+        [createKey("padding", size2)]: padding,
+        [createKey("paddingRound", size2)]: paddingRound,
+        [createKey("iconSize", size2)]: iconSize,
+        [createKey("borderRadius", size2)]: borderRadius,
+        [createKey("iconMargin", size2)]: iconMargin,
+        waveOpacity
+      } = self2;
+      const sizeProps = {
+        "--n-width": circle && !text ? height : "initial",
+        "--n-height": text ? "initial" : height,
+        "--n-font-size": fontSize,
+        "--n-padding": circle ? "initial" : text ? "initial" : round ? paddingRound : padding,
+        "--n-icon-size": iconSize,
+        "--n-icon-margin": iconMargin,
+        "--n-border-radius": text ? "initial" : circle || round ? height : borderRadius
+      };
+      return Object.assign(Object.assign(Object.assign(Object.assign({
+        "--n-bezier": cubicBezierEaseInOut2,
+        "--n-bezier-ease-out": cubicBezierEaseOut2,
+        "--n-ripple-duration": rippleDuration,
+        "--n-opacity-disabled": opacityDisabled,
+        "--n-wave-opacity": waveOpacity
+      }, fontProps), colorProps), borderProps), sizeProps);
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("button", computed(() => {
+      let hash = "";
+      const {
+        dashed,
+        type,
+        ghost,
+        text,
+        color,
+        round,
+        circle,
+        textColor,
+        secondary,
+        tertiary,
+        quaternary,
+        strong
+      } = props;
+      if (dashed) hash += "a";
+      if (ghost) hash += "b";
+      if (text) hash += "c";
+      if (round) hash += "d";
+      if (circle) hash += "e";
+      if (secondary) hash += "f";
+      if (tertiary) hash += "g";
+      if (quaternary) hash += "h";
+      if (strong) hash += "i";
+      if (color) hash += `j${color2Class(color)}`;
+      if (textColor) hash += `k${color2Class(textColor)}`;
+      const {
+        value: size2
+      } = mergedSizeRef;
+      hash += `l${size2[0]}`;
+      hash += `m${type[0]}`;
+      return hash;
+    }), cssVarsRef, props) : void 0;
+    return {
+      selfElRef,
+      waveElRef,
+      mergedClsPrefix: mergedClsPrefixRef,
+      mergedFocusable: mergedFocusableRef,
+      mergedSize: mergedSizeRef,
+      showBorder: showBorderRef,
+      enterPressed: enterPressedRef,
+      rtlEnabled: rtlEnabledRef,
+      handleMousedown,
+      handleKeydown,
+      handleBlur,
+      handleKeyup,
+      handleClick: handleClick2,
+      customColorCssVars: computed(() => {
+        const {
+          color
+        } = props;
+        if (!color) return null;
+        const hoverColor = createHoverColor(color);
+        return {
+          "--n-border-color": color,
+          "--n-border-color-hover": hoverColor,
+          "--n-border-color-pressed": createPressedColor(color),
+          "--n-border-color-focus": hoverColor,
+          "--n-border-color-disabled": color
+        };
+      }),
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
+    };
+  },
+  render() {
+    const {
+      mergedClsPrefix,
+      tag: Component,
+      onRender
+    } = this;
+    onRender === null || onRender === void 0 ? void 0 : onRender();
+    const children = resolveWrappedSlot(this.$slots.default, (children2) => children2 && h("span", {
+      class: `${mergedClsPrefix}-button__content`
+    }, children2));
+    return h(Component, {
+      ref: "selfElRef",
+      class: [
+        this.themeClass,
+        `${mergedClsPrefix}-button`,
+        `${mergedClsPrefix}-button--${this.type}-type`,
+        `${mergedClsPrefix}-button--${this.mergedSize}-type`,
+        this.rtlEnabled && `${mergedClsPrefix}-button--rtl`,
+        this.disabled && `${mergedClsPrefix}-button--disabled`,
+        this.block && `${mergedClsPrefix}-button--block`,
+        this.enterPressed && `${mergedClsPrefix}-button--pressed`,
+        !this.text && this.dashed && `${mergedClsPrefix}-button--dashed`,
+        this.color && `${mergedClsPrefix}-button--color`,
+        this.secondary && `${mergedClsPrefix}-button--secondary`,
+        this.loading && `${mergedClsPrefix}-button--loading`,
+        this.ghost && `${mergedClsPrefix}-button--ghost`
+        // required for button group border collapse
+      ],
+      tabindex: this.mergedFocusable ? 0 : -1,
+      type: this.attrType,
+      style: this.cssVars,
+      disabled: this.disabled,
+      onClick: this.handleClick,
+      onBlur: this.handleBlur,
+      onMousedown: this.handleMousedown,
+      onKeyup: this.handleKeyup,
+      onKeydown: this.handleKeydown
+    }, this.iconPlacement === "right" && children, h(NFadeInExpandTransition, {
+      width: true
+    }, {
+      default: () => resolveWrappedSlot(this.$slots.icon, (children2) => (this.loading || this.renderIcon || children2) && h("span", {
+        class: `${mergedClsPrefix}-button__icon`,
+        style: {
+          margin: isSlotEmpty(this.$slots.default) ? "0" : ""
+        }
+      }, h(NIconSwitchTransition, null, {
+        default: () => this.loading ? h(NBaseLoading, {
+          clsPrefix: mergedClsPrefix,
+          key: "loading",
+          class: `${mergedClsPrefix}-icon-slot`,
+          strokeWidth: 20
+        }) : h("div", {
+          key: "icon",
+          class: `${mergedClsPrefix}-icon-slot`,
+          role: "none"
+        }, this.renderIcon ? this.renderIcon() : children2)
+      })))
+    }), this.iconPlacement === "left" && children, !this.text ? h(NBaseWave, {
+      ref: "waveElRef",
+      clsPrefix: mergedClsPrefix
+    }) : null, this.showBorder ? h("div", {
+      "aria-hidden": true,
+      class: `${mergedClsPrefix}-button__border`,
+      style: this.customColorCssVars
+    }) : null, this.showBorder ? h("div", {
+      "aria-hidden": true,
+      class: `${mergedClsPrefix}-button__state-border`,
+      style: this.customColorCssVars
+    }) : null);
+  }
+});
+const commonVariables$2 = {
+  paddingSmall: "12px 16px 12px",
+  paddingMedium: "19px 24px 20px",
+  paddingLarge: "23px 32px 24px",
+  paddingHuge: "27px 40px 28px",
+  titleFontSizeSmall: "16px",
+  titleFontSizeMedium: "18px",
+  titleFontSizeLarge: "18px",
+  titleFontSizeHuge: "18px",
+  closeIconSize: "18px",
+  closeSize: "22px"
+};
+function self$9(vars) {
+  const {
+    primaryColor,
+    borderRadius,
+    lineHeight,
+    fontSize,
+    cardColor,
+    textColor2,
+    textColor1,
+    dividerColor,
+    fontWeightStrong,
+    closeIconColor,
+    closeIconColorHover,
+    closeIconColorPressed,
+    closeColorHover,
+    closeColorPressed,
+    modalColor,
+    boxShadow1,
+    popoverColor,
+    actionColor
+  } = vars;
+  return Object.assign(Object.assign({}, commonVariables$2), {
+    lineHeight,
+    color: cardColor,
+    colorModal: modalColor,
+    colorPopover: popoverColor,
+    colorTarget: primaryColor,
+    colorEmbedded: actionColor,
+    colorEmbeddedModal: actionColor,
+    colorEmbeddedPopover: actionColor,
+    textColor: textColor2,
+    titleTextColor: textColor1,
+    borderColor: dividerColor,
+    actionColor,
+    titleFontWeight: fontWeightStrong,
+    closeColorHover,
+    closeColorPressed,
+    closeBorderRadius: borderRadius,
+    closeIconColor,
+    closeIconColorHover,
+    closeIconColorPressed,
+    fontSizeSmall: fontSize,
+    fontSizeMedium: fontSize,
+    fontSizeLarge: fontSize,
+    fontSizeHuge: fontSize,
+    boxShadow: boxShadow1,
+    borderRadius
+  });
+}
+const cardLight = {
+  name: "Card",
+  common: derived,
+  self: self$9
+};
+const style$7 = c$1([cB("card", `
+ font-size: var(--n-font-size);
+ line-height: var(--n-line-height);
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ box-sizing: border-box;
+ position: relative;
+ border-radius: var(--n-border-radius);
+ background-color: var(--n-color);
+ color: var(--n-text-color);
+ word-break: break-word;
+ transition: 
+ color .3s var(--n-bezier),
+ background-color .3s var(--n-bezier),
+ box-shadow .3s var(--n-bezier),
+ border-color .3s var(--n-bezier);
+ `, [asModal({
+  background: "var(--n-color-modal)"
+}), cM("hoverable", [c$1("&:hover", "box-shadow: var(--n-box-shadow);")]), cM("content-segmented", [c$1(">", [cE("content", {
+  paddingTop: "var(--n-padding-bottom)"
+})])]), cM("content-soft-segmented", [c$1(">", [cE("content", `
+ margin: 0 var(--n-padding-left);
+ padding: var(--n-padding-bottom) 0;
+ `)])]), cM("footer-segmented", [c$1(">", [cE("footer", {
+  paddingTop: "var(--n-padding-bottom)"
+})])]), cM("footer-soft-segmented", [c$1(">", [cE("footer", `
+ padding: var(--n-padding-bottom) 0;
+ margin: 0 var(--n-padding-left);
+ `)])]), c$1(">", [cB("card-header", `
+ box-sizing: border-box;
+ display: flex;
+ align-items: center;
+ font-size: var(--n-title-font-size);
+ padding:
+ var(--n-padding-top)
+ var(--n-padding-left)
+ var(--n-padding-bottom)
+ var(--n-padding-left);
+ `, [cE("main", `
+ font-weight: var(--n-title-font-weight);
+ transition: color .3s var(--n-bezier);
+ flex: 1;
+ min-width: 0;
+ color: var(--n-title-text-color);
+ `), cE("extra", `
+ display: flex;
+ align-items: center;
+ font-size: var(--n-font-size);
+ font-weight: 400;
+ transition: color .3s var(--n-bezier);
+ color: var(--n-text-color);
+ `), cE("close", `
+ margin: 0 0 0 8px;
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier);
+ `)]), cE("action", `
+ box-sizing: border-box;
+ transition:
+ background-color .3s var(--n-bezier),
+ border-color .3s var(--n-bezier);
+ background-clip: padding-box;
+ background-color: var(--n-action-color);
+ `), cE("content", "flex: 1; min-width: 0;"), cE("content, footer", `
+ box-sizing: border-box;
+ padding: 0 var(--n-padding-left) var(--n-padding-bottom) var(--n-padding-left);
+ font-size: var(--n-font-size);
+ `, [c$1("&:first-child", {
+  paddingTop: "var(--n-padding-bottom)"
+})]), cE("action", `
+ background-color: var(--n-action-color);
+ padding: var(--n-padding-bottom) var(--n-padding-left);
+ border-bottom-left-radius: var(--n-border-radius);
+ border-bottom-right-radius: var(--n-border-radius);
+ `)]), cB("card-cover", `
+ overflow: hidden;
+ width: 100%;
+ border-radius: var(--n-border-radius) var(--n-border-radius) 0 0;
+ `, [c$1("img", `
+ display: block;
+ width: 100%;
+ `)]), cM("bordered", `
+ border: 1px solid var(--n-border-color);
+ `, [c$1("&:target", "border-color: var(--n-color-target);")]), cM("action-segmented", [c$1(">", [cE("action", [c$1("&:not(:first-child)", {
+  borderTop: "1px solid var(--n-border-color)"
+})])])]), cM("content-segmented, content-soft-segmented", [c$1(">", [cE("content", {
+  transition: "border-color 0.3s var(--n-bezier)"
+}, [c$1("&:not(:first-child)", {
+  borderTop: "1px solid var(--n-border-color)"
+})])])]), cM("footer-segmented, footer-soft-segmented", [c$1(">", [cE("footer", {
+  transition: "border-color 0.3s var(--n-bezier)"
+}, [c$1("&:not(:first-child)", {
+  borderTop: "1px solid var(--n-border-color)"
+})])])]), cM("embedded", `
+ background-color: var(--n-color-embedded);
+ `)]), insideModal(cB("card", `
+ background: var(--n-color-modal);
+ `, [cM("embedded", `
+ background-color: var(--n-color-embedded-modal);
+ `)])), insidePopover(cB("card", `
+ background: var(--n-color-popover);
+ `, [cM("embedded", `
+ background-color: var(--n-color-embedded-popover);
+ `)]))]);
+const cardBaseProps = {
+  title: [String, Function],
+  contentClass: String,
+  contentStyle: [Object, String],
+  headerClass: String,
+  headerStyle: [Object, String],
+  headerExtraClass: String,
+  headerExtraStyle: [Object, String],
+  footerClass: String,
+  footerStyle: [Object, String],
+  embedded: Boolean,
+  segmented: {
+    type: [Boolean, Object],
+    default: false
+  },
+  size: {
+    type: String,
+    default: "medium"
+  },
+  bordered: {
+    type: Boolean,
+    default: true
+  },
+  closable: Boolean,
+  hoverable: Boolean,
+  role: String,
+  onClose: [Function, Array],
+  tag: {
+    type: String,
+    default: "div"
+  },
+  cover: Function,
+  content: [String, Function],
+  footer: Function,
+  action: Function,
+  headerExtra: Function
+};
+const cardBasePropKeys = keysOf(cardBaseProps);
+const cardProps = Object.assign(Object.assign({}, useTheme.props), cardBaseProps);
+const __unplugin_components_5$2 = defineComponent({
+  name: "Card",
+  props: cardProps,
+  setup(props) {
+    const handleCloseClick = () => {
+      const {
+        onClose
+      } = props;
+      if (onClose) call(onClose);
+    };
+    const {
+      inlineThemeDisabled,
+      mergedClsPrefixRef,
+      mergedRtlRef
+    } = useConfig(props);
+    const themeRef = useTheme("Card", "-card", style$7, cardLight, props, mergedClsPrefixRef);
+    const rtlEnabledRef = useRtl("Card", mergedRtlRef, mergedClsPrefixRef);
+    const cssVarsRef = computed(() => {
+      const {
+        size: size2
+      } = props;
+      const {
+        self: {
+          color,
+          colorModal,
+          colorTarget,
+          textColor,
+          titleTextColor,
+          titleFontWeight,
+          borderColor,
+          actionColor,
+          borderRadius,
+          lineHeight,
+          closeIconColor,
+          closeIconColorHover,
+          closeIconColorPressed,
+          closeColorHover,
+          closeColorPressed,
+          closeBorderRadius,
+          closeIconSize,
+          closeSize,
+          boxShadow,
+          colorPopover,
+          colorEmbedded,
+          colorEmbeddedModal,
+          colorEmbeddedPopover,
+          [createKey("padding", size2)]: padding,
+          [createKey("fontSize", size2)]: fontSize,
+          [createKey("titleFontSize", size2)]: titleFontSize
+        },
+        common: {
+          cubicBezierEaseInOut: cubicBezierEaseInOut2
+        }
+      } = themeRef.value;
+      const {
+        top: paddingTop,
+        left: paddingLeft,
+        bottom: paddingBottom
+      } = getMargin(padding);
+      return {
+        "--n-bezier": cubicBezierEaseInOut2,
+        "--n-border-radius": borderRadius,
+        "--n-color": color,
+        "--n-color-modal": colorModal,
+        "--n-color-popover": colorPopover,
+        "--n-color-embedded": colorEmbedded,
+        "--n-color-embedded-modal": colorEmbeddedModal,
+        "--n-color-embedded-popover": colorEmbeddedPopover,
+        "--n-color-target": colorTarget,
+        "--n-text-color": textColor,
+        "--n-line-height": lineHeight,
+        "--n-action-color": actionColor,
+        "--n-title-text-color": titleTextColor,
+        "--n-title-font-weight": titleFontWeight,
+        "--n-close-icon-color": closeIconColor,
+        "--n-close-icon-color-hover": closeIconColorHover,
+        "--n-close-icon-color-pressed": closeIconColorPressed,
+        "--n-close-color-hover": closeColorHover,
+        "--n-close-color-pressed": closeColorPressed,
+        "--n-border-color": borderColor,
+        "--n-box-shadow": boxShadow,
+        // size
+        "--n-padding-top": paddingTop,
+        "--n-padding-bottom": paddingBottom,
+        "--n-padding-left": paddingLeft,
+        "--n-font-size": fontSize,
+        "--n-title-font-size": titleFontSize,
+        "--n-close-size": closeSize,
+        "--n-close-icon-size": closeIconSize,
+        "--n-close-border-radius": closeBorderRadius
+      };
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("card", computed(() => {
+      return props.size[0];
+    }), cssVarsRef, props) : void 0;
+    return {
+      rtlEnabled: rtlEnabledRef,
+      mergedClsPrefix: mergedClsPrefixRef,
+      mergedTheme: themeRef,
+      handleCloseClick,
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
+    };
+  },
+  render() {
+    const {
+      segmented,
+      bordered,
+      hoverable,
+      mergedClsPrefix,
+      rtlEnabled,
+      onRender,
+      embedded,
+      tag: Component,
+      $slots
+    } = this;
+    onRender === null || onRender === void 0 ? void 0 : onRender();
+    return h(Component, {
+      class: [`${mergedClsPrefix}-card`, this.themeClass, embedded && `${mergedClsPrefix}-card--embedded`, {
+        [`${mergedClsPrefix}-card--rtl`]: rtlEnabled,
+        [`${mergedClsPrefix}-card--content${typeof segmented !== "boolean" && segmented.content === "soft" ? "-soft" : ""}-segmented`]: segmented === true || segmented !== false && segmented.content,
+        [`${mergedClsPrefix}-card--footer${typeof segmented !== "boolean" && segmented.footer === "soft" ? "-soft" : ""}-segmented`]: segmented === true || segmented !== false && segmented.footer,
+        [`${mergedClsPrefix}-card--action-segmented`]: segmented === true || segmented !== false && segmented.action,
+        [`${mergedClsPrefix}-card--bordered`]: bordered,
+        [`${mergedClsPrefix}-card--hoverable`]: hoverable
+      }],
+      style: this.cssVars,
+      role: this.role
+    }, resolveWrappedSlot($slots.cover, (children) => {
+      const mergedChildren = this.cover ? ensureValidVNode([this.cover()]) : children;
+      return mergedChildren && h("div", {
+        class: `${mergedClsPrefix}-card-cover`,
+        role: "none"
+      }, mergedChildren);
+    }), resolveWrappedSlot($slots.header, (children) => {
+      const {
+        title
+      } = this;
+      const mergedChildren = title ? ensureValidVNode(typeof title === "function" ? [title()] : [title]) : children;
+      return mergedChildren || this.closable ? h("div", {
+        class: [`${mergedClsPrefix}-card-header`, this.headerClass],
+        style: this.headerStyle,
+        role: "heading"
+      }, h("div", {
+        class: `${mergedClsPrefix}-card-header__main`,
+        role: "heading"
+      }, mergedChildren), resolveWrappedSlot($slots["header-extra"], (children2) => {
+        const mergedChildren2 = this.headerExtra ? ensureValidVNode([this.headerExtra()]) : children2;
+        return mergedChildren2 && h("div", {
+          class: [`${mergedClsPrefix}-card-header__extra`, this.headerExtraClass],
+          style: this.headerExtraStyle
+        }, mergedChildren2);
+      }), this.closable && h(NBaseClose, {
+        clsPrefix: mergedClsPrefix,
+        class: `${mergedClsPrefix}-card-header__close`,
+        onClick: this.handleCloseClick,
+        absolute: true
+      })) : null;
+    }), resolveWrappedSlot($slots.default, (children) => {
+      const {
+        content
+      } = this;
+      const mergedChildren = content ? ensureValidVNode(typeof content === "function" ? [content()] : [content]) : children;
+      return mergedChildren && h("div", {
+        class: [`${mergedClsPrefix}-card__content`, this.contentClass],
+        style: this.contentStyle,
+        role: "none"
+      }, mergedChildren);
+    }), resolveWrappedSlot($slots.footer, (children) => {
+      const mergedChildren = this.footer ? ensureValidVNode([this.footer()]) : children;
+      return mergedChildren && h("div", {
+        class: [`${mergedClsPrefix}-card__footer`, this.footerClass],
+        style: this.footerStyle,
+        role: "none"
+      }, mergedChildren);
+    }), resolveWrappedSlot($slots.action, (children) => {
+      const mergedChildren = this.action ? ensureValidVNode([this.action()]) : children;
+      return mergedChildren && h("div", {
+        class: `${mergedClsPrefix}-card__action`,
+        role: "none"
+      }, mergedChildren);
+    }));
+  }
+});
 const configProviderProps = {
   abstract: Boolean,
   bordered: {
@@ -12421,7 +13981,7 @@ const configProviderProps = {
     default: void 0
   }
 };
-const __unplugin_components_2$1 = defineComponent({
+const __unplugin_components_7$1 = defineComponent({
   name: "ConfigProvider",
   alias: ["App"],
   props: configProviderProps,
@@ -12584,16 +14144,16 @@ const __unplugin_components_2$1 = defineComponent({
     }, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a)) : (_d = (_c = this.$slots).default) === null || _d === void 0 ? void 0 : _d.call(_c);
   }
 });
-const commonVars$1 = {
+const commonVars$2 = {
   padding: "8px 14px"
 };
-function self$6(vars) {
+function self$8(vars) {
   const {
     borderRadius,
     boxShadow2,
     baseColor
   } = vars;
-  return Object.assign(Object.assign({}, commonVars$1), {
+  return Object.assign(Object.assign({}, commonVars$2), {
     borderRadius,
     boxShadow: boxShadow2,
     color: composite(baseColor, "rgba(0, 0, 0, .85)"),
@@ -12606,7 +14166,7 @@ const tooltipLight = createTheme({
   peers: {
     Popover: popoverLight
   },
-  self: self$6
+  self: self$8
 });
 const commonVariables$1 = {
   padding: "4px 0",
@@ -12631,7 +14191,7 @@ const commonVariables$1 = {
   optionIconPrefixWidthLarge: "40px",
   optionIconPrefixWidthHuge: "40px"
 };
-function self$5(vars) {
+function self$7(vars) {
   const {
     primaryColor,
     textColor2,
@@ -12696,7 +14256,7 @@ const dropdownLight = createTheme({
   peers: {
     Popover: popoverLight
   },
-  self: self$5
+  self: self$7
 });
 const tooltipProps = Object.assign(Object.assign({}, popoverBaseProps), useTheme.props);
 const NTooltip = defineComponent({
@@ -12791,7 +14351,7 @@ const NDropdownOption = defineComponent({
     scrollable: Boolean
   },
   setup(props) {
-    const NDropdown2 = inject(dropdownInjectionKey);
+    const NDropdown = inject(dropdownInjectionKey);
     const {
       hoverKeyRef,
       keyboardKeyRef,
@@ -12807,7 +14367,7 @@ const NDropdownOption = defineComponent({
       renderOptionRef,
       nodePropsRef,
       menuPropsRef
-    } = NDropdown2;
+    } = NDropdown;
     const NDropdownOption2 = inject(dropdownOptionInjectionKey, null);
     const NDropdownMenu2 = inject(dropdownMenuInjectionKey);
     const NPopoverBody2 = inject(popoverBodyInjectionKey);
@@ -12901,7 +14461,7 @@ const NDropdownOption = defineComponent({
         hoverKeyRef.value = null;
       }
     }
-    function handleClick() {
+    function handleClick2() {
       const {
         value: hasSubmenu
       } = hasSubmenuRef;
@@ -12910,8 +14470,8 @@ const NDropdownOption = defineComponent({
       } = props;
       if (!mergedShowRef.value) return;
       if (!hasSubmenu && !tmNode.disabled) {
-        NDropdown2.doSelect(tmNode.key, tmNode.rawNode);
-        NDropdown2.doUpdateShow(false);
+        NDropdown.doSelect(tmNode.key, tmNode.rawNode);
+        NDropdown.doUpdateShow(false);
       }
     }
     return {
@@ -12962,7 +14522,7 @@ const NDropdownOption = defineComponent({
       mergedDisabled: mergedDisabledRef,
       renderOption: renderOptionRef,
       nodeProps: nodePropsRef,
-      handleClick,
+      handleClick: handleClick2,
       handleMouseMove,
       handleMouseEnter,
       handleMouseLeave,
@@ -13312,7 +14872,7 @@ const NDropdownMenu = defineComponent({
     }) : null);
   }
 });
-const style$4 = cB("dropdown-menu", `
+const style$6 = cB("dropdown-menu", `
  transform-origin: var(--v-transform-origin);
  background-color: var(--n-color);
  border-radius: var(--n-border-radius);
@@ -13475,7 +15035,7 @@ const dropdownBaseProps = {
 };
 const popoverPropKeys = Object.keys(popoverBaseProps);
 const dropdownProps = Object.assign(Object.assign(Object.assign({}, popoverBaseProps), dropdownBaseProps), useTheme.props);
-const NDropdown = defineComponent({
+const __unplugin_components_1 = defineComponent({
   name: "Dropdown",
   inheritAttrs: false,
   props: dropdownProps,
@@ -13546,7 +15106,7 @@ const NDropdown = defineComponent({
       mergedClsPrefixRef,
       inlineThemeDisabled
     } = useConfig(props);
-    const themeRef = useTheme("Dropdown", "-dropdown", style$4, dropdownLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Dropdown", "-dropdown", style$6, dropdownLight, props, mergedClsPrefixRef);
     provide(dropdownInjectionKey, {
       labelFieldRef: toRef(props, "labelField"),
       childrenFieldRef: toRef(props, "childrenField"),
@@ -13814,6 +15374,987 @@ function getAugmentedNamespace(n2) {
   });
   return a;
 }
+const commonVars$1 = {
+  titleFontSize: "18px",
+  padding: "16px 28px 20px 28px",
+  iconSize: "28px",
+  actionSpace: "12px",
+  contentMargin: "8px 0 16px 0",
+  iconMargin: "0 4px 0 0",
+  iconMarginIconTop: "4px 0 8px 0",
+  closeSize: "22px",
+  closeIconSize: "18px",
+  closeMargin: "20px 26px 0 0",
+  closeMarginIconTop: "10px 16px 0 0"
+};
+function self$6(vars) {
+  const {
+    textColor1,
+    textColor2,
+    modalColor,
+    closeIconColor,
+    closeIconColorHover,
+    closeIconColorPressed,
+    closeColorHover,
+    closeColorPressed,
+    infoColor,
+    successColor,
+    warningColor,
+    errorColor,
+    primaryColor,
+    dividerColor,
+    borderRadius,
+    fontWeightStrong,
+    lineHeight,
+    fontSize
+  } = vars;
+  return Object.assign(Object.assign({}, commonVars$1), {
+    fontSize,
+    lineHeight,
+    border: `1px solid ${dividerColor}`,
+    titleTextColor: textColor1,
+    textColor: textColor2,
+    color: modalColor,
+    closeColorHover,
+    closeColorPressed,
+    closeIconColor,
+    closeIconColorHover,
+    closeIconColorPressed,
+    closeBorderRadius: borderRadius,
+    iconColor: primaryColor,
+    iconColorInfo: infoColor,
+    iconColorSuccess: successColor,
+    iconColorWarning: warningColor,
+    iconColorError: errorColor,
+    borderRadius,
+    titleFontWeight: fontWeightStrong
+  });
+}
+const dialogLight = createTheme({
+  name: "Dialog",
+  common: derived,
+  peers: {
+    Button: buttonLight
+  },
+  self: self$6
+});
+const dialogProps = {
+  icon: Function,
+  type: {
+    type: String,
+    default: "default"
+  },
+  title: [String, Function],
+  closable: {
+    type: Boolean,
+    default: true
+  },
+  negativeText: String,
+  positiveText: String,
+  positiveButtonProps: Object,
+  negativeButtonProps: Object,
+  content: [String, Function],
+  action: Function,
+  showIcon: {
+    type: Boolean,
+    default: true
+  },
+  loading: Boolean,
+  bordered: Boolean,
+  iconPlacement: String,
+  titleClass: [String, Array],
+  titleStyle: [String, Object],
+  contentClass: [String, Array],
+  contentStyle: [String, Object],
+  actionClass: [String, Array],
+  actionStyle: [String, Object],
+  onPositiveClick: Function,
+  onNegativeClick: Function,
+  onClose: Function
+};
+const dialogPropKeys = keysOf(dialogProps);
+const style$5 = c$1([cB("dialog", `
+ --n-icon-margin: var(--n-icon-margin-top) var(--n-icon-margin-right) var(--n-icon-margin-bottom) var(--n-icon-margin-left);
+ word-break: break-word;
+ line-height: var(--n-line-height);
+ position: relative;
+ background: var(--n-color);
+ color: var(--n-text-color);
+ box-sizing: border-box;
+ margin: auto;
+ border-radius: var(--n-border-radius);
+ padding: var(--n-padding);
+ transition: 
+ border-color .3s var(--n-bezier),
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier);
+ `, [cE("icon", {
+  color: "var(--n-icon-color)"
+}), cM("bordered", {
+  border: "var(--n-border)"
+}), cM("icon-top", [cE("close", {
+  margin: "var(--n-close-margin)"
+}), cE("icon", {
+  margin: "var(--n-icon-margin)"
+}), cE("content", {
+  textAlign: "center"
+}), cE("title", {
+  justifyContent: "center"
+}), cE("action", {
+  justifyContent: "center"
+})]), cM("icon-left", [cE("icon", {
+  margin: "var(--n-icon-margin)"
+}), cM("closable", [cE("title", `
+ padding-right: calc(var(--n-close-size) + 6px);
+ `)])]), cE("close", `
+ position: absolute;
+ right: 0;
+ top: 0;
+ margin: var(--n-close-margin);
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier);
+ z-index: 1;
+ `), cE("content", `
+ font-size: var(--n-font-size);
+ margin: var(--n-content-margin);
+ position: relative;
+ word-break: break-word;
+ `, [cM("last", "margin-bottom: 0;")]), cE("action", `
+ display: flex;
+ justify-content: flex-end;
+ `, [c$1("> *:not(:last-child)", `
+ margin-right: var(--n-action-space);
+ `)]), cE("icon", `
+ font-size: var(--n-icon-size);
+ transition: color .3s var(--n-bezier);
+ `), cE("title", `
+ transition: color .3s var(--n-bezier);
+ display: flex;
+ align-items: center;
+ font-size: var(--n-title-font-size);
+ font-weight: var(--n-title-font-weight);
+ color: var(--n-title-text-color);
+ `), cB("dialog-icon-container", `
+ display: flex;
+ justify-content: center;
+ `)]), insideModal(cB("dialog", `
+ width: 446px;
+ max-width: calc(100vw - 32px);
+ `)), cB("dialog", [asModal(`
+ width: 446px;
+ max-width: calc(100vw - 32px);
+ `)])]);
+const iconRenderMap$2 = {
+  default: () => h(InfoIcon, null),
+  info: () => h(InfoIcon, null),
+  success: () => h(SuccessIcon, null),
+  warning: () => h(WarningIcon, null),
+  error: () => h(ErrorIcon, null)
+};
+const NDialog = defineComponent({
+  name: "Dialog",
+  alias: [
+    "NimbusConfirmCard",
+    // deprecated
+    "Confirm"
+    // deprecated
+  ],
+  props: Object.assign(Object.assign({}, useTheme.props), dialogProps),
+  setup(props) {
+    const {
+      mergedComponentPropsRef,
+      mergedClsPrefixRef,
+      inlineThemeDisabled,
+      mergedRtlRef
+    } = useConfig(props);
+    const rtlEnabledRef = useRtl("Dialog", mergedRtlRef, mergedClsPrefixRef);
+    const mergedIconPlacementRef = computed(() => {
+      var _a, _b;
+      const {
+        iconPlacement
+      } = props;
+      return iconPlacement || ((_b = (_a = mergedComponentPropsRef === null || mergedComponentPropsRef === void 0 ? void 0 : mergedComponentPropsRef.value) === null || _a === void 0 ? void 0 : _a.Dialog) === null || _b === void 0 ? void 0 : _b.iconPlacement) || "left";
+    });
+    function handlePositiveClick(e) {
+      const {
+        onPositiveClick
+      } = props;
+      if (onPositiveClick) onPositiveClick(e);
+    }
+    function handleNegativeClick(e) {
+      const {
+        onNegativeClick
+      } = props;
+      if (onNegativeClick) onNegativeClick(e);
+    }
+    function handleCloseClick() {
+      const {
+        onClose
+      } = props;
+      if (onClose) onClose();
+    }
+    const themeRef = useTheme("Dialog", "-dialog", style$5, dialogLight, props, mergedClsPrefixRef);
+    const cssVarsRef = computed(() => {
+      const {
+        type
+      } = props;
+      const iconPlacement = mergedIconPlacementRef.value;
+      const {
+        common: {
+          cubicBezierEaseInOut: cubicBezierEaseInOut2
+        },
+        self: {
+          fontSize,
+          lineHeight,
+          border,
+          titleTextColor,
+          textColor,
+          color,
+          closeBorderRadius,
+          closeColorHover,
+          closeColorPressed,
+          closeIconColor,
+          closeIconColorHover,
+          closeIconColorPressed,
+          closeIconSize,
+          borderRadius,
+          titleFontWeight,
+          titleFontSize,
+          padding,
+          iconSize,
+          actionSpace,
+          contentMargin,
+          closeSize,
+          [iconPlacement === "top" ? "iconMarginIconTop" : "iconMargin"]: iconMargin,
+          [iconPlacement === "top" ? "closeMarginIconTop" : "closeMargin"]: closeMargin,
+          [createKey("iconColor", type)]: iconColor
+        }
+      } = themeRef.value;
+      const iconMarginDiscrete = getMargin(iconMargin);
+      return {
+        "--n-font-size": fontSize,
+        "--n-icon-color": iconColor,
+        "--n-bezier": cubicBezierEaseInOut2,
+        "--n-close-margin": closeMargin,
+        "--n-icon-margin-top": iconMarginDiscrete.top,
+        "--n-icon-margin-right": iconMarginDiscrete.right,
+        "--n-icon-margin-bottom": iconMarginDiscrete.bottom,
+        "--n-icon-margin-left": iconMarginDiscrete.left,
+        "--n-icon-size": iconSize,
+        "--n-close-size": closeSize,
+        "--n-close-icon-size": closeIconSize,
+        "--n-close-border-radius": closeBorderRadius,
+        "--n-close-color-hover": closeColorHover,
+        "--n-close-color-pressed": closeColorPressed,
+        "--n-close-icon-color": closeIconColor,
+        "--n-close-icon-color-hover": closeIconColorHover,
+        "--n-close-icon-color-pressed": closeIconColorPressed,
+        "--n-color": color,
+        "--n-text-color": textColor,
+        "--n-border-radius": borderRadius,
+        "--n-padding": padding,
+        "--n-line-height": lineHeight,
+        "--n-border": border,
+        "--n-content-margin": contentMargin,
+        "--n-title-font-size": titleFontSize,
+        "--n-title-font-weight": titleFontWeight,
+        "--n-title-text-color": titleTextColor,
+        "--n-action-space": actionSpace
+      };
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("dialog", computed(() => `${props.type[0]}${mergedIconPlacementRef.value[0]}`), cssVarsRef, props) : void 0;
+    return {
+      mergedClsPrefix: mergedClsPrefixRef,
+      rtlEnabled: rtlEnabledRef,
+      mergedIconPlacement: mergedIconPlacementRef,
+      mergedTheme: themeRef,
+      handlePositiveClick,
+      handleNegativeClick,
+      handleCloseClick,
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
+    };
+  },
+  render() {
+    var _a;
+    const {
+      bordered,
+      mergedIconPlacement,
+      cssVars,
+      closable,
+      showIcon,
+      title,
+      content,
+      action,
+      negativeText,
+      positiveText,
+      positiveButtonProps,
+      negativeButtonProps,
+      handlePositiveClick,
+      handleNegativeClick,
+      mergedTheme,
+      loading,
+      type,
+      mergedClsPrefix
+    } = this;
+    (_a = this.onRender) === null || _a === void 0 ? void 0 : _a.call(this);
+    const icon = showIcon ? h(NBaseIcon, {
+      clsPrefix: mergedClsPrefix,
+      class: `${mergedClsPrefix}-dialog__icon`
+    }, {
+      default: () => resolveWrappedSlot(this.$slots.icon, (children) => children || (this.icon ? render$i(this.icon) : iconRenderMap$2[this.type]()))
+    }) : null;
+    const actionNode = resolveWrappedSlot(this.$slots.action, (children) => children || positiveText || negativeText || action ? h("div", {
+      class: [`${mergedClsPrefix}-dialog__action`, this.actionClass],
+      style: this.actionStyle
+    }, children || (action ? [render$i(action)] : [this.negativeText && h(Button, Object.assign({
+      theme: mergedTheme.peers.Button,
+      themeOverrides: mergedTheme.peerOverrides.Button,
+      ghost: true,
+      size: "small",
+      onClick: handleNegativeClick
+    }, negativeButtonProps), {
+      default: () => render$i(this.negativeText)
+    }), this.positiveText && h(Button, Object.assign({
+      theme: mergedTheme.peers.Button,
+      themeOverrides: mergedTheme.peerOverrides.Button,
+      size: "small",
+      type: type === "default" ? "primary" : type,
+      disabled: loading,
+      loading,
+      onClick: handlePositiveClick
+    }, positiveButtonProps), {
+      default: () => render$i(this.positiveText)
+    })])) : null);
+    return h("div", {
+      class: [`${mergedClsPrefix}-dialog`, this.themeClass, this.closable && `${mergedClsPrefix}-dialog--closable`, `${mergedClsPrefix}-dialog--icon-${mergedIconPlacement}`, bordered && `${mergedClsPrefix}-dialog--bordered`, this.rtlEnabled && `${mergedClsPrefix}-dialog--rtl`],
+      style: cssVars,
+      role: "dialog"
+    }, closable ? resolveWrappedSlot(this.$slots.close, (node) => {
+      const classNames = [`${mergedClsPrefix}-dialog__close`, this.rtlEnabled && `${mergedClsPrefix}-dialog--rtl`];
+      return node ? h("div", {
+        class: classNames
+      }, node) : h(NBaseClose, {
+        clsPrefix: mergedClsPrefix,
+        class: classNames,
+        onClick: this.handleCloseClick
+      });
+    }) : null, showIcon && mergedIconPlacement === "top" ? h("div", {
+      class: `${mergedClsPrefix}-dialog-icon-container`
+    }, icon) : null, h("div", {
+      class: [`${mergedClsPrefix}-dialog__title`, this.titleClass],
+      style: this.titleStyle
+    }, showIcon && mergedIconPlacement === "left" ? icon : null, resolveSlot(this.$slots.header, () => [render$i(title)])), h("div", {
+      class: [`${mergedClsPrefix}-dialog__content`, actionNode ? "" : `${mergedClsPrefix}-dialog__content--last`, this.contentClass],
+      style: this.contentStyle
+    }, resolveSlot(this.$slots.default, () => [render$i(content)])), actionNode);
+  }
+});
+const dialogProviderInjectionKey = createInjectionKey("n-dialog-provider");
+function self$5(vars) {
+  const {
+    modalColor,
+    textColor2,
+    boxShadow3
+  } = vars;
+  return {
+    color: modalColor,
+    textColor: textColor2,
+    boxShadow: boxShadow3
+  };
+}
+const modalLight = createTheme({
+  name: "Modal",
+  common: derived,
+  peers: {
+    Scrollbar: scrollbarLight,
+    Dialog: dialogLight,
+    Card: cardLight
+  },
+  self: self$5
+});
+const presetProps = Object.assign(Object.assign({}, cardBaseProps), dialogProps);
+const presetPropsKeys = keysOf(presetProps);
+const NModalBodyWrapper = defineComponent({
+  name: "ModalBody",
+  inheritAttrs: false,
+  props: Object.assign(Object.assign({
+    show: {
+      type: Boolean,
+      required: true
+    },
+    preset: String,
+    displayDirective: {
+      type: String,
+      required: true
+    },
+    trapFocus: {
+      type: Boolean,
+      default: true
+    },
+    autoFocus: {
+      type: Boolean,
+      default: true
+    },
+    blockScroll: Boolean
+  }, presetProps), {
+    renderMask: Function,
+    // events
+    onClickoutside: Function,
+    onBeforeLeave: {
+      type: Function,
+      required: true
+    },
+    onAfterLeave: {
+      type: Function,
+      required: true
+    },
+    onPositiveClick: {
+      type: Function,
+      required: true
+    },
+    onNegativeClick: {
+      type: Function,
+      required: true
+    },
+    onClose: {
+      type: Function,
+      required: true
+    },
+    onAfterEnter: Function,
+    onEsc: Function
+  }),
+  setup(props) {
+    const bodyRef = ref(null);
+    const scrollbarRef = ref(null);
+    const displayedRef = ref(props.show);
+    const transformOriginXRef = ref(null);
+    const transformOriginYRef = ref(null);
+    watch(toRef(props, "show"), (value) => {
+      if (value) displayedRef.value = true;
+    });
+    useLockHtmlScroll(computed(() => props.blockScroll && displayedRef.value));
+    const NModal = inject(modalInjectionKey);
+    function styleTransformOrigin() {
+      if (NModal.transformOriginRef.value === "center") {
+        return "";
+      }
+      const {
+        value: transformOriginX
+      } = transformOriginXRef;
+      const {
+        value: transformOriginY
+      } = transformOriginYRef;
+      if (transformOriginX === null || transformOriginY === null) {
+        return "";
+      } else if (scrollbarRef.value) {
+        const scrollTop = scrollbarRef.value.containerScrollTop;
+        return `${transformOriginX}px ${transformOriginY + scrollTop}px`;
+      }
+      return "";
+    }
+    function syncTransformOrigin(el) {
+      if (NModal.transformOriginRef.value === "center") {
+        return;
+      }
+      const mousePosition = NModal.getMousePosition();
+      if (!mousePosition) {
+        return;
+      }
+      if (!scrollbarRef.value) return;
+      const scrollTop = scrollbarRef.value.containerScrollTop;
+      const {
+        offsetLeft,
+        offsetTop
+      } = el;
+      if (mousePosition) {
+        const top = mousePosition.y;
+        const left = mousePosition.x;
+        transformOriginXRef.value = -(offsetLeft - left);
+        transformOriginYRef.value = -(offsetTop - top - scrollTop);
+      }
+      el.style.transformOrigin = styleTransformOrigin();
+    }
+    function handleEnter(el) {
+      void nextTick(() => {
+        syncTransformOrigin(el);
+      });
+    }
+    function handleBeforeLeave(el) {
+      el.style.transformOrigin = styleTransformOrigin();
+      props.onBeforeLeave();
+    }
+    function handleAfterLeave() {
+      displayedRef.value = false;
+      transformOriginXRef.value = null;
+      transformOriginYRef.value = null;
+      props.onAfterLeave();
+    }
+    function handleCloseClick() {
+      const {
+        onClose
+      } = props;
+      if (onClose) {
+        onClose();
+      }
+    }
+    function handleNegativeClick() {
+      props.onNegativeClick();
+    }
+    function handlePositiveClick() {
+      props.onPositiveClick();
+    }
+    const childNodeRef = ref(null);
+    watch(childNodeRef, (node) => {
+      if (node) {
+        void nextTick(() => {
+          const el = node.el;
+          if (el && bodyRef.value !== el) {
+            bodyRef.value = el;
+          }
+        });
+      }
+    });
+    provide(modalBodyInjectionKey, bodyRef);
+    provide(drawerBodyInjectionKey, null);
+    provide(popoverBodyInjectionKey, null);
+    return {
+      mergedTheme: NModal.mergedThemeRef,
+      appear: NModal.appearRef,
+      isMounted: NModal.isMountedRef,
+      mergedClsPrefix: NModal.mergedClsPrefixRef,
+      bodyRef,
+      scrollbarRef,
+      displayed: displayedRef,
+      childNodeRef,
+      handlePositiveClick,
+      handleNegativeClick,
+      handleCloseClick,
+      handleAfterLeave,
+      handleBeforeLeave,
+      handleEnter
+    };
+  },
+  render() {
+    const {
+      $slots,
+      $attrs,
+      handleEnter,
+      handleAfterLeave,
+      handleBeforeLeave,
+      preset,
+      mergedClsPrefix
+    } = this;
+    let childNode = null;
+    if (!preset) {
+      childNode = getFirstSlotVNode($slots);
+      if (!childNode) {
+        warn$2("modal", "default slot is empty");
+        return;
+      }
+      childNode = cloneVNode(childNode);
+      childNode.props = mergeProps({
+        class: `${mergedClsPrefix}-modal`
+      }, $attrs, childNode.props || {});
+    }
+    return this.displayDirective === "show" || this.displayed || this.show ? withDirectives(h("div", {
+      role: "none",
+      class: `${mergedClsPrefix}-modal-body-wrapper`
+    }, h(Scrollbar$1, {
+      ref: "scrollbarRef",
+      theme: this.mergedTheme.peers.Scrollbar,
+      themeOverrides: this.mergedTheme.peerOverrides.Scrollbar,
+      contentClass: `${mergedClsPrefix}-modal-scroll-content`
+    }, {
+      default: () => {
+        var _a;
+        return [(_a = this.renderMask) === null || _a === void 0 ? void 0 : _a.call(this), h(FocusTrap, {
+          disabled: !this.trapFocus,
+          active: this.show,
+          onEsc: this.onEsc,
+          autoFocus: this.autoFocus
+        }, {
+          default: () => {
+            var _a2;
+            return h(Transition, {
+              name: "fade-in-scale-up-transition",
+              appear: (_a2 = this.appear) !== null && _a2 !== void 0 ? _a2 : this.isMounted,
+              onEnter: handleEnter,
+              onAfterEnter: this.onAfterEnter,
+              onAfterLeave: handleAfterLeave,
+              onBeforeLeave: handleBeforeLeave
+            }, {
+              default: () => {
+                const dirs = [[vShow, this.show]];
+                const {
+                  onClickoutside
+                } = this;
+                if (onClickoutside) {
+                  dirs.push([clickoutside, this.onClickoutside, void 0, {
+                    capture: true
+                  }]);
+                }
+                return withDirectives(this.preset === "confirm" || this.preset === "dialog" ? h(NDialog, Object.assign({}, this.$attrs, {
+                  class: [`${mergedClsPrefix}-modal`, this.$attrs.class],
+                  ref: "bodyRef",
+                  theme: this.mergedTheme.peers.Dialog,
+                  themeOverrides: this.mergedTheme.peerOverrides.Dialog
+                }, keep(this.$props, dialogPropKeys), {
+                  "aria-modal": "true"
+                }), $slots) : this.preset === "card" ? h(__unplugin_components_5$2, Object.assign({}, this.$attrs, {
+                  ref: "bodyRef",
+                  class: [`${mergedClsPrefix}-modal`, this.$attrs.class],
+                  theme: this.mergedTheme.peers.Card,
+                  themeOverrides: this.mergedTheme.peerOverrides.Card
+                }, keep(this.$props, cardBasePropKeys), {
+                  "aria-modal": "true",
+                  role: "dialog"
+                }), $slots) : this.childNodeRef = childNode, dirs);
+              }
+            });
+          }
+        })];
+      }
+    })), [[vShow, this.displayDirective === "if" || this.displayed || this.show]]) : null;
+  }
+});
+const style$4 = c$1([cB("modal-container", `
+ position: fixed;
+ left: 0;
+ top: 0;
+ height: 0;
+ width: 0;
+ display: flex;
+ `), cB("modal-mask", `
+ position: fixed;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ background-color: rgba(0, 0, 0, .4);
+ `, [fadeInTransition({
+  enterDuration: ".25s",
+  leaveDuration: ".25s",
+  enterCubicBezier: "var(--n-bezier-ease-out)",
+  leaveCubicBezier: "var(--n-bezier-ease-out)"
+})]), cB("modal-body-wrapper", `
+ position: fixed;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ overflow: visible;
+ `, [cB("modal-scroll-content", `
+ min-height: 100%;
+ display: flex;
+ position: relative;
+ `)]), cB("modal", `
+ position: relative;
+ align-self: center;
+ color: var(--n-text-color);
+ margin: auto;
+ box-shadow: var(--n-box-shadow);
+ `, [fadeInScaleUpTransition({
+  duration: ".25s",
+  enterScale: ".5"
+})])]);
+const modalProps = Object.assign(Object.assign(Object.assign(Object.assign({}, useTheme.props), {
+  show: Boolean,
+  unstableShowMask: {
+    type: Boolean,
+    default: true
+  },
+  maskClosable: {
+    type: Boolean,
+    default: true
+  },
+  preset: String,
+  to: [String, Object],
+  displayDirective: {
+    type: String,
+    default: "if"
+  },
+  transformOrigin: {
+    type: String,
+    default: "mouse"
+  },
+  zIndex: Number,
+  autoFocus: {
+    type: Boolean,
+    default: true
+  },
+  trapFocus: {
+    type: Boolean,
+    default: true
+  },
+  closeOnEsc: {
+    type: Boolean,
+    default: true
+  },
+  blockScroll: {
+    type: Boolean,
+    default: true
+  }
+}), presetProps), {
+  // events
+  onEsc: Function,
+  "onUpdate:show": [Function, Array],
+  onUpdateShow: [Function, Array],
+  onAfterEnter: Function,
+  onBeforeLeave: Function,
+  onAfterLeave: Function,
+  onClose: Function,
+  onPositiveClick: Function,
+  onNegativeClick: Function,
+  onMaskClick: Function,
+  // private
+  internalDialog: Boolean,
+  internalModal: Boolean,
+  internalAppear: {
+    type: Boolean,
+    default: void 0
+  },
+  // deprecated
+  overlayStyle: [String, Object],
+  onBeforeHide: Function,
+  onAfterHide: Function,
+  onHide: Function
+});
+const __unplugin_components_3$2 = defineComponent({
+  name: "Modal",
+  inheritAttrs: false,
+  props: modalProps,
+  setup(props) {
+    const containerRef = ref(null);
+    const {
+      mergedClsPrefixRef,
+      namespaceRef,
+      inlineThemeDisabled
+    } = useConfig(props);
+    const themeRef = useTheme("Modal", "-modal", style$4, modalLight, props, mergedClsPrefixRef);
+    const clickedRef = useClicked(64);
+    const clickedPositionRef = useClickPosition();
+    const isMountedRef = isMounted();
+    const NDialogProvider = props.internalDialog ? inject(dialogProviderInjectionKey, null) : null;
+    const NModalProvider2 = props.internalModal ? inject(modalProviderInjectionKey$1, null) : null;
+    const isComposingRef2 = useIsComposing();
+    function doUpdateShow(show) {
+      const {
+        onUpdateShow,
+        "onUpdate:show": _onUpdateShow,
+        onHide
+      } = props;
+      if (onUpdateShow) call(onUpdateShow, show);
+      if (_onUpdateShow) call(_onUpdateShow, show);
+      if (onHide && !show) onHide(show);
+    }
+    function handleCloseClick() {
+      const {
+        onClose
+      } = props;
+      if (onClose) {
+        void Promise.resolve(onClose()).then((value) => {
+          if (value === false) return;
+          doUpdateShow(false);
+        });
+      } else {
+        doUpdateShow(false);
+      }
+    }
+    function handlePositiveClick() {
+      const {
+        onPositiveClick
+      } = props;
+      if (onPositiveClick) {
+        void Promise.resolve(onPositiveClick()).then((value) => {
+          if (value === false) return;
+          doUpdateShow(false);
+        });
+      } else {
+        doUpdateShow(false);
+      }
+    }
+    function handleNegativeClick() {
+      const {
+        onNegativeClick
+      } = props;
+      if (onNegativeClick) {
+        void Promise.resolve(onNegativeClick()).then((value) => {
+          if (value === false) return;
+          doUpdateShow(false);
+        });
+      } else {
+        doUpdateShow(false);
+      }
+    }
+    function handleBeforeLeave() {
+      const {
+        onBeforeLeave,
+        onBeforeHide
+      } = props;
+      if (onBeforeLeave) call(onBeforeLeave);
+      if (onBeforeHide) onBeforeHide();
+    }
+    function handleAfterLeave() {
+      const {
+        onAfterLeave,
+        onAfterHide
+      } = props;
+      if (onAfterLeave) call(onAfterLeave);
+      if (onAfterHide) onAfterHide();
+    }
+    function handleClickoutside(e) {
+      var _a;
+      const {
+        onMaskClick
+      } = props;
+      if (onMaskClick) {
+        onMaskClick(e);
+      }
+      if (props.maskClosable) {
+        if ((_a = containerRef.value) === null || _a === void 0 ? void 0 : _a.contains(getPreciseEventTarget(e))) {
+          doUpdateShow(false);
+        }
+      }
+    }
+    function handleEsc(e) {
+      var _a;
+      (_a = props.onEsc) === null || _a === void 0 ? void 0 : _a.call(props);
+      if (props.show && props.closeOnEsc && eventEffectNotPerformed(e)) {
+        if (!isComposingRef2.value) {
+          doUpdateShow(false);
+        }
+      }
+    }
+    provide(modalInjectionKey, {
+      getMousePosition: () => {
+        const mergedProvider = NDialogProvider || NModalProvider2;
+        if (mergedProvider) {
+          const {
+            clickedRef: clickedRef2,
+            clickedPositionRef: clickedPositionRef2
+          } = mergedProvider;
+          if (clickedRef2.value && clickedPositionRef2.value) {
+            return clickedPositionRef2.value;
+          }
+        }
+        if (clickedRef.value) {
+          return clickedPositionRef.value;
+        }
+        return null;
+      },
+      mergedClsPrefixRef,
+      mergedThemeRef: themeRef,
+      isMountedRef,
+      appearRef: toRef(props, "internalAppear"),
+      transformOriginRef: toRef(props, "transformOrigin")
+    });
+    const cssVarsRef = computed(() => {
+      const {
+        common: {
+          cubicBezierEaseOut: cubicBezierEaseOut2
+        },
+        self: {
+          boxShadow,
+          color,
+          textColor
+        }
+      } = themeRef.value;
+      return {
+        "--n-bezier-ease-out": cubicBezierEaseOut2,
+        "--n-box-shadow": boxShadow,
+        "--n-color": color,
+        "--n-text-color": textColor
+      };
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("theme-class", void 0, cssVarsRef, props) : void 0;
+    return {
+      mergedClsPrefix: mergedClsPrefixRef,
+      namespace: namespaceRef,
+      isMounted: isMountedRef,
+      containerRef,
+      presetProps: computed(() => {
+        const pickedProps = keep(props, presetPropsKeys);
+        return pickedProps;
+      }),
+      handleEsc,
+      handleAfterLeave,
+      handleClickoutside,
+      handleBeforeLeave,
+      doUpdateShow,
+      handleNegativeClick,
+      handlePositiveClick,
+      handleCloseClick,
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
+    };
+  },
+  render() {
+    const {
+      mergedClsPrefix
+    } = this;
+    return h(LazyTeleport, {
+      to: this.to,
+      show: this.show
+    }, {
+      default: () => {
+        var _a;
+        (_a = this.onRender) === null || _a === void 0 ? void 0 : _a.call(this);
+        const {
+          unstableShowMask
+        } = this;
+        return withDirectives(h("div", {
+          role: "none",
+          ref: "containerRef",
+          class: [`${mergedClsPrefix}-modal-container`, this.themeClass, this.namespace],
+          style: this.cssVars
+        }, h(NModalBodyWrapper, Object.assign({
+          style: this.overlayStyle
+        }, this.$attrs, {
+          ref: "bodyWrapper",
+          displayDirective: this.displayDirective,
+          show: this.show,
+          preset: this.preset,
+          autoFocus: this.autoFocus,
+          trapFocus: this.trapFocus,
+          blockScroll: this.blockScroll
+        }, this.presetProps, {
+          onEsc: this.handleEsc,
+          onClose: this.handleCloseClick,
+          onNegativeClick: this.handleNegativeClick,
+          onPositiveClick: this.handlePositiveClick,
+          onBeforeLeave: this.handleBeforeLeave,
+          onAfterEnter: this.onAfterEnter,
+          onAfterLeave: this.handleAfterLeave,
+          onClickoutside: unstableShowMask ? void 0 : this.handleClickoutside,
+          renderMask: unstableShowMask ? () => {
+            var _a2;
+            return h(Transition, {
+              name: "fade-in-transition",
+              key: "mask",
+              appear: (_a2 = this.internalAppear) !== null && _a2 !== void 0 ? _a2 : this.isMounted
+            }, {
+              default: () => {
+                return this.show ? h("div", {
+                  "aria-hidden": true,
+                  ref: "containerRef",
+                  class: `${mergedClsPrefix}-modal-mask`,
+                  onClick: this.handleClickoutside
+                }) : null;
+              }
+            });
+          } : void 0
+        }), this.$slots)), [[zindexable, {
+          zIndex: this.zIndex,
+          enabled: this.show
+        }]]);
+      }
+    });
+  }
+});
 const commonVars = {
   closeMargin: "16px 12px",
   closeSize: "20px",
@@ -14449,7 +16990,7 @@ const NSubmenu = defineComponent({
       } = props;
       if (onClick) onClick();
     }
-    function handleClick() {
+    function handleClick2() {
       if (!mergedDisabledRef.value) {
         if (!mergedCollapsedRef.value) {
           NMenu.toggleExpand(props.internalKey);
@@ -14490,7 +17031,7 @@ const NSubmenu = defineComponent({
         return !mergedDisabledRef.value && (menuProps2.mode === "horizontal" || mergedCollapsedRef.value);
       }),
       handlePopoverShowChange,
-      handleClick
+      handleClick: handleClick2
     };
   },
   render() {
@@ -14513,7 +17054,7 @@ const NSubmenu = defineComponent({
         title,
         childActive,
         icon,
-        handleClick,
+        handleClick: handleClick2,
         menuProps: {
           nodeProps
         },
@@ -14543,7 +17084,7 @@ const NSubmenu = defineComponent({
         clsPrefix: mergedClsPrefix2,
         icon,
         hover: dropdownShow,
-        onClick: handleClick,
+        onClick: handleClick2,
         isEllipsisPlaceholder
       }));
     };
@@ -14561,7 +17102,7 @@ const NSubmenu = defineComponent({
         }
       });
     };
-    return this.root ? h(NDropdown, Object.assign({
+    return this.root ? h(__unplugin_components_1, Object.assign({
       size: "large",
       trigger: "hover"
     }, (_a = this.menuProps) === null || _a === void 0 ? void 0 : _a.dropdownProps, {
@@ -14633,7 +17174,7 @@ const NMenuOption = defineComponent({
       } = props;
       if (onClick) onClick(e);
     }
-    function handleClick(e) {
+    function handleClick2(e) {
       if (!mergedDisabledRef.value) {
         NMenu.doSelect(props.internalKey, props.tmNode.rawNode);
         doClick(e);
@@ -14656,7 +17197,7 @@ const NMenuOption = defineComponent({
         return false;
       }),
       mergedDisabled: mergedDisabledRef,
-      handleClick
+      handleClick: handleClick2
     };
   },
   render() {
@@ -15053,7 +17594,7 @@ const menuProps = Object.assign(Object.assign({}, useTheme.props), {
   expandedNames: Array,
   defaultExpandedNames: Array
 });
-const __unplugin_components_0$3 = defineComponent({
+const __unplugin_components_0$2 = defineComponent({
   name: "Menu",
   props: menuProps,
   setup(props) {
@@ -15881,7 +18422,7 @@ const messageProviderProps = Object.assign(Object.assign({}, useTheme.props), {
   containerClass: String,
   containerStyle: [String, Object]
 });
-const __unplugin_components_0$2 = defineComponent({
+const __unplugin_components_4$2 = defineComponent({
   name: "MessageProvider",
   props: messageProviderProps,
   setup(props) {
@@ -15994,6 +18535,209 @@ function useMessage() {
     throwError("use-message", "No outer <n-message-provider /> founded. See prerequisite in https://www.naiveui.com/en-US/os-theme/components/message for more details. If you want to use `useMessage` outside setup, please check https://www.naiveui.com/zh-CN/os-theme/components/message#Q-&-A.");
   }
   return api;
+}
+const NModalEnvironment = defineComponent({
+  name: "ModalEnvironment",
+  props: Object.assign(Object.assign({}, modalProps), {
+    internalKey: {
+      type: String,
+      required: true
+    },
+    // private
+    onInternalAfterLeave: {
+      type: Function,
+      required: true
+    }
+  }),
+  setup(props) {
+    const showRef = ref(true);
+    function handleAfterLeave() {
+      const {
+        onInternalAfterLeave,
+        internalKey,
+        onAfterLeave
+      } = props;
+      if (onInternalAfterLeave) onInternalAfterLeave(internalKey);
+      if (onAfterLeave) onAfterLeave();
+    }
+    function handlePositiveClick() {
+      const {
+        onPositiveClick
+      } = props;
+      if (onPositiveClick) {
+        void Promise.resolve(onPositiveClick()).then((result) => {
+          if (result === false) return;
+          hide();
+        });
+      } else {
+        hide();
+      }
+    }
+    function handleNegativeClick() {
+      const {
+        onNegativeClick
+      } = props;
+      if (onNegativeClick) {
+        void Promise.resolve(onNegativeClick()).then((result) => {
+          if (result === false) return;
+          hide();
+        });
+      } else {
+        hide();
+      }
+    }
+    function handleCloseClick() {
+      const {
+        onClose
+      } = props;
+      if (onClose) {
+        void Promise.resolve(onClose()).then((result) => {
+          if (result === false) return;
+          hide();
+        });
+      } else {
+        hide();
+      }
+    }
+    function handleMaskClick(e) {
+      const {
+        onMaskClick,
+        maskClosable
+      } = props;
+      if (onMaskClick) {
+        onMaskClick(e);
+        if (maskClosable) {
+          hide();
+        }
+      }
+    }
+    function handleEsc() {
+      const {
+        onEsc
+      } = props;
+      if (onEsc) {
+        onEsc();
+      }
+    }
+    function hide() {
+      showRef.value = false;
+    }
+    function handleUpdateShow(value) {
+      showRef.value = value;
+    }
+    return {
+      show: showRef,
+      hide,
+      handleUpdateShow,
+      handleAfterLeave,
+      handleCloseClick,
+      handleNegativeClick,
+      handlePositiveClick,
+      handleMaskClick,
+      handleEsc
+    };
+  },
+  render() {
+    const {
+      handleUpdateShow,
+      handleAfterLeave,
+      handleMaskClick,
+      handleEsc,
+      show
+    } = this;
+    return h(__unplugin_components_3$2, Object.assign({}, this.$props, {
+      show,
+      onUpdateShow: handleUpdateShow,
+      onMaskClick: handleMaskClick,
+      onEsc: handleEsc,
+      onAfterLeave: handleAfterLeave,
+      internalAppear: true,
+      internalModal: true
+    }));
+  }
+});
+const modalProviderInjectionKey = createInjectionKey("n-modal-provider");
+const modalApiInjectionKey = createInjectionKey("n-modal-api");
+const modalReactiveListInjectionKey = createInjectionKey("n-modal-reactive-list");
+const modalProviderProps = {
+  to: [String, Object]
+};
+const NModalProvider = defineComponent({
+  name: "ModalProvider",
+  props: modalProviderProps,
+  setup() {
+    const clickedRef = useClicked(64);
+    const clickedPositionRef = useClickPosition();
+    const modalListRef = ref([]);
+    const modalInstRefs = {};
+    function create(options = {}) {
+      const key = createId();
+      const modalReactive = reactive(Object.assign(Object.assign({}, options), {
+        key,
+        destroy: () => {
+          var _a;
+          (_a = modalInstRefs[`n-modal-${key}`]) === null || _a === void 0 ? void 0 : _a.hide();
+        }
+      }));
+      modalListRef.value.push(modalReactive);
+      return modalReactive;
+    }
+    function handleAfterLeave(key) {
+      const {
+        value: modalList
+      } = modalListRef;
+      modalList.splice(modalList.findIndex((modal) => modal.key === key), 1);
+    }
+    function destroyAll() {
+      Object.values(modalInstRefs).forEach((modalInstRef) => {
+        modalInstRef === null || modalInstRef === void 0 ? void 0 : modalInstRef.hide();
+      });
+    }
+    const api = {
+      create,
+      destroyAll
+    };
+    provide(modalApiInjectionKey, api);
+    provide(modalProviderInjectionKey, {
+      clickedRef: useClicked(64),
+      clickedPositionRef: useClickPosition()
+    });
+    provide(modalReactiveListInjectionKey, modalListRef);
+    provide(modalProviderInjectionKey, {
+      clickedRef,
+      clickedPositionRef
+    });
+    return Object.assign(Object.assign({}, api), {
+      modalList: modalListRef,
+      modalInstRefs,
+      handleAfterLeave
+    });
+  },
+  render() {
+    var _a, _b;
+    return h(Fragment, null, [this.modalList.map((modal) => {
+      var _a2;
+      return h(NModalEnvironment, omit(modal, ["destroy"], {
+        to: (_a2 = modal.to) !== null && _a2 !== void 0 ? _a2 : this.to,
+        ref: (inst) => {
+          if (inst === null) {
+            delete this.modalInstRefs[`n-modal-${modal.key}`];
+          } else {
+            this.modalInstRefs[`n-modal-${modal.key}`] = inst;
+          }
+        },
+        internalKey: modal.key,
+        onInternalAfterLeave: this.handleAfterLeave
+      }));
+    }), (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a)]);
+  }
+});
+function useModal() {
+  const modal = inject(modalApiInjectionKey, null);
+  if (modal === null) {
+    throwError("use-modal", "No outer <n-modal-provider /> founded.");
+  }
+  return modal;
 }
 const notificationProviderInjectionKey = createInjectionKey("n-notification-provider");
 const NotificationContainer = defineComponent({
@@ -16602,7 +19346,7 @@ const notificationProviderProps = Object.assign(Object.assign({}, useTheme.props
   },
   keepAliveOnHover: Boolean
 });
-const __unplugin_components_1 = defineComponent({
+const __unplugin_components_5$1 = defineComponent({
   name: "NotificationProvider",
   props: notificationProviderProps,
   setup(props) {
@@ -26786,7 +29530,7 @@ if (window.isElectron) {
       data = { ...data, cookie: localStorage.getItem("cookie") };
     }
     console.log("本地api-请求", param);
-    let res = await window.netease(url, { ...data, ...params });
+    let res = await window.api.netease(url, { ...data, ...params });
     console.log("本地api", param, res);
     return res;
   };
@@ -27770,7 +30514,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     let value = currentMusic.value;
     parseLyric();
     if (window.isElectron) {
-      window.sendLyric(JSON.stringify({
+      window.api.sendLyric(JSON.stringify({
         time: 0,
         lrc: nameWithTns.value,
         roma: value?.artist,
@@ -28019,7 +30763,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
             if (lyricIndexNow.value != i2) {
               lyricIndexNow.value = i2;
               if (window.isElectron) {
-                window?.sendLyric(JSON.stringify(currentMusic.value?.lyric?.[i2]));
+                window.api.sendLyric(JSON.stringify(currentMusic.value?.lyric?.[i2]));
               }
             }
             break;
@@ -28688,7 +31432,7 @@ const useThemeStore = /* @__PURE__ */ defineStore("theme", {
       });
       localStorage.setItem("theme", stringData);
       if (window.isElectron) {
-        window.sendThemeColors(stringData);
+        window.api.sendThemeColors(stringData);
       }
     }
   }
@@ -28710,7 +31454,7 @@ const useSettingStore = /* @__PURE__ */ defineStore("setting", {
         if (show == "auto") {
           show = this.showLyricWindow ?? false;
         }
-        window.setLyricWindowShow(show);
+        window.api.setLyricWindowShow(show);
         this.showLyricWindow = show;
         this.save();
       }
@@ -28724,21 +31468,27 @@ const useSettingStore = /* @__PURE__ */ defineStore("setting", {
     }
   }
 });
-const _sfc_main$8 = {
+const _sfc_main$9 = {
   __name: "messageApi",
   setup(__props) {
     window.$NMessageApi = useMessage();
-    return (_ctx, _cache) => {
-      return openBlock(), createElementBlock("div");
+    return () => {
+    };
+  }
+};
+const _sfc_main$8 = {
+  __name: "notificationApi",
+  setup(__props) {
+    window.$NNotificationApi = useNotification();
+    return () => {
     };
   }
 };
 const _sfc_main$7 = {
-  __name: "notificationApi",
+  __name: "modalApi",
   setup(__props) {
-    window.$NNotificationApi = useNotification();
-    return (_ctx, _cache) => {
-      return openBlock(), createElementBlock("div");
+    window.$NModalApi = useModal();
+    return () => {
     };
   }
 };
@@ -28747,20 +31497,18 @@ const _hoisted_1$o = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$n = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M18 15s-4.419-6-6-6s-6 6-6 6",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$l = [
-  _hoisted_2$n
-];
 function render$h(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$o, [..._hoisted_3$l]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$o, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M18 15s-4.419-6-6-6s-6 6-6 6",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_0$1 = markRaw({ name: "hugeicons-arrow-up01", render: render$h });
 const _hoisted_1$n = {
@@ -28768,20 +31516,18 @@ const _hoisted_1$n = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$m = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$k = [
-  _hoisted_2$m
-];
 function render$g(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$n, [..._hoisted_3$k]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$n, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_0 = markRaw({ name: "hugeicons-right-to-left-list-dash", render: render$g });
 var defaultInstanceSettings = {
@@ -30179,20 +32925,18 @@ const _hoisted_1$m = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$l = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$j = [
-  _hoisted_2$l
-];
 function render$f(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$m, [..._hoisted_3$j]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$m, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$f });
 const _hoisted_1$l = {
@@ -30200,29 +32944,27 @@ const _hoisted_1$l = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$k = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 9h4m-4 3.5h3" }),
-  /* @__PURE__ */ createBaseVNode("rect", {
-    width: "20",
-    height: "18",
-    x: "2",
-    y: "3",
-    rx: "5"
-  }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M5 16c1.208-2.581 5.712-2.75 7 0m-1.5-7a2 2 0 1 1-4 0a2 2 0 0 1 4 0" })
-], -1);
-const _hoisted_3$i = [
-  _hoisted_2$k
-];
 function render$e(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$l, [..._hoisted_3$i]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$l, _cache[0] || (_cache[0] = [
+    createBaseVNode("g", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      color: "currentColor"
+    }, [
+      createBaseVNode("path", { d: "M14 9h4m-4 3.5h3" }),
+      createBaseVNode("rect", {
+        width: "20",
+        height: "18",
+        x: "2",
+        y: "3",
+        rx: "5"
+      }),
+      createBaseVNode("path", { d: "M5 16c1.208-2.581 5.712-2.75 7 0m-1.5-7a2 2 0 1 1-4 0a2 2 0 0 1 4 0" })
+    ], -1)
+  ]));
 }
 const HugeiconsUserAccount = markRaw({ name: "hugeicons-user-account", render: render$e });
 const _hoisted_1$k = {
@@ -30230,22 +32972,20 @@ const _hoisted_1$k = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$j = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
-], -1);
-const _hoisted_3$h = [
-  _hoisted_2$j
-];
 function render$d(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$k, [..._hoisted_3$h]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$k, _cache[0] || (_cache[0] = [
+    createBaseVNode("g", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      color: "currentColor"
+    }, [
+      createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
+      createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
+    ], -1)
+  ]));
 }
 const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$d });
 const _hoisted_1$j = {
@@ -30253,22 +32993,20 @@ const _hoisted_1$j = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$i = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
-], -1);
-const _hoisted_3$g = [
-  _hoisted_2$i
-];
 function render$c(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$j, [..._hoisted_3$g]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$j, _cache[0] || (_cache[0] = [
+    createBaseVNode("g", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      color: "currentColor"
+    }, [
+      createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
+      createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
+    ], -1)
+  ]));
 }
 const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$c });
 const _hoisted_1$i = {
@@ -30276,27 +33014,23 @@ const _hoisted_1$i = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$h = /* @__PURE__ */ createBaseVNode("g", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  color: "currentColor"
-}, [
-  /* @__PURE__ */ createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
-  /* @__PURE__ */ createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
-], -1);
-const _hoisted_3$f = [
-  _hoisted_2$h
-];
 function render$b(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$i, [..._hoisted_3$f]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$i, _cache[0] || (_cache[0] = [
+    createBaseVNode("g", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      color: "currentColor"
+    }, [
+      createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
+      createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
+    ], -1)
+  ]));
 }
 const HugeiconsSettings05 = markRaw({ name: "hugeicons-settings-05", render: render$b });
-const _withScopeId$1 = (n2) => (pushScopeId("data-v-1f54f60f"), n2 = n2(), popScopeId(), n2);
 const _hoisted_1$h = { class: "nav-outer" };
-const _hoisted_2$g = /* @__PURE__ */ _withScopeId$1(() => /* @__PURE__ */ createBaseVNode("div", { class: "header-title text1" }, "奶酪音乐", -1));
 const _sfc_main$6 = /* @__PURE__ */ defineComponent({
   __name: "navigation",
   setup(__props) {
@@ -30362,9 +33096,9 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
       }
     );
     return (_ctx, _cache) => {
-      const _component_n_menu = __unplugin_components_0$3;
+      const _component_n_menu = __unplugin_components_0$2;
       return openBlock(), createElementBlock("div", _hoisted_1$h, [
-        _hoisted_2$g,
+        _cache[1] || (_cache[1] = createBaseVNode("div", { class: "header-title text1" }, "奶酪音乐", -1)),
         createBaseVNode("div", null, [
           createVNode(_component_n_menu, {
             options: unref(menuData),
@@ -30378,7 +33112,7 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
 });
 const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-1f54f60f"]]);
 const _hoisted_1$g = { class: "header" };
-const _hoisted_2$f = { class: "header-search" };
+const _hoisted_2$4 = { class: "header-search" };
 const _sfc_main$5 = {
   __name: "headerTop",
   setup(__props) {
@@ -30420,8 +33154,8 @@ const _sfc_main$5 = {
       const _component_i_hugeicons_right_to_left_list_dash = __unplugin_components_0;
       const _component_n_icon = NIcon;
       const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0$1;
-      const _component_n_input = __unplugin_components_0$4;
-      const _component_n_avatar = __unplugin_components_4$2;
+      const _component_n_input = __unplugin_components_0$3;
+      const _component_n_avatar = __unplugin_components_4$3;
       return openBlock(), createElementBlock("div", _hoisted_1$g, [
         createVNode(_component_n_icon, {
           class: "header-menu",
@@ -30433,7 +33167,7 @@ const _sfc_main$5 = {
           ]),
           _: 1
         }),
-        createBaseVNode("span", _hoisted_2$f, [
+        createBaseVNode("span", _hoisted_2$4, [
           createVNode(_component_n_icon, {
             size: "2rem",
             style: { "transform": "rotate(-90deg)" },
@@ -30459,9 +33193,9 @@ const _sfc_main$5 = {
           round: "",
           onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
         }, {
-          default: withCtx(() => [
+          default: withCtx(() => _cache[5] || (_cache[5] = [
             createTextVNode("登录")
-          ]),
+          ])),
           _: 1
         })) : createCommentVNode("", true),
         unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
@@ -30488,20 +33222,18 @@ const _hoisted_1$f = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$e = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$e = [
-  _hoisted_2$e
-];
 function render$a(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$f, [..._hoisted_3$e]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$f, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_11 = markRaw({ name: "hugeicons-playlist03", render: render$a });
 const _hoisted_1$e = {
@@ -30509,17 +33241,15 @@ const _hoisted_1$e = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$d = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "currentColor",
-  "fill-rule": "evenodd",
-  d: "M11.943 1.25h.114c2.309 0 4.118 0 5.53.19c1.444.194 2.584.6 3.479 1.494c.895.895 1.3 2.035 1.494 3.48c.19 1.411.19 3.22.19 5.529v.114c0 2.309 0 4.118-.19 5.53c-.194 1.444-.6 2.584-1.494 3.479c-.895.895-2.035 1.3-3.48 1.494c-1.411.19-3.22.19-5.529.19h-.114c-2.309 0-4.118 0-5.53-.19c-1.444-.194-2.584-.6-3.479-1.494c-.895-.895-1.3-2.035-1.494-3.48c-.19-1.411-.19-3.22-.19-5.529v-.114c0-2.309 0-4.118.19-5.53c.194-1.444.6-2.584 1.494-3.479c.895-.895 2.035-1.3 3.48-1.494c1.411-.19 3.22-.19 5.529-.19m-5.33 1.676c-1.278.172-2.049.5-2.618 1.069c-.57.57-.897 1.34-1.069 2.619c-.174 1.3-.176 3.008-.176 5.386s.002 4.086.176 5.386c.172 1.279.5 2.05 1.069 2.62c.57.569 1.34.896 2.619 1.068c1.3.174 3.008.176 5.386.176s4.086-.002 5.386-.176c1.279-.172 2.05-.5 2.62-1.069c.569-.57.896-1.34 1.068-2.619c.174-1.3.176-3.008.176-5.386s-.002-4.086-.176-5.386c-.172-1.279-.5-2.05-1.069-2.62c-.57-.569-1.34-.896-2.619-1.068c-1.3-.174-3.008-.176-5.386-.176s-4.086.002-5.386.176M12 6.25a.75.75 0 0 1 .75.75v10a.75.75 0 0 1-1.5 0V7a.75.75 0 0 1 .75-.75m-5 2a.75.75 0 0 1 .75.75v6a.75.75 0 0 1-1.5 0V9A.75.75 0 0 1 7 8.25m10 1a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75",
-  "clip-rule": "evenodd"
-}, null, -1);
-const _hoisted_3$d = [
-  _hoisted_2$d
-];
 function render$9(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._hoisted_3$d]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$e, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "currentColor",
+      "fill-rule": "evenodd",
+      d: "M11.943 1.25h.114c2.309 0 4.118 0 5.53.19c1.444.194 2.584.6 3.479 1.494c.895.895 1.3 2.035 1.494 3.48c.19 1.411.19 3.22.19 5.529v.114c0 2.309 0 4.118-.19 5.53c-.194 1.444-.6 2.584-1.494 3.479c-.895.895-2.035 1.3-3.48 1.494c-1.411.19-3.22.19-5.529.19h-.114c-2.309 0-4.118 0-5.53-.19c-1.444-.194-2.584-.6-3.479-1.494c-.895-.895-1.3-2.035-1.494-3.48c-.19-1.411-.19-3.22-.19-5.529v-.114c0-2.309 0-4.118.19-5.53c.194-1.444.6-2.584 1.494-3.479c.895-.895 2.035-1.3 3.48-1.494c1.411-.19 3.22-.19 5.529-.19m-5.33 1.676c-1.278.172-2.049.5-2.618 1.069c-.57.57-.897 1.34-1.069 2.619c-.174 1.3-.176 3.008-.176 5.386s.002 4.086.176 5.386c.172 1.279.5 2.05 1.069 2.62c.57.569 1.34.896 2.619 1.068c1.3.174 3.008.176 5.386.176s4.086-.002 5.386-.176c1.279-.172 2.05-.5 2.62-1.069c.569-.57.896-1.34 1.068-2.619c.174-1.3.176-3.008.176-5.386s-.002-4.086-.176-5.386c-.172-1.279-.5-2.05-1.069-2.62c-.57-.569-1.34-.896-2.619-1.068c-1.3-.174-3.008-.176-5.386-.176s-4.086.002-5.386.176M12 6.25a.75.75 0 0 1 .75.75v10a.75.75 0 0 1-1.5 0V7a.75.75 0 0 1 .75-.75m-5 2a.75.75 0 0 1 .75.75v6a.75.75 0 0 1-1.5 0V9A.75.75 0 0 1 7 8.25m10 1a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75",
+      "clip-rule": "evenodd"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_10 = markRaw({ name: "solar-soundwave-square-outline", render: render$9 });
 const _hoisted_1$d = {
@@ -30527,20 +33257,18 @@ const _hoisted_1$d = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$c = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "m13.926 12.778l-2.149-2.149c-.292-.293-.439-.439-.597-.517a1.07 1.07 0 0 0-.954 0c-.158.078-.304.224-.597.517s-.439.44-.517.597c-.15.301-.15.654 0 .954c.078.158.224.305.517.598l2.149 2.148m2.148-2.149l6.445 6.446c.293.292.439.439.517.597c.15.3.15.653 0 .954c-.078.157-.224.304-.517.597s-.44.439-.597.517c-.301.15-.654.15-.954 0c-.158-.078-.305-.224-.598-.517l-6.445-6.445m2.149-2.149l-2.149 2.149M17 2l.295.797c.386 1.044.58 1.566.96 1.947c.382.381.904.575 1.948.961L21 6l-.797.295c-1.044.386-1.566.58-1.947.96c-.381.382-.575.904-.961 1.948L17 10l-.295-.797c-.386-1.044-.58-1.566-.96-1.947c-.382-.381-.904-.575-1.948-.961L13 6l.797-.295c1.044-.386 1.566-.58 1.947-.96c.381-.382.575-.904.961-1.948zM6 4l.221.597c.29.784.435 1.176.72 1.461c.286.286.678.431 1.462.72L9 7l-.597.221c-.784.29-1.176.435-1.461.72c-.286.286-.431.678-.72 1.462L6 10l-.221-.597c-.29-.784-.435-1.176-.72-1.461c-.286-.286-.678-.431-1.462-.72L3 7l.597-.221c.784-.29 1.176-.435 1.461-.72c.286-.286.431-.678.72-1.462z",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$c = [
-  _hoisted_2$c
-];
 function render$8(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$d, [..._hoisted_3$c]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$d, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "m13.926 12.778l-2.149-2.149c-.292-.293-.439-.439-.597-.517a1.07 1.07 0 0 0-.954 0c-.158.078-.304.224-.597.517s-.439.44-.517.597c-.15.301-.15.654 0 .954c.078.158.224.305.517.598l2.149 2.148m2.148-2.149l6.445 6.446c.293.292.439.439.517.597c.15.3.15.653 0 .954c-.078.157-.224.304-.517.597s-.44.439-.597.517c-.301.15-.654.15-.954 0c-.158-.078-.305-.224-.598-.517l-6.445-6.445m2.149-2.149l-2.149 2.149M17 2l.295.797c.386 1.044.58 1.566.96 1.947c.382.381.904.575 1.948.961L21 6l-.797.295c-1.044.386-1.566.58-1.947.96c-.381.382-.575.904-.961 1.948L17 10l-.295-.797c-.386-1.044-.58-1.566-.96-1.947c-.382-.381-.904-.575-1.948-.961L13 6l.797-.295c1.044-.386 1.566-.58 1.947-.96c.381-.382.575-.904.961-1.948zM6 4l.221.597c.29.784.435 1.176.72 1.461c.286.286.678.431 1.462.72L9 7l-.597.221c-.784.29-1.176.435-1.461.72c-.286.286-.431.678-.72 1.462L6 10l-.221-.597c-.29-.784-.435-1.176-.72-1.461c-.286-.286-.678-.431-1.462-.72L3 7l.597-.221c.784-.29 1.176-.435 1.461-.72c.286-.286.431-.678.72-1.462z",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_8 = markRaw({ name: "hugeicons-magic-wand01", render: render$8 });
 const _hoisted_1$c = {
@@ -30548,20 +33276,18 @@ const _hoisted_1$c = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$b = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M16.977 19.5A9 9 0 0 0 10 3.223M16.977 19.5V16m0 3.5H20.5M7 4.516a9 9 0 0 0 7 16.261M7 4.516V8m0-3.484H3.5",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$b = [
-  _hoisted_2$b
-];
 function render$7(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$c, [..._hoisted_3$b]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$c, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M16.977 19.5A9 9 0 0 0 10 3.223M16.977 19.5V16m0 3.5H20.5M7 4.516a9 9 0 0 0 7 16.261M7 4.516V8m0-3.484H3.5",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_7 = markRaw({ name: "hugeicons-exchange01", render: render$7 });
 const _hoisted_1$b = {
@@ -30569,20 +33295,18 @@ const _hoisted_1$b = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$a = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M9 6s6 4.419 6 6s-6 6-6 6",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$a = [
-  _hoisted_2$a
-];
 function render$6(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$b, [..._hoisted_3$a]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$b, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M9 6s6 4.419 6 6s-6 6-6 6",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_6 = markRaw({ name: "hugeicons-arrow-right01", render: render$6 });
 const _hoisted_1$a = {
@@ -30590,20 +33314,18 @@ const _hoisted_1$a = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$9 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$9 = [
-  _hoisted_2$9
-];
 function render$5(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$a, [..._hoisted_3$9]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$a, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_5 = markRaw({ name: "hugeicons-pause", render: render$5 });
 const _hoisted_1$9 = {
@@ -30611,20 +33333,18 @@ const _hoisted_1$9 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$8 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$8 = [
-  _hoisted_2$8
-];
 function render$4(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._hoisted_3$8]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$9, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_4$1 = markRaw({ name: "hugeicons-play", render: render$4 });
 const _hoisted_1$8 = {
@@ -30632,20 +33352,18 @@ const _hoisted_1$8 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$7 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M15 6s-6 4.419-6 6s6 6 6 6",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$7 = [
-  _hoisted_2$7
-];
 function render$3(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._hoisted_3$7]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$8, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M15 6s-6 4.419-6 6s6 6 6 6",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_3$1 = markRaw({ name: "hugeicons-arrow-left01", render: render$3 });
 const _hoisted_1$7 = {
@@ -30653,15 +33371,13 @@ const _hoisted_1$7 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$6 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "currentColor",
-  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9"
-}, null, -1);
-const _hoisted_3$6 = [
-  _hoisted_2$6
-];
 function render$2(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._hoisted_3$6]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$7, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "currentColor",
+      d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_3 = markRaw({ name: "ant-design-heart-filled", render: render$2 });
 const _hoisted_1$6 = {
@@ -30669,20 +33385,18 @@ const _hoisted_1$6 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$5 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "currentColor",
-  d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3"
-}, null, -1);
-const _hoisted_3$5 = [
-  _hoisted_2$5
-];
 function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._hoisted_3$5]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$6, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "currentColor",
+      d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_2 = markRaw({ name: "ant-design-heart-outlined", render: render$1 });
 const _hoisted_1$5 = { class: "playinglist" };
-const _hoisted_2$4 = ["onClick"];
-const _hoisted_3$4 = ["src", "alt"];
+const _hoisted_2$3 = ["onClick"];
+const _hoisted_3$3 = ["src", "alt"];
 const _hoisted_4$3 = { class: "text" };
 const _hoisted_5$3 = { class: "name text1" };
 const _hoisted_6$2 = { class: "tns text3" };
@@ -30711,7 +33425,7 @@ const _sfc_main$4 = {
       playinglistScrollbarRef.value.scrollTo({ top: playinglistItemRef.value?.[playStore.playlistIndex]?.offsetTop - 80, behavior: smooth ? "smooth" : "auto" });
     }
     return (_ctx, _cache) => {
-      const _component_n_tag = __unplugin_components_0$5;
+      const _component_n_tag = __unplugin_components_0$4;
       const _component_n_scrollbar = Scrollbar;
       return openBlock(), createElementBlock("div", _hoisted_1$5, [
         createVNode(_component_n_scrollbar, {
@@ -30735,7 +33449,7 @@ const _sfc_main$4 = {
                     src: item.picurl + "?param=80y80",
                     alt: item.name,
                     loading: "lazy"
-                  }, null, 8, _hoisted_3$4),
+                  }, null, 8, _hoisted_3$3),
                   createBaseVNode("div", _hoisted_4$3, [
                     createBaseVNode("div", _hoisted_5$3, [
                       item.fee == 1 ? (openBlock(), createBlock(_component_n_tag, {
@@ -30744,9 +33458,9 @@ const _sfc_main$4 = {
                         size: "small",
                         bordered: false
                       }, {
-                        default: withCtx(() => [
+                        default: withCtx(() => _cache[0] || (_cache[0] = [
                           createTextVNode("VIP")
-                        ]),
+                        ])),
                         _: 1
                       })) : createCommentVNode("", true),
                       item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
@@ -30755,9 +33469,9 @@ const _sfc_main$4 = {
                         size: "small",
                         bordered: false
                       }, {
-                        default: withCtx(() => [
+                        default: withCtx(() => _cache[1] || (_cache[1] = [
                           createTextVNode("数字专辑")
-                        ]),
+                        ])),
                         _: 1
                       })) : createCommentVNode("", true),
                       createTextVNode(" " + toDisplayString(item.name), 1)
@@ -30765,7 +33479,7 @@ const _sfc_main$4 = {
                     createBaseVNode("div", _hoisted_6$2, toDisplayString(item.tns), 1),
                     createBaseVNode("div", _hoisted_7$2, toDisplayString(item.artist), 1)
                   ])
-                ], 8, _hoisted_2$4);
+                ], 8, _hoisted_2$3);
               }), 128))
             ])
           ]),
@@ -30781,50 +33495,46 @@ const _hoisted_1$4 = {
   width: "1.2em",
   height: "1.2em"
 };
-const _hoisted_2$3 = /* @__PURE__ */ createBaseVNode("path", {
-  fill: "none",
-  stroke: "currentColor",
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "1.5",
-  d: "M8.5 14.5h7m-7-5H12m2.17 11.39c4.184-.277 7.516-3.657 7.79-7.9c.053-.83.053-1.69 0-2.52c-.274-4.242-3.606-7.62-7.79-7.899a33 33 0 0 0-4.34 0c-4.184.278-7.516 3.657-7.79 7.9a20 20 0 0 0 0 2.52c.1 1.545.783 2.976 1.588 4.184c.467.845.159 1.9-.328 2.823c-.35.665-.526.997-.385 1.237c.14.24.455.248 1.084.263c1.245.03 2.084-.322 2.75-.813c.377-.279.566-.418.696-.434s.387.09.899.3c.46.19.995.307 1.485.34c1.425.094 2.914.094 4.342 0",
-  color: "currentColor"
-}, null, -1);
-const _hoisted_3$3 = [
-  _hoisted_2$3
-];
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$4, [..._hoisted_3$3]);
+  return openBlock(), createElementBlock("svg", _hoisted_1$4, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "1.5",
+      d: "M8.5 14.5h7m-7-5H12m2.17 11.39c4.184-.277 7.516-3.657 7.79-7.9c.053-.83.053-1.69 0-2.52c-.274-4.242-3.606-7.62-7.79-7.899a33 33 0 0 0-4.34 0c-4.184.278-7.516 3.657-7.79 7.9a20 20 0 0 0 0 2.52c.1 1.545.783 2.976 1.588 4.184c.467.845.159 1.9-.328 2.823c-.35.665-.526.997-.385 1.237c.14.24.455.248 1.084.263c1.245.03 2.084-.322 2.75-.813c.377-.279.566-.418.696-.434s.387.09.899.3c.46.19.995.307 1.485.34c1.425.094 2.914.094 4.342 0",
+      color: "currentColor"
+    }, null, -1)
+  ]));
 }
 const __unplugin_components_4 = markRaw({ name: "hugeicons-message01", render });
-const _withScopeId = (n2) => (pushScopeId("data-v-c532f165"), n2 = n2(), popScopeId(), n2);
 const _hoisted_1$3 = { class: "player-outer-outer" };
 const _hoisted_2$2 = { class: "player-outer" };
-const _hoisted_3$2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBaseVNode("div", { class: "player-background" }, null, -1));
-const _hoisted_4$2 = { class: "player-content" };
-const _hoisted_5$2 = { style: { "position": "absolute", "top": "1rem", "left": "calc(100vw - 1rem - 2rem)", "z-index": "1000" } };
-const _hoisted_6$1 = { class: "column column-player" };
-const _hoisted_7$1 = { class: "container-player" };
-const _hoisted_8$1 = { class: "music-name" };
-const _hoisted_9$1 = { class: "music-artist text2" };
-const _hoisted_10$1 = { class: "player-centerblock" };
-const _hoisted_11$1 = ["alt", "src"];
-const _hoisted_12$1 = { class: "player-ctrl" };
-const _hoisted_13$1 = { class: "player-ctrl-top" };
-const _hoisted_14$1 = { class: "btn-like button" };
-const _hoisted_15$1 = { class: "btn-comment button" };
-const _hoisted_16$1 = { class: "music-progress" };
-const _hoisted_17$1 = { class: "btn-control" };
-const _hoisted_18$1 = { class: "btn-loop button" };
-const _hoisted_19$1 = { class: "btn-play-control" };
-const _hoisted_20$1 = { class: "btn-prev button" };
-const _hoisted_21$1 = { class: "btn-pause button" };
-const _hoisted_22 = { class: "btn-next button" };
-const _hoisted_23 = { class: "btn-list button" };
-const _hoisted_24 = { class: "lyric-list" };
-const _hoisted_25 = ["id"];
-const _hoisted_26 = { class: "lyric-roma" };
-const _hoisted_27 = { class: "lyric-tran" };
+const _hoisted_3$2 = { class: "player-content" };
+const _hoisted_4$2 = { style: { "position": "absolute", "top": "1rem", "left": "calc(100vw - 1rem - 2rem)", "z-index": "1000" } };
+const _hoisted_5$2 = { class: "column column-player" };
+const _hoisted_6$1 = { class: "container-player" };
+const _hoisted_7$1 = { class: "music-name" };
+const _hoisted_8$1 = { class: "music-artist text2" };
+const _hoisted_9$1 = { class: "player-centerblock" };
+const _hoisted_10$1 = ["alt", "src"];
+const _hoisted_11$1 = { class: "player-ctrl" };
+const _hoisted_12$1 = { class: "player-ctrl-top" };
+const _hoisted_13$1 = { class: "btn-like button" };
+const _hoisted_14$1 = { class: "btn-comment button" };
+const _hoisted_15$1 = { class: "music-progress" };
+const _hoisted_16$1 = { class: "btn-control" };
+const _hoisted_17$1 = { class: "btn-loop button" };
+const _hoisted_18$1 = { class: "btn-play-control" };
+const _hoisted_19$1 = { class: "btn-prev button" };
+const _hoisted_20$1 = { class: "btn-pause button" };
+const _hoisted_21$1 = { class: "btn-next button" };
+const _hoisted_22 = { class: "btn-list button" };
+const _hoisted_23 = { class: "lyric-list" };
+const _hoisted_24 = ["id"];
+const _hoisted_25 = { class: "lyric-roma" };
+const _hoisted_26 = { class: "lyric-tran" };
 const _sfc_main$3 = {
   __name: "player",
   setup(__props) {
@@ -30879,9 +33589,9 @@ const _sfc_main$3 = {
       const _component_n_scrollbar = Scrollbar;
       return openBlock(), createElementBlock("div", _hoisted_1$3, [
         createBaseVNode("div", _hoisted_2$2, [
-          _hoisted_3$2,
-          createBaseVNode("div", _hoisted_4$2, [
-            createBaseVNode("div", _hoisted_5$2, [
+          _cache[13] || (_cache[13] = createBaseVNode("div", { class: "player-background" }, null, -1)),
+          createBaseVNode("div", _hoisted_3$2, [
+            createBaseVNode("div", _hoisted_4$2, [
               createVNode(_component_n_icon, {
                 size: "2rem",
                 style: { "transform": "rotate(-180deg)" },
@@ -30893,17 +33603,17 @@ const _sfc_main$3 = {
                 _: 1
               })
             ]),
-            createBaseVNode("div", _hoisted_6$1, [
-              createBaseVNode("div", _hoisted_7$1, [
+            createBaseVNode("div", _hoisted_5$2, [
+              createBaseVNode("div", _hoisted_6$1, [
                 createBaseVNode("div", null, [
-                  createBaseVNode("div", _hoisted_8$1, [
+                  createBaseVNode("div", _hoisted_7$1, [
                     createVNode(MarqueePlus, {
                       html: unref(playStore).nameWithTns ?? `暂未播放~~`
                     }, null, 8, ["html"])
                   ]),
-                  createBaseVNode("div", _hoisted_9$1, toDisplayString(unref(currentMusic).artist ?? ``), 1)
+                  createBaseVNode("div", _hoisted_8$1, toDisplayString(unref(currentMusic).artist ?? ``), 1)
                 ]),
-                createBaseVNode("div", _hoisted_10$1, [
+                createBaseVNode("div", _hoisted_9$1, [
                   createBaseVNode("div", {
                     class: "music-img-container",
                     onClick: _cache[0] || (_cache[0] = ($event) => isRef(displayLyricWhenScreenIsNotWide) ? displayLyricWhenScreenIsNotWide.value = true : displayLyricWhenScreenIsNotWide = true)
@@ -30914,11 +33624,11 @@ const _sfc_main$3 = {
                       class: "music-img",
                       onLoad: getImgMainColor,
                       crossorigin: "anonymous"
-                    }, null, 40, _hoisted_11$1)
+                    }, null, 40, _hoisted_10$1)
                   ]),
-                  createBaseVNode("div", _hoisted_12$1, [
-                    createBaseVNode("div", _hoisted_13$1, [
-                      createBaseVNode("div", _hoisted_14$1, [
+                  createBaseVNode("div", _hoisted_11$1, [
+                    createBaseVNode("div", _hoisted_12$1, [
+                      createBaseVNode("div", _hoisted_13$1, [
                         createVNode(_component_n_icon, {
                           size: "2.5rem",
                           class: "icon"
@@ -30936,7 +33646,7 @@ const _sfc_main$3 = {
                           _: 1
                         })
                       ]),
-                      createBaseVNode("div", _hoisted_15$1, [
+                      createBaseVNode("div", _hoisted_14$1, [
                         createVNode(_component_n_icon, {
                           size: "2.5rem",
                           class: "icon"
@@ -30948,7 +33658,7 @@ const _sfc_main$3 = {
                         })
                       ])
                     ]),
-                    createBaseVNode("div", _hoisted_16$1, [
+                    createBaseVNode("div", _hoisted_15$1, [
                       createVNode(_component_n_slider, {
                         value: unref(playStore).musicStatus.currentTime,
                         "onUpdate:value": [
@@ -30960,8 +33670,8 @@ const _sfc_main$3 = {
                         "show-tooltip": false
                       }, null, 8, ["value", "max"])
                     ]),
-                    createBaseVNode("div", _hoisted_17$1, [
-                      createBaseVNode("div", _hoisted_18$1, [
+                    createBaseVNode("div", _hoisted_16$1, [
+                      createBaseVNode("div", _hoisted_17$1, [
                         createVNode(_component_n_icon, {
                           size: "2.5rem",
                           class: "icon"
@@ -30978,8 +33688,8 @@ const _sfc_main$3 = {
                           _: 1
                         })
                       ]),
-                      createBaseVNode("div", _hoisted_19$1, [
-                        createBaseVNode("div", _hoisted_20$1, [
+                      createBaseVNode("div", _hoisted_18$1, [
+                        createBaseVNode("div", _hoisted_19$1, [
                           createVNode(_component_n_icon, {
                             size: "4rem",
                             class: "icon",
@@ -30991,7 +33701,7 @@ const _sfc_main$3 = {
                             _: 1
                           }, 8, ["onClick"])
                         ]),
-                        createBaseVNode("div", _hoisted_21$1, [
+                        createBaseVNode("div", _hoisted_20$1, [
                           unref(playStore).musicStatus.paused ? (openBlock(), createBlock(_component_n_icon, {
                             key: 0,
                             size: "4rem",
@@ -31015,7 +33725,7 @@ const _sfc_main$3 = {
                             _: 1
                           })) : createCommentVNode("", true)
                         ]),
-                        createBaseVNode("div", _hoisted_22, [
+                        createBaseVNode("div", _hoisted_21$1, [
                           createVNode(_component_n_icon, {
                             size: "4rem",
                             class: "icon",
@@ -31028,7 +33738,7 @@ const _sfc_main$3 = {
                           }, 8, ["onClick"])
                         ])
                       ]),
-                      createBaseVNode("div", _hoisted_23, [
+                      createBaseVNode("div", _hoisted_22, [
                         createVNode(_component_n_icon, {
                           size: "2.5rem",
                           class: "icon",
@@ -31058,7 +33768,7 @@ const _sfc_main$3 = {
                 ref: lyricScrollbarRef
               }, {
                 default: withCtx(() => [
-                  createBaseVNode("ul", _hoisted_24, [
+                  createBaseVNode("ul", _hoisted_23, [
                     (openBlock(true), createElementBlock(Fragment, null, renderList(unref(currentMusic).lyric, (item, index) => {
                       return openBlock(), createElementBlock("div", {
                         key: index,
@@ -31067,9 +33777,9 @@ const _sfc_main$3 = {
                         createBaseVNode("li", {
                           class: "lyric-lrc",
                           id: "lrc-" + index
-                        }, toDisplayString(item.lrc), 9, _hoisted_25),
-                        createBaseVNode("li", _hoisted_26, toDisplayString(item.roma), 1),
-                        createBaseVNode("li", _hoisted_27, toDisplayString(item.tran), 1)
+                        }, toDisplayString(item.lrc), 9, _hoisted_24),
+                        createBaseVNode("li", _hoisted_25, toDisplayString(item.roma), 1),
+                        createBaseVNode("li", _hoisted_26, toDisplayString(item.tran), 1)
                       ], 2);
                     }), 128))
                   ])
@@ -31434,16 +34144,16 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "77cf201c": unref(themeStore).mainColors[0],
-      "77cf1e2c": unref(themeStore).mainColors[8],
-      "77cf1dee": unref(themeStore).mainColors[9],
-      "77cf1e6a": unref(themeStore).mainColors[7],
-      "77cf1ea8": unref(themeStore).mainColors[6],
-      "77cf1fde": unref(themeStore).mainColors[1],
-      "77cf1fa0": unref(themeStore).mainColors[2],
-      "77cf1f62": unref(themeStore).mainColors[3],
-      "77cf1f24": unref(themeStore).mainColors[4],
-      "77cf1ee6": unref(themeStore).mainColors[5]
+      "2cec3bcb": unref(themeStore).mainColors[0],
+      "2cec3cc3": unref(themeStore).mainColors[8],
+      "2cec3ce2": unref(themeStore).mainColors[9],
+      "2cec3ca4": unref(themeStore).mainColors[7],
+      "2cec3c85": unref(themeStore).mainColors[6],
+      "2cec3bea": unref(themeStore).mainColors[1],
+      "2cec3c09": unref(themeStore).mainColors[2],
+      "2cec3c28": unref(themeStore).mainColors[3],
+      "2cec3c47": unref(themeStore).mainColors[4],
+      "2cec3c66": unref(themeStore).mainColors[5]
     }));
     let settingStore = useSettingStore();
     settingStore.init();
@@ -31461,8 +34171,14 @@ const _sfc_main = {
     let userStore = useUserStore();
     let playStore = usePlayStore();
     let themeStore = useThemeStore();
+    let showUpdate = ref(false);
+    let updateData = ref({
+      newVersion: "",
+      description: "",
+      userDown: []
+    });
     userStore.updateByStorage();
-    onMounted(() => {
+    onMounted(async () => {
       if (userStore.isLogin === true && Date.now() - userStore.updateTime > 1e3 * 60 * 3) {
         userStore.updateByCookie();
       }
@@ -31470,7 +34186,31 @@ const _sfc_main = {
         playStore.playlistInit();
       }
       themeStore.initByLocalStorage();
+      if (window.isElectron) {
+        try {
+          let res = await axios.get("https://api.xwzkj.top/api/update?platform=windows");
+          if (res.data.code === 200 && res.data.data.apiVersion == "1") {
+            res = res.data.data;
+            console.log(`检查更新 当前：${window.api.appVersion} 服务器：${res.version}`);
+            if (res.version > window.api.appVersion) {
+              updateData.value = {
+                newVersion: res?.version,
+                description: res?.description ?? "检测到新版本",
+                userDown: res?.userDown.map((item) => {
+                  return { label: item.name, key: item.url };
+                })
+              };
+              showUpdate.value = true;
+            }
+          }
+        } catch (err) {
+          error(JSON.stringify(err), "检查更新失败");
+        }
+      }
     });
+    function openUrl(url) {
+      window.api.openUrl(url);
+    }
     emitter.on("changeTheme", (theme) => {
       objDeepMerge(themeOverrides.value, theme);
     });
@@ -31485,20 +34225,69 @@ const _sfc_main = {
     window.addEventListener("orientationchange", setRealVhVw);
     document.addEventListener("DOMContentLoaded", setRealVhVw);
     return (_ctx, _cache) => {
-      const _component_n_message_provider = __unplugin_components_0$2;
-      const _component_n_notification_provider = __unplugin_components_1;
-      const _component_n_config_provider = __unplugin_components_2$1;
+      const _component_n_button = Button;
+      const _component_n_dropdown = __unplugin_components_1;
+      const _component_n_card = __unplugin_components_5$2;
+      const _component_n_modal = __unplugin_components_3$2;
+      const _component_n_message_provider = __unplugin_components_4$2;
+      const _component_n_notification_provider = __unplugin_components_5$1;
+      const _component_n_modal_provider = NModalProvider;
+      const _component_n_config_provider = __unplugin_components_7$1;
       return openBlock(), createElementBlock("div", _hoisted_1, [
         createVNode(_component_n_config_provider, { "theme-overrides": unref(themeOverrides) }, {
           default: withCtx(() => [
             createVNode(Container),
+            createVNode(_component_n_modal, {
+              show: unref(showUpdate),
+              "onUpdate:show": _cache[0] || (_cache[0] = ($event) => isRef(showUpdate) ? showUpdate.value = $event : showUpdate = $event)
+            }, {
+              default: withCtx(() => [
+                createVNode(_component_n_card, {
+                  style: { "width": "600px" },
+                  title: `新版本：${unref(updateData).newVersion}`,
+                  bordered: false,
+                  size: "huge",
+                  role: "dialog",
+                  "aria-modal": "true"
+                }, {
+                  footer: withCtx(() => [
+                    createVNode(_component_n_dropdown, {
+                      options: unref(updateData).userDown,
+                      onSelect: openUrl,
+                      trigger: "click"
+                    }, {
+                      default: withCtx(() => [
+                        createVNode(_component_n_button, { type: "primary" }, {
+                          default: withCtx(() => _cache[1] || (_cache[1] = [
+                            createTextVNode("下载")
+                          ])),
+                          _: 1
+                        })
+                      ]),
+                      _: 1
+                    }, 8, ["options"])
+                  ]),
+                  default: withCtx(() => [
+                    createTextVNode(toDisplayString(unref(updateData).description) + " ", 1)
+                  ]),
+                  _: 1
+                }, 8, ["title"])
+              ]),
+              _: 1
+            }, 8, ["show"]),
             createVNode(_component_n_message_provider, null, {
+              default: withCtx(() => [
+                createVNode(_sfc_main$9)
+              ]),
+              _: 1
+            }),
+            createVNode(_component_n_notification_provider, null, {
               default: withCtx(() => [
                 createVNode(_sfc_main$8)
               ]),
               _: 1
             }),
-            createVNode(_component_n_notification_provider, null, {
+            createVNode(_component_n_modal_provider, null, {
               default: withCtx(() => [
                 createVNode(_sfc_main$7)
               ]),
@@ -31517,42 +34306,32 @@ console.log("pinia实例被创建");
 app.use(router);
 app.mount("#app");
 export {
-  isBrowser$1 as $,
-  __unplugin_components_2 as A,
-  __unplugin_components_3 as B,
-  tooltipLight as C,
-  NTooltip as D,
-  useStyle as E,
-  inputLight as F,
-  on as G,
-  off as H,
-  fadeInScaleUpTransition as I,
-  useFormItem as J,
-  useLocale as K,
-  useMergedState as L,
-  isMounted as M,
+  __unplugin_components_5$2 as A,
+  Button as B,
+  __unplugin_components_2 as C,
+  __unplugin_components_3 as D,
+  tooltipLight as E,
+  NTooltip as F,
+  useStyle as G,
+  inputLight as H,
+  buttonLight as I,
+  on as J,
+  off as K,
+  fadeInScaleUpTransition as L,
+  useFormItem as M,
   NBaseLoading as N,
-  useAdjustedTo as O,
-  getPreciseEventTarget as P,
-  Binder as Q,
-  VFollower as R,
-  clickoutside as S,
-  call as T,
-  useRtl as U,
+  useLocale as O,
+  useMergedState as P,
+  isMounted as Q,
+  useAdjustedTo as R,
+  getPreciseEventTarget as S,
+  Binder as T,
+  VFollower as U,
   VTarget as V,
-  resolveWrappedSlot as W,
-  getMargin as X,
-  ensureValidVNode as Y,
-  NBaseClose as Z,
-  __unplugin_components_0$4 as _,
+  clickoutside as W,
+  call as X,
+  __unplugin_components_0$3 as _,
   useRouter as a,
-  iconSwitchTransition as a0,
-  isSafari as a1,
-  useMemo as a2,
-  NFadeInExpandTransition as a3,
-  color2Class as a4,
-  isSlotEmpty as a5,
-  NIconSwitchTransition as a6,
   usePlayStore as b,
   cloudsearch as c,
   useThemeStore as d,
@@ -31566,7 +34345,7 @@ export {
   loginQrKey as l,
   getColorFromImg as m,
   mixColor as n,
-  __unplugin_components_0$5 as o,
+  __unplugin_components_0$4 as o,
   playlistDetail as p,
   fadeInTransition as q,
   recommendSongs as r,
