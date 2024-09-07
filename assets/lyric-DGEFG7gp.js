@@ -49,14 +49,14 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "lyricApp",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "b8916d5e": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
-      "1c711c55": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
-      "deb7063a": unref(isLocked) ? `none` : `block`,
-      "1b69e00e": unref(mainColors)[7],
-      "6cda0e58": unref(displayCtrl) ? `flex` : `none`,
-      "6138cf7c": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
-      "1b69e1c0": unref(mainColors)[0],
-      "1b69e08a": unref(mainColors)[5]
+      "02935564": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
+      "10e6e2f8": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
+      "54bd6674": unref(isLocked) ? `none` : `block`,
+      "0d4c191c": unref(mainColors)[7],
+      "7ac94812": unref(displayCtrl) ? `flex` : `none`,
+      "2198f13f": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
+      "0d4c1843": unref(mainColors)[0],
+      "0d4c18de": unref(mainColors)[5]
     }));
     let isLocked = ref(false);
     let needLockWhenMouseLeave = false;
@@ -76,6 +76,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     function changeLyric(event, lyric2) {
       console.log(lyric2);
       let lyricObj = JSON.parse(lyric2);
+      lyricObj.lrc = lyricObj.lrc.map((item) => item.text).join("");
       lyricText.value = lyricObj;
       updateIsLocked();
     }
