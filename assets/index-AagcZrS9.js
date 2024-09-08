@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-B1pWD-yr.js","./itemCard-OQGYk-9x.js","./marqueePlus-BkPUv9Mq.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-ClrjE132.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-B6bBrhg_.js","./musicList-CGTSruoS.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-DOYZoMHX.js","./login-BZBt2RaQ.css","./account-xZtjbJcH.js","./account-CZ8eyIhU.css","./playlist-GARQ1uiJ.js","./playlist-_rqHwo7U.css","./setting-DXmag6pN.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-Ca2i_7tR.js","./itemCard-CqM_VGiW.js","./marqueePlus-BkPUv9Mq.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-wlvD3UWU.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-DVVnUP5q.js","./musicList-_QZtm55g.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-BRf1tZtS.js","./login-BZBt2RaQ.css","./account-8S5GBSzR.js","./account-CZ8eyIhU.css","./playlist-BPnyg2-Z.js","./playlist-_rqHwo7U.css","./setting-BRvwvyZX.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as withModifiers, aY as resolveComponent, aZ as KeepAlive, a_ as resolveDynamicComponent, a$ as createApp } from "./marqueePlus-BkPUv9Mq.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1920,7 +1920,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-B1pWD-yr.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-Ca2i_7tR.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1931,7 +1931,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-B6bBrhg_.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-DVVnUP5q.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1942,7 +1942,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DOYZoMHX.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-BRf1tZtS.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1950,7 +1950,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-xZtjbJcH.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-8S5GBSzR.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1961,7 +1961,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-GARQ1uiJ.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BPnyg2-Z.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1972,7 +1972,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DXmag6pN.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BRvwvyZX.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -30425,13 +30425,8 @@ function parseYrc(yrc) {
           text: regres[3]
         });
       }
-    } else {
-      lrcline = {
-        time: "0",
-        lrc: []
-      };
+      lyric.push(lrcline);
     }
-    lyric.push(lrcline);
   });
   return lyric;
 }
@@ -30439,8 +30434,8 @@ function parseLrc(lrc) {
   let lyric = [];
   lrc.split("\n").forEach((line) => {
     let linetext = lrcToLyric(line);
-    if (linetext) {
-      let linetime = lrcToMS(line);
+    let linetime = lrcToMS(line);
+    if (linetime !== null) {
       lyric.push({
         time: linetime,
         lrc: [
@@ -30474,7 +30469,7 @@ function lrcToMS(lyricLine) {
   let express = /\[(\d+)[:.](\d+)[:.](\d+)\]/;
   let lineTime = express.exec(lyricLine);
   if (lineTime == null) {
-    return "0";
+    return null;
   }
   if (lineTime[3].length == 1) {
     lineTime[3] = "0" + lineTime[3];
@@ -30827,9 +30822,9 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
         let lyric = currentMusic.value.lyric;
         let lineIndex = lyric.findIndex((_, index) => {
           if (index + 1 < lyric.length) {
-            return lyric[index + 1].time >= currentTime;
+            return lyric[index + 1].time > currentTime && lyric[index].time <= currentTime;
           } else {
-            return true;
+            return lyric[index].time <= currentTime;
           }
         });
         if (lineIndex != -1) {
@@ -30839,6 +30834,8 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
               window.api.sendLyric(JSON.stringify(currentMusic.value?.lyric?.[lineIndex]));
             }
           }
+        } else {
+          lyricIndexNow.value.lineIndex = -1;
         }
       }
     } catch (e) {
@@ -30857,9 +30854,9 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
       let line = lyric[lyricIndexNow.value.lineIndex]?.lrc ?? [];
       let wordIndex = line.findIndex((_, index) => {
         if (index + 1 < line.length) {
-          return line[index + 1].time >= currentTime;
+          return line[index + 1].time > currentTime && line[index].time <= currentTime;
         } else {
-          return true;
+          return line[index].time <= currentTime;
         }
       });
       if (wordIndex != -1) {
@@ -33609,19 +33606,21 @@ const _hoisted_21$1 = { class: "btn-next button" };
 const _hoisted_22 = { class: "btn-list button" };
 const _hoisted_23 = { class: "lyric-list" };
 const _hoisted_24 = ["id"];
-const _hoisted_25 = ["id"];
-const _hoisted_26 = { class: "lyric-roma" };
-const _hoisted_27 = { class: "lyric-tran" };
+const _hoisted_25 = { class: "lyric-lrc" };
+const _hoisted_26 = ["id"];
+const _hoisted_27 = { class: "lyric-roma" };
+const _hoisted_28 = { class: "lyric-tran" };
 const _sfc_main$3 = {
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "26013845": unref(background),
-      "c38a47c4": unref(themeStore).mainColors[0] + `90`,
-      "5fe69b00": unref(playingListTran),
-      "9c18c7b0": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
-      "77835ff4": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
+      "23c3be72": unref(background),
+      "5a2c37de": unref(themeStore).mainColors[0] + `90`,
+      "11b80073": unref(playingListTran),
+      "cb6ca54a": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
+      "a6d73d8e": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
     }));
+    const instance = getCurrentInstance();
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
     let { currentMusic } = storeToRefs(playStore);
@@ -33637,6 +33636,10 @@ const _sfc_main$3 = {
       watch(() => currentMusic.value.currentLyricIndex.lineIndex, (value) => {
         console.log("当前歌词改变");
         lyricScrollbarRef.value.scrollTo({ top: document.getElementById("lrc-" + value)?.offsetTop - 200, behavior: "smooth" });
+      }, { deep: true });
+      watch(() => currentMusic.value.currentLyricIndex.wordIndex, (value) => {
+        console.log("当前watch的歌词逐字改变" + value);
+        instance.proxy.$forceUpdate();
       }, { deep: true });
     });
     onBeforeUnmount(() => {
@@ -33847,24 +33850,22 @@ const _sfc_main$3 = {
                 default: withCtx(() => [
                   createBaseVNode("ul", _hoisted_23, [
                     (openBlock(true), createElementBlock(Fragment, null, renderList(unref(currentMusic).lyric, (item, index) => {
-                      return openBlock(), createElementBlock("div", {
+                      return openBlock(), createElementBlock("li", {
                         key: index,
-                        class: normalizeClass({ "lyric-active color9": unref(currentMusic).currentLyricIndex.lineIndex == index })
+                        class: normalizeClass([{ "lyric-active color9": unref(currentMusic).currentLyricIndex.lineIndex == index }, "lyric-item transition-transform duration-700 ease-out transform-origin-left-top"]),
+                        id: "lrc-" + index
                       }, [
-                        createBaseVNode("li", {
-                          class: "lyric-lrc",
-                          id: "lrc-" + index
-                        }, [
+                        createBaseVNode("div", _hoisted_25, [
                           (openBlock(true), createElementBlock(Fragment, null, renderList(item.lrc, (word, wIndex) => {
                             return openBlock(), createElementBlock("span", {
                               id: "lrc-" + index + "-word-" + wIndex,
-                              class: normalizeClass([{ "text2": unref(currentMusic).currentLyricIndex.wordIndex >= wIndex && unref(currentMusic).currentLyricIndex.lineIndex == index }, "transition-all duration-300"])
-                            }, toDisplayString(word.text), 11, _hoisted_25);
+                              class: normalizeClass([{ "text3": unref(currentMusic).currentLyricIndex.wordIndex >= wIndex && unref(currentMusic).currentLyricIndex.lineIndex == index }, "transition-color duration-700 ease-out"])
+                            }, toDisplayString(word.text), 11, _hoisted_26);
                           }), 256))
-                        ], 8, _hoisted_24),
-                        createBaseVNode("li", _hoisted_26, toDisplayString(item.roma), 1),
-                        createBaseVNode("li", _hoisted_27, toDisplayString(item.tran), 1)
-                      ], 2);
+                        ]),
+                        createBaseVNode("div", _hoisted_27, toDisplayString(item.roma), 1),
+                        createBaseVNode("div", _hoisted_28, toDisplayString(item.tran), 1)
+                      ], 10, _hoisted_24);
                     }), 128))
                   ])
                 ]),
@@ -33891,7 +33892,7 @@ const _sfc_main$3 = {
     };
   }
 };
-const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-4d909d7f"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-8624c694"]]);
 const _hoisted_1$2 = { class: "ctrl-outer-outer" };
 const _hoisted_2$2 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };

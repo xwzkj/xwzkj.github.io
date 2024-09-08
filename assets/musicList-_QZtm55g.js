@@ -1,5 +1,5 @@
 import { an as derived, ai as c, ah as cB, aj as cM, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, aq as useThemeClass, b as ref, ae as watchEffect, h, af as Transition, ay as createKey, aO as _export_sfc, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aP as withCtx, F as Fragment, aT as renderList, aU as toDisplayString, u as unref, aR as createCommentVNode, aQ as createBlock, v as createTextVNode, I as withDirectives, at as vShow, aH as NIcon } from "./marqueePlus-BkPUv9Mq.js";
-import { q as fadeInTransition, t as useCompitable, N as NBaseLoading, w as pxfy, u as useUserStore, x as parseArray, y as parseArtist, z as likeAndUpdateLikelist, A as __unplugin_components_5, o as __unplugin_components_0, C as __unplugin_components_2, D as __unplugin_components_3$1 } from "./index-C0-cF-yS.js";
+import { q as fadeInTransition, t as useCompitable, N as NBaseLoading, w as pxfy, u as useUserStore, x as parseArray, y as parseArtist, z as likeAndUpdateLikelist, A as __unplugin_components_5, o as __unplugin_components_0, C as __unplugin_components_2, D as __unplugin_components_3$1 } from "./index-AagcZrS9.js";
 function self(vars) {
   const {
     opacityDisabled,
