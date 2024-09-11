@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-Ca2i_7tR.js","./itemCard-CqM_VGiW.js","./marqueePlus-BkPUv9Mq.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-wlvD3UWU.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-DVVnUP5q.js","./musicList-_QZtm55g.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-BRf1tZtS.js","./login-BZBt2RaQ.css","./account-8S5GBSzR.js","./account-CZ8eyIhU.css","./playlist-BPnyg2-Z.js","./playlist-_rqHwo7U.css","./setting-BRvwvyZX.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as withModifiers, aY as resolveComponent, aZ as KeepAlive, a_ as resolveDynamicComponent, a$ as createApp } from "./marqueePlus-BkPUv9Mq.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BdrPYsun.js","./itemCard--B-PA6Uk.js","./marqueePlus-Cxav8Oq3.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-CVzP9oNW.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-Bz8VGfOi.js","./musicList-BwzXhTZt.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-DmRX7-eG.js","./login-BZBt2RaQ.css","./account-CuvpWa3u.js","./account-CZ8eyIhU.css","./playlist-BV_s9yZC.js","./playlist-_rqHwo7U.css","./setting-ICV70k-O.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as withModifiers, aY as resolveComponent, aZ as KeepAlive, a_ as resolveDynamicComponent, a$ as createApp } from "./marqueePlus-Cxav8Oq3.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -16,7 +16,7 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
       "meta[property=csp-nonce]"
     );
     const cspNonce = cspNonceMeta?.nonce || cspNonceMeta?.getAttribute("nonce");
-    promise = Promise.all(
+    promise = Promise.allSettled(
       deps.map((dep) => {
         dep = assetsURL(dep, importerUrl);
         if (dep in seen) return;
@@ -57,25 +57,34 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
       })
     );
   }
-  return promise.then(() => baseModule()).catch((err) => {
-    const e = new Event("vite:preloadError", {
-      cancelable: true
-    });
-    e.payload = err;
-    window.dispatchEvent(e);
-    if (!e.defaultPrevented) {
-      throw err;
+  return promise.then((res) => {
+    for (const item of res || []) {
+      if (item.status !== "rejected") continue;
+      const e = new Event("vite:preloadError", {
+        cancelable: true
+      });
+      e.payload = item.reason;
+      window.dispatchEvent(e);
+      if (!e.defaultPrevented) {
+        throw item.reason;
+      }
     }
+    return baseModule();
   });
 };
 /*!
-  * vue-router v4.4.3
+  * vue-router v4.4.4
   * (c) 2024 Eduardo San Martin Morote
   * @license MIT
   */
 const isBrowser$2 = typeof document !== "undefined";
+function isRouteComponent(component) {
+  return typeof component === "object" || "displayName" in component || "props" in component || "__vccOpts" in component;
+}
 function isESModule(obj) {
-  return obj.__esModule || obj[Symbol.toStringTag] === "Module";
+  return obj.__esModule || obj[Symbol.toStringTag] === "Module" || // support CF with dynamic imports that do not
+  // add the Module string tag
+  obj.default && isRouteComponent(obj.default);
 }
 const assign$1 = Object.assign;
 function applyToParams(fn, params) {
@@ -997,6 +1006,7 @@ function normalizeRouteRecord(record) {
     leaveGuards: /* @__PURE__ */ new Set(),
     updateGuards: /* @__PURE__ */ new Set(),
     enterCallbacks: {},
+    mods: {},
     components: "components" in record ? record.components || null : record.component && { default: record.component }
   };
 }
@@ -1185,8 +1195,9 @@ function extractComponentsGuards(matched, guardType, to, from, runWithContext = 
         let componentPromise = rawComponent();
         guards.push(() => componentPromise.then((resolved) => {
           if (!resolved)
-            return Promise.reject(new Error(`Couldn't resolve component "${name}" at "${record.path}"`));
+            throw new Error(`Couldn't resolve component "${name}" at "${record.path}"`);
           const resolvedComponent = isESModule(resolved) ? resolved.default : resolved;
+          record.mods[name] = resolved;
           record.components[name] = resolvedComponent;
           const options = resolvedComponent.__vccOpts || resolvedComponent;
           const guard = options[guardType];
@@ -1196,9 +1207,6 @@ function extractComponentsGuards(matched, guardType, to, from, runWithContext = 
     }
   }
   return guards;
-}
-function isRouteComponent(component) {
-  return typeof component === "object" || "displayName" in component || "props" in component || "__vccOpts" in component;
 }
 function useLink(props) {
   const router2 = inject(routerKey);
@@ -1920,7 +1928,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-Ca2i_7tR.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BdrPYsun.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1931,7 +1939,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DVVnUP5q.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-Bz8VGfOi.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1942,7 +1950,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BRf1tZtS.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-DmRX7-eG.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1950,7 +1958,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-8S5GBSzR.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-CuvpWa3u.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1961,7 +1969,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BPnyg2-Z.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BV_s9yZC.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1972,7 +1980,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BRvwvyZX.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-ICV70k-O.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -30557,14 +30565,14 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     next();
   });
   function updateProgress(updateSession = false, conf = { duration: NaN, playbackRate: NaN, position: NaN }) {
-    if ("mediaSession" in navigator) {
-      conf.duration = conf.duration || player2.value.duration;
-      if (!conf.duration) {
-        conf.duration = 114.5141919;
-      }
-      conf.playbackRate = conf.playbackRate || player2.value.playbackRate || 1;
-      conf.position = conf.position || player2.value.currentTime || 0;
-      if (updateSession) {
+    if (updateSession) {
+      if ("mediaSession" in navigator) {
+        conf.duration = conf.duration || player2.value.duration;
+        if (!conf.duration) {
+          conf.duration = 114.5141919;
+        }
+        conf.playbackRate = conf.playbackRate || player2.value.playbackRate || 1;
+        conf.position = conf.position || player2.value.currentTime || 0;
         if (conf.duration == 114.5141919) {
           setTimeout(() => {
             updateProgress(true);
@@ -30814,10 +30822,11 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   }, 50);
   setInterval(() => {
     updateKtvLyric();
-  }, 25);
+  }, 15);
   function updateLyric() {
     try {
       if (musicStatus.value.paused == false && "lyric" in currentMusic.value) {
+        updateProgress();
         let currentTime = musicStatus.value.currentTime * 1e3 + 80;
         let lyric = currentMusic.value.lyric;
         let lineIndex = lyric.findIndex((_, index) => {
@@ -30846,21 +30855,21 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   }
   function updateKtvLyric() {
     try {
-      if (lyricIndexNow.value.lineIndex < 0 || musicStatus.value.paused == true || false in currentMusic.value) {
-        return;
-      }
-      let currentTime = musicStatus.value.currentTime * 1e3 + 80;
-      let lyric = currentMusic.value.lyric;
-      let line = lyric[lyricIndexNow.value.lineIndex]?.lrc ?? [];
-      let wordIndex = line.findIndex((_, index) => {
-        if (index + 1 < line.length) {
-          return line[index + 1].time > currentTime && line[index].time <= currentTime;
-        } else {
-          return line[index].time <= currentTime;
+      if (lyricIndexNow.value.lineIndex >= 0 || !musicStatus.value.paused || "lyric" in currentMusic.value) {
+        updateProgress();
+        let currentTime = musicStatus.value.currentTime * 1e3 + 80;
+        let lyric = currentMusic.value.lyric;
+        let line = lyric?.[lyricIndexNow.value.lineIndex]?.lrc ?? [];
+        let wordIndex = line.findIndex((_, index) => {
+          if (index + 1 < line.length) {
+            return line[index + 1].time > currentTime && line[index].time <= currentTime;
+          } else {
+            return line[index].time <= currentTime;
+          }
+        });
+        if (wordIndex != -1) {
+          lyricIndexNow.value.wordIndex = wordIndex;
         }
-      });
-      if (wordIndex != -1) {
-        lyricIndexNow.value.wordIndex = wordIndex;
       }
     } catch (e) {
       error(`出错了！
@@ -31545,7 +31554,8 @@ const _sfc_main$9 = {
   __name: "messageApi",
   setup(__props) {
     window.$NMessageApi = useMessage();
-    return () => {
+    return (_ctx, _cache) => {
+      return null;
     };
   }
 };
@@ -31553,7 +31563,8 @@ const _sfc_main$8 = {
   __name: "notificationApi",
   setup(__props) {
     window.$NNotificationApi = useNotification();
-    return () => {
+    return (_ctx, _cache) => {
+      return null;
     };
   }
 };
@@ -31561,7 +31572,8 @@ const _sfc_main$7 = {
   __name: "modalApi",
   setup(__props) {
     window.$NModalApi = useModal();
-    return () => {
+    return (_ctx, _cache) => {
+      return null;
     };
   }
 };
@@ -33614,13 +33626,12 @@ const _sfc_main$3 = {
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "23c3be72": unref(background),
-      "5a2c37de": unref(themeStore).mainColors[0] + `90`,
-      "11b80073": unref(playingListTran),
-      "cb6ca54a": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
-      "a6d73d8e": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
+      "15119e0a": unref(background),
+      "00b43379": unref(themeStore).mainColors[0] + `90`,
+      "749e1fdb": unref(playingListTran),
+      "6a141a7a": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
+      "457eb2be": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
     }));
-    const instance = getCurrentInstance();
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
     let { currentMusic } = storeToRefs(playStore);
@@ -33636,10 +33647,6 @@ const _sfc_main$3 = {
       watch(() => currentMusic.value.currentLyricIndex.lineIndex, (value) => {
         console.log("当前歌词改变");
         lyricScrollbarRef.value.scrollTo({ top: document.getElementById("lrc-" + value)?.offsetTop - 200, behavior: "smooth" });
-      }, { deep: true });
-      watch(() => currentMusic.value.currentLyricIndex.wordIndex, (value) => {
-        console.log("当前watch的歌词逐字改变" + value);
-        instance.proxy.$forceUpdate();
       }, { deep: true });
     });
     onBeforeUnmount(() => {
@@ -33892,7 +33899,7 @@ const _sfc_main$3 = {
     };
   }
 };
-const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-8624c694"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-2ae90c5e"]]);
 const _hoisted_1$2 = { class: "ctrl-outer-outer" };
 const _hoisted_2$2 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };

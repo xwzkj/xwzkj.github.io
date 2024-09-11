@@ -1,13 +1,14 @@
 /**
-* @vue/shared v3.5.3
+* @vue/shared v3.5.4
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
 /*! #__NO_SIDE_EFFECTS__ */
 // @__NO_SIDE_EFFECTS__
-function makeMap(str, expectsLowerCase) {
-  const set2 = new Set(str.split(","));
-  return (val) => set2.has(val);
+function makeMap(str) {
+  const map = /* @__PURE__ */ Object.create(null);
+  for (const key of str.split(",")) map[key] = 1;
+  return (val) => val in map;
 }
 const EMPTY_OBJ = {};
 const EMPTY_ARR = [];
@@ -194,7 +195,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.5.3
+* @vue/reactivity v3.5.4
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -458,7 +459,7 @@ function cleanupDeps(sub) {
 }
 function isDirty(sub) {
   for (let link = sub.deps; link; link = link.nextDep) {
-    if (link.dep.version !== link.version || link.dep.computed && refreshComputed(link.dep.computed) === false || link.dep.version !== link.version) {
+    if (link.dep.version !== link.version || link.dep.computed && refreshComputed(link.dep.computed) || link.dep.version !== link.version) {
       return true;
     }
   }
@@ -468,9 +469,6 @@ function isDirty(sub) {
   return false;
 }
 function refreshComputed(computed2) {
-  if (computed2.flags & 2) {
-    return false;
-  }
   if (computed2.flags & 4 && !(computed2.flags & 16)) {
     return;
   }
@@ -676,9 +674,16 @@ function trigger(target, type, key, newValue, oldValue, oldTarget) {
     globalVersion++;
     return;
   }
-  let deps = [];
+  const run = (dep) => {
+    if (dep) {
+      {
+        dep.trigger();
+      }
+    }
+  };
+  startBatch();
   if (type === "clear") {
-    deps = [...depsMap.values()];
+    depsMap.forEach(run);
   } else {
     const targetIsArray = isArray$1(target);
     const isArrayIndex = targetIsArray && isIntegerKey(key);
@@ -686,48 +691,41 @@ function trigger(target, type, key, newValue, oldValue, oldTarget) {
       const newLength = Number(newValue);
       depsMap.forEach((dep, key2) => {
         if (key2 === "length" || key2 === ARRAY_ITERATE_KEY || !isSymbol(key2) && key2 >= newLength) {
-          deps.push(dep);
+          run(dep);
         }
       });
     } else {
-      const push = (dep) => dep && deps.push(dep);
       if (key !== void 0) {
-        push(depsMap.get(key));
+        run(depsMap.get(key));
       }
       if (isArrayIndex) {
-        push(depsMap.get(ARRAY_ITERATE_KEY));
+        run(depsMap.get(ARRAY_ITERATE_KEY));
       }
       switch (type) {
         case "add":
           if (!targetIsArray) {
-            push(depsMap.get(ITERATE_KEY));
+            run(depsMap.get(ITERATE_KEY));
             if (isMap(target)) {
-              push(depsMap.get(MAP_KEY_ITERATE_KEY));
+              run(depsMap.get(MAP_KEY_ITERATE_KEY));
             }
           } else if (isArrayIndex) {
-            push(depsMap.get("length"));
+            run(depsMap.get("length"));
           }
           break;
         case "delete":
           if (!targetIsArray) {
-            push(depsMap.get(ITERATE_KEY));
+            run(depsMap.get(ITERATE_KEY));
             if (isMap(target)) {
-              push(depsMap.get(MAP_KEY_ITERATE_KEY));
+              run(depsMap.get(MAP_KEY_ITERATE_KEY));
             }
           }
           break;
         case "set":
           if (isMap(target)) {
-            push(depsMap.get(ITERATE_KEY));
+            run(depsMap.get(ITERATE_KEY));
           }
           break;
       }
-    }
-  }
-  startBatch();
-  for (const dep of deps) {
-    {
-      dep.trigger();
     }
   }
   endBatch();
@@ -1423,7 +1421,7 @@ function toRaw(observed) {
   return raw ? toRaw(raw) : observed;
 }
 function markRaw(value) {
-  if (Object.isExtensible(value)) {
+  if (!hasOwn(value, "__v_skip") && Object.isExtensible(value)) {
     def(value, "__v_skip", true);
   }
   return value;
@@ -1562,8 +1560,8 @@ class ComputedRefImpl {
    * @internal
    */
   notify() {
+    this.flags |= 16;
     if (activeSub !== this) {
-      this.flags |= 16;
       this.dep.notify();
     }
   }
@@ -1786,7 +1784,7 @@ function traverse(value, depth = Infinity, seen) {
   return value;
 }
 /**
-* @vue/runtime-core v3.5.3
+* @vue/runtime-core v3.5.4
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -3238,13 +3236,15 @@ function renderList(source, renderItem, cache, index) {
   const sourceIsArray = isArray$1(source);
   if (sourceIsArray || isString(source)) {
     const sourceIsReactiveArray = sourceIsArray && isReactive(source);
+    let needsWrap = false;
     if (sourceIsReactiveArray) {
+      needsWrap = !isShallow(source);
       source = shallowReadArray(source);
     }
     ret = new Array(source.length);
     for (let i = 0, l = source.length; i < l; i++) {
       ret[i] = renderItem(
-        sourceIsReactiveArray ? toReactive(source[i]) : source[i],
+        needsWrap ? toReactive(source[i]) : source[i],
         i,
         void 0,
         cached
@@ -6706,9 +6706,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.5.3";
+const version = "3.5.4";
 /**
-* @vue/runtime-dom v3.5.3
+* @vue/runtime-dom v3.5.4
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
