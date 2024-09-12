@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-NOJSR9T3.js","./itemCard-DqrRbzUK.js","./marqueePlus-Cxav8Oq3.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-Dk-dB_8h.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-BSGJgGcX.js","./musicList-COGcd2uX.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-BAi1J4FK.js","./login-BZBt2RaQ.css","./account-CaBZY5Wi.js","./account-CZ8eyIhU.css","./playlist-DgTesdH7.js","./playlist-_rqHwo7U.css","./setting-ByHoz_6v.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-H8r3XvK0.js","./itemCard-BI-8KXEG.js","./marqueePlus-Cxav8Oq3.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-DJF4mCEi.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-CwNltqtp.js","./musicList-8pMgwkLr.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-BKz8nzLx.js","./login-BZBt2RaQ.css","./account-CSulxUQ9.js","./account-CZ8eyIhU.css","./playlist-B3CwRnXi.js","./playlist-_rqHwo7U.css","./setting-DJW86KFe.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as withModifiers, aY as resolveComponent, aZ as KeepAlive, a_ as resolveDynamicComponent, a$ as createApp } from "./marqueePlus-Cxav8Oq3.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1928,7 +1928,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-NOJSR9T3.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-H8r3XvK0.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1939,7 +1939,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-BSGJgGcX.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CwNltqtp.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1950,7 +1950,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BAi1J4FK.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-BKz8nzLx.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1958,7 +1958,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-CaBZY5Wi.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-CSulxUQ9.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1969,7 +1969,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-DgTesdH7.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-B3CwRnXi.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1980,7 +1980,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-ByHoz_6v.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-DJW86KFe.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -33616,20 +33616,21 @@ const _hoisted_21$1 = { class: "btn-next button" };
 const _hoisted_22 = { class: "btn-list button" };
 const _hoisted_23 = { class: "lyric-list" };
 const _hoisted_24 = ["id"];
-const _hoisted_25 = { class: "lyric-lrc" };
+const _hoisted_25 = { class: "lyric-lrc flex flex-wrap" };
 const _hoisted_26 = ["id"];
-const _hoisted_27 = { class: "lyric-roma" };
-const _hoisted_28 = { class: "lyric-tran" };
+const _hoisted_27 = { class: "select-none" };
+const _hoisted_28 = { class: "lyric-roma" };
+const _hoisted_29 = { class: "lyric-tran" };
 const _sfc_main$3 = {
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "3195210c": unref(background),
-      "0b62afee": unref(themeStore).mainColors[0] + `90`,
-      "019c9be6": unref(lyricWordNowDuration),
-      "3758972a": unref(playingListTran),
-      "36326353": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
-      "487d1731": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
+      "456cbb91": unref(background),
+      "3de2a052": unref(themeStore).mainColors[0] + `90`,
+      "eb73e538": unref(lyricWordNowDuration),
+      "afe94298": unref(playingListTran),
+      "e1638948": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
+      "bcce218c": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
     }));
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
@@ -33644,7 +33645,9 @@ const _sfc_main$3 = {
     let displayLyricWhenScreenIsNotWide = ref(false);
     let lyricWordNowDuration = computed(() => {
       let index = currentMusic.value.currentLyricIndex;
-      return `${parseFloat(currentMusic.value?.lyric?.[index.lineIndex]?.lrc?.[index.wordIndex]?.duration / 1e3)}s`;
+      let duration2 = parseFloat(currentMusic.value?.lyric?.[index.lineIndex]?.lrc?.[index.wordIndex]?.duration / 1e3);
+      console.log(playStore.musicStatus.paused);
+      return `${duration2}s${playStore.musicStatus.paused ? " paused" : ""}`;
     });
     onMounted(async () => {
       watch(() => currentMusic.value.currentLyricIndex.lineIndex, (value) => {
@@ -33867,22 +33870,24 @@ const _sfc_main$3 = {
                       }, [
                         createBaseVNode("div", _hoisted_25, [
                           (openBlock(true), createElementBlock(Fragment, null, renderList(item.lrc, (word, wIndex) => {
-                            return openBlock(), createElementBlock("span", {
+                            return openBlock(), createElementBlock("div", {
                               id: "lrc-" + index + "-word-" + wIndex,
-                              class: "relative"
+                              class: normalizeClass(["relative", {
+                                "lyric-word-end-with-space": word.text.slice(-1) == " "
+                              }])
                             }, [
-                              createBaseVNode("span", null, toDisplayString(word.text), 1),
+                              createBaseVNode("span", _hoisted_27, toDisplayString(word.text), 1),
                               createBaseVNode("span", {
-                                class: normalizeClass(["absolute start-0 z-1 lyric-word-top text3", {
+                                class: normalizeClass(["select-none absolute left-0 top-0 bottom-0 z-1 lyric-word-top text3", {
                                   "lyric-word-active": unref(currentMusic).currentLyricIndex.wordIndex == wIndex && unref(currentMusic).currentLyricIndex.lineIndex == index,
                                   "lyric-word-done": unref(currentMusic).currentLyricIndex.wordIndex > wIndex && unref(currentMusic).currentLyricIndex.lineIndex == index
                                 }])
                               }, toDisplayString(word.text), 3)
-                            ], 8, _hoisted_26);
+                            ], 10, _hoisted_26);
                           }), 256))
                         ]),
-                        createBaseVNode("div", _hoisted_27, toDisplayString(item.roma), 1),
-                        createBaseVNode("div", _hoisted_28, toDisplayString(item.tran), 1)
+                        createBaseVNode("div", _hoisted_28, toDisplayString(item.roma), 1),
+                        createBaseVNode("div", _hoisted_29, toDisplayString(item.tran), 1)
                       ], 10, _hoisted_24);
                     }), 128))
                   ])
@@ -33910,7 +33915,7 @@ const _sfc_main$3 = {
     };
   }
 };
-const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-b183cbe2"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-ad2e7f08"]]);
 const _hoisted_1$2 = { class: "ctrl-outer-outer" };
 const _hoisted_2$2 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };
