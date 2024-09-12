@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-H8r3XvK0.js","./itemCard-BI-8KXEG.js","./marqueePlus-Cxav8Oq3.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-DJF4mCEi.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-CwNltqtp.js","./musicList-8pMgwkLr.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-BKz8nzLx.js","./login-BZBt2RaQ.css","./account-CSulxUQ9.js","./account-CZ8eyIhU.css","./playlist-B3CwRnXi.js","./playlist-_rqHwo7U.css","./setting-DJW86KFe.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DVH08Z1O.js","./itemCard-BAyiSziJ.js","./marqueePlus-Cxav8Oq3.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-CYNV7wyv.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-B1D1RDbj.js","./musicList-BXs41_Fl.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-DYXIet0X.js","./login-BZBt2RaQ.css","./account-Dyude1OQ.js","./account-CZ8eyIhU.css","./playlist-Bpa1jmqE.js","./playlist-_rqHwo7U.css","./setting-B4eNwJ8m.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as withModifiers, aY as resolveComponent, aZ as KeepAlive, a_ as resolveDynamicComponent, a$ as createApp } from "./marqueePlus-Cxav8Oq3.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1928,7 +1928,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-H8r3XvK0.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-DVH08Z1O.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1939,7 +1939,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-CwNltqtp.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-B1D1RDbj.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1950,7 +1950,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BKz8nzLx.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-DYXIet0X.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1958,7 +1958,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-CSulxUQ9.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-Dyude1OQ.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1969,7 +1969,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-B3CwRnXi.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-Bpa1jmqE.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1980,7 +1980,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DJW86KFe.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-B4eNwJ8m.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }

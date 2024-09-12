@@ -41,7 +41,9 @@
     padding-right: 10px;
     width: 100%;
     height: 100%;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
     color: var(--0d4c1843);
     text-shadow:
         var(--0d4c18de) 0 0 0.3rem,
