@@ -1,5 +1,5 @@
 /**
-* @vue/shared v3.5.4
+* @vue/shared v3.5.5
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -195,7 +195,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.5.4
+* @vue/reactivity v3.5.5
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -443,9 +443,11 @@ function prepareDeps(sub) {
 function cleanupDeps(sub) {
   let head;
   let tail = sub.depsTail;
-  for (let link = tail; link; link = link.prevDep) {
+  let link = tail;
+  while (link) {
+    const prev = link.prevDep;
     if (link.version === -1) {
-      if (link === tail) tail = link.prevDep;
+      if (link === tail) tail = prev;
       removeSub(link);
       removeDep(link);
     } else {
@@ -453,6 +455,7 @@ function cleanupDeps(sub) {
     }
     link.dep.activeLink = link.prevActiveLink;
     link.prevActiveLink = void 0;
+    link = prev;
   }
   sub.deps = head;
   sub.depsTail = tail;
@@ -559,6 +562,14 @@ function cleanupEffect(e) {
   }
 }
 let globalVersion = 0;
+class Link {
+  constructor(sub, dep) {
+    this.sub = sub;
+    this.dep = dep;
+    this.version = dep.version;
+    this.nextDep = this.prevDep = this.nextSub = this.prevSub = this.prevActiveLink = void 0;
+  }
+}
 class Dep {
   constructor(computed2) {
     this.computed = computed2;
@@ -572,16 +583,7 @@ class Dep {
     }
     let link = this.activeLink;
     if (link === void 0 || link.sub !== activeSub) {
-      link = this.activeLink = {
-        dep: this,
-        sub: activeSub,
-        version: this.version,
-        nextDep: void 0,
-        prevDep: void 0,
-        nextSub: void 0,
-        prevSub: void 0,
-        prevActiveLink: void 0
-      };
+      link = this.activeLink = new Link(activeSub, this);
       if (!activeSub.deps) {
         activeSub.deps = activeSub.depsTail = link;
       } else {
@@ -1784,7 +1786,7 @@ function traverse(value, depth = Infinity, seen) {
   return value;
 }
 /**
-* @vue/runtime-core v3.5.4
+* @vue/runtime-core v3.5.5
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -2218,6 +2220,9 @@ const TeleportImpl = {
       insert(mainAnchor, container, anchor);
       const mount2 = (container2, anchor2) => {
         if (shapeFlag & 16) {
+          if (parentComponent && parentComponent.isCE) {
+            parentComponent.ce._teleportTarget = container2;
+          }
           mountChildren(
             children,
             container2,
@@ -6706,9 +6711,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.5.4";
+const version = "3.5.5";
 /**
-* @vue/runtime-dom v3.5.4
+* @vue/runtime-dom v3.5.5
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/

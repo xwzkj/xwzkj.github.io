@@ -1,4 +1,4 @@
-import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, d as defineComponent, aS as useCssVars, u as unref, b as ref, D as onMounted, aN as createVNode, aP as withCtx, aV as MarqueePlus, aH as NIcon, b0 as createApp } from "./__uno-GkJLVWg3.js";
+import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, d as defineComponent, aS as useCssVars, u as unref, b as ref, D as onMounted, aN as createVNode, aP as withCtx, aV as MarqueePlus, aH as NIcon, b0 as createApp } from "./__uno-ClEdYsuy.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -48,15 +48,15 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "lyricApp",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "6c471ae2": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
-      "c51f0838": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
-      "960c9a9c": unref(isLocked) ? `none` : `block`,
-      "69ae0c08": unref(mainColors)[7],
-      "2d71f6e3": unref(displayCtrl) ? `flex` : `none`,
-      "ab7aea5a": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
-      "57542012": unref(mainColors)[9] + `80`,
-      "5752e4be": unref(mainColors)[9] + `b0`,
-      "69ae0b6d": unref(mainColors)[2]
+      "25f0238c": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
+      "2fdf88e8": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
+      "a94f0f4c": unref(isLocked) ? `none` : `block`,
+      "0fee57b0": unref(mainColors)[7],
+      "0735f28b": unref(displayCtrl) ? `flex` : `none`,
+      "6258362b": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
+      "bd104d66": unref(mainColors)[7] + `80`,
+      "bd0f1212": unref(mainColors)[7] + `b0`,
+      "0fee5715": unref(mainColors)[2]
     }));
     let isLocked = ref(false);
     let needLockWhenMouseLeave = false;
