@@ -1,0 +1,65 @@
+.outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+.outer:hover {
+  background: var(--6c471ae2);
+  border: 1px solid var(--c51f0838);
+}
+.none-after-lock {
+  display: var(--960c9a9c);
+}
+.ctrl {
+  height: 2.2rem;
+  color: var(--69ae0c08);
+}
+.ctrl-box {
+  display: var(--2d71f6e3);
+  justify-content: space-around;
+}
+.drag {
+  cursor: move;
+  -webkit-app-region: drag;
+}
+.lock {
+  border-radius: 10%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.lock:hover {
+  background-color: var(--ab7aea5a);
+}
+.lyric {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.lyric :not(.lyric-word-top) {
+  color: #eeeeee;
+  /* -webkit-text-stroke: 1px v-bind('mainColors[7]'); */
+  text-shadow: var(--57542012) 0 0 0.3rem, var(--57542012) 0 0 0.3rem, var(--57542012) 0 0 0.3rem, var(--57542012) 0 0 0.3rem;
+}
+.lyric-word-top {
+  text-shadow: var(--5752e4be) 0 0 0.3rem, var(--5752e4be) 0 0 0.3rem, var(--5752e4be) 0 0 0.3rem, var(--5752e4be) 0 0 0.3rem;
+}
+.lyric-lrc {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.lyric-sec {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.text3 {
+  color: var(--69ae0b6d);
+}

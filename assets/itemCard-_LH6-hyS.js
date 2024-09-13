@@ -1,6 +1,6 @@
-import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aS as useCssVars, u as unref, b as ref, aN as createVNode, aP as withCtx, v as createTextVNode, aU as toDisplayString, b0 as normalizeStyle, aH as NIcon } from "./marqueePlus-Cxav8Oq3.js";
-import { d as useThemeStore, a as useRouter, m as getColorFromImg, n as mixColor } from "./index-CS87oSmS.js";
-import { _ as __unplugin_components_1$1 } from "./Ellipsis-DOWJcWX0.js";
+import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aS as useCssVars, u as unref, b as ref, aN as createVNode, aP as withCtx, v as createTextVNode, aU as toDisplayString, b1 as normalizeStyle, aH as NIcon } from "./__uno-GkJLVWg3.js";
+import { d as useThemeStore, a as useRouter, m as getColorFromImg, n as mixColor } from "./index-DzphWyup.js";
+import { _ as __unplugin_components_1$1 } from "./Ellipsis-DCQU2pll.js";
 const _hoisted_1$1 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -29,7 +29,7 @@ const _sfc_main = {
   props: ["imgurl", "text", "click", "isDailySongs"],
   setup(__props) {
     useCssVars((_ctx) => ({
-      "7d659316": unref(itemColor)
+      "207feb39": unref(itemColor)
     }));
     let themeStore = useThemeStore();
     let props = __props;
@@ -89,7 +89,7 @@ const _sfc_main = {
     };
   }
 };
-const itemCard = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-5c7c70b4"]]);
+const itemCard = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ec765ca7"]]);
 export {
   itemCard as i
 };

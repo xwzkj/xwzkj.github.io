@@ -9738,21 +9738,91 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
+const _hoisted_1$1 = { class: "select-none lyric-word" };
+const _sfc_main$1 = /* @__PURE__ */ defineComponent({
+  __name: "lyricLine",
+  props: {
+    currentWordIndex: {},
+    line: {},
+    paused: { type: Boolean },
+    canWrap: { type: Boolean, default: true }
+  },
+  setup(__props) {
+    useCssVars((_ctx) => ({
+      "5c60c956": unref(lyricWordNowDuration)
+    }));
+    let props = __props;
+    let lyricWordNowDuration = computed(() => {
+      let duration = props.currentWordIndex?.wordDuration / 1e3;
+      return `${duration}s${props?.paused ? " paused" : ""}`;
+    });
+    return (_ctx, _cache) => {
+      return openBlock(), createElementBlock("div", null, [
+        createBaseVNode("div", {
+          class: normalizeClass(["flex", {
+            "flex-wrap": unref(props).canWrap,
+            "flex-nowrap": !unref(props).canWrap
+          }])
+        }, [
+          (openBlock(true), createElementBlock(Fragment, null, renderList(unref(props).line, (word, wIndex) => {
+            return openBlock(), createElementBlock("span", {
+              class: normalizeClass(["relative", [
+                {
+                  "lyric-word-end-with-space": word?.text?.slice(-1) == " "
+                },
+                "lrc-word-" + wIndex
+              ]])
+            }, [
+              createBaseVNode("span", _hoisted_1$1, toDisplayString(word.text), 1),
+              createBaseVNode("span", {
+                class: normalizeClass(["select-none absolute left-0 top-0 bottom-0 z-1 lyric-word-top text3 lyric-word", {
+                  "lyric-word-active": unref(props).currentWordIndex?.wordIndex == wIndex,
+                  "lyric-word-done": unref(props).currentWordIndex?.wordIndex > wIndex
+                }])
+              }, toDisplayString(word.text), 3)
+            ], 2);
+          }), 256))
+        ], 2)
+      ]);
+    };
+  }
+});
+const lyricLine = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-5d5ea47c"]]);
 const _hoisted_1 = { class: "marquee-outer" };
 const _hoisted_2 = { class: "marquee-container" };
 const _hoisted_3 = ["innerHTML"];
 const _hoisted_4 = ["innerHTML"];
 const _hoisted_5 = ["innerHTML"];
-const _sfc_main = {
+const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "marqueePlus",
-  props: { html: String, speed: Number, lyricMode: Boolean },
+  props: {
+    html: {},
+    lineData: { default: () => {
+      return {
+        line: [
+          {
+            text: "",
+            time: "0",
+            duration: "0"
+          }
+        ],
+        currentWordIndex: {
+          wordDuration: 0,
+          wordIndex: 0
+        },
+        paused: false
+      };
+    } },
+    speed: { default: 80 },
+    lyricMode: { type: Boolean, default: false }
+  },
   setup(__props) {
     useCssVars((_ctx) => ({
-      "d3d70608": unref(marqueeAnimation).name,
-      "690caf85": unref(marqueeAnimation).duration,
-      "2bf00532": unref(marqueeAnimation).delay,
-      "d3d86dd6": unref(marqueeAnimation).loop,
-      "0c43f223": unref(marqueeAnimation).lyricDistance
+      "0219a090": unref(marqueeAnimation).name,
+      "3fede919": unref(marqueeAnimation).duration,
+      "408f541e": unref(marqueeAnimation).delay,
+      "0218eca9": unref(marqueeAnimation).loop,
+      "ca68d5e2": unref(marqueeAnimation).lyricDistance
     }));
     let props = __props;
     let text1Ele = ref(null);
@@ -9776,10 +9846,13 @@ const _sfc_main = {
       }
     });
     let limit = true;
-    watch(props, () => {
+    let lineUpdated = () => {
       marqueeAnimation.value.name = "";
       limit = false;
-    }, { deep: true });
+      console.log("marquee 更新");
+    };
+    watch(() => props.html, lineUpdated);
+    watch(() => props.lineData.line, lineUpdated);
     onUpdated(() => {
       if (!limit) {
         updateIfNeedScroll();
@@ -9795,13 +9868,12 @@ const _sfc_main = {
         needScroll.value = widthValue > sizerEle.value.offsetWidth;
         if (needScroll.value) {
           marqueeAnimation.value.name = props.lyricMode ? "marquee-lyric" : "marquee";
-          marqueeAnimation.value.duration = (props.lyricMode ? widthValue - sizerEle.value.offsetWidth : widthValue) / (props.speed ?? 80) + "s";
+          marqueeAnimation.value.duration = (props.lyricMode ? widthValue - sizerEle.value.offsetWidth : widthValue) / props.speed + "s";
           marqueeAnimation.value.loop = props.lyricMode ? "1" : "infinite";
           marqueeAnimation.value.lyricDistance = "-" + (widthValue - sizerEle.value.offsetWidth) + "px";
         }
       } else {
         needScroll.value = false;
-        console.log("marquee 判断 未挂载", text1Ele.value, sizerEle.value);
       }
     }
     return (_ctx, _cache) => {
@@ -9815,9 +9887,19 @@ const _sfc_main = {
             createBaseVNode("div", {
               class: "marquee-text1 marquee-content",
               ref_key: "text1Ele",
-              ref: text1Ele,
-              innerHTML: unref(props).html
-            }, null, 8, _hoisted_3),
+              ref: text1Ele
+            }, [
+              !unref(props).lyricMode ? (openBlock(), createElementBlock("div", {
+                key: 0,
+                innerHTML: unref(props).html
+              }, null, 8, _hoisted_3)) : (openBlock(), createBlock(lyricLine, {
+                key: 1,
+                line: unref(props)?.lineData?.line,
+                "current-word-index": unref(props)?.lineData?.currentWordIndex,
+                paused: unref(props)?.lineData?.paused,
+                "can-wrap": false
+              }, null, 8, ["line", "current-word-index", "paused"]))
+            ], 512),
             withDirectives(createBaseVNode("div", {
               class: "marquee-text2 marquee-content",
               innerHTML: unref(props).html
@@ -9831,16 +9913,26 @@ const _sfc_main = {
         withDirectives(createBaseVNode("div", {
           class: "marquee-static-text",
           ref_key: "staticTextEle",
-          ref: staticTextEle,
-          innerHTML: unref(props).html
-        }, null, 8, _hoisted_5), [
+          ref: staticTextEle
+        }, [
+          !unref(props).lyricMode ? (openBlock(), createElementBlock("div", {
+            key: 0,
+            innerHTML: unref(props).html
+          }, null, 8, _hoisted_5)) : (openBlock(), createBlock(lyricLine, {
+            key: 1,
+            line: unref(props)?.lineData?.line,
+            "current-word-index": unref(props)?.lineData?.currentWordIndex,
+            paused: unref(props)?.lineData?.paused,
+            "can-wrap": false
+          }, null, 8, ["line", "current-word-index", "paused"]))
+        ], 512), [
           [vShow, !unref(needScroll)]
         ])
       ], 512);
     };
   }
-};
-const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-633ab8bf"]]);
+});
+const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-af9ea66a"]]);
 export {
   Map$1 as $,
   readonly as A,
@@ -9871,7 +9963,7 @@ export {
   MapCache as Z,
   toSource as _,
   shallowReactive as a,
-  createApp as a$,
+  resolveDynamicComponent as a$,
   eq as a0,
   Uint8Array as a1,
   isBuffer as a2,
@@ -9905,10 +9997,10 @@ export {
   toDisplayString as aU,
   MarqueePlus as aV,
   normalizeClass as aW,
-  withModifiers as aX,
-  resolveComponent as aY,
-  KeepAlive as aZ,
-  resolveDynamicComponent as a_,
+  lyricLine as aX,
+  withModifiers as aY,
+  resolveComponent as aZ,
+  KeepAlive as a_,
   baseFor as aa,
   configProviderInjectionKey as ab,
   cssrAnchorMetaName as ac,
@@ -9936,19 +10028,20 @@ export {
   createKey as ay,
   composite as az,
   ref as b,
-  normalizeStyle as b0,
-  useMergedClsPrefix as b1,
-  toHexaString as b2,
-  rgba as b3,
-  toHslaString as b4,
-  toHsvaString as b5,
-  toRgbaString as b6,
-  hsla as b7,
-  hsva as b8,
-  toHexString as b9,
-  toHslString as ba,
-  toRgbString as bb,
-  toHsvString as bc,
+  createApp as b0,
+  normalizeStyle as b1,
+  useMergedClsPrefix as b2,
+  toHexaString as b3,
+  rgba as b4,
+  toHslaString as b5,
+  toHsvaString as b6,
+  toRgbaString as b7,
+  hsla as b8,
+  hsva as b9,
+  toHexString as ba,
+  toHslString as bb,
+  toRgbString as bc,
+  toHsvString as bd,
   computed as c,
   defineComponent as d,
   effectScope as e,
@@ -9958,12 +10051,12 @@ export {
   inject as i,
   hasInjectionContext as j,
   getCurrentScope as k,
-  toRefs as l,
+  toRef as l,
   markRaw as m,
   nextTick as n,
   onScopeDispose as o,
   provide as p,
-  toRef as q,
+  toRefs as q,
   reactive as r,
   shallowRef as s,
   toRaw as t,

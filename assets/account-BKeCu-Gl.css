@@ -1,46 +1,46 @@
 
-.account-user-detail[data-v-ee36bbe5] {
+.account-user-detail[data-v-745c5829] {
     display: flex;
     padding: 2rem;
     margin: 1rem;
     border-radius: 2rem;
     /* background: v-bind('usrAvaColor'); */
-    background: var(--4ae75e68);
+    background: var(--b519bcac);
 }
-.account-user-avatar[data-v-ee36bbe5] {
+.account-user-avatar[data-v-745c5829] {
     width: 10rem;
     border-radius: 0.8rem;
     margin: 1rem;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
-.account-user-data-info[data-v-ee36bbe5] {
+.account-user-data-info[data-v-745c5829] {
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
 }
-.account-userVIP[data-v-ee36bbe5] {
+.account-userVIP[data-v-745c5829] {
     width: 3.5rem;
     height: auto;
 }
-.account-user-name[data-v-ee36bbe5] {
+.account-user-name[data-v-745c5829] {
     font-size: 1.5rem;
     padding-top: 1rem;
     font-weight: 500;
 }
-.account-user-area[data-v-ee36bbe5] {
+.account-user-area[data-v-745c5829] {
     color: gray;
 }
-.account-user-playlists-title[data-v-ee36bbe5] {
+.account-user-playlists-title[data-v-745c5829] {
     font-size: 1.2rem;
     padding-left: 1rem;
 }
-.account-user-playlists-ul[data-v-ee36bbe5] {
+.account-user-playlists-ul[data-v-745c5829] {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
 }
-li[data-v-ee36bbe5] {
+li[data-v-745c5829] {
     list-style: none;
 }
-ul[data-v-ee36bbe5] {
+ul[data-v-745c5829] {
     padding: 0;
 }
