@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DVH08Z1O.js","./itemCard-BAyiSziJ.js","./marqueePlus-Cxav8Oq3.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-CYNV7wyv.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-B1D1RDbj.js","./musicList-BXs41_Fl.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-DYXIet0X.js","./login-BZBt2RaQ.css","./account-Dyude1OQ.js","./account-CZ8eyIhU.css","./playlist-Bpa1jmqE.js","./playlist-_rqHwo7U.css","./setting-B4eNwJ8m.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DGOB7nwS.js","./itemCard-8LDUmGUd.js","./marqueePlus-Cxav8Oq3.js","./marqueePlus-CLo2Jn4F.css","./Ellipsis-DOWJcWX0.js","./itemCard-Bgy-kfmm.css","./home-DEmyRBvu.css","./search-CBwaIcAg.js","./musicList-CTEY1aEh.js","./musicList-C2Gx6pRn.css","./search-CbLMsM3O.css","./login-qZEahQBo.js","./login-BZBt2RaQ.css","./account-DrDtJFgU.js","./account-CZ8eyIhU.css","./playlist-BM4CVeJ2.js","./playlist-_rqHwo7U.css","./setting-CsEcgvdO.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRefs, q as toRef, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as withModifiers, aY as resolveComponent, aZ as KeepAlive, a_ as resolveDynamicComponent, a$ as createApp } from "./marqueePlus-Cxav8Oq3.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1928,7 +1928,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-DVH08Z1O.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-DGOB7nwS.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1939,7 +1939,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-B1D1RDbj.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CBwaIcAg.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1950,7 +1950,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DYXIet0X.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-qZEahQBo.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1958,7 +1958,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-Dyude1OQ.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-DrDtJFgU.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1969,7 +1969,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-Bpa1jmqE.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BM4CVeJ2.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1980,7 +1980,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-B4eNwJ8m.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-CsEcgvdO.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -30512,7 +30512,7 @@ const emitter = mitt();
 const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   console.log("playstore被创建 ");
   let player2 = ref(new Audio());
-  let lyricIndexNow = ref({ lineIndex: -1, wordIndex: -1 });
+  let lyricIndexNow = ref({ lineIndex: -1, wordIndex: -1, wordDuration: 0 });
   let currentMusic = computed(() => {
     let userStore = useUserStore();
     return {
@@ -30838,6 +30838,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
         if (lineIndex != -1) {
           if (lyricIndexNow.value.lineIndex != lineIndex) {
             lyricIndexNow.value.lineIndex = lineIndex;
+            updateKtvLyric();
             if (window.isElectron) {
               window.api.sendLyric(JSON.stringify(currentMusic.value?.lyric?.[lineIndex]));
             }
@@ -30867,6 +30868,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
         });
         if (wordIndex != -1) {
           lyricIndexNow.value.wordIndex = wordIndex;
+          lyricIndexNow.value.wordDuration = line[wordIndex].duration;
         }
       }
     } catch (e) {
@@ -33625,12 +33627,12 @@ const _sfc_main$3 = {
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "456cbb91": unref(background),
-      "3de2a052": unref(themeStore).mainColors[0] + `90`,
-      "eb73e538": unref(lyricWordNowDuration),
-      "afe94298": unref(playingListTran),
-      "e1638948": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
-      "bcce218c": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
+      "030610d2": unref(background),
+      "4db2440c": unref(themeStore).mainColors[0] + `90`,
+      "469779ea": unref(lyricWordNowDuration),
+      "f4049324": unref(playingListTran),
+      "5933b6d4": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
+      "349e4f18": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
     }));
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
@@ -33645,8 +33647,7 @@ const _sfc_main$3 = {
     let displayLyricWhenScreenIsNotWide = ref(false);
     let lyricWordNowDuration = computed(() => {
       let index = currentMusic.value.currentLyricIndex;
-      let duration2 = parseFloat(currentMusic.value?.lyric?.[index.lineIndex]?.lrc?.[index.wordIndex]?.duration / 1e3);
-      console.log(playStore.musicStatus.paused);
+      let duration2 = parseFloat(index.wordDuration / 1e3);
       return `${duration2}s${playStore.musicStatus.paused ? " paused" : ""}`;
     });
     onMounted(async () => {
@@ -33915,7 +33916,7 @@ const _sfc_main$3 = {
     };
   }
 };
-const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-ad2e7f08"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-7619faa2"]]);
 const _hoisted_1$2 = { class: "ctrl-outer-outer" };
 const _hoisted_2$2 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };
