@@ -48,15 +48,18 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "lyricApp",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "25f0238c": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
-      "2fdf88e8": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
-      "a94f0f4c": unref(isLocked) ? `none` : `block`,
-      "0fee57b0": unref(mainColors)[7],
-      "0735f28b": unref(displayCtrl) ? `flex` : `none`,
-      "6258362b": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
-      "bd104d66": unref(mainColors)[7] + `80`,
-      "bd0f1212": unref(mainColors)[7] + `b0`,
-      "0fee5715": unref(mainColors)[2]
+      "740da42f": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
+      "669e1f37": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
+      "5b015345": unref(isLocked) ? `none` : `block`,
+      "08f04c4a": unref(mainColors)[7],
+      "7013beb6": unref(displayCtrl) ? `flex` : `none`,
+      "d00c9dc0": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
+      "5f16cbaa": unref(mainColors)[6] + `a0`,
+      "5f16e4f9": unref(mainColors)[6] + `ff`,
+      "5f16e119": unref(mainColors)[6] + `ee`,
+      "5f16d959": unref(mainColors)[6] + `cc`,
+      "5f16d579": unref(mainColors)[6] + `bb`,
+      "08f04d80": unref(mainColors)[2]
     }));
     let isLocked = ref(false);
     let needLockWhenMouseLeave = false;

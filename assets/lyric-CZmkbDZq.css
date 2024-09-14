@@ -9,18 +9,18 @@
   border: 1px solid transparent;
 }
 .outer:hover {
-  background: var(--25f0238c);
-  border: 1px solid var(--2fdf88e8);
+  background: var(--740da42f);
+  border: 1px solid var(--669e1f37);
 }
 .none-after-lock {
-  display: var(--a94f0f4c);
+  display: var(--5b015345);
 }
 .ctrl {
   height: 2.2rem;
-  color: var(--0fee57b0);
+  color: var(--08f04c4a);
 }
 .ctrl-box {
-  display: var(--0735f28b);
+  display: var(--7013beb6);
   justify-content: space-around;
 }
 .drag {
@@ -33,7 +33,7 @@
   transition: all 0.5s;
 }
 .lock:hover {
-  background-color: var(--6258362b);
+  background-color: var(--d00c9dc0);
 }
 .lyric {
   padding-left: 10px;
@@ -47,10 +47,10 @@
 .lyric :not(.lyric-word-top) {
   color: #eeeeee;
   /* -webkit-text-stroke: 1px v-bind('mainColors[7]'); */
-  text-shadow: var(--bd104d66) 0 0 0.3rem, var(--bd104d66) 0 0 0.3rem, var(--bd104d66) 0 0 0.3rem, var(--bd104d66) 0 0 0.3rem;
+  text-shadow: var(--5f16cbaa) 0 0 0.3rem, var(--5f16cbaa) 0 0 0.3rem, var(--5f16cbaa) 0 0 0.3rem, var(--5f16cbaa) 0 0 0.3rem;
 }
 .lyric-word-top {
-  text-shadow: var(--bd0f1212) 0 0 0.3rem, var(--bd0f1212) 0 0 0.3rem, var(--bd0f1212) 0 0 0.3rem, var(--bd0f1212) 0 0 0.3rem;
+  text-shadow: var(--5f16e4f9) 0 0 0.3rem, var(--5f16e119) 0 0 0.3rem, var(--5f16d959) 0 0 0.3rem, var(--5f16d579) 0 0 0.3rem;
 }
 .lyric-lrc {
   font-size: 3rem;
@@ -61,5 +61,5 @@
   font-weight: 400;
 }
 .text3 {
-  color: var(--0fee5715);
+  color: var(--08f04d80);
 }
