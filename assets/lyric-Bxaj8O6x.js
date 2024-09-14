@@ -1,4 +1,4 @@
-import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, d as defineComponent, aS as useCssVars, u as unref, b as ref, D as onMounted, aN as createVNode, aP as withCtx, aV as MarqueePlus, aH as NIcon, b0 as createApp } from "./__uno-ClEdYsuy.js";
+import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, d as defineComponent, aS as useCssVars, u as unref, b as ref, D as onMounted, aN as createVNode, aP as withCtx, aV as MarqueePlus, aH as NIcon, b0 as createApp } from "./__uno-D4asJh8J.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -48,23 +48,20 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "lyricApp",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "740da42f": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
-      "669e1f37": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
-      "5b015345": unref(isLocked) ? `none` : `block`,
-      "08f04c4a": unref(mainColors)[7],
-      "7013beb6": unref(displayCtrl) ? `flex` : `none`,
-      "d00c9dc0": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
-      "5f16cbaa": unref(mainColors)[6] + `a0`,
-      "5f16e4f9": unref(mainColors)[6] + `ff`,
-      "5f16e119": unref(mainColors)[6] + `ee`,
-      "5f16d959": unref(mainColors)[6] + `cc`,
-      "5f16d579": unref(mainColors)[6] + `bb`,
-      "08f04d80": unref(mainColors)[2]
+      "ed849b18": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
+      "14316492": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
+      "33df43e0": unref(isLocked) ? `none` : `block`,
+      "015125b6": unref(mainColors)[7],
+      "ed9016de": unref(displayCtrl) ? `flex` : `none`,
+      "7c8ad465": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
+      "6a16d604": unref(mainColors)[6] + `dd`,
+      "0151253a": unref(mainColors)[3],
+      "0151251b": unref(mainColors)[2]
     }));
     let isLocked = ref(false);
     let needLockWhenMouseLeave = false;
     let displayCtrl = ref(false);
-    let mainColors = ref(["#fff9db", "#fff3bf", "#ffec99", "#ffe066", "#ffd43b", "#fcc419", "#fab005", "#f59f00", "#f08c00", "#e67700"]);
+    let mainColors = ref(["#fffdf0", "#fffbe3", "#fff4ba", "#f7e28d", "#ebca60", "#deb237", "#b88c25", "#916816", "#6b480b", "#452c06"]);
     let lyric = ref({});
     window?.getLyric(changeLyric);
     window?.getThemeColors(changeTheme);
@@ -75,6 +72,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       } else {
         if (lyric.value.hasOwnProperty("lrc")) {
           lyric.value.lrc.currentWordIndex = received?.lrc?.currentWordIndex;
+          lyric.value.lrc.paused = received?.lrc?.paused;
         }
       }
       console.log(lrc, lyric.value);

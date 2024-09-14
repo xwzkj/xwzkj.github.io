@@ -1,5 +1,5 @@
-import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, aq as useThemeClass, af as Transition, I as withDirectives, ay as createKey, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode } from "./__uno-ClEdYsuy.js";
-import { G as useStyle, H as inputLight, I as buttonLight, J as on, K as off, _ as __unplugin_components_0$1, L as fadeInScaleUpTransition, M as useFormItem, O as useLocale, P as useMergedState, Q as isMounted, R as useAdjustedTo, S as getPreciseEventTarget, T as Binder, V as VTarget, U as VFollower, W as clickoutside, X as call, B as Button, A as __unplugin_components_5, u as useUserStore, d as useThemeStore, s as success } from "./index-Bgo16t00.js";
+import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, aq as useThemeClass, af as Transition, I as withDirectives, ay as createKey, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode } from "./__uno-D4asJh8J.js";
+import { G as useStyle, H as inputLight, I as buttonLight, J as on, K as off, _ as __unplugin_components_0$1, L as fadeInScaleUpTransition, M as useFormItem, O as useLocale, P as useMergedState, Q as isMounted, R as useAdjustedTo, S as getPreciseEventTarget, T as Binder, V as VTarget, U as VFollower, W as clickoutside, X as call, B as Button, A as __unplugin_components_5, u as useUserStore, d as useThemeStore, s as success } from "./index-D_PQKB7O.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1885,7 +1885,7 @@ const _sfc_main$1 = {
       const _component_n_button = Button;
       const _component_n_card = __unplugin_components_5;
       return openBlock(), createElementBlock("div", _hoisted_1$1, [
-        createVNode(_component_n_card, null, {
+        createVNode(_component_n_card, { class: "setting-item-card" }, {
           default: withCtx(() => [
             createBaseVNode("div", _hoisted_2, [
               createBaseVNode("div", _hoisted_3, [
@@ -1936,14 +1936,14 @@ const _sfc_main$1 = {
     };
   }
 };
-const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-fd8edc5a"]]);
+const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-443755e3"]]);
 const _hoisted_1 = { class: "setting" };
 const _sfc_main = {
   __name: "setting",
   setup(__props) {
     let userStore = useUserStore();
     let themeStore = useThemeStore();
-    let primaryColor = ref(themeStore.mainColor);
+    let primaryColor = ref("");
     const isElectron = ref(window.isElectron);
     let defaultSpecialApi = ref(localStorage.getItem("specialApi") ?? "");
     onMounted(() => {
@@ -2025,7 +2025,7 @@ const _sfc_main = {
               createTextVNode("主题色")
             ])),
             t2: withCtx(() => _cache[10] || (_cache[10] = [
-              createTextVNode("默认是#c49526")
+              createTextVNode("默认是#DEB237")
             ])),
             action: withCtx(() => [
               createVNode(_component_n_color_picker, {
@@ -2065,7 +2065,7 @@ const _sfc_main = {
     };
   }
 };
-const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-f9b6597b"]]);
+const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-29232fe8"]]);
 export {
   setting as default
 };

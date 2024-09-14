@@ -9,18 +9,18 @@
   border: 1px solid transparent;
 }
 .outer:hover {
-  background: var(--740da42f);
-  border: 1px solid var(--669e1f37);
+  background: var(--ed849b18);
+  border: 1px solid var(--14316492);
 }
 .none-after-lock {
-  display: var(--5b015345);
+  display: var(--33df43e0);
 }
 .ctrl {
   height: 2.2rem;
-  color: var(--08f04c4a);
+  color: var(--015125b6);
 }
 .ctrl-box {
-  display: var(--7013beb6);
+  display: var(--ed9016de);
   justify-content: space-around;
 }
 .drag {
@@ -33,7 +33,7 @@
   transition: all 0.5s;
 }
 .lock:hover {
-  background-color: var(--d00c9dc0);
+  background-color: var(--7c8ad465);
 }
 .lyric {
   padding-left: 10px;
@@ -43,14 +43,15 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  /* -webkit-text-stroke: 1px v-bind('mainColors[7]'); */
 }
 .lyric :not(.lyric-word-top) {
-  color: #eeeeee;
-  /* -webkit-text-stroke: 1px v-bind('mainColors[7]'); */
-  text-shadow: var(--5f16cbaa) 0 0 0.3rem, var(--5f16cbaa) 0 0 0.3rem, var(--5f16cbaa) 0 0 0.3rem, var(--5f16cbaa) 0 0 0.3rem;
+  color: white;
+  --color: var(--6a16d604);
+  text-shadow: 1px 1px var(--color), -1px -1px var(--color), -1px 1px var(--color), 1px -1px var(--color), 2px 2px 0.5px var(--0151253a);
 }
 .lyric-word-top {
-  text-shadow: var(--5f16e4f9) 0 0 0.3rem, var(--5f16e119) 0 0 0.3rem, var(--5f16d959) 0 0 0.3rem, var(--5f16d579) 0 0 0.3rem;
+  color: var(--0151251b);
 }
 .lyric-lrc {
   font-size: 3rem;
@@ -59,7 +60,4 @@
 .lyric-sec {
   font-size: 2rem;
   font-weight: 400;
-}
-.text3 {
-  color: var(--08f04d80);
 }

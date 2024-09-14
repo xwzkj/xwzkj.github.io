@@ -86,10 +86,10 @@ ul[data-v-3e35b0e3] {
     width: 100%;
 }
 
-[data-v-15ffcf5c] {
+[data-v-9f9fabb9] {
   box-sizing: border-box;
 }
-.player-outer[data-v-15ffcf5c] {
+.player-outer[data-v-9f9fabb9] {
 
   position: absolute;
   z-index: 10;
@@ -105,16 +105,16 @@ ul[data-v-3e35b0e3] {
   /* 配合下面content的最大宽度 实现居中 */
   justify-content: center;
   /* 背景渐变 */
-  background-image: var(--7d40108e);
+  background-image: var(--1ebb9776);
 }
-.player-content[data-v-15ffcf5c] {
+.player-content[data-v-9f9fabb9] {
   display: flex;
   height: 100%;
   min-width: 400px;
   width: 100%;
   max-width: calc(100vh/9*16);
 }
-.player-background[data-v-15ffcf5c] {
+.player-background[data-v-9f9fabb9] {
   /* 半透明遮罩 */
   position: absolute;
   display: block;
@@ -122,63 +122,63 @@ ul[data-v-3e35b0e3] {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: var(--24720d2a);
+  background-color: var(--c4cad4e6);
 }
 
 /************************歌词部分**********************************************************************/
-.lyric-item[data-v-15ffcf5c] {
+.lyric-item[data-v-9f9fabb9] {
   transform: scale(0.95);
 }
-.lyric-lrc[data-v-15ffcf5c] {
+.lyric-lrc[data-v-9f9fabb9] {
   /* 歌词原文 */
   color: rgba(68, 68, 68, 0.8);
   font-size: 1.5rem;
   margin-top: 0.5rem;
 }
-.lyric-roma[data-v-15ffcf5c] {
+.lyric-roma[data-v-9f9fabb9] {
   /* 歌词罗马音 */
   color: rgba(87, 87, 87, 0.8);
   font-size: 1.2rem;
 }
-.lyric-tran[data-v-15ffcf5c] {
+.lyric-tran[data-v-9f9fabb9] {
   /* 歌词翻译 */
   color: rgba(87, 87, 87, 0.8);
   font-size: 1.4rem;
 }
-.lyric-active[data-v-15ffcf5c] {
+.lyric-active[data-v-9f9fabb9] {
   /* 当前歌词 */
   font-weight: 500;
   transform: scale(1);
 }
-.lyric-active .lyric-roma[data-v-15ffcf5c] {
+.lyric-active .lyric-roma[data-v-9f9fabb9] {
   /* 当前歌词罗马音 */
   color: rgb(50, 50, 50);
   /* font-size: 1.3rem; */
 }
-.lyric-active .lyric-tran[data-v-15ffcf5c] {
+.lyric-active .lyric-tran[data-v-9f9fabb9] {
   /* 当前歌词翻译 */
   color: rgb(45, 45, 45);
   /* font-size: 1.5rem; */
 }
-.column-lyric[data-v-15ffcf5c] {
+.column-lyric[data-v-9f9fabb9] {
   position: relative;
   display: flex;
   flex: 50%;
   height: 100%;
   padding: 2rem;
 }
-.container-lyric[data-v-15ffcf5c] {
+.container-lyric[data-v-9f9fabb9] {
   width: 100%;
   height: 100%;
   /* overflow-y: scroll; */
 }
-.lyric-list[data-v-15ffcf5c] {
+.lyric-list[data-v-9f9fabb9] {
   padding-top: 50%;
   padding-bottom: 50%;
 }
 
 /********************************播放控件**********************************************************/
-.column-player[data-v-15ffcf5c] {
+.column-player[data-v-9f9fabb9] {
   display: flex;
   flex: 50%;
   height: 100%;
@@ -187,42 +187,42 @@ ul[data-v-3e35b0e3] {
   min-width: 300px;
   position: relative;
 }
-.music-name[data-v-15ffcf5c] {
+.music-name[data-v-9f9fabb9] {
   font-size: 2rem;
 }
-.button[data-v-15ffcf5c] {
+.button[data-v-9f9fabb9] {
   cursor: pointer;
 }
-.player-ctrl-top[data-v-15ffcf5c] {
+.player-ctrl-top[data-v-9f9fabb9] {
   display: flex;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
-.btn-like[data-v-15ffcf5c],
-.btn-comment[data-v-15ffcf5c] {
+.btn-like[data-v-9f9fabb9],
+.btn-comment[data-v-9f9fabb9] {
   margin-left: 0.5rem;
 }
-.btn-control[data-v-15ffcf5c] {
+.btn-control[data-v-9f9fabb9] {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.btn-play-control[data-v-15ffcf5c] {
+.btn-play-control[data-v-9f9fabb9] {
   /* 上一曲 暂停 下一曲 按钮 */
   display: flex;
 }
-.container-player[data-v-15ffcf5c] {
+.container-player[data-v-9f9fabb9] {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
 }
-.player-centerblock[data-v-15ffcf5c] {
+.player-centerblock[data-v-9f9fabb9] {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.music-img-container[data-v-15ffcf5c] {
+.music-img-container[data-v-9f9fabb9] {
   margin-top: 1rem;
   margin-bottom: 1rem;
   position: relative;
@@ -236,35 +236,35 @@ ul[data-v-3e35b0e3] {
   overflow: hidden;
   /* 隐藏溢出部分 */
 }
-.music-img[data-v-15ffcf5c] {
+.music-img[data-v-9f9fabb9] {
   position: absolute;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.music-progress[data-v-15ffcf5c] {
+.music-progress[data-v-9f9fabb9] {
   width: 100%;
 }
-.player-ctrl[data-v-15ffcf5c] {
+.player-ctrl[data-v-9f9fabb9] {
   width: 90%;
 }
-ul[data-v-15ffcf5c] {
+ul[data-v-9f9fabb9] {
   list-style: none;
   padding: 0;
 }
-.player-playinglist-box[data-v-15ffcf5c] {
+.player-playinglist-box[data-v-9f9fabb9] {
   position: fixed;
   left: 0;
   top: 100%;
-  transform: translateY(var(--52ff7b8c));
+  transform: translateY(var(--a8d9ac22));
   height: 100%;
   width: 100%;
   background: none;
   z-index: 11;
   transition: all 0.7s ease-in-out;
 }
-.player-playinglist[data-v-15ffcf5c] {
+.player-playinglist[data-v-9f9fabb9] {
   position: absolute;
   top: 20%;
   left: 5%;
@@ -280,40 +280,40 @@ ul[data-v-15ffcf5c] {
 @media (max-width: 500px) {
 
   /* 0-500px 竖屏设备 */
-.column-lyric[data-v-15ffcf5c] {
-    display: var(--0dc5bb98);
+.column-lyric[data-v-9f9fabb9] {
+    display: var(--f5d11052);
     transition: all 0.7s ease-in-out;
 }
-.column-player[data-v-15ffcf5c] {
-    display: var(--0b67d612);
+.column-player[data-v-9f9fabb9] {
+    display: var(--d13ba896);
     transition: all 0.7s ease-in-out;
 }
-.container-player[data-v-15ffcf5c] {
+.container-player[data-v-9f9fabb9] {
     height: calc(100% - 3rem);
     transform: translateY(3rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.player-centerblock[data-v-15ffcf5c] {
+.player-centerblock[data-v-9f9fabb9] {
     flex: 1;
     justify-content: space-around;
 }
-.player-ctrl-top[data-v-15ffcf5c] {
+.player-ctrl-top[data-v-9f9fabb9] {
     margin-top: 0;
 }
 }
 
-[data-v-520ca430] {
+[data-v-cfc7a68b] {
     box-sizing: border-box;
 }
-.ctrl-outer-outer[data-v-520ca430] {
+.ctrl-outer-outer[data-v-cfc7a68b] {
     position: relative;
 }
-.ctrl-outer[data-v-520ca430] {
+.ctrl-outer[data-v-cfc7a68b] {
     position: fixed;
     z-index: 1;
-    top: calc(var(--vh, 1vh) * 100 - var(--76979019));
+    top: calc(var(--vh, 1vh) * 100 - var(--384114a2));
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -328,18 +328,18 @@ ul[data-v-15ffcf5c] {
             backdrop-filter: blur(20px);
     /* transition: all 0.5s ease-in-out; */
 }
-.ctrl-box[data-v-520ca430] {
+.ctrl-box[data-v-cfc7a68b] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-520ca430] {
+.ctrl-left[data-v-cfc7a68b] {
     flex: 1;
     display: flex;
     max-width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-520ca430] {
+.ctrl-img-box[data-v-cfc7a68b] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -352,39 +352,39 @@ ul[data-v-15ffcf5c] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-520ca430] {
+.ctrl-img[data-v-cfc7a68b] {
     position: absolute;
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
 }
-.ctrl-info-box[data-v-520ca430] {
+.ctrl-info-box[data-v-cfc7a68b] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-520ca430] {
+.ctrl-info-title[data-v-cfc7a68b] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-520ca430] {
+.ctrl-center[data-v-cfc7a68b] {
     flex: 1;
     padding-top: 0.8rem;
     max-width: calc(100% / 3.5);
 }
-.button[data-v-520ca430] {
+.button[data-v-cfc7a68b] {
     cursor: pointer;
 }
-.btn-control[data-v-520ca430] {
+.btn-control[data-v-cfc7a68b] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-520ca430] {
+.btn-play-control[data-v-cfc7a68b] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -392,42 +392,42 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-520ca430] {
+.ctrl-right[data-v-cfc7a68b] {
     flex: 1;
     max-width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.btn-desktop-lyric[data-v-520ca430],
-.btn-sound[data-v-520ca430] {
+.btn-desktop-lyric[data-v-cfc7a68b],
+.btn-sound[data-v-cfc7a68b] {
     margin-right: 1rem;
 }
-.btn-desktop-lyric[data-v-520ca430] {
+.btn-desktop-lyric[data-v-cfc7a68b] {
     font-weight: 400;
     font-size: 1.2rem;
     vertical-align: text-top;
     padding-bottom: 0.35rem;
     transition: all 0.2s linear;
 }
-.btn-desktop-lyric-active[data-v-520ca430] {
+.btn-desktop-lyric-active[data-v-cfc7a68b] {
     font-weight: 800 !important;
 }
 
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-520ca430] {
+.ctrl-playinglist[data-v-cfc7a68b] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--76979019));
+    height: calc(var(--vh, 1vh) * 100 - var(--384114a2));
     flex: 1;
 }
 
 /* ***************************************************************
 播放器-------------------------------------------------------------------===================
 *****************************************************************/
-.ctrl-player[data-v-520ca430] {
+.ctrl-player[data-v-cfc7a68b] {
     position: fixed;
     top: calc(var(--vh, 1vh) * 100);
     left: 0;
@@ -437,11 +437,11 @@ right---------------------------------------------------------
     z-index: 10;
 }
 @media screen and (max-width: 600px) {
-.ctrl-info-box[data-v-520ca430] {
+.ctrl-info-box[data-v-cfc7a68b] {
         display: none;
 }
-.btn-like[data-v-520ca430],
-    .btn-loop[data-v-520ca430] {
+.btn-like[data-v-cfc7a68b],
+    .btn-loop[data-v-cfc7a68b] {
         display: none;
 }
 }
@@ -486,51 +486,110 @@ right---------------------------------------------------------
 
 .app,
 .bg {
-  background-color: var(--0413e8cd);
+  background-color: var(--33c21166);
+}
+*{
+  --color-0: var(--33c21166);
+  --color-1: var(--33c21185);
+  --color-2: var(--33c211a4);
+  --color-3: var(--33c211c3);
+  --color-4: var(--33c211e2);
+  --color-5: var(--33c21201);
+  --color-6: var(--33c21220);
+  --color-7: var(--33c2123f);
+  --color-8: var(--33c2125e);
+  --color-9: var(--33c2127d);
 }
 .icon,
 .n-icon {
-  color: var(--0413e9c5);
+  color: var(--color-8);
 }
 .text1 {
-  color: var(--0413e9e4);
+  color: var(--color-9);
 }
 .text2 {
-  color: var(--0413e9a6);
+  color: var(--color-7);
 }
 .text3 {
-  color: var(--0413e987);
+  color: var(--color-6);
 }
 
 
 /* 主题色 */
 .color0 {
-  color: var(--0413e8cd);
+  color: var(--color-0);
 }
 .color1 {
-  color: var(--0413e8ec);
+  color: var(--color-1);
 }
 .color2 {
-  color: var(--0413e90b);
+  color: var(--color-2);
 }
 .color3 {
-  color: var(--0413e92a);
+  color: var(--color-3);
 }
 .color4 {
-  color: var(--0413e949);
+  color: var(--color-4);
 }
 .color5 {
-  color: var(--0413e968);
+  color: var(--color-5);
 }
 .color6 {
-  color: var(--0413e987);
+  color: var(--color-6);
 }
 .color7 {
-  color: var(--0413e9a6);
+  color: var(--color-7);
 }
 .color8 {
-  color: var(--0413e9c5);
+  color: var(--color-8);
 }
 .color9 {
-  color: var(--0413e9e4);
+  color: var(--color-9);
+}
+@font-face {
+  font-family: "MiSans VF";
+  src: url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/MiSans.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/MiSans.ttf'), url('https://cdn-static.xwzkj.top/fonts/MiSans.ttf'), url('https://static.xwzkj.top/fonts/MiSans.ttf');
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Thin.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Thin.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Thin.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Thin.ttf');
+  font-weight: 100;
+  /* Thin */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Light.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Light.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Light.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Light.ttf');
+  font-weight: 300;
+  /* Light */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Regular.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Regular.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Regular.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Regular.ttf');
+  font-weight: 400;
+  /* Regular */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Medium.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Medium.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Medium.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Medium.ttf');
+  font-weight: 500;
+  /* Medium */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Bold.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Bold.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Bold.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Bold.ttf');
+  font-weight: 700;
+  /* Bold */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Black.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Black.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Black.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Black.ttf');
+  font-weight: 900;
+  /* Black */
+  font-display: swap;
 }

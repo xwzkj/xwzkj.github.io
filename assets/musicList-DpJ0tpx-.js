@@ -1,5 +1,5 @@
-import { an as derived, ai as c, ah as cB, aj as cM, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, aq as useThemeClass, b as ref, ae as watchEffect, h, af as Transition, ay as createKey, aO as _export_sfc, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aP as withCtx, F as Fragment, aT as renderList, aU as toDisplayString, u as unref, aR as createCommentVNode, aQ as createBlock, v as createTextVNode, I as withDirectives, at as vShow, aH as NIcon } from "./__uno-ClEdYsuy.js";
-import { q as fadeInTransition, t as useCompitable, N as NBaseLoading, w as pxfy, u as useUserStore, x as parseArray, y as parseArtist, z as likeAndUpdateLikelist, A as __unplugin_components_5, o as __unplugin_components_0, C as __unplugin_components_2, D as __unplugin_components_3$1 } from "./index-Bgo16t00.js";
+import { an as derived, ai as c, ah as cB, aj as cM, d as defineComponent, ap as useConfig, ao as useTheme, c as computed, aq as useThemeClass, b as ref, ae as watchEffect, h, af as Transition, ay as createKey, aO as _export_sfc, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aP as withCtx, F as Fragment, aT as renderList, aU as toDisplayString, u as unref, aR as createCommentVNode, aQ as createBlock, v as createTextVNode, I as withDirectives, at as vShow, aH as NIcon } from "./__uno-D4asJh8J.js";
+import { q as fadeInTransition, t as useCompitable, N as NBaseLoading, w as pxfy, u as useUserStore, x as parseArray, y as parseArtist, z as likeAndUpdateLikelist, A as __unplugin_components_5, o as __unplugin_components_0, C as __unplugin_components_2, D as __unplugin_components_3$1 } from "./index-D_PQKB7O.js";
 function self(vars) {
   const {
     opacityDisabled,
@@ -366,7 +366,7 @@ const _sfc_main = {
     };
   }
 };
-const musicList = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ba051f4c"]]);
+const musicList = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ee320448"]]);
 export {
   __unplugin_components_3 as _,
   musicList as m

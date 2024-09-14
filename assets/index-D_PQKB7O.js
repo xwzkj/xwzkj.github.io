@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-gGZ1CwD-.js","./itemCard-B7ZpFML0.js","./__uno-ClEdYsuy.js","./__uno-BxAONq6i.css","./Ellipsis-DVZ0B1GD.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search--rC3LBxF.js","./musicList-DkJSd4Bu.js","./musicList-C2Gx6pRn.css","./search-DWPQbaEl.css","./login-BG6J6miH.js","./login-zqTcuwMw.css","./account-DaykKu1n.js","./account-BKeCu-Gl.css","./playlist-Cb4lTP4P.js","./playlist-_rqHwo7U.css","./setting-D1BU6Ed7.js","./setting-FMJOT2Op.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./__uno-ClEdYsuy.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-C7zyLhUg.js","./itemCard-DPhslLyt.js","./__uno-D4asJh8J.js","./__uno-DLTRpJep.css","./Ellipsis-CzPVnSs3.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search-BgJ-kGNW.js","./musicList-DpJ0tpx-.js","./musicList-CIYHyx-x.css","./search-DWPQbaEl.css","./login-LMlkBYRS.js","./login-zqTcuwMw.css","./account-LJoLVLsX.js","./account-BKeCu-Gl.css","./playlist-dVrASpl-.js","./playlist-_rqHwo7U.css","./setting-BluxV8fO.js","./setting-DUOoH7Af.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./__uno-D4asJh8J.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-gGZ1CwD-.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-C7zyLhUg.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search--rC3LBxF.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-BgJ-kGNW.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BG6J6miH.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-LMlkBYRS.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-DaykKu1n.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-LJoLVLsX.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-Cb4lTP4P.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-dVrASpl-.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-D1BU6Ed7.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BluxV8fO.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -21818,13 +21818,13 @@ function throttle(fn, freq) {
   let timestamp = 0;
   let threshold = 1e3 / freq;
   let lastArgs;
-  let timer;
+  let timer2;
   const invoke = (args, now = Date.now()) => {
     timestamp = now;
     lastArgs = null;
-    if (timer) {
-      clearTimeout(timer);
-      timer = null;
+    if (timer2) {
+      clearTimeout(timer2);
+      timer2 = null;
     }
     fn.apply(null, args);
   };
@@ -21835,9 +21835,9 @@ function throttle(fn, freq) {
       invoke(args, now);
     } else {
       lastArgs = args;
-      if (!timer) {
-        timer = setTimeout(() => {
-          timer = null;
+      if (!timer2) {
+        timer2 = setTimeout(() => {
+          timer2 = null;
           invoke(lastArgs);
         }, threshold - passed);
       }
@@ -22208,14 +22208,14 @@ const composeSignals = (signals, timeout) => {
         controller.abort(err instanceof AxiosError ? err : new CanceledError(err instanceof Error ? err.message : err));
       }
     };
-    let timer = timeout && setTimeout(() => {
-      timer = null;
+    let timer2 = timeout && setTimeout(() => {
+      timer2 = null;
       onabort(new AxiosError(`timeout ${timeout} of ms exceeded`, AxiosError.ETIMEDOUT));
     }, timeout);
     const unsubscribe = () => {
       if (signals) {
-        timer && clearTimeout(timer);
-        timer = null;
+        timer2 && clearTimeout(timer2);
+        timer2 = null;
         signals.forEach((signal2) => {
           signal2.unsubscribe ? signal2.unsubscribe(onabort) : signal2.removeEventListener("abort", onabort);
         });
@@ -29820,21 +29820,21 @@ function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 function debounce(fn, delay, mode = 0) {
-  let timer;
+  let timer2;
   switch (mode) {
     case 0:
       return function(...params) {
-        if (!timer) {
-          timer = setTimeout(() => {
-            timer = null;
+        if (!timer2) {
+          timer2 = setTimeout(() => {
+            timer2 = null;
             fn(...params);
           }, delay);
         }
       };
     case 1:
       return function(...params) {
-        clearTimeout(timer);
-        timer = setTimeout(() => {
+        clearTimeout(timer2);
+        timer2 = setTimeout(() => {
           fn(...params);
         }, delay);
       };
@@ -30609,7 +30609,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     if (window.isElectron) {
       window.api.sendLyric(JSON.stringify({
         time: 0,
-        lrc: textToParsedYrcLine(nameWithTns.value),
+        lrc: textToParsedYrcLine(value?.name),
         roma: textToParsedYrcLine(value?.artist),
         tran: textToParsedYrcLine(value?.artist)
       }));
@@ -31495,6 +31495,7 @@ function mitt(n2) {
   } };
 }
 const emitter = mitt();
+let timer;
 const useThemeStore = /* @__PURE__ */ defineStore("theme", {
   state: () => ({
     mainColor: "",
@@ -31502,11 +31503,13 @@ const useThemeStore = /* @__PURE__ */ defineStore("theme", {
   }),
   actions: {
     initByLocalStorage() {
-      let { version, mainColors } = JSON.parse(localStorage.getItem("theme") ?? '{"version":0}');
+      let { version, mainColors, mainColor } = JSON.parse(localStorage.getItem("theme") ?? '{"version":0}');
       if (version == 2 && mainColors) {
         this.mainColors = mainColors;
+        this.mainColor = mainColor;
       } else {
-        this.mainColors = generate("#c49526");
+        this.mainColor = "#DEB237";
+        this.mainColors = generate(this.mainColor);
       }
       this.update();
     },
@@ -31536,7 +31539,10 @@ const useThemeStore = /* @__PURE__ */ defineStore("theme", {
       });
       localStorage.setItem("theme", stringData);
       if (window.isElectron) {
-        window.api.sendThemeColors(stringData);
+        window.clearInterval(timer);
+        timer = window.setInterval(() => {
+          window.api.sendThemeColors(stringData);
+        }, 500);
       }
     }
   }
@@ -33646,11 +33652,11 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "7d40108e": unref(background),
-      "24720d2a": unref(themeStore).mainColors[0] + `90`,
-      "52ff7b8c": unref(playingListTran),
-      "0dc5bb98": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
-      "0b67d612": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
+      "1ebb9776": unref(background),
+      "c4cad4e6": unref(themeStore).mainColors[0] + `90`,
+      "a8d9ac22": unref(playingListTran),
+      "f5d11052": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
+      "d13ba896": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
     }));
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
@@ -33665,9 +33671,8 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     let displayLyricWhenScreenIsNotWide = ref(false);
     onMounted(async () => {
       watch(() => currentMusic.value.currentLyricIndex.lineIndex, (value) => {
-        console.log("当前歌词改变");
         lyricScrollbarRef.value.scrollTo({ top: document.getElementById("lrc-" + value)?.offsetTop - 200, behavior: "smooth" });
-      }, { deep: true });
+      }, { deep: true, immediate: true });
     });
     onBeforeUnmount(() => {
       clearInterval(id_clock1);
@@ -33879,7 +33884,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
                     (openBlock(true), createElementBlock(Fragment, null, renderList(unref(currentMusic).lyric, (item, index) => {
                       return openBlock(), createElementBlock("li", {
                         key: index,
-                        class: normalizeClass([{ "lyric-active color9": unref(currentMusic).currentLyricIndex.lineIndex == index }, "lyric-item transition-transform duration-700 ease-out transform-origin-left-top"]),
+                        class: normalizeClass([{ "lyric-active color9": unref(currentMusic).currentLyricIndex.lineIndex == index }, "lyric-item transition-all duration-700 ease-out transform-origin-left"]),
                         id: "lrc-" + index
                       }, [
                         createVNode(lyricLine, {
@@ -33917,7 +33922,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-15ffcf5c"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-9f9fabb9"]]);
 const _hoisted_1$2 = { class: "ctrl-outer-outer" };
 const _hoisted_2$2 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };
@@ -33950,7 +33955,7 @@ const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "76979019": unref(ctrlHeight) + `rem`
+      "384114a2": unref(ctrlHeight) + `rem`
     }));
     emitter.on("switchShowPlayer", () => {
       switchShowPlayer();
@@ -33976,7 +33981,7 @@ const _sfc_main$2 = {
         currentWordIndex,
         paused
       };
-      if (window.isElectron) {
+      if (window.isElectron && currentWordIndex.lineIndex >= 0) {
         let tran = playStore.currentMusic?.lyric[playStore.currentMusic.currentLyricIndex.lineIndex]?.tran;
         tran = textToParsedYrcLine(tran);
         window.api.sendLyric(JSON.stringify({ lrc: res, tran }));
@@ -34221,7 +34226,7 @@ const _sfc_main$2 = {
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-520ca430"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-cfc7a68b"]]);
 const _hoisted_1$1 = { class: "container" };
 const _hoisted_2$1 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };
@@ -34271,16 +34276,16 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "0413e8cd": unref(themeStore).mainColors[0],
-      "0413e9c5": unref(themeStore).mainColors[8],
-      "0413e9e4": unref(themeStore).mainColors[9],
-      "0413e9a6": unref(themeStore).mainColors[7],
-      "0413e987": unref(themeStore).mainColors[6],
-      "0413e8ec": unref(themeStore).mainColors[1],
-      "0413e90b": unref(themeStore).mainColors[2],
-      "0413e92a": unref(themeStore).mainColors[3],
-      "0413e949": unref(themeStore).mainColors[4],
-      "0413e968": unref(themeStore).mainColors[5]
+      "33c21166": unref(themeStore).mainColors[0],
+      "33c21185": unref(themeStore).mainColors[1],
+      "33c211a4": unref(themeStore).mainColors[2],
+      "33c211c3": unref(themeStore).mainColors[3],
+      "33c211e2": unref(themeStore).mainColors[4],
+      "33c21201": unref(themeStore).mainColors[5],
+      "33c21220": unref(themeStore).mainColors[6],
+      "33c2123f": unref(themeStore).mainColors[7],
+      "33c2125e": unref(themeStore).mainColors[8],
+      "33c2127d": unref(themeStore).mainColors[9]
     }));
     let settingStore = useSettingStore();
     settingStore.init();
