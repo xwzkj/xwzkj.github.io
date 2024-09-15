@@ -1,16 +1,16 @@
 
-.lyric-word-top[data-v-5d5ea47c] {
+.lyric-word-top[data-v-582b3bf1] {
   -webkit-mask-image: linear-gradient(transparent, transparent);
           mask-image: linear-gradient(transparent, transparent);
 }
-.lyric-word-active[data-v-5d5ea47c] {
-  animation: lyric-5d5ea47c var(--5c60c956) forwards linear;
-  -webkit-mask-image: linear-gradient(to right, black 40%, 45%, transparent 60% 100%);
-          mask-image: linear-gradient(to right, black 40%, 45%, transparent 60% 100%);
+.lyric-word-active[data-v-582b3bf1] {
+  animation: lyric-582b3bf1 var(--a1d9f138) forwards linear;
+  -webkit-mask-image: linear-gradient(to right, black 40%, transparent 70%);
+          mask-image: linear-gradient(to right, black 40%, transparent 70%);
   -webkit-mask-size: 250%;
           mask-size: 250%;
 }
-@keyframes lyric-5d5ea47c {
+@keyframes lyric-582b3bf1 {
 from {
     -webkit-mask-position: right;
             mask-position: right;
@@ -20,11 +20,11 @@ to {
             mask-position: left;
 }
 }
-.lyric-word-done[data-v-5d5ea47c] {
+.lyric-word-done[data-v-582b3bf1] {
   -webkit-mask-image: linear-gradient(black, black);
           mask-image: linear-gradient(black, black);
 }
-.lyric-word-end-with-space[data-v-5d5ea47c] {
+.lyric-word-end-with-space[data-v-582b3bf1] {
   margin-right: 0.25em;
 }
 

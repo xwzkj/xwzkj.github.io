@@ -1,7 +1,7 @@
-import { aO as _export_sfc, aS as useCssVars, b as ref, aL as createElementBlock, aM as createBaseVNode, u as unref, aU as toDisplayString, F as Fragment, aT as renderList, aK as openBlock, aN as createVNode } from "./__uno-D4asJh8J.js";
-import { u as useUserStore, d as useThemeStore, a as useRouter, k as areaData } from "./index-BA69_E1C.js";
-import { i as itemCard } from "./itemCard-B38Tpgak.js";
-import "./Ellipsis-Dy4LAM8q.js";
+import { aO as _export_sfc, aS as useCssVars, b as ref, aL as createElementBlock, aM as createBaseVNode, u as unref, aU as toDisplayString, F as Fragment, aT as renderList, aK as openBlock, aN as createVNode } from "./__uno-Dt0ZGAIt.js";
+import { u as useUserStore, d as useThemeStore, a as useRouter, k as areaData } from "./index-dvRK4uAk.js";
+import { i as itemCard } from "./itemCard-DAHjqHup.js";
+import "./Ellipsis-D9_gNPl1.js";
 const _hoisted_1 = { class: "account-user-detail" };
 const _hoisted_2 = ["src"];
 const _hoisted_3 = { class: "account-user-data-info" };
@@ -15,7 +15,7 @@ const _sfc_main = {
   __name: "account",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "b519bcac": unref(themeStore).mainColors[1] + `80`
+      "caa4e574": unref(themeStore).mainColors[2] + `80`
     }));
     const userStore = useUserStore();
     const themeStore = useThemeStore();
@@ -65,7 +65,7 @@ const _sfc_main = {
     };
   }
 };
-const account = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-745c5829"]]);
+const account = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-2c3571e2"]]);
 export {
   account as default
 };

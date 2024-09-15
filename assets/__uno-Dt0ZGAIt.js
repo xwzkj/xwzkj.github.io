@@ -9754,7 +9754,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   },
   setup(__props) {
     useCssVars((_ctx) => ({
-      "5c60c956": unref(lyricWordNowDuration)
+      "a1d9f138": unref(lyricWordNowDuration)
     }));
     let props = __props;
     let lyricWordNowDuration = computed(() => {
@@ -9792,7 +9792,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const lyricLine = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-5d5ea47c"]]);
+const lyricLine = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-582b3bf1"]]);
 const _hoisted_1 = { class: "marquee-outer" };
 const _hoisted_2 = { class: "marquee-container" };
 const _hoisted_3 = ["innerHTML"];
