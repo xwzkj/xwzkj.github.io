@@ -1,7 +1,7 @@
-import { b as usePlayStore, a as useRouter, r as recommendSongs, p as playlistDetail, B as Button, o as __unplugin_components_0 } from "./index-CGbBvBcj.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-BNMqxR4y.js";
-import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-B4TL72xl.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-DSemzHWK.js";
+import { b as usePlayStore, a as useRouter, r as recommendSongs, p as playlistDetail, B as Button, o as __unplugin_components_0 } from "./index-C2bqKVfs.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Y7bPt9l8.js";
+import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-BDm37wNS.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-Bg7m880S.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
