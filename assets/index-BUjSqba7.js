@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BHIKeOTy.js","./itemCard-B9legWQJ.js","./font-BDm37wNS.js","./font-7LvZ4sWX.css","./Ellipsis-Bg7m880S.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search-BTFWIVho.js","./musicList-Y7bPt9l8.js","./musicList-CIYHyx-x.css","./search-DWPQbaEl.css","./login-BRIO7FBe.js","./login-zqTcuwMw.css","./account-DY5GAlXv.js","./account-DSLUV0tp.css","./playlist-DEq5t1jA.js","./playlist-_rqHwo7U.css","./setting-U_J2PdL5.js","./setting-DUOoH7Af.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-BDm37wNS.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DXgJiHfy.js","./itemCard-CJLiWZ5R.js","./font-B8GaowhB.js","./font-MffiCbT9.css","./Ellipsis-BLjIQRhG.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search-Cp2GjJAc.js","./musicList-CH2EMOOr.js","./musicList-CIYHyx-x.css","./search-DWPQbaEl.css","./login-DoUWHudx.js","./login-zqTcuwMw.css","./account-CQYIbhJ5.js","./account-DSLUV0tp.css","./playlist-DPdrOAju.js","./playlist-_rqHwo7U.css","./setting-BFDkvnKe.js","./setting-DUOoH7Af.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, i as inject, u as unref, a as shallowReactive, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-B8GaowhB.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-BHIKeOTy.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-DXgJiHfy.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-BTFWIVho.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-Cp2GjJAc.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BRIO7FBe.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-DoUWHudx.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-DY5GAlXv.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-CQYIbhJ5.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-DEq5t1jA.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-DPdrOAju.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-U_J2PdL5.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BFDkvnKe.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2497,7 +2497,7 @@ function call(funcs, ...args) {
 function keysOf(obj) {
   return Object.keys(obj);
 }
-function render$i(r2, ...args) {
+function render$j(r2, ...args) {
   if (typeof r2 === "function") {
     return r2(...args);
   } else if (typeof r2 === "string") {
@@ -13774,7 +13774,7 @@ const cardBaseProps = {
 };
 const cardBasePropKeys = keysOf(cardBaseProps);
 const cardProps = Object.assign(Object.assign({}, useTheme.props), cardBaseProps);
-const __unplugin_components_5$2 = defineComponent({
+const __unplugin_components_5$3 = defineComponent({
   name: "Card",
   props: cardProps,
   setup(props) {
@@ -14587,10 +14587,10 @@ const NDropdownOption = defineComponent({
       "data-dropdown-option": true
     }, optionNodeProps), h("div", mergeProps(builtinProps, props), [h("div", {
       class: [`${clsPrefix}-dropdown-option-body__prefix`, siblingHasIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, [renderIcon ? renderIcon(rawNode) : render$i(rawNode.icon)]), h("div", {
+    }, [renderIcon ? renderIcon(rawNode) : render$j(rawNode.icon)]), h("div", {
       "data-dropdown-option": true,
       class: `${clsPrefix}-dropdown-option-body__label`
-    }, renderLabel ? renderLabel(rawNode) : render$i((_b = rawNode[this.labelField]) !== null && _b !== void 0 ? _b : rawNode.title)), h("div", {
+    }, renderLabel ? renderLabel(rawNode) : render$j((_b = rawNode[this.labelField]) !== null && _b !== void 0 ? _b : rawNode.title)), h("div", {
       "data-dropdown-option": true,
       class: [`${clsPrefix}-dropdown-option-body__suffix`, siblingHasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`]
     }, this.hasSubmenu ? h(NIcon, null, {
@@ -14681,10 +14681,10 @@ const NDropdownGroupHeader = defineComponent({
     }, h("div", {
       "data-dropdown-option": true,
       class: [`${clsPrefix}-dropdown-option-body__prefix`, showIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, render$i(rawNode.icon)), h("div", {
+    }, render$j(rawNode.icon)), h("div", {
       class: `${clsPrefix}-dropdown-option-body__label`,
       "data-dropdown-option": true
-    }, renderLabel ? renderLabel(rawNode) : render$i((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
+    }, renderLabel ? renderLabel(rawNode) : render$j((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
       class: [`${clsPrefix}-dropdown-option-body__suffix`, hasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`],
       "data-dropdown-option": true
     })));
@@ -15722,19 +15722,19 @@ const NDialog = defineComponent({
       clsPrefix: mergedClsPrefix,
       class: `${mergedClsPrefix}-dialog__icon`
     }, {
-      default: () => resolveWrappedSlot(this.$slots.icon, (children) => children || (this.icon ? render$i(this.icon) : iconRenderMap$2[this.type]()))
+      default: () => resolveWrappedSlot(this.$slots.icon, (children) => children || (this.icon ? render$j(this.icon) : iconRenderMap$2[this.type]()))
     }) : null;
     const actionNode = resolveWrappedSlot(this.$slots.action, (children) => children || positiveText || negativeText || action ? h("div", {
       class: [`${mergedClsPrefix}-dialog__action`, this.actionClass],
       style: this.actionStyle
-    }, children || (action ? [render$i(action)] : [this.negativeText && h(Button, Object.assign({
+    }, children || (action ? [render$j(action)] : [this.negativeText && h(Button, Object.assign({
       theme: mergedTheme.peers.Button,
       themeOverrides: mergedTheme.peerOverrides.Button,
       ghost: true,
       size: "small",
       onClick: handleNegativeClick
     }, negativeButtonProps), {
-      default: () => render$i(this.negativeText)
+      default: () => render$j(this.negativeText)
     }), this.positiveText && h(Button, Object.assign({
       theme: mergedTheme.peers.Button,
       themeOverrides: mergedTheme.peerOverrides.Button,
@@ -15744,7 +15744,7 @@ const NDialog = defineComponent({
       loading,
       onClick: handlePositiveClick
     }, positiveButtonProps), {
-      default: () => render$i(this.positiveText)
+      default: () => render$j(this.positiveText)
     })])) : null);
     return h("div", {
       class: [`${mergedClsPrefix}-dialog`, this.themeClass, this.closable && `${mergedClsPrefix}-dialog--closable`, `${mergedClsPrefix}-dialog--icon-${mergedIconPlacement}`, bordered && `${mergedClsPrefix}-dialog--bordered`, this.rtlEnabled && `${mergedClsPrefix}-dialog--rtl`],
@@ -15764,10 +15764,10 @@ const NDialog = defineComponent({
     }, icon) : null, h("div", {
       class: [`${mergedClsPrefix}-dialog__title`, this.titleClass],
       style: this.titleStyle
-    }, showIcon && mergedIconPlacement === "left" ? icon : null, resolveSlot(this.$slots.header, () => [render$i(title)])), h("div", {
+    }, showIcon && mergedIconPlacement === "left" ? icon : null, resolveSlot(this.$slots.header, () => [render$j(title)])), h("div", {
       class: [`${mergedClsPrefix}-dialog__content`, actionNode ? "" : `${mergedClsPrefix}-dialog__content--last`, this.contentClass],
       style: this.contentStyle
-    }, resolveSlot(this.$slots.default, () => [render$i(content)])), actionNode);
+    }, resolveSlot(this.$slots.default, () => [render$j(content)])), actionNode);
   }
 });
 const dialogProviderInjectionKey = createInjectionKey("n-dialog-provider");
@@ -16021,7 +16021,7 @@ const NModalBodyWrapper = defineComponent({
                   themeOverrides: this.mergedTheme.peerOverrides.Dialog
                 }, keep(this.$props, dialogPropKeys), {
                   "aria-modal": "true"
-                }), $slots) : this.preset === "card" ? h(__unplugin_components_5$2, Object.assign({}, this.$attrs, {
+                }), $slots) : this.preset === "card" ? h(__unplugin_components_5$3, Object.assign({}, this.$attrs, {
                   ref: "bodyRef",
                   class: [`${mergedClsPrefix}-modal`, this.$attrs.class],
                   theme: this.mergedTheme.peers.Card,
@@ -16838,7 +16838,7 @@ const NMenuOptionGroup = defineComponent({
       }, h("div", Object.assign({}, attrs, {
         class: [`${mergedClsPrefix}-menu-item-group-title`, attrs === null || attrs === void 0 ? void 0 : attrs.class],
         style: [(attrs === null || attrs === void 0 ? void 0 : attrs.style) || "", paddingLeft !== void 0 ? `padding-left: ${paddingLeft}px;` : ""]
-      }), render$i(props.title), props.extra ? h(Fragment, null, " ", render$i(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
+      }), render$j(props.title), props.extra ? h(Fragment, null, " ", render$j(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
     };
   }
 });
@@ -16918,7 +16918,7 @@ const NMenuOptionContent = defineComponent({
         expandIcon
       }
     } = this;
-    const icon = renderIcon ? renderIcon(tmNode.rawNode) : render$i(this.icon);
+    const icon = renderIcon ? renderIcon(tmNode.rawNode) : render$j(this.icon);
     return h("div", {
       onClick: (e) => {
         var _a;
@@ -16940,9 +16940,9 @@ const NMenuOptionContent = defineComponent({
     }, [icon]), h("div", {
       class: `${clsPrefix}-menu-item-content-header`,
       role: "none"
-    }, this.isEllipsisPlaceholder ? this.title : renderLabel ? renderLabel(tmNode.rawNode) : render$i(this.title), this.extra || renderExtra ? h("span", {
+    }, this.isEllipsisPlaceholder ? this.title : renderLabel ? renderLabel(tmNode.rawNode) : render$j(this.title), this.extra || renderExtra ? h("span", {
       class: `${clsPrefix}-menu-item-content-header__extra`
-    }, " ", renderExtra ? renderExtra(tmNode.rawNode) : render$i(this.extra)) : null), this.showArrow ? h(NBaseIcon, {
+    }, " ", renderExtra ? renderExtra(tmNode.rawNode) : render$j(this.extra)) : null), this.showArrow ? h(NBaseIcon, {
       ariaHidden: true,
       class: `${clsPrefix}-menu-item-content__arrow`,
       clsPrefix
@@ -17240,7 +17240,7 @@ const NMenuOption = defineComponent({
       disabled: !this.dropdownEnabled || this.title === void 0,
       internalExtraClass: ["menu-tooltip"]
     }, {
-      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$i(this.title),
+      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$j(this.title),
       trigger: () => h(NMenuOptionContent, {
         tmNode,
         clsPrefix: mergedClsPrefix,
@@ -18293,7 +18293,7 @@ const NMessage = defineComponent({
       default: () => iconNode
     })) : null, h("div", {
       class: `${mergedClsPrefix}-message__content`
-    }, render$i(content)), closable ? h(NBaseClose, {
+    }, render$j(content)), closable ? h(NBaseClose, {
       clsPrefix: mergedClsPrefix,
       class: `${mergedClsPrefix}-message__close`,
       onClick: handleClose,
@@ -18969,7 +18969,7 @@ const Notification = defineComponent({
       style: this.cssVars
     }, this.showAvatar ? h("div", {
       class: `${mergedClsPrefix}-notification__avatar`
-    }, this.avatar ? render$i(this.avatar) : this.type !== "default" ? h(NBaseIcon, {
+    }, this.avatar ? render$j(this.avatar) : this.type !== "default" ? h(NBaseIcon, {
       clsPrefix: mergedClsPrefix
     }, {
       default: () => iconRenderMap[this.type]()
@@ -18982,17 +18982,17 @@ const Notification = defineComponent({
       class: `${mergedClsPrefix}-notification-main`
     }, this.title ? h("div", {
       class: `${mergedClsPrefix}-notification-main__header`
-    }, render$i(this.title)) : null, this.description ? h("div", {
+    }, render$j(this.title)) : null, this.description ? h("div", {
       class: `${mergedClsPrefix}-notification-main__description`
-    }, render$i(this.description)) : null, this.content ? h("pre", {
+    }, render$j(this.description)) : null, this.content ? h("pre", {
       class: `${mergedClsPrefix}-notification-main__content`
-    }, render$i(this.content)) : null, this.meta || this.action ? h("div", {
+    }, render$j(this.content)) : null, this.meta || this.action ? h("div", {
       class: `${mergedClsPrefix}-notification-main-footer`
     }, this.meta ? h("div", {
       class: `${mergedClsPrefix}-notification-main-footer__meta`
-    }, render$i(this.meta)) : null, this.action ? h("div", {
+    }, render$j(this.meta)) : null, this.action ? h("div", {
       class: `${mergedClsPrefix}-notification-main-footer__action`
-    }, render$i(this.action)) : null) : null)));
+    }, render$j(this.action)) : null) : null)));
   }
 });
 const notificationEnvOptions = Object.assign(Object.assign({}, notificationProps), {
@@ -19364,7 +19364,7 @@ const notificationProviderProps = Object.assign(Object.assign({}, useTheme.props
   },
   keepAliveOnHover: Boolean
 });
-const __unplugin_components_5$1 = defineComponent({
+const __unplugin_components_5$2 = defineComponent({
   name: "NotificationProvider",
   props: notificationProviderProps,
   setup(props) {
@@ -30551,6 +30551,11 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
       return name;
     }
   });
+  watchEffect(() => {
+    if (currentMusic.value.id != 0) {
+      document.title = `${currentMusic.value.name} - ${currentMusic.value.artist} - 奶酪音乐`;
+    }
+  });
   if ("mediaSession" in navigator) {
     navigator.mediaSession.setActionHandler("previoustrack", () => prev());
     navigator.mediaSession.setActionHandler("nexttrack", () => next());
@@ -31606,6 +31611,26 @@ const _sfc_main$7 = {
     };
   }
 };
+const _hoisted_1$p = {
+  viewBox: "0 0 24 24",
+  width: "1.2em",
+  height: "1.2em"
+};
+function render$i(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1$p, _cache[0] || (_cache[0] = [
+    createBaseVNode("path", {
+      fill: "currentColor",
+      d: "M10.03 8.97a.75.75 0 0 0-1.06 1.06L10.94 12l-1.97 1.97a.75.75 0 1 0 1.06 1.06L12 13.06l1.97 1.97a.75.75 0 0 0 1.06-1.06L13.06 12l1.97-1.97a.75.75 0 1 0-1.06-1.06L12 10.94z"
+    }, null, -1),
+    createBaseVNode("path", {
+      fill: "currentColor",
+      "fill-rule": "evenodd",
+      d: "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M2.75 12a9.25 9.25 0 1 1 18.5 0a9.25 9.25 0 0 1-18.5 0",
+      "clip-rule": "evenodd"
+    }, null, -1)
+  ]));
+}
+const __unplugin_components_5$1 = markRaw({ name: "solar-close-circle-outline", render: render$i });
 const _hoisted_1$o = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -33224,9 +33249,10 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-9055150a"]]);
+const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-fc3cd83f"]]);
 const _hoisted_1$g = { class: "header" };
 const _hoisted_2$5 = { class: "header-search" };
+const _hoisted_3$4 = { class: "header-window-ctrl flex items-center" };
 const _sfc_main$5 = {
   __name: "headerTop",
   setup(__props) {
@@ -33235,6 +33261,9 @@ const _sfc_main$5 = {
     let showNav = false;
     let showNavVIf = ref(false);
     const router2 = useRouter();
+    function closeWindow() {
+      window.api.windowClose();
+    }
     function search(event) {
       if (event.keyCode == 13) {
         router2.push({ name: "search", query: { keyword: value.value } });
@@ -33270,6 +33299,7 @@ const _sfc_main$5 = {
       const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0$1;
       const _component_n_input = __unplugin_components_0$3;
       const _component_n_avatar = __unplugin_components_4$3;
+      const _component_i_solar_close_circle_outline = __unplugin_components_5$1;
       return openBlock(), createElementBlock("div", _hoisted_1$g, [
         createVNode(_component_n_icon, {
           class: "header-menu",
@@ -33301,24 +33331,36 @@ const _sfc_main$5 = {
             clearable: true
           }, null, 8, ["value"])
         ]),
-        !unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
-          key: 0,
-          class: "header-user text2",
-          round: "",
-          onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
-        }, {
-          default: withCtx(() => _cache[5] || (_cache[5] = [
-            createTextVNode("登录")
-          ])),
-          _: 1
-        })) : createCommentVNode("", true),
-        unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
-          key: 1,
-          class: "header-user",
-          round: "",
-          src: unref(userStore).avatar,
-          onClick: _cache[3] || (_cache[3] = ($event) => unref(router2).push({ name: "account" }))
-        }, null, 8, ["src"])) : createCommentVNode("", true),
+        createBaseVNode("div", _hoisted_3$4, [
+          !unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
+            key: 0,
+            class: "header-user text2",
+            round: "",
+            onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
+          }, {
+            default: withCtx(() => _cache[5] || (_cache[5] = [
+              createTextVNode("登录")
+            ])),
+            _: 1
+          })) : createCommentVNode("", true),
+          unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
+            key: 1,
+            class: "header-user",
+            round: "",
+            src: unref(userStore).avatar,
+            onClick: _cache[3] || (_cache[3] = ($event) => unref(router2).push({ name: "account" }))
+          }, null, 8, ["src"])) : createCommentVNode("", true),
+          createVNode(_component_n_icon, {
+            class: "cursor-pointer",
+            size: "1.5rem",
+            onClick: closeWindow
+          }, {
+            default: withCtx(() => [
+              createVNode(_component_i_solar_close_circle_outline)
+            ]),
+            _: 1
+          })
+        ]),
         createBaseVNode("div", {
           class: "header-nav bg",
           onClick: _cache[4] || (_cache[4] = ($event) => switchNavShow(false))
@@ -34360,10 +34402,10 @@ const _sfc_main = {
     return (_ctx, _cache) => {
       const _component_n_button = Button;
       const _component_n_dropdown = __unplugin_components_1;
-      const _component_n_card = __unplugin_components_5$2;
+      const _component_n_card = __unplugin_components_5$3;
       const _component_n_modal = __unplugin_components_3$2;
       const _component_n_message_provider = __unplugin_components_4$2;
-      const _component_n_notification_provider = __unplugin_components_5$1;
+      const _component_n_notification_provider = __unplugin_components_5$2;
       const _component_n_modal_provider = NModalProvider;
       const _component_n_config_provider = __unplugin_components_7$1;
       return openBlock(), createElementBlock("div", _hoisted_1, [
@@ -34439,7 +34481,7 @@ console.log("pinia实例被创建");
 app.use(router);
 app.mount("#app");
 export {
-  __unplugin_components_5$2 as A,
+  __unplugin_components_5$3 as A,
   Button as B,
   __unplugin_components_2 as C,
   __unplugin_components_3 as D,
