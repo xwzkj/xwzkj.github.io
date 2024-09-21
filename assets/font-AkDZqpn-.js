@@ -1,5 +1,5 @@
 /**
-* @vue/shared v3.5.6
+* @vue/shared v3.5.7
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -195,7 +195,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.5.6
+* @vue/reactivity v3.5.7
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -511,7 +511,7 @@ function refreshComputed(computed2) {
     computed2.flags &= ~2;
   }
 }
-function removeSub(link) {
+function removeSub(link, fromComputed = false) {
   const { dep, prevSub, nextSub } = link;
   if (prevSub) {
     prevSub.nextSub = nextSub;
@@ -524,10 +524,15 @@ function removeSub(link) {
   if (dep.subs === link) {
     dep.subs = prevSub;
   }
-  if (!dep.subs && dep.computed) {
-    dep.computed.flags &= ~4;
-    for (let l = dep.computed.deps; l; l = l.nextDep) {
-      removeSub(l);
+  if (!dep.subs) {
+    if (dep.computed) {
+      dep.computed.flags &= ~4;
+      for (let l = dep.computed.deps; l; l = l.nextDep) {
+        removeSub(l, true);
+      }
+    } else if (dep.map && !fromComputed) {
+      dep.map.delete(dep.key);
+      if (!dep.map.size) targetMap.delete(dep.target);
     }
   }
 }
@@ -580,6 +585,9 @@ class Dep {
     this.version = 0;
     this.activeLink = void 0;
     this.subs = void 0;
+    this.target = void 0;
+    this.map = void 0;
+    this.key = void 0;
   }
   track(debugInfo) {
     if (!activeSub || !shouldTrack || activeSub === this.computed) {
@@ -671,6 +679,9 @@ function track(target, type, key) {
     let dep = depsMap.get(key);
     if (!dep) {
       depsMap.set(key, dep = new Dep());
+      dep.target = target;
+      dep.map = depsMap;
+      dep.key = key;
     }
     {
       dep.track();
@@ -1787,7 +1798,7 @@ function traverse(value, depth = Infinity, seen) {
   return value;
 }
 /**
-* @vue/runtime-core v3.5.6
+* @vue/runtime-core v3.5.7
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -2034,7 +2045,9 @@ function flushPreFlushCbs(instance, seen, i = isFlushing ? flushIndex + 1 : 0) {
         cb.flags &= ~1;
       }
       cb();
-      cb.flags &= ~1;
+      if (!(cb.flags & 4)) {
+        cb.flags &= ~1;
+      }
     }
   }
 }
@@ -2078,7 +2091,9 @@ function flushJobs(seen) {
           job.i,
           job.i ? 15 : 14
         );
-        job.flags &= ~1;
+        if (!(job.flags & 4)) {
+          job.flags &= ~1;
+        }
       }
     }
   } finally {
@@ -6713,9 +6728,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.5.6";
+const version = "3.5.7";
 /**
-* @vue/runtime-dom v3.5.6
+* @vue/runtime-dom v3.5.7
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -6991,7 +7006,7 @@ function whenTransitionEnds(el, expectedType, explicitTimeout, resolve2) {
       resolve2();
     }
   };
-  if (explicitTimeout) {
+  if (explicitTimeout != null) {
     return setTimeout(resolveIfNotStale, explicitTimeout);
   }
   const { type, timeout, propCount } = getTransitionInfo(el, expectedType);
