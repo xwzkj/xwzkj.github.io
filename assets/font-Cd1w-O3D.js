@@ -1,5 +1,5 @@
 /**
-* @vue/shared v3.5.7
+* @vue/shared v3.5.8
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -195,7 +195,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.5.7
+* @vue/reactivity v3.5.8
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -444,7 +444,7 @@ function prepareDeps(sub) {
     link.dep.activeLink = link;
   }
 }
-function cleanupDeps(sub) {
+function cleanupDeps(sub, fromComputed = false) {
   let head;
   let tail = sub.depsTail;
   let link = tail;
@@ -452,7 +452,7 @@ function cleanupDeps(sub) {
     const prev = link.prevDep;
     if (link.version === -1) {
       if (link === tail) tail = prev;
-      removeSub(link);
+      removeSub(link, fromComputed);
       removeDep(link);
     } else {
       head = link;
@@ -507,7 +507,7 @@ function refreshComputed(computed2) {
   } finally {
     activeSub = prevSub;
     shouldTrack = prevShouldTrack;
-    cleanupDeps(computed2);
+    cleanupDeps(computed2, true);
     computed2.flags &= ~2;
   }
 }
@@ -1798,7 +1798,7 @@ function traverse(value, depth = Infinity, seen) {
   return value;
 }
 /**
-* @vue/runtime-core v3.5.7
+* @vue/runtime-core v3.5.8
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -6728,9 +6728,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.5.7";
+const version = "3.5.8";
 /**
-* @vue/runtime-dom v3.5.7
+* @vue/runtime-dom v3.5.8
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/

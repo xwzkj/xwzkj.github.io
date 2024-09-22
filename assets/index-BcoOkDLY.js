@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DtbDlSi4.js","./itemCard-C8DzGJbM.js","./font-B058BIHk.js","./font-Pc8eeqCH.css","./Ellipsis-DTYzosWH.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search-Cjdw1dDv.js","./musicList-CA6Kt601.js","./musicList-CIYHyx-x.css","./search-DWPQbaEl.css","./login-BD54rdI0.js","./login-zqTcuwMw.css","./account-BwwoWsko.js","./account-DSLUV0tp.css","./playlist-uVMiE74X.js","./playlist-_rqHwo7U.css","./setting-dyYwyV1e.js","./setting-DUOoH7Af.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-B058BIHk.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-B_m657Tt.js","./itemCard-CxZ0WatZ.js","./font-Cd1w-O3D.js","./font-CvmHSZGO.css","./Ellipsis-sxJH6ipP.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search-1uruTm7C.js","./musicList-6_zWR-8M.js","./musicList-CIYHyx-x.css","./search-DWPQbaEl.css","./login-Bjuj1Krk.js","./login-zqTcuwMw.css","./account-B8Mj0SYV.js","./account-DSLUV0tp.css","./playlist-Am6COiXt.js","./playlist-_rqHwo7U.css","./setting-BONJE3a_.js","./setting-DUOoH7Af.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-Cd1w-O3D.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-DtbDlSi4.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-B_m657Tt.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-Cjdw1dDv.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-1uruTm7C.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BD54rdI0.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-Bjuj1Krk.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-BwwoWsko.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-B8Mj0SYV.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-uVMiE74X.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-Am6COiXt.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-dyYwyV1e.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BONJE3a_.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -33697,11 +33697,11 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "1ebb9776": unref(background),
-      "c4cad4e6": unref(themeStore).mainColors[0] + `90`,
-      "a8d9ac22": unref(playingListTran),
-      "f5d11052": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
-      "d13ba896": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
+      "713ebd34": unref(background),
+      "0f04219d": unref(themeStore).mainColors[0] + `90`,
+      "d1925402": unref(playingListTran),
+      "5347c032": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
+      "2eb25876": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
     }));
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
@@ -33714,10 +33714,19 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
       return displayList.value ? "-100%" : "0%";
     });
     let displayLyricWhenScreenIsNotWide = ref(false);
+    function scrollToCurrentLyric() {
+      let index = currentMusic.value.currentLyricIndex.lineIndex;
+      lyricScrollbarRef.value.scrollTo({ top: document.getElementById("lrc-" + index)?.offsetTop - 200, behavior: "smooth" });
+    }
     onMounted(async () => {
       watch(() => currentMusic.value.currentLyricIndex.lineIndex, (value) => {
-        lyricScrollbarRef.value.scrollTo({ top: document.getElementById("lrc-" + value)?.offsetTop - 200, behavior: "smooth" });
+        scrollToCurrentLyric();
       }, { deep: true, immediate: true });
+      watch(displayLyricWhenScreenIsNotWide, (value) => {
+        if (value) {
+          scrollToCurrentLyric();
+        }
+      });
     });
     onBeforeUnmount(() => {
       clearInterval(id_clock1);
@@ -33967,7 +33976,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-9f9fabb9"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-19227540"]]);
 const _hoisted_1$2 = { class: "ctrl-outer-outer" };
 const _hoisted_2$2 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };
@@ -34292,14 +34301,30 @@ const _sfc_main$1 = {
             createBaseVNode("div", _hoisted_5, [
               createVNode(_component_router_view, null, {
                 default: withCtx(({ Component }) => [
-                  _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(KeepAlive, { key: 0 }, [
-                    _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
-                      key: _ctx.$route.name
-                    })) : createCommentVNode("", true)
-                  ], 1024)) : createCommentVNode("", true),
-                  !_ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
-                    key: _ctx.$route.name
-                  })) : createCommentVNode("", true)
+                  createVNode(Transition, {
+                    name: "route",
+                    mode: "out-in"
+                  }, {
+                    default: withCtx(() => [
+                      (openBlock(), createBlock(KeepAlive, null, [
+                        _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
+                          key: _ctx.$route.name
+                        })) : createCommentVNode("", true)
+                      ], 1024))
+                    ]),
+                    _: 2
+                  }, 1024),
+                  createVNode(Transition, {
+                    name: "route",
+                    mode: "out-in"
+                  }, {
+                    default: withCtx(() => [
+                      !_ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
+                        key: _ctx.$route.name
+                      })) : createCommentVNode("", true)
+                    ]),
+                    _: 2
+                  }, 1024)
                 ]),
                 _: 1
               })
@@ -34311,7 +34336,7 @@ const _sfc_main$1 = {
     };
   }
 };
-const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-8419d038"]]);
+const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-3e470506"]]);
 const _hoisted_1 = { class: "app" };
 const _hoisted_2 = {
   style: { "white-space": "pre-wrap" },
