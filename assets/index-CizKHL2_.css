@@ -93,10 +93,10 @@ ul[data-v-3e35b0e3] {
     width: 100%;
 }
 
-[data-v-19227540] {
+[data-v-b1707a15] {
   box-sizing: border-box;
 }
-.player-outer[data-v-19227540] {
+.player-outer[data-v-b1707a15] {
 
   position: absolute;
   z-index: 10;
@@ -112,16 +112,16 @@ ul[data-v-3e35b0e3] {
   /* 配合下面content的最大宽度 实现居中 */
   justify-content: center;
   /* 背景渐变 */
-  background-image: var(--713ebd34);
+  background-image: var(--660825fa);
 }
-.player-content[data-v-19227540] {
+.player-content[data-v-b1707a15] {
   display: flex;
   height: 100%;
   min-width: 400px;
   width: 100%;
   max-width: calc(100vh/9*16);
 }
-.player-background[data-v-19227540] {
+.player-background[data-v-b1707a15] {
   /* 半透明遮罩 */
   position: absolute;
   display: block;
@@ -129,63 +129,63 @@ ul[data-v-3e35b0e3] {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: var(--0f04219d);
+  background-color: var(--af71fcee);
 }
 
 /************************歌词部分**********************************************************************/
-.lyric-item[data-v-19227540] {
+.lyric-item[data-v-b1707a15] {
   transform: scale(0.95);
 }
-.lyric-lrc[data-v-19227540] {
+.lyric-lrc[data-v-b1707a15] {
   /* 歌词原文 */
   color: rgba(68, 68, 68, 0.8);
-  font-size: 1.5rem;
+  font-size: var(--3f6a207e);
   margin-top: 0.5rem;
 }
-.lyric-roma[data-v-19227540] {
+.lyric-roma[data-v-b1707a15] {
   /* 歌词罗马音 */
   color: rgba(87, 87, 87, 0.8);
-  font-size: 1.2rem;
+  font-size: calc(var(--3f6a207e) - 0.3rem);
 }
-.lyric-tran[data-v-19227540] {
+.lyric-tran[data-v-b1707a15] {
   /* 歌词翻译 */
   color: rgba(87, 87, 87, 0.8);
-  font-size: 1.4rem;
+  font-size: calc(var(--3f6a207e) - 0.2rem);
 }
-.lyric-active[data-v-19227540] {
+.lyric-active[data-v-b1707a15] {
   /* 当前歌词 */
   font-weight: 500;
   transform: scale(1);
 }
-.lyric-active .lyric-roma[data-v-19227540] {
+.lyric-active .lyric-roma[data-v-b1707a15] {
   /* 当前歌词罗马音 */
   color: rgb(50, 50, 50);
   /* font-size: 1.3rem; */
 }
-.lyric-active .lyric-tran[data-v-19227540] {
+.lyric-active .lyric-tran[data-v-b1707a15] {
   /* 当前歌词翻译 */
   color: rgb(45, 45, 45);
   /* font-size: 1.5rem; */
 }
-.column-lyric[data-v-19227540] {
+.column-lyric[data-v-b1707a15] {
   position: relative;
   display: flex;
   flex: 50%;
   height: 100%;
   padding: 2rem;
 }
-.container-lyric[data-v-19227540] {
+.container-lyric[data-v-b1707a15] {
   width: 100%;
   height: 100%;
   /* overflow-y: scroll; */
 }
-.lyric-list[data-v-19227540] {
+.lyric-list[data-v-b1707a15] {
   padding-top: 50%;
   padding-bottom: 50%;
 }
 
 /********************************播放控件**********************************************************/
-.column-player[data-v-19227540] {
+.column-player[data-v-b1707a15] {
   display: flex;
   flex: 50%;
   height: 100%;
@@ -194,42 +194,42 @@ ul[data-v-3e35b0e3] {
   min-width: 300px;
   position: relative;
 }
-.music-name[data-v-19227540] {
+.music-name[data-v-b1707a15] {
   font-size: 2rem;
 }
-.button[data-v-19227540] {
+.button[data-v-b1707a15] {
   cursor: pointer;
 }
-.player-ctrl-top[data-v-19227540] {
+.player-ctrl-top[data-v-b1707a15] {
   display: flex;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
-.btn-like[data-v-19227540],
-.btn-comment[data-v-19227540] {
+.btn-like[data-v-b1707a15],
+.btn-comment[data-v-b1707a15] {
   margin-left: 0.5rem;
 }
-.btn-control[data-v-19227540] {
+.btn-control[data-v-b1707a15] {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.btn-play-control[data-v-19227540] {
+.btn-play-control[data-v-b1707a15] {
   /* 上一曲 暂停 下一曲 按钮 */
   display: flex;
 }
-.container-player[data-v-19227540] {
+.container-player[data-v-b1707a15] {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
 }
-.player-centerblock[data-v-19227540] {
+.player-centerblock[data-v-b1707a15] {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.music-img-container[data-v-19227540] {
+.music-img-container[data-v-b1707a15] {
   margin-top: 1rem;
   margin-bottom: 1rem;
   position: relative;
@@ -243,35 +243,35 @@ ul[data-v-3e35b0e3] {
   overflow: hidden;
   /* 隐藏溢出部分 */
 }
-.music-img[data-v-19227540] {
+.music-img[data-v-b1707a15] {
   position: absolute;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.music-progress[data-v-19227540] {
+.music-progress[data-v-b1707a15] {
   width: 100%;
 }
-.player-ctrl[data-v-19227540] {
+.player-ctrl[data-v-b1707a15] {
   width: 90%;
 }
-ul[data-v-19227540] {
+ul[data-v-b1707a15] {
   list-style: none;
   padding: 0;
 }
-.player-playinglist-box[data-v-19227540] {
+.player-playinglist-box[data-v-b1707a15] {
   position: fixed;
   left: 0;
   top: 100%;
-  transform: translateY(var(--d1925402));
+  transform: translateY(var(--452f0deb));
   height: 100%;
   width: 100%;
   background: none;
   z-index: 11;
   transition: all 0.7s ease-in-out;
 }
-.player-playinglist[data-v-19227540] {
+.player-playinglist[data-v-b1707a15] {
   position: absolute;
   top: 20%;
   left: 5%;
@@ -287,26 +287,26 @@ ul[data-v-19227540] {
 @media (max-width: 500px) {
 
   /* 0-500px 竖屏设备 */
-.column-lyric[data-v-19227540] {
-    display: var(--5347c032);
+.column-lyric[data-v-b1707a15] {
+    display: var(--67575cd3);
     transition: all 0.7s ease-in-out;
 }
-.column-player[data-v-19227540] {
-    display: var(--2eb25876);
+.column-player[data-v-b1707a15] {
+    display: var(--79a210b1);
     transition: all 0.7s ease-in-out;
 }
-.container-player[data-v-19227540] {
+.container-player[data-v-b1707a15] {
     height: calc(100% - 3rem);
     transform: translateY(3rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.player-centerblock[data-v-19227540] {
+.player-centerblock[data-v-b1707a15] {
     flex: 1;
     justify-content: space-around;
 }
-.player-ctrl-top[data-v-19227540] {
+.player-ctrl-top[data-v-b1707a15] {
     margin-top: 0;
 }
 }

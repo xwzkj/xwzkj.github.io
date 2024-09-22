@@ -28,10 +28,10 @@
     align-items: center;
 }
 
-[data-v-29232fe8] {
+[data-v-cc953962] {
     box-sizing: border-box;
 }
-.setting[data-v-29232fe8] {
+.setting[data-v-cc953962] {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -41,12 +41,12 @@
 /* .button {
     width: fit-content;
 } */
-.color[data-v-29232fe8] {
+.color[data-v-cc953962] {
     margin: 1rem;
     display: flex;
     align-items: center;
 }
-.color-picker[data-v-29232fe8] {
+.color-picker[data-v-cc953962] {
     width: 8rem;
     height: 2rem;
 }

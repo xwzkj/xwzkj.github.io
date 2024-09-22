@@ -1,5 +1,5 @@
-import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, aq as useThemeClass, af as Transition, I as withDirectives, ay as createKey, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode } from "./font-DtVGYGtH.js";
-import { G as useStyle, H as inputLight, I as buttonLight, J as on, K as off, _ as __unplugin_components_0$1, L as fadeInScaleUpTransition, M as useAdjustedTo, O as useFormItem, P as useLocale, Q as useMergedState, R as isMounted, S as getPreciseEventTarget, T as Binder, V as VTarget, U as VFollower, W as clickoutside, X as call, B as Button, A as __unplugin_components_5, u as useUserStore, d as useThemeStore, s as success } from "./index-CrYUNtoK.js";
+import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode } from "./font-CKhGg7Gr.js";
+import { G as useStyle, H as inputLight, I as buttonLight, J as on, K as off, _ as __unplugin_components_0$1, L as fadeInScaleUpTransition, M as useAdjustedTo, O as useFormItem, P as useLocale, Q as useMergedState, R as isMounted, S as getPreciseEventTarget, T as Binder, V as VTarget, U as VFollower, W as clickoutside, X as call, B as Button, A as __unplugin_components_5, Y as useSettingStore, u as useUserStore, d as useThemeStore, s as success, Z as __unplugin_components_1$1 } from "./index-iefCA4Na.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1866,7 +1866,7 @@ function render(_ctx, _cache) {
 }
 const __unplugin_components_1 = markRaw({ name: "hugeicons-link-square01", render });
 const _hoisted_1$1 = { class: "setting-item-outer" };
-const _hoisted_2 = { class: "setting-item" };
+const _hoisted_2$1 = { class: "setting-item" };
 const _hoisted_3 = { class: "title" };
 const _hoisted_4 = { class: "t1 text1" };
 const _hoisted_5 = { class: "t2 text2" };
@@ -1887,7 +1887,7 @@ const _sfc_main$1 = {
       return openBlock(), createElementBlock("div", _hoisted_1$1, [
         createVNode(_component_n_card, { class: "setting-item-card" }, {
           default: withCtx(() => [
-            createBaseVNode("div", _hoisted_2, [
+            createBaseVNode("div", _hoisted_2$1, [
               createBaseVNode("div", _hoisted_3, [
                 createBaseVNode("div", _hoisted_4, [
                   renderSlot(_ctx.$slots, "t1", {}, void 0, true)
@@ -1938,13 +1938,18 @@ const _sfc_main$1 = {
 };
 const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-443755e3"]]);
 const _hoisted_1 = { class: "setting" };
+const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {
   __name: "setting",
   setup(__props) {
+    const isElectron = ref(window.isElectron);
+    let settingStore = useSettingStore();
     let userStore = useUserStore();
     let themeStore = useThemeStore();
+    let lyricFontSize = computed(() => {
+      return parseFloat(settingStore.lyricFontSize);
+    });
     let primaryColor = ref("");
-    const isElectron = ref(window.isElectron);
     let defaultSpecialApi = ref(localStorage.getItem("specialApi") ?? "");
     onMounted(() => {
       primaryColor.value = themeStore.mainColor;
@@ -1975,14 +1980,15 @@ const _sfc_main = {
     }
     return (_ctx, _cache) => {
       const _component_n_color_picker = __unplugin_components_0;
+      const _component_n_slider = __unplugin_components_1$1;
       const _component_n_button = Button;
       return openBlock(), createElementBlock("div", null, [
         createBaseVNode("div", _hoisted_1, [
           withDirectives(createVNode(settingItem, { actionOnClick: loginByCookie }, {
-            t1: withCtx(() => _cache[1] || (_cache[1] = [
+            t1: withCtx(() => _cache[2] || (_cache[2] = [
               createTextVNode("手动输入cookie来登录")
             ])),
-            t2: withCtx(() => _cache[2] || (_cache[2] = [
+            t2: withCtx(() => _cache[3] || (_cache[3] = [
               createTextVNode("奇奇怪怪的登录方式 仅网页端可用")
             ])),
             _: 1
@@ -1994,37 +2000,37 @@ const _sfc_main = {
             actionOnClick: updateSpecialApi,
             defaultValue: unref(defaultSpecialApi)
           }, {
-            t1: withCtx(() => _cache[3] || (_cache[3] = [
+            t1: withCtx(() => _cache[4] || (_cache[4] = [
               createTextVNode("设置专用api")
             ])),
-            t2: withCtx(() => _cache[4] || (_cache[4] = [
+            t2: withCtx(() => _cache[5] || (_cache[5] = [
               createTextVNode("用于获取歌曲的url")
             ])),
             _: 1
           }, 8, ["defaultValue"]),
           createVNode(settingItem, { actionOnClick: update }, {
-            t1: withCtx(() => _cache[5] || (_cache[5] = [
+            t1: withCtx(() => _cache[6] || (_cache[6] = [
               createTextVNode("马上更新用户信息！")
             ])),
-            t2: withCtx(() => _cache[6] || (_cache[6] = [
+            t2: withCtx(() => _cache[7] || (_cache[7] = [
               createTextVNode("每三分钟自动更新")
             ])),
             _: 1
           }),
           createVNode(settingItem, { actionOnClick: showCk }, {
-            t1: withCtx(() => _cache[7] || (_cache[7] = [
+            t1: withCtx(() => _cache[8] || (_cache[8] = [
               createTextVNode("查看当前的cookie")
             ])),
-            t2: withCtx(() => _cache[8] || (_cache[8] = [
+            t2: withCtx(() => _cache[9] || (_cache[9] = [
               createTextVNode("言简意赅")
             ])),
             _: 1
           }),
           createVNode(settingItem, null, {
-            t1: withCtx(() => _cache[9] || (_cache[9] = [
+            t1: withCtx(() => _cache[10] || (_cache[10] = [
               createTextVNode("主题色")
             ])),
-            t2: withCtx(() => _cache[10] || (_cache[10] = [
+            t2: withCtx(() => _cache[11] || (_cache[11] = [
               createTextVNode("默认是#DEB237")
             ])),
             action: withCtx(() => [
@@ -2039,10 +2045,31 @@ const _sfc_main = {
             _: 1
           }),
           createVNode(settingItem, null, {
-            t1: withCtx(() => _cache[11] || (_cache[11] = [
+            t1: withCtx(() => _cache[12] || (_cache[12] = [
+              createTextVNode("设置歌词字体大小")
+            ])),
+            t2: withCtx(() => _cache[13] || (_cache[13] = [
+              createTextVNode("默认是1.8rem")
+            ])),
+            action: withCtx(() => [
+              createBaseVNode("div", _hoisted_2, [
+                createVNode(_component_n_slider, {
+                  value: unref(lyricFontSize),
+                  min: 1,
+                  max: 4,
+                  step: 0.1,
+                  "format-tooltip": (value) => `${value}rem`,
+                  "onUpdate:value": _cache[1] || (_cache[1] = (value) => unref(settingStore).setLyricFontSize(value + "rem"))
+                }, null, 8, ["value", "format-tooltip"])
+              ])
+            ]),
+            _: 1
+          }),
+          createVNode(settingItem, null, {
+            t1: withCtx(() => _cache[14] || (_cache[14] = [
               createTextVNode("退出登录")
             ])),
-            t2: withCtx(() => _cache[12] || (_cache[12] = [
+            t2: withCtx(() => _cache[15] || (_cache[15] = [
               createTextVNode("拜拜~")
             ])),
             action: withCtx(() => [
@@ -2052,7 +2079,7 @@ const _sfc_main = {
                 secondary: "",
                 onClick: logout
               }, {
-                default: withCtx(() => _cache[13] || (_cache[13] = [
+                default: withCtx(() => _cache[16] || (_cache[16] = [
                   createTextVNode("退出登录")
                 ])),
                 _: 1
@@ -2065,7 +2092,7 @@ const _sfc_main = {
     };
   }
 };
-const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-29232fe8"]]);
+const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-cc953962"]]);
 export {
   setting as default
 };

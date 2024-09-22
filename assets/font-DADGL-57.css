@@ -1,0 +1,130 @@
+
+.lyric-word-top[data-v-f1c86498] {
+  -webkit-mask-image: linear-gradient(transparent, transparent);
+          mask-image: linear-gradient(transparent, transparent);
+}
+.lyric-word-active[data-v-f1c86498] {
+  animation: lyric-f1c86498 var(--32524d94) forwards linear;
+  -webkit-mask-image: linear-gradient(to right, black 47.5%, transparent 52.5%);
+          mask-image: linear-gradient(to right, black 47.5%, transparent 52.5%);
+  -webkit-mask-size: 210%;
+          mask-size: 210%;
+}
+@keyframes lyric-f1c86498 {
+from {
+    -webkit-mask-position: right;
+            mask-position: right;
+}
+to {
+    -webkit-mask-position: left;
+            mask-position: left;
+}
+}
+.lyric-word-done[data-v-f1c86498] {
+  -webkit-mask-image: linear-gradient(black, black);
+          mask-image: linear-gradient(black, black);
+}
+.lyric-word-end-with-space[data-v-f1c86498] {
+  margin-right: 0.25em;
+}
+
+/* .lyric-word {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem；
+} */
+
+[data-v-af9ea66a] {
+    box-sizing: border-box;
+    margin: 0;
+}
+.marquee-sizer[data-v-af9ea66a] {
+    --marquee-duration: 5s;
+
+    overflow: hidden;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+}
+.marquee-outer[data-v-af9ea66a] {
+    display: inline-block;
+}
+.marquee-container[data-v-af9ea66a] {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    animation: var(--0219a090) var(--3fede919) linear var(--408f541e) var(--0218eca9) forwards;
+}
+.marquee-content[data-v-af9ea66a] {
+    display: inline-block;
+}
+.marquee-text2[data-v-af9ea66a] {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+.marquee-static-text[data-v-af9ea66a] {
+    display: inline-block;
+}
+
+@keyframes marquee {
+0% {
+        transform: translateX(0%);
+}
+100% {
+        transform: translateX(-50%);
+}
+}
+@keyframes marquee-lyric {
+0% {
+        transform: translateX(0%);
+}
+100% {
+        transform: translateX(var(--ca68d5e2));
+}
+}
+ *,::before,::after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / 0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / 0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}.container{width:100%;}@media (min-width: 640px){.container{max-width:640px;}}@media (min-width: 768px){.container{max-width:768px;}}@media (min-width: 1024px){.container{max-width:1024px;}}@media (min-width: 1280px){.container{max-width:1280px;}}@media (min-width: 1536px){.container{max-width:1536px;}}.absolute{position:absolute;}.fixed{position:fixed;}.relative{position:relative;}.bottom-0{bottom:0;}.left-0{left:0;}.top-0{top:0;}[line-clamp~="\32 "]{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;}[line-clamp~="\33 "]{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;}.z-1{z-index:1;}.grid{display:grid;}.block{display:block;}.inline-block{display:inline-block;}.hidden{display:none;}[size~="\31 \.2rem"]{width:1.2rem;height:1.2rem;}[size~="\31 \.3rem"]{width:1.3rem;height:1.3rem;}[size~="\31 \.5rem"]{width:1.5rem;height:1.5rem;}[size~="\31 1rem"]{width:11rem;height:11rem;}[size~="\32 \.5rem"]{width:2.5rem;height:2.5rem;}[size~="\32 00"]{width:50rem;height:50rem;}[size~="\32 rem"]{width:2rem;height:2rem;}[size~="\34 rem"]{width:4rem;height:4rem;}.max-h-300px{max-height:300px;}.w-128px{width:128px;}.flex{display:flex;}.flex-wrap{flex-wrap:wrap;}.flex-nowrap{flex-wrap:nowrap;}.transform-origin-left{transform-origin:left;}.transform{transform:translateX(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotateZ(var(--un-rotate-z)) skewX(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z));}.cursor-pointer{cursor:pointer;}.select-none{-webkit-user-select:none;-moz-user-select:none;user-select:none;}.resize{resize:both;}.items-center{align-items:center;}.overflow-y-auto{overflow-y:auto;}.border{border-width:1px;}.px{padding-left:1rem;padding-right:1rem;}.text-shadow{--un-text-shadow:0 0 1px var(--un-text-shadow-color, rgb(0 0 0 / 0.2)),0 0 1px var(--un-text-shadow-color, rgb(1 0 5 / 0.1));text-shadow:var(--un-text-shadow);}.backdrop-filter{-webkit-backdrop-filter:var(--un-backdrop-blur) var(--un-backdrop-brightness) var(--un-backdrop-contrast) var(--un-backdrop-grayscale) var(--un-backdrop-hue-rotate) var(--un-backdrop-invert) var(--un-backdrop-opacity) var(--un-backdrop-saturate) var(--un-backdrop-sepia);backdrop-filter:var(--un-backdrop-blur) var(--un-backdrop-brightness) var(--un-backdrop-contrast) var(--un-backdrop-grayscale) var(--un-backdrop-hue-rotate) var(--un-backdrop-invert) var(--un-backdrop-opacity) var(--un-backdrop-saturate) var(--un-backdrop-sepia);}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}.duration-700{transition-duration:700ms;}.ease,.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}.ease-out{transition-timing-function:cubic-bezier(0, 0, 0.2, 1);} @font-face {
+  font-family: "MiSans VF";
+  src: url('https://cf-static.xwzkj.top/fonts/MiSans.ttf'), url('https://cdn-static.xwzkj.top/fonts/MiSans.ttf'), url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/MiSans.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/MiSans.ttf'), url('https://static.xwzkj.top/fonts/MiSans.ttf');
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cf-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Thin.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Thin.ttf'), url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Thin.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Thin.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Thin.ttf');
+  font-weight: 100;
+  /* Thin */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cf-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Light.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Light.ttf'), url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Light.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Light.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Light.ttf');
+  font-weight: 300;
+  /* Light */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cf-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Regular.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Regular.ttf'), url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Regular.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Regular.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Regular.ttf');
+  font-weight: 400;
+  /* Regular */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cf-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Medium.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Medium.ttf'), url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Medium.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Medium.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Medium.ttf');
+  font-weight: 500;
+  /* Medium */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cf-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Bold.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Bold.ttf'), url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Bold.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Bold.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Bold.ttf');
+  font-weight: 700;
+  /* Bold */
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS-sans";
+  src: url('https://cf-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Black.ttf'), url('https://cdn-static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Black.ttf'), url('https://cdn.jsdelivr.net/gh/xwzkj/fonts@latest/HarmonyOS_Sans_SC_Black.ttf'), url('https://github.com/xwzkj/fonts/releases/download/1/HarmonyOS_Sans_SC_Black.ttf'), url('https://static.xwzkj.top/fonts/HarmonyOS_Sans_SC_Black.ttf');
+  font-weight: 900;
+  /* Black */
+  font-display: swap;
+}
