@@ -1,4 +1,4 @@
-import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, d as defineComponent, b as ref, D as onMounted, aN as createVNode, aP as withCtx, u as unref, aV as MarqueePlus, aS as useCssVars, aH as NIcon, b0 as createApp } from "./font-DEda6vGU.js";
+import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, d as defineComponent, b as ref, D as onMounted, aN as createVNode, aP as withCtx, u as unref, aV as MarqueePlus, aS as useCssVars, aH as NIcon, b0 as createApp } from "./font-C1okcFeN.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",

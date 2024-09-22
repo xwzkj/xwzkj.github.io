@@ -9840,11 +9840,11 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   },
   setup(__props) {
     useCssVars((_ctx) => ({
-      "0219a090": unref(marqueeAnimation).name,
-      "3fede919": unref(marqueeAnimation).duration,
-      "408f541e": unref(marqueeAnimation).delay,
-      "0218eca9": unref(marqueeAnimation).loop,
-      "ca68d5e2": unref(marqueeAnimation).lyricDistance
+      "16b358c4": unref(marqueeAnimation).name,
+      "f86f3166": unref(marqueeAnimation).duration,
+      "81a6bb2c": unref(marqueeAnimation).delay,
+      "16b2a4dd": unref(marqueeAnimation).loop,
+      "0a8bd75b": unref(marqueeAnimation).lyricDistance
     }));
     let props = __props;
     let text1Ele = ref(null);
@@ -9871,7 +9871,6 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     let lineUpdated = () => {
       marqueeAnimation.value.name = "";
       limit = false;
-      console.log("marquee 更新");
     };
     watch(() => props.html, lineUpdated);
     watch(() => props.lineData.line, lineUpdated);
@@ -9954,7 +9953,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-af9ea66a"]]);
+const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-b9dd8b51"]]);
 export {
   Map$1 as $,
   readonly as A,
