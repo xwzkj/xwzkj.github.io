@@ -1,6 +1,6 @@
-import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, I as withDirectives, at as vShow, u as unref, aM as createBaseVNode, aQ as createBlock, aR as createCommentVNode, F as Fragment, aK as openBlock } from "./font-Cd1w-O3D.js";
-import { b as usePlayStore, c as cloudsearch } from "./index-BcoOkDLY.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-6_zWR-8M.js";
+import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, I as withDirectives, at as vShow, u as unref, aM as createBaseVNode, aQ as createBlock, aR as createCommentVNode, F as Fragment, aK as openBlock } from "./font-DtVGYGtH.js";
+import { b as usePlayStore, c as cloudsearch } from "./index-Ccsb0Aek.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-BKndEfkZ.js";
 const _sfc_main = {
   __name: "search",
   props: ["keyword"],
