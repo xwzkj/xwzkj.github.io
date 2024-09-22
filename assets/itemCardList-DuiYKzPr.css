@@ -45,3 +45,14 @@
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+.item-card-ul[data-v-e00dd55f] {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+}
+li[data-v-e00dd55f] {
+    list-style: none;
+}
+ul[data-v-e00dd55f] {
+    padding: 0;
+}

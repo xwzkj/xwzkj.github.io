@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-B5rKCv2r.js","./itemCard-CgglXoqz.js","./font-CKhGg7Gr.js","./font-DADGL-57.css","./Ellipsis-CDMBdqF8.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search-DxhVFGp9.js","./musicList-D-pejsvY.js","./musicList-CIYHyx-x.css","./search-DWPQbaEl.css","./login-wM0iXLkk.js","./login-zqTcuwMw.css","./account-BYAgnpaM.js","./account-DSLUV0tp.css","./playlist-Bh1XxU7I.js","./playlist-_rqHwo7U.css","./setting-C0sEIA3r.js","./setting-DzBWita7.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-CKhGg7Gr.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BzBGDXJK.js","./itemCardList-CG-y64Ds.js","./font-DEda6vGU.js","./font-Bm1mvSsM.css","./Ellipsis-qQfFLkxw.js","./itemCardList-DuiYKzPr.css","./home-D8uE6uWd.css","./search-BOPXH5iT.js","./musicList-DvRCK8W4.js","./musicList-CIYHyx-x.css","./search-CJVCiG0o.css","./login-u6ImY99o.js","./login-zqTcuwMw.css","./account-FTYKdXoK.js","./account-3Bs-RIiD.css","./playlist-7-MENBUY.js","./playlist-_rqHwo7U.css","./setting-oyPSnnpr.js","./setting-DzBWita7.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-DEda6vGU.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-B5rKCv2r.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BzBGDXJK.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DxhVFGp9.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-BOPXH5iT.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-wM0iXLkk.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-u6ImY99o.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-BYAgnpaM.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-FTYKdXoK.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-Bh1XxU7I.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-7-MENBUY.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-C0sEIA3r.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-oyPSnnpr.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2438,7 +2438,9 @@ function getMargin(value, position) {
     default:
       throw new Error("[seemly/getMargin]:" + value + " is not a valid value.");
   }
-  return margin;
+  if (position === void 0)
+    return margin;
+  return margin[position];
 }
 function createId(length = 8) {
   return Math.random().toString(16).slice(2, 2 + length);
@@ -29542,15 +29544,14 @@ ${e?.response?.data?.message}`,
   }
 };
 if (window.isElectron) {
-  console.log("当前是electron环境！");
   request = async (param, _) => {
     let { url, method, params, data } = param;
     if (localStorage.getItem("cookie")) {
       data = { ...data, cookie: localStorage.getItem("cookie") };
     }
-    console.log("本地api-请求", param);
+    console.log("%c本地api-发送请求", "color: gray; background-color: lightcyan; padding: 0.5rem; border-radius: 0.5rem", param);
     let res = await window.api.netease(url, { ...data, ...params });
-    console.log("本地api", param, res);
+    console.log("%c本地api-收到响应", "color: gray; background-color: aliceblue; padding: 0.5rem; border-radius: 0.5rem", param, res);
     return res;
   };
 }
@@ -29644,11 +29645,18 @@ function playlistDetail(id) {
     params: { id }
   });
 }
-function cloudsearch(keywords) {
+function cloudsearch(keywords, type = 1, offset = 0, limit = 60) {
   return request({
     url: "/cloudsearch",
     method: "post",
-    data: { keywords }
+    data: { keywords, type, offset, limit }
+  });
+}
+function scrobble(id, time2, sourceid = 0) {
+  return request({
+    url: "/scrobble",
+    method: "post",
+    data: { id, time: time2, sourceid }
   });
 }
 function loginWithPhone(phone, password = null, captcha) {
@@ -30779,6 +30787,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   function next() {
     pause();
     console.log(`[playStore]next`);
+    scrobble(currentMusic.value.id, musicStatus.value.currentTime, 0);
     const computIndex = (length, indexNow) => {
       if (indexNow < length - 1) {
         return indexNow + 1;
@@ -30799,6 +30808,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   function prev() {
     pause();
     console.log(`[playStore]prev`);
+    scrobble(currentMusic.value.id, musicStatus.value.currentTime, 0);
     const computIndex = (length, indexNow) => {
       if (indexNow > 0) {
         return indexNow - 1;
@@ -34296,6 +34306,7 @@ const _sfc_main$1 = {
   setup(__props) {
     return (_ctx, _cache) => {
       const _component_router_view = resolveComponent("router-view");
+      const _component_n_scrollbar = Scrollbar;
       return openBlock(), createElementBlock("div", _hoisted_1$1, [
         createBaseVNode("div", _hoisted_2$1, [
           createBaseVNode("div", _hoisted_3, [
@@ -34304,32 +34315,37 @@ const _sfc_main$1 = {
           createBaseVNode("div", _hoisted_4, [
             createVNode(_sfc_main$5),
             createBaseVNode("div", _hoisted_5, [
-              createVNode(_component_router_view, null, {
-                default: withCtx(({ Component }) => [
-                  createVNode(Transition, {
-                    name: "route",
-                    mode: "out-in"
-                  }, {
-                    default: withCtx(() => [
-                      (openBlock(), createBlock(KeepAlive, null, [
-                        _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
-                          key: _ctx.$route.name
-                        })) : createCommentVNode("", true)
-                      ], 1024))
+              createVNode(_component_n_scrollbar, { class: "max-h-full" }, {
+                default: withCtx(() => [
+                  createVNode(_component_router_view, { class: "p-0.5rem" }, {
+                    default: withCtx(({ Component }) => [
+                      createVNode(Transition, {
+                        name: "route",
+                        mode: "out-in"
+                      }, {
+                        default: withCtx(() => [
+                          (openBlock(), createBlock(KeepAlive, null, [
+                            _ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
+                              key: _ctx.$route.name
+                            })) : createCommentVNode("", true)
+                          ], 1024))
+                        ]),
+                        _: 2
+                      }, 1024),
+                      createVNode(Transition, {
+                        name: "route",
+                        mode: "out-in"
+                      }, {
+                        default: withCtx(() => [
+                          !_ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
+                            key: _ctx.$route.name
+                          })) : createCommentVNode("", true)
+                        ]),
+                        _: 2
+                      }, 1024)
                     ]),
-                    _: 2
-                  }, 1024),
-                  createVNode(Transition, {
-                    name: "route",
-                    mode: "out-in"
-                  }, {
-                    default: withCtx(() => [
-                      !_ctx.$route.meta.keepAlive ? (openBlock(), createBlock(resolveDynamicComponent(Component), {
-                        key: _ctx.$route.name
-                      })) : createCommentVNode("", true)
-                    ]),
-                    _: 2
-                  }, 1024)
+                    _: 1
+                  })
                 ]),
                 _: 1
               })
@@ -34341,7 +34357,7 @@ const _sfc_main$1 = {
     };
   }
 };
-const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-3e470506"]]);
+const Container = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-fe4748a6"]]);
 const _hoisted_1 = { class: "app" };
 const _hoisted_2 = {
   style: { "white-space": "pre-wrap" },
@@ -34351,16 +34367,16 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "33c21166": unref(themeStore).mainColors[0],
-      "33c21185": unref(themeStore).mainColors[1],
-      "33c211a4": unref(themeStore).mainColors[2],
-      "33c211c3": unref(themeStore).mainColors[3],
-      "33c211e2": unref(themeStore).mainColors[4],
-      "33c21201": unref(themeStore).mainColors[5],
-      "33c21220": unref(themeStore).mainColors[6],
-      "33c2123f": unref(themeStore).mainColors[7],
-      "33c2125e": unref(themeStore).mainColors[8],
-      "33c2127d": unref(themeStore).mainColors[9]
+      "58dea63d": unref(themeStore).mainColors[0],
+      "58dea65c": unref(themeStore).mainColors[1],
+      "58dea67b": unref(themeStore).mainColors[2],
+      "58dea69a": unref(themeStore).mainColors[3],
+      "58dea6b9": unref(themeStore).mainColors[4],
+      "58dea6d8": unref(themeStore).mainColors[5],
+      "58dea6f7": unref(themeStore).mainColors[6],
+      "58dea716": unref(themeStore).mainColors[7],
+      "58dea735": unref(themeStore).mainColors[8],
+      "58dea754": unref(themeStore).mainColors[9]
     }));
     let settingStore = useSettingStore();
     settingStore.init();
@@ -34398,7 +34414,7 @@ const _sfc_main = {
           let res = await axios.get("https://api.xwzkj.top/api/update?platform=windows");
           if (res.data.code === 200 && res.data.data.apiVersion == "1") {
             res = res.data.data;
-            console.log(`检查更新 当前：${window.api.appVersion} 服务器：${res.version}`);
+            console.log(`%c检查更新 当前：${window.api.appVersion} 服务器：${res.version}`, " background-color: lightcyan; padding: 0.5rem; border-radius: 0.5rem");
             if (res.version > window.api.appVersion) {
               updateData.value = {
                 newVersion: res?.version,
@@ -34507,63 +34523,77 @@ const _sfc_main = {
     };
   }
 };
+console.log("%c奶酪音乐", "font-family:'微软雅黑' ; font-size: 3rem; color: #deb237; background-color: #deb23710; padding: 0.5rem; border-radius: 0.5rem");
 let app = createApp(_sfc_main);
 app.use(pinia);
 console.log("pinia实例被创建");
 app.use(router);
 app.mount("#app");
 export {
-  __unplugin_components_5$3 as A,
-  Button as B,
-  __unplugin_components_2 as C,
-  __unplugin_components_3 as D,
-  tooltipLight as E,
-  NTooltip as F,
-  useStyle as G,
-  inputLight as H,
-  buttonLight as I,
-  on as J,
-  off as K,
-  fadeInScaleUpTransition as L,
-  useAdjustedTo as M,
-  NBaseLoading as N,
-  useFormItem as O,
-  useLocale as P,
-  useMergedState as Q,
-  isMounted as R,
-  getPreciseEventTarget as S,
-  Binder as T,
-  VFollower as U,
-  VTarget as V,
-  clickoutside as W,
-  call as X,
-  useSettingStore as Y,
-  __unplugin_components_1 as Z,
+  off as $,
+  loginWithPhone as A,
+  sendCaptcha as B,
+  Button as C,
+  areaData as D,
+  getColorFromImg as E,
+  mixColor as F,
+  recommendSongs as G,
+  playlistDetail as H,
+  __unplugin_components_0$4 as I,
+  fadeInTransition as J,
+  pxfy as K,
+  NBaseLoading as L,
+  parseArray as M,
+  NBaseIcon as N,
+  parseArtist as O,
+  likeAndUpdateLikelist as P,
+  __unplugin_components_5$3 as Q,
+  __unplugin_components_2 as R,
+  __unplugin_components_3 as S,
+  tooltipLight as T,
+  NTooltip as U,
+  VResizeObserver as V,
+  useStyle as W,
+  inputLight as X,
+  buttonLight as Y,
+  on as Z,
   __unplugin_components_0$3 as _,
-  useRouter as a,
-  usePlayStore as b,
-  cloudsearch as c,
-  useThemeStore as d,
-  loginQrCreate as e,
-  loginQrCheck as f,
+  c as a,
+  fadeInScaleUpTransition as a0,
+  useAdjustedTo as a1,
+  useFormItem as a2,
+  useLocale as a3,
+  isMounted as a4,
+  getPreciseEventTarget as a5,
+  Binder as a6,
+  VTarget as a7,
+  VFollower as a8,
+  clickoutside as a9,
+  useSettingStore as aa,
+  __unplugin_components_1 as ab,
+  NBaseClose as b,
+  cssrAnchorMetaName as c,
+  useCompitable as d,
+  useMergedState as e,
+  flatten$2 as f,
   getPersonalizedPlaylist as g,
-  error as h,
-  loginWithPhone as i,
-  sendCaptcha as j,
-  areaData as k,
-  loginQrKey as l,
-  getColorFromImg as m,
-  mixColor as n,
-  __unplugin_components_0$4 as o,
-  playlistDetail as p,
-  fadeInTransition as q,
-  recommendSongs as r,
-  success as s,
-  pxfy as t,
+  onFontsReady as h,
+  isSymbol as i,
+  resolveWrappedSlot as j,
+  call as k,
+  depx as l,
+  getMargin as m,
+  usePlayStore as n,
+  omit as o,
+  cloudsearch as p,
+  useThemeStore as q,
+  render$j as r,
+  loginQrKey as s,
+  loginQrCreate as t,
   useUserStore as u,
-  verifyCaptcha as v,
-  useCompitable as w,
-  parseArray as x,
-  parseArtist as y,
-  likeAndUpdateLikelist as z
+  loginQrCheck as v,
+  success as w,
+  useRouter as x,
+  error as y,
+  verifyCaptcha as z
 };

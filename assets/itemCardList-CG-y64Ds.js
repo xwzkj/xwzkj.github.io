@@ -1,13 +1,13 @@
-import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aS as useCssVars, b as ref, u as unref, aN as createVNode, aP as withCtx, v as createTextVNode, aU as toDisplayString, b1 as normalizeStyle, aH as NIcon } from "./font-CKhGg7Gr.js";
-import { d as useThemeStore, a as useRouter, m as getColorFromImg, n as mixColor } from "./index-iefCA4Na.js";
-import { _ as __unplugin_components_1$1 } from "./Ellipsis-CDMBdqF8.js";
-const _hoisted_1$1 = {
+import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aS as useCssVars, b as ref, u as unref, aN as createVNode, aP as withCtx, v as createTextVNode, aU as toDisplayString, b1 as normalizeStyle, aH as NIcon, d as defineComponent, aR as createCommentVNode, F as Fragment, aT as renderList } from "./font-DEda6vGU.js";
+import { q as useThemeStore, x as useRouter, E as getColorFromImg, F as mixColor } from "./index-DRKHhsUV.js";
+import { _ as __unplugin_components_1$1 } from "./Ellipsis-qQfFLkxw.js";
+const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$1, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$2, _cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "currentColor",
       d: "M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m0 2v3H4V5zM4 21V10h16v11z"
@@ -20,11 +20,11 @@ function render(_ctx, _cache) {
   ]));
 }
 const __unplugin_components_1 = markRaw({ name: "ic-twotone-calendar-today", render });
-const _hoisted_1 = ["src"];
-const _hoisted_2 = { class: "item-card-name text1" };
-const _hoisted_3 = { class: "item-card-date-box text2" };
+const _hoisted_1$1 = ["src"];
+const _hoisted_2$1 = { class: "item-card-name text1" };
+const _hoisted_3$1 = { class: "item-card-date-box text2" };
 const _hoisted_4 = { class: "item-card-date" };
-const _sfc_main = {
+const _sfc_main$1 = {
   __name: "itemCard",
   props: ["imgurl", "text", "click", "isDailySongs"],
   setup(__props) {
@@ -57,8 +57,8 @@ const _sfc_main = {
           ref_key: "itemCardImg",
           ref: itemCardImg,
           onLoad: getImgMainColor
-        }, null, 40, _hoisted_1),
-        createBaseVNode("div", _hoisted_2, [
+        }, null, 40, _hoisted_1$1),
+        createBaseVNode("div", _hoisted_2$1, [
           createVNode(_component_n_ellipsis, { "line-clamp": 2 }, {
             default: withCtx(() => [
               createTextVNode(toDisplayString(unref(props).text), 1)
@@ -72,7 +72,7 @@ const _sfc_main = {
         onClick: _cache[1] || (_cache[1] = ($event) => unref(router).push({ name: "playlist", query: { isDailySongs: true } })),
         style: normalizeStyle({ backgroundColor: unref(themeStore).mainColors?.[1] })
       }, [
-        createBaseVNode("div", _hoisted_3, [
+        createBaseVNode("div", _hoisted_3$1, [
           createVNode(_component_n_icon, {
             size: "11rem",
             class: "item-card-icon"
@@ -89,7 +89,43 @@ const _sfc_main = {
     };
   }
 };
-const itemCard = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ec765ca7"]]);
+const itemCard = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-ec765ca7"]]);
+const _hoisted_1 = { class: "item-card-ul" };
+const _hoisted_2 = {
+  key: 0,
+  class: "item-card-li"
+};
+const _hoisted_3 = { class: "item-card-li" };
+const _sfc_main = /* @__PURE__ */ defineComponent({
+  __name: "itemCardList",
+  props: {
+    data: {},
+    needDaily: { type: Boolean, default: false }
+  },
+  setup(__props) {
+    const router = useRouter();
+    const props = __props;
+    return (_ctx, _cache) => {
+      return openBlock(), createElementBlock("div", null, [
+        createBaseVNode("ul", _hoisted_1, [
+          props.needDaily ? (openBlock(), createElementBlock("li", _hoisted_2, [
+            createVNode(itemCard, { isDailySongs: true })
+          ])) : createCommentVNode("", true),
+          (openBlock(true), createElementBlock(Fragment, null, renderList(_ctx.data, (item) => {
+            return openBlock(), createElementBlock("li", _hoisted_3, [
+              createVNode(itemCard, {
+                imgurl: item?.coverImgUrl ?? item?.picUrl,
+                text: item.name,
+                onClick: ($event) => unref(router).push({ name: "playlist", query: { id: item.id } })
+              }, null, 8, ["imgurl", "text", "onClick"])
+            ]);
+          }), 256))
+        ])
+      ]);
+    };
+  }
+});
+const itemCardList = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-e00dd55f"]]);
 export {
-  itemCard as i
+  itemCardList as i
 };
