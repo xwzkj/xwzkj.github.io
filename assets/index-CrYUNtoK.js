@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-COZRfLiY.js","./itemCard-BDffJKun.js","./font-DtVGYGtH.js","./font-2Sjp1O2p.css","./Ellipsis-DBhQHlOb.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search-D8uIrUfk.js","./musicList-BKndEfkZ.js","./musicList-CIYHyx-x.css","./search-DWPQbaEl.css","./login-DnARLwGE.js","./login-zqTcuwMw.css","./account-CHHx-84o.js","./account-DSLUV0tp.css","./playlist-Dz-3Wf4F.js","./playlist-_rqHwo7U.css","./setting-BmB2Iu0R.js","./setting-DUOoH7Af.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-CEweuOvY.js","./itemCard-BC6-TMbN.js","./font-DtVGYGtH.js","./font-2Sjp1O2p.css","./Ellipsis-3f6YksdP.js","./itemCard-BJfDCTul.css","./home-DEmyRBvu.css","./search-imLfnXVI.js","./musicList-CQCJWSqq.js","./musicList-CIYHyx-x.css","./search-DWPQbaEl.css","./login-t6SLwZYQ.js","./login-zqTcuwMw.css","./account-BYxEBKx-.js","./account-DSLUV0tp.css","./playlist-D4Ka79tv.js","./playlist-_rqHwo7U.css","./setting-BiS2Svqv.js","./setting-DUOoH7Af.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-DtVGYGtH.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-COZRfLiY.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-CEweuOvY.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-D8uIrUfk.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-imLfnXVI.js"), true ? __vite__mapDeps([7,2,3,8,9,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DnARLwGE.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-t6SLwZYQ.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-CHHx-84o.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-BYxEBKx-.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-Dz-3Wf4F.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-D4Ka79tv.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BmB2Iu0R.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BiS2Svqv.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -30833,10 +30833,8 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   }
   setInterval(() => {
     updateLyric();
-  }, 50);
-  setInterval(() => {
     updateKtvLyric();
-  }, 15);
+  }, 50);
   function updateLyric() {
     try {
       if (musicStatus.value.paused == false && "lyric" in currentMusic.value) {
