@@ -1,5 +1,5 @@
 /**
-* @vue/shared v3.5.8
+* @vue/shared v3.5.9
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -195,7 +195,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.5.8
+* @vue/reactivity v3.5.9
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -419,11 +419,14 @@ function endBatch() {
   let error;
   while (batchedSub) {
     let e = batchedSub;
+    let next;
+    while (e) {
+      e.flags &= ~8;
+      e = e.next;
+    }
+    e = batchedSub;
     batchedSub = void 0;
     while (e) {
-      const next = e.next;
-      e.next = void 0;
-      e.flags &= ~8;
       if (e.flags & 1) {
         try {
           ;
@@ -432,6 +435,8 @@ function endBatch() {
           if (!error) error = err;
         }
       }
+      next = e.next;
+      e.next = void 0;
       e = next;
     }
   }
@@ -444,7 +449,7 @@ function prepareDeps(sub) {
     link.dep.activeLink = link;
   }
 }
-function cleanupDeps(sub, fromComputed = false) {
+function cleanupDeps(sub) {
   let head;
   let tail = sub.depsTail;
   let link = tail;
@@ -452,7 +457,7 @@ function cleanupDeps(sub, fromComputed = false) {
     const prev = link.prevDep;
     if (link.version === -1) {
       if (link === tail) tail = prev;
-      removeSub(link, fromComputed);
+      removeSub(link);
       removeDep(link);
     } else {
       head = link;
@@ -507,11 +512,11 @@ function refreshComputed(computed2) {
   } finally {
     activeSub = prevSub;
     shouldTrack = prevShouldTrack;
-    cleanupDeps(computed2, true);
+    cleanupDeps(computed2);
     computed2.flags &= ~2;
   }
 }
-function removeSub(link, fromComputed = false) {
+function removeSub(link, soft = false) {
   const { dep, prevSub, nextSub } = link;
   if (prevSub) {
     prevSub.nextSub = nextSub;
@@ -524,16 +529,14 @@ function removeSub(link, fromComputed = false) {
   if (dep.subs === link) {
     dep.subs = prevSub;
   }
-  if (!dep.subs) {
-    if (dep.computed) {
-      dep.computed.flags &= ~4;
-      for (let l = dep.computed.deps; l; l = l.nextDep) {
-        removeSub(l, true);
-      }
-    } else if (dep.map && !fromComputed) {
-      dep.map.delete(dep.key);
-      if (!dep.map.size) targetMap.delete(dep.target);
+  if (!dep.subs && dep.computed) {
+    dep.computed.flags &= ~4;
+    for (let l = dep.computed.deps; l; l = l.nextDep) {
+      removeSub(l, true);
     }
+  }
+  if (!soft && !--dep.sc && dep.map) {
+    dep.map.delete(dep.key);
   }
 }
 function removeDep(link) {
@@ -588,6 +591,7 @@ class Dep {
     this.target = void 0;
     this.map = void 0;
     this.key = void 0;
+    this.sc = 0;
   }
   track(debugInfo) {
     if (!activeSub || !shouldTrack || activeSub === this.computed) {
@@ -603,9 +607,7 @@ class Dep {
         activeSub.depsTail.nextDep = link;
         activeSub.depsTail = link;
       }
-      if (activeSub.flags & 4) {
-        addSub(link);
-      }
+      addSub(link);
     } else if (link.version === -1) {
       link.version = this.version;
       if (link.nextDep) {
@@ -646,19 +648,22 @@ class Dep {
   }
 }
 function addSub(link) {
-  const computed2 = link.dep.computed;
-  if (computed2 && !link.dep.subs) {
-    computed2.flags |= 4 | 16;
-    for (let l = computed2.deps; l; l = l.nextDep) {
-      addSub(l);
+  link.dep.sc++;
+  if (link.sub.flags & 4) {
+    const computed2 = link.dep.computed;
+    if (computed2 && !link.dep.subs) {
+      computed2.flags |= 4 | 16;
+      for (let l = computed2.deps; l; l = l.nextDep) {
+        addSub(l);
+      }
     }
+    const currentTail = link.dep.subs;
+    if (currentTail !== link) {
+      link.prevSub = currentTail;
+      if (currentTail) currentTail.nextSub = link;
+    }
+    link.dep.subs = link;
   }
-  const currentTail = link.dep.subs;
-  if (currentTail !== link) {
-    link.prevSub = currentTail;
-    if (currentTail) currentTail.nextSub = link;
-  }
-  link.dep.subs = link;
 }
 const targetMap = /* @__PURE__ */ new WeakMap();
 const ITERATE_KEY = Symbol(
@@ -751,8 +756,8 @@ function trigger(target, type, key, newValue, oldValue, oldTarget) {
   endBatch();
 }
 function getDepFromReactive(object, key) {
-  var _a;
-  return (_a = targetMap.get(object)) == null ? void 0 : _a.get(key);
+  const depMap = targetMap.get(object);
+  return depMap && depMap.get(key);
 }
 function reactiveReadArray(array) {
   const raw = toRaw(array);
@@ -1798,7 +1803,7 @@ function traverse(value, depth = Infinity, seen) {
   return value;
 }
 /**
-* @vue/runtime-core v3.5.8
+* @vue/runtime-core v3.5.9
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -6325,7 +6330,7 @@ function normalizeVNode(child) {
       // #3666, avoid reference pollution when reusing vnode
       child.slice()
     );
-  } else if (typeof child === "object") {
+  } else if (isVNode(child)) {
     return cloneIfMounted(child);
   } else {
     return createVNode(Text, null, String(child));
@@ -6728,9 +6733,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.5.8";
+const version = "3.5.9";
 /**
-* @vue/runtime-dom v3.5.8
+* @vue/runtime-dom v3.5.9
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -9305,14 +9310,16 @@ function useTheme(resolveId, mountId, style2, defaultTheme, props, clsPrefixRef)
           bPrefix: clsPrefix ? `.${clsPrefix}-` : void 0
         },
         anchorMetaName: cssrAnchorMetaName,
-        ssr: ssrAdapter2
+        ssr: ssrAdapter2,
+        parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
       });
       if (!(NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.preflightStyleDisabled)) {
         globalStyle.mount({
           id: "n-global",
           head: true,
           anchorMetaName: cssrAnchorMetaName,
-          ssr: ssrAdapter2
+          ssr: ssrAdapter2,
+          parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
         });
       }
     };
@@ -9403,9 +9410,10 @@ function useMergedClsPrefix() {
   return NConfigProvider ? NConfigProvider.mergedClsPrefixRef : shallowRef(defaultClsPrefix);
 }
 function useThemeClass(componentName, hashRef, cssVarsRef, props) {
-  var _a;
   if (!cssVarsRef) throwError("useThemeClass", "cssVarsRef is not passed");
-  const mergedThemeHashRef = (_a = inject(configProviderInjectionKey, null)) === null || _a === void 0 ? void 0 : _a.mergedThemeHashRef;
+  const NConfigProvider = inject(configProviderInjectionKey, null);
+  const mergedThemeHashRef = NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedThemeHashRef;
+  const styleMountTarget = NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget;
   const themeClassRef = ref("");
   const ssrAdapter2 = useSsrAdapter();
   let renderCallback;
@@ -9435,7 +9443,8 @@ function useThemeClass(componentName, hashRef, cssVarsRef, props) {
       }
       c(`.${finalThemeHash}`, style2).mount({
         id: finalThemeHash,
-        ssr: ssrAdapter2
+        ssr: ssrAdapter2,
+        parent: styleMountTarget
       });
       renderCallback = void 0;
     };
@@ -9671,7 +9680,7 @@ const iconProps = Object.assign(Object.assign({}, useTheme.props), {
   depth: [String, Number],
   size: [Number, String],
   color: String,
-  component: Object
+  component: [Object, Function]
 });
 const NIcon = /* @__PURE__ */ defineComponent({
   _n_icon__: true,

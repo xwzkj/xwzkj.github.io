@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DRucSHqN.js","./itemCardList-BCdLfLhh.js","./font-C1okcFeN.js","./font-CjFMNr__.css","./Ellipsis-C-6mJ331.js","./itemCardList-DuiYKzPr.css","./home-D8uE6uWd.css","./search-Buy3FWK_.js","./musicList-uMD5CTh3.js","./musicList-CIYHyx-x.css","./search-CJVCiG0o.css","./login-BrA4Kfft.js","./login-zqTcuwMw.css","./account-DwdQUKEE.js","./account-3Bs-RIiD.css","./playlist--zvaWO3M.js","./playlist-_rqHwo7U.css","./setting-DOgs-JJX.js","./setting-DzBWita7.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-C1okcFeN.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DiY4maxI.js","./itemCardList-_0loFq6p.js","./font-D8i_B5DI.js","./font-CjFMNr__.css","./Ellipsis-B0XM8_ab.js","./itemCardList-DuiYKzPr.css","./home-D8uE6uWd.css","./search-C5FcctGt.js","./musicList-BJI-YW8H.js","./musicList-CIYHyx-x.css","./search-CJVCiG0o.css","./login-CPiqElh4.js","./login-zqTcuwMw.css","./account-qB9VbBg_.js","./account-3Bs-RIiD.css","./playlist-C-eK9Ti7.js","./playlist-_rqHwo7U.css","./setting-CJ-ncUnJ.js","./setting-DzBWita7.css"])))=>i.map(i=>d[i]);
+import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-D8i_B5DI.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-DRucSHqN.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-DiY4maxI.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-Buy3FWK_.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-C5FcctGt.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BrA4Kfft.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CPiqElh4.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-DwdQUKEE.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-qB9VbBg_.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist--zvaWO3M.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-C-eK9Ti7.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DOgs-JJX.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-CJ-ncUnJ.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -6058,7 +6058,7 @@ function map(collection, iteratee) {
   var func = isArray$2(collection) ? arrayMap : baseMap;
   return func(collection, baseIteratee(iteratee));
 }
-const enUS = {
+const enUS$1 = {
   name: "en-US",
   global: {
     undo: "Undo",
@@ -6088,7 +6088,7 @@ const enUS = {
     dateFormat: "yyyy-MM-dd",
     dateTimeFormat: "yyyy-MM-dd HH:mm:ss",
     quarterFormat: "yyyy-qqq",
-    weekFormat: "RRRR-w",
+    weekFormat: "YYYY-w",
     clear: "Clear",
     now: "Now",
     confirm: "Confirm",
@@ -6183,66 +6183,63 @@ const enUS = {
   }
 };
 function buildFormatLongFn(args) {
-  return function() {
-    var options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
-    var width = options.width ? String(options.width) : args.defaultWidth;
-    var format = args.formats[width] || args.formats[args.defaultWidth];
+  return (options = {}) => {
+    const width = options.width ? String(options.width) : args.defaultWidth;
+    const format = args.formats[width] || args.formats[args.defaultWidth];
     return format;
   };
 }
 function buildLocalizeFn(args) {
-  return function(dirtyIndex, options) {
-    var context = options !== null && options !== void 0 && options.context ? String(options.context) : "standalone";
-    var valuesArray;
+  return (value, options) => {
+    const context = options?.context ? String(options.context) : "standalone";
+    let valuesArray;
     if (context === "formatting" && args.formattingValues) {
-      var defaultWidth = args.defaultFormattingWidth || args.defaultWidth;
-      var width = options !== null && options !== void 0 && options.width ? String(options.width) : defaultWidth;
+      const defaultWidth = args.defaultFormattingWidth || args.defaultWidth;
+      const width = options?.width ? String(options.width) : defaultWidth;
       valuesArray = args.formattingValues[width] || args.formattingValues[defaultWidth];
     } else {
-      var _defaultWidth = args.defaultWidth;
-      var _width = options !== null && options !== void 0 && options.width ? String(options.width) : args.defaultWidth;
-      valuesArray = args.values[_width] || args.values[_defaultWidth];
+      const defaultWidth = args.defaultWidth;
+      const width = options?.width ? String(options.width) : args.defaultWidth;
+      valuesArray = args.values[width] || args.values[defaultWidth];
     }
-    var index = args.argumentCallback ? args.argumentCallback(dirtyIndex) : dirtyIndex;
+    const index = args.argumentCallback ? args.argumentCallback(value) : value;
     return valuesArray[index];
   };
 }
 function buildMatchFn(args) {
-  return function(string) {
-    var options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
-    var width = options.width;
-    var matchPattern = width && args.matchPatterns[width] || args.matchPatterns[args.defaultMatchWidth];
-    var matchResult = string.match(matchPattern);
+  return (string, options = {}) => {
+    const width = options.width;
+    const matchPattern = width && args.matchPatterns[width] || args.matchPatterns[args.defaultMatchWidth];
+    const matchResult = string.match(matchPattern);
     if (!matchResult) {
       return null;
     }
-    var matchedString = matchResult[0];
-    var parsePatterns = width && args.parsePatterns[width] || args.parsePatterns[args.defaultParseWidth];
-    var key = Array.isArray(parsePatterns) ? findIndex(parsePatterns, function(pattern) {
-      return pattern.test(matchedString);
-    }) : findKey$1(parsePatterns, function(pattern) {
-      return pattern.test(matchedString);
-    });
-    var value;
+    const matchedString = matchResult[0];
+    const parsePatterns = width && args.parsePatterns[width] || args.parsePatterns[args.defaultParseWidth];
+    const key = Array.isArray(parsePatterns) ? findIndex(parsePatterns, (pattern) => pattern.test(matchedString)) : (
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any -- I challange you to fix the type
+      findKey$1(parsePatterns, (pattern) => pattern.test(matchedString))
+    );
+    let value;
     value = args.valueCallback ? args.valueCallback(key) : key;
-    value = options.valueCallback ? options.valueCallback(value) : value;
-    var rest = string.slice(matchedString.length);
-    return {
-      value,
-      rest
-    };
+    value = options.valueCallback ? (
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any -- I challange you to fix the type
+      options.valueCallback(value)
+    ) : value;
+    const rest = string.slice(matchedString.length);
+    return { value, rest };
   };
 }
 function findKey$1(object, predicate) {
-  for (var key in object) {
-    if (object.hasOwnProperty(key) && predicate(object[key])) {
+  for (const key in object) {
+    if (Object.prototype.hasOwnProperty.call(object, key) && predicate(object[key])) {
       return key;
     }
   }
   return void 0;
 }
 function findIndex(array, predicate) {
-  for (var key = 0; key < array.length; key++) {
+  for (let key = 0; key < array.length; key++) {
     if (predicate(array[key])) {
       return key;
     }
@@ -6250,23 +6247,19 @@ function findIndex(array, predicate) {
   return void 0;
 }
 function buildMatchPatternFn(args) {
-  return function(string) {
-    var options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
-    var matchResult = string.match(args.matchPattern);
+  return (string, options = {}) => {
+    const matchResult = string.match(args.matchPattern);
     if (!matchResult) return null;
-    var matchedString = matchResult[0];
-    var parseResult = string.match(args.parsePattern);
+    const matchedString = matchResult[0];
+    const parseResult = string.match(args.parsePattern);
     if (!parseResult) return null;
-    var value = args.valueCallback ? args.valueCallback(parseResult[0]) : parseResult[0];
+    let value = args.valueCallback ? args.valueCallback(parseResult[0]) : parseResult[0];
     value = options.valueCallback ? options.valueCallback(value) : value;
-    var rest = string.slice(matchedString.length);
-    return {
-      value,
-      rest
-    };
+    const rest = string.slice(matchedString.length);
+    return { value, rest };
   };
 }
-var formatDistanceLocale = {
+const formatDistanceLocale = {
   lessThanXSeconds: {
     one: "less than a second",
     other: "less than {{count}} seconds"
@@ -6329,9 +6322,9 @@ var formatDistanceLocale = {
     other: "almost {{count}} years"
   }
 };
-var formatDistance = function formatDistance2(token, count, options) {
-  var result;
-  var tokenValue = formatDistanceLocale[token];
+const formatDistance = (token, count, options) => {
+  let result;
+  const tokenValue = formatDistanceLocale[token];
   if (typeof tokenValue === "string") {
     result = tokenValue;
   } else if (count === 1) {
@@ -6339,7 +6332,7 @@ var formatDistance = function formatDistance2(token, count, options) {
   } else {
     result = tokenValue.other.replace("{{count}}", count.toString());
   }
-  if (options !== null && options !== void 0 && options.addSuffix) {
+  if (options?.addSuffix) {
     if (options.comparison && options.comparison > 0) {
       return "in " + result;
     } else {
@@ -6348,39 +6341,7 @@ var formatDistance = function formatDistance2(token, count, options) {
   }
   return result;
 };
-var dateFormats = {
-  full: "EEEE, MMMM do, y",
-  long: "MMMM do, y",
-  medium: "MMM d, y",
-  short: "MM/dd/yyyy"
-};
-var timeFormats = {
-  full: "h:mm:ss a zzzz",
-  long: "h:mm:ss a z",
-  medium: "h:mm:ss a",
-  short: "h:mm a"
-};
-var dateTimeFormats = {
-  full: "{{date}} 'at' {{time}}",
-  long: "{{date}} 'at' {{time}}",
-  medium: "{{date}}, {{time}}",
-  short: "{{date}}, {{time}}"
-};
-var formatLong = {
-  date: buildFormatLongFn({
-    formats: dateFormats,
-    defaultWidth: "full"
-  }),
-  time: buildFormatLongFn({
-    formats: timeFormats,
-    defaultWidth: "full"
-  }),
-  dateTime: buildFormatLongFn({
-    formats: dateTimeFormats,
-    defaultWidth: "full"
-  })
-};
-var formatRelativeLocale = {
+const formatRelativeLocale = {
   lastWeek: "'last' eeee 'at' p",
   yesterday: "'yesterday at' p",
   today: "'today at' p",
@@ -6388,31 +6349,63 @@ var formatRelativeLocale = {
   nextWeek: "eeee 'at' p",
   other: "P"
 };
-var formatRelative = function formatRelative2(token, _date, _baseDate, _options) {
-  return formatRelativeLocale[token];
-};
-var eraValues = {
+const formatRelative = (token, _date, _baseDate, _options) => formatRelativeLocale[token];
+const eraValues = {
   narrow: ["B", "A"],
   abbreviated: ["BC", "AD"],
   wide: ["Before Christ", "Anno Domini"]
 };
-var quarterValues = {
+const quarterValues = {
   narrow: ["1", "2", "3", "4"],
   abbreviated: ["Q1", "Q2", "Q3", "Q4"],
   wide: ["1st quarter", "2nd quarter", "3rd quarter", "4th quarter"]
 };
-var monthValues = {
+const monthValues = {
   narrow: ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"],
-  abbreviated: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-  wide: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+  abbreviated: [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  wide: [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ]
 };
-var dayValues = {
+const dayValues = {
   narrow: ["S", "M", "T", "W", "T", "F", "S"],
   short: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
   abbreviated: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-  wide: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  wide: [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ]
 };
-var dayPeriodValues = {
+const dayPeriodValues = {
   narrow: {
     am: "a",
     pm: "p",
@@ -6444,7 +6437,7 @@ var dayPeriodValues = {
     night: "night"
   }
 };
-var formattingDayPeriodValues = {
+const formattingDayPeriodValues = {
   narrow: {
     am: "a",
     pm: "p",
@@ -6476,9 +6469,9 @@ var formattingDayPeriodValues = {
     night: "at night"
   }
 };
-var ordinalNumber = function ordinalNumber2(dirtyNumber, _options) {
-  var number = Number(dirtyNumber);
-  var rem100 = number % 100;
+const ordinalNumber = (dirtyNumber, _options) => {
+  const number = Number(dirtyNumber);
+  const rem100 = number % 100;
   if (rem100 > 20 || rem100 < 10) {
     switch (rem100 % 10) {
       case 1:
@@ -6491,7 +6484,7 @@ var ordinalNumber = function ordinalNumber2(dirtyNumber, _options) {
   }
   return number + "th";
 };
-var localize = {
+const localize = {
   ordinalNumber,
   era: buildLocalizeFn({
     values: eraValues,
@@ -6500,9 +6493,7 @@ var localize = {
   quarter: buildLocalizeFn({
     values: quarterValues,
     defaultWidth: "wide",
-    argumentCallback: function argumentCallback(quarter) {
-      return quarter - 1;
-    }
+    argumentCallback: (quarter) => quarter - 1
   }),
   month: buildLocalizeFn({
     values: monthValues,
@@ -6519,48 +6510,74 @@ var localize = {
     defaultFormattingWidth: "wide"
   })
 };
-var matchOrdinalNumberPattern = /^(\d+)(th|st|nd|rd)?/i;
-var parseOrdinalNumberPattern = /\d+/i;
-var matchEraPatterns = {
+const matchOrdinalNumberPattern = /^(\d+)(th|st|nd|rd)?/i;
+const parseOrdinalNumberPattern = /\d+/i;
+const matchEraPatterns = {
   narrow: /^(b|a)/i,
   abbreviated: /^(b\.?\s?c\.?|b\.?\s?c\.?\s?e\.?|a\.?\s?d\.?|c\.?\s?e\.?)/i,
   wide: /^(before christ|before common era|anno domini|common era)/i
 };
-var parseEraPatterns = {
+const parseEraPatterns = {
   any: [/^b/i, /^(a|c)/i]
 };
-var matchQuarterPatterns = {
+const matchQuarterPatterns = {
   narrow: /^[1234]/i,
   abbreviated: /^q[1234]/i,
   wide: /^[1234](th|st|nd|rd)? quarter/i
 };
-var parseQuarterPatterns = {
+const parseQuarterPatterns = {
   any: [/1/i, /2/i, /3/i, /4/i]
 };
-var matchMonthPatterns = {
+const matchMonthPatterns = {
   narrow: /^[jfmasond]/i,
   abbreviated: /^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i,
   wide: /^(january|february|march|april|may|june|july|august|september|october|november|december)/i
 };
-var parseMonthPatterns = {
-  narrow: [/^j/i, /^f/i, /^m/i, /^a/i, /^m/i, /^j/i, /^j/i, /^a/i, /^s/i, /^o/i, /^n/i, /^d/i],
-  any: [/^ja/i, /^f/i, /^mar/i, /^ap/i, /^may/i, /^jun/i, /^jul/i, /^au/i, /^s/i, /^o/i, /^n/i, /^d/i]
+const parseMonthPatterns = {
+  narrow: [
+    /^j/i,
+    /^f/i,
+    /^m/i,
+    /^a/i,
+    /^m/i,
+    /^j/i,
+    /^j/i,
+    /^a/i,
+    /^s/i,
+    /^o/i,
+    /^n/i,
+    /^d/i
+  ],
+  any: [
+    /^ja/i,
+    /^f/i,
+    /^mar/i,
+    /^ap/i,
+    /^may/i,
+    /^jun/i,
+    /^jul/i,
+    /^au/i,
+    /^s/i,
+    /^o/i,
+    /^n/i,
+    /^d/i
+  ]
 };
-var matchDayPatterns = {
+const matchDayPatterns = {
   narrow: /^[smtwf]/i,
   short: /^(su|mo|tu|we|th|fr|sa)/i,
   abbreviated: /^(sun|mon|tue|wed|thu|fri|sat)/i,
   wide: /^(sunday|monday|tuesday|wednesday|thursday|friday|saturday)/i
 };
-var parseDayPatterns = {
+const parseDayPatterns = {
   narrow: [/^s/i, /^m/i, /^t/i, /^w/i, /^t/i, /^f/i, /^s/i],
   any: [/^su/i, /^m/i, /^tu/i, /^w/i, /^th/i, /^f/i, /^sa/i]
 };
-var matchDayPeriodPatterns = {
+const matchDayPeriodPatterns = {
   narrow: /^(a|p|mi|n|(in the|at) (morning|afternoon|evening|night))/i,
   any: /^([ap]\.?\s?m\.?|midnight|noon|(in the|at) (morning|afternoon|evening|night))/i
 };
-var parseDayPeriodPatterns = {
+const parseDayPeriodPatterns = {
   any: {
     am: /^a/i,
     pm: /^p/i,
@@ -6572,13 +6589,11 @@ var parseDayPeriodPatterns = {
     night: /night/i
   }
 };
-var match = {
+const match = {
   ordinalNumber: buildMatchPatternFn({
     matchPattern: matchOrdinalNumberPattern,
     parsePattern: parseOrdinalNumberPattern,
-    valueCallback: function valueCallback(value) {
-      return parseInt(value, 10);
-    }
+    valueCallback: (value) => parseInt(value, 10)
   }),
   era: buildMatchFn({
     matchPatterns: matchEraPatterns,
@@ -6591,9 +6606,7 @@ var match = {
     defaultMatchWidth: "wide",
     parsePatterns: parseQuarterPatterns,
     defaultParseWidth: "any",
-    valueCallback: function valueCallback2(index) {
-      return index + 1;
-    }
+    valueCallback: (index) => index + 1
   }),
   month: buildMatchFn({
     matchPatterns: matchMonthPatterns,
@@ -6614,7 +6627,39 @@ var match = {
     defaultParseWidth: "any"
   })
 };
-var locale = {
+const dateFormats = {
+  full: "EEEE, MMMM do, y",
+  long: "MMMM do, y",
+  medium: "MMM d, y",
+  short: "MM/dd/yyyy"
+};
+const timeFormats = {
+  full: "h:mm:ss a zzzz",
+  long: "h:mm:ss a z",
+  medium: "h:mm:ss a",
+  short: "h:mm a"
+};
+const dateTimeFormats = {
+  full: "{{date}} 'at' {{time}}",
+  long: "{{date}} 'at' {{time}}",
+  medium: "{{date}}, {{time}}",
+  short: "{{date}}, {{time}}"
+};
+const formatLong = {
+  date: buildFormatLongFn({
+    formats: dateFormats,
+    defaultWidth: "full"
+  }),
+  time: buildFormatLongFn({
+    formats: timeFormats,
+    defaultWidth: "full"
+  }),
+  dateTime: buildFormatLongFn({
+    formats: dateTimeFormats,
+    defaultWidth: "full"
+  })
+};
+const enUS = {
   code: "en-US",
   formatDistance,
   formatLong,
@@ -6628,7 +6673,7 @@ var locale = {
 };
 const dateEnUs = {
   name: "en-US",
-  locale
+  locale: enUS
 };
 function useLocale(ns) {
   const {
@@ -6637,7 +6682,7 @@ function useLocale(ns) {
   } = inject(configProviderInjectionKey, null) || {};
   const localeRef = computed(() => {
     var _a, _b;
-    return (_b = (_a = mergedLocaleRef === null || mergedLocaleRef === void 0 ? void 0 : mergedLocaleRef.value) === null || _a === void 0 ? void 0 : _a[ns]) !== null && _b !== void 0 ? _b : enUS[ns];
+    return (_b = (_a = mergedLocaleRef === null || mergedLocaleRef === void 0 ? void 0 : mergedLocaleRef.value) === null || _a === void 0 ? void 0 : _a[ns]) !== null && _b !== void 0 ? _b : enUS$1[ns];
   });
   const dateLocaleRef = computed(() => {
     var _a;
@@ -6663,14 +6708,16 @@ function useStyle(mountId, style2, clsPrefixRef) {
       props: {
         bPrefix: clsPrefix ? `.${clsPrefix}-` : void 0
       },
-      ssr: ssrAdapter
+      ssr: ssrAdapter,
+      parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
     });
     if (!(NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.preflightStyleDisabled)) {
       globalStyle.mount({
         id: "n-global",
         head: true,
         anchorMetaName: cssrAnchorMetaName$1,
-        ssr: ssrAdapter
+        ssr: ssrAdapter,
+        parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
       });
     }
   };
@@ -6696,6 +6743,7 @@ function useRtl(mountId, rtlStateRef, clsPrefixRef) {
     }
     return componentRtlState;
   });
+  const NConfigProvider = inject(configProviderInjectionKey, null);
   const mountStyle = () => {
     watchEffect(() => {
       const {
@@ -6714,7 +6762,8 @@ function useRtl(mountId, rtlStateRef, clsPrefixRef) {
         props: {
           bPrefix: clsPrefix ? `.${clsPrefix}-` : void 0
         },
-        ssr: ssrAdapter
+        ssr: ssrAdapter,
+        parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
       });
     });
   };
@@ -7954,8 +8003,10 @@ function createTreeMate(rawNodes, options = {}) {
   return treemate;
 }
 const commonVars$3 = {
-  railInsetHorizontal: "auto 2px 4px 2px",
-  railInsetVertical: "2px 4px 2px auto",
+  railInsetHorizontalBottom: "auto 2px 4px 2px",
+  railInsetHorizontalTop: "4px 2px auto 2px",
+  railInsetVerticalRight: "2px 4px 2px auto",
+  railInsetVerticalLeft: "2px auto 2px 4px",
   railColor: "transparent"
 };
 function self$f(vars) {
@@ -8029,20 +8080,26 @@ const style$f = cB("scrollbar", `
  background: var(--n-scrollbar-rail-color);
  -webkit-user-select: none;
  `, [cM("horizontal", `
- inset: var(--n-scrollbar-rail-inset-horizontal);
  height: var(--n-scrollbar-height);
  `, [c$1(">", [cE("scrollbar", `
  height: var(--n-scrollbar-height);
  border-radius: var(--n-scrollbar-border-radius);
  right: 0;
- `)])]), cM("vertical", `
- inset: var(--n-scrollbar-rail-inset-vertical);
+ `)])]), cM("horizontal--top", `
+ inset: var(--n-scrollbar-rail-inset-horizontal-top); 
+ `), cM("horizontal--bottom", `
+ inset: var(--n-scrollbar-rail-inset-horizontal-bottom); 
+ `), cM("vertical", `
  width: var(--n-scrollbar-width);
  `, [c$1(">", [cE("scrollbar", `
  width: var(--n-scrollbar-width);
  border-radius: var(--n-scrollbar-border-radius);
  bottom: 0;
- `)])]), cM("disabled", [c$1(">", [cE("scrollbar", "pointer-events: none;")])]), c$1(">", [cE("scrollbar", `
+ `)])]), cM("vertical--left", `
+ inset: var(--n-scrollbar-rail-inset-vertical-left); 
+ `), cM("vertical--right", `
+ inset: var(--n-scrollbar-rail-inset-vertical-right); 
+ `), cM("disabled", [c$1(">", [cE("scrollbar", "pointer-events: none;")])]), c$1(">", [cE("scrollbar", `
  z-index: 1;
  position: absolute;
  cursor: pointer;
@@ -8079,7 +8136,15 @@ const scrollbarProps$1 = Object.assign(Object.assign({}, useTheme.props), {
   onWheel: Function,
   onResize: Function,
   internalOnUpdateScrollLeft: Function,
-  internalHoistYRail: Boolean
+  internalHoistYRail: Boolean,
+  yPlacement: {
+    type: String,
+    default: "right"
+  },
+  xPlacement: {
+    type: String,
+    default: "bottom"
+  }
 });
 const Scrollbar$1 = defineComponent({
   name: "Scrollbar",
@@ -8620,8 +8685,10 @@ const Scrollbar$1 = defineComponent({
           height,
           width,
           borderRadius,
-          railInsetHorizontal,
-          railInsetVertical,
+          railInsetHorizontalTop,
+          railInsetHorizontalBottom,
+          railInsetVerticalRight,
+          railInsetVerticalLeft,
           railColor
         }
       } = themeRef.value;
@@ -8632,8 +8699,10 @@ const Scrollbar$1 = defineComponent({
         "--n-scrollbar-border-radius": borderRadius,
         "--n-scrollbar-width": width,
         "--n-scrollbar-height": height,
-        "--n-scrollbar-rail-inset-horizontal": railInsetHorizontal,
-        "--n-scrollbar-rail-inset-vertical": (rtlEnabledRef === null || rtlEnabledRef === void 0 ? void 0 : rtlEnabledRef.value) ? rtlInset(railInsetVertical) : railInsetVertical,
+        "--n-scrollbar-rail-inset-horizontal-top": railInsetHorizontalTop,
+        "--n-scrollbar-rail-inset-horizontal-bottom": railInsetHorizontalBottom,
+        "--n-scrollbar-rail-inset-vertical-right": (rtlEnabledRef === null || rtlEnabledRef === void 0 ? void 0 : rtlEnabledRef.value) ? rtlInset(railInsetVerticalRight) : railInsetVerticalRight,
+        "--n-scrollbar-rail-inset-vertical-left": (rtlEnabledRef === null || rtlEnabledRef === void 0 ? void 0 : rtlEnabledRef.value) ? rtlInset(railInsetVerticalLeft) : railInsetVerticalLeft,
         "--n-scrollbar-rail-color": railColor
       };
     });
@@ -8681,14 +8750,17 @@ const Scrollbar$1 = defineComponent({
       mergedClsPrefix,
       triggerDisplayManually,
       rtlEnabled,
-      internalHoistYRail
+      internalHoistYRail,
+      yPlacement,
+      xPlacement,
+      xScrollable
     } = this;
     if (!this.scrollable) return (_a = $slots.default) === null || _a === void 0 ? void 0 : _a.call($slots);
     const triggerIsNone = this.trigger === "none";
     const createYRail = (className, style2) => {
       return h("div", {
         ref: "yRailRef",
-        class: [`${mergedClsPrefix}-scrollbar-rail`, `${mergedClsPrefix}-scrollbar-rail--vertical`, className],
+        class: [`${mergedClsPrefix}-scrollbar-rail`, `${mergedClsPrefix}-scrollbar-rail--vertical`, `${mergedClsPrefix}-scrollbar-rail--vertical--${yPlacement}`, className],
         "data-scrollbar-rail": true,
         style: [style2 || "", this.verticalRailStyle],
         "aria-hidden": true
@@ -8733,9 +8805,9 @@ const Scrollbar$1 = defineComponent({
           }, this.contentStyle],
           class: [`${mergedClsPrefix}-scrollbar-content`, this.contentClass]
         }, $slots)
-      })), internalHoistYRail ? null : createYRail(void 0, void 0), this.xScrollable && h("div", {
+      })), internalHoistYRail ? null : createYRail(void 0, void 0), xScrollable && h("div", {
         ref: "xRailRef",
-        class: [`${mergedClsPrefix}-scrollbar-rail`, `${mergedClsPrefix}-scrollbar-rail--horizontal`],
+        class: [`${mergedClsPrefix}-scrollbar-rail`, `${mergedClsPrefix}-scrollbar-rail--horizontal`, `${mergedClsPrefix}-scrollbar-rail--horizontal--${xPlacement}`],
         style: this.horizontalRailStyle,
         "data-scrollbar-rail": true,
         "aria-hidden": true
@@ -13264,7 +13336,7 @@ const Button = defineComponent({
         strong
       } = props;
       const fontProps = {
-        "font-weight": strong ? fontWeightStrong : fontWeight
+        "--n-font-weight": strong ? fontWeightStrong : fontWeight
       };
       let colorProps = {
         "--n-color": "initial",
@@ -13965,10 +14037,7 @@ const configProviderProps = {
     type: Boolean,
     default: void 0
   },
-  clsPrefix: {
-    type: String,
-    default: defaultClsPrefix
-  },
+  clsPrefix: String,
   locale: Object,
   dateLocale: Object,
   namespace: String,
@@ -13985,6 +14054,7 @@ const configProviderProps = {
   icons: Object,
   breakpoints: Object,
   preflightStyleDisabled: Boolean,
+  styleMountTarget: Object,
   inlineThemeDisabled: {
     type: Boolean,
     default: void 0
@@ -14086,6 +14156,7 @@ const __unplugin_components_7$1 = defineComponent({
     });
     const inlineThemeDisabled = props.inlineThemeDisabled || (NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.inlineThemeDisabled);
     const preflightStyleDisabled = props.preflightStyleDisabled || (NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.preflightStyleDisabled);
+    const styleMountTarget = props.styleMountTarget || (NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget);
     const mergedThemeHashRef = computed(() => {
       const {
         value: theme
@@ -14118,10 +14189,10 @@ const __unplugin_components_7$1 = defineComponent({
       mergedClsPrefixRef,
       mergedLocaleRef: computed(() => {
         const {
-          locale: locale2
+          locale
         } = props;
-        if (locale2 === null) return void 0;
-        return locale2 === void 0 ? NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedLocaleRef.value : locale2;
+        if (locale === null) return void 0;
+        return locale === void 0 ? NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedLocaleRef.value : locale;
       }),
       mergedDateLocaleRef: computed(() => {
         const {
@@ -14145,7 +14216,8 @@ const __unplugin_components_7$1 = defineComponent({
       mergedThemeRef,
       mergedThemeOverridesRef,
       inlineThemeDisabled: inlineThemeDisabled || false,
-      preflightStyleDisabled: preflightStyleDisabled || false
+      preflightStyleDisabled: preflightStyleDisabled || false,
+      styleMountTarget
     });
     return {
       mergedClsPrefix: mergedClsPrefixRef,
@@ -15367,31 +15439,6 @@ const __unplugin_components_1$1 = defineComponent({
     });
   }
 });
-var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
-function getAugmentedNamespace(n2) {
-  if (n2.__esModule) return n2;
-  var f = n2.default;
-  if (typeof f == "function") {
-    var a = function a2() {
-      if (this instanceof a2) {
-        return Reflect.construct(f, arguments, this.constructor);
-      }
-      return f.apply(this, arguments);
-    };
-    a.prototype = f.prototype;
-  } else a = {};
-  Object.defineProperty(a, "__esModule", { value: true });
-  Object.keys(n2).forEach(function(k) {
-    var d = Object.getOwnPropertyDescriptor(n2, k);
-    Object.defineProperty(a, k, d.get ? d : {
-      enumerable: true,
-      get: function() {
-        return n2[k];
-      }
-    });
-  });
-  return a;
-}
 const commonVars$1 = {
   titleFontSize: "18px",
   padding: "16px 28px 20px 28px",
@@ -17614,6 +17661,7 @@ const menuProps = Object.assign(Object.assign({}, useTheme.props), {
 });
 const __unplugin_components_0$2 = defineComponent({
   name: "Menu",
+  inheritAttrs: false,
   props: menuProps,
   setup(props) {
     const {
@@ -18011,11 +18059,11 @@ const __unplugin_components_0$2 = defineComponent({
     const renderMenuItemNodes = () => this.tmNodes.map((tmNode) => itemRenderer(tmNode, this.$props));
     const horizontal = mode === "horizontal";
     const finalResponsive = horizontal && this.responsive;
-    const renderMainNode = () => h("div", {
+    const renderMainNode = () => h("div", mergeProps(this.$attrs, {
       role: mode === "horizontal" ? "menubar" : "menu",
       class: [`${mergedClsPrefix}-menu`, themeClass, `${mergedClsPrefix}-menu--${mode}`, finalResponsive && `${mergedClsPrefix}-menu--responsive`, this.mergedCollapsed && `${mergedClsPrefix}-menu--collapsed`],
       style: this.cssVars
-    }, finalResponsive ? h(VOverflow, {
+    }), finalResponsive ? h(VOverflow, {
       ref: "overflowRef",
       onUpdateOverflow: this.onUpdateOverflow,
       getCounter: this.getCounter,
@@ -19500,7 +19548,15 @@ const scrollbarProps = Object.assign(Object.assign({}, useTheme.props), {
   onScroll: Function,
   contentClass: String,
   contentStyle: [Object, String],
-  size: Number
+  size: Number,
+  yPlacement: {
+    type: String,
+    default: "right"
+  },
+  xPlacement: {
+    type: String,
+    default: "bottom"
+  }
 });
 const Scrollbar = defineComponent({
   name: "Scrollbar",
@@ -19560,6 +19616,7 @@ const style = c$1([cB("slider", `
  `)]), cB("slider-dots", [cB("slider-dot", `
  transform: translateX(-50%) translateY(0);
  `)])])]), cM("vertical", `
+ box-sizing: content-box;
  padding: 0 calc((var(--n-handle-size) - var(--n-rail-height)) / 2);
  width: var(--n-rail-width-vertical);
  height: 100%;
@@ -19858,6 +19915,7 @@ const __unplugin_components_1 = defineComponent({
           const num = Number(key);
           mergedMarks.push({
             active: isActive(num),
+            key: num,
             label: marks[key],
             style: {
               [styleDirection]: `${valueToPercentage(num)}%`
@@ -20303,7 +20361,7 @@ const __unplugin_components_1 = defineComponent({
     }), this.marks ? h("div", {
       class: [`${mergedClsPrefix}-slider-dots`, this.dotTransitionDisabled && `${mergedClsPrefix}-slider-dots--transition-disabled`]
     }, this.markInfos.map((mark) => h("div", {
-      key: mark.label,
+      key: mark.key,
       class: [`${mergedClsPrefix}-slider-dot`, {
         [`${mergedClsPrefix}-slider-dot--active`]: mark.active
       }],
@@ -20378,10 +20436,10 @@ const __unplugin_components_1 = defineComponent({
     })), this.marks ? h("div", {
       class: `${mergedClsPrefix}-slider-marks`
     }, this.markInfos.map((mark) => h("div", {
-      key: mark.label,
+      key: mark.key,
       class: `${mergedClsPrefix}-slider-mark`,
       style: mark.style
-    }, mark.label))) : null));
+    }, typeof mark.label === "function" ? mark.label() : mark.label))) : null));
   }
 });
 if (!t) var t = { map: function(t2, r2) {
@@ -22978,6 +23036,31 @@ axios.formToJSON = (thing) => formDataToJSON(utils$1.isHTMLForm(thing) ? new For
 axios.getAdapter = adapters.getAdapter;
 axios.HttpStatusCode = HttpStatusCode;
 axios.default = axios;
+var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
+function getAugmentedNamespace(n2) {
+  if (n2.__esModule) return n2;
+  var f = n2.default;
+  if (typeof f == "function") {
+    var a = function a2() {
+      if (this instanceof a2) {
+        return Reflect.construct(f, arguments, this.constructor);
+      }
+      return f.apply(this, arguments);
+    };
+    a.prototype = f.prototype;
+  } else a = {};
+  Object.defineProperty(a, "__esModule", { value: true });
+  Object.keys(n2).forEach(function(k) {
+    var d = Object.getOwnPropertyDescriptor(n2, k);
+    Object.defineProperty(a, k, d.get ? d : {
+      enumerable: true,
+      get: function() {
+        return n2[k];
+      }
+    });
+  });
+  return a;
+}
 var cryptoJs = { exports: {} };
 function commonjsRequire(path) {
   throw new Error('Could not dynamically require "' + path + '". Please configure the dynamicRequireTargets or/and ignoreDynamicRequires option of @rollup/plugin-commonjs appropriately for this require call to work.');
@@ -34030,7 +34113,7 @@ const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "958bbc2a": unref(ctrlHeight) + `rem`
+      "547f36f8": unref(ctrlHeight) + `rem`
     }));
     emitter.on("switchShowPlayer", () => {
       switchShowPlayer();
@@ -34070,7 +34153,7 @@ const _sfc_main$2 = {
         targets: outerEle.value,
         translateY: showPlayingList ? `${a}px` : "0px",
         duration: 700,
-        easing: "easeInOutCubic",
+        easing: "easeInSine",
         begin: () => {
           if (showPlayingList == true) {
             showPlayingListVIf.value = showPlayingList;
@@ -34087,7 +34170,7 @@ const _sfc_main$2 = {
         targets: ".ctrl-player",
         translateY: showPlayer ? `-100%` : "0%",
         duration: 700,
-        easing: "easeInOutCubic",
+        easing: "easeInSine",
         begin: () => {
           if (showPlayer == true) {
             showPlayerVIf.value = showPlayer;
@@ -34304,7 +34387,7 @@ const _sfc_main$2 = {
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-7ab50e33"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-487d5ccc"]]);
 const _hoisted_1$1 = { class: "container" };
 const _hoisted_2$1 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };

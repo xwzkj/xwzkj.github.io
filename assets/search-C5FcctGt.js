@@ -1,8 +1,8 @@
-import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-CGvp_mL_.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-uMD5CTh3.js";
-import { i as itemCardList } from "./itemCardList-BCdLfLhh.js";
-import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, H as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, F as Fragment, ah as cB, aj as cM, ai as c$1, am as cE, ak as cNotM, ao as useTheme, ap as useConfig, w as watch, D as onMounted, p as provide, l as toRef, ae as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, ag as TransitionGroup, av as cloneVNode, aO as _export_sfc, aL as createElementBlock, aM as createBaseVNode, aU as toDisplayString, u as unref, aN as createVNode, aP as withCtx, f as isRef, aK as openBlock, aQ as createBlock } from "./font-C1okcFeN.js";
-import "./Ellipsis-C-6mJ331.js";
+import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-4e8K30Hd.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-BJI-YW8H.js";
+import { i as itemCardList } from "./itemCardList-_0loFq6p.js";
+import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, H as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, F as Fragment, ah as cB, aj as cM, ai as c$1, am as cE, ak as cNotM, ao as useTheme, ap as useConfig, w as watch, D as onMounted, p as provide, l as toRef, ae as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, ag as TransitionGroup, av as cloneVNode, aO as _export_sfc, aL as createElementBlock, aM as createBaseVNode, aU as toDisplayString, u as unref, aN as createVNode, aP as withCtx, f as isRef, aK as openBlock, aQ as createBlock } from "./font-D8i_B5DI.js";
+import "./Ellipsis-B0XM8_ab.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"
@@ -761,7 +761,6 @@ const style = cB("tabs", `
  border-radius: 0;
  `)]), cM("card-type", [cE("prefix, suffix", `
  transition: border-color .3s var(--n-bezier);
- border-bottom: 1px solid var(--n-tab-border-color);
  `), cB("tabs-pad", `
  flex-grow: 1;
  transition: border-color .3s var(--n-bezier);
@@ -782,6 +781,7 @@ const style = cB("tabs", `
  padding-left: 8px;
  padding-right: 8px;
  font-size: 16px;
+ justify-content: center;
  `, [cE("height-placeholder", `
  width: 0;
  font-size: var(--n-tab-font-size);
@@ -791,14 +791,20 @@ const style = cB("tabs", `
  background-color: #0000;
  font-weight: var(--n-tab-font-weight-active);
  color: var(--n-tab-text-color-active);
- `), cM("disabled", "color: var(--n-tab-text-color-disabled);")]), cB("tabs-scroll-padding", "border-bottom: 1px solid var(--n-tab-border-color);")]), cM("left, right", [cB("tabs-wrapper", `
+ `), cM("disabled", "color: var(--n-tab-text-color-disabled);")])]), cM("left, right", `
+ flex-direction: column; 
+ `, [cE("prefix, suffix", `
+ padding: var(--n-tab-padding-vertical);
+ `), cB("tabs-wrapper", `
  flex-direction: column;
- `, [cB("tabs-tab-wrapper", `
+ `), cB("tabs-tab-wrapper", `
  flex-direction: column;
  `, [cB("tabs-tab-pad", `
  height: var(--n-tab-gap-vertical);
  width: 100%;
- `)])])]), cM("top", [cM("card-type", [cB("tabs-tab", `
+ `)])]), cM("top", [cM("card-type", [cB("tabs-scroll-padding", "border-bottom: 1px solid var(--n-tab-border-color);"), cE("prefix, suffix", `
+ border-bottom: 1px solid var(--n-tab-border-color);
+ `), cB("tabs-tab", `
  border-top-left-radius: var(--n-tab-border-radius);
  border-top-right-radius: var(--n-tab-border-radius);
  `, [cM("active", `
@@ -807,7 +813,9 @@ const style = cB("tabs", `
  border-bottom: 1px solid var(--n-tab-border-color);
  `), cB("tabs-pad", `
  border-bottom: 1px solid var(--n-tab-border-color);
- `)])]), cM("left", [cM("card-type", [cB("tabs-tab", `
+ `)])]), cM("left", [cM("card-type", [cB("tabs-scroll-padding", "border-right: 1px solid var(--n-tab-border-color);"), cE("prefix, suffix", `
+ border-right: 1px solid var(--n-tab-border-color);
+ `), cB("tabs-tab", `
  border-top-left-radius: var(--n-tab-border-radius);
  border-bottom-left-radius: var(--n-tab-border-radius);
  `, [cM("active", `
@@ -816,7 +824,9 @@ const style = cB("tabs", `
  border-right: 1px solid var(--n-tab-border-color);
  `), cB("tabs-pad", `
  border-right: 1px solid var(--n-tab-border-color);
- `)])]), cM("right", [cM("card-type", [cB("tabs-tab", `
+ `)])]), cM("right", [cM("card-type", [cB("tabs-scroll-padding", "border-left: 1px solid var(--n-tab-border-color);"), cE("prefix, suffix", `
+ border-left: 1px solid var(--n-tab-border-color);
+ `), cB("tabs-tab", `
  border-top-right-radius: var(--n-tab-border-radius);
  border-bottom-right-radius: var(--n-tab-border-radius);
  `, [cM("active", `
@@ -825,7 +835,9 @@ const style = cB("tabs", `
  border-left: 1px solid var(--n-tab-border-color);
  `), cB("tabs-pad", `
  border-left: 1px solid var(--n-tab-border-color);
- `)])]), cM("bottom", [cM("card-type", [cB("tabs-tab", `
+ `)])]), cM("bottom", [cM("card-type", [cB("tabs-scroll-padding", "border-top: 1px solid var(--n-tab-border-color);"), cE("prefix, suffix", `
+ border-top: 1px solid var(--n-tab-border-color);
+ `), cB("tabs-tab", `
  border-bottom-left-radius: var(--n-tab-border-radius);
  border-bottom-right-radius: var(--n-tab-border-radius);
  `, [cM("active", `
@@ -1231,21 +1243,38 @@ const __unplugin_components_2 = defineComponent({
       const {
         target,
         contentRect: {
-          width
+          width,
+          height
         }
       } = entry;
-      const containerWidth = target.parentElement.offsetWidth;
+      const containerWidth = target.parentElement.parentElement.offsetWidth;
+      const containerHeight = target.parentElement.parentElement.offsetHeight;
+      const {
+        placement
+      } = props;
       if (!addTabFixedRef.value) {
-        if (containerWidth < width) {
-          addTabFixedRef.value = true;
+        if (placement === "top" || placement === "bottom") {
+          if (containerWidth < width) {
+            addTabFixedRef.value = true;
+          }
+        } else {
+          if (containerHeight < height) {
+            addTabFixedRef.value = true;
+          }
         }
       } else {
         const {
           value: addTabInst
         } = addTabInstRef;
         if (!addTabInst) return;
-        if (containerWidth - width > addTabInst.$el.offsetWidth) {
-          addTabFixedRef.value = false;
+        if (placement === "top" || placement === "bottom") {
+          if (containerWidth - width > addTabInst.$el.offsetWidth) {
+            addTabFixedRef.value = false;
+          }
+        } else {
+          if (containerHeight - height > addTabInst.$el.offsetHeight) {
+            addTabFixedRef.value = false;
+          }
         }
       }
       deriveScrollShadow(((_a2 = xScrollInstRef.value) === null || _a2 === void 0 ? void 0 : _a2.$el) || null);
@@ -1497,11 +1526,13 @@ const __unplugin_components_2 = defineComponent({
     const scrollContent = () => {
       const tabs = h("div", {
         style: this.tabWrapperStyle,
-        class: [`${mergedClsPrefix}-tabs-wrapper`]
+        class: `${mergedClsPrefix}-tabs-wrapper`
       }, mergedJustifyContent ? null : h("div", {
         class: `${mergedClsPrefix}-tabs-scroll-padding`,
-        style: {
+        style: placement === "top" || placement === "bottom" ? {
           width: `${this.tabsPadding}px`
+        } : {
+          height: `${this.tabsPadding}px`
         }
       }), showPane ? tabPaneChildren.map((tabPaneVNode, index) => {
         renderNameListRef.value.push(tabPaneVNode.props.name);
