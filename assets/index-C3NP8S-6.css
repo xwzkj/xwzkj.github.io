@@ -93,10 +93,10 @@ ul[data-v-3e35b0e3] {
     width: 100%;
 }
 
-[data-v-8b553c6b] {
+[data-v-784564db] {
   box-sizing: border-box;
 }
-.player-outer[data-v-8b553c6b] {
+.player-outer[data-v-784564db] {
 
   position: absolute;
   z-index: 10;
@@ -112,16 +112,16 @@ ul[data-v-3e35b0e3] {
   /* 配合下面content的最大宽度 实现居中 */
   justify-content: center;
   /* 背景渐变 */
-  background-image: var(--3cfc6fea);
+  background-image: var(--cf1db3fc);
 }
-.player-content[data-v-8b553c6b] {
+.player-content[data-v-784564db] {
   display: flex;
   height: 100%;
   min-width: 400px;
   width: 100%;
   max-width: calc(100vh/9*16);
 }
-.player-background[data-v-8b553c6b] {
+.player-background[data-v-784564db] {
   /* 半透明遮罩 */
   position: absolute;
   display: block;
@@ -129,63 +129,63 @@ ul[data-v-3e35b0e3] {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: var(--9d2d64ce);
+  background-color: var(--75abd681);
 }
 
 /************************歌词部分**********************************************************************/
-.lyric-item[data-v-8b553c6b] {
+.lyric-item[data-v-784564db] {
   transform: scale(0.95);
 }
-.lyric-lrc[data-v-8b553c6b] {
+.lyric-lrc[data-v-784564db] {
   /* 歌词原文 */
   color: rgba(68, 68, 68, 0.8);
-  font-size: var(--8426eb24);
+  font-size: var(--05221086);
   margin-top: 0.5rem;
 }
-.lyric-roma[data-v-8b553c6b] {
+.lyric-roma[data-v-784564db] {
   /* 歌词罗马音 */
   color: rgba(87, 87, 87, 0.8);
-  font-size: calc(var(--8426eb24) - 0.3rem);
+  font-size: calc(var(--05221086) - 0.3rem);
 }
-.lyric-tran[data-v-8b553c6b] {
+.lyric-tran[data-v-784564db] {
   /* 歌词翻译 */
   color: rgba(87, 87, 87, 0.8);
-  font-size: calc(var(--8426eb24) - 0.2rem);
+  font-size: calc(var(--05221086) - 0.2rem);
 }
-.lyric-active[data-v-8b553c6b] {
+.lyric-active[data-v-784564db] {
   /* 当前歌词 */
   font-weight: 500;
   transform: scale(1);
 }
-.lyric-active .lyric-roma[data-v-8b553c6b] {
+.lyric-active .lyric-roma[data-v-784564db] {
   /* 当前歌词罗马音 */
   color: rgb(50, 50, 50);
   /* font-size: 1.3rem; */
 }
-.lyric-active .lyric-tran[data-v-8b553c6b] {
+.lyric-active .lyric-tran[data-v-784564db] {
   /* 当前歌词翻译 */
   color: rgb(45, 45, 45);
   /* font-size: 1.5rem; */
 }
-.column-lyric[data-v-8b553c6b] {
+.column-lyric[data-v-784564db] {
   position: relative;
   display: flex;
   flex: 50%;
   height: 100%;
   padding: 2rem;
 }
-.container-lyric[data-v-8b553c6b] {
+.container-lyric[data-v-784564db] {
   width: 100%;
   height: 100%;
   /* overflow-y: scroll; */
 }
-.lyric-list[data-v-8b553c6b] {
+.lyric-list[data-v-784564db] {
   padding-top: 50%;
   padding-bottom: 50%;
 }
 
 /********************************播放控件**********************************************************/
-.column-player[data-v-8b553c6b] {
+.column-player[data-v-784564db] {
   display: flex;
   flex: 50%;
   height: 100%;
@@ -194,42 +194,42 @@ ul[data-v-3e35b0e3] {
   min-width: 300px;
   position: relative;
 }
-.music-name[data-v-8b553c6b] {
+.music-name[data-v-784564db] {
   font-size: 2rem;
 }
-.button[data-v-8b553c6b] {
+.button[data-v-784564db] {
   cursor: pointer;
 }
-.player-ctrl-top[data-v-8b553c6b] {
+.player-ctrl-top[data-v-784564db] {
   display: flex;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
-.btn-like[data-v-8b553c6b],
-.btn-comment[data-v-8b553c6b] {
+.btn-like[data-v-784564db],
+.btn-comment[data-v-784564db] {
   margin-left: 0.5rem;
 }
-.btn-control[data-v-8b553c6b] {
+.btn-control[data-v-784564db] {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.btn-play-control[data-v-8b553c6b] {
+.btn-play-control[data-v-784564db] {
   /* 上一曲 暂停 下一曲 按钮 */
   display: flex;
 }
-.container-player[data-v-8b553c6b] {
+.container-player[data-v-784564db] {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
 }
-.player-centerblock[data-v-8b553c6b] {
+.player-centerblock[data-v-784564db] {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.music-img-container[data-v-8b553c6b] {
+.music-img-container[data-v-784564db] {
   margin-top: 1rem;
   margin-bottom: 1rem;
   position: relative;
@@ -243,24 +243,24 @@ ul[data-v-3e35b0e3] {
   overflow: hidden;
   /* 隐藏溢出部分 */
 }
-.music-img[data-v-8b553c6b] {
+.music-img[data-v-784564db] {
   position: absolute;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.music-progress[data-v-8b553c6b] {
+.music-progress[data-v-784564db] {
   width: 100%;
 }
-.player-ctrl[data-v-8b553c6b] {
+.player-ctrl[data-v-784564db] {
   width: 90%;
 }
-ul[data-v-8b553c6b] {
+ul[data-v-784564db] {
   list-style: none;
   padding: 0;
 }
-.player-playinglist-box[data-v-8b553c6b] {
+.player-playinglist-box[data-v-784564db] {
   position: fixed;
   will-change: transform;
   left: 0;
@@ -270,7 +270,7 @@ ul[data-v-8b553c6b] {
   width: 100%;
   z-index: 11;
 }
-.player-playinglist[data-v-8b553c6b] {
+.player-playinglist[data-v-784564db] {
   position: absolute;
   top: 20%;
   left: 5%;
@@ -286,40 +286,40 @@ ul[data-v-8b553c6b] {
 @media (max-width: 500px) {
 
   /* 0-500px 竖屏设备 */
-.column-lyric[data-v-8b553c6b] {
-    display: var(--c8b6763a);
+.column-lyric[data-v-784564db] {
+    display: var(--79bde3cb);
     transition: all 0.7s ease-in-out;
 }
-.column-player[data-v-8b553c6b] {
-    display: var(--a4210e7e);
+.column-player[data-v-784564db] {
+    display: var(--e7eed0ae);
     transition: all 0.7s ease-in-out;
 }
-.container-player[data-v-8b553c6b] {
+.container-player[data-v-784564db] {
     height: calc(100% - 3rem);
     transform: translateY(3rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.player-centerblock[data-v-8b553c6b] {
+.player-centerblock[data-v-784564db] {
     flex: 1;
     justify-content: space-around;
 }
-.player-ctrl-top[data-v-8b553c6b] {
+.player-ctrl-top[data-v-784564db] {
     margin-top: 0;
 }
 }
 
-[data-v-8344223b] {
+[data-v-6f88687e] {
     box-sizing: border-box;
 }
-.ctrl-outer-outer[data-v-8344223b] {
+.ctrl-outer-outer[data-v-6f88687e] {
     position: relative;
 }
-.ctrl-outer[data-v-8344223b] {
+.ctrl-outer[data-v-6f88687e] {
     position: fixed;
     z-index: 1;
-    top: calc(var(--vh, 1vh) * 100 - var(--9e724efa));
+    top: calc(var(--vh, 1vh) * 100 - var(--ee99578e));
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
@@ -334,18 +334,18 @@ ul[data-v-8b553c6b] {
             backdrop-filter: blur(20px);
     /* transition: all 0.5s ease-in-out; */
 }
-.ctrl-box[data-v-8344223b] {
+.ctrl-box[data-v-6f88687e] {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.ctrl-left[data-v-8344223b] {
+.ctrl-left[data-v-6f88687e] {
     flex: 1;
     display: flex;
     max-width: calc(100% / 3.5);
     cursor: pointer;
 }
-.ctrl-img-box[data-v-8344223b] {
+.ctrl-img-box[data-v-6f88687e] {
     position: relative;
     border-radius: 1rem;
     box-shadow: 0 0 0.2rem grey;
@@ -358,39 +358,39 @@ ul[data-v-8b553c6b] {
     overflow: hidden;
     /* 隐藏溢出部分 */
 }
-.ctrl-img[data-v-8344223b] {
+.ctrl-img[data-v-6f88687e] {
     position: absolute;
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
 }
-.ctrl-info-box[data-v-8344223b] {
+.ctrl-info-box[data-v-6f88687e] {
     padding-left: 1rem;
     width: 70%;
 }
-.ctrl-info-title[data-v-8344223b] {
+.ctrl-info-title[data-v-6f88687e] {
     font-size: 1.3rem;
 }
 
 /* 
 center--------------------------------------------------------
  */
-.ctrl-center[data-v-8344223b] {
+.ctrl-center[data-v-6f88687e] {
     flex: 1;
     padding-top: 0.8rem;
     max-width: calc(100% / 3.5);
 }
-.button[data-v-8344223b] {
+.button[data-v-6f88687e] {
     cursor: pointer;
 }
-.btn-control[data-v-8344223b] {
+.btn-control[data-v-6f88687e] {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.btn-play-control[data-v-8344223b] {
+.btn-play-control[data-v-6f88687e] {
     /* 上一曲 暂停 下一曲 按钮 */
     display: flex;
 }
@@ -398,42 +398,42 @@ center--------------------------------------------------------
 /* 
 right---------------------------------------------------------
 */
-.ctrl-right[data-v-8344223b] {
+.ctrl-right[data-v-6f88687e] {
     flex: 1;
     max-width: calc(100% / 3.5);
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.btn-desktop-lyric[data-v-8344223b],
-.btn-sound[data-v-8344223b] {
+.btn-desktop-lyric[data-v-6f88687e],
+.btn-sound[data-v-6f88687e] {
     margin-right: 1rem;
 }
-.btn-desktop-lyric[data-v-8344223b] {
+.btn-desktop-lyric[data-v-6f88687e] {
     font-weight: 400;
     font-size: 1.2rem;
     vertical-align: text-top;
     padding-bottom: 0.35rem;
     transition: all 0.2s linear;
 }
-.btn-desktop-lyric-active[data-v-8344223b] {
+.btn-desktop-lyric-active[data-v-6f88687e] {
     font-weight: 800 !important;
 }
 
 /*************************************************************
 播放列表-------------------------------------------------------------------===================
 ************************************************/
-.ctrl-playinglist[data-v-8344223b] {
+.ctrl-playinglist[data-v-6f88687e] {
     margin-top: 1rem;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100 - var(--9e724efa));
+    height: calc(var(--vh, 1vh) * 100 - var(--ee99578e));
     flex: 1;
 }
 
 /* ***************************************************************
 播放器-------------------------------------------------------------------===================
 *****************************************************************/
-.ctrl-player[data-v-8344223b] {
+.ctrl-player[data-v-6f88687e] {
     position: fixed;
     top: calc(var(--vh, 1vh) * 100);
     left: 0;
@@ -443,11 +443,11 @@ right---------------------------------------------------------
     z-index: 10;
 }
 @media screen and (max-width: 600px) {
-.ctrl-info-box[data-v-8344223b] {
+.ctrl-info-box[data-v-6f88687e] {
         display: none;
 }
-.btn-like[data-v-8344223b],
-    .btn-loop[data-v-8344223b] {
+.btn-like[data-v-6f88687e],
+    .btn-loop[data-v-6f88687e] {
         display: none;
 }
 }
