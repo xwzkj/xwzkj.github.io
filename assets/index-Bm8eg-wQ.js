@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-EMDcaQRD.js","./itemCardList-OZcvIahS.js","./font-D8i_B5DI.js","./font-CjFMNr__.css","./Ellipsis-x1J_gpng.js","./itemCardList-DuiYKzPr.css","./home-D8uE6uWd.css","./search-DJSaor8R.js","./musicList-DWpBJqjg.js","./musicList-CIYHyx-x.css","./search-CJVCiG0o.css","./login-zL60JIqT.js","./login-zqTcuwMw.css","./account-Bcf1nnOZ.js","./account-3Bs-RIiD.css","./playlist-DGBwSOyU.js","./playlist-_rqHwo7U.css","./setting-Gg5z_rqq.js","./setting-DzBWita7.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DeNTXLo2.js","./itemCardList-BX3-unNP.js","./font-D8i_B5DI.js","./font-CjFMNr__.css","./Ellipsis-BDHz-ZHD.js","./itemCardList-DuiYKzPr.css","./home-D8uE6uWd.css","./search-DWruLitb.js","./musicList-Daq-EYIq.js","./musicList-CIYHyx-x.css","./search-CJVCiG0o.css","./login-B6feU4AF.js","./login-zqTcuwMw.css","./account-B2CYiSbu.js","./account-3Bs-RIiD.css","./playlist-DfWAab3i.js","./playlist-_rqHwo7U.css","./setting-DQtgQJOs.js","./setting-C6RVjymY.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-D8i_B5DI.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-EMDcaQRD.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-DeNTXLo2.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DJSaor8R.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-DWruLitb.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-zL60JIqT.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-B6feU4AF.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-Bcf1nnOZ.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-B2CYiSbu.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-DGBwSOyU.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-DfWAab3i.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-Gg5z_rqq.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-DQtgQJOs.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -30870,7 +30870,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   function next() {
     pause();
     console.log(`[playStore]next`);
-    scrobble(currentMusic.value.id, musicStatus.value.currentTime, 0);
+    beforeMusicChanged();
     const computIndex = (length, indexNow) => {
       if (indexNow < length - 1) {
         return indexNow + 1;
@@ -30891,7 +30891,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   function prev() {
     pause();
     console.log(`[playStore]prev`);
-    scrobble(currentMusic.value.id, musicStatus.value.currentTime, 0);
+    beforeMusicChanged();
     const computIndex = (length, indexNow) => {
       if (indexNow > 0) {
         return indexNow - 1;
@@ -30908,6 +30908,19 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
         break;
     }
     play(true);
+  }
+  function beforeMusicChanged() {
+    let scrobble$1 = () => {
+      let userStore = useUserStore();
+      if (userStore.isLogin) {
+        let currentTime = Math.floor(musicStatus.value.currentTime);
+        if (currentTime >= 15) {
+          scrobble(currentMusic.value.id, currentTime, 0);
+        }
+      }
+    };
+    scrobble$1 = debounce(scrobble$1, 1e4, 1);
+    scrobble$1();
   }
   function seek(time2) {
     player2.value.currentTime = time2;
@@ -34463,16 +34476,16 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "58dea63d": unref(themeStore).mainColors[0],
-      "58dea65c": unref(themeStore).mainColors[1],
-      "58dea67b": unref(themeStore).mainColors[2],
-      "58dea69a": unref(themeStore).mainColors[3],
-      "58dea6b9": unref(themeStore).mainColors[4],
-      "58dea6d8": unref(themeStore).mainColors[5],
-      "58dea6f7": unref(themeStore).mainColors[6],
-      "58dea716": unref(themeStore).mainColors[7],
-      "58dea735": unref(themeStore).mainColors[8],
-      "58dea754": unref(themeStore).mainColors[9]
+      "2f48099c": unref(themeStore).mainColors[0],
+      "2f48095e": unref(themeStore).mainColors[1],
+      "2f480920": unref(themeStore).mainColors[2],
+      "2f4808e2": unref(themeStore).mainColors[3],
+      "2f4808a4": unref(themeStore).mainColors[4],
+      "2f480866": unref(themeStore).mainColors[5],
+      "2f480828": unref(themeStore).mainColors[6],
+      "2f4807ea": unref(themeStore).mainColors[7],
+      "2f4807ac": unref(themeStore).mainColors[8],
+      "2f48076e": unref(themeStore).mainColors[9]
     }));
     let settingStore = useSettingStore();
     settingStore.init();
@@ -34539,7 +34552,7 @@ const _sfc_main = {
       let realVw = window.innerWidth * 0.01;
       document.documentElement.style.setProperty("--vw", `${realVw}px`);
     };
-    setRealVhVw = debounce(setRealVhVw, 100, 1);
+    setRealVhVw = debounce(setRealVhVw, 10, 0);
     window.addEventListener("resize", setRealVhVw);
     window.addEventListener("orientationchange", setRealVhVw);
     document.addEventListener("DOMContentLoaded", setRealVhVw);

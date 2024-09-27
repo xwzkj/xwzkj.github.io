@@ -1,5 +1,5 @@
 import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode } from "./font-D8i_B5DI.js";
-import { W as useStyle, X as inputLight, Y as buttonLight, Z as on, $ as off, _ as __unplugin_components_0$1, a0 as fadeInScaleUpTransition, a1 as useAdjustedTo, a2 as useFormItem, a3 as useLocale, e as useMergedState, a4 as isMounted, a5 as getPreciseEventTarget, a6 as Binder, a7 as VTarget, a8 as VFollower, a9 as clickoutside, k as call, C as Button, Q as __unplugin_components_5, aa as useSettingStore, u as useUserStore, q as useThemeStore, w as success, ab as __unplugin_components_1$1 } from "./index-C5lk17CB.js";
+import { W as useStyle, X as inputLight, Y as buttonLight, Z as on, $ as off, _ as __unplugin_components_0$1, a0 as fadeInScaleUpTransition, a1 as useAdjustedTo, a2 as useFormItem, a3 as useLocale, e as useMergedState, a4 as isMounted, a5 as getPreciseEventTarget, a6 as Binder, a7 as VTarget, a8 as VFollower, a9 as clickoutside, k as call, C as Button, Q as __unplugin_components_5, aa as useSettingStore, u as useUserStore, q as useThemeStore, w as success, y as error, ab as __unplugin_components_1$1 } from "./index-Bm8eg-wQ.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1942,7 +1942,6 @@ const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {
   __name: "setting",
   setup(__props) {
-    const isElectron = ref(window.isElectron);
     let settingStore = useSettingStore();
     let userStore = useUserStore();
     let themeStore = useThemeStore();
@@ -1965,18 +1964,28 @@ const _sfc_main = {
       userStore.logout();
       success("退出登录~");
     }
-    function loginByCookie() {
+    function loginByCookie(v) {
       success("开始尝试更新用户信息了喔");
-      document.cookie = prompt("输入cookie的MUSIC_U字段 例如MUSIC_U=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
-      userStore.updateByCookie();
+      userStore.updateByCookie(v);
     }
     function update() {
       success("开始更新，成功后会有提示");
       userStore.updateByCookie();
     }
-    function showCk() {
+    async function copyCk() {
       let ck = userStore.cookie;
-      alert(ck);
+      let flag = false;
+      if (navigator.clipboard) {
+        try {
+          await navigator.clipboard.writeText(ck);
+          flag = true;
+          success("复制成功");
+        } catch {
+        }
+      }
+      if (!flag) {
+        error(ck, "复制失败 请手动复制");
+      }
     }
     return (_ctx, _cache) => {
       const _component_n_color_picker = __unplugin_components_0;
@@ -1984,16 +1993,19 @@ const _sfc_main = {
       const _component_n_button = Button;
       return openBlock(), createElementBlock("div", null, [
         createBaseVNode("div", _hoisted_1, [
-          withDirectives(createVNode(settingItem, { actionOnClick: loginByCookie }, {
+          withDirectives(createVNode(settingItem, {
+            needInput: true,
+            actionOnClick: loginByCookie
+          }, {
             t1: withCtx(() => _cache[2] || (_cache[2] = [
-              createTextVNode("手动输入cookie来登录")
+              createTextVNode("输入cookie来登录")
             ])),
             t2: withCtx(() => _cache[3] || (_cache[3] = [
-              createTextVNode("奇奇怪怪的登录方式 仅网页端可用")
+              createTextVNode("奇奇怪怪的登录方式")
             ])),
             _: 1
           }, 512), [
-            [vShow, !unref(isElectron)]
+            [vShow, !unref(userStore).isLogin]
           ]),
           createVNode(settingItem, {
             needInput: true,
@@ -2008,7 +2020,7 @@ const _sfc_main = {
             ])),
             _: 1
           }, 8, ["defaultValue"]),
-          createVNode(settingItem, { actionOnClick: update }, {
+          withDirectives(createVNode(settingItem, { actionOnClick: update }, {
             t1: withCtx(() => _cache[6] || (_cache[6] = [
               createTextVNode("马上更新用户信息！")
             ])),
@@ -2016,16 +2028,20 @@ const _sfc_main = {
               createTextVNode("每三分钟自动更新")
             ])),
             _: 1
-          }),
-          createVNode(settingItem, { actionOnClick: showCk }, {
+          }, 512), [
+            [vShow, unref(userStore).isLogin]
+          ]),
+          withDirectives(createVNode(settingItem, { actionOnClick: copyCk }, {
             t1: withCtx(() => _cache[8] || (_cache[8] = [
-              createTextVNode("查看当前的cookie")
+              createTextVNode("复制当前的cookie")
             ])),
             t2: withCtx(() => _cache[9] || (_cache[9] = [
-              createTextVNode("言简意赅")
+              createTextVNode("若失败会显示cookie 可手动复制")
             ])),
             _: 1
-          }),
+          }, 512), [
+            [vShow, unref(userStore).isLogin]
+          ]),
           createVNode(settingItem, null, {
             t1: withCtx(() => _cache[10] || (_cache[10] = [
               createTextVNode("主题色")
@@ -2092,7 +2108,7 @@ const _sfc_main = {
     };
   }
 };
-const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-cc953962"]]);
+const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-4baa2abd"]]);
 export {
   setting as default
 };
