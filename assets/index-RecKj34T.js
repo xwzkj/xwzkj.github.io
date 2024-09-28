@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BJ8fqRtJ.js","./itemCardList-DQ0rBvg9.js","./font-JWUAjikw.js","./font-BqeCjEUM.css","./Ellipsis-DVpIKb5w.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-BPR6wC_6.js","./musicList-Bpg5_ojM.js","./musicList-CIYHyx-x.css","./search-B-m8651F.css","./login-HtdtWROg.js","./login-zqTcuwMw.css","./account-DixAIe42.js","./account-3Bs-RIiD.css","./playlist-DA1T6Jc9.js","./playlist-B38m8n4U.css","./setting-CIxjXIPD.js","./setting-DFRimW0i.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BWmkJeSt.js","./itemCardList-c3gdB0kv.js","./font-JWUAjikw.js","./font-BqeCjEUM.css","./Ellipsis-BRKJLnB8.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-Cu8KUaPD.js","./musicList-CcY4GVvt.js","./musicList-CIYHyx-x.css","./search-B-m8651F.css","./login-BqeTI7Ry.js","./login-zqTcuwMw.css","./account-BLoabfN9.js","./account-3Bs-RIiD.css","./playlist-CpxYjShd.js","./playlist-B38m8n4U.css","./setting-P6MEjv73.js","./setting-ChxaiIzD.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-JWUAjikw.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-BJ8fqRtJ.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BWmkJeSt.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-BPR6wC_6.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-Cu8KUaPD.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-HtdtWROg.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-BqeTI7Ry.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-DixAIe42.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-BLoabfN9.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-DA1T6Jc9.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CpxYjShd.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CIxjXIPD.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-P6MEjv73.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -12487,7 +12487,7 @@ const avatarProps = Object.assign(Object.assign({}, useTheme.props), {
   /** @deprecated */
   color: String
 });
-const __unplugin_components_4$3 = defineComponent({
+const __unplugin_components_4$4 = defineComponent({
   name: "Avatar",
   props: avatarProps,
   setup(props) {
@@ -13846,7 +13846,7 @@ const cardBaseProps = {
 };
 const cardBasePropKeys = keysOf(cardBaseProps);
 const cardProps = Object.assign(Object.assign({}, useTheme.props), cardBaseProps);
-const __unplugin_components_5$3 = defineComponent({
+const __unplugin_components_5$4 = defineComponent({
   name: "Card",
   props: cardProps,
   setup(props) {
@@ -15125,7 +15125,7 @@ const dropdownBaseProps = {
 };
 const popoverPropKeys = Object.keys(popoverBaseProps);
 const dropdownProps = Object.assign(Object.assign(Object.assign({}, popoverBaseProps), dropdownBaseProps), useTheme.props);
-const __unplugin_components_1$1 = defineComponent({
+const __unplugin_components_4$3 = defineComponent({
   name: "Dropdown",
   inheritAttrs: false,
   props: dropdownProps,
@@ -16068,7 +16068,7 @@ const NModalBodyWrapper = defineComponent({
                   themeOverrides: this.mergedTheme.peerOverrides.Dialog
                 }, keep(this.$props, dialogPropKeys), {
                   "aria-modal": "true"
-                }), $slots) : this.preset === "card" ? h(__unplugin_components_5$3, Object.assign({}, this.$attrs, {
+                }), $slots) : this.preset === "card" ? h(__unplugin_components_5$4, Object.assign({}, this.$attrs, {
                   ref: "bodyRef",
                   class: [`${mergedClsPrefix}-modal`, this.$attrs.class],
                   theme: this.mergedTheme.peers.Card,
@@ -17167,7 +17167,7 @@ const NSubmenu = defineComponent({
         }
       });
     };
-    return this.root ? h(__unplugin_components_1$1, Object.assign({
+    return this.root ? h(__unplugin_components_4$3, Object.assign({
       size: "large",
       trigger: "hover"
     }, (_a = this.menuProps) === null || _a === void 0 ? void 0 : _a.dropdownProps, {
@@ -19412,7 +19412,7 @@ const notificationProviderProps = Object.assign(Object.assign({}, useTheme.props
   },
   keepAliveOnHover: Boolean
 });
-const __unplugin_components_5$2 = defineComponent({
+const __unplugin_components_5$3 = defineComponent({
   name: "NotificationProvider",
   props: notificationProviderProps,
   setup(props) {
@@ -19814,7 +19814,7 @@ const sliderProps = Object.assign(Object.assign({}, useTheme.props), {
   onDragstart: [Function],
   onDragend: [Function]
 });
-const __unplugin_components_1 = defineComponent({
+const __unplugin_components_5$2 = defineComponent({
   name: "Slider",
   props: sliderProps,
   setup(props) {
@@ -30487,7 +30487,6 @@ const useUserStore = /* @__PURE__ */ defineStore("user", {
       }
       this.updateTime = Date.now();
       this.storeToStorage();
-      success("用户信息更新成功");
     },
     async updateByStorage() {
       let user = JSON.parse(localStorage.getItem("user") ?? "");
@@ -30600,6 +30599,51 @@ function lrcToLyric(lyricLine2) {
   }
   return lineTime[1];
 }
+const useSettingStore = /* @__PURE__ */ defineStore("setting", {
+  state: () => ({
+    showLyricWindow: false,
+    lyricFontSize: "1.8rem",
+    musicLevel: "jymaster"
+  }),
+  actions: {
+    init() {
+      let obj = JSON.parse(localStorage.getItem("setting"));
+      if (obj && obj.version == 1) {
+        let { showLyricWindow, lyricFontSize, musicLevel } = obj;
+        this.showLyricWindow = showLyricWindow;
+        this.lyricFontSize = lyricFontSize ?? "1.8rem";
+        this.musicLevel = musicLevel ?? "jymaster";
+      }
+    },
+    setLyricWindowShow(show = "auto") {
+      if (window.isElectron) {
+        if (show == "auto") {
+          show = this.showLyricWindow ?? false;
+        }
+        window.api.setLyricWindowShow(show);
+        this.showLyricWindow = show;
+        this.save();
+      }
+    },
+    setLyricFontSize(size2) {
+      this.lyricFontSize = size2;
+      this.save();
+    },
+    setMusicLevel(level) {
+      this.musicLevel = level;
+      this.save();
+    },
+    save() {
+      let stringData = JSON.stringify({
+        version: 1,
+        showLyricWindow: this.showLyricWindow,
+        lyricFontSize: this.lyricFontSize,
+        musicLevel: this.musicLevel
+      });
+      localStorage.setItem("setting", stringData);
+    }
+  }
+});
 const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   let player2 = ref(new Audio());
   window.player = player2.value;
@@ -30742,7 +30786,8 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     }
   }
   async function getAudioUrl(id) {
-    let res = await songUrlV1(id, "jymaster", localStorage.getItem("specialApi"), localStorage.getItem("cookie"));
+    let settingStore = useSettingStore();
+    let res = await songUrlV1(id, settingStore.musicLevel, localStorage.getItem("specialApi"), localStorage.getItem("cookie"));
     let d = res.data.data[0].url;
     player2.value.src = d;
     return d;
@@ -31642,44 +31687,6 @@ const useThemeStore = /* @__PURE__ */ defineStore("theme", {
           window.api.sendThemeColors(stringData);
         }, 500);
       }
-    }
-  }
-});
-const useSettingStore = /* @__PURE__ */ defineStore("setting", {
-  state: () => ({
-    showLyricWindow: false,
-    lyricFontSize: "1.8rem"
-  }),
-  actions: {
-    init() {
-      let obj = JSON.parse(localStorage.getItem("setting"));
-      if (obj && obj.version == 1) {
-        let { showLyricWindow, lyricFontSize } = obj;
-        this.showLyricWindow = showLyricWindow;
-        this.lyricFontSize = lyricFontSize ?? "1.8rem";
-      }
-    },
-    setLyricWindowShow(show = "auto") {
-      if (window.isElectron) {
-        if (show == "auto") {
-          show = this.showLyricWindow ?? false;
-        }
-        window.api.setLyricWindowShow(show);
-        this.showLyricWindow = show;
-        this.save();
-      }
-    },
-    setLyricFontSize(size2) {
-      this.lyricFontSize = size2;
-      this.save();
-    },
-    save() {
-      let stringData = JSON.stringify({
-        version: 1,
-        showLyricWindow: this.showLyricWindow,
-        lyricFontSize: this.lyricFontSize
-      });
-      localStorage.setItem("setting", stringData);
     }
   }
 });
@@ -33397,7 +33404,7 @@ const _sfc_main$5 = {
       const _component_n_icon = NIcon;
       const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0$1;
       const _component_n_input = __unplugin_components_0$3;
-      const _component_n_avatar = __unplugin_components_4$3;
+      const _component_n_avatar = __unplugin_components_4$4;
       const _component_i_solar_close_circle_outline = __unplugin_components_5$1;
       return openBlock(), createElementBlock("div", _hoisted_1$g, [
         createVNode(_component_n_icon, {
@@ -33860,7 +33867,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
       const _component_i_ant_design_heart_outlined = __unplugin_components_2;
       const _component_i_ant_design_heart_filled = __unplugin_components_3;
       const _component_i_hugeicons_message_01 = __unplugin_components_4;
-      const _component_n_slider = __unplugin_components_1;
+      const _component_n_slider = __unplugin_components_5$2;
       const _component_i_hugeicons_exchange_01 = __unplugin_components_7;
       const _component_i_hugeicons_magic_wand_01 = __unplugin_components_8;
       const _component_i_hugeicons_arrow_left_01 = __unplugin_components_3$1;
@@ -34209,7 +34216,7 @@ const _sfc_main$2 = {
       const _component_i_hugeicons_arrow_right_01 = __unplugin_components_6;
       const _component_i_hugeicons_exchange_01 = __unplugin_components_7;
       const _component_i_hugeicons_magic_wand_01 = __unplugin_components_8;
-      const _component_n_slider = __unplugin_components_1;
+      const _component_n_slider = __unplugin_components_5$2;
       const _component_i_solar_soundwave_square_outline = __unplugin_components_10;
       const _component_i_hugeicons_playlist_03 = __unplugin_components_11;
       return openBlock(), createElementBlock("div", _hoisted_1$2, [
@@ -34474,16 +34481,16 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "2f48099c": unref(themeStore).mainColors[0],
-      "2f48095e": unref(themeStore).mainColors[1],
-      "2f480920": unref(themeStore).mainColors[2],
-      "2f4808e2": unref(themeStore).mainColors[3],
-      "2f4808a4": unref(themeStore).mainColors[4],
-      "2f480866": unref(themeStore).mainColors[5],
-      "2f480828": unref(themeStore).mainColors[6],
-      "2f4807ea": unref(themeStore).mainColors[7],
-      "2f4807ac": unref(themeStore).mainColors[8],
-      "2f48076e": unref(themeStore).mainColors[9]
+      "0065fbc2": unref(themeStore).mainColors[0],
+      "0065fbe1": unref(themeStore).mainColors[1],
+      "0065fc00": unref(themeStore).mainColors[2],
+      "0065fc1f": unref(themeStore).mainColors[3],
+      "0065fc3e": unref(themeStore).mainColors[4],
+      "0065fc5d": unref(themeStore).mainColors[5],
+      "0065fc7c": unref(themeStore).mainColors[6],
+      "0065fc9b": unref(themeStore).mainColors[7],
+      "0065fcba": unref(themeStore).mainColors[8],
+      "0065fcd9": unref(themeStore).mainColors[9]
     }));
     let settingStore = useSettingStore();
     settingStore.init();
@@ -34509,9 +34516,14 @@ const _sfc_main = {
     });
     userStore.updateByStorage();
     onMounted(async () => {
-      if (userStore.isLogin === true && Date.now() - userStore.updateTime > 1e3 * 60 * 3) {
+      if (userStore.isLogin === true && Date.now() - userStore.updateTime >= 1e3 * 60 * 2) {
         userStore.updateByCookie();
       }
+      setInterval(async () => {
+        if (userStore.isLogin === true) {
+          userStore.updateByCookie();
+        }
+      }, 1e3 * 60 * 3);
       if (localStorage.getItem("playlist") != null) {
         playStore.playlistInit();
       }
@@ -34556,11 +34568,11 @@ const _sfc_main = {
     document.addEventListener("DOMContentLoaded", setRealVhVw);
     return (_ctx, _cache) => {
       const _component_n_button = Button;
-      const _component_n_dropdown = __unplugin_components_1$1;
-      const _component_n_card = __unplugin_components_5$3;
+      const _component_n_dropdown = __unplugin_components_4$3;
+      const _component_n_card = __unplugin_components_5$4;
       const _component_n_modal = __unplugin_components_3$2;
       const _component_n_message_provider = __unplugin_components_4$2;
-      const _component_n_notification_provider = __unplugin_components_5$2;
+      const _component_n_notification_provider = __unplugin_components_5$3;
       const _component_n_modal_provider = NModalProvider;
       const _component_n_config_provider = __unplugin_components_7$1;
       return openBlock(), createElementBlock("div", _hoisted_1, [
@@ -34653,7 +34665,7 @@ export {
   NBaseIcon as N,
   parseArtist as O,
   likeAndUpdateLikelist as P,
-  __unplugin_components_5$3 as Q,
+  __unplugin_components_5$4 as Q,
   __unplugin_components_2 as R,
   __unplugin_components_3 as S,
   tooltipLight as T,
@@ -34676,7 +34688,8 @@ export {
   VFollower as a8,
   clickoutside as a9,
   useSettingStore as aa,
-  __unplugin_components_1 as ab,
+  __unplugin_components_4$3 as ab,
+  __unplugin_components_5$2 as ac,
   NBaseClose as b,
   cssrAnchorMetaName as c,
   useCompitable as d,

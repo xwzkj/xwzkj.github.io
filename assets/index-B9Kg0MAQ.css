@@ -504,19 +504,19 @@ right---------------------------------------------------------
 
 .app,
 .bg {
-  background-color: var(--2f48099c);
+  background-color: var(--0065fbc2);
 }
-*{
-  --color-0: var(--2f48099c);
-  --color-1: var(--2f48095e);
-  --color-2: var(--2f480920);
-  --color-3: var(--2f4808e2);
-  --color-4: var(--2f4808a4);
-  --color-5: var(--2f480866);
-  --color-6: var(--2f480828);
-  --color-7: var(--2f4807ea);
-  --color-8: var(--2f4807ac);
-  --color-9: var(--2f48076e);
+* {
+  --color-0: var(--0065fbc2);
+  --color-1: var(--0065fbe1);
+  --color-2: var(--0065fc00);
+  --color-3: var(--0065fc1f);
+  --color-4: var(--0065fc3e);
+  --color-5: var(--0065fc5d);
+  --color-6: var(--0065fc7c);
+  --color-7: var(--0065fc9b);
+  --color-8: var(--0065fcba);
+  --color-9: var(--0065fcd9);
 }
 .icon,
 .n-icon {
