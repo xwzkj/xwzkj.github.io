@@ -48,15 +48,15 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "lyricApp",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "ed849b18": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
-      "14316492": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
-      "33df43e0": unref(isLocked) ? `none` : `block`,
-      "015125b6": unref(mainColors)[7],
-      "ed9016de": unref(displayCtrl) ? `flex` : `none`,
-      "7c8ad465": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
-      "6a16d604": unref(mainColors)[6] + `dd`,
-      "0151253a": unref(mainColors)[3],
-      "0151251b": unref(mainColors)[2]
+      "19d7edc9": !unref(isLocked) ? unref(mainColors)[0] + `80` : `transparent`,
+      "3f1c0edd": !unref(isLocked) ? unref(mainColors)[7] : `transparent`,
+      "1f1efd6b": unref(isLocked) ? `none` : `block`,
+      "2674c2fe": unref(mainColors)[7],
+      "b9211148": unref(displayCtrl) ? `flex` : `none`,
+      "0c67968c": unref(isLocked) ? unref(mainColors)[0] + `80` : `none`,
+      "7cd09c5a": unref(mainColors)[6] + `dd`,
+      "2674c3f6": unref(mainColors)[3],
+      "2674c434": unref(mainColors)[2]
     }));
     let isLocked = ref(false);
     let needLockWhenMouseLeave = false;
@@ -79,7 +79,6 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       updateIsLocked();
     }
     function changeTheme(event, theme) {
-      console.log(theme);
       mainColors.value = JSON.parse(theme)?.mainColors;
     }
     async function switchLock() {
@@ -96,14 +95,12 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       let outer = document.querySelector(".outer");
       let lockEle = document.querySelector(".lock");
       lockEle.addEventListener("mouseenter", async () => {
-        console.log("lock mouse enter");
         if (await updateIsLocked()) {
           window.lyricWindowLock(false);
           needLockWhenMouseLeave = true;
         }
       });
       lockEle.addEventListener("mouseleave", async () => {
-        console.log("lock mouse leave");
         if (needLockWhenMouseLeave) {
           window.lyricWindowLock(true);
           updateIsLocked();
@@ -111,12 +108,10 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       });
       let flag;
       outer.addEventListener("mouseenter", async () => {
-        console.log("outer mouse enter");
         clearTimeout(flag);
         displayCtrl.value = true;
       });
       outer.addEventListener("mouseleave", async () => {
-        console.log("outer mouse leave");
         clearTimeout(flag);
         flag = setTimeout(() => {
           displayCtrl.value = false;

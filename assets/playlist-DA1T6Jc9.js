@@ -1,7 +1,7 @@
-import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-BAlf5VGP.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Cgovbfes.js";
+import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-DpMY_6iI.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Bpg5_ojM.js";
 import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-JWUAjikw.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-oRQhKaWC.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-DVpIKb5w.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
@@ -35,12 +35,10 @@ const _sfc_main = {
     let result = ref([]);
     let props = __props;
     watch(props, () => {
-      console.log("playlist组件props被更新");
       result.value = {};
       parsePlayList();
     }, { deep: true });
     onMounted(() => {
-      console.log("playlist组件被挂载");
       parsePlayList();
     });
     async function parsePlayList() {
@@ -145,7 +143,7 @@ const _sfc_main = {
     };
   }
 };
-const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-b141e1ea"]]);
+const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-3bd12170"]]);
 export {
   playlist as default
 };

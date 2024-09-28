@@ -9,18 +9,18 @@
   border: 1px solid transparent;
 }
 .outer:hover {
-  background: var(--ed849b18);
-  border: 1px solid var(--14316492);
+  background: var(--19d7edc9);
+  border: 1px solid var(--3f1c0edd);
 }
 .none-after-lock {
-  display: var(--33df43e0);
+  display: var(--1f1efd6b);
 }
 .ctrl {
   height: 2.2rem;
-  color: var(--015125b6);
+  color: var(--2674c2fe);
 }
 .ctrl-box {
-  display: var(--ed9016de);
+  display: var(--b9211148);
   justify-content: space-around;
 }
 .drag {
@@ -33,7 +33,7 @@
   transition: all 0.5s;
 }
 .lock:hover {
-  background-color: var(--7c8ad465);
+  background-color: var(--0c67968c);
 }
 .lyric {
   padding-left: 10px;
@@ -47,11 +47,11 @@
 }
 .lyric :not(.lyric-word-top) {
   color: white;
-  --color: var(--6a16d604);
-  text-shadow: 1px 1px var(--color), -1px -1px var(--color), -1px 1px var(--color), 1px -1px var(--color), 2px 2px 0.5px var(--0151253a);
+  --color: var(--7cd09c5a);
+  text-shadow: 1px 1px var(--color), -1px -1px var(--color), -1px 1px var(--color), 1px -1px var(--color), 2px 2px 0.5px var(--2674c3f6);
 }
 .lyric-word-top {
-  color: var(--0151251b);
+  color: var(--2674c434);
 }
 .lyric-lrc {
   font-size: 3rem;

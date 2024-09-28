@@ -1,7 +1,7 @@
-import { i as itemCardList } from "./itemCardList-Dzsd5rqf.js";
-import { u as useUserStore, g as getPersonalizedPlaylist } from "./index-BAlf5VGP.js";
+import { i as itemCardList } from "./itemCardList-DQ0rBvg9.js";
+import { u as useUserStore, g as getPersonalizedPlaylist } from "./index-DpMY_6iI.js";
 import { aO as _export_sfc, b as ref, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, u as unref, aK as openBlock } from "./font-JWUAjikw.js";
-import "./Ellipsis-oRQhKaWC.js";
+import "./Ellipsis-DVpIKb5w.js";
 const _hoisted_1 = { id: "home" };
 const _sfc_main = {
   __name: "home",
@@ -10,7 +10,6 @@ const _sfc_main = {
     let personalizedPlaylist = ref({ result: [] });
     getPersonalizedPlaylist().then((res) => {
       personalizedPlaylist.value = res.data;
-      console.log(res);
     });
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", _hoisted_1, [
@@ -23,7 +22,7 @@ const _sfc_main = {
     };
   }
 };
-const home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-aa0b0101"]]);
+const home = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ed139fbc"]]);
 export {
   home as default
 };

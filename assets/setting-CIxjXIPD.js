@@ -1,5 +1,5 @@
-import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode } from "./font-JWUAjikw.js";
-import { W as useStyle, X as inputLight, Y as buttonLight, Z as on, $ as off, _ as __unplugin_components_0$1, a0 as fadeInScaleUpTransition, a1 as useAdjustedTo, a2 as useFormItem, a3 as useLocale, e as useMergedState, a4 as isMounted, a5 as getPreciseEventTarget, a6 as Binder, a7 as VTarget, a8 as VFollower, a9 as clickoutside, k as call, C as Button, Q as __unplugin_components_5, aa as useSettingStore, u as useUserStore, q as useThemeStore, w as success, y as error, ab as __unplugin_components_1$1 } from "./index-BAlf5VGP.js";
+import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode, aU as toDisplayString } from "./font-JWUAjikw.js";
+import { W as useStyle, X as inputLight, Y as buttonLight, Z as on, $ as off, _ as __unplugin_components_0$1, a0 as fadeInScaleUpTransition, a1 as useAdjustedTo, a2 as useFormItem, a3 as useLocale, e as useMergedState, a4 as isMounted, a5 as getPreciseEventTarget, a6 as Binder, a7 as VTarget, a8 as VFollower, a9 as clickoutside, k as call, C as Button, Q as __unplugin_components_5, aa as useSettingStore, u as useUserStore, q as useThemeStore, w as success, y as error, ab as __unplugin_components_1$1 } from "./index-DpMY_6iI.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1937,6 +1937,7 @@ const _sfc_main$1 = {
   }
 };
 const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-443755e3"]]);
+const buildInfo = { version: "1.1.3", buildNumber: "829a709" };
 const _hoisted_1 = { class: "setting" };
 const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {
@@ -2102,13 +2103,25 @@ const _sfc_main = {
               })
             ]),
             _: 1
+          }),
+          createVNode(settingItem, null, {
+            t1: withCtx(() => _cache[17] || (_cache[17] = [
+              createTextVNode("版本信息")
+            ])),
+            t2: withCtx(() => [
+              createTextVNode("版本号：" + toDisplayString(unref(buildInfo).version) + "    构建号：" + toDisplayString(unref(buildInfo).buildNumber), 1)
+            ]),
+            action: withCtx(() => _cache[18] || (_cache[18] = [
+              createBaseVNode("div", null, null, -1)
+            ])),
+            _: 1
           })
         ])
       ]);
     };
   }
 };
-const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-4baa2abd"]]);
+const setting = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ed36ebeb"]]);
 export {
   setting as default
 };

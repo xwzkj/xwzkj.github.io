@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DkLGQryI.js","./itemCardList-Dzsd5rqf.js","./font-JWUAjikw.js","./font-BqeCjEUM.css","./Ellipsis-oRQhKaWC.js","./itemCardList-DuiYKzPr.css","./home-D8uE6uWd.css","./search-CReAG50K.js","./musicList-Cgovbfes.js","./musicList-CIYHyx-x.css","./search-CJVCiG0o.css","./login-W6g1UkAB.js","./login-zqTcuwMw.css","./account-DfD45ceF.js","./account-3Bs-RIiD.css","./playlist-Db9O5Iy-.js","./playlist-_rqHwo7U.css","./setting-CvHatg9g.js","./setting-C6RVjymY.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BJ8fqRtJ.js","./itemCardList-DQ0rBvg9.js","./font-JWUAjikw.js","./font-BqeCjEUM.css","./Ellipsis-DVpIKb5w.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-BPR6wC_6.js","./musicList-Bpg5_ojM.js","./musicList-CIYHyx-x.css","./search-B-m8651F.css","./login-HtdtWROg.js","./login-zqTcuwMw.css","./account-DixAIe42.js","./account-3Bs-RIiD.css","./playlist-DA1T6Jc9.js","./playlist-B38m8n4U.css","./setting-CIxjXIPD.js","./setting-DFRimW0i.css"])))=>i.map(i=>d[i]);
 import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-JWUAjikw.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
@@ -1938,7 +1938,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-DkLGQryI.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BJ8fqRtJ.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +1949,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-CReAG50K.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-BPR6wC_6.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +1960,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-W6g1UkAB.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-HtdtWROg.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +1968,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-DfD45ceF.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-DixAIe42.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +1979,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-Db9O5Iy-.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-DA1T6Jc9.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +1990,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CvHatg9g.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-CIxjXIPD.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -30488,7 +30488,6 @@ const useUserStore = /* @__PURE__ */ defineStore("user", {
       this.updateTime = Date.now();
       this.storeToStorage();
       success("用户信息更新成功");
-      console.log("pinia updatedByCookie");
     },
     async updateByStorage() {
       let user = JSON.parse(localStorage.getItem("user") ?? "");
@@ -30496,7 +30495,6 @@ const useUserStore = /* @__PURE__ */ defineStore("user", {
       if (this.ip == "") {
         this.ip = `111.37.150.${random(0, 255)}`;
       }
-      console.log("pinia updatedByStorage");
     },
     updateByObj(obj) {
       for (let key in obj) {
@@ -30513,12 +30511,10 @@ const useUserStore = /* @__PURE__ */ defineStore("user", {
         }
       }
       localStorage.setItem("user", JSON.stringify(pureObj));
-      console.log("pinia storeToStorage");
     },
     clearStorage() {
       localStorage.removeItem("user");
       localStorage.removeItem("cookie");
-      console.log("pinia clearStorage");
     },
     logout() {
       this.$reset();
@@ -30572,7 +30568,6 @@ function parseLrc(lrc) {
   return lyric;
 }
 function parseSecondaryLrc(secondaryLrc, parsedLyric, keyName) {
-  console.log("secondaryLrc解析", keyName);
   let lyric = parsedLyric.map((item) => ({ ...item }));
   secondaryLrc.split("\n").forEach((line) => {
     let linetext = lrcToLyric(line);
@@ -30606,7 +30601,6 @@ function lrcToLyric(lyricLine2) {
   return lineTime[1];
 }
 const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
-  console.log("playstore被创建 ");
   let player2 = ref(new Audio());
   window.player = player2.value;
   let lyricIndexNow = ref({ lineIndex: -1, wordIndex: -1, wordDuration: 0 });
@@ -30744,7 +30738,6 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
           }
         }
       }
-      console.log(lyric);
       playlist.value[playlistIndex.value].lyric = lyric;
     }
   }
@@ -30800,7 +30793,6 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
       position = playlistIndex.value + 1;
     }
     position = Number(position);
-    console.log("添加音乐到播放列表", ids, position, letIndexIsNew);
     if (ids.length == 0) {
       return;
     }
@@ -30869,7 +30861,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   }
   function next() {
     pause();
-    console.log(`[playStore]next`);
+    console.log(`⏭下一曲`);
     beforeMusicChanged();
     const computIndex = (length, indexNow) => {
       if (indexNow < length - 1) {
@@ -30890,7 +30882,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   }
   function prev() {
     pause();
-    console.log(`[playStore]prev`);
+    console.log(`⏮上一曲`);
     beforeMusicChanged();
     const computIndex = (length, indexNow) => {
       if (indexNow > 0) {
@@ -30910,17 +30902,17 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     play(true);
   }
   function beforeMusicChanged() {
-    let scrobble$1 = () => {
+    let scrobble$1 = (id, currentTime) => {
       let userStore = useUserStore();
       if (userStore.isLogin) {
-        let currentTime = Math.floor(musicStatus.value.currentTime);
         if (currentTime >= 15) {
-          scrobble(currentMusic.value.id, currentTime, 0);
+          console.log(`📋️听歌打卡： ${id} ${currentTime}`);
+          scrobble(id, currentTime, 0);
         }
       }
     };
-    scrobble$1 = debounce(scrobble$1, 1e4, 1);
-    scrobble$1();
+    scrobble$1 = debounce(scrobble$1, 5e3, 1);
+    scrobble$1(currentMusic.value.id, Math.floor(musicStatus.value.currentTime));
   }
   function seek(time2) {
     player2.value.currentTime = time2;
@@ -30929,9 +30921,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   function setPlayMode(mode = null) {
     if (mode == null) {
       mode = playMode.value ?? 0;
-      console.log(playMode);
     }
-    console.log(`[playStore]setPlayMode ${mode}`);
     playMode.value = mode;
     save();
   }
@@ -33387,7 +33377,6 @@ const _sfc_main$5 = {
       } else {
         throw new Error("nav动画 参数错误");
       }
-      console.log(showNav);
       anime({
         targets: ".header-nav",
         translateX: showNav ? "100%" : "0%",
@@ -34641,10 +34630,9 @@ const _sfc_main = {
     };
   }
 };
-console.log("%c奶酪音乐", "font-family:'微软雅黑' ; font-size: 3rem; color: #deb237; background-color: #deb23710; padding: 0.5rem; border-radius: 0.5rem");
+console.log("%c奶酪音乐 ©丸子", "font-family:'微软雅黑' ; font-size: 1.5rem; color: #deb237; background-color: #deb23710; padding: 0.5rem; border-radius: 0.5rem");
 let app = createApp(_sfc_main);
 app.use(pinia);
-console.log("pinia实例被创建");
 app.use(router);
 app.mount("#app");
 export {
