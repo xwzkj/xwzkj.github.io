@@ -1,5 +1,5 @@
 /**
-* @vue/shared v3.5.9
+* @vue/shared v3.5.10
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -195,7 +195,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.5.9
+* @vue/reactivity v3.5.10
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -421,12 +421,17 @@ function endBatch() {
     let e = batchedSub;
     let next;
     while (e) {
-      e.flags &= ~8;
+      if (!(e.flags & 1)) {
+        e.flags &= ~8;
+      }
       e = e.next;
     }
     e = batchedSub;
     batchedSub = void 0;
     while (e) {
+      next = e.next;
+      e.next = void 0;
+      e.flags &= ~8;
       if (e.flags & 1) {
         try {
           ;
@@ -435,8 +440,6 @@ function endBatch() {
           if (!error) error = err;
         }
       }
-      next = e.next;
-      e.next = void 0;
       e = next;
     }
   }
@@ -1577,6 +1580,7 @@ class ComputedRefImpl {
     this.depsTail = void 0;
     this.flags = 16;
     this.globalVersion = globalVersion - 1;
+    this.next = void 0;
     this.effect = this;
     this["__v_isReadonly"] = !setter;
     this.isSSR = isSSR;
@@ -1803,7 +1807,7 @@ function traverse(value, depth = Infinity, seen) {
   return value;
 }
 /**
-* @vue/runtime-core v3.5.9
+* @vue/runtime-core v3.5.10
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -6733,9 +6737,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.5.9";
+const version = "3.5.10";
 /**
-* @vue/runtime-dom v3.5.9
+* @vue/runtime-dom v3.5.10
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -7453,6 +7457,11 @@ const patchProp = (el, key, prevValue, nextValue, namespace2, parentComponent) =
     if (!el.tagName.includes("-") && (key === "value" || key === "checked" || key === "selected")) {
       patchAttr(el, key, nextValue, isSVG, parentComponent, key !== "value");
     }
+  } else if (
+    // #11081 force set props for possible async custom element
+    el._isVueCE && (/[A-Z]/.test(key) || !isString(nextValue))
+  ) {
+    patchDOMProp(el, camelize(key), nextValue);
   } else {
     if (key === "true-value") {
       el._trueValue = nextValue;
@@ -7493,13 +7502,7 @@ function shouldSetAsProp(el, key, value, isSVG) {
   if (isNativeOn(key) && isString(value)) {
     return false;
   }
-  if (key in el) {
-    return true;
-  }
-  if (el._isVueCE && (/[A-Z]/.test(key) || !isString(value))) {
-    return true;
-  }
-  return false;
+  return key in el;
 }
 const positionMap = /* @__PURE__ */ new WeakMap();
 const newPositionMap = /* @__PURE__ */ new WeakMap();
