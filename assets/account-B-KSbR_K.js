@@ -1,7 +1,27 @@
-import { aO as _export_sfc, b as ref, aL as createElementBlock, aM as createBaseVNode, u as unref, aU as toDisplayString, aN as createVNode, aK as openBlock, aS as useCssVars } from "./font-JWUAjikw.js";
-import { u as useUserStore, q as useThemeStore, D as areaData, x as useRouter } from "./index-DvJelJR2.js";
-import { i as itemCardList } from "./itemCardList-B5PQ4TDD.js";
-import "./Ellipsis-Kknol0Pm.js";
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+import { aO as _export_sfc, b as ref, aL as createElementBlock, aM as createBaseVNode, u as unref, aU as toDisplayString, aN as createVNode, aK as openBlock, aS as useCssVars } from "./font-DNEr4BFN.js";
+import { u as useUserStore, q as useThemeStore, D as areaData, x as useRouter } from "./index-lSGtwPat.js";
+import { i as itemCardList } from "./itemCardList-pbXlMwf_.js";
+import "./Ellipsis-CPJlsKUD.js";
 const _hoisted_1 = { class: "account-user-detail" };
 const _hoisted_2 = ["src"];
 const _hoisted_3 = { class: "account-user-data-info" };
@@ -20,12 +40,14 @@ const _sfc_main = {
     useRouter();
     let Area = ref("未知");
     getArea(userStore.province, userStore.city);
-    async function getArea(province, city) {
-      if (province in areaData.province && city in areaData.city) {
-        Area.value = areaData.province[province] + " " + areaData.city[city];
-      } else {
-        Area.value = "未知";
-      }
+    function getArea(province, city) {
+      return __async(this, null, function* () {
+        if (province in areaData.province && city in areaData.city) {
+          Area.value = areaData.province[province] + " " + areaData.city[city];
+        } else {
+          Area.value = "未知";
+        }
+      });
     }
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", null, [

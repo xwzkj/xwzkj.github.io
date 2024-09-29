@@ -9787,8 +9787,9 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
     }));
     let props = __props;
     let lyricWordNowDuration = computed(() => {
-      let duration = props.currentWordIndex?.wordDuration / 1e3;
-      return `${duration}s${props?.paused ? " paused" : ""}`;
+      var _a;
+      let duration = ((_a = props.currentWordIndex) == null ? void 0 : _a.wordDuration) / 1e3;
+      return `${duration}s${(props == null ? void 0 : props.paused) ? " paused" : ""}`;
     });
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", null, [
@@ -9799,10 +9800,11 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
           }])
         }, [
           (openBlock(true), createElementBlock(Fragment, null, renderList(unref(props).line, (word, wIndex) => {
+            var _a, _b, _c;
             return openBlock(), createElementBlock("span", {
               class: normalizeClass(["relative", [
                 {
-                  "lyric-word-end-with-space": word?.text?.slice(-1) == " "
+                  "lyric-word-end-with-space": ((_a = word == null ? void 0 : word.text) == null ? void 0 : _a.slice(-1)) == " "
                 },
                 "lrc-word-" + wIndex
               ]])
@@ -9810,8 +9812,8 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
               createBaseVNode("span", _hoisted_1$1, toDisplayString(word.text), 1),
               createBaseVNode("span", {
                 class: normalizeClass(["select-none absolute left-0 top-0 bottom-0 z-1 lyric-word-top text3 lyric-word", {
-                  "lyric-word-active": unref(props).currentWordIndex?.wordIndex == wIndex,
-                  "lyric-word-done": unref(props).currentWordIndex?.wordIndex > wIndex
+                  "lyric-word-active": ((_b = unref(props).currentWordIndex) == null ? void 0 : _b.wordIndex) == wIndex,
+                  "lyric-word-done": ((_c = unref(props).currentWordIndex) == null ? void 0 : _c.wordIndex) > wIndex
                 }])
               }, toDisplayString(word.text), 3)
             ], 2);
@@ -9910,6 +9912,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       }
     }
     return (_ctx, _cache) => {
+      var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l;
       return openBlock(), createElementBlock("div", {
         class: "marquee-sizer",
         ref_key: "sizerEle",
@@ -9927,9 +9930,9 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
                 innerHTML: unref(props).html
               }, null, 8, _hoisted_3)) : (openBlock(), createBlock(lyricLine, {
                 key: 1,
-                line: unref(props)?.lineData?.line,
-                "current-word-index": unref(props)?.lineData?.currentWordIndex,
-                paused: unref(props)?.lineData?.paused,
+                line: (_b = (_a = unref(props)) == null ? void 0 : _a.lineData) == null ? void 0 : _b.line,
+                "current-word-index": (_d = (_c = unref(props)) == null ? void 0 : _c.lineData) == null ? void 0 : _d.currentWordIndex,
+                paused: (_f = (_e = unref(props)) == null ? void 0 : _e.lineData) == null ? void 0 : _f.paused,
                 "can-wrap": false
               }, null, 8, ["line", "current-word-index", "paused"]))
             ], 512),
@@ -9953,9 +9956,9 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
             innerHTML: unref(props).html
           }, null, 8, _hoisted_5)) : (openBlock(), createBlock(lyricLine, {
             key: 1,
-            line: unref(props)?.lineData?.line,
-            "current-word-index": unref(props)?.lineData?.currentWordIndex,
-            paused: unref(props)?.lineData?.paused,
+            line: (_h = (_g = unref(props)) == null ? void 0 : _g.lineData) == null ? void 0 : _h.line,
+            "current-word-index": (_j = (_i = unref(props)) == null ? void 0 : _i.lineData) == null ? void 0 : _j.currentWordIndex,
+            paused: (_l = (_k = unref(props)) == null ? void 0 : _k.lineData) == null ? void 0 : _l.paused,
             "can-wrap": false
           }, null, 8, ["line", "current-word-index", "paused"]))
         ], 512), [

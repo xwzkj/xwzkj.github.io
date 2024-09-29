@@ -1,8 +1,28 @@
-import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-DvJelJR2.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DAU6szLk.js";
-import { i as itemCardList } from "./itemCardList-B5PQ4TDD.js";
-import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, H as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, F as Fragment, ah as cB, aj as cM, ai as c$1, am as cE, ak as cNotM, ao as useTheme, ap as useConfig, w as watch, D as onMounted, p as provide, l as toRef, ae as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, ag as TransitionGroup, av as cloneVNode, aO as _export_sfc, aL as createElementBlock, aM as createBaseVNode, aU as toDisplayString, u as unref, aN as createVNode, aP as withCtx, f as isRef, aK as openBlock, aQ as createBlock } from "./font-JWUAjikw.js";
-import "./Ellipsis-Kknol0Pm.js";
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-lSGtwPat.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-fcIhGpLg.js";
+import { i as itemCardList } from "./itemCardList-pbXlMwf_.js";
+import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, H as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, F as Fragment, ah as cB, aj as cM, ai as c$1, am as cE, ak as cNotM, ao as useTheme, ap as useConfig, w as watch, D as onMounted, p as provide, l as toRef, ae as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, ag as TransitionGroup, av as cloneVNode, aO as _export_sfc, aL as createElementBlock, aM as createBaseVNode, aU as toDisplayString, u as unref, aN as createVNode, aP as withCtx, f as isRef, aK as openBlock, aQ as createBlock } from "./font-DNEr4BFN.js";
+import "./Ellipsis-CPJlsKUD.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"
@@ -1723,23 +1743,27 @@ const _sfc_main = {
     onMounted(() => {
       search2();
     });
-    let tabChange = async (value) => {
+    let tabChange = (value) => __async(this, null, function* () {
       switch (value) {
         case "playlist":
-          let res = await cloudsearch(props.keyword, 1e3);
+          let res = yield cloudsearch(props.keyword, 1e3);
           result.value.playlist = res.data.result.playlists;
           break;
       }
-    };
-    async function search2() {
-      result.value = {};
-      currentTab.value = "song";
-      let res = await cloudsearch(props.keyword);
-      result.value.song = res.data.result.songs;
+    });
+    function search2() {
+      return __async(this, null, function* () {
+        result.value = {};
+        currentTab.value = "song";
+        let res = yield cloudsearch(props.keyword);
+        result.value.song = res.data.result.songs;
+      });
     }
-    async function play(id) {
-      await playStore.addMusic([id], "now", true);
-      playStore.play(true);
+    function play(id) {
+      return __async(this, null, function* () {
+        yield playStore.addMusic([id], "now", true);
+        playStore.play(true);
+      });
     }
     return (_ctx, _cache) => {
       const _component_n_spin = __unplugin_components_3;
@@ -1760,31 +1784,37 @@ const _sfc_main = {
               name: "song",
               tab: "单曲"
             }, {
-              default: withCtx(() => [
-                unref(result)?.song ? (openBlock(), createBlock(musicList, {
-                  key: 0,
-                  value: unref(result).song,
-                  nameOnClick: play
-                }, null, 8, ["value"])) : (openBlock(), createBlock(_component_n_spin, {
-                  key: 1,
-                  class: "loading-center"
-                }))
-              ]),
+              default: withCtx(() => {
+                var _a;
+                return [
+                  ((_a = unref(result)) == null ? void 0 : _a.song) ? (openBlock(), createBlock(musicList, {
+                    key: 0,
+                    value: unref(result).song,
+                    nameOnClick: play
+                  }, null, 8, ["value"])) : (openBlock(), createBlock(_component_n_spin, {
+                    key: 1,
+                    class: "loading-center"
+                  }))
+                ];
+              }),
               _: 1
             }),
             createVNode(_component_n_tab_pane, {
               name: "playlist",
               tab: "歌单"
             }, {
-              default: withCtx(() => [
-                unref(result)?.playlist ? (openBlock(), createBlock(itemCardList, {
-                  key: 0,
-                  data: unref(result).playlist
-                }, null, 8, ["data"])) : (openBlock(), createBlock(_component_n_spin, {
-                  key: 1,
-                  class: "loading-center"
-                }))
-              ]),
+              default: withCtx(() => {
+                var _a;
+                return [
+                  ((_a = unref(result)) == null ? void 0 : _a.playlist) ? (openBlock(), createBlock(itemCardList, {
+                    key: 0,
+                    data: unref(result).playlist
+                  }, null, 8, ["data"])) : (openBlock(), createBlock(_component_n_spin, {
+                    key: 1,
+                    class: "loading-center"
+                  }))
+                ];
+              }),
               _: 1
             })
           ]),

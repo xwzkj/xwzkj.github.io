@@ -1,5 +1,104 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DcS-3dn9.js","./itemCardList-B5PQ4TDD.js","./font-JWUAjikw.js","./font-BqeCjEUM.css","./Ellipsis-Kknol0Pm.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-6gyxW41E.js","./musicList-DAU6szLk.js","./musicList-CIYHyx-x.css","./search-CY3WsCZS.css","./login-bwdqJJnL.js","./login-zqTcuwMw.css","./account-Bd12zh83.js","./account-3Bs-RIiD.css","./playlist-ByYuY9Mi.js","./playlist-jqRZomob.css","./setting-BhppYtMT.js","./setting-ChxaiIzD.css"])))=>i.map(i=>d[i]);
-import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-JWUAjikw.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BoO2BEqV.js","./itemCardList-pbXlMwf_.js","./font-DNEr4BFN.js","./font-BqeCjEUM.css","./Ellipsis-CPJlsKUD.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-BoPG0fSQ.js","./musicList-fcIhGpLg.js","./musicList-CIYHyx-x.css","./search-CY3WsCZS.css","./login-BbEm825b.js","./login-zqTcuwMw.css","./account-B-KSbR_K.js","./account-3Bs-RIiD.css","./playlist-WnVr2-jw.js","./playlist-jqRZomob.css","./setting-BfbRbqDI.js","./setting-ChxaiIzD.css"])))=>i.map(i=>d[i]);
+var __defProp = Object.defineProperty;
+var __defProps = Object.defineProperties;
+var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __knownSymbol = (name, symbol) => (symbol = Symbol[name]) ? symbol : Symbol.for("Symbol." + name);
+var __typeError = (msg2) => {
+  throw TypeError(msg2);
+};
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop))
+      __defNormalProp(a, prop, b[prop]);
+  if (__getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(b)) {
+      if (__propIsEnum.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    }
+  return a;
+};
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
+var __objRest = (source, exclude) => {
+  var target = {};
+  for (var prop in source)
+    if (__hasOwnProp.call(source, prop) && exclude.indexOf(prop) < 0)
+      target[prop] = source[prop];
+  if (source != null && __getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(source)) {
+      if (exclude.indexOf(prop) < 0 && __propIsEnum.call(source, prop))
+        target[prop] = source[prop];
+    }
+  return target;
+};
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+var __await = function(promise, isYieldStar) {
+  this[0] = promise;
+  this[1] = isYieldStar;
+};
+var __asyncGenerator = (__this, __arguments, generator) => {
+  var resume = (k, v, yes, no) => {
+    try {
+      var x = generator[k](v), isAwait = (v = x.value) instanceof __await, done = x.done;
+      Promise.resolve(isAwait ? v[0] : v).then((y) => isAwait ? resume(k === "return" ? k : "next", v[1] ? { done: y.done, value: y.value } : y, yes, no) : yes({ value: y, done })).catch((e) => resume("throw", e, yes, no));
+    } catch (e) {
+      no(e);
+    }
+  }, method = (k) => it[k] = (x) => new Promise((yes, no) => resume(k, x, yes, no)), it = {};
+  return generator = generator.apply(__this, __arguments), it[__knownSymbol("asyncIterator")] = () => it, method("next"), method("throw"), method("return"), it;
+};
+var __yieldStar = (value) => {
+  var obj = value[__knownSymbol("asyncIterator")], isAwait = false, method, it = {};
+  if (obj == null) {
+    obj = value[__knownSymbol("iterator")]();
+    method = (k) => it[k] = (x) => obj[k](x);
+  } else {
+    obj = obj.call(value);
+    method = (k) => it[k] = (v) => {
+      if (isAwait) {
+        isAwait = false;
+        if (k === "throw") throw v;
+        return v;
+      }
+      isAwait = true;
+      return {
+        done: false,
+        value: new __await(new Promise((resolve) => {
+          var x = obj[k](v);
+          if (!(x instanceof Object)) __typeError("Object expected");
+          resolve(x);
+        }), 1)
+      };
+    };
+  }
+  return it[__knownSymbol("iterator")] = () => it, method("next"), "throw" in obj ? method("throw") : it.throw = (x) => {
+    throw x;
+  }, "return" in obj && method("return"), it;
+};
+var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
+import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-DNEr4BFN.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -15,7 +114,7 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
     const cspNonceMeta = document.querySelector(
       "meta[property=csp-nonce]"
     );
-    const cspNonce = cspNonceMeta?.nonce || cspNonceMeta?.getAttribute("nonce");
+    const cspNonce = (cspNonceMeta == null ? void 0 : cspNonceMeta.nonce) || (cspNonceMeta == null ? void 0 : cspNonceMeta.getAttribute("nonce"));
     promise = Promise.allSettled(
       deps.map((dep) => {
         dep = assetsURL(dep, importerUrl);
@@ -1938,7 +2037,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-DcS-3dn9.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BoO2BEqV.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1949,7 +2048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-6gyxW41E.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-BoPG0fSQ.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1960,7 +2059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-bwdqJJnL.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-BbEm825b.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1968,7 +2067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-Bd12zh83.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-B-KSbR_K.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -1979,7 +2078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-ByYuY9Mi.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-WnVr2-jw.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -1990,7 +2089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BhppYtMT.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BfbRbqDI.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -6191,15 +6290,15 @@ function buildFormatLongFn(args) {
 }
 function buildLocalizeFn(args) {
   return (value, options) => {
-    const context = options?.context ? String(options.context) : "standalone";
+    const context = (options == null ? void 0 : options.context) ? String(options.context) : "standalone";
     let valuesArray;
     if (context === "formatting" && args.formattingValues) {
       const defaultWidth = args.defaultFormattingWidth || args.defaultWidth;
-      const width = options?.width ? String(options.width) : defaultWidth;
+      const width = (options == null ? void 0 : options.width) ? String(options.width) : defaultWidth;
       valuesArray = args.formattingValues[width] || args.formattingValues[defaultWidth];
     } else {
       const defaultWidth = args.defaultWidth;
-      const width = options?.width ? String(options.width) : args.defaultWidth;
+      const width = (options == null ? void 0 : options.width) ? String(options.width) : args.defaultWidth;
       valuesArray = args.values[width] || args.values[defaultWidth];
     }
     const index = args.argumentCallback ? args.argumentCallback(value) : value;
@@ -6332,7 +6431,7 @@ const formatDistance = (token, count, options) => {
   } else {
     result = tokenValue.other.replace("{{count}}", count.toString());
   }
-  if (options?.addSuffix) {
+  if (options == null ? void 0 : options.addSuffix) {
     if (options.comparison && options.comparison > 0) {
       return "in " + result;
     } else {
@@ -21368,10 +21467,7 @@ const utils = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePropert
   navigator: _navigator,
   origin
 }, Symbol.toStringTag, { value: "Module" }));
-const platform = {
-  ...utils,
-  ...platform$1
-};
+const platform = __spreadValues(__spreadValues({}, utils), platform$1);
 function toURLEncodedForm(data, options) {
   return toFormData(data, new platform.classes.URLSearchParams(), Object.assign({
     visitor: function(value, key, path, helpers) {
@@ -22019,7 +22115,7 @@ function buildFullPath(baseURL, requestedURL) {
   }
   return requestedURL;
 }
-const headersToObject = (thing) => thing instanceof AxiosHeaders ? { ...thing } : thing;
+const headersToObject = (thing) => thing instanceof AxiosHeaders ? __spreadValues({}, thing) : thing;
 function mergeConfig(config1, config2) {
   config2 = config2 || {};
   const config = {};
@@ -22300,28 +22396,44 @@ const streamChunk = function* (chunk, chunkSize) {
     pos = end;
   }
 };
-const readBytes = async function* (iterable, chunkSize) {
-  for await (const chunk of readStream(iterable)) {
-    yield* streamChunk(chunk, chunkSize);
-  }
-};
-const readStream = async function* (stream) {
-  if (stream[Symbol.asyncIterator]) {
-    yield* stream;
-    return;
-  }
-  const reader = stream.getReader();
-  try {
-    for (; ; ) {
-      const { done, value } = await reader.read();
-      if (done) {
-        break;
+const readBytes = function(iterable, chunkSize) {
+  return __asyncGenerator(this, null, function* () {
+    try {
+      for (var iter = __forAwait(readStream(iterable)), more, temp, error2; more = !(temp = yield new __await(iter.next())).done; more = false) {
+        const chunk = temp.value;
+        yield* __yieldStar(streamChunk(chunk, chunkSize));
       }
-      yield value;
+    } catch (temp) {
+      error2 = [temp];
+    } finally {
+      try {
+        more && (temp = iter.return) && (yield new __await(temp.call(iter)));
+      } finally {
+        if (error2)
+          throw error2[0];
+      }
     }
-  } finally {
-    await reader.cancel();
-  }
+  });
+};
+const readStream = function(stream) {
+  return __asyncGenerator(this, null, function* () {
+    if (stream[Symbol.asyncIterator]) {
+      yield* __yieldStar(stream);
+      return;
+    }
+    const reader = stream.getReader();
+    try {
+      for (; ; ) {
+        const { done, value } = yield new __await(reader.read());
+        if (done) {
+          break;
+        }
+        yield value;
+      }
+    } finally {
+      yield new __await(reader.cancel());
+    }
+  });
 };
 const trackStream = (stream, chunkSize, onProgress, onFinish) => {
   const iterator = readBytes(stream, chunkSize);
@@ -22334,24 +22446,26 @@ const trackStream = (stream, chunkSize, onProgress, onFinish) => {
     }
   };
   return new ReadableStream({
-    async pull(controller) {
-      try {
-        const { done: done2, value } = await iterator.next();
-        if (done2) {
-          _onFinish();
-          controller.close();
-          return;
+    pull(controller) {
+      return __async(this, null, function* () {
+        try {
+          const { done: done2, value } = yield iterator.next();
+          if (done2) {
+            _onFinish();
+            controller.close();
+            return;
+          }
+          let len2 = value.byteLength;
+          if (onProgress) {
+            let loadedBytes = bytes += len2;
+            onProgress(loadedBytes);
+          }
+          controller.enqueue(new Uint8Array(value));
+        } catch (err) {
+          _onFinish(err);
+          throw err;
         }
-        let len2 = value.byteLength;
-        if (onProgress) {
-          let loadedBytes = bytes += len2;
-          onProgress(loadedBytes);
-        }
-        controller.enqueue(new Uint8Array(value));
-      } catch (err) {
-        _onFinish(err);
-        throw err;
-      }
+      });
     },
     cancel(reason) {
       _onFinish(reason);
@@ -22363,7 +22477,9 @@ const trackStream = (stream, chunkSize, onProgress, onFinish) => {
 };
 const isFetchSupported = typeof fetch === "function" && typeof Request === "function" && typeof Response === "function";
 const isReadableStreamSupported = isFetchSupported && typeof ReadableStream === "function";
-const encodeText = isFetchSupported && (typeof TextEncoder === "function" ? /* @__PURE__ */ ((encoder) => (str) => encoder.encode(str))(new TextEncoder()) : async (str) => new Uint8Array(await new Response(str).arrayBuffer()));
+const encodeText = isFetchSupported && (typeof TextEncoder === "function" ? /* @__PURE__ */ ((encoder) => (str) => encoder.encode(str))(new TextEncoder()) : (str) => __async(void 0, null, function* () {
+  return new Uint8Array(yield new Response(str).arrayBuffer());
+}));
 const test = (fn, ...args) => {
   try {
     return !!fn(...args);
@@ -22395,7 +22511,7 @@ isFetchSupported && ((res) => {
     });
   });
 })(new Response());
-const getBodyLength = async (body) => {
+const getBodyLength = (body) => __async(void 0, null, function* () {
   if (body == null) {
     return 0;
   }
@@ -22407,7 +22523,7 @@ const getBodyLength = async (body) => {
       method: "POST",
       body
     });
-    return (await _request.arrayBuffer()).byteLength;
+    return (yield _request.arrayBuffer()).byteLength;
   }
   if (utils$1.isArrayBufferView(body) || utils$1.isArrayBuffer(body)) {
     return body.byteLength;
@@ -22416,14 +22532,14 @@ const getBodyLength = async (body) => {
     body = body + "";
   }
   if (utils$1.isString(body)) {
-    return (await encodeText(body)).byteLength;
+    return (yield encodeText(body)).byteLength;
   }
-};
-const resolveBodyLength = async (headers, body) => {
+});
+const resolveBodyLength = (headers, body) => __async(void 0, null, function* () {
   const length = utils$1.toFiniteNumber(headers.getContentLength());
   return length == null ? getBodyLength(body) : length;
-};
-const fetchAdapter = isFetchSupported && (async (config) => {
+});
+const fetchAdapter = isFetchSupported && ((config) => __async(void 0, null, function* () {
   let {
     url,
     method,
@@ -22446,7 +22562,7 @@ const fetchAdapter = isFetchSupported && (async (config) => {
   });
   let requestContentLength;
   try {
-    if (onUploadProgress && supportsRequestStream && method !== "get" && method !== "head" && (requestContentLength = await resolveBodyLength(headers, data)) !== 0) {
+    if (onUploadProgress && supportsRequestStream && method !== "get" && method !== "head" && (requestContentLength = yield resolveBodyLength(headers, data)) !== 0) {
       let _request = new Request(url, {
         method: "POST",
         body: data,
@@ -22468,16 +22584,15 @@ const fetchAdapter = isFetchSupported && (async (config) => {
       withCredentials = withCredentials ? "include" : "omit";
     }
     const isCredentialsSupported = "credentials" in Request.prototype;
-    request2 = new Request(url, {
-      ...fetchOptions,
+    request2 = new Request(url, __spreadProps(__spreadValues({}, fetchOptions), {
       signal: composedSignal,
       method: method.toUpperCase(),
       headers: headers.normalize().toJSON(),
       body: data,
       duplex: "half",
       credentials: isCredentialsSupported ? withCredentials : void 0
-    });
-    let response = await fetch(request2);
+    }));
+    let response = yield fetch(request2);
     const isStreamResponse = supportsResponseStream && (responseType === "stream" || responseType === "response");
     if (supportsResponseStream && (onDownloadProgress || isStreamResponse && unsubscribe)) {
       const options = {};
@@ -22498,9 +22613,9 @@ const fetchAdapter = isFetchSupported && (async (config) => {
       );
     }
     responseType = responseType || "text";
-    let responseData = await resolvers[utils$1.findKey(resolvers, responseType) || "text"](response, config);
+    let responseData = yield resolvers[utils$1.findKey(resolvers, responseType) || "text"](response, config);
     !isStreamResponse && unsubscribe && unsubscribe();
-    return await new Promise((resolve, reject) => {
+    return yield new Promise((resolve, reject) => {
       settle(resolve, reject, {
         data: responseData,
         headers: AxiosHeaders.from(response.headers),
@@ -22522,7 +22637,7 @@ const fetchAdapter = isFetchSupported && (async (config) => {
     }
     throw AxiosError.from(err, err && err.code, config, request2);
   }
-});
+}));
 const knownAdapters = {
   http: httpAdapter,
   xhr: xhrAdapter,
@@ -22692,25 +22807,27 @@ class Axios {
    *
    * @returns {Promise} The Promise to be fulfilled
    */
-  async request(configOrUrl, config) {
-    try {
-      return await this._request(configOrUrl, config);
-    } catch (err) {
-      if (err instanceof Error) {
-        let dummy;
-        Error.captureStackTrace ? Error.captureStackTrace(dummy = {}) : dummy = new Error();
-        const stack2 = dummy.stack ? dummy.stack.replace(/^.+\n/, "") : "";
-        try {
-          if (!err.stack) {
-            err.stack = stack2;
-          } else if (stack2 && !String(err.stack).endsWith(stack2.replace(/^.+\n.+\n/, ""))) {
-            err.stack += "\n" + stack2;
+  request(configOrUrl, config) {
+    return __async(this, null, function* () {
+      try {
+        return yield this._request(configOrUrl, config);
+      } catch (err) {
+        if (err instanceof Error) {
+          let dummy;
+          Error.captureStackTrace ? Error.captureStackTrace(dummy = {}) : dummy = new Error();
+          const stack2 = dummy.stack ? dummy.stack.replace(/^.+\n/, "") : "";
+          try {
+            if (!err.stack) {
+              err.stack = stack2;
+            } else if (stack2 && !String(err.stack).endsWith(stack2.replace(/^.+\n.+\n/, ""))) {
+              err.stack += "\n" + stack2;
+            }
+          } catch (e) {
           }
-        } catch (e) {
         }
+        throw err;
       }
-      throw err;
-    }
+    });
   }
   _request(configOrUrl, config) {
     if (typeof configOrUrl === "string") {
@@ -29601,42 +29718,43 @@ let musicApi = axios.create({
   timeout: 2e4
   // withCredentials: true,
 });
-let request = async (params, realTimeSync = true) => {
+let request = (params, realTimeSync = true) => __async(void 0, null, function* () {
+  var _a, _b, _c;
   try {
     const userStore = useUserStore(pinia);
     if (realTimeSync) {
-      params.params = { ...params.params, timestamp: Date.now() };
+      params.params = __spreadProps(__spreadValues({}, params.params), { timestamp: Date.now() });
     }
-    params.params = { ...params.params, realIP: userStore.ip ?? "111.37.150.114" };
+    params.params = __spreadProps(__spreadValues({}, params.params), { realIP: (_a = userStore.ip) != null ? _a : "111.37.150.114" });
     if (localStorage.getItem("cookie") != null && apiurl.slice(0, 4) == "http") {
       if (params.method == "post") {
-        params.data = { ...params.data, cookie: userStore.cookie };
+        params.data = __spreadProps(__spreadValues({}, params.data), { cookie: userStore.cookie });
       } else if (params.method == "get") {
-        params.params = { ...params.params, cookie: userStore.cookie };
+        params.params = __spreadProps(__spreadValues({}, params.params), { cookie: userStore.cookie });
       }
     }
-    let req = await musicApi.request(params);
+    let req = yield musicApi.request(params);
     return req;
   } catch (e) {
     error(
       `${e.name}
 ${e.message}
-${e?.response?.data?.message}`,
+${(_c = (_b = e == null ? void 0 : e.response) == null ? void 0 : _b.data) == null ? void 0 : _c.message}`,
       `API网络请求错误！可尝试使用客户端`
     );
   }
-};
+});
 if (window.isElectron) {
-  request = async (param, _) => {
+  request = (param, _) => __async(void 0, null, function* () {
     let { url, method, params, data } = param;
     if (localStorage.getItem("cookie")) {
-      data = { ...data, cookie: localStorage.getItem("cookie") };
+      data = __spreadProps(__spreadValues({}, data), { cookie: localStorage.getItem("cookie") });
     }
     console.log("%c本地api-发送请求", "color: gray; background-color: lightcyan; padding: 0.5rem; border-radius: 0.5rem", param);
-    let res = await window.api.netease(url, { ...data, ...params });
+    let res = yield window.api.netease(url, __spreadValues(__spreadValues({}, data), params));
     console.log("%c本地api-收到响应", "color: gray; background-color: aliceblue; padding: 0.5rem; border-radius: 0.5rem", param, res);
     return res;
-  };
+  });
 }
 function loginStatus() {
   return request({
@@ -29777,26 +29895,31 @@ function playlistTracks(op, pid, tracks) {
   });
 }
 function like(id, like2 = true) {
+  var _a, _b;
   if (id == void 0 || id == null) {
     throw new Error("[api][like]id不能为空");
   }
   const userStore = useUserStore(pinia);
-  return playlistTracks(like2 ? "add" : "del", userStore.playlists?.[0]?.id, String(id));
+  return playlistTracks(like2 ? "add" : "del", (_b = (_a = userStore.playlists) == null ? void 0 : _a[0]) == null ? void 0 : _b.id, String(id));
 }
-async function likeAndUpdateLikelist(id, isLike = true) {
-  const userStore = useUserStore(pinia);
-  if (isLike) {
-    userStore.likedSongs.push(Number(id));
-  } else {
-    userStore.likedSongs.splice(userStore.likedSongs.indexOf(Number(id)), 1);
-  }
-  await like(id, isLike);
-  userStore.updateLikelist();
+function likeAndUpdateLikelist(id, isLike = true) {
+  return __async(this, null, function* () {
+    const userStore = useUserStore(pinia);
+    if (isLike) {
+      userStore.likedSongs.push(Number(id));
+    } else {
+      userStore.likedSongs.splice(userStore.likedSongs.indexOf(Number(id)), 1);
+    }
+    yield like(id, isLike);
+    userStore.updateLikelist();
+  });
 }
-async function getPersonalizedPlaylist() {
-  return request({
-    url: "/personalized",
-    method: "post"
+function getPersonalizedPlaylist() {
+  return __async(this, null, function* () {
+    return request({
+      url: "/personalized",
+      method: "post"
+    });
   });
 }
 function getColorsFromImg(imgElement, colorNum, needRaw = false) {
@@ -29902,7 +30025,7 @@ function parseArray(array) {
 function mergeMusicObjArrs(arr1, arr2) {
   return arr1.map((item) => {
     let obj = arr2.find((item1) => item1.id == item.id);
-    return obj ? { ...item, ...obj } : item;
+    return obj ? __spreadValues(__spreadValues({}, item), obj) : item;
   });
 }
 function random(min, max) {
@@ -30434,66 +30557,74 @@ const useUserStore = /* @__PURE__ */ defineStore("user", {
     updateTime: 0
   }),
   actions: {
-    async updateLikelist() {
-      let res = await likelist(this.uid);
-      if (res.data.code == 200) {
-        this.likedSongs = res.data.ids;
-        this.storeToStorage();
-        return res.data.ids;
-      } else {
-        throw new Error("获取喜欢列表失败");
-      }
-    },
-    async updateByCookie(cookie) {
-      let match2 = cookie || localStorage.getItem("cookie") || document.cookie;
-      match2 = match2?.match(/MUSIC_U=[^;]+/)?.[0];
-      if (match2) {
-        cookie = match2;
-      } else if (!cookie) {
-        this.logout();
-        console.log(cookie, document.cookie, match2);
-        error("[未登录]更新用户信息时：没有cookie");
-        return;
-      }
-      localStorage.setItem("cookie", cookie);
-      this.cookie = cookie;
-      this.isLogin = true;
-      let res = await loginStatus();
-      if (res.data.data.code == 200) {
-        this.isLogin = !(res.data.data.profile == null);
-        if (this.isLogin) {
-          this.name = res.data.data.profile.nickname;
-          this.avatar = res.data.data.profile.avatarUrl;
-          this.uid = res.data.data.profile.userId;
-          this.province = res.data.data.profile.province;
-          this.city = res.data.data.profile.city;
-          this.ip = res.data.data.profile.lastLoginIP;
+    updateLikelist() {
+      return __async(this, null, function* () {
+        let res = yield likelist(this.uid);
+        if (res.data.code == 200) {
+          this.likedSongs = res.data.ids;
+          this.storeToStorage();
+          return res.data.ids;
+        } else {
+          throw new Error("获取喜欢列表失败");
         }
-      }
-      if (!this.isLogin) {
-        this.logout();
-        error("登录状态过期，请重新登录！");
-        return;
-      }
-      res = await userPlaylist(this.uid);
-      if (res.data.code == 200) {
-        this.playlists = res.data.playlist;
-      }
-      await this.updateLikelist();
-      res = await vipInfo();
-      if (res.data.code == 200) {
-        this.vipIcon = res.data.data.associator.iconUrl;
-        this.vipexpire = res.data.data.associator.expireTime;
-      }
-      this.updateTime = Date.now();
-      this.storeToStorage();
+      });
     },
-    async updateByStorage() {
-      let user = JSON.parse(localStorage.getItem("user") ?? "");
-      this.updateByObj(user);
-      if (this.ip == "") {
-        this.ip = `111.37.150.${random(0, 255)}`;
-      }
+    updateByCookie(cookie) {
+      return __async(this, null, function* () {
+        var _a;
+        let match2 = cookie || localStorage.getItem("cookie") || document.cookie;
+        match2 = (_a = match2 == null ? void 0 : match2.match(/MUSIC_U=[^;]+/)) == null ? void 0 : _a[0];
+        if (match2) {
+          cookie = match2;
+        } else if (!cookie) {
+          this.logout();
+          console.log(cookie, document.cookie, match2);
+          error("[未登录]更新用户信息时：没有cookie");
+          return;
+        }
+        localStorage.setItem("cookie", cookie);
+        this.cookie = cookie;
+        this.isLogin = true;
+        let res = yield loginStatus();
+        if (res.data.data.code == 200) {
+          this.isLogin = !(res.data.data.profile == null);
+          if (this.isLogin) {
+            this.name = res.data.data.profile.nickname;
+            this.avatar = res.data.data.profile.avatarUrl;
+            this.uid = res.data.data.profile.userId;
+            this.province = res.data.data.profile.province;
+            this.city = res.data.data.profile.city;
+            this.ip = res.data.data.profile.lastLoginIP;
+          }
+        }
+        if (!this.isLogin) {
+          this.logout();
+          error("登录状态过期，请重新登录！");
+          return;
+        }
+        res = yield userPlaylist(this.uid);
+        if (res.data.code == 200) {
+          this.playlists = res.data.playlist;
+        }
+        yield this.updateLikelist();
+        res = yield vipInfo();
+        if (res.data.code == 200) {
+          this.vipIcon = res.data.data.associator.iconUrl;
+          this.vipexpire = res.data.data.associator.expireTime;
+        }
+        this.updateTime = Date.now();
+        this.storeToStorage();
+      });
+    },
+    updateByStorage() {
+      return __async(this, null, function* () {
+        var _a;
+        let user = JSON.parse((_a = localStorage.getItem("user")) != null ? _a : "");
+        this.updateByObj(user);
+        if (this.ip == "") {
+          this.ip = `111.37.150.${random(0, 255)}`;
+        }
+      });
     },
     updateByObj(obj) {
       for (let key in obj) {
@@ -30529,10 +30660,10 @@ function parseYrc(yrc) {
     let regres = /\[(\d+),(\d+)\](.*)$/.exec(line);
     if (regres !== null) {
       lrcline = {
-        time: regres?.[1],
+        time: regres == null ? void 0 : regres[1],
         lrc: []
       };
-      let lineText = regres?.[3];
+      let lineText = regres == null ? void 0 : regres[3];
       const regex = /\((\d+),(\d+),\d+\)(.*?)(?=\(|$)/g;
       while ((regres = regex.exec(lineText)) !== null) {
         lrcline.lrc.push({
@@ -30567,7 +30698,7 @@ function parseLrc(lrc) {
   return lyric;
 }
 function parseSecondaryLrc(secondaryLrc, parsedLyric, keyName) {
-  let lyric = parsedLyric.map((item) => ({ ...item }));
+  let lyric = parsedLyric.map((item) => __spreadValues({}, item));
   secondaryLrc.split("\n").forEach((line) => {
     let linetext = lrcToLyric(line);
     if (linetext) {
@@ -30611,14 +30742,15 @@ const useSettingStore = /* @__PURE__ */ defineStore("setting", {
       if (obj && obj.version == 1) {
         let { showLyricWindow, lyricFontSize, musicLevel } = obj;
         this.showLyricWindow = showLyricWindow;
-        this.lyricFontSize = lyricFontSize ?? "1.8rem";
-        this.musicLevel = musicLevel ?? "jymaster";
+        this.lyricFontSize = lyricFontSize != null ? lyricFontSize : "1.8rem";
+        this.musicLevel = musicLevel != null ? musicLevel : "jymaster";
       }
     },
     setLyricWindowShow(show = "auto") {
+      var _a;
       if (window.isElectron) {
         if (show == "auto") {
-          show = this.showLyricWindow ?? false;
+          show = (_a = this.showLyricWindow) != null ? _a : false;
         }
         window.api.setLyricWindowShow(show);
         this.showLyricWindow = show;
@@ -30649,17 +30781,18 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   window.player = player2.value;
   let lyricIndexNow = ref({ lineIndex: -1, wordIndex: -1, wordDuration: 0 });
   let currentMusic = computed(() => {
+    var _a;
     let userStore = useUserStore();
-    return {
+    return __spreadProps(__spreadValues({
       id: 0,
       picurl: "/icon.png",
       name: "暂无歌曲",
-      artist: "",
-      ...playlist.value[playlistIndex.value],
+      artist: ""
+    }, playlist.value[playlistIndex.value]), {
       //以上默认内容会被覆盖
-      isLiked: userStore.likedSongs.includes(playlist.value[playlistIndex.value]?.id),
+      isLiked: userStore.likedSongs.includes((_a = playlist.value[playlistIndex.value]) == null ? void 0 : _a.id),
       currentLyricIndex: lyricIndexNow.value
-    };
+    });
   });
   let musicStatus = ref({ duration: 0, currentTime: 0, paused: true });
   let playlist = ref([]);
@@ -30742,9 +30875,9 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     if (window.isElectron) {
       window.api.sendLyric(JSON.stringify({
         time: 0,
-        lrc: textToParsedYrcLine(value?.name),
-        roma: textToParsedYrcLine(value?.artist),
-        tran: textToParsedYrcLine(value?.artist)
+        lrc: textToParsedYrcLine(value == null ? void 0 : value.name),
+        roma: textToParsedYrcLine(value == null ? void 0 : value.artist),
+        tran: textToParsedYrcLine(value == null ? void 0 : value.artist)
       }));
     }
     if ("mediaSession" in navigator) {
@@ -30758,39 +30891,44 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     updateProgress(true, { position: 0, duration: player2.value.duration });
     save();
   }
-  async function parseLyric() {
-    if (!("lyric" in currentMusic.value)) {
-      let apiResult = await lyricNew(currentMusic.value.id);
-      apiResult = apiResult.data;
-      let lyric = [];
-      if (apiResult.code == 200) {
-        if (apiResult?.yrc?.lyric) {
-          lyric = parseYrc(apiResult.yrc.lyric);
-          if (apiResult?.yromalrc?.lyric) {
-            lyric = parseSecondaryLrc(apiResult.yromalrc.lyric, lyric, "roma");
-          }
-          if (apiResult?.ytlrc?.lyric) {
-            lyric = parseSecondaryLrc(apiResult.ytlrc.lyric, lyric, "tran");
-          }
-        } else if (apiResult?.lrc?.lyric) {
-          lyric = parseLrc(apiResult.lrc.lyric);
-          if (apiResult?.romalrc?.lyric) {
-            lyric = parseSecondaryLrc(apiResult.romalrc.lyric, lyric, "roma");
-          }
-          if (apiResult?.tlyric?.lyric) {
-            lyric = parseSecondaryLrc(apiResult.tlyric.lyric, lyric, "tran");
+  function parseLyric() {
+    return __async(this, null, function* () {
+      var _a, _b, _c, _d, _e, _f;
+      if (!("lyric" in currentMusic.value)) {
+        let apiResult = yield lyricNew(currentMusic.value.id);
+        apiResult = apiResult.data;
+        let lyric = [];
+        if (apiResult.code == 200) {
+          if ((_a = apiResult == null ? void 0 : apiResult.yrc) == null ? void 0 : _a.lyric) {
+            lyric = parseYrc(apiResult.yrc.lyric);
+            if ((_b = apiResult == null ? void 0 : apiResult.yromalrc) == null ? void 0 : _b.lyric) {
+              lyric = parseSecondaryLrc(apiResult.yromalrc.lyric, lyric, "roma");
+            }
+            if ((_c = apiResult == null ? void 0 : apiResult.ytlrc) == null ? void 0 : _c.lyric) {
+              lyric = parseSecondaryLrc(apiResult.ytlrc.lyric, lyric, "tran");
+            }
+          } else if ((_d = apiResult == null ? void 0 : apiResult.lrc) == null ? void 0 : _d.lyric) {
+            lyric = parseLrc(apiResult.lrc.lyric);
+            if ((_e = apiResult == null ? void 0 : apiResult.romalrc) == null ? void 0 : _e.lyric) {
+              lyric = parseSecondaryLrc(apiResult.romalrc.lyric, lyric, "roma");
+            }
+            if ((_f = apiResult == null ? void 0 : apiResult.tlyric) == null ? void 0 : _f.lyric) {
+              lyric = parseSecondaryLrc(apiResult.tlyric.lyric, lyric, "tran");
+            }
           }
         }
+        playlist.value[playlistIndex.value].lyric = lyric;
       }
-      playlist.value[playlistIndex.value].lyric = lyric;
-    }
+    });
   }
-  async function getAudioUrl(id) {
-    let settingStore = useSettingStore();
-    let res = await songUrlV1(id, settingStore.musicLevel, localStorage.getItem("specialApi"), localStorage.getItem("cookie"));
-    let d = res.data.data[0].url;
-    player2.value.src = d;
-    return d;
+  function getAudioUrl(id) {
+    return __async(this, null, function* () {
+      let settingStore = useSettingStore();
+      let res = yield songUrlV1(id, settingStore.musicLevel, localStorage.getItem("specialApi"), localStorage.getItem("cookie"));
+      let d = res.data.data[0].url;
+      player2.value.src = d;
+      return d;
+    });
   }
   function parseDetailToList(data) {
     return data.map((item) => {
@@ -30804,64 +30942,68 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
       };
     });
   }
-  async function playlistInit(ids = null, dataFromApi = null) {
-    stop();
-    playlist.value = [];
-    playlistIndex.value = -1;
-    playOrder.value = [];
-    if (ids == null) {
-      let storageNow = JSON.parse(localStorage.getItem("playlist") || "{}");
-      if (dataFromApi) {
-        playlist.value = parseDetailToList(dataFromApi);
-        listRandom();
-      } else if (ids == null && "version" in storageNow && storageNow.version == 3) {
-        playlistIndex.value = storageNow.current;
-        playlist.value = storageNow.playlist;
-        playOrder.value = storageNow.playOrder;
-        setPlayMode(storageNow.playMode);
+  function playlistInit(ids = null, dataFromApi = null) {
+    return __async(this, null, function* () {
+      stop();
+      playlist.value = [];
+      playlistIndex.value = -1;
+      playOrder.value = [];
+      if (ids == null) {
+        let storageNow = JSON.parse(localStorage.getItem("playlist") || "{}");
+        if (dataFromApi) {
+          playlist.value = parseDetailToList(dataFromApi);
+          listRandom();
+        } else if (ids == null && "version" in storageNow && storageNow.version == 3) {
+          playlistIndex.value = storageNow.current;
+          playlist.value = storageNow.playlist;
+          playOrder.value = storageNow.playOrder;
+          setPlayMode(storageNow.playMode);
+        } else {
+          console.error("播放列表初始化未提供参数");
+        }
       } else {
-        console.error("播放列表初始化未提供参数");
+        yield addMusic(ids, "0", true);
       }
-    } else {
-      await addMusic(ids, "0", true);
-    }
-    if (playlistIndex.value == -1 && playMode.value == 1) {
-      playlistIndex.value = playOrder.value[0];
-    } else if (playlistIndex.value == -1) {
-      playlistIndex.value = 0;
-    }
-    save();
-    musicChanged();
-  }
-  async function addMusic(ids = [], position = "now", letIndexIsNew = false) {
-    if (position == "now") {
-      position = playlistIndex.value + 1;
-    }
-    position = Number(position);
-    if (ids.length == 0) {
-      return;
-    }
-    let list = {};
-    let res;
-    list = ids.map((item) => {
-      return {
-        id: item
-      };
+      if (playlistIndex.value == -1 && playMode.value == 1) {
+        playlistIndex.value = playOrder.value[0];
+      } else if (playlistIndex.value == -1) {
+        playlistIndex.value = 0;
+      }
+      save();
+      musicChanged();
     });
-    res = await songDetail(ids.join(","));
-    res = res.data.songs;
-    res = parseDetailToList(res);
-    list = mergeMusicObjArrs(list, res);
-    playlist.value.splice(position, 0, ...list);
-    if (letIndexIsNew == true) {
-      playlistIndex.value = Math.min(position, playlist.value.length - 1);
-    } else {
-      if (position < playlistIndex.value) {
-        playlistIndex.value += position;
+  }
+  function addMusic() {
+    return __async(this, arguments, function* (ids = [], position = "now", letIndexIsNew = false) {
+      if (position == "now") {
+        position = playlistIndex.value + 1;
       }
-    }
-    listRandom();
-    return playlist.value;
+      position = Number(position);
+      if (ids.length == 0) {
+        return;
+      }
+      let list = {};
+      let res;
+      list = ids.map((item) => {
+        return {
+          id: item
+        };
+      });
+      res = yield songDetail(ids.join(","));
+      res = res.data.songs;
+      res = parseDetailToList(res);
+      list = mergeMusicObjArrs(list, res);
+      playlist.value.splice(position, 0, ...list);
+      if (letIndexIsNew == true) {
+        playlistIndex.value = Math.min(position, playlist.value.length - 1);
+      } else {
+        if (position < playlistIndex.value) {
+          playlistIndex.value += position;
+        }
+      }
+      listRandom();
+      return playlist.value;
+    });
   }
   function listRandom() {
     let listOrder = [];
@@ -30873,7 +31015,7 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   }
   function save() {
     let list = playlist.value.map((item) => {
-      let { url, lyric, ...a } = item;
+      let _a = item, { url, lyric } = _a, a = __objRest(_a, ["url", "lyric"]);
       return a;
     });
     let storage = { version: 3, playlist: list, current: playlistIndex.value, playOrder: playOrder.value, playMode: playMode.value };
@@ -30888,21 +31030,25 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     player2.value.pause();
     updateProgress(true);
   }
-  async function play(isNew = false) {
-    if (player2.value.readyState == 0) {
-      isNew = true;
-    }
-    if (isNew) {
-      player2.value.currentTime = 0;
-      musicChanged();
-      await getAudioUrl(currentMusic.value.id);
-    }
-    player2.value.play();
-    updateProgress(true);
+  function play(isNew = false) {
+    return __async(this, null, function* () {
+      if (player2.value.readyState == 0) {
+        isNew = true;
+      }
+      if (isNew) {
+        player2.value.currentTime = 0;
+        musicChanged();
+        yield getAudioUrl(currentMusic.value.id);
+      }
+      player2.value.play();
+      updateProgress(true);
+    });
   }
-  async function playWithPlaylistIndex(index) {
-    playlistIndex.value = index;
-    await play(true);
+  function playWithPlaylistIndex(index) {
+    return __async(this, null, function* () {
+      playlistIndex.value = index;
+      yield play(true);
+    });
   }
   function next() {
     pause();
@@ -30964,8 +31110,9 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     updateProgress(true, { position: time2, duration: player2.value.duration });
   }
   function setPlayMode(mode = null) {
+    var _a;
     if (mode == null) {
-      mode = playMode.value ?? 0;
+      mode = (_a = playMode.value) != null ? _a : 0;
     }
     playMode.value = mode;
     save();
@@ -31002,11 +31149,12 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     }
   }
   function updateKtvLyric() {
+    var _a, _b;
     try {
       if (lyricIndexNow.value.lineIndex >= 0 || !musicStatus.value.paused || "lyric" in currentMusic.value) {
         let currentTime = player2.value.currentTime * 1e3 + 80;
         let lyric = currentMusic.value.lyric;
-        let line = lyric?.[lyricIndexNow.value.lineIndex]?.lrc ?? [];
+        let line = (_b = (_a = lyric == null ? void 0 : lyric[lyricIndexNow.value.lineIndex]) == null ? void 0 : _a.lrc) != null ? _b : [];
         let wordIndex = line.findIndex((_, index) => {
           if (index + 1 < line.length) {
             return line[index + 1].time > currentTime && line[index].time <= currentTime;
@@ -31646,7 +31794,8 @@ const useThemeStore = /* @__PURE__ */ defineStore("theme", {
   }),
   actions: {
     initByLocalStorage() {
-      let { version, mainColors, mainColor } = JSON.parse(localStorage.getItem("theme") ?? '{"version":0}');
+      var _a;
+      let { version, mainColors, mainColor } = JSON.parse((_a = localStorage.getItem("theme")) != null ? _a : '{"version":0}');
       if (version == 2 && mainColors) {
         this.mainColors = mainColors;
         this.mainColor = mainColor;
@@ -33300,7 +33449,8 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
       updateActiveItem(route.name, route.query);
     });
     function updateActiveItem(key, query) {
-      if (key == "playlist" && query.id == userStore.playlists?.[0]?.id) {
+      var _a, _b;
+      if (key == "playlist" && query.id == ((_b = (_a = userStore.playlists) == null ? void 0 : _a[0]) == null ? void 0 : _b.id)) {
         activeNow.value = "likedList";
       } else {
         activeNow.value = key;
@@ -33308,6 +33458,7 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
     }
     let menuData = computed(
       () => {
+        var _a, _b;
         return [
           {
             label: renderLink("home", "首页"),
@@ -33328,7 +33479,7 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
           },
           {
             show: userStore.isLogin,
-            label: renderLink("playlist", "我喜欢的音乐", { id: userStore.playlists?.[0]?.id }),
+            label: renderLink("playlist", "我喜欢的音乐", { id: (_b = (_a = userStore.playlists) == null ? void 0 : _a[0]) == null ? void 0 : _b.id }),
             key: "likedList",
             icon: renderIcon(HugeiconsHeartCheck)
           },
@@ -33685,7 +33836,8 @@ const _sfc_main$4 = {
       scrollToCurrent();
     });
     function scrollToCurrent(smooth = true) {
-      playinglistScrollbarRef.value.scrollTo({ top: playinglistItemRef.value?.[playStore.playlistIndex]?.offsetTop - 80, behavior: smooth ? "smooth" : "auto" });
+      var _a, _b;
+      playinglistScrollbarRef.value.scrollTo({ top: ((_b = (_a = playinglistItemRef.value) == null ? void 0 : _a[playStore.playlistIndex]) == null ? void 0 : _b.offsetTop) - 80, behavior: smooth ? "smooth" : "auto" });
     }
     return (_ctx, _cache) => {
       const _component_n_tag = __unplugin_components_0$4;
@@ -33818,8 +33970,9 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     let displayList = ref(false);
     let displayLyricWhenScreenIsNotWide = ref(false);
     function scrollToCurrentLyric(noSmooth = false) {
+      var _a, _b;
       let index = currentMusic.value.currentLyricIndex.lineIndex;
-      lyricScrollbarRef.value?.scrollTo({ top: document.getElementById("lrc-" + index)?.offsetTop - 200, behavior: noSmooth ? "auto" : "smooth" });
+      (_b = lyricScrollbarRef.value) == null ? void 0 : _b.scrollTo({ top: ((_a = document.getElementById("lrc-" + index)) == null ? void 0 : _a.offsetTop) - 200, behavior: noSmooth ? "auto" : "smooth" });
     }
     function showList(isShow) {
       if (isShow == true) {
@@ -33862,6 +34015,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
       background.value = `linear-gradient(${color[0]}, ${color[1]})`;
     }
     return (_ctx, _cache) => {
+      var _a, _b, _c;
       const _component_i_hugeicons_arrow_up_01 = __unplugin_components_0$1;
       const _component_n_icon = NIcon;
       const _component_i_ant_design_heart_outlined = __unplugin_components_2;
@@ -33897,10 +34051,10 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
                 createBaseVNode("div", null, [
                   createBaseVNode("div", _hoisted_7$1, [
                     createVNode(MarqueePlus, {
-                      html: unref(playStore).nameWithTns ?? `暂未播放~~`
+                      html: (_a = unref(playStore).nameWithTns) != null ? _a : `暂未播放~~`
                     }, null, 8, ["html"])
                   ]),
-                  createBaseVNode("div", _hoisted_8$1, toDisplayString(unref(currentMusic).artist ?? ``), 1)
+                  createBaseVNode("div", _hoisted_8$1, toDisplayString((_b = unref(currentMusic).artist) != null ? _b : ``), 1)
                 ]),
                 createBaseVNode("div", _hoisted_9$1, [
                   createBaseVNode("div", {
@@ -33909,7 +34063,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
                   }, [
                     createBaseVNode("img", {
                       alt: "专辑图片-" + unref(currentMusic).name,
-                      src: unref(currentMusic).picurl ?? "/icon.png",
+                      src: (_c = unref(currentMusic).picurl) != null ? _c : "/icon.png",
                       class: "music-img",
                       onLoad: getImgMainColor,
                       crossorigin: "anonymous"
@@ -33922,16 +34076,19 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
                           size: "2.5rem",
                           class: "icon"
                         }, {
-                          default: withCtx(() => [
-                            !unref(currentMusic)?.isLiked ? (openBlock(), createBlock(_component_i_ant_design_heart_outlined, {
-                              key: 0,
-                              onClick: _cache[1] || (_cache[1] = ($event) => likeAndUpdateLikelist(unref(currentMusic).id, true))
-                            })) : createCommentVNode("", true),
-                            unref(currentMusic)?.isLiked ? (openBlock(), createBlock(_component_i_ant_design_heart_filled, {
-                              key: 1,
-                              onClick: _cache[2] || (_cache[2] = ($event) => likeAndUpdateLikelist(unref(currentMusic).id, false))
-                            })) : createCommentVNode("", true)
-                          ]),
+                          default: withCtx(() => {
+                            var _a2, _b2;
+                            return [
+                              !((_a2 = unref(currentMusic)) == null ? void 0 : _a2.isLiked) ? (openBlock(), createBlock(_component_i_ant_design_heart_outlined, {
+                                key: 0,
+                                onClick: _cache[1] || (_cache[1] = ($event) => likeAndUpdateLikelist(unref(currentMusic).id, true))
+                              })) : createCommentVNode("", true),
+                              ((_b2 = unref(currentMusic)) == null ? void 0 : _b2.isLiked) ? (openBlock(), createBlock(_component_i_ant_design_heart_filled, {
+                                key: 1,
+                                onClick: _cache[2] || (_cache[2] = ($event) => likeAndUpdateLikelist(unref(currentMusic).id, false))
+                              })) : createCommentVNode("", true)
+                            ];
+                          }),
                           _: 1
                         })
                       ]),
@@ -34148,11 +34305,12 @@ const _sfc_main$2 = {
     let showPlayer = false;
     let showPlayerVIf = ref(false);
     let lyricNow = computed(() => {
-      if (!Array.isArray(playStore.currentMusic.lyric) || playStore.currentMusic?.lyric.length < playStore.currentMusic.currentLyricIndex.lineIndex) {
+      var _a, _b, _c, _d, _e, _f;
+      if (!Array.isArray(playStore.currentMusic.lyric) || ((_a = playStore.currentMusic) == null ? void 0 : _a.lyric.length) < playStore.currentMusic.currentLyricIndex.lineIndex) {
         return void 0;
       }
-      let line = playStore.currentMusic?.lyric[playStore.currentMusic.currentLyricIndex.lineIndex]?.lrc;
-      let currentWordIndex = playStore.currentMusic?.currentLyricIndex;
+      let line = (_c = (_b = playStore.currentMusic) == null ? void 0 : _b.lyric[playStore.currentMusic.currentLyricIndex.lineIndex]) == null ? void 0 : _c.lrc;
+      let currentWordIndex = (_d = playStore.currentMusic) == null ? void 0 : _d.currentLyricIndex;
       let paused = playStore.musicStatus.paused;
       let res = {
         line,
@@ -34160,7 +34318,7 @@ const _sfc_main$2 = {
         paused
       };
       if (window.isElectron && currentWordIndex.lineIndex >= 0) {
-        let tran = playStore.currentMusic?.lyric[playStore.currentMusic.currentLyricIndex.lineIndex]?.tran;
+        let tran = (_f = (_e = playStore.currentMusic) == null ? void 0 : _e.lyric[playStore.currentMusic.currentLyricIndex.lineIndex]) == null ? void 0 : _f.tran;
         tran = textToParsedYrcLine(tran);
         window.api.sendLyric(JSON.stringify({ lrc: res, tran }));
       }
@@ -34207,6 +34365,7 @@ const _sfc_main$2 = {
       });
     }
     return (_ctx, _cache) => {
+      var _a, _b, _c;
       const _component_i_ant_design_heart_outlined = __unplugin_components_2;
       const _component_i_ant_design_heart_filled = __unplugin_components_3;
       const _component_n_icon = NIcon;
@@ -34233,19 +34392,19 @@ const _sfc_main$2 = {
               createBaseVNode("div", _hoisted_3$1, [
                 createBaseVNode("img", {
                   class: "ctrl-img",
-                  src: unref(playStore).currentMusic.picurl ?? "/icon.png"
+                  src: (_a = unref(playStore).currentMusic.picurl) != null ? _a : "/icon.png"
                 }, null, 8, _hoisted_4$1)
               ]),
               createBaseVNode("div", _hoisted_5$1, [
                 createBaseVNode("div", _hoisted_6, [
                   createVNode(MarqueePlus, {
-                    html: unref(playStore).nameWithTns ?? "奶酪音乐",
+                    html: (_b = unref(playStore).nameWithTns) != null ? _b : "奶酪音乐",
                     speed: 40
                   }, null, 8, ["html"])
                 ]),
                 createBaseVNode("div", _hoisted_7, [
                   createVNode(MarqueePlus, {
-                    html: unref(playStore).currentMusic.artist ?? "",
+                    html: (_c = unref(playStore).currentMusic.artist) != null ? _c : "",
                     speed: 40
                   }, null, 8, ["html"])
                 ]),
@@ -34265,15 +34424,18 @@ const _sfc_main$2 = {
                     size: "1.5rem",
                     class: "icon"
                   }, {
-                    default: withCtx(() => [
-                      !unref(playStore).currentMusic?.isLiked ? (openBlock(), createBlock(_component_i_ant_design_heart_outlined, {
-                        key: 0,
-                        onClick: _cache[0] || (_cache[0] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, true))
-                      })) : (openBlock(), createBlock(_component_i_ant_design_heart_filled, {
-                        key: 1,
-                        onClick: _cache[1] || (_cache[1] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, false))
-                      }))
-                    ]),
+                    default: withCtx(() => {
+                      var _a2;
+                      return [
+                        !((_a2 = unref(playStore).currentMusic) == null ? void 0 : _a2.isLiked) ? (openBlock(), createBlock(_component_i_ant_design_heart_outlined, {
+                          key: 0,
+                          onClick: _cache[0] || (_cache[0] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, true))
+                        })) : (openBlock(), createBlock(_component_i_ant_design_heart_filled, {
+                          key: 1,
+                          onClick: _cache[1] || (_cache[1] = ($event) => likeAndUpdateLikelist(unref(playStore).currentMusic.id, false))
+                        }))
+                      ];
+                    }),
                     _: 1
                   })
                 ]),
@@ -34515,30 +34677,31 @@ const _sfc_main = {
       userDown: []
     });
     userStore.updateByStorage();
-    onMounted(async () => {
+    onMounted(() => __async(this, null, function* () {
+      var _a;
       if (userStore.isLogin === true && Date.now() - userStore.updateTime >= 1e3 * 60 * 2) {
         userStore.updateByCookie();
       }
-      setInterval(async () => {
+      setInterval(() => __async(this, null, function* () {
         if (userStore.isLogin === true) {
           userStore.updateByCookie();
         }
-      }, 1e3 * 60 * 3);
+      }), 1e3 * 60 * 3);
       if (localStorage.getItem("playlist") != null) {
         playStore.playlistInit();
       }
       themeStore.initByLocalStorage();
       if (window.isElectron) {
         try {
-          let res = await axios.get("https://api.xwzkj.top/api/update?platform=windows");
+          let res = yield axios.get("https://api.xwzkj.top/api/update?platform=windows");
           if (res.data.code === 200 && res.data.data.apiVersion == "1") {
             res = res.data.data;
             console.log(`%c检查更新 当前：${window.api.appVersion} 服务器：${res.version}`, " background-color: lightcyan; padding: 0.5rem; border-radius: 0.5rem");
             if (res.version > window.api.appVersion) {
               updateData.value = {
-                newVersion: res?.version,
-                description: res?.description ?? "检测到新版本",
-                userDown: res?.userDown.map((item) => {
+                newVersion: res == null ? void 0 : res.version,
+                description: (_a = res == null ? void 0 : res.description) != null ? _a : "检测到新版本",
+                userDown: res == null ? void 0 : res.userDown.map((item) => {
                   return { label: item.name, key: item.url };
                 })
               };
@@ -34549,7 +34712,7 @@ const _sfc_main = {
           error(JSON.stringify(err), "检查更新失败");
         }
       }
-    });
+    }));
     function openUrl(url) {
       window.api.openUrl(url);
     }

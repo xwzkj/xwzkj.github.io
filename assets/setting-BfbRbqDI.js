@@ -1,5 +1,25 @@
-import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode, aU as toDisplayString } from "./font-JWUAjikw.js";
-import { W as useStyle, X as inputLight, Y as buttonLight, Z as on, $ as off, _ as __unplugin_components_0$1, a0 as fadeInScaleUpTransition, a1 as useAdjustedTo, a2 as useFormItem, a3 as useLocale, e as useMergedState, a4 as isMounted, a5 as getPreciseEventTarget, a6 as Binder, a7 as VTarget, a8 as VFollower, a9 as clickoutside, k as call, C as Button, Q as __unplugin_components_5, aa as useSettingStore, u as useUserStore, q as useThemeStore, w as success, y as error, ab as __unplugin_components_4, ac as __unplugin_components_5$1 } from "./index-DvJelJR2.js";
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode, aU as toDisplayString } from "./font-DNEr4BFN.js";
+import { W as useStyle, X as inputLight, Y as buttonLight, Z as on, $ as off, _ as __unplugin_components_0$1, a0 as fadeInScaleUpTransition, a1 as useAdjustedTo, a2 as useFormItem, a3 as useLocale, e as useMergedState, a4 as isMounted, a5 as getPreciseEventTarget, a6 as Binder, a7 as VTarget, a8 as VFollower, a9 as clickoutside, k as call, C as Button, Q as __unplugin_components_5, aa as useSettingStore, u as useUserStore, q as useThemeStore, w as success, y as error, ab as __unplugin_components_4, ac as __unplugin_components_5$1 } from "./index-lSGtwPat.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1956,12 +1976,13 @@ const _sfc_main$1 = {
   }
 };
 const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-443755e3"]]);
-const buildInfo = { version: "1.1.3", buildNumber: "8547bb0" };
+const buildInfo = { version: "1.1.3", buildNumber: "28ff779" };
 const _hoisted_1 = { class: "setting" };
 const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {
   __name: "setting",
   setup(__props) {
+    var _a;
     let settingStore = useSettingStore();
     let userStore = useUserStore();
     let themeStore = useThemeStore();
@@ -1969,7 +1990,7 @@ const _sfc_main = {
       return parseFloat(settingStore.lyricFontSize);
     });
     let primaryColor = ref("");
-    let defaultSpecialApi = ref(localStorage.getItem("specialApi") ?? "");
+    let defaultSpecialApi = ref((_a = localStorage.getItem("specialApi")) != null ? _a : "");
     let levelData = [
       { key: "standard", label: "标准" },
       { key: "higher", label: "较高" },
@@ -2002,20 +2023,22 @@ const _sfc_main = {
       success("开始更新，成功后会有提示");
       userStore.updateByCookie();
     }
-    async function copyCk() {
-      let ck = userStore.cookie;
-      let flag = false;
-      if (navigator.clipboard) {
-        try {
-          await navigator.clipboard.writeText(ck);
-          flag = true;
-          success("复制成功");
-        } catch {
+    function copyCk() {
+      return __async(this, null, function* () {
+        let ck = userStore.cookie;
+        let flag = false;
+        if (navigator.clipboard) {
+          try {
+            yield navigator.clipboard.writeText(ck);
+            flag = true;
+            success("复制成功");
+          } catch (e) {
+          }
         }
-      }
-      if (!flag) {
-        error(ck, "复制失败 请手动复制");
-      }
+        if (!flag) {
+          error(ck, "复制失败 请手动复制");
+        }
+      });
     }
     return (_ctx, _cache) => {
       const _component_n_color_picker = __unplugin_components_0;

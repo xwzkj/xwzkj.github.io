@@ -1,7 +1,27 @@
-import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-DvJelJR2.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DAU6szLk.js";
-import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-JWUAjikw.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-Kknol0Pm.js";
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-lSGtwPat.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-fcIhGpLg.js";
+import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-DNEr4BFN.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-CPJlsKUD.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
@@ -41,36 +61,42 @@ const _sfc_main = {
     onMounted(() => {
       parsePlayList();
     });
-    async function parsePlayList() {
-      if (props.isDailySongs) {
-        let res = await recommendSongs();
-        let d = /* @__PURE__ */ new Date();
-        result.value = {
-          tracks: res.data.data.dailySongs,
-          name: `${d.getMonth() + 1}/${d.getDate()} 每日推荐`,
-          description: `根据你的音乐口味生成，每天06:00更新`,
-          coverImgUrl: res.data.data.dailySongs[0].al.picUrl,
-          tags: ["每日推荐"]
-        };
-      } else {
-        let res = await playlistDetail(props.id);
-        result.value = res.data.playlist;
-      }
-      if (props.autoPlay) {
-        playAll();
-      }
+    function parsePlayList() {
+      return __async(this, null, function* () {
+        if (props.isDailySongs) {
+          let res = yield recommendSongs();
+          let d = /* @__PURE__ */ new Date();
+          result.value = {
+            tracks: res.data.data.dailySongs,
+            name: `${d.getMonth() + 1}/${d.getDate()} 每日推荐`,
+            description: `根据你的音乐口味生成，每天06:00更新`,
+            coverImgUrl: res.data.data.dailySongs[0].al.picUrl,
+            tags: ["每日推荐"]
+          };
+        } else {
+          let res = yield playlistDetail(props.id);
+          result.value = res.data.playlist;
+        }
+        if (props.autoPlay) {
+          playAll();
+        }
+      });
     }
-    async function playAll() {
-      loading.value = true;
-      await playStore.playlistInit(null, result.value.tracks);
-      playStore.play(true);
-      loading.value = false;
+    function playAll() {
+      return __async(this, null, function* () {
+        loading.value = true;
+        yield playStore.playlistInit(null, result.value.tracks);
+        playStore.play(true);
+        loading.value = false;
+      });
     }
-    async function play(id) {
-      loading.value = true;
-      await playStore.addMusic([id], "now", true);
-      playStore.play(true);
-      loading.value = false;
+    function play(id) {
+      return __async(this, null, function* () {
+        loading.value = true;
+        yield playStore.addMusic([id], "now", true);
+        playStore.play(true);
+        loading.value = false;
+      });
     }
     return (_ctx, _cache) => {
       const _component_n_tag = __unplugin_components_0;

@@ -1,6 +1,6 @@
-import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aS as useCssVars, b as ref, u as unref, aN as createVNode, aP as withCtx, v as createTextVNode, aU as toDisplayString, b1 as normalizeStyle, aH as NIcon, d as defineComponent, aR as createCommentVNode, F as Fragment, aT as renderList } from "./font-JWUAjikw.js";
-import { q as useThemeStore, x as useRouter, E as getColorFromImg, F as mixColor } from "./index-DvJelJR2.js";
-import { _ as __unplugin_components_1$1 } from "./Ellipsis-Kknol0Pm.js";
+import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aS as useCssVars, b as ref, u as unref, aN as createVNode, aP as withCtx, v as createTextVNode, aU as toDisplayString, b1 as normalizeStyle, aH as NIcon, d as defineComponent, aR as createCommentVNode, F as Fragment, aT as renderList } from "./font-DNEr4BFN.js";
+import { q as useThemeStore, x as useRouter, E as getColorFromImg, F as mixColor } from "./index-lSGtwPat.js";
+import { _ as __unplugin_components_1$1 } from "./Ellipsis-CPJlsKUD.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -28,12 +28,13 @@ const _sfc_main$1 = {
   __name: "itemCard",
   props: ["imgurl", "text", "click", "isDailySongs"],
   setup(__props) {
+    var _a;
     useCssVars((_ctx) => ({
       "207feb39": unref(itemColor)
     }));
     let themeStore = useThemeStore();
     let props = __props;
-    let itemColor = ref(themeStore.mainColors?.[1]);
+    let itemColor = ref((_a = themeStore.mainColors) == null ? void 0 : _a[1]);
     let itemCardImg = ref(null);
     let date = (/* @__PURE__ */ new Date()).getDate();
     function getImgMainColor() {
@@ -42,6 +43,7 @@ const _sfc_main$1 = {
     }
     const router = useRouter();
     return (_ctx, _cache) => {
+      var _a2;
       const _component_n_ellipsis = __unplugin_components_1$1;
       const _component_i_ic_twotone_calendar_today = __unplugin_components_1;
       const _component_n_icon = NIcon;
@@ -70,7 +72,7 @@ const _sfc_main$1 = {
         key: 1,
         class: "item-card-outer",
         onClick: _cache[1] || (_cache[1] = ($event) => unref(router).push({ name: "playlist", query: { isDailySongs: true } })),
-        style: normalizeStyle({ backgroundColor: unref(themeStore).mainColors?.[1] })
+        style: normalizeStyle({ backgroundColor: (_a2 = unref(themeStore).mainColors) == null ? void 0 : _a2[1] })
       }, [
         createBaseVNode("div", _hoisted_3$1, [
           createVNode(_component_n_icon, {
@@ -112,9 +114,10 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
             createVNode(itemCard, { isDailySongs: true })
           ])) : createCommentVNode("", true),
           (openBlock(true), createElementBlock(Fragment, null, renderList(_ctx.data, (item) => {
+            var _a;
             return openBlock(), createElementBlock("li", _hoisted_3, [
               createVNode(itemCard, {
-                imgurl: item?.coverImgUrl ?? item?.picUrl,
+                imgurl: (_a = item == null ? void 0 : item.coverImgUrl) != null ? _a : item == null ? void 0 : item.picUrl,
                 text: item.name,
                 onClick: ($event) => unref(router).push({ name: "playlist", query: { id: item.id } })
               }, null, 8, ["imgurl", "text", "onClick"])

@@ -1,5 +1,25 @@
-import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, ao as useTheme, d as defineComponent, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, E as onBeforeUnmount, u as unref, aQ as createBlock, aR as createCommentVNode, v as createTextVNode, aU as toDisplayString, aN as createVNode, aP as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-JWUAjikw.js";
-import { q as useThemeStore, u as useUserStore, s as loginQrKey, t as loginQrCreate, v as loginQrCheck, w as success, x as useRouter, y as error, z as verifyCaptcha, A as loginWithPhone, B as sendCaptcha, _ as __unplugin_components_0$1, C as Button } from "./index-DvJelJR2.js";
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, ao as useTheme, d as defineComponent, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, E as onBeforeUnmount, u as unref, aQ as createBlock, aR as createCommentVNode, v as createTextVNode, aU as toDisplayString, aN as createVNode, aP as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-DNEr4BFN.js";
+import { q as useThemeStore, u as useUserStore, s as loginQrKey, t as loginQrCreate, v as loginQrCheck, w as success, x as useRouter, y as error, z as verifyCaptcha, A as loginWithPhone, B as sendCaptcha, _ as __unplugin_components_0$1, C as Button } from "./index-lSGtwPat.js";
 function self$1(vars) {
   const {
     textColor1,
@@ -1233,76 +1253,84 @@ const _sfc_main = {
     onBeforeUnmount(() => {
       clearInterval(check);
     });
-    async function createQRcode() {
-      let key2 = await loginQrKey();
-      key2 = key2.data.data.unikey;
-      let qr = await loginQrCreate(key2);
-      qrStatus.value = "等待扫码";
-      qrcode.value = qr.data.data.qrurl;
-      check = setInterval(() => {
-        loginQrCheck(key2).then((res) => {
-          if (res.data.code == 800) {
-            clearInterval(check);
-            qrStatus.value = "二维码已失效";
-            createQRcode();
-          }
-          if (res.data.code == 801) {
-            qrStatus.value = "等待扫码";
-          }
-          if (res.data.code == 802) {
-            qrStatus.value = "正在授权";
-          }
-          if (res.data.code == 803) {
-            qrStatus.value = "授权成功";
-            clearInterval(check);
-            afterLogin(res.data.cookie);
-          }
-        });
-      }, 3e3);
+    function createQRcode() {
+      return __async(this, null, function* () {
+        let key2 = yield loginQrKey();
+        key2 = key2.data.data.unikey;
+        let qr = yield loginQrCreate(key2);
+        qrStatus.value = "等待扫码";
+        qrcode.value = qr.data.data.qrurl;
+        check = setInterval(() => {
+          loginQrCheck(key2).then((res) => {
+            if (res.data.code == 800) {
+              clearInterval(check);
+              qrStatus.value = "二维码已失效";
+              createQRcode();
+            }
+            if (res.data.code == 801) {
+              qrStatus.value = "等待扫码";
+            }
+            if (res.data.code == 802) {
+              qrStatus.value = "正在授权";
+            }
+            if (res.data.code == 803) {
+              qrStatus.value = "授权成功";
+              clearInterval(check);
+              afterLogin(res.data.cookie);
+            }
+          });
+        }, 3e3);
+      });
     }
-    async function login2() {
-      if (name.value.length != 11) {
-        error("请输入十一位国内号码");
-        return;
-      }
-      if (key.value == "") {
-        return;
-      }
-      let res;
-      if (currentMethod.value == "sms") {
-        res = await verifyCaptcha(name.value, key.value);
-        if (res.data.code != 200) {
-          error(JSON.stringify(res.data));
+    function login2() {
+      return __async(this, null, function* () {
+        if (name.value.length != 11) {
+          error("请输入十一位国内号码");
           return;
         }
-        res = await loginWithPhone(name.value, null, key.value);
-      }
-      if (currentMethod.value == "passwd") {
-        res = await loginWithPhone(name.value, key.value);
-      }
-      if (res.data.code == 200) {
-        afterLogin(res.data.cookie);
-      } else {
-        error(JSON.stringify(res.data));
-      }
+        if (key.value == "") {
+          return;
+        }
+        let res;
+        if (currentMethod.value == "sms") {
+          res = yield verifyCaptcha(name.value, key.value);
+          if (res.data.code != 200) {
+            error(JSON.stringify(res.data));
+            return;
+          }
+          res = yield loginWithPhone(name.value, null, key.value);
+        }
+        if (currentMethod.value == "passwd") {
+          res = yield loginWithPhone(name.value, key.value);
+        }
+        if (res.data.code == 200) {
+          afterLogin(res.data.cookie);
+        } else {
+          error(JSON.stringify(res.data));
+        }
+      });
     }
-    async function sendCaptcha$1() {
-      if (name.value.length != 11) {
-        error("请输入十一位国内号码");
-        return;
-      }
-      let res;
-      res = await sendCaptcha(name.value);
-      if (res.data.code == 200) {
-        success(res.data.message);
-      } else {
-        error(JSON.stringify(res.data));
-      }
+    function sendCaptcha$1() {
+      return __async(this, null, function* () {
+        if (name.value.length != 11) {
+          error("请输入十一位国内号码");
+          return;
+        }
+        let res;
+        res = yield sendCaptcha(name.value);
+        if (res.data.code == 200) {
+          success(res.data.message);
+        } else {
+          error(JSON.stringify(res.data));
+        }
+      });
     }
-    async function afterLogin(cookie) {
-      success("登陆成功~");
-      userStore.updateByCookie(cookie);
-      router.push({ "name": "account" });
+    function afterLogin(cookie) {
+      return __async(this, null, function* () {
+        success("登陆成功~");
+        userStore.updateByCookie(cookie);
+        router.push({ "name": "account" });
+      });
     }
     return (_ctx, _cache) => {
       const _component_i_hugeicons_smart_phone_01 = __unplugin_components_0;

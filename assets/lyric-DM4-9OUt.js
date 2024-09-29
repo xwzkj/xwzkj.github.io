@@ -1,4 +1,24 @@
-import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, d as defineComponent, b as ref, D as onMounted, aN as createVNode, aP as withCtx, u as unref, aV as MarqueePlus, aS as useCssVars, aH as NIcon, b0 as createApp } from "./font-JWUAjikw.js";
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+import { m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, d as defineComponent, b as ref, D as onMounted, aN as createVNode, aP as withCtx, u as unref, aV as MarqueePlus, aS as useCssVars, aH as NIcon, b0 as createApp } from "./font-DNEr4BFN.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -63,62 +83,69 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     let displayCtrl = ref(false);
     let mainColors = ref(["#fffdf0", "#fffbe3", "#fff4ba", "#f7e28d", "#ebca60", "#deb237", "#b88c25", "#916816", "#6b480b", "#452c06"]);
     let lyric = ref({});
-    window?.getLyric(changeLyric);
-    window?.getThemeColors(changeTheme);
+    window == null ? void 0 : window.getLyric(changeLyric);
+    window == null ? void 0 : window.getThemeColors(changeTheme);
     function changeLyric(event, lrc) {
+      var _a, _b, _c, _d, _e, _f, _g;
       let received = JSON.parse(lrc);
-      if (lyric.value?.lrc?.currentWordIndex?.lineIndex !== received?.lrc?.currentWordIndex?.lineIndex) {
+      if (((_c = (_b = (_a = lyric.value) == null ? void 0 : _a.lrc) == null ? void 0 : _b.currentWordIndex) == null ? void 0 : _c.lineIndex) !== ((_e = (_d = received == null ? void 0 : received.lrc) == null ? void 0 : _d.currentWordIndex) == null ? void 0 : _e.lineIndex)) {
         lyric.value = received;
       } else {
         if (lyric.value.hasOwnProperty("lrc")) {
-          lyric.value.lrc.currentWordIndex = received?.lrc?.currentWordIndex;
-          lyric.value.lrc.paused = received?.lrc?.paused;
+          lyric.value.lrc.currentWordIndex = (_f = received == null ? void 0 : received.lrc) == null ? void 0 : _f.currentWordIndex;
+          lyric.value.lrc.paused = (_g = received == null ? void 0 : received.lrc) == null ? void 0 : _g.paused;
         }
       }
       console.log(lrc, lyric.value);
       updateIsLocked();
     }
     function changeTheme(event, theme) {
-      mainColors.value = JSON.parse(theme)?.mainColors;
+      var _a;
+      mainColors.value = (_a = JSON.parse(theme)) == null ? void 0 : _a.mainColors;
     }
-    async function switchLock() {
-      window.lyricWindowLock(!isLocked.value);
-      needLockWhenMouseLeave = false;
-      isLocked.value = await updateIsLocked();
+    function switchLock() {
+      return __async(this, null, function* () {
+        window.lyricWindowLock(!isLocked.value);
+        needLockWhenMouseLeave = false;
+        isLocked.value = yield updateIsLocked();
+      });
     }
-    async function updateIsLocked() {
-      isLocked.value = await window.isLyricWindowLocked();
-      return isLocked.value;
+    function updateIsLocked() {
+      return __async(this, null, function* () {
+        isLocked.value = yield window.isLyricWindowLocked();
+        return isLocked.value;
+      });
     }
     onMounted(() => {
       updateIsLocked();
       let outer = document.querySelector(".outer");
       let lockEle = document.querySelector(".lock");
-      lockEle.addEventListener("mouseenter", async () => {
-        if (await updateIsLocked()) {
+      lockEle.addEventListener("mouseenter", () => __async(this, null, function* () {
+        if (yield updateIsLocked()) {
           window.lyricWindowLock(false);
           needLockWhenMouseLeave = true;
         }
-      });
-      lockEle.addEventListener("mouseleave", async () => {
+      }));
+      lockEle.addEventListener("mouseleave", () => __async(this, null, function* () {
         if (needLockWhenMouseLeave) {
           window.lyricWindowLock(true);
           updateIsLocked();
         }
-      });
+      }));
       let flag;
-      outer.addEventListener("mouseenter", async () => {
+      outer.addEventListener("mouseenter", () => __async(this, null, function* () {
         clearTimeout(flag);
         displayCtrl.value = true;
-      });
-      outer.addEventListener("mouseleave", async () => {
+      }));
+      outer.addEventListener("mouseleave", () => __async(this, null, function* () {
         clearTimeout(flag);
         flag = setTimeout(() => {
           displayCtrl.value = false;
         }, 1e3);
-      });
+      }));
     });
     return (_ctx, _cache) => {
+      var _a, _b;
       const _component_i_hugeicons_drag_drop = __unplugin_components_0;
       const _component_n_icon = NIcon;
       const _component_i_hugeicons_square_lock_02 = __unplugin_components_2;
@@ -149,14 +176,14 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
           ]),
           createBaseVNode("div", _hoisted_4, [
             createVNode(MarqueePlus, {
-              "line-data": unref(lyric)?.lrc,
+              "line-data": (_a = unref(lyric)) == null ? void 0 : _a.lrc,
               speed: 160,
               lyricMode: true
             }, null, 8, ["line-data"])
           ]),
           createBaseVNode("div", _hoisted_5, [
             createVNode(MarqueePlus, {
-              "line-data": unref(lyric)?.tran,
+              "line-data": (_b = unref(lyric)) == null ? void 0 : _b.tran,
               speed: 140,
               lyricMode: true
             }, null, 8, ["line-data"])
