@@ -1,7 +1,7 @@
-import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-prVFG7w9.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-N66x7wwj.js";
+import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-DvJelJR2.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DAU6szLk.js";
 import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-JWUAjikw.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-MUKSsQID.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-Kknol0Pm.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
@@ -143,7 +143,7 @@ const _sfc_main = {
     };
   }
 };
-const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-3bd12170"]]);
+const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-4d597a15"]]);
 export {
   playlist as default
 };

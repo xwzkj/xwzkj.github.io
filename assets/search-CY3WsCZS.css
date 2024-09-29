@@ -1,7 +1,7 @@
 
-.loading-center[data-v-b2547150] {
+.loading-center[data-v-2c50de33] {
     width: 100%;
-    height: 70vh;
+    height: calc(70 * var(--vh, 1vh));
     display: flex;
     justify-content: center;
     align-items: center;
