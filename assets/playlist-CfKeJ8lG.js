@@ -18,10 +18,10 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-lSGtwPat.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-fcIhGpLg.js";
+import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-XOn5USbv.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DuHvu9gj.js";
 import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-DNEr4BFN.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-CPJlsKUD.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-DBJhd8PW.js";
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {

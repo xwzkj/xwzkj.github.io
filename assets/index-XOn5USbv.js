@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BoO2BEqV.js","./itemCardList-pbXlMwf_.js","./font-DNEr4BFN.js","./font-BqeCjEUM.css","./Ellipsis-CPJlsKUD.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-BoPG0fSQ.js","./musicList-fcIhGpLg.js","./musicList-CIYHyx-x.css","./search-CY3WsCZS.css","./login-BbEm825b.js","./login-zqTcuwMw.css","./account-B-KSbR_K.js","./account-3Bs-RIiD.css","./playlist-WnVr2-jw.js","./playlist-jqRZomob.css","./setting-BfbRbqDI.js","./setting-ChxaiIzD.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-Cy-W0KKx.js","./itemCardList-DdR04IWf.js","./font-DNEr4BFN.js","./font-BqeCjEUM.css","./Ellipsis-DBJhd8PW.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-B-03YUdm.js","./musicList-DuHvu9gj.js","./musicList-CIYHyx-x.css","./search-CY3WsCZS.css","./login-Crn9vJnv.js","./login-zqTcuwMw.css","./account-Bc6i7FST.js","./account-3Bs-RIiD.css","./playlist-CfKeJ8lG.js","./playlist-jqRZomob.css","./setting-rauDefJc.js","./setting-ChxaiIzD.css"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -2037,7 +2037,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-BoO2BEqV.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-Cy-W0KKx.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2048,7 +2048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-BoPG0fSQ.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-B-03YUdm.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2059,7 +2059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BbEm825b.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-Crn9vJnv.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2067,7 +2067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-B-KSbR_K.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-Bc6i7FST.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2078,7 +2078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-WnVr2-jw.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CfKeJ8lG.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2089,7 +2089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BfbRbqDI.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-rauDefJc.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2101,7 +2101,7 @@ const router = createRouter({
 });
 var isVue2 = false;
 /*!
- * pinia v2.2.2
+ * pinia v2.2.4
  * (c) 2024 Eduardo San Martin Morote
  * @license MIT
  */
@@ -29853,13 +29853,6 @@ function cloudsearch(keywords, type = 1, offset = 0, limit = 60) {
     data: { keywords, type, offset, limit }
   });
 }
-function scrobble(id, time2, sourceid = 0) {
-  return request({
-    url: "/scrobble",
-    method: "post",
-    data: { id, time: time2, sourceid }
-  });
-}
 function loginWithPhone(phone, password = null, captcha) {
   if (password != null) {
     password = cryptoJsExports.MD5(password).toString();
@@ -31053,7 +31046,6 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   function next() {
     pause();
     console.log(`⏭下一曲`);
-    beforeMusicChanged();
     const computIndex = (length, indexNow) => {
       if (indexNow < length - 1) {
         return indexNow + 1;
@@ -31074,7 +31066,6 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
   function prev() {
     pause();
     console.log(`⏮上一曲`);
-    beforeMusicChanged();
     const computIndex = (length, indexNow) => {
       if (indexNow > 0) {
         return indexNow - 1;
@@ -31091,19 +31082,6 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
         break;
     }
     play(true);
-  }
-  function beforeMusicChanged() {
-    let scrobble$1 = (id, currentTime) => {
-      let userStore = useUserStore();
-      if (userStore.isLogin) {
-        if (currentTime >= 15) {
-          console.log(`📋️听歌打卡： ${id} ${currentTime}`);
-          scrobble(id, currentTime, 0);
-        }
-      }
-    };
-    scrobble$1 = debounce(scrobble$1, 5e3, 1);
-    scrobble$1(currentMusic.value.id, Math.floor(musicStatus.value.currentTime));
   }
   function seek(time2) {
     player2.value.currentTime = time2;

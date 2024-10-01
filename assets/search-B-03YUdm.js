@@ -18,11 +18,11 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-lSGtwPat.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-fcIhGpLg.js";
-import { i as itemCardList } from "./itemCardList-pbXlMwf_.js";
+import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-XOn5USbv.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DuHvu9gj.js";
+import { i as itemCardList } from "./itemCardList-DdR04IWf.js";
 import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, H as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, F as Fragment, ah as cB, aj as cM, ai as c$1, am as cE, ak as cNotM, ao as useTheme, ap as useConfig, w as watch, D as onMounted, p as provide, l as toRef, ae as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, ag as TransitionGroup, av as cloneVNode, aO as _export_sfc, aL as createElementBlock, aM as createBaseVNode, aU as toDisplayString, u as unref, aN as createVNode, aP as withCtx, f as isRef, aK as openBlock, aQ as createBlock } from "./font-DNEr4BFN.js";
-import "./Ellipsis-CPJlsKUD.js";
+import "./Ellipsis-DBJhd8PW.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"
