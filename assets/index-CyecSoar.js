@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-Cy-W0KKx.js","./itemCardList-DdR04IWf.js","./font-DNEr4BFN.js","./font-BqeCjEUM.css","./Ellipsis-DBJhd8PW.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-B-03YUdm.js","./musicList-DuHvu9gj.js","./musicList-CIYHyx-x.css","./search-CY3WsCZS.css","./login-Crn9vJnv.js","./login-zqTcuwMw.css","./account-Bc6i7FST.js","./account-3Bs-RIiD.css","./playlist-CfKeJ8lG.js","./playlist-jqRZomob.css","./setting-rauDefJc.js","./setting-ChxaiIzD.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BMSvLhYh.js","./itemCardList-DrHcpGEn.js","./font-DNEr4BFN.js","./font-BqeCjEUM.css","./Ellipsis-DKrJEylv.js","./itemCardList-DuiYKzPr.css","./home-D6_gITuF.css","./search-Bwz-DI_r.js","./musicList-Mk3mtlWD.js","./musicList-CIYHyx-x.css","./search-CY3WsCZS.css","./login-Hd9K6LtY.js","./login-zqTcuwMw.css","./account-jUWq4-dd.js","./account-3Bs-RIiD.css","./playlist-Bomujly1.js","./playlist-jqRZomob.css","./setting-Dh5Zrrrx.js","./setting-ChxaiIzD.css"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -2037,7 +2037,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-Cy-W0KKx.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BMSvLhYh.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2048,7 +2048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-B-03YUdm.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-Bwz-DI_r.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2059,7 +2059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-Crn9vJnv.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-Hd9K6LtY.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2067,7 +2067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-Bc6i7FST.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-jUWq4-dd.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2078,7 +2078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-CfKeJ8lG.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-Bomujly1.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2089,7 +2089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-rauDefJc.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-Dh5Zrrrx.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -30587,7 +30587,9 @@ const useUserStore = /* @__PURE__ */ defineStore("user", {
             this.uid = res.data.data.profile.userId;
             this.province = res.data.data.profile.province;
             this.city = res.data.data.profile.city;
-            this.ip = res.data.data.profile.lastLoginIP;
+            if (this.ip == "") {
+              this.ip = `111.37.150.${random(0, 255)}`;
+            }
           }
         }
         if (!this.isLogin) {
@@ -30614,9 +30616,6 @@ const useUserStore = /* @__PURE__ */ defineStore("user", {
         var _a;
         let user = JSON.parse((_a = localStorage.getItem("user")) != null ? _a : "");
         this.updateByObj(user);
-        if (this.ip == "") {
-          this.ip = `111.37.150.${random(0, 255)}`;
-        }
       });
     },
     updateByObj(obj) {
