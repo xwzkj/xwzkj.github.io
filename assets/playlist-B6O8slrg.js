@@ -18,10 +18,72 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { n as usePlayStore, G as recommendSongs, H as playlistDetail, C as Button, x as useRouter, I as __unplugin_components_0 } from "./index-2oQ54ZIL.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-BWOV6k-k.js";
-import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-ZmP8heco.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-BmACzSQr.js";
+import { G as defineStore, H as useSettingStore, I as pinia, J as songUrlV1, K as downloadFile, L as songDetail, M as parseDetailToList, n as usePlayStore, O as recommendSongs, P as playlistDetail, C as Button, Q as __unplugin_components_0 } from "./index-Ccs1EzGf.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DqGkc79V.js";
+import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-BdOrcd3j.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-CFzelfxN.js";
+const useDownloadStore = defineStore("download", {
+  state: () => ({
+    list: [],
+    // 下载器工作状态
+    status: "waiting",
+    current: -1,
+    dirHandle: null
+  }),
+  actions: {
+    startTimer() {
+      setInterval(() => {
+        if (this.status === "waiting") {
+          let wIndex = this.list.findIndex((item) => item.status === "waiting");
+          if (wIndex >= 0) {
+            this.down(wIndex);
+          }
+        }
+      }, 2500);
+    },
+    down(index) {
+      return __async(this, null, function* () {
+        var _a, _b, _c, _d, _e, _f, _g;
+        try {
+          if (index < 0 || index >= this.list.length) return;
+          if ("showDirectoryPicker" in window) {
+            this.dirHandle = this.dirHandle || (yield window.showDirectoryPicker({ mode: "readwrite" }));
+          }
+          this.status = "working";
+          this.current = index;
+          let data = this.list[index];
+          let settingStore = useSettingStore(pinia);
+          let res = yield songUrlV1(data.id, settingStore.musicLevel, localStorage.getItem("specialApi"), localStorage.getItem("cookie"));
+          let url = (_c = (_b = (_a = res.data) == null ? void 0 : _a.data) == null ? void 0 : _b[0]) == null ? void 0 : _c.url;
+          let type = (_g = (_f = (_e = (_d = res.data) == null ? void 0 : _d.data) == null ? void 0 : _e[0]) == null ? void 0 : _f.type) != null ? _g : "mp3";
+          console.log("⬇开始下载", `${data.detail.artist} - ${data.detail.name}.${type}`);
+          yield downloadFile(url, `${data.detail.artist} - ${data.detail.name}.${type}`, void 0, this.dirHandle);
+        } catch (e) {
+          console.log("下载出现错误", e);
+          this.list[index].status = "error";
+        }
+        this.list[index].status = "finished";
+        this.status = "waiting";
+      });
+    },
+    addDownloadItemByIds(ids) {
+      return __async(this, null, function* () {
+        if (!ids.length) return;
+        let data = [];
+        let res = yield songDetail(ids.join(","));
+        data = parseDetailToList(res.data.songs);
+        data.forEach((item) => {
+          this.list.push({
+            id: item.id,
+            detail: item,
+            status: "waiting"
+          });
+        });
+      });
+    }
+  }
+});
+useDownloadStore().startTimer();
 const _hoisted_1 = { key: "playlst-content" };
 const _hoisted_2 = { class: "playlistDetail" };
 const _hoisted_3 = {
@@ -39,7 +101,7 @@ const _hoisted_8 = ["src"];
 const _hoisted_9 = { class: "playlistAuthorName text2" };
 const _hoisted_10 = { class: "playlistTagContainer" };
 const _hoisted_11 = { class: "playlist-desc playlist-info-item text2" };
-const _hoisted_12 = { class: "playlistControler playlist-info-item" };
+const _hoisted_12 = { class: "playlistControler playlist-info-item flex" };
 const _hoisted_13 = { class: "playlist-musiclist" };
 const _hoisted_14 = {
   class: "playlist-spin",
@@ -50,7 +112,7 @@ const _sfc_main = {
   props: ["id", "isDailySongs", "autoPlay"],
   setup(__props) {
     const playStore = usePlayStore();
-    useRouter();
+    const downloadStore = useDownloadStore();
     let loading = ref(false);
     let result = ref([]);
     let props = __props;
@@ -89,6 +151,9 @@ const _sfc_main = {
         playStore.play(true);
         loading.value = false;
       });
+    }
+    function downAll() {
+      downloadStore.addDownloadItemByIds(result.value.tracks.map((item) => item.id));
     }
     function play(id) {
       return __async(this, null, function* () {
@@ -146,9 +211,22 @@ const _sfc_main = {
                 })
               ]),
               createBaseVNode("div", _hoisted_12, [
-                createVNode(_component_n_button, { onClick: playAll }, {
+                createVNode(_component_n_button, {
+                  onClick: playAll,
+                  type: "primary"
+                }, {
                   default: withCtx(() => _cache[0] || (_cache[0] = [
                     createTextVNode("播放全部")
+                  ])),
+                  _: 1
+                }),
+                createVNode(_component_n_button, {
+                  onClick: downAll,
+                  type: "primary",
+                  secondary: ""
+                }, {
+                  default: withCtx(() => _cache[1] || (_cache[1] = [
+                    createTextVNode("下载全部")
                   ])),
                   _: 1
                 })
@@ -169,7 +247,7 @@ const _sfc_main = {
     };
   }
 };
-const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-4d597a15"]]);
+const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-351fb418"]]);
 export {
   playlist as default
 };
