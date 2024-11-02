@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-MAf5flpY.js","./itemCardList-B2tZ-SAK.js","./font-BdOrcd3j.js","./font-DLIIhme-.css","./Ellipsis-CFzelfxN.js","./itemCardList-CpfjRlUH.css","./home-Cd2oFn4Z.css","./search-G_M_AcDJ.js","./musicList-DqGkc79V.js","./musicList-nLQAz02W.css","./search-Bewt89r4.css","./login-x3KI5Bzk.js","./login-Cg-VrOPR.css","./account-D1tz31oO.js","./account-Tp3cs3ob.css","./playlist-B6O8slrg.js","./playlist-D5VqYVrj.css","./setting-BeB2SWjp.js","./setting-C7VLV5ui.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DE5ZN26C.js","./itemCardList-BKeLXgmZ.js","./font-BdOrcd3j.js","./font-DLIIhme-.css","./Ellipsis-B2-ZtpT8.js","./itemCardList-CpfjRlUH.css","./home-Cd2oFn4Z.css","./search-D7gg5PVc.js","./musicList-CcTJtvyT.js","./musicList-nLQAz02W.css","./search-Bewt89r4.css","./login-BtfwyWop.js","./login-Cg-VrOPR.css","./account-D1uSMGSd.js","./account-BE7gbH9_.css","./playlist-B-xKy5Pa.js","./playlist-D5VqYVrj.css","./setting-D-JhPJ5V.js","./setting-C7VLV5ui.css"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -2037,7 +2037,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-MAf5flpY.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-DE5ZN26C.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2048,7 +2048,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-G_M_AcDJ.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-D7gg5PVc.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2059,7 +2059,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-x3KI5Bzk.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-BtfwyWop.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2067,7 +2067,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-D1tz31oO.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-D1uSMGSd.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2078,7 +2078,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-B6O8slrg.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-B-xKy5Pa.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2089,7 +2089,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BeB2SWjp.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-D-JhPJ5V.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -30687,6 +30687,11 @@ const useUserStore = /* @__PURE__ */ defineStore("user", {
         if (res.data.code == 200) {
           this.vipIcon = res.data.data.associator.iconUrl;
           this.vipexpire = res.data.data.associator.expireTime;
+          let svipIcon = res.data.data.redplus.iconUrl;
+          let svipexpire = res.data.data.redplus.expireTime;
+          if (svipexpire > Date.now()) {
+            this.vipIcon = svipIcon;
+          }
         }
         this.updateTime = Date.now();
         this.storeToStorage();
