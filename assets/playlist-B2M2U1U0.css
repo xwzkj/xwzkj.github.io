@@ -1,68 +1,68 @@
 
-.playlist-spin[data-v-351fb418] {
+.playlist-spin[data-v-ac7d1bb9] {
     width: 100%;
     height: calc(70 * var(--vh, 1vh));
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.playlistTag[data-v-351fb418] {
+.playlistTag[data-v-ac7d1bb9] {
     margin-left: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
-.playlistDetail[data-v-351fb418] {
+.playlistDetail[data-v-ac7d1bb9] {
     display: flex;
     width: 100%;
 }
-.playlistImg[data-v-351fb418] {
+.playlistImg[data-v-ac7d1bb9] {
     margin: 1rem;
     flex: 1;
 }
-.playlistImg img[data-v-351fb418] {
+.playlistImg img[data-v-ac7d1bb9] {
     width: 100%;
     border-radius: 0.8rem;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
-.playlistInfo[data-v-351fb418] {
+.playlistInfo[data-v-ac7d1bb9] {
     display: flex;
     /* width:calc(var(--vw,1vw)*100 - 12rem); */
     flex: 1;
     flex-direction: column;
     position: relative;
 }
-.playlistAuthor[data-v-351fb418] {
+.playlistAuthor[data-v-ac7d1bb9] {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 0.5rem;
 }
-.playlistTagContainer[data-v-351fb418] {
+.playlistTagContainer[data-v-ac7d1bb9] {
     display: flex;
     flex-wrap: wrap;
 }
-.playlistAuthorName[data-v-351fb418] {
+.playlistAuthorName[data-v-ac7d1bb9] {
     margin-left: 0.5rem;
 }
-.playlistAuthorAvatar[data-v-351fb418] {
+.playlistAuthorAvatar[data-v-ac7d1bb9] {
     width: 2rem;
     border-radius: 1rem;
     height: auto;
 }
-.playlistName[data-v-351fb418] {
+.playlistName[data-v-ac7d1bb9] {
     font-size: 1.5rem;
     padding-top: 1rem;
     font-weight: 500;
 }
-.playlist-info-item[data-v-351fb418] {
+.playlist-info-item[data-v-ac7d1bb9] {
     max-width: 100%;
     /* display: none; */
 }
-.playlist-musiclist[data-v-351fb418] {
+.playlist-musiclist[data-v-ac7d1bb9] {
     max-width: 100%;
 }
 @media (min-width:620px) {
-.playlistImg[data-v-351fb418] {
+.playlistImg[data-v-ac7d1bb9] {
         flex: none;
         width: 10rem;
         height: 10rem;

@@ -18,8 +18,8 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { an as derived, ah as cB, ak as cNotM, am as cE, aj as cM, ao as useTheme, d as defineComponent, ap as useConfig, c as computed, aq as useThemeClass, h, F as Fragment, ai as c, b as ref, D as onMounted, ae as watchEffect, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, E as onBeforeUnmount, u as unref, aQ as createBlock, aR as createCommentVNode, v as createTextVNode, aU as toDisplayString, aN as createVNode, aP as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-BdOrcd3j.js";
-import { q as useThemeStore, u as useUserStore, s as loginQrKey, t as loginQrCreate, v as loginQrCheck, w as success, x as useRouter, y as error, z as verifyCaptcha, A as loginWithPhone, B as sendCaptcha, _ as __unplugin_components_0$1, C as Button } from "./index-D89XA8T2.js";
+import { an as derived, af as cB, al as cNotM, aj as cE, ak as cM, ao as useTheme, d as defineComponent, ap as useConfig, c as computed, aq as useThemeClass, h, G as Fragment, ag as c, b as ref, z as onMounted, ac as watchEffect, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, A as onBeforeUnmount, u as unref, aQ as createBlock, aR as createCommentVNode, F as createTextVNode, aU as toDisplayString, aN as createVNode, aP as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-CXcYbOso.js";
+import { q as useThemeStore, u as useUserStore, s as loginQrKey, t as loginQrCreate, v as loginQrCheck, w as success, x as useRouter, y as error, z as verifyCaptcha, A as loginWithPhone, B as sendCaptcha, _ as __unplugin_components_0$1, C as Button } from "./index-DwiX7jQM.js";
 function self$1(vars) {
   const {
     textColor1,
@@ -171,11 +171,6 @@ const themeLight = {
   common: derived,
   self
 };
-const style = c([cB("qr-code", `
- background: #fff;
- border-radius: var(--n-border-radius);
- display: inline-flex;
- `)]);
 var qrcodegen;
 (function(qrcodegen2) {
   class QrCode {
@@ -906,6 +901,11 @@ var qrcodegen;
     QrSegment.Mode = Mode;
   })(qrcodegen2.QrSegment || (qrcodegen2.QrSegment = {}));
 })(qrcodegen || (qrcodegen = {}));
+const style = c([cB("qr-code", `
+ background: #fff;
+ border-radius: var(--n-border-radius);
+ display: inline-flex;
+ `)]);
 const ERROR_CORRECTION_LEVEL = {
   L: qrcodegen.QrCode.Ecc.LOW,
   M: qrcodegen.QrCode.Ecc.MEDIUM,

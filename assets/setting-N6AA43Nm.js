@@ -18,8 +18,8 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ah as cB, ai as c, am as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, H as createInjectionKey, i as inject, ae as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, x as warn, aj as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, af as Transition, I as withDirectives, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, D as onMounted, at as vShow, v as createTextVNode, aU as toDisplayString } from "./font-BdOrcd3j.js";
-import { a2 as useStyle, a3 as inputLight, a4 as buttonLight, a5 as on, a6 as off, _ as __unplugin_components_0$1, a7 as fadeInScaleUpTransition, a8 as useAdjustedTo, a9 as useFormItem, aa as useLocale, e as useMergedState, ab as isMounted, ac as getPreciseEventTarget, ad as Binder, ae as VTarget, af as VFollower, ag as clickoutside, k as call, C as Button, Y as __unplugin_components_5, H as useSettingStore, u as useUserStore, q as useThemeStore, w as success, y as error, ah as __unplugin_components_4, ai as __unplugin_components_5$1 } from "./index-D89XA8T2.js";
+import { af as cB, ag as c, aj as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b3 as toHexaString, b4 as rgba, b5 as toHslaString, b6 as toHsvaString, b7 as toRgbaString, b8 as hsla, b9 as hsva, b as ref, c as computed, C as createInjectionKey, i as inject, ac as watchEffect, ba as toHexString, bb as toHslString, bc as toRgbString, bd as toHsvString, M as warn, ak as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, ah as Transition, I as withDirectives, n as nextTick, m as markRaw, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aO as _export_sfc, aN as createVNode, aP as withCtx, L as renderSlot, u as unref, aQ as createBlock, f as isRef, aR as createCommentVNode, aH as NIcon, z as onMounted, at as vShow, F as createTextVNode, aU as toDisplayString } from "./font-CXcYbOso.js";
+import { a2 as useStyle, a3 as inputLight, a4 as buttonLight, a5 as on, a6 as off, _ as __unplugin_components_0$1, a7 as fadeInScaleUpTransition, a8 as useAdjustedTo, a9 as useFormItem, aa as useLocale, e as useMergedState, ab as isMounted, ac as getPreciseEventTarget, ad as Binder, ae as VTarget, af as VFollower, ag as clickoutside, k as call, C as Button, Y as __unplugin_components_5, H as useSettingStore, u as useUserStore, q as useThemeStore, w as success, y as error, ah as __unplugin_components_4, ai as __unplugin_components_5$1 } from "./index-DwiX7jQM.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -277,107 +277,6 @@ function convertColor(value, mode, originalMode) {
 const HANDLE_SIZE$2 = "12px";
 const HANDLE_SIZE_NUM$1 = 12;
 const RADIUS$2 = "6px";
-const RADIUS_NUM = 6;
-const GRADIENT = "linear-gradient(90deg,red,#ff0 16.66%,#0f0 33.33%,#0ff 50%,#00f 66.66%,#f0f 83.33%,red)";
-const HueSlider = defineComponent({
-  name: "HueSlider",
-  props: {
-    clsPrefix: {
-      type: String,
-      required: true
-    },
-    hue: {
-      type: Number,
-      required: true
-    },
-    onUpdateHue: {
-      type: Function,
-      required: true
-    },
-    onComplete: Function
-  },
-  setup(props) {
-    const railRef = ref(null);
-    function handleMouseDown(e) {
-      if (!railRef.value) return;
-      on("mousemove", document, handleMouseMove);
-      on("mouseup", document, handleMouseUp);
-      handleMouseMove(e);
-    }
-    function handleMouseMove(e) {
-      const {
-        value: railEl
-      } = railRef;
-      if (!railEl) return;
-      const {
-        width,
-        left
-      } = railEl.getBoundingClientRect();
-      const newHue = normalizeHue((e.clientX - left - RADIUS_NUM) / (width - HANDLE_SIZE_NUM$1) * 360);
-      props.onUpdateHue(newHue);
-    }
-    function handleMouseUp() {
-      var _a;
-      off("mousemove", document, handleMouseMove);
-      off("mouseup", document, handleMouseUp);
-      (_a = props.onComplete) === null || _a === void 0 ? void 0 : _a.call(props);
-    }
-    return {
-      railRef,
-      handleMouseDown
-    };
-  },
-  render() {
-    const {
-      clsPrefix
-    } = this;
-    return h("div", {
-      class: `${clsPrefix}-color-picker-slider`,
-      style: {
-        height: HANDLE_SIZE$2,
-        borderRadius: RADIUS$2
-      }
-    }, h("div", {
-      ref: "railRef",
-      style: {
-        boxShadow: "inset 0 0 2px 0 rgba(0, 0, 0, .24)",
-        boxSizing: "border-box",
-        backgroundImage: GRADIENT,
-        height: HANDLE_SIZE$2,
-        borderRadius: RADIUS$2,
-        position: "relative"
-      },
-      onMousedown: this.handleMouseDown
-    }, h("div", {
-      style: {
-        position: "absolute",
-        left: RADIUS$2,
-        right: RADIUS$2,
-        top: 0,
-        bottom: 0
-      }
-    }, h("div", {
-      class: `${clsPrefix}-color-picker-handle`,
-      style: {
-        left: `calc((${this.hue}%) / 359 * 100 - ${RADIUS$2})`,
-        borderRadius: RADIUS$2,
-        width: HANDLE_SIZE$2,
-        height: HANDLE_SIZE$2
-      }
-    }, h("div", {
-      class: `${clsPrefix}-color-picker-handle__fill`,
-      style: {
-        backgroundColor: `hsl(${this.hue}, 100%, 50%)`,
-        borderRadius: RADIUS$2,
-        width: HANDLE_SIZE$2,
-        height: HANDLE_SIZE$2
-      }
-    })))));
-  }
-});
-const HANDLE_SIZE$1 = "12px";
-const HANDLE_SIZE_NUM = 12;
-const RADIUS$1 = "6px";
 const AlphaSlider = defineComponent({
   name: "AlphaSlider",
   props: {
@@ -416,7 +315,7 @@ const AlphaSlider = defineComponent({
         width,
         left
       } = railEl.getBoundingClientRect();
-      const newAlpha = (e.clientX - left) / (width - HANDLE_SIZE_NUM);
+      const newAlpha = (e.clientX - left) / (width - HANDLE_SIZE_NUM$1);
       props.onUpdateAlpha(normalizeAlpha(newAlpha));
     }
     function handleMouseUp() {
@@ -445,13 +344,13 @@ const AlphaSlider = defineComponent({
       class: `${clsPrefix}-color-picker-slider`,
       ref: "railRef",
       style: {
-        height: HANDLE_SIZE$1,
-        borderRadius: RADIUS$1
+        height: HANDLE_SIZE$2,
+        borderRadius: RADIUS$2
       },
       onMousedown: this.handleMouseDown
     }, h("div", {
       style: {
-        borderRadius: RADIUS$1,
+        borderRadius: RADIUS$2,
         position: "absolute",
         left: 0,
         right: 0,
@@ -469,137 +368,28 @@ const AlphaSlider = defineComponent({
     })), this.rgba && h("div", {
       style: {
         position: "absolute",
-        left: RADIUS$1,
-        right: RADIUS$1,
+        left: RADIUS$2,
+        right: RADIUS$2,
         top: 0,
         bottom: 0
       }
     }, h("div", {
       class: `${clsPrefix}-color-picker-handle`,
       style: {
-        left: `calc(${this.alpha * 100}% - ${RADIUS$1})`,
-        borderRadius: RADIUS$1,
-        width: HANDLE_SIZE$1,
-        height: HANDLE_SIZE$1
+        left: `calc(${this.alpha * 100}% - ${RADIUS$2})`,
+        borderRadius: RADIUS$2,
+        width: HANDLE_SIZE$2,
+        height: HANDLE_SIZE$2
       }
     }, h("div", {
       class: `${clsPrefix}-color-picker-handle__fill`,
       style: {
         backgroundColor: toRgbaString(this.rgba),
-        borderRadius: RADIUS$1,
-        width: HANDLE_SIZE$1,
-        height: HANDLE_SIZE$1
+        borderRadius: RADIUS$2,
+        width: HANDLE_SIZE$2,
+        height: HANDLE_SIZE$2
       }
     }))));
-  }
-});
-const HANDLE_SIZE = "12px";
-const RADIUS = "6px";
-const Pallete = defineComponent({
-  name: "Pallete",
-  props: {
-    clsPrefix: {
-      type: String,
-      required: true
-    },
-    rgba: {
-      type: Array,
-      default: null
-    },
-    // 0 - 360
-    displayedHue: {
-      type: Number,
-      required: true
-    },
-    displayedSv: {
-      type: Array,
-      required: true
-    },
-    onUpdateSV: {
-      type: Function,
-      required: true
-    },
-    onComplete: Function
-  },
-  setup(props) {
-    const palleteRef = ref(null);
-    function handleMouseDown(e) {
-      if (!palleteRef.value) return;
-      on("mousemove", document, handleMouseMove);
-      on("mouseup", document, handleMouseUp);
-      handleMouseMove(e);
-    }
-    function handleMouseMove(e) {
-      const {
-        value: palleteEl
-      } = palleteRef;
-      if (!palleteEl) return;
-      const {
-        width,
-        height,
-        left,
-        bottom
-      } = palleteEl.getBoundingClientRect();
-      const newV = (bottom - e.clientY) / height;
-      const newS = (e.clientX - left) / width;
-      const normalizedNewS = 100 * (newS > 1 ? 1 : newS < 0 ? 0 : newS);
-      const normalizedNewV = 100 * (newV > 1 ? 1 : newV < 0 ? 0 : newV);
-      props.onUpdateSV(normalizedNewS, normalizedNewV);
-    }
-    function handleMouseUp() {
-      var _a;
-      off("mousemove", document, handleMouseMove);
-      off("mouseup", document, handleMouseUp);
-      (_a = props.onComplete) === null || _a === void 0 ? void 0 : _a.call(props);
-    }
-    return {
-      palleteRef,
-      handleColor: computed(() => {
-        const {
-          rgba: rgba2
-        } = props;
-        if (!rgba2) return "";
-        return `rgb(${rgba2[0]}, ${rgba2[1]}, ${rgba2[2]})`;
-      }),
-      handleMouseDown
-    };
-  },
-  render() {
-    const {
-      clsPrefix
-    } = this;
-    return h("div", {
-      class: `${clsPrefix}-color-picker-pallete`,
-      onMousedown: this.handleMouseDown,
-      ref: "palleteRef"
-    }, h("div", {
-      class: `${clsPrefix}-color-picker-pallete__layer`,
-      style: {
-        backgroundImage: `linear-gradient(90deg, white, hsl(${this.displayedHue}, 100%, 50%))`
-      }
-    }), h("div", {
-      class: `${clsPrefix}-color-picker-pallete__layer ${clsPrefix}-color-picker-pallete__layer--shadowed`,
-      style: {
-        backgroundImage: "linear-gradient(180deg, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 100%))"
-      }
-    }), this.rgba && h("div", {
-      class: `${clsPrefix}-color-picker-handle`,
-      style: {
-        width: HANDLE_SIZE,
-        height: HANDLE_SIZE,
-        borderRadius: RADIUS,
-        left: `calc(${this.displayedSv[0]}% - ${RADIUS})`,
-        bottom: `calc(${this.displayedSv[1]}% - ${RADIUS})`
-      }
-    }, h("div", {
-      class: `${clsPrefix}-color-picker-handle__fill`,
-      style: {
-        backgroundColor: this.handleColor,
-        borderRadius: RADIUS,
-        width: HANDLE_SIZE,
-        height: HANDLE_SIZE
-      }
-    })));
   }
 });
 const colorPickerInjectionKey = createInjectionKey("n-color-picker");
@@ -871,63 +661,6 @@ const ColorInput = defineComponent({
     }));
   }
 });
-const ColorPickerTrigger = defineComponent({
-  name: "ColorPickerTrigger",
-  props: {
-    clsPrefix: {
-      type: String,
-      required: true
-    },
-    value: {
-      type: String,
-      default: null
-    },
-    hsla: {
-      type: Array,
-      default: null
-    },
-    disabled: Boolean,
-    onClick: Function
-  },
-  setup(props) {
-    const {
-      colorPickerSlots,
-      renderLabelRef
-    } = inject(colorPickerInjectionKey, null);
-    return () => {
-      const {
-        hsla: hsla2,
-        value,
-        clsPrefix,
-        onClick,
-        disabled
-      } = props;
-      const renderLabel = colorPickerSlots.label || renderLabelRef.value;
-      return h("div", {
-        class: [`${clsPrefix}-color-picker-trigger`, disabled && `${clsPrefix}-color-picker-trigger--disabled`],
-        onClick: disabled ? void 0 : onClick
-      }, h("div", {
-        class: `${clsPrefix}-color-picker-trigger__fill`
-      }, h("div", {
-        class: `${clsPrefix}-color-picker-checkboard`
-      }), h("div", {
-        style: {
-          position: "absolute",
-          left: 0,
-          right: 0,
-          top: 0,
-          bottom: 0,
-          backgroundColor: hsla2 ? toHslaString(hsla2) : ""
-        }
-      }), value && hsla2 ? h("div", {
-        class: `${clsPrefix}-color-picker-trigger__value`,
-        style: {
-          color: hsla2[2] > 50 || hsla2[3] < 0.5 ? "black" : "white"
-        }
-      }, renderLabel ? renderLabel(value) : value) : null));
-    };
-  }
-});
 function normalizeColor(color, mode) {
   if (mode === "hsv") {
     const [h2, s, v, a] = hsva(color);
@@ -1027,6 +760,63 @@ const ColorPickerSwatches = defineComponent({
     }))));
   }
 });
+const ColorPickerTrigger = defineComponent({
+  name: "ColorPickerTrigger",
+  props: {
+    clsPrefix: {
+      type: String,
+      required: true
+    },
+    value: {
+      type: String,
+      default: null
+    },
+    hsla: {
+      type: Array,
+      default: null
+    },
+    disabled: Boolean,
+    onClick: Function
+  },
+  setup(props) {
+    const {
+      colorPickerSlots,
+      renderLabelRef
+    } = inject(colorPickerInjectionKey, null);
+    return () => {
+      const {
+        hsla: hsla2,
+        value,
+        clsPrefix,
+        onClick,
+        disabled
+      } = props;
+      const renderLabel = colorPickerSlots.label || renderLabelRef.value;
+      return h("div", {
+        class: [`${clsPrefix}-color-picker-trigger`, disabled && `${clsPrefix}-color-picker-trigger--disabled`],
+        onClick: disabled ? void 0 : onClick
+      }, h("div", {
+        class: `${clsPrefix}-color-picker-trigger__fill`
+      }, h("div", {
+        class: `${clsPrefix}-color-picker-checkboard`
+      }), h("div", {
+        style: {
+          position: "absolute",
+          left: 0,
+          right: 0,
+          top: 0,
+          bottom: 0,
+          backgroundColor: hsla2 ? toHslaString(hsla2) : ""
+        }
+      }), value && hsla2 ? h("div", {
+        class: `${clsPrefix}-color-picker-trigger__value`,
+        style: {
+          color: hsla2[2] > 50 || hsla2[3] < 0.5 ? "black" : "white"
+        }
+      }, renderLabel ? renderLabel(value) : value) : null));
+    };
+  }
+});
 const ColorPreview = defineComponent({
   name: "ColorPreview",
   props: {
@@ -1079,6 +869,216 @@ const ColorPreview = defineComponent({
       value: this.color,
       onChange: this.handleChange
     }));
+  }
+});
+const HANDLE_SIZE$1 = "12px";
+const HANDLE_SIZE_NUM = 12;
+const RADIUS$1 = "6px";
+const RADIUS_NUM = 6;
+const GRADIENT = "linear-gradient(90deg,red,#ff0 16.66%,#0f0 33.33%,#0ff 50%,#00f 66.66%,#f0f 83.33%,red)";
+const HueSlider = defineComponent({
+  name: "HueSlider",
+  props: {
+    clsPrefix: {
+      type: String,
+      required: true
+    },
+    hue: {
+      type: Number,
+      required: true
+    },
+    onUpdateHue: {
+      type: Function,
+      required: true
+    },
+    onComplete: Function
+  },
+  setup(props) {
+    const railRef = ref(null);
+    function handleMouseDown(e) {
+      if (!railRef.value) return;
+      on("mousemove", document, handleMouseMove);
+      on("mouseup", document, handleMouseUp);
+      handleMouseMove(e);
+    }
+    function handleMouseMove(e) {
+      const {
+        value: railEl
+      } = railRef;
+      if (!railEl) return;
+      const {
+        width,
+        left
+      } = railEl.getBoundingClientRect();
+      const newHue = normalizeHue((e.clientX - left - RADIUS_NUM) / (width - HANDLE_SIZE_NUM) * 360);
+      props.onUpdateHue(newHue);
+    }
+    function handleMouseUp() {
+      var _a;
+      off("mousemove", document, handleMouseMove);
+      off("mouseup", document, handleMouseUp);
+      (_a = props.onComplete) === null || _a === void 0 ? void 0 : _a.call(props);
+    }
+    return {
+      railRef,
+      handleMouseDown
+    };
+  },
+  render() {
+    const {
+      clsPrefix
+    } = this;
+    return h("div", {
+      class: `${clsPrefix}-color-picker-slider`,
+      style: {
+        height: HANDLE_SIZE$1,
+        borderRadius: RADIUS$1
+      }
+    }, h("div", {
+      ref: "railRef",
+      style: {
+        boxShadow: "inset 0 0 2px 0 rgba(0, 0, 0, .24)",
+        boxSizing: "border-box",
+        backgroundImage: GRADIENT,
+        height: HANDLE_SIZE$1,
+        borderRadius: RADIUS$1,
+        position: "relative"
+      },
+      onMousedown: this.handleMouseDown
+    }, h("div", {
+      style: {
+        position: "absolute",
+        left: RADIUS$1,
+        right: RADIUS$1,
+        top: 0,
+        bottom: 0
+      }
+    }, h("div", {
+      class: `${clsPrefix}-color-picker-handle`,
+      style: {
+        left: `calc((${this.hue}%) / 359 * 100 - ${RADIUS$1})`,
+        borderRadius: RADIUS$1,
+        width: HANDLE_SIZE$1,
+        height: HANDLE_SIZE$1
+      }
+    }, h("div", {
+      class: `${clsPrefix}-color-picker-handle__fill`,
+      style: {
+        backgroundColor: `hsl(${this.hue}, 100%, 50%)`,
+        borderRadius: RADIUS$1,
+        width: HANDLE_SIZE$1,
+        height: HANDLE_SIZE$1
+      }
+    })))));
+  }
+});
+const HANDLE_SIZE = "12px";
+const RADIUS = "6px";
+const Pallete = defineComponent({
+  name: "Pallete",
+  props: {
+    clsPrefix: {
+      type: String,
+      required: true
+    },
+    rgba: {
+      type: Array,
+      default: null
+    },
+    // 0 - 360
+    displayedHue: {
+      type: Number,
+      required: true
+    },
+    displayedSv: {
+      type: Array,
+      required: true
+    },
+    onUpdateSV: {
+      type: Function,
+      required: true
+    },
+    onComplete: Function
+  },
+  setup(props) {
+    const palleteRef = ref(null);
+    function handleMouseDown(e) {
+      if (!palleteRef.value) return;
+      on("mousemove", document, handleMouseMove);
+      on("mouseup", document, handleMouseUp);
+      handleMouseMove(e);
+    }
+    function handleMouseMove(e) {
+      const {
+        value: palleteEl
+      } = palleteRef;
+      if (!palleteEl) return;
+      const {
+        width,
+        height,
+        left,
+        bottom
+      } = palleteEl.getBoundingClientRect();
+      const newV = (bottom - e.clientY) / height;
+      const newS = (e.clientX - left) / width;
+      const normalizedNewS = 100 * (newS > 1 ? 1 : newS < 0 ? 0 : newS);
+      const normalizedNewV = 100 * (newV > 1 ? 1 : newV < 0 ? 0 : newV);
+      props.onUpdateSV(normalizedNewS, normalizedNewV);
+    }
+    function handleMouseUp() {
+      var _a;
+      off("mousemove", document, handleMouseMove);
+      off("mouseup", document, handleMouseUp);
+      (_a = props.onComplete) === null || _a === void 0 ? void 0 : _a.call(props);
+    }
+    return {
+      palleteRef,
+      handleColor: computed(() => {
+        const {
+          rgba: rgba2
+        } = props;
+        if (!rgba2) return "";
+        return `rgb(${rgba2[0]}, ${rgba2[1]}, ${rgba2[2]})`;
+      }),
+      handleMouseDown
+    };
+  },
+  render() {
+    const {
+      clsPrefix
+    } = this;
+    return h("div", {
+      class: `${clsPrefix}-color-picker-pallete`,
+      onMousedown: this.handleMouseDown,
+      ref: "palleteRef"
+    }, h("div", {
+      class: `${clsPrefix}-color-picker-pallete__layer`,
+      style: {
+        backgroundImage: `linear-gradient(90deg, white, hsl(${this.displayedHue}, 100%, 50%))`
+      }
+    }), h("div", {
+      class: `${clsPrefix}-color-picker-pallete__layer ${clsPrefix}-color-picker-pallete__layer--shadowed`,
+      style: {
+        backgroundImage: "linear-gradient(180deg, rgba(0, 0, 0, 0%), rgba(0, 0, 0, 100%))"
+      }
+    }), this.rgba && h("div", {
+      class: `${clsPrefix}-color-picker-handle`,
+      style: {
+        width: HANDLE_SIZE,
+        height: HANDLE_SIZE,
+        borderRadius: RADIUS,
+        left: `calc(${this.displayedSv[0]}% - ${RADIUS})`,
+        bottom: `calc(${this.displayedSv[1]}% - ${RADIUS})`
+      }
+    }, h("div", {
+      class: `${clsPrefix}-color-picker-handle__fill`,
+      style: {
+        backgroundColor: this.handleColor,
+        borderRadius: RADIUS,
+        width: HANDLE_SIZE,
+        height: HANDLE_SIZE
+      }
+    })));
   }
 });
 const style = c([cB("color-picker", `
@@ -1976,7 +1976,7 @@ const _sfc_main$1 = {
   }
 };
 const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-443755e3"]]);
-const buildInfo = { version: "1.1.4", buildNumber: "6f93552" };
+const buildInfo = { version: "1.1.4", buildNumber: "8ddbe3c" };
 const _hoisted_1 = { class: "setting" };
 const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {

@@ -18,11 +18,11 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-D89XA8T2.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-CcTJtvyT.js";
-import { i as itemCardList } from "./itemCardList-BKeLXgmZ.js";
-import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, H as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, F as Fragment, ah as cB, aj as cM, ai as c$1, am as cE, ak as cNotM, ao as useTheme, ap as useConfig, w as watch, D as onMounted, p as provide, l as toRef, ae as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, ag as TransitionGroup, av as cloneVNode, aO as _export_sfc, aL as createElementBlock, aM as createBaseVNode, aU as toDisplayString, u as unref, aN as createVNode, aP as withCtx, f as isRef, aK as openBlock, aQ as createBlock } from "./font-BdOrcd3j.js";
-import "./Ellipsis-B2-ZtpT8.js";
+import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-DwiX7jQM.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Bn6TwAB2.js";
+import { i as itemCardList } from "./itemCardList-C3KVV3uf.js";
+import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, C as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, G as Fragment, af as cB, ak as cM, ag as c$1, aj as cE, al as cNotM, ao as useTheme, ap as useConfig, w as watch, z as onMounted, p as provide, l as toRef, ac as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, am as TransitionGroup, av as cloneVNode, aO as _export_sfc, aL as createElementBlock, aM as createBaseVNode, aU as toDisplayString, u as unref, aN as createVNode, aP as withCtx, f as isRef, aK as openBlock, aQ as createBlock } from "./font-CXcYbOso.js";
+import "./Ellipsis-q4V6xPHB.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"
@@ -636,9 +636,10 @@ const style = cB("tabs", `
  width: 100%;
  overflow-y: auto; 
  scrollbar-width: none;
- `, [c$1("&::-webkit-scrollbar", `
+ `, [c$1("&::-webkit-scrollbar, &::-webkit-scrollbar-track-piece, &::-webkit-scrollbar-thumb", `
  width: 0;
  height: 0;
+ display: none;
  `)]), c$1("&::before, &::after", `
  transition: box-shadow .3s var(--n-bezier);
  pointer-events: none;

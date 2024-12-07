@@ -18,10 +18,10 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { G as defineStore, H as useSettingStore, I as pinia, J as songUrlV1, K as downloadFile, L as songDetail, M as parseDetailToList, n as usePlayStore, O as recommendSongs, P as playlistDetail, C as Button, Q as __unplugin_components_0 } from "./index-D89XA8T2.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-CcTJtvyT.js";
-import { aO as _export_sfc, b as ref, w as watch, D as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, F as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, v as createTextVNode } from "./font-BdOrcd3j.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-B2-ZtpT8.js";
+import { G as defineStore, H as useSettingStore, I as pinia, J as songUrlV1, K as downloadFile, L as songDetail, M as parseDetailToList, n as usePlayStore, O as recommendSongs, P as playlistDetail, C as Button, Q as __unplugin_components_0 } from "./index-DwiX7jQM.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Bn6TwAB2.js";
+import { aO as _export_sfc, b as ref, w as watch, z as onMounted, aL as createElementBlock, u as unref, aM as createBaseVNode, aR as createCommentVNode, aU as toDisplayString, G as Fragment, aT as renderList, aN as createVNode, aP as withCtx, aK as openBlock, aQ as createBlock, F as createTextVNode } from "./font-CXcYbOso.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-q4V6xPHB.js";
 const useDownloadStore = defineStore("download", {
   state: () => ({
     list: [],
@@ -137,7 +137,13 @@ const _sfc_main = {
           };
         } else {
           let res = yield playlistDetail(props.id);
-          result.value = res.data.playlist;
+          let data = res.data.playlist;
+          let ids = res.data.playlist.trackIds;
+          if (res.data.playlist.tracks.length != ids.length) {
+            res = yield songDetail(ids.map((item) => item.id).join(","));
+            data.tracks = res.data.songs;
+          }
+          result.value = data;
         }
         if (props.autoPlay) {
           playAll();
@@ -247,7 +253,7 @@ const _sfc_main = {
     };
   }
 };
-const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-351fb418"]]);
+const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ac7d1bb9"]]);
 export {
   playlist as default
 };

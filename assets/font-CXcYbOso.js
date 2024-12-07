@@ -1,5 +1,5 @@
 /**
-* @vue/shared v3.5.12
+* @vue/shared v3.5.13
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -195,7 +195,7 @@ const stringifySymbol = (v, i = "") => {
   );
 };
 /**
-* @vue/reactivity v3.5.12
+* @vue/reactivity v3.5.13
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -277,17 +277,21 @@ class EffectScope {
   }
   stop(fromParent) {
     if (this._active) {
+      this._active = false;
       let i, l;
       for (i = 0, l = this.effects.length; i < l; i++) {
         this.effects[i].stop();
       }
+      this.effects.length = 0;
       for (i = 0, l = this.cleanups.length; i < l; i++) {
         this.cleanups[i]();
       }
+      this.cleanups.length = 0;
       if (this.scopes) {
         for (i = 0, l = this.scopes.length; i < l; i++) {
           this.scopes[i].stop(true);
         }
+        this.scopes.length = 0;
       }
       if (!this.detached && this.parent && !fromParent) {
         const last = this.parent.scopes.pop();
@@ -297,7 +301,6 @@ class EffectScope {
         }
       }
       this.parent = void 0;
-      this._active = false;
     }
   }
 }
@@ -959,6 +962,7 @@ class BaseReactiveHandler {
     this._isShallow = _isShallow;
   }
   get(target, key, receiver) {
+    if (key === "__v_skip") return target["__v_skip"];
     const isReadonly2 = this._isReadonly, isShallow2 = this._isShallow;
     if (key === "__v_isReactive") {
       return !isReadonly2;
@@ -1636,7 +1640,7 @@ function watch$1(source, cb, options = EMPTY_OBJ) {
   const scope = getCurrentScope();
   const watchHandle = () => {
     effect2.stop();
-    if (scope) {
+    if (scope && scope.active) {
       remove(scope.effects, effect2);
     }
   };
@@ -1746,7 +1750,7 @@ function traverse(value, depth = Infinity, seen) {
   return value;
 }
 /**
-* @vue/runtime-core v3.5.12
+* @vue/runtime-core v3.5.13
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -2213,11 +2217,32 @@ const TeleportImpl = {
         updateCssVars(n2, true);
       }
       if (isTeleportDeferred(n2.props)) {
-        queuePostRenderEffect(mountToTarget, parentSuspense);
+        queuePostRenderEffect(() => {
+          mountToTarget();
+          n2.el.__isMounted = true;
+        }, parentSuspense);
       } else {
         mountToTarget();
       }
     } else {
+      if (isTeleportDeferred(n2.props) && !n1.el.__isMounted) {
+        queuePostRenderEffect(() => {
+          TeleportImpl.process(
+            n1,
+            n2,
+            container,
+            anchor,
+            parentComponent,
+            parentSuspense,
+            namespace2,
+            slotScopeIds,
+            optimized,
+            internals
+          );
+          delete n1.el.__isMounted;
+        }, parentSuspense);
+        return;
+      }
       n2.el = n1.el;
       n2.targetStart = n1.targetStart;
       const mainAnchor = n2.anchor = n1.anchor;
@@ -2513,10 +2538,9 @@ const BaseTransitionImpl = {
       if (innerChild.type !== Comment) {
         setTransitionHooks(innerChild, enterHooks);
       }
-      const oldChild = instance.subTree;
-      const oldInnerChild = oldChild && getInnerChild$1(oldChild);
+      let oldInnerChild = instance.subTree && getInnerChild$1(instance.subTree);
       if (oldInnerChild && oldInnerChild.type !== Comment && !isSameVNodeType(innerChild, oldInnerChild) && recursiveGetSubtree(instance).type !== Comment) {
-        const leavingHooks = resolveTransitionHooks(
+        let leavingHooks = resolveTransitionHooks(
           oldInnerChild,
           rawProps,
           state,
@@ -2531,6 +2555,7 @@ const BaseTransitionImpl = {
               instance.update();
             }
             delete leavingHooks.afterLeave;
+            oldInnerChild = void 0;
           };
           return emptyPlaceholder(child);
         } else if (mode === "in-out" && innerChild.type !== Comment) {
@@ -2544,10 +2569,19 @@ const BaseTransitionImpl = {
               earlyRemove();
               el[leaveCbKey] = void 0;
               delete enterHooks.delayedLeave;
+              oldInnerChild = void 0;
             };
-            enterHooks.delayedLeave = delayedLeave;
+            enterHooks.delayedLeave = () => {
+              delayedLeave();
+              delete enterHooks.delayedLeave;
+              oldInnerChild = void 0;
+            };
           };
+        } else {
+          oldInnerChild = void 0;
         }
+      } else if (oldInnerChild) {
+        oldInnerChild = void 0;
       }
       return child;
     };
@@ -2800,6 +2834,9 @@ function setRef(rawRef, oldRawRef, parentSuspense, vnode, isUnmount = false) {
     return;
   }
   if (isAsyncWrapper(vnode) && !isUnmount) {
+    if (vnode.shapeFlag & 512 && vnode.type.__asyncResolved && vnode.component.subTree.component) {
+      setRef(rawRef, oldRawRef, parentSuspense, vnode.component.subTree);
+    }
     return;
   }
   const refValue = vnode.shapeFlag & 4 ? getComponentPublicInstance(vnode.component) : vnode.el;
@@ -5642,13 +5679,6 @@ const useSSRContext = () => {
 function watchEffect(effect2, options) {
   return doWatch(effect2, null, options);
 }
-function watchPostEffect(effect2, options) {
-  return doWatch(
-    effect2,
-    null,
-    { flush: "post" }
-  );
-}
 function watch(source, cb, options) {
   return doWatch(source, cb, options);
 }
@@ -6049,9 +6079,9 @@ function closeBlock() {
   currentBlock = blockStack[blockStack.length - 1] || null;
 }
 let isBlockTreeEnabled = 1;
-function setBlockTracking(value) {
+function setBlockTracking(value, inVOnce = false) {
   isBlockTreeEnabled += value;
-  if (value < 0 && currentBlock) {
+  if (value < 0 && currentBlock && inVOnce) {
     currentBlock.hasOnce = true;
   }
 }
@@ -6689,9 +6719,9 @@ function h(type, propsOrChildren, children) {
     return createVNode(type, propsOrChildren, children);
   }
 }
-const version = "3.5.12";
+const version = "3.5.13";
 /**
-* @vue/runtime-dom v3.5.12
+* @vue/runtime-dom v3.5.13
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
@@ -6855,7 +6885,8 @@ function resolveTransitionProps(rawProps) {
     onAppear = onEnter,
     onAppearCancelled = onEnterCancelled
   } = baseProps;
-  const finishEnter = (el, isAppear, done) => {
+  const finishEnter = (el, isAppear, done, isCancelled) => {
+    el._enterCancelled = isCancelled;
     removeTransitionClass(el, isAppear ? appearToClass : enterToClass);
     removeTransitionClass(el, isAppear ? appearActiveClass : enterActiveClass);
     done && done();
@@ -6898,8 +6929,13 @@ function resolveTransitionProps(rawProps) {
       el._isLeaving = true;
       const resolve2 = () => finishLeave(el, done);
       addTransitionClass(el, leaveFromClass);
-      addTransitionClass(el, leaveActiveClass);
-      forceReflow();
+      if (!el._enterCancelled) {
+        forceReflow();
+        addTransitionClass(el, leaveActiveClass);
+      } else {
+        addTransitionClass(el, leaveActiveClass);
+        forceReflow();
+      }
       nextFrame(() => {
         if (!el._isLeaving) {
           return;
@@ -6913,11 +6949,11 @@ function resolveTransitionProps(rawProps) {
       callHook(onLeave, [el, resolve2]);
     },
     onEnterCancelled(el) {
-      finishEnter(el, false);
+      finishEnter(el, false, void 0, true);
       callHook(onEnterCancelled, [el]);
     },
     onAppearCancelled(el) {
-      finishEnter(el, true);
+      finishEnter(el, true, void 0, true);
       callHook(onAppearCancelled, [el]);
     },
     onLeaveCancelled(el) {
@@ -7117,10 +7153,11 @@ function useCssVars(getter) {
     }
     updateTeleports(vars);
   };
-  onBeforeMount(() => {
-    watchPostEffect(setVars);
+  onBeforeUpdate(() => {
+    queuePostFlushCb(setVars);
   });
   onMounted(() => {
+    watch(setVars, NOOP, { flush: "post" });
     const ob = new MutationObserver(setVars);
     ob.observe(instance.subTree.el.parentNode, { childList: true });
     onUnmounted(() => ob.disconnect());
@@ -7657,288 +7694,107 @@ function normalizeContainer(container) {
   }
   return container;
 }
-const colors = {
-  black: "#000",
-  silver: "#C0C0C0",
-  gray: "#808080",
-  white: "#FFF",
-  maroon: "#800000",
-  red: "#F00",
-  purple: "#800080",
-  fuchsia: "#F0F",
-  green: "#008000",
-  lime: "#0F0",
-  olive: "#808000",
-  yellow: "#FF0",
-  navy: "#000080",
-  blue: "#00F",
-  teal: "#008080",
-  aqua: "#0FF",
-  transparent: "#0000"
-};
-const prefix$1 = "^\\s*";
-const suffix = "\\s*$";
-const percent = "\\s*((\\.\\d+)|(\\d+(\\.\\d*)?))%\\s*";
-const float = "\\s*((\\.\\d+)|(\\d+(\\.\\d*)?))\\s*";
-const hex = "([0-9A-Fa-f])";
-const dhex = "([0-9A-Fa-f]{2})";
-const hslRegex = new RegExp(`${prefix$1}hsl\\s*\\(${float},${percent},${percent}\\)${suffix}`);
-const hsvRegex = new RegExp(`${prefix$1}hsv\\s*\\(${float},${percent},${percent}\\)${suffix}`);
-const hslaRegex = new RegExp(`${prefix$1}hsla\\s*\\(${float},${percent},${percent},${float}\\)${suffix}`);
-const hsvaRegex = new RegExp(`${prefix$1}hsva\\s*\\(${float},${percent},${percent},${float}\\)${suffix}`);
-const rgbRegex = new RegExp(`${prefix$1}rgb\\s*\\(${float},${float},${float}\\)${suffix}`);
-const rgbaRegex = new RegExp(`${prefix$1}rgba\\s*\\(${float},${float},${float},${float}\\)${suffix}`);
-const sHexRegex = new RegExp(`${prefix$1}#${hex}${hex}${hex}${suffix}`);
-const hexRegex = new RegExp(`${prefix$1}#${dhex}${dhex}${dhex}${suffix}`);
-const sHexaRegex = new RegExp(`${prefix$1}#${hex}${hex}${hex}${hex}${suffix}`);
-const hexaRegex = new RegExp(`${prefix$1}#${dhex}${dhex}${dhex}${dhex}${suffix}`);
-function parseHex(value) {
-  return parseInt(value, 16);
-}
-function hsla(color) {
-  try {
-    let i;
-    if (i = hslaRegex.exec(color)) {
-      return [
-        roundDeg(i[1]),
-        roundPercent(i[5]),
-        roundPercent(i[9]),
-        roundAlpha(i[13])
-      ];
-    } else if (i = hslRegex.exec(color)) {
-      return [roundDeg(i[1]), roundPercent(i[5]), roundPercent(i[9]), 1];
+function plugin$1(options) {
+  let _bPrefix = ".";
+  let _ePrefix = "__";
+  let _mPrefix = "--";
+  let c2;
+  if (options) {
+    let t = options.blockPrefix;
+    if (t) {
+      _bPrefix = t;
     }
-    throw new Error(`[seemly/hsla]: Invalid color value ${color}.`);
-  } catch (e) {
-    throw e;
-  }
-}
-function hsva(color) {
-  try {
-    let i;
-    if (i = hsvaRegex.exec(color)) {
-      return [
-        roundDeg(i[1]),
-        roundPercent(i[5]),
-        roundPercent(i[9]),
-        roundAlpha(i[13])
-      ];
-    } else if (i = hsvRegex.exec(color)) {
-      return [roundDeg(i[1]), roundPercent(i[5]), roundPercent(i[9]), 1];
+    t = options.elementPrefix;
+    if (t) {
+      _ePrefix = t;
     }
-    throw new Error(`[seemly/hsva]: Invalid color value ${color}.`);
-  } catch (e) {
-    throw e;
-  }
-}
-function rgba(color) {
-  try {
-    let i;
-    if (i = hexRegex.exec(color)) {
-      return [parseHex(i[1]), parseHex(i[2]), parseHex(i[3]), 1];
-    } else if (i = rgbRegex.exec(color)) {
-      return [roundChannel(i[1]), roundChannel(i[5]), roundChannel(i[9]), 1];
-    } else if (i = rgbaRegex.exec(color)) {
-      return [
-        roundChannel(i[1]),
-        roundChannel(i[5]),
-        roundChannel(i[9]),
-        roundAlpha(i[13])
-      ];
-    } else if (i = sHexRegex.exec(color)) {
-      return [
-        parseHex(i[1] + i[1]),
-        parseHex(i[2] + i[2]),
-        parseHex(i[3] + i[3]),
-        1
-      ];
-    } else if (i = hexaRegex.exec(color)) {
-      return [
-        parseHex(i[1]),
-        parseHex(i[2]),
-        parseHex(i[3]),
-        roundAlpha(parseHex(i[4]) / 255)
-      ];
-    } else if (i = sHexaRegex.exec(color)) {
-      return [
-        parseHex(i[1] + i[1]),
-        parseHex(i[2] + i[2]),
-        parseHex(i[3] + i[3]),
-        roundAlpha(parseHex(i[4] + i[4]) / 255)
-      ];
-    } else if (color in colors) {
-      return rgba(colors[color]);
+    t = options.modifierPrefix;
+    if (t) {
+      _mPrefix = t;
     }
-    throw new Error(`[seemly/rgba]: Invalid color value ${color}.`);
-  } catch (e) {
-    throw e;
   }
-}
-function normalizeAlpha(alphaValue) {
-  return alphaValue > 1 ? 1 : alphaValue < 0 ? 0 : alphaValue;
-}
-function stringifyRgb(r, g, b) {
-  return `rgb(${roundChannel(r)}, ${roundChannel(g)}, ${roundChannel(b)})`;
-}
-function stringifyRgba(r, g, b, a) {
-  return `rgba(${roundChannel(r)}, ${roundChannel(g)}, ${roundChannel(b)}, ${normalizeAlpha(a)})`;
-}
-function compositeChannel(v1, a1, v2, a2, a) {
-  return roundChannel((v1 * a1 * (1 - a2) + v2 * a2) / a);
-}
-function composite(background, overlay2) {
-  if (!Array.isArray(background))
-    background = rgba(background);
-  if (!Array.isArray(overlay2))
-    overlay2 = rgba(overlay2);
-  const a1 = background[3];
-  const a2 = overlay2[3];
-  const alpha = roundAlpha(a1 + a2 - a1 * a2);
-  return stringifyRgba(compositeChannel(background[0], a1, overlay2[0], a2, alpha), compositeChannel(background[1], a1, overlay2[1], a2, alpha), compositeChannel(background[2], a1, overlay2[2], a2, alpha), alpha);
-}
-function changeColor(base2, options) {
-  const [r, g, b, a = 1] = Array.isArray(base2) ? base2 : rgba(base2);
-  if (options.alpha) {
-    return stringifyRgba(r, g, b, options.alpha);
-  }
-  return stringifyRgba(r, g, b, a);
-}
-function scaleColor(base2, options) {
-  const [r, g, b, a = 1] = Array.isArray(base2) ? base2 : rgba(base2);
-  const { lightness = 1, alpha = 1 } = options;
-  return toRgbaString([r * lightness, g * lightness, b * lightness, a * alpha]);
-}
-function roundAlpha(value) {
-  const v = Math.round(Number(value) * 100) / 100;
-  if (v > 1)
-    return 1;
-  if (v < 0)
-    return 0;
-  return v;
-}
-function roundDeg(value) {
-  const v = Math.round(Number(value));
-  if (v >= 360)
-    return 0;
-  if (v < 0)
-    return 0;
-  return v;
-}
-function roundChannel(value) {
-  const v = Math.round(Number(value));
-  if (v > 255)
-    return 255;
-  if (v < 0)
-    return 0;
-  return v;
-}
-function roundPercent(value) {
-  const v = Math.round(Number(value));
-  if (v > 100)
-    return 100;
-  if (v < 0)
-    return 0;
-  return v;
-}
-function toRgbString(base2) {
-  const [r, g, b] = Array.isArray(base2) ? base2 : rgba(base2);
-  return stringifyRgb(r, g, b);
-}
-function toRgbaString(base2) {
-  const [r, g, b] = base2;
-  if (3 in base2) {
-    return `rgba(${roundChannel(r)}, ${roundChannel(g)}, ${roundChannel(b)}, ${roundAlpha(base2[3])})`;
-  }
-  return `rgba(${roundChannel(r)}, ${roundChannel(g)}, ${roundChannel(b)}, 1)`;
-}
-function toHsvString(base2) {
-  return `hsv(${roundDeg(base2[0])}, ${roundPercent(base2[1])}%, ${roundPercent(base2[2])}%)`;
-}
-function toHsvaString(base2) {
-  const [h2, s, v] = base2;
-  if (3 in base2) {
-    return `hsva(${roundDeg(h2)}, ${roundPercent(s)}%, ${roundPercent(v)}%, ${roundAlpha(base2[3])})`;
-  }
-  return `hsva(${roundDeg(h2)}, ${roundPercent(s)}%, ${roundPercent(v)}%, 1)`;
-}
-function toHslString(base2) {
-  return `hsl(${roundDeg(base2[0])}, ${roundPercent(base2[1])}%, ${roundPercent(base2[2])}%)`;
-}
-function toHslaString(base2) {
-  const [h2, s, l] = base2;
-  if (3 in base2) {
-    return `hsla(${roundDeg(h2)}, ${roundPercent(s)}%, ${roundPercent(l)}%, ${roundAlpha(base2[3])})`;
-  }
-  return `hsla(${roundDeg(h2)}, ${roundPercent(s)}%, ${roundPercent(l)}%, 1)`;
-}
-function toHexaString(base2) {
-  if (typeof base2 === "string") {
-    let i;
-    if (i = hexRegex.exec(base2)) {
-      return `${i[0]}FF`;
-    } else if (i = hexaRegex.exec(base2)) {
-      return i[0];
-    } else if (i = sHexRegex.exec(base2)) {
-      return `#${i[1]}${i[1]}${i[2]}${i[2]}${i[3]}${i[3]}FF`;
-    } else if (i = sHexaRegex.exec(base2)) {
-      return `#${i[1]}${i[1]}${i[2]}${i[2]}${i[3]}${i[3]}${i[4]}${i[4]}`;
+  const _plugin = {
+    install(instance) {
+      c2 = instance.c;
+      const ctx = instance.context;
+      ctx.bem = {};
+      ctx.bem.b = null;
+      ctx.bem.els = null;
     }
-    throw new Error(`[seemly/toHexString]: Invalid hex value ${base2}.`);
-  }
-  const hex2 = `#${base2.slice(0, 3).map((unit) => roundChannel(unit).toString(16).toUpperCase().padStart(2, "0")).join("")}`;
-  const a = base2.length === 3 ? "FF" : roundChannel(base2[3] * 255).toString(16).padStart(2, "0").toUpperCase();
-  return hex2 + a;
-}
-function toHexString(base2) {
-  if (typeof base2 === "string") {
-    let i;
-    if (i = hexRegex.exec(base2)) {
-      return i[0];
-    } else if (i = hexaRegex.exec(base2)) {
-      return i[0].slice(0, 7);
-    } else if (i = sHexRegex.exec(base2) || sHexaRegex.exec(base2)) {
-      return `#${i[1]}${i[1]}${i[2]}${i[2]}${i[3]}${i[3]}`;
-    }
-    throw new Error(`[seemly/toHexString]: Invalid hex value ${base2}.`);
-  }
-  return `#${base2.slice(0, 3).map((unit) => roundChannel(unit).toString(16).toUpperCase().padStart(2, "0")).join("")}`;
-}
-function warn(location, message) {
-  console.error(`[naive/${location}]: ${message}`);
-}
-function throwError(location, message) {
-  throw new Error(`[naive/${location}]: ${message}`);
-}
-function createInjectionKey(key) {
-  return key;
-}
-const pureNumberRegex = /^(\d|\.)+$/;
-const numberRegex = /(\d|\.)+/;
-function formatLength(length, {
-  c: c2 = 1,
-  offset = 0,
-  attachPx = true
-} = {}) {
-  if (typeof length === "number") {
-    const result = (length + offset) * c2;
-    if (result === 0) return "0";
-    return `${result}px`;
-  } else if (typeof length === "string") {
-    if (pureNumberRegex.test(length)) {
-      const result = (Number(length) + offset) * c2;
-      if (attachPx) {
-        if (result === 0) return "0";
-        return `${result}px`;
-      } else {
-        return `${result}`;
+  };
+  function b(arg) {
+    let memorizedB;
+    let memorizedE;
+    return {
+      before(ctx) {
+        memorizedB = ctx.bem.b;
+        memorizedE = ctx.bem.els;
+        ctx.bem.els = null;
+      },
+      after(ctx) {
+        ctx.bem.b = memorizedB;
+        ctx.bem.els = memorizedE;
+      },
+      $({ context, props }) {
+        arg = typeof arg === "string" ? arg : arg({ context, props });
+        context.bem.b = arg;
+        return `${(props === null || props === void 0 ? void 0 : props.bPrefix) || _bPrefix}${context.bem.b}`;
       }
-    } else {
-      const result = numberRegex.exec(length);
-      if (!result) return length;
-      return length.replace(numberRegex, String((Number(result[0]) + offset) * c2));
-    }
+    };
   }
-  return length;
+  function e(arg) {
+    let memorizedE;
+    return {
+      before(ctx) {
+        memorizedE = ctx.bem.els;
+      },
+      after(ctx) {
+        ctx.bem.els = memorizedE;
+      },
+      $({ context, props }) {
+        arg = typeof arg === "string" ? arg : arg({ context, props });
+        context.bem.els = arg.split(",").map((v) => v.trim());
+        return context.bem.els.map((el) => `${(props === null || props === void 0 ? void 0 : props.bPrefix) || _bPrefix}${context.bem.b}${_ePrefix}${el}`).join(", ");
+      }
+    };
+  }
+  function m(arg) {
+    return {
+      $({ context, props }) {
+        arg = typeof arg === "string" ? arg : arg({ context, props });
+        const modifiers = arg.split(",").map((v) => v.trim());
+        function elementToSelector(el) {
+          return modifiers.map((modifier) => `&${(props === null || props === void 0 ? void 0 : props.bPrefix) || _bPrefix}${context.bem.b}${el !== void 0 ? `${_ePrefix}${el}` : ""}${_mPrefix}${modifier}`).join(", ");
+        }
+        const els = context.bem.els;
+        if (els !== null) {
+          return elementToSelector(els[0]);
+        } else {
+          return elementToSelector();
+        }
+      }
+    };
+  }
+  function notM(arg) {
+    return {
+      $({ context, props }) {
+        arg = typeof arg === "string" ? arg : arg({ context, props });
+        const els = context.bem.els;
+        return `&:not(${(props === null || props === void 0 ? void 0 : props.bPrefix) || _bPrefix}${context.bem.b}${els !== null && els.length > 0 ? `${_ePrefix}${els[0]}` : ""}${_mPrefix}${arg})`;
+      }
+    };
+  }
+  const cB2 = (...args) => c2(b(args[0]), args[1], args[2]);
+  const cE2 = (...args) => c2(e(args[0]), args[1], args[2]);
+  const cM2 = (...args) => c2(m(args[0]), args[1], args[2]);
+  const cNotM2 = (...args) => c2(notM(args[0]), args[1], args[2]);
+  Object.assign(_plugin, {
+    cB: cB2,
+    cE: cE2,
+    cM: cM2,
+    cNotM: cNotM2
+  });
+  return _plugin;
 }
 function ampCount(selector) {
   let cnt = 0;
@@ -8309,115 +8165,13 @@ function CssRender(config = {}) {
   };
   return cssr2;
 }
-function plugin$1(options) {
-  let _bPrefix = ".";
-  let _ePrefix = "__";
-  let _mPrefix = "--";
-  let c2;
-  if (options) {
-    let t = options.blockPrefix;
-    if (t) {
-      _bPrefix = t;
-    }
-    t = options.elementPrefix;
-    if (t) {
-      _ePrefix = t;
-    }
-    t = options.modifierPrefix;
-    if (t) {
-      _mPrefix = t;
-    }
-  }
-  const _plugin = {
-    install(instance) {
-      c2 = instance.c;
-      const ctx = instance.context;
-      ctx.bem = {};
-      ctx.bem.b = null;
-      ctx.bem.els = null;
-    }
-  };
-  function b(arg) {
-    let memorizedB;
-    let memorizedE;
-    return {
-      before(ctx) {
-        memorizedB = ctx.bem.b;
-        memorizedE = ctx.bem.els;
-        ctx.bem.els = null;
-      },
-      after(ctx) {
-        ctx.bem.b = memorizedB;
-        ctx.bem.els = memorizedE;
-      },
-      $({ context, props }) {
-        arg = typeof arg === "string" ? arg : arg({ context, props });
-        context.bem.b = arg;
-        return `${(props === null || props === void 0 ? void 0 : props.bPrefix) || _bPrefix}${context.bem.b}`;
-      }
-    };
-  }
-  function e(arg) {
-    let memorizedE;
-    return {
-      before(ctx) {
-        memorizedE = ctx.bem.els;
-      },
-      after(ctx) {
-        ctx.bem.els = memorizedE;
-      },
-      $({ context, props }) {
-        arg = typeof arg === "string" ? arg : arg({ context, props });
-        context.bem.els = arg.split(",").map((v) => v.trim());
-        return context.bem.els.map((el) => `${(props === null || props === void 0 ? void 0 : props.bPrefix) || _bPrefix}${context.bem.b}${_ePrefix}${el}`).join(", ");
-      }
-    };
-  }
-  function m(arg) {
-    return {
-      $({ context, props }) {
-        arg = typeof arg === "string" ? arg : arg({ context, props });
-        const modifiers = arg.split(",").map((v) => v.trim());
-        function elementToSelector(el) {
-          return modifiers.map((modifier) => `&${(props === null || props === void 0 ? void 0 : props.bPrefix) || _bPrefix}${context.bem.b}${el !== void 0 ? `${_ePrefix}${el}` : ""}${_mPrefix}${modifier}`).join(", ");
-        }
-        const els = context.bem.els;
-        if (els !== null) {
-          return elementToSelector(els[0]);
-        } else {
-          return elementToSelector();
-        }
-      }
-    };
-  }
-  function notM(arg) {
-    return {
-      $({ context, props }) {
-        arg = typeof arg === "string" ? arg : arg({ context, props });
-        const els = context.bem.els;
-        return `&:not(${(props === null || props === void 0 ? void 0 : props.bPrefix) || _bPrefix}${context.bem.b}${els !== null && els.length > 0 ? `${_ePrefix}${els[0]}` : ""}${_mPrefix}${arg})`;
-      }
-    };
-  }
-  const cB2 = (...args) => c2(b(args[0]), args[1], args[2]);
-  const cE2 = (...args) => c2(e(args[0]), args[1], args[2]);
-  const cM2 = (...args) => c2(m(args[0]), args[1], args[2]);
-  const cNotM2 = (...args) => c2(notM(args[0]), args[1], args[2]);
-  Object.assign(_plugin, {
-    cB: cB2,
-    cE: cE2,
-    cM: cM2,
-    cNotM: cNotM2
-  });
-  return _plugin;
-}
 const namespace = "n";
-const prefix = `.${namespace}-`;
+const prefix$1 = `.${namespace}-`;
 const elementPrefix = "__";
 const modifierPrefix = "--";
 const cssr = CssRender();
 const plugin = plugin$1({
-  blockPrefix: prefix,
+  blockPrefix: prefix$1,
   elementPrefix,
   modifierPrefix
 });
@@ -8437,27 +8191,276 @@ function insideModal(style2) {
     props: {
       bPrefix
     }
-  }) => `${bPrefix || prefix}modal, ${bPrefix || prefix}drawer`, [style2]);
+  }) => `${bPrefix || prefix$1}modal, ${bPrefix || prefix$1}drawer`, [style2]);
 }
 function insidePopover(style2) {
   return c(({
     props: {
       bPrefix
     }
-  }) => `${bPrefix || prefix}popover`, [style2]);
+  }) => `${bPrefix || prefix$1}popover`, [style2]);
 }
 function asModal(style2) {
   return c(({
     props: {
       bPrefix
     }
-  }) => `&${bPrefix || prefix}modal`, style2);
+  }) => `&${bPrefix || prefix$1}modal`, style2);
 }
 const cCB = (...args) => {
   return c(">", [cB(...args)]);
 };
 function createKey(prefix2, suffix2) {
   return prefix2 + (suffix2 === "default" ? "" : suffix2.replace(/^[a-z]/, (startChar) => startChar.toUpperCase()));
+}
+const colors = {
+  black: "#000",
+  silver: "#C0C0C0",
+  gray: "#808080",
+  white: "#FFF",
+  maroon: "#800000",
+  red: "#F00",
+  purple: "#800080",
+  fuchsia: "#F0F",
+  green: "#008000",
+  lime: "#0F0",
+  olive: "#808000",
+  yellow: "#FF0",
+  navy: "#000080",
+  blue: "#00F",
+  teal: "#008080",
+  aqua: "#0FF",
+  transparent: "#0000"
+};
+const prefix = "^\\s*";
+const suffix = "\\s*$";
+const percent = "\\s*((\\.\\d+)|(\\d+(\\.\\d*)?))%\\s*";
+const float = "\\s*((\\.\\d+)|(\\d+(\\.\\d*)?))\\s*";
+const hex = "([0-9A-Fa-f])";
+const dhex = "([0-9A-Fa-f]{2})";
+const hslRegex = new RegExp(`${prefix}hsl\\s*\\(${float},${percent},${percent}\\)${suffix}`);
+const hsvRegex = new RegExp(`${prefix}hsv\\s*\\(${float},${percent},${percent}\\)${suffix}`);
+const hslaRegex = new RegExp(`${prefix}hsla\\s*\\(${float},${percent},${percent},${float}\\)${suffix}`);
+const hsvaRegex = new RegExp(`${prefix}hsva\\s*\\(${float},${percent},${percent},${float}\\)${suffix}`);
+const rgbRegex = new RegExp(`${prefix}rgb\\s*\\(${float},${float},${float}\\)${suffix}`);
+const rgbaRegex = new RegExp(`${prefix}rgba\\s*\\(${float},${float},${float},${float}\\)${suffix}`);
+const sHexRegex = new RegExp(`${prefix}#${hex}${hex}${hex}${suffix}`);
+const hexRegex = new RegExp(`${prefix}#${dhex}${dhex}${dhex}${suffix}`);
+const sHexaRegex = new RegExp(`${prefix}#${hex}${hex}${hex}${hex}${suffix}`);
+const hexaRegex = new RegExp(`${prefix}#${dhex}${dhex}${dhex}${dhex}${suffix}`);
+function parseHex(value) {
+  return parseInt(value, 16);
+}
+function hsla(color) {
+  try {
+    let i;
+    if (i = hslaRegex.exec(color)) {
+      return [
+        roundDeg(i[1]),
+        roundPercent(i[5]),
+        roundPercent(i[9]),
+        roundAlpha(i[13])
+      ];
+    } else if (i = hslRegex.exec(color)) {
+      return [roundDeg(i[1]), roundPercent(i[5]), roundPercent(i[9]), 1];
+    }
+    throw new Error(`[seemly/hsla]: Invalid color value ${color}.`);
+  } catch (e) {
+    throw e;
+  }
+}
+function hsva(color) {
+  try {
+    let i;
+    if (i = hsvaRegex.exec(color)) {
+      return [
+        roundDeg(i[1]),
+        roundPercent(i[5]),
+        roundPercent(i[9]),
+        roundAlpha(i[13])
+      ];
+    } else if (i = hsvRegex.exec(color)) {
+      return [roundDeg(i[1]), roundPercent(i[5]), roundPercent(i[9]), 1];
+    }
+    throw new Error(`[seemly/hsva]: Invalid color value ${color}.`);
+  } catch (e) {
+    throw e;
+  }
+}
+function rgba(color) {
+  try {
+    let i;
+    if (i = hexRegex.exec(color)) {
+      return [parseHex(i[1]), parseHex(i[2]), parseHex(i[3]), 1];
+    } else if (i = rgbRegex.exec(color)) {
+      return [roundChannel(i[1]), roundChannel(i[5]), roundChannel(i[9]), 1];
+    } else if (i = rgbaRegex.exec(color)) {
+      return [
+        roundChannel(i[1]),
+        roundChannel(i[5]),
+        roundChannel(i[9]),
+        roundAlpha(i[13])
+      ];
+    } else if (i = sHexRegex.exec(color)) {
+      return [
+        parseHex(i[1] + i[1]),
+        parseHex(i[2] + i[2]),
+        parseHex(i[3] + i[3]),
+        1
+      ];
+    } else if (i = hexaRegex.exec(color)) {
+      return [
+        parseHex(i[1]),
+        parseHex(i[2]),
+        parseHex(i[3]),
+        roundAlpha(parseHex(i[4]) / 255)
+      ];
+    } else if (i = sHexaRegex.exec(color)) {
+      return [
+        parseHex(i[1] + i[1]),
+        parseHex(i[2] + i[2]),
+        parseHex(i[3] + i[3]),
+        roundAlpha(parseHex(i[4] + i[4]) / 255)
+      ];
+    } else if (color in colors) {
+      return rgba(colors[color]);
+    }
+    throw new Error(`[seemly/rgba]: Invalid color value ${color}.`);
+  } catch (e) {
+    throw e;
+  }
+}
+function normalizeAlpha(alphaValue) {
+  return alphaValue > 1 ? 1 : alphaValue < 0 ? 0 : alphaValue;
+}
+function stringifyRgb(r, g, b) {
+  return `rgb(${roundChannel(r)}, ${roundChannel(g)}, ${roundChannel(b)})`;
+}
+function stringifyRgba(r, g, b, a) {
+  return `rgba(${roundChannel(r)}, ${roundChannel(g)}, ${roundChannel(b)}, ${normalizeAlpha(a)})`;
+}
+function compositeChannel(v1, a1, v2, a2, a) {
+  return roundChannel((v1 * a1 * (1 - a2) + v2 * a2) / a);
+}
+function composite(background, overlay2) {
+  if (!Array.isArray(background))
+    background = rgba(background);
+  if (!Array.isArray(overlay2))
+    overlay2 = rgba(overlay2);
+  const a1 = background[3];
+  const a2 = overlay2[3];
+  const alpha = roundAlpha(a1 + a2 - a1 * a2);
+  return stringifyRgba(compositeChannel(background[0], a1, overlay2[0], a2, alpha), compositeChannel(background[1], a1, overlay2[1], a2, alpha), compositeChannel(background[2], a1, overlay2[2], a2, alpha), alpha);
+}
+function changeColor(base2, options) {
+  const [r, g, b, a = 1] = Array.isArray(base2) ? base2 : rgba(base2);
+  if (options.alpha) {
+    return stringifyRgba(r, g, b, options.alpha);
+  }
+  return stringifyRgba(r, g, b, a);
+}
+function scaleColor(base2, options) {
+  const [r, g, b, a = 1] = Array.isArray(base2) ? base2 : rgba(base2);
+  const { lightness = 1, alpha = 1 } = options;
+  return toRgbaString([r * lightness, g * lightness, b * lightness, a * alpha]);
+}
+function roundAlpha(value) {
+  const v = Math.round(Number(value) * 100) / 100;
+  if (v > 1)
+    return 1;
+  if (v < 0)
+    return 0;
+  return v;
+}
+function roundDeg(value) {
+  const v = Math.round(Number(value));
+  if (v >= 360)
+    return 0;
+  if (v < 0)
+    return 0;
+  return v;
+}
+function roundChannel(value) {
+  const v = Math.round(Number(value));
+  if (v > 255)
+    return 255;
+  if (v < 0)
+    return 0;
+  return v;
+}
+function roundPercent(value) {
+  const v = Math.round(Number(value));
+  if (v > 100)
+    return 100;
+  if (v < 0)
+    return 0;
+  return v;
+}
+function toRgbString(base2) {
+  const [r, g, b] = Array.isArray(base2) ? base2 : rgba(base2);
+  return stringifyRgb(r, g, b);
+}
+function toRgbaString(base2) {
+  const [r, g, b] = base2;
+  if (3 in base2) {
+    return `rgba(${roundChannel(r)}, ${roundChannel(g)}, ${roundChannel(b)}, ${roundAlpha(base2[3])})`;
+  }
+  return `rgba(${roundChannel(r)}, ${roundChannel(g)}, ${roundChannel(b)}, 1)`;
+}
+function toHsvString(base2) {
+  return `hsv(${roundDeg(base2[0])}, ${roundPercent(base2[1])}%, ${roundPercent(base2[2])}%)`;
+}
+function toHsvaString(base2) {
+  const [h2, s, v] = base2;
+  if (3 in base2) {
+    return `hsva(${roundDeg(h2)}, ${roundPercent(s)}%, ${roundPercent(v)}%, ${roundAlpha(base2[3])})`;
+  }
+  return `hsva(${roundDeg(h2)}, ${roundPercent(s)}%, ${roundPercent(v)}%, 1)`;
+}
+function toHslString(base2) {
+  return `hsl(${roundDeg(base2[0])}, ${roundPercent(base2[1])}%, ${roundPercent(base2[2])}%)`;
+}
+function toHslaString(base2) {
+  const [h2, s, l] = base2;
+  if (3 in base2) {
+    return `hsla(${roundDeg(h2)}, ${roundPercent(s)}%, ${roundPercent(l)}%, ${roundAlpha(base2[3])})`;
+  }
+  return `hsla(${roundDeg(h2)}, ${roundPercent(s)}%, ${roundPercent(l)}%, 1)`;
+}
+function toHexaString(base2) {
+  if (typeof base2 === "string") {
+    let i;
+    if (i = hexRegex.exec(base2)) {
+      return `${i[0]}FF`;
+    } else if (i = hexaRegex.exec(base2)) {
+      return i[0];
+    } else if (i = sHexRegex.exec(base2)) {
+      return `#${i[1]}${i[1]}${i[2]}${i[2]}${i[3]}${i[3]}FF`;
+    } else if (i = sHexaRegex.exec(base2)) {
+      return `#${i[1]}${i[1]}${i[2]}${i[2]}${i[3]}${i[3]}${i[4]}${i[4]}`;
+    }
+    throw new Error(`[seemly/toHexString]: Invalid hex value ${base2}.`);
+  }
+  const hex2 = `#${base2.slice(0, 3).map((unit) => roundChannel(unit).toString(16).toUpperCase().padStart(2, "0")).join("")}`;
+  const a = base2.length === 3 ? "FF" : roundChannel(base2[3] * 255).toString(16).padStart(2, "0").toUpperCase();
+  return hex2 + a;
+}
+function toHexString(base2) {
+  if (typeof base2 === "string") {
+    let i;
+    if (i = hexRegex.exec(base2)) {
+      return i[0];
+    } else if (i = hexaRegex.exec(base2)) {
+      return i[0].slice(0, 7);
+    } else if (i = sHexRegex.exec(base2) || sHexaRegex.exec(base2)) {
+      return `#${i[1]}${i[1]}${i[2]}${i[2]}${i[3]}${i[3]}`;
+    }
+    throw new Error(`[seemly/toHexString]: Invalid hex value ${base2}.`);
+  }
+  return `#${base2.slice(0, 3).map((unit) => roundChannel(unit).toString(16).toUpperCase().padStart(2, "0")).join("")}`;
+}
+function createInjectionKey(key) {
+  return key;
 }
 const ssrContextKey = "@css-render/vue3-ssr";
 function createStyleString(id, style2) {
@@ -8484,6 +8487,118 @@ function useSsrAdapter() {
   return {
     adapter: (id, style2) => ssrAdapter(id, style2, context),
     context
+  };
+}
+const pureNumberRegex = /^(\d|\.)+$/;
+const numberRegex = /(\d|\.)+/;
+function formatLength(length, {
+  c: c2 = 1,
+  offset = 0,
+  attachPx = true
+} = {}) {
+  if (typeof length === "number") {
+    const result = (length + offset) * c2;
+    if (result === 0) return "0";
+    return `${result}px`;
+  } else if (typeof length === "string") {
+    if (pureNumberRegex.test(length)) {
+      const result = (Number(length) + offset) * c2;
+      if (attachPx) {
+        if (result === 0) return "0";
+        return `${result}px`;
+      } else {
+        return `${result}`;
+      }
+    } else {
+      const result = numberRegex.exec(length);
+      if (!result) return length;
+      return length.replace(numberRegex, String((Number(result[0]) + offset) * c2));
+    }
+  }
+  return length;
+}
+function warn(location, message) {
+  console.error(`[naive/${location}]: ${message}`);
+}
+function throwError(location, message) {
+  throw new Error(`[naive/${location}]: ${message}`);
+}
+const configProviderInjectionKey = createInjectionKey("n-config-provider");
+const defaultClsPrefix = "n";
+function useConfig(props = {}, options = {
+  defaultBordered: true
+}) {
+  const NConfigProvider = inject(configProviderInjectionKey, null);
+  return {
+    // NConfigProvider,
+    inlineThemeDisabled: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.inlineThemeDisabled,
+    mergedRtlRef: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedRtlRef,
+    mergedComponentPropsRef: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedComponentPropsRef,
+    mergedBreakpointsRef: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedBreakpointsRef,
+    mergedBorderedRef: computed(() => {
+      var _a, _b;
+      const {
+        bordered
+      } = props;
+      if (bordered !== void 0) return bordered;
+      return (_b = (_a = NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedBorderedRef.value) !== null && _a !== void 0 ? _a : options.defaultBordered) !== null && _b !== void 0 ? _b : true;
+    }),
+    mergedClsPrefixRef: NConfigProvider ? NConfigProvider.mergedClsPrefixRef : shallowRef(defaultClsPrefix),
+    namespaceRef: computed(() => NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedNamespaceRef.value)
+  };
+}
+function useMergedClsPrefix() {
+  const NConfigProvider = inject(configProviderInjectionKey, null);
+  return NConfigProvider ? NConfigProvider.mergedClsPrefixRef : shallowRef(defaultClsPrefix);
+}
+function useThemeClass(componentName, hashRef, cssVarsRef, props) {
+  if (!cssVarsRef) throwError("useThemeClass", "cssVarsRef is not passed");
+  const NConfigProvider = inject(configProviderInjectionKey, null);
+  const mergedThemeHashRef = NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedThemeHashRef;
+  const styleMountTarget = NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget;
+  const themeClassRef = ref("");
+  const ssrAdapter2 = useSsrAdapter();
+  let renderCallback;
+  const hashClassPrefix = `__${componentName}`;
+  const mountStyle = () => {
+    let finalThemeHash = hashClassPrefix;
+    const hashValue = hashRef ? hashRef.value : void 0;
+    const themeHash = mergedThemeHashRef === null || mergedThemeHashRef === void 0 ? void 0 : mergedThemeHashRef.value;
+    if (themeHash) finalThemeHash += `-${themeHash}`;
+    if (hashValue) finalThemeHash += `-${hashValue}`;
+    const {
+      themeOverrides,
+      builtinThemeOverrides
+    } = props;
+    if (themeOverrides) {
+      finalThemeHash += `-${murmur2(JSON.stringify(themeOverrides))}`;
+    }
+    if (builtinThemeOverrides) {
+      finalThemeHash += `-${murmur2(JSON.stringify(builtinThemeOverrides))}`;
+    }
+    themeClassRef.value = finalThemeHash;
+    renderCallback = () => {
+      const cssVars = cssVarsRef.value;
+      let style2 = "";
+      for (const key in cssVars) {
+        style2 += `${key}: ${cssVars[key]};`;
+      }
+      c(`.${finalThemeHash}`, style2).mount({
+        id: finalThemeHash,
+        ssr: ssrAdapter2,
+        parent: styleMountTarget
+      });
+      renderCallback = void 0;
+    };
+  };
+  watchEffect(() => {
+    mountStyle();
+  });
+  return {
+    themeClass: themeClassRef,
+    onRender: () => {
+      renderCallback === null || renderCallback === void 0 ? void 0 : renderCallback();
+    }
   };
 }
 var freeGlobal = typeof global == "object" && global && global.Object === Object && global;
@@ -9205,6 +9320,7 @@ function baseMerge(object, source, srcIndex, customizer, stack2) {
 var merge = createAssigner(function(object, source, srcIndex) {
   baseMerge(object, source, srcIndex);
 });
+const cssrAnchorMetaName = "naive-ui-style";
 const commonVariables = {
   fontFamily: 'v-sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   fontFamilyMono: "v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace",
@@ -9247,8 +9363,6 @@ const globalStyle = c("body", `
  font-family: inherit;
  font-size: inherit;
  `)]);
-const configProviderInjectionKey = createInjectionKey("n-config-provider");
-const cssrAnchorMetaName = "naive-ui-style";
 function createTheme(theme) {
   return theme;
 }
@@ -9337,83 +9451,6 @@ useTheme.props = {
   themeOverrides: Object,
   builtinThemeOverrides: Object
 };
-const defaultClsPrefix = "n";
-function useConfig(props = {}, options = {
-  defaultBordered: true
-}) {
-  const NConfigProvider = inject(configProviderInjectionKey, null);
-  return {
-    // NConfigProvider,
-    inlineThemeDisabled: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.inlineThemeDisabled,
-    mergedRtlRef: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedRtlRef,
-    mergedComponentPropsRef: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedComponentPropsRef,
-    mergedBreakpointsRef: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedBreakpointsRef,
-    mergedBorderedRef: computed(() => {
-      var _a, _b;
-      const {
-        bordered
-      } = props;
-      if (bordered !== void 0) return bordered;
-      return (_b = (_a = NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedBorderedRef.value) !== null && _a !== void 0 ? _a : options.defaultBordered) !== null && _b !== void 0 ? _b : true;
-    }),
-    mergedClsPrefixRef: NConfigProvider ? NConfigProvider.mergedClsPrefixRef : shallowRef(defaultClsPrefix),
-    namespaceRef: computed(() => NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedNamespaceRef.value)
-  };
-}
-function useMergedClsPrefix() {
-  const NConfigProvider = inject(configProviderInjectionKey, null);
-  return NConfigProvider ? NConfigProvider.mergedClsPrefixRef : shallowRef(defaultClsPrefix);
-}
-function useThemeClass(componentName, hashRef, cssVarsRef, props) {
-  if (!cssVarsRef) throwError("useThemeClass", "cssVarsRef is not passed");
-  const NConfigProvider = inject(configProviderInjectionKey, null);
-  const mergedThemeHashRef = NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.mergedThemeHashRef;
-  const styleMountTarget = NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget;
-  const themeClassRef = ref("");
-  const ssrAdapter2 = useSsrAdapter();
-  let renderCallback;
-  const hashClassPrefix = `__${componentName}`;
-  const mountStyle = () => {
-    let finalThemeHash = hashClassPrefix;
-    const hashValue = hashRef ? hashRef.value : void 0;
-    const themeHash = mergedThemeHashRef === null || mergedThemeHashRef === void 0 ? void 0 : mergedThemeHashRef.value;
-    if (themeHash) finalThemeHash += `-${themeHash}`;
-    if (hashValue) finalThemeHash += `-${hashValue}`;
-    const {
-      themeOverrides,
-      builtinThemeOverrides
-    } = props;
-    if (themeOverrides) {
-      finalThemeHash += `-${murmur2(JSON.stringify(themeOverrides))}`;
-    }
-    if (builtinThemeOverrides) {
-      finalThemeHash += `-${murmur2(JSON.stringify(builtinThemeOverrides))}`;
-    }
-    themeClassRef.value = finalThemeHash;
-    renderCallback = () => {
-      const cssVars = cssVarsRef.value;
-      let style2 = "";
-      for (const key in cssVars) {
-        style2 += `${key}: ${cssVars[key]};`;
-      }
-      c(`.${finalThemeHash}`, style2).mount({
-        id: finalThemeHash,
-        ssr: ssrAdapter2,
-        parent: styleMountTarget
-      });
-      renderCallback = void 0;
-    };
-  };
-  watchEffect(() => {
-    mountStyle();
-  });
-  return {
-    themeClass: themeClassRef,
-    onRender: () => {
-      renderCallback === null || renderCallback === void 0 ? void 0 : renderCallback();
-    }
-  };
-}
 const base = {
   neutralBase: "#FFF",
   neutralInvertBase: "#000",
@@ -9923,20 +9960,20 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
 const MarqueePlus = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-b9dd8b51"]]);
 export {
   Map$1 as $,
-  readonly as A,
-  getCurrentInstance as B,
-  Comment as C,
-  onMounted as D,
-  onBeforeUnmount as E,
-  Fragment as F,
-  onBeforeMount as G,
-  createInjectionKey as H,
+  onBeforeUnmount as A,
+  onBeforeMount as B,
+  createInjectionKey as C,
+  onActivated as D,
+  onDeactivated as E,
+  createTextVNode as F,
+  Fragment as G,
+  Comment as H,
   withDirectives as I,
   CssRender as J,
   useSsrAdapter as K,
   renderSlot as L,
-  onActivated as M,
-  onDeactivated as N,
+  warn as M,
+  isVNode as N,
   isObjectLike as O,
   baseGetTag as P,
   isArray as Q,
@@ -9991,17 +10028,17 @@ export {
   KeepAlive as a_,
   baseFor as aa,
   configProviderInjectionKey as ab,
-  cssrAnchorMetaName as ac,
-  globalStyle as ad,
-  watchEffect as ae,
-  Transition as af,
-  TransitionGroup as ag,
-  cB as ah,
-  c as ai,
-  cM as aj,
-  cNotM as ak,
-  commonVariables as al,
-  cE as am,
+  watchEffect as ac,
+  cssrAnchorMetaName as ad,
+  globalStyle as ae,
+  cB as af,
+  c as ag,
+  Transition as ah,
+  commonVariables as ai,
+  cE as aj,
+  cM as ak,
+  cNotM as al,
+  TransitionGroup as am,
   derived as an,
   useTheme as ao,
   useConfig as ap,
@@ -10049,9 +10086,9 @@ export {
   shallowRef as s,
   toRaw as t,
   unref as u,
-  createTextVNode as v,
+  queryElement as v,
   watch as w,
-  warn as x,
-  isVNode as y,
-  queryElement as z
+  readonly as x,
+  getCurrentInstance as y,
+  onMounted as z
 };

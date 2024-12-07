@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DE5ZN26C.js","./itemCardList-BKeLXgmZ.js","./font-BdOrcd3j.js","./font-DLIIhme-.css","./Ellipsis-B2-ZtpT8.js","./itemCardList-CpfjRlUH.css","./home-Cd2oFn4Z.css","./search-D7gg5PVc.js","./musicList-CcTJtvyT.js","./musicList-nLQAz02W.css","./search-Bewt89r4.css","./login-BtfwyWop.js","./login-Cg-VrOPR.css","./account-D1uSMGSd.js","./account-BE7gbH9_.css","./playlist-B-xKy5Pa.js","./playlist-D5VqYVrj.css","./setting-D-JhPJ5V.js","./setting-C7VLV5ui.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-bZBXbY4V.js","./itemCardList-C3KVV3uf.js","./font-CXcYbOso.js","./font-DLIIhme-.css","./Ellipsis-q4V6xPHB.js","./itemCardList-CpfjRlUH.css","./home-Cd2oFn4Z.css","./search-CVpUDHX6.js","./musicList-Bn6TwAB2.js","./musicList-nLQAz02W.css","./search-Bewt89r4.css","./login-CwajMqGp.js","./login-Cg-VrOPR.css","./account-0hqmP2Ii.js","./account-BE7gbH9_.css","./playlist-D_AzzDbN.js","./playlist-B2M2U1U0.css","./setting-N6AA43Nm.js","./setting-C7VLV5ui.css"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -98,7 +98,7 @@ var __yieldStar = (value) => {
   }, "return" in obj && method("return"), it;
 };
 var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
-import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as createTextVNode, F as Fragment, C as Comment, x as warn$2, y as isVNode, z as queryElement, A as readonly, B as getCurrentInstance, D as onMounted, E as onBeforeUnmount, G as onBeforeMount, H as createInjectionKey, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as onActivated, N as onDeactivated, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as cssrAnchorMetaName$1, ad as globalStyle, ae as watchEffect, af as Transition, ag as TransitionGroup, ah as cB, ai as c$1, aj as cM, ak as cNotM, al as commonVariables$7, am as cE, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-BdOrcd3j.js";
+import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as warn$2, N as isVNode, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as watchEffect, ad as cssrAnchorMetaName$1, ae as globalStyle, af as cB, ag as c$1, ah as Transition, ai as commonVariables$7, aj as cE, ak as cM, al as cNotM, am as TransitionGroup, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-CXcYbOso.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -175,7 +175,7 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
   });
 };
 /*!
-  * vue-router v4.4.5
+  * vue-router v4.5.0
   * (c) 2024 Eduardo San Martin Morote
   * @license MIT
   */
@@ -693,7 +693,7 @@ function tokensToParser(segments, extraOptions) {
     pattern += "/?";
   if (options.end)
     pattern += "$";
-  else if (options.strict)
+  else if (options.strict && !pattern.endsWith("/"))
     pattern += "(?:/|$)";
   const re = new RegExp(pattern, options.sensitive ? "" : "i");
   function parse(path) {
@@ -970,8 +970,9 @@ function createRouterMatcher(routes, globalOptions) {
         originalMatcher = originalMatcher || matcher;
         if (originalMatcher !== matcher)
           originalMatcher.alias.push(matcher);
-        if (isRootAdd && record.name && !isAliasRecord(matcher))
+        if (isRootAdd && record.name && !isAliasRecord(matcher)) {
           removeRoute(record.name);
+        }
       }
       if (isMatchable(matcher)) {
         insertMatcher(matcher);
@@ -1348,10 +1349,14 @@ function useLink(props) {
   const isExactActive = computed(() => activeRecordIndex.value > -1 && activeRecordIndex.value === currentRoute.matched.length - 1 && isSameRouteLocationParams(currentRoute.params, route.value.params));
   function navigate(e2 = {}) {
     if (guardEvent(e2)) {
-      return router2[unref(props.replace) ? "replace" : "push"](
+      const p = router2[unref(props.replace) ? "replace" : "push"](
         unref(props.to)
         // avoid uncaught errors are they are logged anyway
       ).catch(noop$2);
+      if (props.viewTransition && typeof document !== "undefined" && "startViewTransition" in document) {
+        document.startViewTransition(() => p);
+      }
+      return p;
     }
     return Promise.resolve();
   }
@@ -1362,6 +1367,9 @@ function useLink(props) {
     isExactActive,
     navigate
   };
+}
+function preferSingleVNode(vnodes) {
+  return vnodes.length === 1 ? vnodes[0] : vnodes;
 }
 const RouterLinkImpl = /* @__PURE__ */ defineComponent({
   name: "RouterLink",
@@ -1395,7 +1403,7 @@ const RouterLinkImpl = /* @__PURE__ */ defineComponent({
       [getLinkClass(props.exactActiveClass, options.linkExactActiveClass, "router-link-exact-active")]: link.isExactActive
     }));
     return () => {
-      const children = slots.default && slots.default(link);
+      const children = slots.default && preferSingleVNode(slots.default(link));
       return props.custom ? children : h("a", {
         "aria-current": link.isExactActive ? props.ariaCurrentValue : null,
         href: link.href,
@@ -1829,7 +1837,7 @@ function createRouter(options) {
       const toLocation = resolve(to);
       const shouldRedirect = handleRedirectRecord(toLocation);
       if (shouldRedirect) {
-        pushWithRedirect(assign$1(shouldRedirect, { replace: true }), toLocation).catch(noop$2);
+        pushWithRedirect(assign$1(shouldRedirect, { replace: true, force: true }), toLocation).catch(noop$2);
         return;
       }
       pendingLocation = toLocation;
@@ -1851,7 +1859,9 @@ function createRouter(options) {
           /* ErrorTypes.NAVIGATION_GUARD_REDIRECT */
         )) {
           pushWithRedirect(
-            error2.to,
+            assign$1(locationAsObject(error2.to), {
+              force: true
+            }),
             toLocation
             // avoid an uncaught rejection, let push call triggerError
           ).then((failure) => {
@@ -2037,7 +2047,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-DE5ZN26C.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-bZBXbY4V.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2048,7 +2058,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-D7gg5PVc.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CVpUDHX6.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2059,7 +2069,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BtfwyWop.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CwajMqGp.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2067,7 +2077,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-D1uSMGSd.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-0hqmP2Ii.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2078,7 +2088,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-B-xKy5Pa.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-D_AzzDbN.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2089,7 +2099,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-D-JhPJ5V.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-N6AA43Nm.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2101,7 +2111,7 @@ const router = createRouter({
 });
 var isVue2 = false;
 /*!
- * pinia v2.2.5
+ * pinia v2.3.0
  * (c) 2024 Eduardo San Martin Morote
  * @license MIT
  */
@@ -2456,7 +2466,15 @@ function storeToRefs(store) {
     const refs = {};
     for (const key in rawStore) {
       const value = rawStore[key];
-      if (isRef(value) || isReactive(value)) {
+      if (value.effect) {
+        refs[key] = // ...
+        computed({
+          get: () => store[key],
+          set(value2) {
+            store[key] = value2;
+          }
+        });
+      } else if (isRef(value) || isReactive(value)) {
         refs[key] = // ---
         toRef(store, key);
       }
@@ -2465,6 +2483,15 @@ function storeToRefs(store) {
   }
 }
 const pinia = createPinia();
+function exists(id, ssr) {
+  if (id === void 0)
+    return false;
+  if (ssr) {
+    const { context: { ids } } = ssr;
+    return ids.has(id);
+  }
+  return queryElement(id) !== null;
+}
 let onceCbs = [];
 const paramsMap = /* @__PURE__ */ new WeakMap();
 function flushOnceCallbacks() {
@@ -2544,245 +2571,6 @@ function getMargin(value, position) {
 }
 function createId(length = 8) {
   return Math.random().toString(16).slice(2, 2 + length);
-}
-function keep(object, keys2 = [], rest) {
-  const keepedObject = {};
-  keys2.forEach((key) => {
-    keepedObject[key] = object[key];
-  });
-  return Object.assign(keepedObject, rest);
-}
-function omit(object, keys2 = [], rest) {
-  const omitedObject = {};
-  const originalKeys = Object.getOwnPropertyNames(object);
-  originalKeys.forEach((originalKey) => {
-    if (!keys2.includes(originalKey)) {
-      omitedObject[originalKey] = object[originalKey];
-    }
-  });
-  return Object.assign(omitedObject, rest);
-}
-function flatten$2(vNodes, filterCommentNode = true, result = []) {
-  vNodes.forEach((vNode) => {
-    if (vNode === null) return;
-    if (typeof vNode !== "object") {
-      if (typeof vNode === "string" || typeof vNode === "number") {
-        result.push(createTextVNode(String(vNode)));
-      }
-      return;
-    }
-    if (Array.isArray(vNode)) {
-      flatten$2(vNode, filterCommentNode, result);
-      return;
-    }
-    if (vNode.type === Fragment) {
-      if (vNode.children === null) return;
-      if (Array.isArray(vNode.children)) {
-        flatten$2(vNode.children, filterCommentNode, result);
-      }
-    } else {
-      if (vNode.type === Comment && filterCommentNode) return;
-      result.push(vNode);
-    }
-  });
-  return result;
-}
-function call(funcs, ...args) {
-  if (Array.isArray(funcs)) {
-    funcs.forEach((func) => call(func, ...args));
-  } else {
-    return funcs(...args);
-  }
-}
-function keysOf(obj) {
-  return Object.keys(obj);
-}
-function render$j(r2, ...args) {
-  if (typeof r2 === "function") {
-    return r2(...args);
-  } else if (typeof r2 === "string") {
-    return createTextVNode(r2);
-  } else if (typeof r2 === "number") {
-    return createTextVNode(String(r2));
-  } else {
-    return null;
-  }
-}
-function getFirstSlotVNode(slots, slotName = "default", props = void 0) {
-  const slot = slots[slotName];
-  if (!slot) {
-    warn$2("getFirstSlotVNode", `slot[${slotName}] is empty`);
-    return null;
-  }
-  const slotContent = flatten$2(slot(props));
-  if (slotContent.length === 1) {
-    return slotContent[0];
-  } else {
-    warn$2("getFirstSlotVNode", `slot[${slotName}] should have exactly one child`);
-    return null;
-  }
-}
-function createRefSetter(ref2) {
-  return (inst) => {
-    if (inst) {
-      ref2.value = inst.$el;
-    } else {
-      ref2.value = null;
-    }
-  };
-}
-function ensureValidVNode(vnodes) {
-  return vnodes.some((child) => {
-    if (!isVNode(child)) {
-      return true;
-    }
-    if (child.type === Comment) {
-      return false;
-    }
-    if (child.type === Fragment && !ensureValidVNode(child.children)) {
-      return false;
-    }
-    return true;
-  }) ? vnodes : null;
-}
-function resolveSlot(slot, fallback) {
-  return slot && ensureValidVNode(slot()) || fallback();
-}
-function resolveSlotWithProps(slot, props, fallback) {
-  return slot && ensureValidVNode(slot(props)) || fallback(props);
-}
-function resolveWrappedSlot(slot, wrapper) {
-  const children = slot && ensureValidVNode(slot());
-  return wrapper(children || null);
-}
-function isSlotEmpty(slot) {
-  return !(slot && ensureValidVNode(slot()));
-}
-const Wrapper = defineComponent({
-  render() {
-    var _a, _b;
-    return (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a);
-  }
-});
-function color2Class(color) {
-  return color.replace(/#|\(|\)|,|\s|\./g, "_");
-}
-function rtlInset(inset) {
-  const {
-    left,
-    right,
-    top,
-    bottom
-  } = getMargin(inset);
-  return `${top} ${right} ${bottom} ${left}`;
-}
-function exists(id, ssr) {
-  if (id === void 0)
-    return false;
-  if (ssr) {
-    const { context: { ids } } = ssr;
-    return ids.has(id);
-  }
-  return queryElement(id) !== null;
-}
-let _isJsdom;
-function isJsdom() {
-  if (_isJsdom === void 0) {
-    _isJsdom = navigator.userAgent.includes("Node.js") || navigator.userAgent.includes("jsdom");
-  }
-  return _isJsdom;
-}
-const isBrowser$1 = typeof document !== "undefined" && typeof window !== "undefined";
-const eventSet = /* @__PURE__ */ new WeakSet();
-function eventEffectNotPerformed(event) {
-  return !eventSet.has(event);
-}
-function useDeferredTrue(valueRef, delay, shouldDelayRef) {
-  const delayedRef = ref(valueRef.value);
-  let timerId = null;
-  watch(valueRef, (value) => {
-    if (timerId !== null) window.clearTimeout(timerId);
-    if (value === true) {
-      if (shouldDelayRef && !shouldDelayRef.value) {
-        delayedRef.value = true;
-      } else {
-        timerId = window.setTimeout(() => {
-          delayedRef.value = true;
-        }, delay);
-      }
-    } else {
-      delayedRef.value = false;
-    }
-  });
-  return delayedRef;
-}
-function useFalseUntilTruthy(originalRef) {
-  const currentRef = ref(!!originalRef.value);
-  if (currentRef.value)
-    return readonly(currentRef);
-  const stop = watch(originalRef, (value) => {
-    if (value) {
-      currentRef.value = true;
-      stop();
-    }
-  });
-  return readonly(currentRef);
-}
-function useMemo(getterOrOptions) {
-  const computedValueRef = computed(getterOrOptions);
-  const valueRef = ref(computedValueRef.value);
-  watch(computedValueRef, (value) => {
-    valueRef.value = value;
-  });
-  if (typeof getterOrOptions === "function") {
-    return valueRef;
-  } else {
-    return {
-      __v_isRef: true,
-      get value() {
-        return valueRef.value;
-      },
-      set value(v) {
-        getterOrOptions.set(v);
-      }
-    };
-  }
-}
-function hasInstance() {
-  return getCurrentInstance() !== null;
-}
-const isBrowser = typeof window !== "undefined";
-let fontsReady;
-let isFontReady;
-const init = () => {
-  var _a, _b;
-  fontsReady = isBrowser ? (_b = (_a = document) === null || _a === void 0 ? void 0 : _a.fonts) === null || _b === void 0 ? void 0 : _b.ready : void 0;
-  isFontReady = false;
-  if (fontsReady !== void 0) {
-    void fontsReady.then(() => {
-      isFontReady = true;
-    });
-  } else {
-    isFontReady = true;
-  }
-};
-init();
-function onFontsReady(cb) {
-  if (isFontReady)
-    return;
-  let deactivated = false;
-  onMounted(() => {
-    if (!isFontReady) {
-      fontsReady === null || fontsReady === void 0 ? void 0 : fontsReady.then(() => {
-        if (deactivated)
-          return;
-        cb();
-      });
-    }
-  });
-  onBeforeUnmount(() => {
-    deactivated = true;
-  });
 }
 function getEventTarget(e2) {
   const path = e2.composedPath();
@@ -3102,6 +2890,74 @@ function createDelegate() {
   };
 }
 const { on, off } = createDelegate();
+function useFalseUntilTruthy(originalRef) {
+  const currentRef = ref(!!originalRef.value);
+  if (currentRef.value)
+    return readonly(currentRef);
+  const stop = watch(originalRef, (value) => {
+    if (value) {
+      currentRef.value = true;
+      stop();
+    }
+  });
+  return readonly(currentRef);
+}
+function useMemo(getterOrOptions) {
+  const computedValueRef = computed(getterOrOptions);
+  const valueRef = ref(computedValueRef.value);
+  watch(computedValueRef, (value) => {
+    valueRef.value = value;
+  });
+  if (typeof getterOrOptions === "function") {
+    return valueRef;
+  } else {
+    return {
+      __v_isRef: true,
+      get value() {
+        return valueRef.value;
+      },
+      set value(v) {
+        getterOrOptions.set(v);
+      }
+    };
+  }
+}
+function hasInstance() {
+  return getCurrentInstance() !== null;
+}
+const isBrowser$1 = typeof window !== "undefined";
+let fontsReady;
+let isFontReady;
+const init = () => {
+  var _a, _b;
+  fontsReady = isBrowser$1 ? (_b = (_a = document) === null || _a === void 0 ? void 0 : _a.fonts) === null || _b === void 0 ? void 0 : _b.ready : void 0;
+  isFontReady = false;
+  if (fontsReady !== void 0) {
+    void fontsReady.then(() => {
+      isFontReady = true;
+    });
+  } else {
+    isFontReady = true;
+  }
+};
+init();
+function onFontsReady(cb) {
+  if (isFontReady)
+    return;
+  let deactivated = false;
+  onMounted(() => {
+    if (!isFontReady) {
+      fontsReady === null || fontsReady === void 0 ? void 0 : fontsReady.then(() => {
+        if (deactivated)
+          return;
+        cb();
+      });
+    }
+  });
+  onBeforeUnmount(() => {
+    deactivated = true;
+  });
+}
 const mousePositionRef = ref(null);
 function clickHandler(e2) {
   if (e2.clientX > 0 || e2.clientY > 0) {
@@ -3129,7 +2985,7 @@ function clickHandler(e2) {
 let usedCount$1 = 0;
 let managable$1 = true;
 function useClickPosition() {
-  if (!isBrowser)
+  if (!isBrowser$1)
     return readonly(ref(null));
   if (usedCount$1 === 0)
     on("click", document, clickHandler, true);
@@ -3155,7 +3011,7 @@ function handleClick() {
 }
 let managable = true;
 function useClicked(timeout) {
-  if (!isBrowser)
+  if (!isBrowser$1)
     return readonly(ref(false));
   const clickedRef = ref(false);
   let timerId = null;
@@ -3334,10 +3190,10 @@ function useKeyboard(options = {}, enabledRef) {
   return readonly(state);
 }
 const internalSelectionMenuBodyInjectionKey = createInjectionKey("n-internal-select-menu-body");
+const drawerBodyInjectionKey = createInjectionKey("n-drawer-body");
 const modalBodyInjectionKey = createInjectionKey("n-modal-body");
 const modalProviderInjectionKey$1 = createInjectionKey("n-modal-provider");
 const modalInjectionKey = createInjectionKey("n-modal");
-const drawerBodyInjectionKey = createInjectionKey("n-drawer-body");
 const popoverBodyInjectionKey = createInjectionKey("n-popover-body");
 const teleportDisabled = "__disabled__";
 function useAdjustedTo(props) {
@@ -3382,6 +3238,135 @@ useAdjustedTo.propTo = {
   type: [String, Object, Boolean],
   default: void 0
 };
+function useDeferredTrue(valueRef, delay, shouldDelayRef) {
+  const delayedRef = ref(valueRef.value);
+  let timerId = null;
+  watch(valueRef, (value) => {
+    if (timerId !== null) window.clearTimeout(timerId);
+    if (value === true) {
+      if (shouldDelayRef && !shouldDelayRef.value) {
+        delayedRef.value = true;
+      } else {
+        timerId = window.setTimeout(() => {
+          delayedRef.value = true;
+        }, delay);
+      }
+    } else {
+      delayedRef.value = false;
+    }
+  });
+  return delayedRef;
+}
+const isBrowser = typeof document !== "undefined" && typeof window !== "undefined";
+const isComposingRef = ref(false);
+function compositionStartHandler() {
+  isComposingRef.value = true;
+}
+function compositionEndHandler() {
+  isComposingRef.value = false;
+}
+let mountedCount = 0;
+function useIsComposing() {
+  if (isBrowser) {
+    onBeforeMount(() => {
+      if (!mountedCount) {
+        window.addEventListener("compositionstart", compositionStartHandler);
+        window.addEventListener("compositionend", compositionEndHandler);
+      }
+      mountedCount++;
+    });
+    onBeforeUnmount(() => {
+      if (mountedCount <= 1) {
+        window.removeEventListener("compositionstart", compositionStartHandler);
+        window.removeEventListener("compositionend", compositionEndHandler);
+        mountedCount = 0;
+      } else {
+        mountedCount--;
+      }
+    });
+  }
+  return isComposingRef;
+}
+let lockCount = 0;
+let originalMarginRight = "";
+let originalOverflow = "";
+let originalOverflowX = "";
+let originalOverflowY = "";
+const lockHtmlScrollRightCompensationRef = ref("0px");
+function useLockHtmlScroll(lockRef) {
+  if (typeof document === "undefined") return;
+  const el = document.documentElement;
+  let watchStopHandle;
+  let activated = false;
+  const unlock = () => {
+    el.style.marginRight = originalMarginRight;
+    el.style.overflow = originalOverflow;
+    el.style.overflowX = originalOverflowX;
+    el.style.overflowY = originalOverflowY;
+    lockHtmlScrollRightCompensationRef.value = "0px";
+  };
+  onMounted(() => {
+    watchStopHandle = watch(lockRef, (value) => {
+      if (value) {
+        if (!lockCount) {
+          const scrollbarWidth = window.innerWidth - el.offsetWidth;
+          if (scrollbarWidth > 0) {
+            originalMarginRight = el.style.marginRight;
+            el.style.marginRight = `${scrollbarWidth}px`;
+            lockHtmlScrollRightCompensationRef.value = `${scrollbarWidth}px`;
+          }
+          originalOverflow = el.style.overflow;
+          originalOverflowX = el.style.overflowX;
+          originalOverflowY = el.style.overflowY;
+          el.style.overflow = "hidden";
+          el.style.overflowX = "hidden";
+          el.style.overflowY = "hidden";
+        }
+        activated = true;
+        lockCount++;
+      } else {
+        lockCount--;
+        if (!lockCount) {
+          unlock();
+        }
+        activated = false;
+      }
+    }, {
+      immediate: true
+    });
+  });
+  onBeforeUnmount(() => {
+    watchStopHandle === null || watchStopHandle === void 0 ? void 0 : watchStopHandle();
+    if (activated) {
+      lockCount--;
+      if (!lockCount) {
+        unlock();
+      }
+      activated = false;
+    }
+  });
+}
+function useReactivated(callback) {
+  const isDeactivatedRef = {
+    isDeactivated: false
+  };
+  let activateStateInitialized = false;
+  onActivated(() => {
+    isDeactivatedRef.isDeactivated = false;
+    if (!activateStateInitialized) {
+      activateStateInitialized = true;
+      return;
+    }
+    callback();
+  });
+  onDeactivated(() => {
+    isDeactivatedRef.isDeactivated = true;
+    if (!activateStateInitialized) {
+      activateStateInitialized = true;
+    }
+  });
+  return isDeactivatedRef;
+}
 function getSlot(scope, slots, slotName = "default") {
   const slot = slots[slotName];
   if (slot === void 0) {
@@ -3389,7 +3374,7 @@ function getSlot(scope, slots, slotName = "default") {
   }
   return slot();
 }
-function flatten$1(vNodes, filterCommentNode = true, result = []) {
+function flatten$2(vNodes, filterCommentNode = true, result = []) {
   vNodes.forEach((vNode) => {
     if (vNode === null)
       return;
@@ -3400,14 +3385,14 @@ function flatten$1(vNodes, filterCommentNode = true, result = []) {
       return;
     }
     if (Array.isArray(vNode)) {
-      flatten$1(vNode, filterCommentNode, result);
+      flatten$2(vNode, filterCommentNode, result);
       return;
     }
     if (vNode.type === Fragment) {
       if (vNode.children === null)
         return;
       if (Array.isArray(vNode.children)) {
-        flatten$1(vNode.children, filterCommentNode, result);
+        flatten$2(vNode.children, filterCommentNode, result);
       }
     } else if (vNode.type !== Comment) {
       result.push(vNode);
@@ -3420,7 +3405,7 @@ function getFirstVNode(scope, slots, slotName = "default") {
   if (slot === void 0) {
     throw new Error(`[vueuc/${scope}]: slot[${slotName}] is empty.`);
   }
-  const content = flatten$1(slot());
+  const content = flatten$2(slot());
   if (content.length === 1) {
     return content[0];
   } else {
@@ -5360,115 +5345,148 @@ const FocusTrap = defineComponent({
     ]);
   }
 });
-let lockCount = 0;
-let originalMarginRight = "";
-let originalOverflow = "";
-let originalOverflowX = "";
-let originalOverflowY = "";
-const lockHtmlScrollRightCompensationRef = ref("0px");
-function useLockHtmlScroll(lockRef) {
-  if (typeof document === "undefined") return;
-  const el = document.documentElement;
-  let watchStopHandle;
-  let activated = false;
-  const unlock = () => {
-    el.style.marginRight = originalMarginRight;
-    el.style.overflow = originalOverflow;
-    el.style.overflowX = originalOverflowX;
-    el.style.overflowY = originalOverflowY;
-    lockHtmlScrollRightCompensationRef.value = "0px";
-  };
-  onMounted(() => {
-    watchStopHandle = watch(lockRef, (value) => {
-      if (value) {
-        if (!lockCount) {
-          const scrollbarWidth = window.innerWidth - el.offsetWidth;
-          if (scrollbarWidth > 0) {
-            originalMarginRight = el.style.marginRight;
-            el.style.marginRight = `${scrollbarWidth}px`;
-            lockHtmlScrollRightCompensationRef.value = `${scrollbarWidth}px`;
-          }
-          originalOverflow = el.style.overflow;
-          originalOverflowX = el.style.overflowX;
-          originalOverflowY = el.style.overflowY;
-          el.style.overflow = "hidden";
-          el.style.overflowX = "hidden";
-          el.style.overflowY = "hidden";
-        }
-        activated = true;
-        lockCount++;
-      } else {
-        lockCount--;
-        if (!lockCount) {
-          unlock();
-        }
-        activated = false;
-      }
-    }, {
-      immediate: true
-    });
-  });
-  onBeforeUnmount(() => {
-    watchStopHandle === null || watchStopHandle === void 0 ? void 0 : watchStopHandle();
-    if (activated) {
-      lockCount--;
-      if (!lockCount) {
-        unlock();
-      }
-      activated = false;
-    }
-  });
+function color2Class(color) {
+  return color.replace(/#|\(|\)|,|\s|\./g, "_");
 }
-const isComposingRef = ref(false);
-function compositionStartHandler() {
-  isComposingRef.value = true;
+function rtlInset(inset) {
+  const {
+    left,
+    right,
+    top,
+    bottom
+  } = getMargin(inset);
+  return `${top} ${right} ${bottom} ${left}`;
 }
-function compositionEndHandler() {
-  isComposingRef.value = false;
-}
-let mountedCount = 0;
-function useIsComposing() {
-  if (isBrowser$1) {
-    onBeforeMount(() => {
-      if (!mountedCount) {
-        window.addEventListener("compositionstart", compositionStartHandler);
-        window.addEventListener("compositionend", compositionEndHandler);
-      }
-      mountedCount++;
-    });
-    onBeforeUnmount(() => {
-      if (mountedCount <= 1) {
-        window.removeEventListener("compositionstart", compositionStartHandler);
-        window.removeEventListener("compositionend", compositionEndHandler);
-        mountedCount = 0;
-      } else {
-        mountedCount--;
-      }
-    });
+let _isJsdom;
+function isJsdom() {
+  if (_isJsdom === void 0) {
+    _isJsdom = navigator.userAgent.includes("Node.js") || navigator.userAgent.includes("jsdom");
   }
-  return isComposingRef;
+  return _isJsdom;
 }
-function useReactivated(callback) {
-  const isDeactivatedRef = {
-    isDeactivated: false
+const eventSet = /* @__PURE__ */ new WeakSet();
+function eventEffectNotPerformed(event) {
+  return !eventSet.has(event);
+}
+function call(funcs, ...args) {
+  if (Array.isArray(funcs)) {
+    funcs.forEach((func) => call(func, ...args));
+  } else {
+    return funcs(...args);
+  }
+}
+function createRefSetter(ref2) {
+  return (inst) => {
+    if (inst) {
+      ref2.value = inst.$el;
+    } else {
+      ref2.value = null;
+    }
   };
-  let activateStateInitialized = false;
-  onActivated(() => {
-    isDeactivatedRef.isDeactivated = false;
-    if (!activateStateInitialized) {
-      activateStateInitialized = true;
+}
+function flatten$1(vNodes, filterCommentNode = true, result = []) {
+  vNodes.forEach((vNode) => {
+    if (vNode === null) return;
+    if (typeof vNode !== "object") {
+      if (typeof vNode === "string" || typeof vNode === "number") {
+        result.push(createTextVNode(String(vNode)));
+      }
       return;
     }
-    callback();
-  });
-  onDeactivated(() => {
-    isDeactivatedRef.isDeactivated = true;
-    if (!activateStateInitialized) {
-      activateStateInitialized = true;
+    if (Array.isArray(vNode)) {
+      flatten$1(vNode, filterCommentNode, result);
+      return;
+    }
+    if (vNode.type === Fragment) {
+      if (vNode.children === null) return;
+      if (Array.isArray(vNode.children)) {
+        flatten$1(vNode.children, filterCommentNode, result);
+      }
+    } else {
+      if (vNode.type === Comment && filterCommentNode) return;
+      result.push(vNode);
     }
   });
-  return isDeactivatedRef;
+  return result;
 }
+function getFirstSlotVNode(slots, slotName = "default", props = void 0) {
+  const slot = slots[slotName];
+  if (!slot) {
+    warn$2("getFirstSlotVNode", `slot[${slotName}] is empty`);
+    return null;
+  }
+  const slotContent = flatten$1(slot(props));
+  if (slotContent.length === 1) {
+    return slotContent[0];
+  } else {
+    warn$2("getFirstSlotVNode", `slot[${slotName}] should have exactly one child`);
+    return null;
+  }
+}
+function keep(object, keys2 = [], rest) {
+  const keepedObject = {};
+  keys2.forEach((key) => {
+    keepedObject[key] = object[key];
+  });
+  return Object.assign(keepedObject, rest);
+}
+function keysOf(obj) {
+  return Object.keys(obj);
+}
+function omit(object, keys2 = [], rest) {
+  const omitedObject = {};
+  const originalKeys = Object.getOwnPropertyNames(object);
+  originalKeys.forEach((originalKey) => {
+    if (!keys2.includes(originalKey)) {
+      omitedObject[originalKey] = object[originalKey];
+    }
+  });
+  return Object.assign(omitedObject, rest);
+}
+function render$j(r2, ...args) {
+  if (typeof r2 === "function") {
+    return r2(...args);
+  } else if (typeof r2 === "string") {
+    return createTextVNode(r2);
+  } else if (typeof r2 === "number") {
+    return createTextVNode(String(r2));
+  } else {
+    return null;
+  }
+}
+function ensureValidVNode(vnodes) {
+  return vnodes.some((child) => {
+    if (!isVNode(child)) {
+      return true;
+    }
+    if (child.type === Comment) {
+      return false;
+    }
+    if (child.type === Fragment && !ensureValidVNode(child.children)) {
+      return false;
+    }
+    return true;
+  }) ? vnodes : null;
+}
+function resolveSlot(slot, fallback) {
+  return slot && ensureValidVNode(slot()) || fallback();
+}
+function resolveSlotWithProps(slot, props, fallback) {
+  return slot && ensureValidVNode(slot(props)) || fallback(props);
+}
+function resolveWrappedSlot(slot, wrapper) {
+  const children = slot && ensureValidVNode(slot());
+  return wrapper(children || null);
+}
+function isSlotEmpty(slot) {
+  return !(slot && ensureValidVNode(slot()));
+}
+const Wrapper = defineComponent({
+  render() {
+    var _a, _b;
+    return (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a);
+  }
+});
 const formItemInjectionKey = createInjectionKey("n-form-item");
 function useFormItem(props, {
   defaultSize = "medium",
@@ -5541,622 +5559,6 @@ function useFormItem(props, {
       }
     }
   };
-}
-var symbolTag$1 = "[object Symbol]";
-function isSymbol(value) {
-  return typeof value == "symbol" || isObjectLike(value) && baseGetTag(value) == symbolTag$1;
-}
-function arrayMap(array, iteratee) {
-  var index = -1, length = array == null ? 0 : array.length, result = Array(length);
-  while (++index < length) {
-    result[index] = iteratee(array[index], index, array);
-  }
-  return result;
-}
-var INFINITY$1 = 1 / 0;
-var symbolProto$1 = Symbol$1 ? Symbol$1.prototype : void 0, symbolToString = symbolProto$1 ? symbolProto$1.toString : void 0;
-function baseToString(value) {
-  if (typeof value == "string") {
-    return value;
-  }
-  if (isArray$2(value)) {
-    return arrayMap(value, baseToString) + "";
-  }
-  if (isSymbol(value)) {
-    return symbolToString ? symbolToString.call(value) : "";
-  }
-  var result = value + "";
-  return result == "0" && 1 / value == -INFINITY$1 ? "-0" : result;
-}
-var WeakMap$1 = getNative(root, "WeakMap");
-var nativeKeys = overArg(Object.keys, Object);
-var objectProto$3 = Object.prototype;
-var hasOwnProperty$3 = objectProto$3.hasOwnProperty;
-function baseKeys(object) {
-  if (!isPrototype(object)) {
-    return nativeKeys(object);
-  }
-  var result = [];
-  for (var key in Object(object)) {
-    if (hasOwnProperty$3.call(object, key) && key != "constructor") {
-      result.push(key);
-    }
-  }
-  return result;
-}
-function keys(object) {
-  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
-}
-var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/, reIsPlainProp = /^\w*$/;
-function isKey(value, object) {
-  if (isArray$2(value)) {
-    return false;
-  }
-  var type = typeof value;
-  if (type == "number" || type == "symbol" || type == "boolean" || value == null || isSymbol(value)) {
-    return true;
-  }
-  return reIsPlainProp.test(value) || !reIsDeepProp.test(value) || object != null && value in Object(object);
-}
-var FUNC_ERROR_TEXT = "Expected a function";
-function memoize(func, resolver) {
-  if (typeof func != "function" || resolver != null && typeof resolver != "function") {
-    throw new TypeError(FUNC_ERROR_TEXT);
-  }
-  var memoized = function() {
-    var args = arguments, key = resolver ? resolver.apply(this, args) : args[0], cache2 = memoized.cache;
-    if (cache2.has(key)) {
-      return cache2.get(key);
-    }
-    var result = func.apply(this, args);
-    memoized.cache = cache2.set(key, result) || cache2;
-    return result;
-  };
-  memoized.cache = new (memoize.Cache || MapCache)();
-  return memoized;
-}
-memoize.Cache = MapCache;
-var MAX_MEMOIZE_SIZE = 500;
-function memoizeCapped(func) {
-  var result = memoize(func, function(key) {
-    if (cache2.size === MAX_MEMOIZE_SIZE) {
-      cache2.clear();
-    }
-    return key;
-  });
-  var cache2 = result.cache;
-  return result;
-}
-var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
-var reEscapeChar = /\\(\\)?/g;
-var stringToPath = memoizeCapped(function(string) {
-  var result = [];
-  if (string.charCodeAt(0) === 46) {
-    result.push("");
-  }
-  string.replace(rePropName, function(match2, number, quote, subString) {
-    result.push(quote ? subString.replace(reEscapeChar, "$1") : number || match2);
-  });
-  return result;
-});
-function toString$1(value) {
-  return value == null ? "" : baseToString(value);
-}
-function castPath(value, object) {
-  if (isArray$2(value)) {
-    return value;
-  }
-  return isKey(value, object) ? [value] : stringToPath(toString$1(value));
-}
-var INFINITY = 1 / 0;
-function toKey(value) {
-  if (typeof value == "string" || isSymbol(value)) {
-    return value;
-  }
-  var result = value + "";
-  return result == "0" && 1 / value == -INFINITY ? "-0" : result;
-}
-function baseGet(object, path) {
-  path = castPath(path, object);
-  var index = 0, length = path.length;
-  while (object != null && index < length) {
-    object = object[toKey(path[index++])];
-  }
-  return index && index == length ? object : void 0;
-}
-function get(object, path, defaultValue) {
-  var result = object == null ? void 0 : baseGet(object, path);
-  return result === void 0 ? defaultValue : result;
-}
-function arrayPush(array, values) {
-  var index = -1, length = values.length, offset = array.length;
-  while (++index < length) {
-    array[offset + index] = values[index];
-  }
-  return array;
-}
-function baseSlice(array, start, end) {
-  var index = -1, length = array.length;
-  if (start < 0) {
-    start = -start > length ? 0 : length + start;
-  }
-  end = end > length ? length : end;
-  if (end < 0) {
-    end += length;
-  }
-  length = start > end ? 0 : end - start >>> 0;
-  start >>>= 0;
-  var result = Array(length);
-  while (++index < length) {
-    result[index] = array[index + start];
-  }
-  return result;
-}
-function castSlice(array, start, end) {
-  var length = array.length;
-  end = end === void 0 ? length : end;
-  return !start && end >= length ? array : baseSlice(array, start, end);
-}
-var rsAstralRange$1 = "\\ud800-\\udfff", rsComboMarksRange$1 = "\\u0300-\\u036f", reComboHalfMarksRange$1 = "\\ufe20-\\ufe2f", rsComboSymbolsRange$1 = "\\u20d0-\\u20ff", rsComboRange$1 = rsComboMarksRange$1 + reComboHalfMarksRange$1 + rsComboSymbolsRange$1, rsVarRange$1 = "\\ufe0e\\ufe0f";
-var rsZWJ$1 = "\\u200d";
-var reHasUnicode = RegExp("[" + rsZWJ$1 + rsAstralRange$1 + rsComboRange$1 + rsVarRange$1 + "]");
-function hasUnicode(string) {
-  return reHasUnicode.test(string);
-}
-function asciiToArray(string) {
-  return string.split("");
-}
-var rsAstralRange = "\\ud800-\\udfff", rsComboMarksRange = "\\u0300-\\u036f", reComboHalfMarksRange = "\\ufe20-\\ufe2f", rsComboSymbolsRange = "\\u20d0-\\u20ff", rsComboRange = rsComboMarksRange + reComboHalfMarksRange + rsComboSymbolsRange, rsVarRange = "\\ufe0e\\ufe0f";
-var rsAstral = "[" + rsAstralRange + "]", rsCombo = "[" + rsComboRange + "]", rsFitz = "\\ud83c[\\udffb-\\udfff]", rsModifier = "(?:" + rsCombo + "|" + rsFitz + ")", rsNonAstral = "[^" + rsAstralRange + "]", rsRegional = "(?:\\ud83c[\\udde6-\\uddff]){2}", rsSurrPair = "[\\ud800-\\udbff][\\udc00-\\udfff]", rsZWJ = "\\u200d";
-var reOptMod = rsModifier + "?", rsOptVar = "[" + rsVarRange + "]?", rsOptJoin = "(?:" + rsZWJ + "(?:" + [rsNonAstral, rsRegional, rsSurrPair].join("|") + ")" + rsOptVar + reOptMod + ")*", rsSeq = rsOptVar + reOptMod + rsOptJoin, rsSymbol = "(?:" + [rsNonAstral + rsCombo + "?", rsCombo, rsRegional, rsSurrPair, rsAstral].join("|") + ")";
-var reUnicode = RegExp(rsFitz + "(?=" + rsFitz + ")|" + rsSymbol + rsSeq, "g");
-function unicodeToArray(string) {
-  return string.match(reUnicode) || [];
-}
-function stringToArray(string) {
-  return hasUnicode(string) ? unicodeToArray(string) : asciiToArray(string);
-}
-function createCaseFirst(methodName) {
-  return function(string) {
-    string = toString$1(string);
-    var strSymbols = hasUnicode(string) ? stringToArray(string) : void 0;
-    var chr = strSymbols ? strSymbols[0] : string.charAt(0);
-    var trailing = strSymbols ? castSlice(strSymbols, 1).join("") : string.slice(1);
-    return chr[methodName]() + trailing;
-  };
-}
-var upperFirst = createCaseFirst("toUpperCase");
-function arrayFilter(array, predicate) {
-  var index = -1, length = array == null ? 0 : array.length, resIndex = 0, result = [];
-  while (++index < length) {
-    var value = array[index];
-    if (predicate(value, index, array)) {
-      result[resIndex++] = value;
-    }
-  }
-  return result;
-}
-function stubArray() {
-  return [];
-}
-var objectProto$2 = Object.prototype;
-var propertyIsEnumerable = objectProto$2.propertyIsEnumerable;
-var nativeGetSymbols = Object.getOwnPropertySymbols;
-var getSymbols = !nativeGetSymbols ? stubArray : function(object) {
-  if (object == null) {
-    return [];
-  }
-  object = Object(object);
-  return arrayFilter(nativeGetSymbols(object), function(symbol) {
-    return propertyIsEnumerable.call(object, symbol);
-  });
-};
-function baseGetAllKeys(object, keysFunc, symbolsFunc) {
-  var result = keysFunc(object);
-  return isArray$2(object) ? result : arrayPush(result, symbolsFunc(object));
-}
-function getAllKeys(object) {
-  return baseGetAllKeys(object, keys, getSymbols);
-}
-var DataView = getNative(root, "DataView");
-var Promise$1 = getNative(root, "Promise");
-var Set$1 = getNative(root, "Set");
-var mapTag$1 = "[object Map]", objectTag$1 = "[object Object]", promiseTag = "[object Promise]", setTag$1 = "[object Set]", weakMapTag = "[object WeakMap]";
-var dataViewTag$1 = "[object DataView]";
-var dataViewCtorString = toSource(DataView), mapCtorString = toSource(Map$1), promiseCtorString = toSource(Promise$1), setCtorString = toSource(Set$1), weakMapCtorString = toSource(WeakMap$1);
-var getTag = baseGetTag;
-if (DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag$1 || Map$1 && getTag(new Map$1()) != mapTag$1 || Promise$1 && getTag(Promise$1.resolve()) != promiseTag || Set$1 && getTag(new Set$1()) != setTag$1 || WeakMap$1 && getTag(new WeakMap$1()) != weakMapTag) {
-  getTag = function(value) {
-    var result = baseGetTag(value), Ctor = result == objectTag$1 ? value.constructor : void 0, ctorString = Ctor ? toSource(Ctor) : "";
-    if (ctorString) {
-      switch (ctorString) {
-        case dataViewCtorString:
-          return dataViewTag$1;
-        case mapCtorString:
-          return mapTag$1;
-        case promiseCtorString:
-          return promiseTag;
-        case setCtorString:
-          return setTag$1;
-        case weakMapCtorString:
-          return weakMapTag;
-      }
-    }
-    return result;
-  };
-}
-var HASH_UNDEFINED = "__lodash_hash_undefined__";
-function setCacheAdd(value) {
-  this.__data__.set(value, HASH_UNDEFINED);
-  return this;
-}
-function setCacheHas(value) {
-  return this.__data__.has(value);
-}
-function SetCache(values) {
-  var index = -1, length = values == null ? 0 : values.length;
-  this.__data__ = new MapCache();
-  while (++index < length) {
-    this.add(values[index]);
-  }
-}
-SetCache.prototype.add = SetCache.prototype.push = setCacheAdd;
-SetCache.prototype.has = setCacheHas;
-function arraySome(array, predicate) {
-  var index = -1, length = array == null ? 0 : array.length;
-  while (++index < length) {
-    if (predicate(array[index], index, array)) {
-      return true;
-    }
-  }
-  return false;
-}
-function cacheHas(cache2, key) {
-  return cache2.has(key);
-}
-var COMPARE_PARTIAL_FLAG$5 = 1, COMPARE_UNORDERED_FLAG$3 = 2;
-function equalArrays(array, other, bitmask, customizer, equalFunc, stack2) {
-  var isPartial = bitmask & COMPARE_PARTIAL_FLAG$5, arrLength = array.length, othLength = other.length;
-  if (arrLength != othLength && !(isPartial && othLength > arrLength)) {
-    return false;
-  }
-  var arrStacked = stack2.get(array);
-  var othStacked = stack2.get(other);
-  if (arrStacked && othStacked) {
-    return arrStacked == other && othStacked == array;
-  }
-  var index = -1, result = true, seen2 = bitmask & COMPARE_UNORDERED_FLAG$3 ? new SetCache() : void 0;
-  stack2.set(array, other);
-  stack2.set(other, array);
-  while (++index < arrLength) {
-    var arrValue = array[index], othValue = other[index];
-    if (customizer) {
-      var compared = isPartial ? customizer(othValue, arrValue, index, other, array, stack2) : customizer(arrValue, othValue, index, array, other, stack2);
-    }
-    if (compared !== void 0) {
-      if (compared) {
-        continue;
-      }
-      result = false;
-      break;
-    }
-    if (seen2) {
-      if (!arraySome(other, function(othValue2, othIndex) {
-        if (!cacheHas(seen2, othIndex) && (arrValue === othValue2 || equalFunc(arrValue, othValue2, bitmask, customizer, stack2))) {
-          return seen2.push(othIndex);
-        }
-      })) {
-        result = false;
-        break;
-      }
-    } else if (!(arrValue === othValue || equalFunc(arrValue, othValue, bitmask, customizer, stack2))) {
-      result = false;
-      break;
-    }
-  }
-  stack2["delete"](array);
-  stack2["delete"](other);
-  return result;
-}
-function mapToArray(map2) {
-  var index = -1, result = Array(map2.size);
-  map2.forEach(function(value, key) {
-    result[++index] = [key, value];
-  });
-  return result;
-}
-function setToArray(set) {
-  var index = -1, result = Array(set.size);
-  set.forEach(function(value) {
-    result[++index] = value;
-  });
-  return result;
-}
-var COMPARE_PARTIAL_FLAG$4 = 1, COMPARE_UNORDERED_FLAG$2 = 2;
-var boolTag = "[object Boolean]", dateTag = "[object Date]", errorTag = "[object Error]", mapTag = "[object Map]", numberTag = "[object Number]", regexpTag = "[object RegExp]", setTag = "[object Set]", stringTag = "[object String]", symbolTag = "[object Symbol]";
-var arrayBufferTag = "[object ArrayBuffer]", dataViewTag = "[object DataView]";
-var symbolProto = Symbol$1 ? Symbol$1.prototype : void 0, symbolValueOf = symbolProto ? symbolProto.valueOf : void 0;
-function equalByTag(object, other, tag, bitmask, customizer, equalFunc, stack2) {
-  switch (tag) {
-    case dataViewTag:
-      if (object.byteLength != other.byteLength || object.byteOffset != other.byteOffset) {
-        return false;
-      }
-      object = object.buffer;
-      other = other.buffer;
-    case arrayBufferTag:
-      if (object.byteLength != other.byteLength || !equalFunc(new Uint8Array$1(object), new Uint8Array$1(other))) {
-        return false;
-      }
-      return true;
-    case boolTag:
-    case dateTag:
-    case numberTag:
-      return eq(+object, +other);
-    case errorTag:
-      return object.name == other.name && object.message == other.message;
-    case regexpTag:
-    case stringTag:
-      return object == other + "";
-    case mapTag:
-      var convert = mapToArray;
-    case setTag:
-      var isPartial = bitmask & COMPARE_PARTIAL_FLAG$4;
-      convert || (convert = setToArray);
-      if (object.size != other.size && !isPartial) {
-        return false;
-      }
-      var stacked = stack2.get(object);
-      if (stacked) {
-        return stacked == other;
-      }
-      bitmask |= COMPARE_UNORDERED_FLAG$2;
-      stack2.set(object, other);
-      var result = equalArrays(convert(object), convert(other), bitmask, customizer, equalFunc, stack2);
-      stack2["delete"](object);
-      return result;
-    case symbolTag:
-      if (symbolValueOf) {
-        return symbolValueOf.call(object) == symbolValueOf.call(other);
-      }
-  }
-  return false;
-}
-var COMPARE_PARTIAL_FLAG$3 = 1;
-var objectProto$1 = Object.prototype;
-var hasOwnProperty$2 = objectProto$1.hasOwnProperty;
-function equalObjects(object, other, bitmask, customizer, equalFunc, stack2) {
-  var isPartial = bitmask & COMPARE_PARTIAL_FLAG$3, objProps = getAllKeys(object), objLength = objProps.length, othProps = getAllKeys(other), othLength = othProps.length;
-  if (objLength != othLength && !isPartial) {
-    return false;
-  }
-  var index = objLength;
-  while (index--) {
-    var key = objProps[index];
-    if (!(isPartial ? key in other : hasOwnProperty$2.call(other, key))) {
-      return false;
-    }
-  }
-  var objStacked = stack2.get(object);
-  var othStacked = stack2.get(other);
-  if (objStacked && othStacked) {
-    return objStacked == other && othStacked == object;
-  }
-  var result = true;
-  stack2.set(object, other);
-  stack2.set(other, object);
-  var skipCtor = isPartial;
-  while (++index < objLength) {
-    key = objProps[index];
-    var objValue = object[key], othValue = other[key];
-    if (customizer) {
-      var compared = isPartial ? customizer(othValue, objValue, key, other, object, stack2) : customizer(objValue, othValue, key, object, other, stack2);
-    }
-    if (!(compared === void 0 ? objValue === othValue || equalFunc(objValue, othValue, bitmask, customizer, stack2) : compared)) {
-      result = false;
-      break;
-    }
-    skipCtor || (skipCtor = key == "constructor");
-  }
-  if (result && !skipCtor) {
-    var objCtor = object.constructor, othCtor = other.constructor;
-    if (objCtor != othCtor && ("constructor" in object && "constructor" in other) && !(typeof objCtor == "function" && objCtor instanceof objCtor && typeof othCtor == "function" && othCtor instanceof othCtor)) {
-      result = false;
-    }
-  }
-  stack2["delete"](object);
-  stack2["delete"](other);
-  return result;
-}
-var COMPARE_PARTIAL_FLAG$2 = 1;
-var argsTag = "[object Arguments]", arrayTag = "[object Array]", objectTag = "[object Object]";
-var objectProto = Object.prototype;
-var hasOwnProperty$1 = objectProto.hasOwnProperty;
-function baseIsEqualDeep(object, other, bitmask, customizer, equalFunc, stack2) {
-  var objIsArr = isArray$2(object), othIsArr = isArray$2(other), objTag = objIsArr ? arrayTag : getTag(object), othTag = othIsArr ? arrayTag : getTag(other);
-  objTag = objTag == argsTag ? objectTag : objTag;
-  othTag = othTag == argsTag ? objectTag : othTag;
-  var objIsObj = objTag == objectTag, othIsObj = othTag == objectTag, isSameTag = objTag == othTag;
-  if (isSameTag && isBuffer$1(object)) {
-    if (!isBuffer$1(other)) {
-      return false;
-    }
-    objIsArr = true;
-    objIsObj = false;
-  }
-  if (isSameTag && !objIsObj) {
-    stack2 || (stack2 = new Stack());
-    return objIsArr || isTypedArray$1(object) ? equalArrays(object, other, bitmask, customizer, equalFunc, stack2) : equalByTag(object, other, objTag, bitmask, customizer, equalFunc, stack2);
-  }
-  if (!(bitmask & COMPARE_PARTIAL_FLAG$2)) {
-    var objIsWrapped = objIsObj && hasOwnProperty$1.call(object, "__wrapped__"), othIsWrapped = othIsObj && hasOwnProperty$1.call(other, "__wrapped__");
-    if (objIsWrapped || othIsWrapped) {
-      var objUnwrapped = objIsWrapped ? object.value() : object, othUnwrapped = othIsWrapped ? other.value() : other;
-      stack2 || (stack2 = new Stack());
-      return equalFunc(objUnwrapped, othUnwrapped, bitmask, customizer, stack2);
-    }
-  }
-  if (!isSameTag) {
-    return false;
-  }
-  stack2 || (stack2 = new Stack());
-  return equalObjects(object, other, bitmask, customizer, equalFunc, stack2);
-}
-function baseIsEqual(value, other, bitmask, customizer, stack2) {
-  if (value === other) {
-    return true;
-  }
-  if (value == null || other == null || !isObjectLike(value) && !isObjectLike(other)) {
-    return value !== value && other !== other;
-  }
-  return baseIsEqualDeep(value, other, bitmask, customizer, baseIsEqual, stack2);
-}
-var COMPARE_PARTIAL_FLAG$1 = 1, COMPARE_UNORDERED_FLAG$1 = 2;
-function baseIsMatch(object, source, matchData, customizer) {
-  var index = matchData.length, length = index;
-  if (object == null) {
-    return !length;
-  }
-  object = Object(object);
-  while (index--) {
-    var data = matchData[index];
-    if (data[2] ? data[1] !== object[data[0]] : !(data[0] in object)) {
-      return false;
-    }
-  }
-  while (++index < length) {
-    data = matchData[index];
-    var key = data[0], objValue = object[key], srcValue = data[1];
-    if (data[2]) {
-      if (objValue === void 0 && !(key in object)) {
-        return false;
-      }
-    } else {
-      var stack2 = new Stack();
-      var result;
-      if (!(result === void 0 ? baseIsEqual(srcValue, objValue, COMPARE_PARTIAL_FLAG$1 | COMPARE_UNORDERED_FLAG$1, customizer, stack2) : result)) {
-        return false;
-      }
-    }
-  }
-  return true;
-}
-function isStrictComparable(value) {
-  return value === value && !isObject$1(value);
-}
-function getMatchData(object) {
-  var result = keys(object), length = result.length;
-  while (length--) {
-    var key = result[length], value = object[key];
-    result[length] = [key, value, isStrictComparable(value)];
-  }
-  return result;
-}
-function matchesStrictComparable(key, srcValue) {
-  return function(object) {
-    if (object == null) {
-      return false;
-    }
-    return object[key] === srcValue && (srcValue !== void 0 || key in Object(object));
-  };
-}
-function baseMatches(source) {
-  var matchData = getMatchData(source);
-  if (matchData.length == 1 && matchData[0][2]) {
-    return matchesStrictComparable(matchData[0][0], matchData[0][1]);
-  }
-  return function(object) {
-    return object === source || baseIsMatch(object, source, matchData);
-  };
-}
-function baseHasIn(object, key) {
-  return object != null && key in Object(object);
-}
-function hasPath(object, path, hasFunc) {
-  path = castPath(path, object);
-  var index = -1, length = path.length, result = false;
-  while (++index < length) {
-    var key = toKey(path[index]);
-    if (!(result = object != null && hasFunc(object, key))) {
-      break;
-    }
-    object = object[key];
-  }
-  if (result || ++index != length) {
-    return result;
-  }
-  length = object == null ? 0 : object.length;
-  return !!length && isLength(length) && isIndex(key, length) && (isArray$2(object) || isArguments(object));
-}
-function hasIn(object, path) {
-  return object != null && hasPath(object, path, baseHasIn);
-}
-var COMPARE_PARTIAL_FLAG = 1, COMPARE_UNORDERED_FLAG = 2;
-function baseMatchesProperty(path, srcValue) {
-  if (isKey(path) && isStrictComparable(srcValue)) {
-    return matchesStrictComparable(toKey(path), srcValue);
-  }
-  return function(object) {
-    var objValue = get(object, path);
-    return objValue === void 0 && objValue === srcValue ? hasIn(object, path) : baseIsEqual(srcValue, objValue, COMPARE_PARTIAL_FLAG | COMPARE_UNORDERED_FLAG);
-  };
-}
-function baseProperty(key) {
-  return function(object) {
-    return object == null ? void 0 : object[key];
-  };
-}
-function basePropertyDeep(path) {
-  return function(object) {
-    return baseGet(object, path);
-  };
-}
-function property(path) {
-  return isKey(path) ? baseProperty(toKey(path)) : basePropertyDeep(path);
-}
-function baseIteratee(value) {
-  if (typeof value == "function") {
-    return value;
-  }
-  if (value == null) {
-    return identity;
-  }
-  if (typeof value == "object") {
-    return isArray$2(value) ? baseMatchesProperty(value[0], value[1]) : baseMatches(value);
-  }
-  return property(value);
-}
-function baseForOwn(object, iteratee) {
-  return object && baseFor(object, iteratee, keys);
-}
-function createBaseEach(eachFunc, fromRight) {
-  return function(collection, iteratee) {
-    if (collection == null) {
-      return collection;
-    }
-    if (!isArrayLike(collection)) {
-      return eachFunc(collection, iteratee);
-    }
-    var length = collection.length, index = -1, iterable = Object(collection);
-    while (++index < length) {
-      if (iteratee(iterable[index], index, iterable) === false) {
-        break;
-      }
-    }
-    return collection;
-  };
-}
-var baseEach = createBaseEach(baseForOwn);
-function baseMap(collection, iteratee) {
-  var index = -1, result = isArrayLike(collection) ? Array(collection.length) : [];
-  baseEach(collection, function(value, key, collection2) {
-    result[++index] = iteratee(value, key, collection2);
-  });
-  return result;
-}
-function map(collection, iteratee) {
-  var func = isArray$2(collection) ? arrayMap : baseMap;
-  return func(collection, baseIteratee(iteratee));
 }
 const enUS$1 = {
   name: "en-US",
@@ -6775,6 +6177,622 @@ const dateEnUs = {
   name: "en-US",
   locale: enUS
 };
+var symbolTag$1 = "[object Symbol]";
+function isSymbol(value) {
+  return typeof value == "symbol" || isObjectLike(value) && baseGetTag(value) == symbolTag$1;
+}
+function arrayMap(array, iteratee) {
+  var index = -1, length = array == null ? 0 : array.length, result = Array(length);
+  while (++index < length) {
+    result[index] = iteratee(array[index], index, array);
+  }
+  return result;
+}
+var INFINITY$1 = 1 / 0;
+var symbolProto$1 = Symbol$1 ? Symbol$1.prototype : void 0, symbolToString = symbolProto$1 ? symbolProto$1.toString : void 0;
+function baseToString(value) {
+  if (typeof value == "string") {
+    return value;
+  }
+  if (isArray$2(value)) {
+    return arrayMap(value, baseToString) + "";
+  }
+  if (isSymbol(value)) {
+    return symbolToString ? symbolToString.call(value) : "";
+  }
+  var result = value + "";
+  return result == "0" && 1 / value == -INFINITY$1 ? "-0" : result;
+}
+var WeakMap$1 = getNative(root, "WeakMap");
+var nativeKeys = overArg(Object.keys, Object);
+var objectProto$3 = Object.prototype;
+var hasOwnProperty$3 = objectProto$3.hasOwnProperty;
+function baseKeys(object) {
+  if (!isPrototype(object)) {
+    return nativeKeys(object);
+  }
+  var result = [];
+  for (var key in Object(object)) {
+    if (hasOwnProperty$3.call(object, key) && key != "constructor") {
+      result.push(key);
+    }
+  }
+  return result;
+}
+function keys(object) {
+  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
+}
+var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/, reIsPlainProp = /^\w*$/;
+function isKey(value, object) {
+  if (isArray$2(value)) {
+    return false;
+  }
+  var type = typeof value;
+  if (type == "number" || type == "symbol" || type == "boolean" || value == null || isSymbol(value)) {
+    return true;
+  }
+  return reIsPlainProp.test(value) || !reIsDeepProp.test(value) || object != null && value in Object(object);
+}
+var FUNC_ERROR_TEXT = "Expected a function";
+function memoize(func, resolver) {
+  if (typeof func != "function" || resolver != null && typeof resolver != "function") {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  var memoized = function() {
+    var args = arguments, key = resolver ? resolver.apply(this, args) : args[0], cache2 = memoized.cache;
+    if (cache2.has(key)) {
+      return cache2.get(key);
+    }
+    var result = func.apply(this, args);
+    memoized.cache = cache2.set(key, result) || cache2;
+    return result;
+  };
+  memoized.cache = new (memoize.Cache || MapCache)();
+  return memoized;
+}
+memoize.Cache = MapCache;
+var MAX_MEMOIZE_SIZE = 500;
+function memoizeCapped(func) {
+  var result = memoize(func, function(key) {
+    if (cache2.size === MAX_MEMOIZE_SIZE) {
+      cache2.clear();
+    }
+    return key;
+  });
+  var cache2 = result.cache;
+  return result;
+}
+var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
+var reEscapeChar = /\\(\\)?/g;
+var stringToPath = memoizeCapped(function(string) {
+  var result = [];
+  if (string.charCodeAt(0) === 46) {
+    result.push("");
+  }
+  string.replace(rePropName, function(match2, number, quote, subString) {
+    result.push(quote ? subString.replace(reEscapeChar, "$1") : number || match2);
+  });
+  return result;
+});
+function toString$1(value) {
+  return value == null ? "" : baseToString(value);
+}
+function castPath(value, object) {
+  if (isArray$2(value)) {
+    return value;
+  }
+  return isKey(value, object) ? [value] : stringToPath(toString$1(value));
+}
+var INFINITY = 1 / 0;
+function toKey(value) {
+  if (typeof value == "string" || isSymbol(value)) {
+    return value;
+  }
+  var result = value + "";
+  return result == "0" && 1 / value == -INFINITY ? "-0" : result;
+}
+function baseGet(object, path) {
+  path = castPath(path, object);
+  var index = 0, length = path.length;
+  while (object != null && index < length) {
+    object = object[toKey(path[index++])];
+  }
+  return index && index == length ? object : void 0;
+}
+function get(object, path, defaultValue) {
+  var result = object == null ? void 0 : baseGet(object, path);
+  return result === void 0 ? defaultValue : result;
+}
+function arrayPush(array, values) {
+  var index = -1, length = values.length, offset = array.length;
+  while (++index < length) {
+    array[offset + index] = values[index];
+  }
+  return array;
+}
+function baseSlice(array, start, end) {
+  var index = -1, length = array.length;
+  if (start < 0) {
+    start = -start > length ? 0 : length + start;
+  }
+  end = end > length ? length : end;
+  if (end < 0) {
+    end += length;
+  }
+  length = start > end ? 0 : end - start >>> 0;
+  start >>>= 0;
+  var result = Array(length);
+  while (++index < length) {
+    result[index] = array[index + start];
+  }
+  return result;
+}
+function castSlice(array, start, end) {
+  var length = array.length;
+  end = end === void 0 ? length : end;
+  return !start && end >= length ? array : baseSlice(array, start, end);
+}
+var rsAstralRange$1 = "\\ud800-\\udfff", rsComboMarksRange$1 = "\\u0300-\\u036f", reComboHalfMarksRange$1 = "\\ufe20-\\ufe2f", rsComboSymbolsRange$1 = "\\u20d0-\\u20ff", rsComboRange$1 = rsComboMarksRange$1 + reComboHalfMarksRange$1 + rsComboSymbolsRange$1, rsVarRange$1 = "\\ufe0e\\ufe0f";
+var rsZWJ$1 = "\\u200d";
+var reHasUnicode = RegExp("[" + rsZWJ$1 + rsAstralRange$1 + rsComboRange$1 + rsVarRange$1 + "]");
+function hasUnicode(string) {
+  return reHasUnicode.test(string);
+}
+function asciiToArray(string) {
+  return string.split("");
+}
+var rsAstralRange = "\\ud800-\\udfff", rsComboMarksRange = "\\u0300-\\u036f", reComboHalfMarksRange = "\\ufe20-\\ufe2f", rsComboSymbolsRange = "\\u20d0-\\u20ff", rsComboRange = rsComboMarksRange + reComboHalfMarksRange + rsComboSymbolsRange, rsVarRange = "\\ufe0e\\ufe0f";
+var rsAstral = "[" + rsAstralRange + "]", rsCombo = "[" + rsComboRange + "]", rsFitz = "\\ud83c[\\udffb-\\udfff]", rsModifier = "(?:" + rsCombo + "|" + rsFitz + ")", rsNonAstral = "[^" + rsAstralRange + "]", rsRegional = "(?:\\ud83c[\\udde6-\\uddff]){2}", rsSurrPair = "[\\ud800-\\udbff][\\udc00-\\udfff]", rsZWJ = "\\u200d";
+var reOptMod = rsModifier + "?", rsOptVar = "[" + rsVarRange + "]?", rsOptJoin = "(?:" + rsZWJ + "(?:" + [rsNonAstral, rsRegional, rsSurrPair].join("|") + ")" + rsOptVar + reOptMod + ")*", rsSeq = rsOptVar + reOptMod + rsOptJoin, rsSymbol = "(?:" + [rsNonAstral + rsCombo + "?", rsCombo, rsRegional, rsSurrPair, rsAstral].join("|") + ")";
+var reUnicode = RegExp(rsFitz + "(?=" + rsFitz + ")|" + rsSymbol + rsSeq, "g");
+function unicodeToArray(string) {
+  return string.match(reUnicode) || [];
+}
+function stringToArray(string) {
+  return hasUnicode(string) ? unicodeToArray(string) : asciiToArray(string);
+}
+function createCaseFirst(methodName) {
+  return function(string) {
+    string = toString$1(string);
+    var strSymbols = hasUnicode(string) ? stringToArray(string) : void 0;
+    var chr = strSymbols ? strSymbols[0] : string.charAt(0);
+    var trailing = strSymbols ? castSlice(strSymbols, 1).join("") : string.slice(1);
+    return chr[methodName]() + trailing;
+  };
+}
+var upperFirst = createCaseFirst("toUpperCase");
+function arrayFilter(array, predicate) {
+  var index = -1, length = array == null ? 0 : array.length, resIndex = 0, result = [];
+  while (++index < length) {
+    var value = array[index];
+    if (predicate(value, index, array)) {
+      result[resIndex++] = value;
+    }
+  }
+  return result;
+}
+function stubArray() {
+  return [];
+}
+var objectProto$2 = Object.prototype;
+var propertyIsEnumerable = objectProto$2.propertyIsEnumerable;
+var nativeGetSymbols = Object.getOwnPropertySymbols;
+var getSymbols = !nativeGetSymbols ? stubArray : function(object) {
+  if (object == null) {
+    return [];
+  }
+  object = Object(object);
+  return arrayFilter(nativeGetSymbols(object), function(symbol) {
+    return propertyIsEnumerable.call(object, symbol);
+  });
+};
+function baseGetAllKeys(object, keysFunc, symbolsFunc) {
+  var result = keysFunc(object);
+  return isArray$2(object) ? result : arrayPush(result, symbolsFunc(object));
+}
+function getAllKeys(object) {
+  return baseGetAllKeys(object, keys, getSymbols);
+}
+var DataView = getNative(root, "DataView");
+var Promise$1 = getNative(root, "Promise");
+var Set$1 = getNative(root, "Set");
+var mapTag$1 = "[object Map]", objectTag$1 = "[object Object]", promiseTag = "[object Promise]", setTag$1 = "[object Set]", weakMapTag = "[object WeakMap]";
+var dataViewTag$1 = "[object DataView]";
+var dataViewCtorString = toSource(DataView), mapCtorString = toSource(Map$1), promiseCtorString = toSource(Promise$1), setCtorString = toSource(Set$1), weakMapCtorString = toSource(WeakMap$1);
+var getTag = baseGetTag;
+if (DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag$1 || Map$1 && getTag(new Map$1()) != mapTag$1 || Promise$1 && getTag(Promise$1.resolve()) != promiseTag || Set$1 && getTag(new Set$1()) != setTag$1 || WeakMap$1 && getTag(new WeakMap$1()) != weakMapTag) {
+  getTag = function(value) {
+    var result = baseGetTag(value), Ctor = result == objectTag$1 ? value.constructor : void 0, ctorString = Ctor ? toSource(Ctor) : "";
+    if (ctorString) {
+      switch (ctorString) {
+        case dataViewCtorString:
+          return dataViewTag$1;
+        case mapCtorString:
+          return mapTag$1;
+        case promiseCtorString:
+          return promiseTag;
+        case setCtorString:
+          return setTag$1;
+        case weakMapCtorString:
+          return weakMapTag;
+      }
+    }
+    return result;
+  };
+}
+var HASH_UNDEFINED = "__lodash_hash_undefined__";
+function setCacheAdd(value) {
+  this.__data__.set(value, HASH_UNDEFINED);
+  return this;
+}
+function setCacheHas(value) {
+  return this.__data__.has(value);
+}
+function SetCache(values) {
+  var index = -1, length = values == null ? 0 : values.length;
+  this.__data__ = new MapCache();
+  while (++index < length) {
+    this.add(values[index]);
+  }
+}
+SetCache.prototype.add = SetCache.prototype.push = setCacheAdd;
+SetCache.prototype.has = setCacheHas;
+function arraySome(array, predicate) {
+  var index = -1, length = array == null ? 0 : array.length;
+  while (++index < length) {
+    if (predicate(array[index], index, array)) {
+      return true;
+    }
+  }
+  return false;
+}
+function cacheHas(cache2, key) {
+  return cache2.has(key);
+}
+var COMPARE_PARTIAL_FLAG$5 = 1, COMPARE_UNORDERED_FLAG$3 = 2;
+function equalArrays(array, other, bitmask, customizer, equalFunc, stack2) {
+  var isPartial = bitmask & COMPARE_PARTIAL_FLAG$5, arrLength = array.length, othLength = other.length;
+  if (arrLength != othLength && !(isPartial && othLength > arrLength)) {
+    return false;
+  }
+  var arrStacked = stack2.get(array);
+  var othStacked = stack2.get(other);
+  if (arrStacked && othStacked) {
+    return arrStacked == other && othStacked == array;
+  }
+  var index = -1, result = true, seen2 = bitmask & COMPARE_UNORDERED_FLAG$3 ? new SetCache() : void 0;
+  stack2.set(array, other);
+  stack2.set(other, array);
+  while (++index < arrLength) {
+    var arrValue = array[index], othValue = other[index];
+    if (customizer) {
+      var compared = isPartial ? customizer(othValue, arrValue, index, other, array, stack2) : customizer(arrValue, othValue, index, array, other, stack2);
+    }
+    if (compared !== void 0) {
+      if (compared) {
+        continue;
+      }
+      result = false;
+      break;
+    }
+    if (seen2) {
+      if (!arraySome(other, function(othValue2, othIndex) {
+        if (!cacheHas(seen2, othIndex) && (arrValue === othValue2 || equalFunc(arrValue, othValue2, bitmask, customizer, stack2))) {
+          return seen2.push(othIndex);
+        }
+      })) {
+        result = false;
+        break;
+      }
+    } else if (!(arrValue === othValue || equalFunc(arrValue, othValue, bitmask, customizer, stack2))) {
+      result = false;
+      break;
+    }
+  }
+  stack2["delete"](array);
+  stack2["delete"](other);
+  return result;
+}
+function mapToArray(map2) {
+  var index = -1, result = Array(map2.size);
+  map2.forEach(function(value, key) {
+    result[++index] = [key, value];
+  });
+  return result;
+}
+function setToArray(set) {
+  var index = -1, result = Array(set.size);
+  set.forEach(function(value) {
+    result[++index] = value;
+  });
+  return result;
+}
+var COMPARE_PARTIAL_FLAG$4 = 1, COMPARE_UNORDERED_FLAG$2 = 2;
+var boolTag = "[object Boolean]", dateTag = "[object Date]", errorTag = "[object Error]", mapTag = "[object Map]", numberTag = "[object Number]", regexpTag = "[object RegExp]", setTag = "[object Set]", stringTag = "[object String]", symbolTag = "[object Symbol]";
+var arrayBufferTag = "[object ArrayBuffer]", dataViewTag = "[object DataView]";
+var symbolProto = Symbol$1 ? Symbol$1.prototype : void 0, symbolValueOf = symbolProto ? symbolProto.valueOf : void 0;
+function equalByTag(object, other, tag, bitmask, customizer, equalFunc, stack2) {
+  switch (tag) {
+    case dataViewTag:
+      if (object.byteLength != other.byteLength || object.byteOffset != other.byteOffset) {
+        return false;
+      }
+      object = object.buffer;
+      other = other.buffer;
+    case arrayBufferTag:
+      if (object.byteLength != other.byteLength || !equalFunc(new Uint8Array$1(object), new Uint8Array$1(other))) {
+        return false;
+      }
+      return true;
+    case boolTag:
+    case dateTag:
+    case numberTag:
+      return eq(+object, +other);
+    case errorTag:
+      return object.name == other.name && object.message == other.message;
+    case regexpTag:
+    case stringTag:
+      return object == other + "";
+    case mapTag:
+      var convert = mapToArray;
+    case setTag:
+      var isPartial = bitmask & COMPARE_PARTIAL_FLAG$4;
+      convert || (convert = setToArray);
+      if (object.size != other.size && !isPartial) {
+        return false;
+      }
+      var stacked = stack2.get(object);
+      if (stacked) {
+        return stacked == other;
+      }
+      bitmask |= COMPARE_UNORDERED_FLAG$2;
+      stack2.set(object, other);
+      var result = equalArrays(convert(object), convert(other), bitmask, customizer, equalFunc, stack2);
+      stack2["delete"](object);
+      return result;
+    case symbolTag:
+      if (symbolValueOf) {
+        return symbolValueOf.call(object) == symbolValueOf.call(other);
+      }
+  }
+  return false;
+}
+var COMPARE_PARTIAL_FLAG$3 = 1;
+var objectProto$1 = Object.prototype;
+var hasOwnProperty$2 = objectProto$1.hasOwnProperty;
+function equalObjects(object, other, bitmask, customizer, equalFunc, stack2) {
+  var isPartial = bitmask & COMPARE_PARTIAL_FLAG$3, objProps = getAllKeys(object), objLength = objProps.length, othProps = getAllKeys(other), othLength = othProps.length;
+  if (objLength != othLength && !isPartial) {
+    return false;
+  }
+  var index = objLength;
+  while (index--) {
+    var key = objProps[index];
+    if (!(isPartial ? key in other : hasOwnProperty$2.call(other, key))) {
+      return false;
+    }
+  }
+  var objStacked = stack2.get(object);
+  var othStacked = stack2.get(other);
+  if (objStacked && othStacked) {
+    return objStacked == other && othStacked == object;
+  }
+  var result = true;
+  stack2.set(object, other);
+  stack2.set(other, object);
+  var skipCtor = isPartial;
+  while (++index < objLength) {
+    key = objProps[index];
+    var objValue = object[key], othValue = other[key];
+    if (customizer) {
+      var compared = isPartial ? customizer(othValue, objValue, key, other, object, stack2) : customizer(objValue, othValue, key, object, other, stack2);
+    }
+    if (!(compared === void 0 ? objValue === othValue || equalFunc(objValue, othValue, bitmask, customizer, stack2) : compared)) {
+      result = false;
+      break;
+    }
+    skipCtor || (skipCtor = key == "constructor");
+  }
+  if (result && !skipCtor) {
+    var objCtor = object.constructor, othCtor = other.constructor;
+    if (objCtor != othCtor && ("constructor" in object && "constructor" in other) && !(typeof objCtor == "function" && objCtor instanceof objCtor && typeof othCtor == "function" && othCtor instanceof othCtor)) {
+      result = false;
+    }
+  }
+  stack2["delete"](object);
+  stack2["delete"](other);
+  return result;
+}
+var COMPARE_PARTIAL_FLAG$2 = 1;
+var argsTag = "[object Arguments]", arrayTag = "[object Array]", objectTag = "[object Object]";
+var objectProto = Object.prototype;
+var hasOwnProperty$1 = objectProto.hasOwnProperty;
+function baseIsEqualDeep(object, other, bitmask, customizer, equalFunc, stack2) {
+  var objIsArr = isArray$2(object), othIsArr = isArray$2(other), objTag = objIsArr ? arrayTag : getTag(object), othTag = othIsArr ? arrayTag : getTag(other);
+  objTag = objTag == argsTag ? objectTag : objTag;
+  othTag = othTag == argsTag ? objectTag : othTag;
+  var objIsObj = objTag == objectTag, othIsObj = othTag == objectTag, isSameTag = objTag == othTag;
+  if (isSameTag && isBuffer$1(object)) {
+    if (!isBuffer$1(other)) {
+      return false;
+    }
+    objIsArr = true;
+    objIsObj = false;
+  }
+  if (isSameTag && !objIsObj) {
+    stack2 || (stack2 = new Stack());
+    return objIsArr || isTypedArray$1(object) ? equalArrays(object, other, bitmask, customizer, equalFunc, stack2) : equalByTag(object, other, objTag, bitmask, customizer, equalFunc, stack2);
+  }
+  if (!(bitmask & COMPARE_PARTIAL_FLAG$2)) {
+    var objIsWrapped = objIsObj && hasOwnProperty$1.call(object, "__wrapped__"), othIsWrapped = othIsObj && hasOwnProperty$1.call(other, "__wrapped__");
+    if (objIsWrapped || othIsWrapped) {
+      var objUnwrapped = objIsWrapped ? object.value() : object, othUnwrapped = othIsWrapped ? other.value() : other;
+      stack2 || (stack2 = new Stack());
+      return equalFunc(objUnwrapped, othUnwrapped, bitmask, customizer, stack2);
+    }
+  }
+  if (!isSameTag) {
+    return false;
+  }
+  stack2 || (stack2 = new Stack());
+  return equalObjects(object, other, bitmask, customizer, equalFunc, stack2);
+}
+function baseIsEqual(value, other, bitmask, customizer, stack2) {
+  if (value === other) {
+    return true;
+  }
+  if (value == null || other == null || !isObjectLike(value) && !isObjectLike(other)) {
+    return value !== value && other !== other;
+  }
+  return baseIsEqualDeep(value, other, bitmask, customizer, baseIsEqual, stack2);
+}
+var COMPARE_PARTIAL_FLAG$1 = 1, COMPARE_UNORDERED_FLAG$1 = 2;
+function baseIsMatch(object, source, matchData, customizer) {
+  var index = matchData.length, length = index;
+  if (object == null) {
+    return !length;
+  }
+  object = Object(object);
+  while (index--) {
+    var data = matchData[index];
+    if (data[2] ? data[1] !== object[data[0]] : !(data[0] in object)) {
+      return false;
+    }
+  }
+  while (++index < length) {
+    data = matchData[index];
+    var key = data[0], objValue = object[key], srcValue = data[1];
+    if (data[2]) {
+      if (objValue === void 0 && !(key in object)) {
+        return false;
+      }
+    } else {
+      var stack2 = new Stack();
+      var result;
+      if (!(result === void 0 ? baseIsEqual(srcValue, objValue, COMPARE_PARTIAL_FLAG$1 | COMPARE_UNORDERED_FLAG$1, customizer, stack2) : result)) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+function isStrictComparable(value) {
+  return value === value && !isObject$1(value);
+}
+function getMatchData(object) {
+  var result = keys(object), length = result.length;
+  while (length--) {
+    var key = result[length], value = object[key];
+    result[length] = [key, value, isStrictComparable(value)];
+  }
+  return result;
+}
+function matchesStrictComparable(key, srcValue) {
+  return function(object) {
+    if (object == null) {
+      return false;
+    }
+    return object[key] === srcValue && (srcValue !== void 0 || key in Object(object));
+  };
+}
+function baseMatches(source) {
+  var matchData = getMatchData(source);
+  if (matchData.length == 1 && matchData[0][2]) {
+    return matchesStrictComparable(matchData[0][0], matchData[0][1]);
+  }
+  return function(object) {
+    return object === source || baseIsMatch(object, source, matchData);
+  };
+}
+function baseHasIn(object, key) {
+  return object != null && key in Object(object);
+}
+function hasPath(object, path, hasFunc) {
+  path = castPath(path, object);
+  var index = -1, length = path.length, result = false;
+  while (++index < length) {
+    var key = toKey(path[index]);
+    if (!(result = object != null && hasFunc(object, key))) {
+      break;
+    }
+    object = object[key];
+  }
+  if (result || ++index != length) {
+    return result;
+  }
+  length = object == null ? 0 : object.length;
+  return !!length && isLength(length) && isIndex(key, length) && (isArray$2(object) || isArguments(object));
+}
+function hasIn(object, path) {
+  return object != null && hasPath(object, path, baseHasIn);
+}
+var COMPARE_PARTIAL_FLAG = 1, COMPARE_UNORDERED_FLAG = 2;
+function baseMatchesProperty(path, srcValue) {
+  if (isKey(path) && isStrictComparable(srcValue)) {
+    return matchesStrictComparable(toKey(path), srcValue);
+  }
+  return function(object) {
+    var objValue = get(object, path);
+    return objValue === void 0 && objValue === srcValue ? hasIn(object, path) : baseIsEqual(srcValue, objValue, COMPARE_PARTIAL_FLAG | COMPARE_UNORDERED_FLAG);
+  };
+}
+function baseProperty(key) {
+  return function(object) {
+    return object == null ? void 0 : object[key];
+  };
+}
+function basePropertyDeep(path) {
+  return function(object) {
+    return baseGet(object, path);
+  };
+}
+function property(path) {
+  return isKey(path) ? baseProperty(toKey(path)) : basePropertyDeep(path);
+}
+function baseIteratee(value) {
+  if (typeof value == "function") {
+    return value;
+  }
+  if (value == null) {
+    return identity;
+  }
+  if (typeof value == "object") {
+    return isArray$2(value) ? baseMatchesProperty(value[0], value[1]) : baseMatches(value);
+  }
+  return property(value);
+}
+function baseForOwn(object, iteratee) {
+  return object && baseFor(object, iteratee, keys);
+}
+function createBaseEach(eachFunc, fromRight) {
+  return function(collection, iteratee) {
+    if (collection == null) {
+      return collection;
+    }
+    if (!isArrayLike(collection)) {
+      return eachFunc(collection, iteratee);
+    }
+    var length = collection.length, index = -1, iterable = Object(collection);
+    while (++index < length) {
+      if (iteratee(iterable[index], index, iterable) === false) {
+        break;
+      }
+    }
+    return collection;
+  };
+}
+var baseEach = createBaseEach(baseForOwn);
+function baseMap(collection, iteratee) {
+  var index = -1, result = isArrayLike(collection) ? Array(collection.length) : [];
+  baseEach(collection, function(value, key, collection2) {
+    result[++index] = iteratee(value, key, collection2);
+  });
+  return result;
+}
+function map(collection, iteratee) {
+  var func = isArray$2(collection) ? arrayMap : baseMap;
+  return func(collection, baseIteratee(iteratee));
+}
 function useLocale(ns) {
   const {
     mergedLocaleRef,
@@ -6792,40 +6810,6 @@ function useLocale(ns) {
     dateLocaleRef,
     localeRef
   };
-}
-function useStyle(mountId, style2, clsPrefixRef) {
-  if (!style2) {
-    return;
-  }
-  const ssrAdapter = useSsrAdapter();
-  const NConfigProvider = inject(configProviderInjectionKey, null);
-  const mountStyle = () => {
-    const clsPrefix = clsPrefixRef.value;
-    style2.mount({
-      id: clsPrefix === void 0 ? mountId : clsPrefix + mountId,
-      head: true,
-      anchorMetaName: cssrAnchorMetaName$1,
-      props: {
-        bPrefix: clsPrefix ? `.${clsPrefix}-` : void 0
-      },
-      ssr: ssrAdapter,
-      parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
-    });
-    if (!(NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.preflightStyleDisabled)) {
-      globalStyle.mount({
-        id: "n-global",
-        head: true,
-        anchorMetaName: cssrAnchorMetaName$1,
-        ssr: ssrAdapter,
-        parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
-      });
-    }
-  };
-  if (ssrAdapter) {
-    mountStyle();
-  } else {
-    onBeforeMount(mountStyle);
-  }
 }
 function useRtl(mountId, rtlStateRef, clsPrefixRef) {
   if (!rtlStateRef) return void 0;
@@ -6874,6 +6858,102 @@ function useRtl(mountId, rtlStateRef, clsPrefixRef) {
   }
   return componentRtlStateRef;
 }
+function useStyle(mountId, style2, clsPrefixRef) {
+  if (!style2) {
+    return;
+  }
+  const ssrAdapter = useSsrAdapter();
+  const NConfigProvider = inject(configProviderInjectionKey, null);
+  const mountStyle = () => {
+    const clsPrefix = clsPrefixRef.value;
+    style2.mount({
+      id: clsPrefix === void 0 ? mountId : clsPrefix + mountId,
+      head: true,
+      anchorMetaName: cssrAnchorMetaName$1,
+      props: {
+        bPrefix: clsPrefix ? `.${clsPrefix}-` : void 0
+      },
+      ssr: ssrAdapter,
+      parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
+    });
+    if (!(NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.preflightStyleDisabled)) {
+      globalStyle.mount({
+        id: "n-global",
+        head: true,
+        anchorMetaName: cssrAnchorMetaName$1,
+        ssr: ssrAdapter,
+        parent: NConfigProvider === null || NConfigProvider === void 0 ? void 0 : NConfigProvider.styleMountTarget
+      });
+    }
+  };
+  if (ssrAdapter) {
+    mountStyle();
+  } else {
+    onBeforeMount(mountStyle);
+  }
+}
+const style$i = cB("base-icon", `
+ height: 1em;
+ width: 1em;
+ line-height: 1em;
+ text-align: center;
+ display: inline-block;
+ position: relative;
+ fill: currentColor;
+ transform: translateZ(0);
+`, [c$1("svg", `
+ height: 1em;
+ width: 1em;
+ `)]);
+const NBaseIcon = defineComponent({
+  name: "BaseIcon",
+  props: {
+    role: String,
+    ariaLabel: String,
+    ariaDisabled: {
+      type: Boolean,
+      default: void 0
+    },
+    ariaHidden: {
+      type: Boolean,
+      default: void 0
+    },
+    clsPrefix: {
+      type: String,
+      required: true
+    },
+    onClick: Function,
+    onMousedown: Function,
+    onMouseup: Function
+  },
+  setup(props) {
+    useStyle("-base-icon", style$i, toRef(props, "clsPrefix"));
+  },
+  render() {
+    return h("i", {
+      class: `${this.clsPrefix}-base-icon`,
+      onClick: this.onClick,
+      onMousedown: this.onMousedown,
+      onMouseup: this.onMouseup,
+      role: this.role,
+      "aria-label": this.ariaLabel,
+      "aria-hidden": this.ariaHidden,
+      "aria-disabled": this.ariaDisabled
+    }, this.$slots);
+  }
+});
+const NIconSwitchTransition = defineComponent({
+  name: "BaseIconSwitchTransition",
+  setup(_, {
+    slots
+  }) {
+    const isMountedRef = isMounted();
+    return () => h(Transition, {
+      name: "icon-switch-transition",
+      appear: isMountedRef.value
+    }, slots);
+  }
+});
 function replaceable(name, icon) {
   return defineComponent({
     name: upperFirst(name),
@@ -6888,6 +6968,32 @@ function replaceable(name, icon) {
     }
   });
 }
+const ChevronDownIcon = defineComponent({
+  name: "ChevronDown",
+  render() {
+    return h("svg", {
+      viewBox: "0 0 16 16",
+      fill: "none",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, h("path", {
+      d: "M3.14645 5.64645C3.34171 5.45118 3.65829 5.45118 3.85355 5.64645L8 9.79289L12.1464 5.64645C12.3417 5.45118 12.6583 5.45118 12.8536 5.64645C13.0488 5.84171 13.0488 6.15829 12.8536 6.35355L8.35355 10.8536C8.15829 11.0488 7.84171 11.0488 7.64645 10.8536L3.14645 6.35355C2.95118 6.15829 2.95118 5.84171 3.14645 5.64645Z",
+      fill: "currentColor"
+    }));
+  }
+});
+const ChevronDownFilledIcon = defineComponent({
+  name: "ChevronDownFilled",
+  render() {
+    return h("svg", {
+      viewBox: "0 0 16 16",
+      fill: "none",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, h("path", {
+      d: "M3.20041 5.73966C3.48226 5.43613 3.95681 5.41856 4.26034 5.70041L8 9.22652L11.7397 5.70041C12.0432 5.41856 12.5177 5.43613 12.7996 5.73966C13.0815 6.0432 13.0639 6.51775 12.7603 6.7996L8.51034 10.7996C8.22258 11.0668 7.77743 11.0668 7.48967 10.7996L3.23966 6.7996C2.93613 6.51775 2.91856 6.0432 3.20041 5.73966Z",
+      fill: "currentColor"
+    }));
+  }
+});
 const ChevronRightIcon = defineComponent({
   name: "ChevronRight",
   render() {
@@ -6901,6 +7007,21 @@ const ChevronRightIcon = defineComponent({
     }));
   }
 });
+const ClearIcon = replaceable("clear", h("svg", {
+  viewBox: "0 0 16 16",
+  version: "1.1",
+  xmlns: "http://www.w3.org/2000/svg"
+}, h("g", {
+  stroke: "none",
+  "stroke-width": "1",
+  fill: "none",
+  "fill-rule": "evenodd"
+}, h("g", {
+  fill: "currentColor",
+  "fill-rule": "nonzero"
+}, h("path", {
+  d: "M8,2 C11.3137085,2 14,4.6862915 14,8 C14,11.3137085 11.3137085,14 8,14 C4.6862915,14 2,11.3137085 2,8 C2,4.6862915 4.6862915,2 8,2 Z M6.5343055,5.83859116 C6.33943736,5.70359511 6.07001296,5.72288026 5.89644661,5.89644661 L5.89644661,5.89644661 L5.83859116,5.9656945 C5.70359511,6.16056264 5.72288026,6.42998704 5.89644661,6.60355339 L5.89644661,6.60355339 L7.293,8 L5.89644661,9.39644661 L5.83859116,9.4656945 C5.70359511,9.66056264 5.72288026,9.92998704 5.89644661,10.1035534 L5.89644661,10.1035534 L5.9656945,10.1614088 C6.16056264,10.2964049 6.42998704,10.2771197 6.60355339,10.1035534 L6.60355339,10.1035534 L8,8.707 L9.39644661,10.1035534 L9.4656945,10.1614088 C9.66056264,10.2964049 9.92998704,10.2771197 10.1035534,10.1035534 L10.1035534,10.1035534 L10.1614088,10.0343055 C10.2964049,9.83943736 10.2771197,9.57001296 10.1035534,9.39644661 L10.1035534,9.39644661 L8.707,8 L10.1035534,6.60355339 L10.1614088,6.5343055 C10.2964049,6.33943736 10.2771197,6.07001296 10.1035534,5.89644661 L10.1035534,5.89644661 L10.0343055,5.83859116 C9.83943736,5.70359511 9.57001296,5.72288026 9.39644661,5.89644661 L9.39644661,5.89644661 L8,7.293 L6.60355339,5.89644661 Z"
+})))));
 const ErrorIcon$1 = replaceable("close", h("svg", {
   viewBox: "0 0 12 12",
   version: "1.1",
@@ -6916,6 +7037,19 @@ const ErrorIcon$1 = replaceable("close", h("svg", {
   "fill-rule": "nonzero"
 }, h("path", {
   d: "M2.08859116,2.2156945 L2.14644661,2.14644661 C2.32001296,1.97288026 2.58943736,1.95359511 2.7843055,2.08859116 L2.85355339,2.14644661 L6,5.293 L9.14644661,2.14644661 C9.34170876,1.95118446 9.65829124,1.95118446 9.85355339,2.14644661 C10.0488155,2.34170876 10.0488155,2.65829124 9.85355339,2.85355339 L6.707,6 L9.85355339,9.14644661 C10.0271197,9.32001296 10.0464049,9.58943736 9.91140884,9.7843055 L9.85355339,9.85355339 C9.67998704,10.0271197 9.41056264,10.0464049 9.2156945,9.91140884 L9.14644661,9.85355339 L6,6.707 L2.85355339,9.85355339 C2.65829124,10.0488155 2.34170876,10.0488155 2.14644661,9.85355339 C1.95118446,9.65829124 1.95118446,9.34170876 2.14644661,9.14644661 L5.293,6 L2.14644661,2.85355339 C1.97288026,2.67998704 1.95359511,2.41056264 2.08859116,2.2156945 L2.14644661,2.14644661 L2.08859116,2.2156945 Z"
+})))));
+const ErrorIcon = replaceable("error", h("svg", {
+  viewBox: "0 0 48 48",
+  version: "1.1",
+  xmlns: "http://www.w3.org/2000/svg"
+}, h("g", {
+  stroke: "none",
+  "stroke-width": "1",
+  "fill-rule": "evenodd"
+}, h("g", {
+  "fill-rule": "nonzero"
+}, h("path", {
+  d: "M24,4 C35.045695,4 44,12.954305 44,24 C44,35.045695 35.045695,44 24,44 C12.954305,44 4,35.045695 4,24 C4,12.954305 12.954305,4 24,4 Z M17.8838835,16.1161165 L17.7823881,16.0249942 C17.3266086,15.6583353 16.6733914,15.6583353 16.2176119,16.0249942 L16.1161165,16.1161165 L16.0249942,16.2176119 C15.6583353,16.6733914 15.6583353,17.3266086 16.0249942,17.7823881 L16.1161165,17.8838835 L22.233,24 L16.1161165,30.1161165 L16.0249942,30.2176119 C15.6583353,30.6733914 15.6583353,31.3266086 16.0249942,31.7823881 L16.1161165,31.8838835 L16.2176119,31.9750058 C16.6733914,32.3416647 17.3266086,32.3416647 17.7823881,31.9750058 L17.8838835,31.8838835 L24,25.767 L30.1161165,31.8838835 L30.2176119,31.9750058 C30.6733914,32.3416647 31.3266086,32.3416647 31.7823881,31.9750058 L31.8838835,31.8838835 L31.9750058,31.7823881 C32.3416647,31.3266086 32.3416647,30.6733914 31.9750058,30.2176119 L31.8838835,30.1161165 L25.767,24 L31.8838835,17.8838835 L31.9750058,17.7823881 C32.3416647,17.3266086 32.3416647,16.6733914 31.9750058,16.2176119 L31.8838835,16.1161165 L31.7823881,16.0249942 C31.3266086,15.6583353 30.6733914,15.6583353 30.2176119,16.0249942 L30.1161165,16.1161165 L24,22.233 L17.8838835,16.1161165 L17.7823881,16.0249942 L17.8838835,16.1161165 Z"
 })))));
 const EyeIcon = defineComponent({
   name: "Eye",
@@ -6965,19 +7099,6 @@ const EyeOffIcon = defineComponent({
     }));
   }
 });
-const ErrorIcon = replaceable("error", h("svg", {
-  viewBox: "0 0 48 48",
-  version: "1.1",
-  xmlns: "http://www.w3.org/2000/svg"
-}, h("g", {
-  stroke: "none",
-  "stroke-width": "1",
-  "fill-rule": "evenodd"
-}, h("g", {
-  "fill-rule": "nonzero"
-}, h("path", {
-  d: "M24,4 C35.045695,4 44,12.954305 44,24 C44,35.045695 35.045695,44 24,44 C12.954305,44 4,35.045695 4,24 C4,12.954305 12.954305,4 24,4 Z M17.8838835,16.1161165 L17.7823881,16.0249942 C17.3266086,15.6583353 16.6733914,15.6583353 16.2176119,16.0249942 L16.1161165,16.1161165 L16.0249942,16.2176119 C15.6583353,16.6733914 15.6583353,17.3266086 16.0249942,17.7823881 L16.1161165,17.8838835 L22.233,24 L16.1161165,30.1161165 L16.0249942,30.2176119 C15.6583353,30.6733914 15.6583353,31.3266086 16.0249942,31.7823881 L16.1161165,31.8838835 L16.2176119,31.9750058 C16.6733914,32.3416647 17.3266086,32.3416647 17.7823881,31.9750058 L17.8838835,31.8838835 L24,25.767 L30.1161165,31.8838835 L30.2176119,31.9750058 C30.6733914,32.3416647 31.3266086,32.3416647 31.7823881,31.9750058 L31.8838835,31.8838835 L31.9750058,31.7823881 C32.3416647,31.3266086 32.3416647,30.6733914 31.9750058,30.2176119 L31.8838835,30.1161165 L25.767,24 L31.8838835,17.8838835 L31.9750058,17.7823881 C32.3416647,17.3266086 32.3416647,16.6733914 31.9750058,16.2176119 L31.8838835,16.1161165 L31.7823881,16.0249942 C31.3266086,15.6583353 30.6733914,15.6583353 30.2176119,16.0249942 L30.1161165,16.1161165 L24,22.233 L17.8838835,16.1161165 L17.7823881,16.0249942 L17.8838835,16.1161165 Z"
-})))));
 const InfoIcon = replaceable("info", h("svg", {
   viewBox: "0 0 28 28",
   version: "1.1",
@@ -7017,57 +7138,206 @@ const WarningIcon = replaceable("warning", h("svg", {
 }, h("path", {
   d: "M12,2 C17.523,2 22,6.478 22,12 C22,17.522 17.523,22 12,22 C6.477,22 2,17.522 2,12 C2,6.478 6.477,2 12,2 Z M12.0018002,15.0037242 C11.450254,15.0037242 11.0031376,15.4508407 11.0031376,16.0023869 C11.0031376,16.553933 11.450254,17.0010495 12.0018002,17.0010495 C12.5533463,17.0010495 13.0004628,16.553933 13.0004628,16.0023869 C13.0004628,15.4508407 12.5533463,15.0037242 12.0018002,15.0037242 Z M11.99964,7 C11.4868042,7.00018474 11.0642719,7.38637706 11.0066858,7.8837365 L11,8.00036004 L11.0018003,13.0012393 L11.00857,13.117858 C11.0665141,13.6151758 11.4893244,14.0010638 12.0021602,14.0008793 C12.514996,14.0006946 12.9375283,13.6145023 12.9951144,13.1171428 L13.0018002,13.0005193 L13,7.99964009 L12.9932303,7.8830214 C12.9352861,7.38570354 12.5124758,6.99981552 11.99964,7 Z"
 })))));
-const ChevronDownIcon = defineComponent({
-  name: "ChevronDown",
+const {
+  cubicBezierEaseInOut: cubicBezierEaseInOut$3
+} = commonVariables$7;
+function iconSwitchTransition({
+  originalTransform = "",
+  left = 0,
+  top = 0,
+  transition = `all .3s ${cubicBezierEaseInOut$3} !important`
+} = {}) {
+  return [c$1("&.icon-switch-transition-enter-from, &.icon-switch-transition-leave-to", {
+    transform: `${originalTransform} scale(0.75)`,
+    left,
+    top,
+    opacity: 0
+  }), c$1("&.icon-switch-transition-enter-to, &.icon-switch-transition-leave-from", {
+    transform: `scale(1) ${originalTransform}`,
+    left,
+    top,
+    opacity: 1
+  }), c$1("&.icon-switch-transition-enter-active, &.icon-switch-transition-leave-active", {
+    transformOrigin: "center",
+    position: "absolute",
+    left,
+    top,
+    transition
+  })];
+}
+const style$h = cB("base-clear", `
+ flex-shrink: 0;
+ height: 1em;
+ width: 1em;
+ position: relative;
+`, [c$1(">", [cE("clear", `
+ font-size: var(--n-clear-size);
+ height: 1em;
+ width: 1em;
+ cursor: pointer;
+ color: var(--n-clear-color);
+ transition: color .3s var(--n-bezier);
+ display: flex;
+ `, [c$1("&:hover", `
+ color: var(--n-clear-color-hover)!important;
+ `), c$1("&:active", `
+ color: var(--n-clear-color-pressed)!important;
+ `)]), cE("placeholder", `
+ display: flex;
+ `), cE("clear, placeholder", `
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ `, [iconSwitchTransition({
+  originalTransform: "translateX(-50%) translateY(-50%)",
+  left: "50%",
+  top: "50%"
+})])])]);
+const NBaseClear = defineComponent({
+  name: "BaseClear",
+  props: {
+    clsPrefix: {
+      type: String,
+      required: true
+    },
+    show: Boolean,
+    onClear: Function
+  },
+  setup(props) {
+    useStyle("-base-clear", style$h, toRef(props, "clsPrefix"));
+    return {
+      handleMouseDown(e2) {
+        e2.preventDefault();
+      }
+    };
+  },
   render() {
-    return h("svg", {
-      viewBox: "0 0 16 16",
-      fill: "none",
-      xmlns: "http://www.w3.org/2000/svg"
-    }, h("path", {
-      d: "M3.14645 5.64645C3.34171 5.45118 3.65829 5.45118 3.85355 5.64645L8 9.79289L12.1464 5.64645C12.3417 5.45118 12.6583 5.45118 12.8536 5.64645C13.0488 5.84171 13.0488 6.15829 12.8536 6.35355L8.35355 10.8536C8.15829 11.0488 7.84171 11.0488 7.64645 10.8536L3.14645 6.35355C2.95118 6.15829 2.95118 5.84171 3.14645 5.64645Z",
-      fill: "currentColor"
+    const {
+      clsPrefix
+    } = this;
+    return h("div", {
+      class: `${clsPrefix}-base-clear`
+    }, h(NIconSwitchTransition, null, {
+      default: () => {
+        var _a, _b;
+        return this.show ? h("div", {
+          key: "dismiss",
+          class: `${clsPrefix}-base-clear__clear`,
+          onClick: this.onClear,
+          onMousedown: this.handleMouseDown,
+          "data-clear": true
+        }, resolveSlot(this.$slots.icon, () => [h(NBaseIcon, {
+          clsPrefix
+        }, {
+          default: () => h(ClearIcon, null)
+        })])) : h("div", {
+          key: "icon",
+          class: `${clsPrefix}-base-clear__placeholder`
+        }, (_b = (_a = this.$slots).placeholder) === null || _b === void 0 ? void 0 : _b.call(_a));
+      }
     }));
   }
 });
-const ClearIcon = replaceable("clear", h("svg", {
-  viewBox: "0 0 16 16",
-  version: "1.1",
-  xmlns: "http://www.w3.org/2000/svg"
-}, h("g", {
-  stroke: "none",
-  "stroke-width": "1",
-  fill: "none",
-  "fill-rule": "evenodd"
-}, h("g", {
-  fill: "currentColor",
-  "fill-rule": "nonzero"
-}, h("path", {
-  d: "M8,2 C11.3137085,2 14,4.6862915 14,8 C14,11.3137085 11.3137085,14 8,14 C4.6862915,14 2,11.3137085 2,8 C2,4.6862915 4.6862915,2 8,2 Z M6.5343055,5.83859116 C6.33943736,5.70359511 6.07001296,5.72288026 5.89644661,5.89644661 L5.89644661,5.89644661 L5.83859116,5.9656945 C5.70359511,6.16056264 5.72288026,6.42998704 5.89644661,6.60355339 L5.89644661,6.60355339 L7.293,8 L5.89644661,9.39644661 L5.83859116,9.4656945 C5.70359511,9.66056264 5.72288026,9.92998704 5.89644661,10.1035534 L5.89644661,10.1035534 L5.9656945,10.1614088 C6.16056264,10.2964049 6.42998704,10.2771197 6.60355339,10.1035534 L6.60355339,10.1035534 L8,8.707 L9.39644661,10.1035534 L9.4656945,10.1614088 C9.66056264,10.2964049 9.92998704,10.2771197 10.1035534,10.1035534 L10.1035534,10.1035534 L10.1614088,10.0343055 C10.2964049,9.83943736 10.2771197,9.57001296 10.1035534,9.39644661 L10.1035534,9.39644661 L8.707,8 L10.1035534,6.60355339 L10.1614088,6.5343055 C10.2964049,6.33943736 10.2771197,6.07001296 10.1035534,5.89644661 L10.1035534,5.89644661 L10.0343055,5.83859116 C9.83943736,5.70359511 9.57001296,5.72288026 9.39644661,5.89644661 L9.39644661,5.89644661 L8,7.293 L6.60355339,5.89644661 Z"
-})))));
-const ChevronDownFilledIcon = defineComponent({
-  name: "ChevronDownFilled",
-  render() {
-    return h("svg", {
-      viewBox: "0 0 16 16",
-      fill: "none",
-      xmlns: "http://www.w3.org/2000/svg"
-    }, h("path", {
-      d: "M3.20041 5.73966C3.48226 5.43613 3.95681 5.41856 4.26034 5.70041L8 9.22652L11.7397 5.70041C12.0432 5.41856 12.5177 5.43613 12.7996 5.73966C13.0815 6.0432 13.0639 6.51775 12.7603 6.7996L8.51034 10.7996C8.22258 11.0668 7.77743 11.0668 7.48967 10.7996L3.23966 6.7996C2.93613 6.51775 2.91856 6.0432 3.20041 5.73966Z",
-      fill: "currentColor"
-    }));
-  }
-});
-const NIconSwitchTransition = defineComponent({
-  name: "BaseIconSwitchTransition",
-  setup(_, {
-    slots
-  }) {
-    const isMountedRef = isMounted();
-    return () => h(Transition, {
-      name: "icon-switch-transition",
-      appear: isMountedRef.value
-    }, slots);
+const style$g = cB("base-close", `
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+ background-color: transparent;
+ color: var(--n-close-icon-color);
+ border-radius: var(--n-close-border-radius);
+ height: var(--n-close-size);
+ width: var(--n-close-size);
+ font-size: var(--n-close-icon-size);
+ outline: none;
+ border: none;
+ position: relative;
+ padding: 0;
+`, [cM("absolute", `
+ height: var(--n-close-icon-size);
+ width: var(--n-close-icon-size);
+ `), c$1("&::before", `
+ content: "";
+ position: absolute;
+ width: var(--n-close-size);
+ height: var(--n-close-size);
+ left: 50%;
+ top: 50%;
+ transform: translateY(-50%) translateX(-50%);
+ transition: inherit;
+ border-radius: inherit;
+ `), cNotM("disabled", [c$1("&:hover", `
+ color: var(--n-close-icon-color-hover);
+ `), c$1("&:hover::before", `
+ background-color: var(--n-close-color-hover);
+ `), c$1("&:focus::before", `
+ background-color: var(--n-close-color-hover);
+ `), c$1("&:active", `
+ color: var(--n-close-icon-color-pressed);
+ `), c$1("&:active::before", `
+ background-color: var(--n-close-color-pressed);
+ `)]), cM("disabled", `
+ cursor: not-allowed;
+ color: var(--n-close-icon-color-disabled);
+ background-color: transparent;
+ `), cM("round", [c$1("&::before", `
+ border-radius: 50%;
+ `)])]);
+const NBaseClose = defineComponent({
+  name: "BaseClose",
+  props: {
+    isButtonTag: {
+      type: Boolean,
+      default: true
+    },
+    clsPrefix: {
+      type: String,
+      required: true
+    },
+    disabled: {
+      type: Boolean,
+      default: void 0
+    },
+    focusable: {
+      type: Boolean,
+      default: true
+    },
+    round: Boolean,
+    onClick: Function,
+    absolute: Boolean
+  },
+  setup(props) {
+    useStyle("-base-close", style$g, toRef(props, "clsPrefix"));
+    return () => {
+      const {
+        clsPrefix,
+        disabled,
+        absolute,
+        round,
+        isButtonTag
+      } = props;
+      const Tag = isButtonTag ? "button" : "div";
+      return h(Tag, {
+        type: isButtonTag ? "button" : void 0,
+        tabindex: disabled || !props.focusable ? -1 : 0,
+        "aria-disabled": disabled,
+        "aria-label": "close",
+        role: isButtonTag ? void 0 : "button",
+        disabled,
+        class: [`${clsPrefix}-base-close`, absolute && `${clsPrefix}-base-close--absolute`, disabled && `${clsPrefix}-base-close--disabled`, round && `${clsPrefix}-base-close--round`],
+        onMousedown: (e2) => {
+          if (!props.focusable) {
+            e2.preventDefault();
+          }
+        },
+        onClick: props.onClick
+      }, h(NBaseIcon, {
+        clsPrefix
+      }, {
+        default: () => h(ErrorIcon$1, null)
+      }));
+    };
   }
 });
 const NFadeInExpandTransition = defineComponent({
@@ -7177,185 +7447,7 @@ const NFadeInExpandTransition = defineComponent({
     };
   }
 });
-const style$i = cB("base-icon", `
- height: 1em;
- width: 1em;
- line-height: 1em;
- text-align: center;
- display: inline-block;
- position: relative;
- fill: currentColor;
- transform: translateZ(0);
-`, [c$1("svg", `
- height: 1em;
- width: 1em;
- `)]);
-const NBaseIcon = defineComponent({
-  name: "BaseIcon",
-  props: {
-    role: String,
-    ariaLabel: String,
-    ariaDisabled: {
-      type: Boolean,
-      default: void 0
-    },
-    ariaHidden: {
-      type: Boolean,
-      default: void 0
-    },
-    clsPrefix: {
-      type: String,
-      required: true
-    },
-    onClick: Function,
-    onMousedown: Function,
-    onMouseup: Function
-  },
-  setup(props) {
-    useStyle("-base-icon", style$i, toRef(props, "clsPrefix"));
-  },
-  render() {
-    return h("i", {
-      class: `${this.clsPrefix}-base-icon`,
-      onClick: this.onClick,
-      onMousedown: this.onMousedown,
-      onMouseup: this.onMouseup,
-      role: this.role,
-      "aria-label": this.ariaLabel,
-      "aria-hidden": this.ariaHidden,
-      "aria-disabled": this.ariaDisabled
-    }, this.$slots);
-  }
-});
-const style$h = cB("base-close", `
- display: flex;
- align-items: center;
- justify-content: center;
- cursor: pointer;
- background-color: transparent;
- color: var(--n-close-icon-color);
- border-radius: var(--n-close-border-radius);
- height: var(--n-close-size);
- width: var(--n-close-size);
- font-size: var(--n-close-icon-size);
- outline: none;
- border: none;
- position: relative;
- padding: 0;
-`, [cM("absolute", `
- height: var(--n-close-icon-size);
- width: var(--n-close-icon-size);
- `), c$1("&::before", `
- content: "";
- position: absolute;
- width: var(--n-close-size);
- height: var(--n-close-size);
- left: 50%;
- top: 50%;
- transform: translateY(-50%) translateX(-50%);
- transition: inherit;
- border-radius: inherit;
- `), cNotM("disabled", [c$1("&:hover", `
- color: var(--n-close-icon-color-hover);
- `), c$1("&:hover::before", `
- background-color: var(--n-close-color-hover);
- `), c$1("&:focus::before", `
- background-color: var(--n-close-color-hover);
- `), c$1("&:active", `
- color: var(--n-close-icon-color-pressed);
- `), c$1("&:active::before", `
- background-color: var(--n-close-color-pressed);
- `)]), cM("disabled", `
- cursor: not-allowed;
- color: var(--n-close-icon-color-disabled);
- background-color: transparent;
- `), cM("round", [c$1("&::before", `
- border-radius: 50%;
- `)])]);
-const NBaseClose = defineComponent({
-  name: "BaseClose",
-  props: {
-    isButtonTag: {
-      type: Boolean,
-      default: true
-    },
-    clsPrefix: {
-      type: String,
-      required: true
-    },
-    disabled: {
-      type: Boolean,
-      default: void 0
-    },
-    focusable: {
-      type: Boolean,
-      default: true
-    },
-    round: Boolean,
-    onClick: Function,
-    absolute: Boolean
-  },
-  setup(props) {
-    useStyle("-base-close", style$h, toRef(props, "clsPrefix"));
-    return () => {
-      const {
-        clsPrefix,
-        disabled,
-        absolute,
-        round,
-        isButtonTag
-      } = props;
-      const Tag = isButtonTag ? "button" : "div";
-      return h(Tag, {
-        type: isButtonTag ? "button" : void 0,
-        tabindex: disabled || !props.focusable ? -1 : 0,
-        "aria-disabled": disabled,
-        "aria-label": "close",
-        role: isButtonTag ? void 0 : "button",
-        disabled,
-        class: [`${clsPrefix}-base-close`, absolute && `${clsPrefix}-base-close--absolute`, disabled && `${clsPrefix}-base-close--disabled`, round && `${clsPrefix}-base-close--round`],
-        onMousedown: (e2) => {
-          if (!props.focusable) {
-            e2.preventDefault();
-          }
-        },
-        onClick: props.onClick
-      }, h(NBaseIcon, {
-        clsPrefix
-      }, {
-        default: () => h(ErrorIcon$1, null)
-      }));
-    };
-  }
-});
-const {
-  cubicBezierEaseInOut: cubicBezierEaseInOut$3
-} = commonVariables$7;
-function iconSwitchTransition({
-  originalTransform = "",
-  left = 0,
-  top = 0,
-  transition = `all .3s ${cubicBezierEaseInOut$3} !important`
-} = {}) {
-  return [c$1("&.icon-switch-transition-enter-from, &.icon-switch-transition-leave-to", {
-    transform: `${originalTransform} scale(0.75)`,
-    left,
-    top,
-    opacity: 0
-  }), c$1("&.icon-switch-transition-enter-to, &.icon-switch-transition-leave-from", {
-    transform: `scale(1) ${originalTransform}`,
-    left,
-    top,
-    opacity: 1
-  }), c$1("&.icon-switch-transition-enter-active, &.icon-switch-transition-leave-active", {
-    transformOrigin: "center",
-    position: "absolute",
-    left,
-    top,
-    transition
-  })];
-}
-const style$g = c$1([c$1("@keyframes rotator", `
+const style$f = c$1([c$1("@keyframes rotator", `
  0% {
  -webkit-transform: rotate(0deg);
  transform: rotate(0deg);
@@ -7419,7 +7511,7 @@ const NBaseLoading = defineComponent({
     }
   }, exposedLoadingProps),
   setup(props) {
-    useStyle("-base-loading", style$g, toRef(props, "clsPrefix"));
+    useStyle("-base-loading", style$f, toRef(props, "clsPrefix"));
   },
   render() {
     const {
@@ -7488,619 +7580,25 @@ const NBaseLoading = defineComponent({
     }));
   }
 });
-function toArray$2(arg) {
-  if (Array.isArray(arg))
-    return arg;
-  return [arg];
-}
-const TRAVERSE_COMMAND = {
-  STOP: "STOP"
-};
-function traverseWithCb(treeNode, callback) {
-  const command = callback(treeNode);
-  if (treeNode.children !== void 0 && command !== TRAVERSE_COMMAND.STOP) {
-    treeNode.children.forEach((childNode) => traverseWithCb(childNode, callback));
-  }
-}
-function getNonLeafKeys(treeNodes, options = {}) {
-  const { preserveGroup = false } = options;
-  const keys2 = [];
-  const cb = preserveGroup ? (node) => {
-    if (!node.isLeaf) {
-      keys2.push(node.key);
-      traverse(node.children);
-    }
-  } : (node) => {
-    if (!node.isLeaf) {
-      if (!node.isGroup)
-        keys2.push(node.key);
-      traverse(node.children);
-    }
-  };
-  function traverse(nodes) {
-    nodes.forEach(cb);
-  }
-  traverse(treeNodes);
-  return keys2;
-}
-function isLeaf(rawNode, getChildren) {
-  const { isLeaf: isLeaf2 } = rawNode;
-  if (isLeaf2 !== void 0)
-    return isLeaf2;
-  else if (!getChildren(rawNode))
-    return true;
-  return false;
-}
-function defaultGetChildren(node) {
-  return node.children;
-}
-function defaultGetKey(node) {
-  return node.key;
-}
-function isIgnored() {
-  return false;
-}
-function isShallowLoaded(rawNode, getChildren) {
-  const { isLeaf: isLeaf2 } = rawNode;
-  if (isLeaf2 === false && !Array.isArray(getChildren(rawNode)))
-    return false;
-  return true;
-}
-function isDisabled(rawNode) {
-  return rawNode.disabled === true;
-}
-function isExpilicitlyNotLoaded(rawNode, getChildren) {
-  return rawNode.isLeaf === false && !Array.isArray(getChildren(rawNode));
-}
-function unwrapCheckedKeys(result) {
-  var _a;
-  if (result === void 0 || result === null)
-    return [];
-  if (Array.isArray(result))
-    return result;
-  return (_a = result.checkedKeys) !== null && _a !== void 0 ? _a : [];
-}
-function unwrapIndeterminateKeys(result) {
-  var _a;
-  if (result === void 0 || result === null || Array.isArray(result)) {
-    return [];
-  }
-  return (_a = result.indeterminateKeys) !== null && _a !== void 0 ? _a : [];
-}
-function merge$1(originalKeys, keysToAdd) {
-  const set = new Set(originalKeys);
-  keysToAdd.forEach((key) => {
-    if (!set.has(key)) {
-      set.add(key);
-    }
-  });
-  return Array.from(set);
-}
-function minus(originalKeys, keysToRemove) {
-  const set = new Set(originalKeys);
-  keysToRemove.forEach((key) => {
-    if (set.has(key)) {
-      set.delete(key);
-    }
-  });
-  return Array.from(set);
-}
-function isGroup(rawNode) {
-  return (rawNode === null || rawNode === void 0 ? void 0 : rawNode.type) === "group";
-}
-class SubtreeNotLoadedError extends Error {
-  constructor() {
-    super();
-    this.message = "SubtreeNotLoadedError: checking a subtree whose required nodes are not fully loaded.";
-  }
-}
-function getExtendedCheckedKeySetAfterCheck(checkKeys, currentCheckedKeys, treeMate, allowNotLoaded) {
-  return getExtendedCheckedKeySet(currentCheckedKeys.concat(checkKeys), treeMate, allowNotLoaded, false);
-}
-function getAvailableAscendantNodeSet(uncheckedKeys, treeMate) {
-  const visitedKeys = /* @__PURE__ */ new Set();
-  uncheckedKeys.forEach((uncheckedKey) => {
-    const uncheckedTreeNode = treeMate.treeNodeMap.get(uncheckedKey);
-    if (uncheckedTreeNode !== void 0) {
-      let nodeCursor = uncheckedTreeNode.parent;
-      while (nodeCursor !== null) {
-        if (nodeCursor.disabled)
-          break;
-        if (visitedKeys.has(nodeCursor.key))
-          break;
-        else {
-          visitedKeys.add(nodeCursor.key);
-        }
-        nodeCursor = nodeCursor.parent;
-      }
-    }
-  });
-  return visitedKeys;
-}
-function getExtendedCheckedKeySetAfterUncheck(uncheckedKeys, currentCheckedKeys, treeMate, allowNotLoaded) {
-  const extendedCheckedKeySet = getExtendedCheckedKeySet(currentCheckedKeys, treeMate, allowNotLoaded, false);
-  const extendedKeySetToUncheck = getExtendedCheckedKeySet(uncheckedKeys, treeMate, allowNotLoaded, true);
-  const ascendantKeySet = getAvailableAscendantNodeSet(uncheckedKeys, treeMate);
-  const keysToRemove = [];
-  extendedCheckedKeySet.forEach((key) => {
-    if (extendedKeySetToUncheck.has(key) || ascendantKeySet.has(key)) {
-      keysToRemove.push(key);
-    }
-  });
-  keysToRemove.forEach((key) => extendedCheckedKeySet.delete(key));
-  return extendedCheckedKeySet;
-}
-function getCheckedKeys(options, treeMate) {
-  const { checkedKeys, keysToCheck, keysToUncheck, indeterminateKeys, cascade, leafOnly, checkStrategy, allowNotLoaded } = options;
-  if (!cascade) {
-    if (keysToCheck !== void 0) {
-      return {
-        checkedKeys: merge$1(checkedKeys, keysToCheck),
-        indeterminateKeys: Array.from(indeterminateKeys)
-      };
-    } else if (keysToUncheck !== void 0) {
-      return {
-        checkedKeys: minus(checkedKeys, keysToUncheck),
-        indeterminateKeys: Array.from(indeterminateKeys)
-      };
-    } else {
-      return {
-        checkedKeys: Array.from(checkedKeys),
-        indeterminateKeys: Array.from(indeterminateKeys)
-      };
-    }
-  }
-  const { levelTreeNodeMap } = treeMate;
-  let extendedCheckedKeySet;
-  if (keysToUncheck !== void 0) {
-    extendedCheckedKeySet = getExtendedCheckedKeySetAfterUncheck(keysToUncheck, checkedKeys, treeMate, allowNotLoaded);
-  } else if (keysToCheck !== void 0) {
-    extendedCheckedKeySet = getExtendedCheckedKeySetAfterCheck(keysToCheck, checkedKeys, treeMate, allowNotLoaded);
-  } else {
-    extendedCheckedKeySet = getExtendedCheckedKeySet(checkedKeys, treeMate, allowNotLoaded, false);
-  }
-  const checkStrategyIsParent = checkStrategy === "parent";
-  const checkStrategyIsChild = checkStrategy === "child" || leafOnly;
-  const syntheticCheckedKeySet = extendedCheckedKeySet;
-  const syntheticIndeterminateKeySet = /* @__PURE__ */ new Set();
-  const maxLevel = Math.max.apply(null, Array.from(levelTreeNodeMap.keys()));
-  for (let level = maxLevel; level >= 0; level -= 1) {
-    const levelIsZero = level === 0;
-    const levelTreeNodes = levelTreeNodeMap.get(level);
-    for (const levelTreeNode of levelTreeNodes) {
-      if (levelTreeNode.isLeaf)
-        continue;
-      const { key: levelTreeNodeKey, shallowLoaded } = levelTreeNode;
-      if (checkStrategyIsChild && shallowLoaded) {
-        levelTreeNode.children.forEach((v) => {
-          if (!v.disabled && !v.isLeaf && v.shallowLoaded && syntheticCheckedKeySet.has(v.key)) {
-            syntheticCheckedKeySet.delete(v.key);
-          }
-        });
-      }
-      if (levelTreeNode.disabled || !shallowLoaded) {
-        continue;
-      }
-      let fullyChecked = true;
-      let partialChecked = false;
-      let allDisabled = true;
-      for (const childNode of levelTreeNode.children) {
-        const childKey = childNode.key;
-        if (childNode.disabled)
-          continue;
-        if (allDisabled)
-          allDisabled = false;
-        if (syntheticCheckedKeySet.has(childKey)) {
-          partialChecked = true;
-        } else if (syntheticIndeterminateKeySet.has(childKey)) {
-          partialChecked = true;
-          fullyChecked = false;
-          break;
-        } else {
-          fullyChecked = false;
-          if (partialChecked) {
-            break;
-          }
-        }
-      }
-      if (fullyChecked && !allDisabled) {
-        if (checkStrategyIsParent) {
-          levelTreeNode.children.forEach((v) => {
-            if (!v.disabled && syntheticCheckedKeySet.has(v.key)) {
-              syntheticCheckedKeySet.delete(v.key);
-            }
-          });
-        }
-        syntheticCheckedKeySet.add(levelTreeNodeKey);
-      } else if (partialChecked) {
-        syntheticIndeterminateKeySet.add(levelTreeNodeKey);
-      }
-      if (levelIsZero && checkStrategyIsChild && syntheticCheckedKeySet.has(levelTreeNodeKey)) {
-        syntheticCheckedKeySet.delete(levelTreeNodeKey);
-      }
-    }
-  }
-  return {
-    checkedKeys: Array.from(syntheticCheckedKeySet),
-    indeterminateKeys: Array.from(syntheticIndeterminateKeySet)
-  };
-}
-function getExtendedCheckedKeySet(checkedKeys, treeMate, allowNotLoaded, isUnchecking) {
-  const { treeNodeMap, getChildren } = treeMate;
-  const visitedKeySet = /* @__PURE__ */ new Set();
-  const extendedKeySet = new Set(checkedKeys);
-  checkedKeys.forEach((checkedKey) => {
-    const checkedTreeNode = treeNodeMap.get(checkedKey);
-    if (checkedTreeNode !== void 0) {
-      traverseWithCb(checkedTreeNode, (treeNode) => {
-        if (treeNode.disabled) {
-          return TRAVERSE_COMMAND.STOP;
-        }
-        const { key } = treeNode;
-        if (visitedKeySet.has(key))
-          return;
-        visitedKeySet.add(key);
-        extendedKeySet.add(key);
-        if (isExpilicitlyNotLoaded(treeNode.rawNode, getChildren)) {
-          if (isUnchecking) {
-            return TRAVERSE_COMMAND.STOP;
-          } else if (!allowNotLoaded) {
-            throw new SubtreeNotLoadedError();
-          }
-        }
-      });
-    }
-  });
-  return extendedKeySet;
-}
-function getPath$1(key, { includeGroup = false, includeSelf = true }, treeMate) {
-  var _a;
-  const treeNodeMap = treeMate.treeNodeMap;
-  let treeNode = key === null || key === void 0 ? null : (_a = treeNodeMap.get(key)) !== null && _a !== void 0 ? _a : null;
-  const mergedPath = {
-    keyPath: [],
-    treeNodePath: [],
-    treeNode
-  };
-  if (treeNode === null || treeNode === void 0 ? void 0 : treeNode.ignored) {
-    mergedPath.treeNode = null;
-    return mergedPath;
-  }
-  while (treeNode) {
-    if (!treeNode.ignored && (includeGroup || !treeNode.isGroup)) {
-      mergedPath.treeNodePath.push(treeNode);
-    }
-    treeNode = treeNode.parent;
-  }
-  mergedPath.treeNodePath.reverse();
-  if (!includeSelf)
-    mergedPath.treeNodePath.pop();
-  mergedPath.keyPath = mergedPath.treeNodePath.map((treeNode2) => treeNode2.key);
-  return mergedPath;
-}
-function getFirstAvailableNode(nodes) {
-  if (nodes.length === 0)
-    return null;
-  const node = nodes[0];
-  if (node.isGroup || node.ignored || node.disabled) {
-    return node.getNext();
-  }
-  return node;
-}
-function rawGetNext(node, loop) {
-  const sibs = node.siblings;
-  const l = sibs.length;
-  const { index } = node;
-  if (loop) {
-    return sibs[(index + 1) % l];
-  } else {
-    if (index === sibs.length - 1)
-      return null;
-    return sibs[index + 1];
-  }
-}
-function move(fromNode, dir, { loop = false, includeDisabled = false } = {}) {
-  const iterate = dir === "prev" ? rawGetPrev : rawGetNext;
-  const getChildOptions = {
-    reverse: dir === "prev"
-  };
-  let meet = false;
-  let endNode = null;
-  function traverse(node) {
-    if (node === null)
-      return;
-    if (node === fromNode) {
-      if (!meet) {
-        meet = true;
-      } else if (!fromNode.disabled && !fromNode.isGroup) {
-        endNode = fromNode;
-        return;
-      }
-    } else {
-      if ((!node.disabled || includeDisabled) && !node.ignored && !node.isGroup) {
-        endNode = node;
-        return;
-      }
-    }
-    if (node.isGroup) {
-      const child = getChild(node, getChildOptions);
-      if (child !== null) {
-        endNode = child;
-      } else {
-        traverse(iterate(node, loop));
-      }
-    } else {
-      const nextNode = iterate(node, false);
-      if (nextNode !== null) {
-        traverse(nextNode);
-      } else {
-        const parent = rawGetParent(node);
-        if (parent === null || parent === void 0 ? void 0 : parent.isGroup) {
-          traverse(iterate(parent, loop));
-        } else if (loop) {
-          traverse(iterate(node, true));
-        }
-      }
-    }
-  }
-  traverse(fromNode);
-  return endNode;
-}
-function rawGetPrev(node, loop) {
-  const sibs = node.siblings;
-  const l = sibs.length;
-  const { index } = node;
-  if (loop) {
-    return sibs[(index - 1 + l) % l];
-  } else {
-    if (index === 0)
-      return null;
-    return sibs[index - 1];
-  }
-}
-function rawGetParent(node) {
-  return node.parent;
-}
-function getChild(node, options = {}) {
-  const { reverse = false } = options;
-  const { children } = node;
-  if (children) {
-    const { length } = children;
-    const start = reverse ? length - 1 : 0;
-    const end = reverse ? -1 : length;
-    const delta = reverse ? -1 : 1;
-    for (let i2 = start; i2 !== end; i2 += delta) {
-      const child = children[i2];
-      if (!child.disabled && !child.ignored) {
-        if (child.isGroup) {
-          const childInGroup = getChild(child, options);
-          if (childInGroup !== null)
-            return childInGroup;
-        } else {
-          return child;
-        }
-      }
-    }
-  }
-  return null;
-}
-const moveMethods = {
-  getChild() {
-    if (this.ignored)
-      return null;
-    return getChild(this);
-  },
-  getParent() {
-    const { parent } = this;
-    if (parent === null || parent === void 0 ? void 0 : parent.isGroup) {
-      return parent.getParent();
-    }
-    return parent;
-  },
-  getNext(options = {}) {
-    return move(this, "next", options);
-  },
-  getPrev(options = {}) {
-    return move(this, "prev", options);
-  }
-};
-function flatten(treeNodes, expandedKeys) {
-  const expandedKeySet = expandedKeys ? new Set(expandedKeys) : void 0;
-  const flattenedNodes = [];
-  function traverse(treeNodes2) {
-    treeNodes2.forEach((treeNode) => {
-      flattenedNodes.push(treeNode);
-      if (treeNode.isLeaf || !treeNode.children || treeNode.ignored)
-        return;
-      if (treeNode.isGroup) {
-        traverse(treeNode.children);
-      } else if (
-        // normal non-leaf node
-        expandedKeySet === void 0 || expandedKeySet.has(treeNode.key)
-      ) {
-        traverse(treeNode.children);
-      }
-    });
-  }
-  traverse(treeNodes);
-  return flattenedNodes;
-}
-function contains(parent, child) {
-  const parentKey = parent.key;
-  while (child) {
-    if (child.key === parentKey)
-      return true;
-    child = child.parent;
-  }
-  return false;
-}
-function createTreeNodes(rawNodes, treeNodeMap, levelTreeNodeMap, nodeProto, getChildren, parent = null, level = 0) {
-  const treeNodes = [];
-  rawNodes.forEach((rawNode, index) => {
-    var _a;
-    const treeNode = Object.create(nodeProto);
-    treeNode.rawNode = rawNode;
-    treeNode.siblings = treeNodes;
-    treeNode.level = level;
-    treeNode.index = index;
-    treeNode.isFirstChild = index === 0;
-    treeNode.isLastChild = index + 1 === rawNodes.length;
-    treeNode.parent = parent;
-    if (!treeNode.ignored) {
-      const rawChildren = getChildren(rawNode);
-      if (Array.isArray(rawChildren)) {
-        treeNode.children = createTreeNodes(rawChildren, treeNodeMap, levelTreeNodeMap, nodeProto, getChildren, treeNode, level + 1);
-      }
-    }
-    treeNodes.push(treeNode);
-    treeNodeMap.set(treeNode.key, treeNode);
-    if (!levelTreeNodeMap.has(level))
-      levelTreeNodeMap.set(level, []);
-    (_a = levelTreeNodeMap.get(level)) === null || _a === void 0 ? void 0 : _a.push(treeNode);
-  });
-  return treeNodes;
-}
-function createTreeMate(rawNodes, options = {}) {
-  var _a;
-  const treeNodeMap = /* @__PURE__ */ new Map();
-  const levelTreeNodeMap = /* @__PURE__ */ new Map();
-  const { getDisabled = isDisabled, getIgnored = isIgnored, getIsGroup = isGroup, getKey = defaultGetKey } = options;
-  const _getChildren = (_a = options.getChildren) !== null && _a !== void 0 ? _a : defaultGetChildren;
-  const getChildren = options.ignoreEmptyChildren ? (node) => {
-    const children = _getChildren(node);
-    if (Array.isArray(children)) {
-      if (!children.length)
-        return null;
-      return children;
-    }
-    return children;
-  } : _getChildren;
-  const nodeProto = Object.assign({
-    get key() {
-      return getKey(this.rawNode);
-    },
-    get disabled() {
-      return getDisabled(this.rawNode);
-    },
-    get isGroup() {
-      return getIsGroup(this.rawNode);
-    },
-    get isLeaf() {
-      return isLeaf(this.rawNode, getChildren);
-    },
-    get shallowLoaded() {
-      return isShallowLoaded(this.rawNode, getChildren);
-    },
-    get ignored() {
-      return getIgnored(this.rawNode);
-    },
-    contains(node) {
-      return contains(this, node);
-    }
-  }, moveMethods);
-  const treeNodes = createTreeNodes(rawNodes, treeNodeMap, levelTreeNodeMap, nodeProto, getChildren);
-  function getNode(key) {
-    if (key === null || key === void 0)
-      return null;
-    const tmNode = treeNodeMap.get(key);
-    if (tmNode && !tmNode.isGroup && !tmNode.ignored) {
-      return tmNode;
-    }
-    return null;
-  }
-  function _getNode(key) {
-    if (key === null || key === void 0)
-      return null;
-    const tmNode = treeNodeMap.get(key);
-    if (tmNode && !tmNode.ignored) {
-      return tmNode;
-    }
-    return null;
-  }
-  function getPrev(key, options2) {
-    const node = _getNode(key);
-    if (!node)
-      return null;
-    return node.getPrev(options2);
-  }
-  function getNext(key, options2) {
-    const node = _getNode(key);
-    if (!node)
-      return null;
-    return node.getNext(options2);
-  }
-  function getParent(key) {
-    const node = _getNode(key);
-    if (!node)
-      return null;
-    return node.getParent();
-  }
-  function getChild2(key) {
-    const node = _getNode(key);
-    if (!node)
-      return null;
-    return node.getChild();
-  }
-  const treemate = {
-    treeNodes,
-    treeNodeMap,
-    levelTreeNodeMap,
-    maxLevel: Math.max(...levelTreeNodeMap.keys()),
-    getChildren,
-    getFlattenedNodes(expandedKeys) {
-      return flatten(treeNodes, expandedKeys);
-    },
-    getNode,
-    getPrev,
-    getNext,
-    getParent,
-    getChild: getChild2,
-    getFirstAvailableNode() {
-      return getFirstAvailableNode(treeNodes);
-    },
-    getPath(key, options2 = {}) {
-      return getPath$1(key, options2, treemate);
-    },
-    getCheckedKeys(checkedKeys, options2 = {}) {
-      const { cascade = true, leafOnly = false, checkStrategy = "all", allowNotLoaded = false } = options2;
-      return getCheckedKeys({
-        checkedKeys: unwrapCheckedKeys(checkedKeys),
-        indeterminateKeys: unwrapIndeterminateKeys(checkedKeys),
-        cascade,
-        leafOnly,
-        checkStrategy,
-        allowNotLoaded
-      }, treemate);
-    },
-    check(keysToCheck, checkedKeys, options2 = {}) {
-      const { cascade = true, leafOnly = false, checkStrategy = "all", allowNotLoaded = false } = options2;
-      return getCheckedKeys({
-        checkedKeys: unwrapCheckedKeys(checkedKeys),
-        indeterminateKeys: unwrapIndeterminateKeys(checkedKeys),
-        keysToCheck: keysToCheck === void 0 || keysToCheck === null ? [] : toArray$2(keysToCheck),
-        cascade,
-        leafOnly,
-        checkStrategy,
-        allowNotLoaded
-      }, treemate);
-    },
-    uncheck(keysToUncheck, checkedKeys, options2 = {}) {
-      const { cascade = true, leafOnly = false, checkStrategy = "all", allowNotLoaded = false } = options2;
-      return getCheckedKeys({
-        checkedKeys: unwrapCheckedKeys(checkedKeys),
-        indeterminateKeys: unwrapIndeterminateKeys(checkedKeys),
-        keysToUncheck: keysToUncheck === null || keysToUncheck === void 0 ? [] : toArray$2(keysToUncheck),
-        cascade,
-        leafOnly,
-        checkStrategy,
-        allowNotLoaded
-      }, treemate);
-    },
-    getNonLeafKeys(options2 = {}) {
-      return getNonLeafKeys(treeNodes, options2);
-    }
-  };
-  return treemate;
+const {
+  cubicBezierEaseInOut: cubicBezierEaseInOut$2
+} = commonVariables$7;
+function fadeInTransition({
+  name = "fade-in",
+  enterDuration = "0.2s",
+  leaveDuration = "0.2s",
+  enterCubicBezier = cubicBezierEaseInOut$2,
+  leaveCubicBezier = cubicBezierEaseInOut$2
+} = {}) {
+  return [c$1(`&.${name}-transition-enter-active`, {
+    transition: `all ${enterDuration} ${enterCubicBezier}!important`
+  }), c$1(`&.${name}-transition-leave-active`, {
+    transition: `all ${leaveDuration} ${leaveCubicBezier}!important`
+  }), c$1(`&.${name}-transition-enter-from, &.${name}-transition-leave-to`, {
+    opacity: 0
+  }), c$1(`&.${name}-transition-leave-from, &.${name}-transition-enter-to`, {
+    opacity: 1
+  })];
 }
 const commonVars$3 = {
   railInsetHorizontalBottom: "auto 2px 4px 2px",
@@ -8130,27 +7628,7 @@ const scrollbarLight = {
   common: derived,
   self: self$f
 };
-const {
-  cubicBezierEaseInOut: cubicBezierEaseInOut$2
-} = commonVariables$7;
-function fadeInTransition({
-  name = "fade-in",
-  enterDuration = "0.2s",
-  leaveDuration = "0.2s",
-  enterCubicBezier = cubicBezierEaseInOut$2,
-  leaveCubicBezier = cubicBezierEaseInOut$2
-} = {}) {
-  return [c$1(`&.${name}-transition-enter-active`, {
-    transition: `all ${enterDuration} ${enterCubicBezier}!important`
-  }), c$1(`&.${name}-transition-leave-active`, {
-    transition: `all ${leaveDuration} ${leaveCubicBezier}!important`
-  }), c$1(`&.${name}-transition-enter-from, &.${name}-transition-leave-to`, {
-    opacity: 0
-  }), c$1(`&.${name}-transition-leave-from, &.${name}-transition-enter-to`, {
-    opacity: 1
-  })];
-}
-const style$f = cB("scrollbar", `
+const style$e = cB("scrollbar", `
  overflow: hidden;
  position: relative;
  z-index: auto;
@@ -8281,7 +7759,7 @@ const Scrollbar$1 = defineComponent({
     let memoMouseX = 0;
     let memoMouseY = 0;
     const isIos2 = useIsIos();
-    const themeRef = useTheme("Scrollbar", "-scrollbar", style$f, scrollbarLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Scrollbar", "-scrollbar", style$e, scrollbarLight, props, mergedClsPrefixRef);
     const yBarSizeRef = computed(() => {
       const {
         value: containerHeight
@@ -8938,6 +8416,620 @@ const Scrollbar$1 = defineComponent({
   }
 });
 const XScrollbar = Scrollbar$1;
+function toArray$2(arg) {
+  if (Array.isArray(arg))
+    return arg;
+  return [arg];
+}
+const TRAVERSE_COMMAND = {
+  STOP: "STOP"
+};
+function traverseWithCb(treeNode, callback) {
+  const command = callback(treeNode);
+  if (treeNode.children !== void 0 && command !== TRAVERSE_COMMAND.STOP) {
+    treeNode.children.forEach((childNode) => traverseWithCb(childNode, callback));
+  }
+}
+function getNonLeafKeys(treeNodes, options = {}) {
+  const { preserveGroup = false } = options;
+  const keys2 = [];
+  const cb = preserveGroup ? (node) => {
+    if (!node.isLeaf) {
+      keys2.push(node.key);
+      traverse(node.children);
+    }
+  } : (node) => {
+    if (!node.isLeaf) {
+      if (!node.isGroup)
+        keys2.push(node.key);
+      traverse(node.children);
+    }
+  };
+  function traverse(nodes) {
+    nodes.forEach(cb);
+  }
+  traverse(treeNodes);
+  return keys2;
+}
+function isLeaf(rawNode, getChildren) {
+  const { isLeaf: isLeaf2 } = rawNode;
+  if (isLeaf2 !== void 0)
+    return isLeaf2;
+  else if (!getChildren(rawNode))
+    return true;
+  return false;
+}
+function defaultGetChildren(node) {
+  return node.children;
+}
+function defaultGetKey(node) {
+  return node.key;
+}
+function isIgnored() {
+  return false;
+}
+function isShallowLoaded(rawNode, getChildren) {
+  const { isLeaf: isLeaf2 } = rawNode;
+  if (isLeaf2 === false && !Array.isArray(getChildren(rawNode)))
+    return false;
+  return true;
+}
+function isDisabled(rawNode) {
+  return rawNode.disabled === true;
+}
+function isExpilicitlyNotLoaded(rawNode, getChildren) {
+  return rawNode.isLeaf === false && !Array.isArray(getChildren(rawNode));
+}
+function unwrapCheckedKeys(result) {
+  var _a;
+  if (result === void 0 || result === null)
+    return [];
+  if (Array.isArray(result))
+    return result;
+  return (_a = result.checkedKeys) !== null && _a !== void 0 ? _a : [];
+}
+function unwrapIndeterminateKeys(result) {
+  var _a;
+  if (result === void 0 || result === null || Array.isArray(result)) {
+    return [];
+  }
+  return (_a = result.indeterminateKeys) !== null && _a !== void 0 ? _a : [];
+}
+function merge$1(originalKeys, keysToAdd) {
+  const set = new Set(originalKeys);
+  keysToAdd.forEach((key) => {
+    if (!set.has(key)) {
+      set.add(key);
+    }
+  });
+  return Array.from(set);
+}
+function minus(originalKeys, keysToRemove) {
+  const set = new Set(originalKeys);
+  keysToRemove.forEach((key) => {
+    if (set.has(key)) {
+      set.delete(key);
+    }
+  });
+  return Array.from(set);
+}
+function isGroup(rawNode) {
+  return (rawNode === null || rawNode === void 0 ? void 0 : rawNode.type) === "group";
+}
+class SubtreeNotLoadedError extends Error {
+  constructor() {
+    super();
+    this.message = "SubtreeNotLoadedError: checking a subtree whose required nodes are not fully loaded.";
+  }
+}
+function getExtendedCheckedKeySetAfterCheck(checkKeys, currentCheckedKeys, treeMate, allowNotLoaded) {
+  return getExtendedCheckedKeySet(currentCheckedKeys.concat(checkKeys), treeMate, allowNotLoaded, false);
+}
+function getAvailableAscendantNodeSet(uncheckedKeys, treeMate) {
+  const visitedKeys = /* @__PURE__ */ new Set();
+  uncheckedKeys.forEach((uncheckedKey) => {
+    const uncheckedTreeNode = treeMate.treeNodeMap.get(uncheckedKey);
+    if (uncheckedTreeNode !== void 0) {
+      let nodeCursor = uncheckedTreeNode.parent;
+      while (nodeCursor !== null) {
+        if (nodeCursor.disabled)
+          break;
+        if (visitedKeys.has(nodeCursor.key))
+          break;
+        else {
+          visitedKeys.add(nodeCursor.key);
+        }
+        nodeCursor = nodeCursor.parent;
+      }
+    }
+  });
+  return visitedKeys;
+}
+function getExtendedCheckedKeySetAfterUncheck(uncheckedKeys, currentCheckedKeys, treeMate, allowNotLoaded) {
+  const extendedCheckedKeySet = getExtendedCheckedKeySet(currentCheckedKeys, treeMate, allowNotLoaded, false);
+  const extendedKeySetToUncheck = getExtendedCheckedKeySet(uncheckedKeys, treeMate, allowNotLoaded, true);
+  const ascendantKeySet = getAvailableAscendantNodeSet(uncheckedKeys, treeMate);
+  const keysToRemove = [];
+  extendedCheckedKeySet.forEach((key) => {
+    if (extendedKeySetToUncheck.has(key) || ascendantKeySet.has(key)) {
+      keysToRemove.push(key);
+    }
+  });
+  keysToRemove.forEach((key) => extendedCheckedKeySet.delete(key));
+  return extendedCheckedKeySet;
+}
+function getCheckedKeys(options, treeMate) {
+  const { checkedKeys, keysToCheck, keysToUncheck, indeterminateKeys, cascade, leafOnly, checkStrategy, allowNotLoaded } = options;
+  if (!cascade) {
+    if (keysToCheck !== void 0) {
+      return {
+        checkedKeys: merge$1(checkedKeys, keysToCheck),
+        indeterminateKeys: Array.from(indeterminateKeys)
+      };
+    } else if (keysToUncheck !== void 0) {
+      return {
+        checkedKeys: minus(checkedKeys, keysToUncheck),
+        indeterminateKeys: Array.from(indeterminateKeys)
+      };
+    } else {
+      return {
+        checkedKeys: Array.from(checkedKeys),
+        indeterminateKeys: Array.from(indeterminateKeys)
+      };
+    }
+  }
+  const { levelTreeNodeMap } = treeMate;
+  let extendedCheckedKeySet;
+  if (keysToUncheck !== void 0) {
+    extendedCheckedKeySet = getExtendedCheckedKeySetAfterUncheck(keysToUncheck, checkedKeys, treeMate, allowNotLoaded);
+  } else if (keysToCheck !== void 0) {
+    extendedCheckedKeySet = getExtendedCheckedKeySetAfterCheck(keysToCheck, checkedKeys, treeMate, allowNotLoaded);
+  } else {
+    extendedCheckedKeySet = getExtendedCheckedKeySet(checkedKeys, treeMate, allowNotLoaded, false);
+  }
+  const checkStrategyIsParent = checkStrategy === "parent";
+  const checkStrategyIsChild = checkStrategy === "child" || leafOnly;
+  const syntheticCheckedKeySet = extendedCheckedKeySet;
+  const syntheticIndeterminateKeySet = /* @__PURE__ */ new Set();
+  const maxLevel = Math.max.apply(null, Array.from(levelTreeNodeMap.keys()));
+  for (let level = maxLevel; level >= 0; level -= 1) {
+    const levelIsZero = level === 0;
+    const levelTreeNodes = levelTreeNodeMap.get(level);
+    for (const levelTreeNode of levelTreeNodes) {
+      if (levelTreeNode.isLeaf)
+        continue;
+      const { key: levelTreeNodeKey, shallowLoaded } = levelTreeNode;
+      if (checkStrategyIsChild && shallowLoaded) {
+        levelTreeNode.children.forEach((v) => {
+          if (!v.disabled && !v.isLeaf && v.shallowLoaded && syntheticCheckedKeySet.has(v.key)) {
+            syntheticCheckedKeySet.delete(v.key);
+          }
+        });
+      }
+      if (levelTreeNode.disabled || !shallowLoaded) {
+        continue;
+      }
+      let fullyChecked = true;
+      let partialChecked = false;
+      let allDisabled = true;
+      for (const childNode of levelTreeNode.children) {
+        const childKey = childNode.key;
+        if (childNode.disabled)
+          continue;
+        if (allDisabled)
+          allDisabled = false;
+        if (syntheticCheckedKeySet.has(childKey)) {
+          partialChecked = true;
+        } else if (syntheticIndeterminateKeySet.has(childKey)) {
+          partialChecked = true;
+          fullyChecked = false;
+          break;
+        } else {
+          fullyChecked = false;
+          if (partialChecked) {
+            break;
+          }
+        }
+      }
+      if (fullyChecked && !allDisabled) {
+        if (checkStrategyIsParent) {
+          levelTreeNode.children.forEach((v) => {
+            if (!v.disabled && syntheticCheckedKeySet.has(v.key)) {
+              syntheticCheckedKeySet.delete(v.key);
+            }
+          });
+        }
+        syntheticCheckedKeySet.add(levelTreeNodeKey);
+      } else if (partialChecked) {
+        syntheticIndeterminateKeySet.add(levelTreeNodeKey);
+      }
+      if (levelIsZero && checkStrategyIsChild && syntheticCheckedKeySet.has(levelTreeNodeKey)) {
+        syntheticCheckedKeySet.delete(levelTreeNodeKey);
+      }
+    }
+  }
+  return {
+    checkedKeys: Array.from(syntheticCheckedKeySet),
+    indeterminateKeys: Array.from(syntheticIndeterminateKeySet)
+  };
+}
+function getExtendedCheckedKeySet(checkedKeys, treeMate, allowNotLoaded, isUnchecking) {
+  const { treeNodeMap, getChildren } = treeMate;
+  const visitedKeySet = /* @__PURE__ */ new Set();
+  const extendedKeySet = new Set(checkedKeys);
+  checkedKeys.forEach((checkedKey) => {
+    const checkedTreeNode = treeNodeMap.get(checkedKey);
+    if (checkedTreeNode !== void 0) {
+      traverseWithCb(checkedTreeNode, (treeNode) => {
+        if (treeNode.disabled) {
+          return TRAVERSE_COMMAND.STOP;
+        }
+        const { key } = treeNode;
+        if (visitedKeySet.has(key))
+          return;
+        visitedKeySet.add(key);
+        extendedKeySet.add(key);
+        if (isExpilicitlyNotLoaded(treeNode.rawNode, getChildren)) {
+          if (isUnchecking) {
+            return TRAVERSE_COMMAND.STOP;
+          } else if (!allowNotLoaded) {
+            throw new SubtreeNotLoadedError();
+          }
+        }
+      });
+    }
+  });
+  return extendedKeySet;
+}
+function getPath$1(key, { includeGroup = false, includeSelf = true }, treeMate) {
+  var _a;
+  const treeNodeMap = treeMate.treeNodeMap;
+  let treeNode = key === null || key === void 0 ? null : (_a = treeNodeMap.get(key)) !== null && _a !== void 0 ? _a : null;
+  const mergedPath = {
+    keyPath: [],
+    treeNodePath: [],
+    treeNode
+  };
+  if (treeNode === null || treeNode === void 0 ? void 0 : treeNode.ignored) {
+    mergedPath.treeNode = null;
+    return mergedPath;
+  }
+  while (treeNode) {
+    if (!treeNode.ignored && (includeGroup || !treeNode.isGroup)) {
+      mergedPath.treeNodePath.push(treeNode);
+    }
+    treeNode = treeNode.parent;
+  }
+  mergedPath.treeNodePath.reverse();
+  if (!includeSelf)
+    mergedPath.treeNodePath.pop();
+  mergedPath.keyPath = mergedPath.treeNodePath.map((treeNode2) => treeNode2.key);
+  return mergedPath;
+}
+function getFirstAvailableNode(nodes) {
+  if (nodes.length === 0)
+    return null;
+  const node = nodes[0];
+  if (node.isGroup || node.ignored || node.disabled) {
+    return node.getNext();
+  }
+  return node;
+}
+function rawGetNext(node, loop) {
+  const sibs = node.siblings;
+  const l = sibs.length;
+  const { index } = node;
+  if (loop) {
+    return sibs[(index + 1) % l];
+  } else {
+    if (index === sibs.length - 1)
+      return null;
+    return sibs[index + 1];
+  }
+}
+function move(fromNode, dir, { loop = false, includeDisabled = false } = {}) {
+  const iterate = dir === "prev" ? rawGetPrev : rawGetNext;
+  const getChildOptions = {
+    reverse: dir === "prev"
+  };
+  let meet = false;
+  let endNode = null;
+  function traverse(node) {
+    if (node === null)
+      return;
+    if (node === fromNode) {
+      if (!meet) {
+        meet = true;
+      } else if (!fromNode.disabled && !fromNode.isGroup) {
+        endNode = fromNode;
+        return;
+      }
+    } else {
+      if ((!node.disabled || includeDisabled) && !node.ignored && !node.isGroup) {
+        endNode = node;
+        return;
+      }
+    }
+    if (node.isGroup) {
+      const child = getChild(node, getChildOptions);
+      if (child !== null) {
+        endNode = child;
+      } else {
+        traverse(iterate(node, loop));
+      }
+    } else {
+      const nextNode = iterate(node, false);
+      if (nextNode !== null) {
+        traverse(nextNode);
+      } else {
+        const parent = rawGetParent(node);
+        if (parent === null || parent === void 0 ? void 0 : parent.isGroup) {
+          traverse(iterate(parent, loop));
+        } else if (loop) {
+          traverse(iterate(node, true));
+        }
+      }
+    }
+  }
+  traverse(fromNode);
+  return endNode;
+}
+function rawGetPrev(node, loop) {
+  const sibs = node.siblings;
+  const l = sibs.length;
+  const { index } = node;
+  if (loop) {
+    return sibs[(index - 1 + l) % l];
+  } else {
+    if (index === 0)
+      return null;
+    return sibs[index - 1];
+  }
+}
+function rawGetParent(node) {
+  return node.parent;
+}
+function getChild(node, options = {}) {
+  const { reverse = false } = options;
+  const { children } = node;
+  if (children) {
+    const { length } = children;
+    const start = reverse ? length - 1 : 0;
+    const end = reverse ? -1 : length;
+    const delta = reverse ? -1 : 1;
+    for (let i2 = start; i2 !== end; i2 += delta) {
+      const child = children[i2];
+      if (!child.disabled && !child.ignored) {
+        if (child.isGroup) {
+          const childInGroup = getChild(child, options);
+          if (childInGroup !== null)
+            return childInGroup;
+        } else {
+          return child;
+        }
+      }
+    }
+  }
+  return null;
+}
+const moveMethods = {
+  getChild() {
+    if (this.ignored)
+      return null;
+    return getChild(this);
+  },
+  getParent() {
+    const { parent } = this;
+    if (parent === null || parent === void 0 ? void 0 : parent.isGroup) {
+      return parent.getParent();
+    }
+    return parent;
+  },
+  getNext(options = {}) {
+    return move(this, "next", options);
+  },
+  getPrev(options = {}) {
+    return move(this, "prev", options);
+  }
+};
+function flatten(treeNodes, expandedKeys) {
+  const expandedKeySet = expandedKeys ? new Set(expandedKeys) : void 0;
+  const flattenedNodes = [];
+  function traverse(treeNodes2) {
+    treeNodes2.forEach((treeNode) => {
+      flattenedNodes.push(treeNode);
+      if (treeNode.isLeaf || !treeNode.children || treeNode.ignored)
+        return;
+      if (treeNode.isGroup) {
+        traverse(treeNode.children);
+      } else if (
+        // normal non-leaf node
+        expandedKeySet === void 0 || expandedKeySet.has(treeNode.key)
+      ) {
+        traverse(treeNode.children);
+      }
+    });
+  }
+  traverse(treeNodes);
+  return flattenedNodes;
+}
+function contains(parent, child) {
+  const parentKey = parent.key;
+  while (child) {
+    if (child.key === parentKey)
+      return true;
+    child = child.parent;
+  }
+  return false;
+}
+function createTreeNodes(rawNodes, treeNodeMap, levelTreeNodeMap, nodeProto, getChildren, parent = null, level = 0) {
+  const treeNodes = [];
+  rawNodes.forEach((rawNode, index) => {
+    var _a;
+    const treeNode = Object.create(nodeProto);
+    treeNode.rawNode = rawNode;
+    treeNode.siblings = treeNodes;
+    treeNode.level = level;
+    treeNode.index = index;
+    treeNode.isFirstChild = index === 0;
+    treeNode.isLastChild = index + 1 === rawNodes.length;
+    treeNode.parent = parent;
+    if (!treeNode.ignored) {
+      const rawChildren = getChildren(rawNode);
+      if (Array.isArray(rawChildren)) {
+        treeNode.children = createTreeNodes(rawChildren, treeNodeMap, levelTreeNodeMap, nodeProto, getChildren, treeNode, level + 1);
+      }
+    }
+    treeNodes.push(treeNode);
+    treeNodeMap.set(treeNode.key, treeNode);
+    if (!levelTreeNodeMap.has(level))
+      levelTreeNodeMap.set(level, []);
+    (_a = levelTreeNodeMap.get(level)) === null || _a === void 0 ? void 0 : _a.push(treeNode);
+  });
+  return treeNodes;
+}
+function createTreeMate(rawNodes, options = {}) {
+  var _a;
+  const treeNodeMap = /* @__PURE__ */ new Map();
+  const levelTreeNodeMap = /* @__PURE__ */ new Map();
+  const { getDisabled = isDisabled, getIgnored = isIgnored, getIsGroup = isGroup, getKey = defaultGetKey } = options;
+  const _getChildren = (_a = options.getChildren) !== null && _a !== void 0 ? _a : defaultGetChildren;
+  const getChildren = options.ignoreEmptyChildren ? (node) => {
+    const children = _getChildren(node);
+    if (Array.isArray(children)) {
+      if (!children.length)
+        return null;
+      return children;
+    }
+    return children;
+  } : _getChildren;
+  const nodeProto = Object.assign({
+    get key() {
+      return getKey(this.rawNode);
+    },
+    get disabled() {
+      return getDisabled(this.rawNode);
+    },
+    get isGroup() {
+      return getIsGroup(this.rawNode);
+    },
+    get isLeaf() {
+      return isLeaf(this.rawNode, getChildren);
+    },
+    get shallowLoaded() {
+      return isShallowLoaded(this.rawNode, getChildren);
+    },
+    get ignored() {
+      return getIgnored(this.rawNode);
+    },
+    contains(node) {
+      return contains(this, node);
+    }
+  }, moveMethods);
+  const treeNodes = createTreeNodes(rawNodes, treeNodeMap, levelTreeNodeMap, nodeProto, getChildren);
+  function getNode(key) {
+    if (key === null || key === void 0)
+      return null;
+    const tmNode = treeNodeMap.get(key);
+    if (tmNode && !tmNode.isGroup && !tmNode.ignored) {
+      return tmNode;
+    }
+    return null;
+  }
+  function _getNode(key) {
+    if (key === null || key === void 0)
+      return null;
+    const tmNode = treeNodeMap.get(key);
+    if (tmNode && !tmNode.ignored) {
+      return tmNode;
+    }
+    return null;
+  }
+  function getPrev(key, options2) {
+    const node = _getNode(key);
+    if (!node)
+      return null;
+    return node.getPrev(options2);
+  }
+  function getNext(key, options2) {
+    const node = _getNode(key);
+    if (!node)
+      return null;
+    return node.getNext(options2);
+  }
+  function getParent(key) {
+    const node = _getNode(key);
+    if (!node)
+      return null;
+    return node.getParent();
+  }
+  function getChild2(key) {
+    const node = _getNode(key);
+    if (!node)
+      return null;
+    return node.getChild();
+  }
+  const treemate = {
+    treeNodes,
+    treeNodeMap,
+    levelTreeNodeMap,
+    maxLevel: Math.max(...levelTreeNodeMap.keys()),
+    getChildren,
+    getFlattenedNodes(expandedKeys) {
+      return flatten(treeNodes, expandedKeys);
+    },
+    getNode,
+    getPrev,
+    getNext,
+    getParent,
+    getChild: getChild2,
+    getFirstAvailableNode() {
+      return getFirstAvailableNode(treeNodes);
+    },
+    getPath(key, options2 = {}) {
+      return getPath$1(key, options2, treemate);
+    },
+    getCheckedKeys(checkedKeys, options2 = {}) {
+      const { cascade = true, leafOnly = false, checkStrategy = "all", allowNotLoaded = false } = options2;
+      return getCheckedKeys({
+        checkedKeys: unwrapCheckedKeys(checkedKeys),
+        indeterminateKeys: unwrapIndeterminateKeys(checkedKeys),
+        cascade,
+        leafOnly,
+        checkStrategy,
+        allowNotLoaded
+      }, treemate);
+    },
+    check(keysToCheck, checkedKeys, options2 = {}) {
+      const { cascade = true, leafOnly = false, checkStrategy = "all", allowNotLoaded = false } = options2;
+      return getCheckedKeys({
+        checkedKeys: unwrapCheckedKeys(checkedKeys),
+        indeterminateKeys: unwrapIndeterminateKeys(checkedKeys),
+        keysToCheck: keysToCheck === void 0 || keysToCheck === null ? [] : toArray$2(keysToCheck),
+        cascade,
+        leafOnly,
+        checkStrategy,
+        allowNotLoaded
+      }, treemate);
+    },
+    uncheck(keysToUncheck, checkedKeys, options2 = {}) {
+      const { cascade = true, leafOnly = false, checkStrategy = "all", allowNotLoaded = false } = options2;
+      return getCheckedKeys({
+        checkedKeys: unwrapCheckedKeys(checkedKeys),
+        indeterminateKeys: unwrapIndeterminateKeys(checkedKeys),
+        keysToUncheck: keysToUncheck === null || keysToUncheck === void 0 ? [] : toArray$2(keysToUncheck),
+        cascade,
+        leafOnly,
+        checkStrategy,
+        allowNotLoaded
+      }, treemate);
+    },
+    getNonLeafKeys(options2 = {}) {
+      return getNonLeafKeys(treeNodes, options2);
+    }
+  };
+  return treemate;
+}
 const {
   cubicBezierEaseIn: cubicBezierEaseIn$1,
   cubicBezierEaseOut: cubicBezierEaseOut$1
@@ -8963,64 +9055,6 @@ function fadeInScaleUpTransition({
     transform: `${originalTransform} scale(1)`
   })];
 }
-const style$e = cB("base-wave", `
- position: absolute;
- left: 0;
- right: 0;
- top: 0;
- bottom: 0;
- border-radius: inherit;
-`);
-const NBaseWave = defineComponent({
-  name: "BaseWave",
-  props: {
-    clsPrefix: {
-      type: String,
-      required: true
-    }
-  },
-  setup(props) {
-    useStyle("-base-wave", style$e, toRef(props, "clsPrefix"));
-    const selfRef = ref(null);
-    const activeRef = ref(false);
-    let animationTimerId = null;
-    onBeforeUnmount(() => {
-      if (animationTimerId !== null) {
-        window.clearTimeout(animationTimerId);
-      }
-    });
-    return {
-      active: activeRef,
-      selfRef,
-      play() {
-        if (animationTimerId !== null) {
-          window.clearTimeout(animationTimerId);
-          activeRef.value = false;
-          animationTimerId = null;
-        }
-        void nextTick(() => {
-          var _a;
-          void ((_a = selfRef.value) === null || _a === void 0 ? void 0 : _a.offsetHeight);
-          activeRef.value = true;
-          animationTimerId = window.setTimeout(() => {
-            activeRef.value = false;
-            animationTimerId = null;
-          }, 1e3);
-        });
-      }
-    };
-  },
-  render() {
-    const {
-      clsPrefix
-    } = this;
-    return h("div", {
-      ref: "selfRef",
-      "aria-hidden": true,
-      class: [`${clsPrefix}-base-wave`, this.active && `${clsPrefix}-base-wave--active`]
-    });
-  }
-});
 const commonVariables$6 = {
   space: "6px",
   spaceArrow: "10px",
@@ -10535,80 +10569,6 @@ const __unplugin_components_0$4 = defineComponent({
     }) : null);
   }
 });
-const style$b = cB("base-clear", `
- flex-shrink: 0;
- height: 1em;
- width: 1em;
- position: relative;
-`, [c$1(">", [cE("clear", `
- font-size: var(--n-clear-size);
- height: 1em;
- width: 1em;
- cursor: pointer;
- color: var(--n-clear-color);
- transition: color .3s var(--n-bezier);
- display: flex;
- `, [c$1("&:hover", `
- color: var(--n-clear-color-hover)!important;
- `), c$1("&:active", `
- color: var(--n-clear-color-pressed)!important;
- `)]), cE("placeholder", `
- display: flex;
- `), cE("clear, placeholder", `
- position: absolute;
- left: 50%;
- top: 50%;
- transform: translateX(-50%) translateY(-50%);
- `, [iconSwitchTransition({
-  originalTransform: "translateX(-50%) translateY(-50%)",
-  left: "50%",
-  top: "50%"
-})])])]);
-const NBaseClear = defineComponent({
-  name: "BaseClear",
-  props: {
-    clsPrefix: {
-      type: String,
-      required: true
-    },
-    show: Boolean,
-    onClear: Function
-  },
-  setup(props) {
-    useStyle("-base-clear", style$b, toRef(props, "clsPrefix"));
-    return {
-      handleMouseDown(e2) {
-        e2.preventDefault();
-      }
-    };
-  },
-  render() {
-    const {
-      clsPrefix
-    } = this;
-    return h("div", {
-      class: `${clsPrefix}-base-clear`
-    }, h(NIconSwitchTransition, null, {
-      default: () => {
-        var _a, _b;
-        return this.show ? h("div", {
-          key: "dismiss",
-          class: `${clsPrefix}-base-clear__clear`,
-          onClick: this.onClear,
-          onMousedown: this.handleMouseDown,
-          "data-clear": true
-        }, resolveSlot(this.$slots.icon, () => [h(NBaseIcon, {
-          clsPrefix
-        }, {
-          default: () => h(ClearIcon, null)
-        })])) : h("div", {
-          key: "icon",
-          class: `${clsPrefix}-base-clear__placeholder`
-        }, (_b = (_a = this.$slots).placeholder) === null || _b === void 0 ? void 0 : _b.call(_a));
-      }
-    }));
-  }
-});
 const NBaseSuffix = defineComponent({
   name: "InternalSelectionSuffix",
   props: {
@@ -10689,6 +10649,64 @@ function fadeInWidthExpandTransition({
  margin-right ${duration2} ${cubicBezierEaseInOut$1};
  `)];
 }
+const style$b = cB("base-wave", `
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ border-radius: inherit;
+`);
+const NBaseWave = defineComponent({
+  name: "BaseWave",
+  props: {
+    clsPrefix: {
+      type: String,
+      required: true
+    }
+  },
+  setup(props) {
+    useStyle("-base-wave", style$b, toRef(props, "clsPrefix"));
+    const selfRef = ref(null);
+    const activeRef = ref(false);
+    let animationTimerId = null;
+    onBeforeUnmount(() => {
+      if (animationTimerId !== null) {
+        window.clearTimeout(animationTimerId);
+      }
+    });
+    return {
+      active: activeRef,
+      selfRef,
+      play() {
+        if (animationTimerId !== null) {
+          window.clearTimeout(animationTimerId);
+          activeRef.value = false;
+          animationTimerId = null;
+        }
+        void nextTick(() => {
+          var _a;
+          void ((_a = selfRef.value) === null || _a === void 0 ? void 0 : _a.offsetHeight);
+          activeRef.value = true;
+          animationTimerId = window.setTimeout(() => {
+            activeRef.value = false;
+            animationTimerId = null;
+          }, 1e3);
+        });
+      }
+    };
+  },
+  render() {
+    const {
+      clsPrefix
+    } = this;
+    return h("div", {
+      ref: "selfRef",
+      "aria-hidden": true,
+      class: [`${clsPrefix}-base-wave`, this.active && `${clsPrefix}-base-wave--active`]
+    });
+  }
+});
 const {
   cubicBezierEaseInOut,
   cubicBezierEaseOut,
@@ -10738,9 +10756,9 @@ function fadeInHeightExpandTransition({
  ${originalTransition ? `,${originalTransition}` : ""}
  `)];
 }
-const isChrome = isBrowser$1 && "chrome" in window;
-isBrowser$1 && navigator.userAgent.includes("Firefox");
-const isSafari = isBrowser$1 && navigator.userAgent.includes("Safari") && !isChrome;
+const isChrome = isBrowser && "chrome" in window;
+isBrowser && navigator.userAgent.includes("Firefox");
+const isSafari = isBrowser && navigator.userAgent.includes("Safari") && !isChrome;
 const commonVariables$4 = {
   paddingTiny: "0 8px",
   paddingSmall: "0 10px",
@@ -10781,9 +10799,11 @@ function self$c(vars) {
     iconColor,
     iconColorDisabled,
     iconColorHover,
-    iconColorPressed
+    iconColorPressed,
+    fontWeight
   } = vars;
   return Object.assign(Object.assign({}, commonVariables$4), {
+    fontWeight,
     countTextColorDisabled: textColorDisabled,
     countTextColor: textColor3,
     heightTiny,
@@ -10854,117 +10874,6 @@ const inputLight = {
   self: self$c
 };
 const inputInjectionKey = createInjectionKey("n-input");
-function len(s) {
-  let count = 0;
-  for (const _ of s) {
-    count++;
-  }
-  return count;
-}
-function isEmptyInputValue(value) {
-  return value === "" || value == null;
-}
-function useCursor(inputElRef) {
-  const selectionRef = ref(null);
-  function recordCursor() {
-    const {
-      value: input
-    } = inputElRef;
-    if (!(input === null || input === void 0 ? void 0 : input.focus)) {
-      reset();
-      return;
-    }
-    const {
-      selectionStart,
-      selectionEnd,
-      value
-    } = input;
-    if (selectionStart == null || selectionEnd == null) {
-      reset();
-      return;
-    }
-    selectionRef.value = {
-      start: selectionStart,
-      end: selectionEnd,
-      beforeText: value.slice(0, selectionStart),
-      afterText: value.slice(selectionEnd)
-    };
-  }
-  function restoreCursor() {
-    var _a;
-    const {
-      value: selection
-    } = selectionRef;
-    const {
-      value: inputEl
-    } = inputElRef;
-    if (!selection || !inputEl) {
-      return;
-    }
-    const {
-      value
-    } = inputEl;
-    const {
-      start,
-      beforeText,
-      afterText
-    } = selection;
-    let startPos = value.length;
-    if (value.endsWith(afterText)) {
-      startPos = value.length - afterText.length;
-    } else if (value.startsWith(beforeText)) {
-      startPos = beforeText.length;
-    } else {
-      const beforeLastChar = beforeText[start - 1];
-      const newIndex = value.indexOf(beforeLastChar, start - 1);
-      if (newIndex !== -1) {
-        startPos = newIndex + 1;
-      }
-    }
-    (_a = inputEl.setSelectionRange) === null || _a === void 0 ? void 0 : _a.call(inputEl, startPos, startPos);
-  }
-  function reset() {
-    selectionRef.value = null;
-  }
-  watch(inputElRef, reset);
-  return {
-    recordCursor,
-    restoreCursor
-  };
-}
-const WordCount = defineComponent({
-  name: "InputWordCount",
-  setup(_, {
-    slots
-  }) {
-    const {
-      mergedValueRef,
-      maxlengthRef,
-      mergedClsPrefixRef,
-      countGraphemesRef
-    } = inject(inputInjectionKey);
-    const wordCountRef = computed(() => {
-      const {
-        value: mergedValue
-      } = mergedValueRef;
-      if (mergedValue === null || Array.isArray(mergedValue)) return 0;
-      return (countGraphemesRef.value || len)(mergedValue);
-    });
-    return () => {
-      const {
-        value: maxlength
-      } = maxlengthRef;
-      const {
-        value: mergedValue
-      } = mergedValueRef;
-      return h("span", {
-        class: `${mergedClsPrefixRef.value}-input-word-count`
-      }, resolveSlotWithProps(slots.default, {
-        value: mergedValue === null || Array.isArray(mergedValue) ? "" : mergedValue
-      }, () => [maxlength === void 0 ? wordCountRef.value : `${wordCountRef.value} / ${maxlength}`]));
-    };
-  }
-});
 const style$a = cB("input", `
  max-width: 100%;
  cursor: text;
@@ -10978,6 +10887,7 @@ const style$a = cB("input", `
  background-color: var(--n-color);
  transition: background-color .3s var(--n-bezier);
  font-size: var(--n-font-size);
+ font-weight: var(--n-font-weight);
  --n-padding-vertical: calc((var(--n-height) - 1.5 * var(--n-font-size)) / 2);
 `, [
   // common
@@ -11228,6 +11138,117 @@ const style$a = cB("input", `
 const safariStyle = cB("input", [cM("disabled", [cE("input-el, textarea-el", `
  -webkit-text-fill-color: var(--n-text-color-disabled);
  `)])]);
+function len(s) {
+  let count = 0;
+  for (const _ of s) {
+    count++;
+  }
+  return count;
+}
+function isEmptyInputValue(value) {
+  return value === "" || value == null;
+}
+function useCursor(inputElRef) {
+  const selectionRef = ref(null);
+  function recordCursor() {
+    const {
+      value: input
+    } = inputElRef;
+    if (!(input === null || input === void 0 ? void 0 : input.focus)) {
+      reset();
+      return;
+    }
+    const {
+      selectionStart,
+      selectionEnd,
+      value
+    } = input;
+    if (selectionStart == null || selectionEnd == null) {
+      reset();
+      return;
+    }
+    selectionRef.value = {
+      start: selectionStart,
+      end: selectionEnd,
+      beforeText: value.slice(0, selectionStart),
+      afterText: value.slice(selectionEnd)
+    };
+  }
+  function restoreCursor() {
+    var _a;
+    const {
+      value: selection
+    } = selectionRef;
+    const {
+      value: inputEl
+    } = inputElRef;
+    if (!selection || !inputEl) {
+      return;
+    }
+    const {
+      value
+    } = inputEl;
+    const {
+      start,
+      beforeText,
+      afterText
+    } = selection;
+    let startPos = value.length;
+    if (value.endsWith(afterText)) {
+      startPos = value.length - afterText.length;
+    } else if (value.startsWith(beforeText)) {
+      startPos = beforeText.length;
+    } else {
+      const beforeLastChar = beforeText[start - 1];
+      const newIndex = value.indexOf(beforeLastChar, start - 1);
+      if (newIndex !== -1) {
+        startPos = newIndex + 1;
+      }
+    }
+    (_a = inputEl.setSelectionRange) === null || _a === void 0 ? void 0 : _a.call(inputEl, startPos, startPos);
+  }
+  function reset() {
+    selectionRef.value = null;
+  }
+  watch(inputElRef, reset);
+  return {
+    recordCursor,
+    restoreCursor
+  };
+}
+const WordCount = defineComponent({
+  name: "InputWordCount",
+  setup(_, {
+    slots
+  }) {
+    const {
+      mergedValueRef,
+      maxlengthRef,
+      mergedClsPrefixRef,
+      countGraphemesRef
+    } = inject(inputInjectionKey);
+    const wordCountRef = computed(() => {
+      const {
+        value: mergedValue
+      } = mergedValueRef;
+      if (mergedValue === null || Array.isArray(mergedValue)) return 0;
+      return (countGraphemesRef.value || len)(mergedValue);
+    });
+    return () => {
+      const {
+        value: maxlength
+      } = maxlengthRef;
+      const {
+        value: mergedValue
+      } = mergedValueRef;
+      return h("span", {
+        class: `${mergedClsPrefixRef.value}-input-word-count`
+      }, resolveSlotWithProps(slots.default, {
+        value: mergedValue === null || Array.isArray(mergedValue) ? "" : mergedValue
+      }, () => [maxlength === void 0 ? wordCountRef.value : `${wordCountRef.value} / ${maxlength}`]));
+    };
+  }
+});
 const inputProps = Object.assign(Object.assign({}, useTheme.props), {
   bordered: {
     type: Boolean,
@@ -12062,6 +12083,7 @@ const __unplugin_components_0$3 = defineComponent({
           loadingColor,
           loadingColorError,
           loadingColorWarning,
+          fontWeight,
           [createKey("padding", size2)]: padding,
           [createKey("fontSize", size2)]: fontSize,
           [createKey("height", size2)]: height
@@ -12077,6 +12099,7 @@ const __unplugin_components_0$3 = defineComponent({
         "--n-count-text-color-disabled": countTextColorDisabled,
         "--n-color": color,
         "--n-font-size": fontSize,
+        "--n-font-weight": fontWeight,
         "--n-border-radius": borderRadius,
         "--n-height": height,
         "--n-padding-left": paddingLeft,
@@ -12418,7 +12441,7 @@ const __unplugin_components_0$3 = defineComponent({
     }) : null);
   }
 });
-const isImageSupportNativeLazy = isBrowser$1 && "loading" in document.createElement("img");
+const isImageSupportNativeLazy = isBrowser && "loading" in document.createElement("img");
 function resolveOptionsAndHash(options = {}) {
   var _a;
   const {
@@ -13188,7 +13211,7 @@ const style$8 = c$1([cB("button", `
  `, [cM("active", {
   zIndex: 1,
   animationName: "button-wave-spread, button-wave-opacity"
-})]), isBrowser$1 && "MozBoxSizing" in document.createElement("div").style ? c$1("&::moz-focus-inner", {
+})]), isBrowser && "MozBoxSizing" in document.createElement("div").style ? c$1("&::moz-focus-inner", {
   border: 0
 }) : null, cE("border, state-border", `
  position: absolute;
@@ -14334,30 +14357,6 @@ const __unplugin_components_7$1 = defineComponent({
     }, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a)) : (_d = (_c = this.$slots).default) === null || _d === void 0 ? void 0 : _d.call(_c);
   }
 });
-const commonVars$2 = {
-  padding: "8px 14px"
-};
-function self$8(vars) {
-  const {
-    borderRadius,
-    boxShadow2,
-    baseColor
-  } = vars;
-  return Object.assign(Object.assign({}, commonVars$2), {
-    borderRadius,
-    boxShadow: boxShadow2,
-    color: composite(baseColor, "rgba(0, 0, 0, .85)"),
-    textColor: baseColor
-  });
-}
-const tooltipLight = createTheme({
-  name: "Tooltip",
-  common: derived,
-  peers: {
-    Popover: popoverLight
-  },
-  self: self$8
-});
 const commonVariables$1 = {
   padding: "4px 0",
   optionIconSizeSmall: "14px",
@@ -14381,7 +14380,7 @@ const commonVariables$1 = {
   optionIconPrefixWidthLarge: "40px",
   optionIconPrefixWidthHuge: "40px"
 };
-function self$7(vars) {
+function self$8(vars) {
   const {
     primaryColor,
     textColor2,
@@ -14446,6 +14445,30 @@ const dropdownLight = createTheme({
   peers: {
     Popover: popoverLight
   },
+  self: self$8
+});
+const commonVars$2 = {
+  padding: "8px 14px"
+};
+function self$7(vars) {
+  const {
+    borderRadius,
+    boxShadow2,
+    baseColor
+  } = vars;
+  return Object.assign(Object.assign({}, commonVars$2), {
+    borderRadius,
+    boxShadow: boxShadow2,
+    color: composite(baseColor, "rgba(0, 0, 0, .85)"),
+    textColor: baseColor
+  });
+}
+const tooltipLight = createTheme({
+  name: "Tooltip",
+  common: derived,
+  peers: {
+    Popover: popoverLight
+  },
   self: self$7
 });
 const tooltipProps = Object.assign(Object.assign({}, popoverBaseProps), useTheme.props);
@@ -14489,6 +14512,9 @@ const NTooltip = defineComponent({
     }), this.$slots);
   }
 });
+const dropdownMenuInjectionKey = createInjectionKey("n-dropdown-menu");
+const dropdownInjectionKey = createInjectionKey("n-dropdown");
+const dropdownOptionInjectionKey = createInjectionKey("n-dropdown-option");
 const NDropdownDivider = defineComponent({
   name: "DropdownDivider",
   props: {
@@ -14503,9 +14529,74 @@ const NDropdownDivider = defineComponent({
     });
   }
 });
-const dropdownMenuInjectionKey = createInjectionKey("n-dropdown-menu");
-const dropdownInjectionKey = createInjectionKey("n-dropdown");
-const dropdownOptionInjectionKey = createInjectionKey("n-dropdown-option");
+const NDropdownGroupHeader = defineComponent({
+  name: "DropdownGroupHeader",
+  props: {
+    clsPrefix: {
+      type: String,
+      required: true
+    },
+    tmNode: {
+      type: Object,
+      required: true
+    }
+  },
+  setup() {
+    const {
+      showIconRef,
+      hasSubmenuRef
+    } = inject(dropdownMenuInjectionKey);
+    const {
+      renderLabelRef,
+      labelFieldRef,
+      nodePropsRef,
+      renderOptionRef
+    } = inject(dropdownInjectionKey);
+    return {
+      labelField: labelFieldRef,
+      showIcon: showIconRef,
+      hasSubmenu: hasSubmenuRef,
+      renderLabel: renderLabelRef,
+      nodeProps: nodePropsRef,
+      renderOption: renderOptionRef
+    };
+  },
+  render() {
+    var _a;
+    const {
+      clsPrefix,
+      hasSubmenu,
+      showIcon,
+      nodeProps,
+      renderLabel,
+      renderOption
+    } = this;
+    const {
+      rawNode
+    } = this.tmNode;
+    const node = h("div", Object.assign({
+      class: `${clsPrefix}-dropdown-option`
+    }, nodeProps === null || nodeProps === void 0 ? void 0 : nodeProps(rawNode)), h("div", {
+      class: `${clsPrefix}-dropdown-option-body ${clsPrefix}-dropdown-option-body--group`
+    }, h("div", {
+      "data-dropdown-option": true,
+      class: [`${clsPrefix}-dropdown-option-body__prefix`, showIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
+    }, render$j(rawNode.icon)), h("div", {
+      class: `${clsPrefix}-dropdown-option-body__label`,
+      "data-dropdown-option": true
+    }, renderLabel ? renderLabel(rawNode) : render$j((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
+      class: [`${clsPrefix}-dropdown-option-body__suffix`, hasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`],
+      "data-dropdown-option": true
+    })));
+    if (renderOption) {
+      return renderOption({
+        node,
+        option: rawNode
+      });
+    }
+    return node;
+  }
+});
 function isSubmenuNode(rawNode, childrenField) {
   return rawNode.type === "submenu" || rawNode.type === void 0 && rawNode[childrenField] !== void 0;
 }
@@ -14792,74 +14883,6 @@ const NDropdownOption = defineComponent({
         }))
       })]
     }) : null);
-    if (renderOption) {
-      return renderOption({
-        node,
-        option: rawNode
-      });
-    }
-    return node;
-  }
-});
-const NDropdownGroupHeader = defineComponent({
-  name: "DropdownGroupHeader",
-  props: {
-    clsPrefix: {
-      type: String,
-      required: true
-    },
-    tmNode: {
-      type: Object,
-      required: true
-    }
-  },
-  setup() {
-    const {
-      showIconRef,
-      hasSubmenuRef
-    } = inject(dropdownMenuInjectionKey);
-    const {
-      renderLabelRef,
-      labelFieldRef,
-      nodePropsRef,
-      renderOptionRef
-    } = inject(dropdownInjectionKey);
-    return {
-      labelField: labelFieldRef,
-      showIcon: showIconRef,
-      hasSubmenu: hasSubmenuRef,
-      renderLabel: renderLabelRef,
-      nodeProps: nodePropsRef,
-      renderOption: renderOptionRef
-    };
-  },
-  render() {
-    var _a;
-    const {
-      clsPrefix,
-      hasSubmenu,
-      showIcon,
-      nodeProps,
-      renderLabel,
-      renderOption
-    } = this;
-    const {
-      rawNode
-    } = this.tmNode;
-    const node = h("div", Object.assign({
-      class: `${clsPrefix}-dropdown-option`
-    }, nodeProps === null || nodeProps === void 0 ? void 0 : nodeProps(rawNode)), h("div", {
-      class: `${clsPrefix}-dropdown-option-body ${clsPrefix}-dropdown-option-body--group`
-    }, h("div", {
-      "data-dropdown-option": true,
-      class: [`${clsPrefix}-dropdown-option-body__prefix`, showIcon && `${clsPrefix}-dropdown-option-body__prefix--show-icon`]
-    }, render$j(rawNode.icon)), h("div", {
-      class: `${clsPrefix}-dropdown-option-body__label`,
-      "data-dropdown-option": true
-    }, renderLabel ? renderLabel(rawNode) : render$j((_a = rawNode.title) !== null && _a !== void 0 ? _a : rawNode[this.labelField])), h("div", {
-      class: [`${clsPrefix}-dropdown-option-body__suffix`, hasSubmenu && `${clsPrefix}-dropdown-option-body__suffix--has-submenu`],
-      "data-dropdown-option": true
-    })));
     if (renderOption) {
       return renderOption({
         node,
@@ -15539,6 +15562,7 @@ const __unplugin_components_4$3 = defineComponent({
     });
   }
 });
+const dialogProviderInjectionKey = createInjectionKey("n-dialog-provider");
 const commonVars$1 = {
   titleFontSize: "18px",
   padding: "16px 28px 20px 28px",
@@ -15917,7 +15941,6 @@ const NDialog = defineComponent({
     }, resolveSlot(this.$slots.default, () => [render$j(content)])), actionNode);
   }
 });
-const dialogProviderInjectionKey = createInjectionKey("n-dialog-provider");
 function self$5(vars) {
   const {
     modalColor,
@@ -16520,69 +16543,8 @@ const __unplugin_components_3$2 = defineComponent({
     });
   }
 });
-const commonVars = {
-  closeMargin: "16px 12px",
-  closeSize: "20px",
-  closeIconSize: "16px",
-  width: "365px",
-  padding: "16px",
-  titleFontSize: "16px",
-  metaFontSize: "12px",
-  descriptionFontSize: "12px"
-};
-function self$4(vars) {
-  const {
-    textColor2,
-    successColor,
-    infoColor,
-    warningColor,
-    errorColor,
-    popoverColor,
-    closeIconColor,
-    closeIconColorHover,
-    closeIconColorPressed,
-    closeColorHover,
-    closeColorPressed,
-    textColor1,
-    textColor3,
-    borderRadius,
-    fontWeightStrong,
-    boxShadow2,
-    lineHeight,
-    fontSize
-  } = vars;
-  return Object.assign(Object.assign({}, commonVars), {
-    borderRadius,
-    lineHeight,
-    fontSize,
-    headerFontWeight: fontWeightStrong,
-    iconColor: textColor2,
-    iconColorSuccess: successColor,
-    iconColorInfo: infoColor,
-    iconColorWarning: warningColor,
-    iconColorError: errorColor,
-    color: popoverColor,
-    textColor: textColor2,
-    closeIconColor,
-    closeIconColorHover,
-    closeIconColorPressed,
-    closeBorderRadius: borderRadius,
-    closeColorHover,
-    closeColorPressed,
-    headerTextColor: textColor1,
-    descriptionTextColor: textColor3,
-    actionTextColor: textColor2,
-    boxShadow: boxShadow2
-  });
-}
-const notificationLight = createTheme({
-  name: "Notification",
-  common: derived,
-  peers: {
-    Scrollbar: scrollbarLight
-  },
-  self: self$4
-});
+const messageApiInjectionKey = createInjectionKey("n-message-api");
+const messageProviderInjectionKey = createInjectionKey("n-message-provider");
 const commonVariables = {
   margin: "0 0 8px 0",
   padding: "10px 20px",
@@ -16595,7 +16557,7 @@ const commonVariables = {
   iconSize: "20px",
   fontSize: "14px"
 };
-function self$3(vars) {
+function self$4(vars) {
   const {
     textColor2,
     closeIconColor,
@@ -16677,8 +16639,1526 @@ function self$3(vars) {
 const messageLight = {
   name: "Message",
   common: derived,
-  self: self$3
+  self: self$4
 };
+const messageProps = {
+  icon: Function,
+  type: {
+    type: String,
+    default: "info"
+  },
+  content: [String, Number, Function],
+  showIcon: {
+    type: Boolean,
+    default: true
+  },
+  closable: Boolean,
+  keepAliveOnHover: Boolean,
+  onClose: Function,
+  onMouseenter: Function,
+  onMouseleave: Function
+};
+const style$3 = c$1([cB("message-wrapper", `
+ margin: var(--n-margin);
+ z-index: 0;
+ transform-origin: top center;
+ display: flex;
+ `, [fadeInHeightExpandTransition({
+  overflow: "visible",
+  originalTransition: "transform .3s var(--n-bezier)",
+  enterToProps: {
+    transform: "scale(1)"
+  },
+  leaveToProps: {
+    transform: "scale(0.85)"
+  }
+})]), cB("message", `
+ box-sizing: border-box;
+ display: flex;
+ align-items: center;
+ transition:
+ color .3s var(--n-bezier),
+ box-shadow .3s var(--n-bezier),
+ background-color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier),
+ transform .3s var(--n-bezier),
+ margin-bottom .3s var(--n-bezier);
+ padding: var(--n-padding);
+ border-radius: var(--n-border-radius);
+ flex-wrap: nowrap;
+ overflow: hidden;
+ max-width: var(--n-max-width);
+ color: var(--n-text-color);
+ background-color: var(--n-color);
+ box-shadow: var(--n-box-shadow);
+ `, [cE("content", `
+ display: inline-block;
+ line-height: var(--n-line-height);
+ font-size: var(--n-font-size);
+ `), cE("icon", `
+ position: relative;
+ margin: var(--n-icon-margin);
+ height: var(--n-icon-size);
+ width: var(--n-icon-size);
+ font-size: var(--n-icon-size);
+ flex-shrink: 0;
+ `, [["default", "info", "success", "warning", "error", "loading"].map((type) => cM(`${type}-type`, [c$1("> *", `
+ color: var(--n-icon-color-${type});
+ transition: color .3s var(--n-bezier);
+ `)])), c$1("> *", `
+ position: absolute;
+ left: 0;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ `, [iconSwitchTransition()])]), cE("close", `
+ margin: var(--n-close-margin);
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier);
+ flex-shrink: 0;
+ `, [c$1("&:hover", `
+ color: var(--n-close-icon-color-hover);
+ `), c$1("&:active", `
+ color: var(--n-close-icon-color-pressed);
+ `)])]), cB("message-container", `
+ z-index: 6000;
+ position: fixed;
+ height: 0;
+ overflow: visible;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ `, [cM("top", `
+ top: 12px;
+ left: 0;
+ right: 0;
+ `), cM("top-left", `
+ top: 12px;
+ left: 12px;
+ right: 0;
+ align-items: flex-start;
+ `), cM("top-right", `
+ top: 12px;
+ left: 0;
+ right: 12px;
+ align-items: flex-end;
+ `), cM("bottom", `
+ bottom: 4px;
+ left: 0;
+ right: 0;
+ justify-content: flex-end;
+ `), cM("bottom-left", `
+ bottom: 4px;
+ left: 12px;
+ right: 0;
+ justify-content: flex-end;
+ align-items: flex-start;
+ `), cM("bottom-right", `
+ bottom: 4px;
+ left: 0;
+ right: 12px;
+ justify-content: flex-end;
+ align-items: flex-end;
+ `)])]);
+const iconRenderMap$1 = {
+  info: () => h(InfoIcon, null),
+  success: () => h(SuccessIcon, null),
+  warning: () => h(WarningIcon, null),
+  error: () => h(ErrorIcon, null),
+  default: () => null
+};
+const NMessage = defineComponent({
+  name: "Message",
+  props: Object.assign(Object.assign({}, messageProps), {
+    render: Function
+  }),
+  setup(props) {
+    const {
+      inlineThemeDisabled,
+      mergedRtlRef
+    } = useConfig(props);
+    const {
+      props: messageProviderProps2,
+      mergedClsPrefixRef
+    } = inject(messageProviderInjectionKey);
+    const rtlEnabledRef = useRtl("Message", mergedRtlRef, mergedClsPrefixRef);
+    const themeRef = useTheme("Message", "-message", style$3, messageLight, messageProviderProps2, mergedClsPrefixRef);
+    const cssVarsRef = computed(() => {
+      const {
+        type
+      } = props;
+      const {
+        common: {
+          cubicBezierEaseInOut: cubicBezierEaseInOut2
+        },
+        self: {
+          padding,
+          margin,
+          maxWidth,
+          iconMargin,
+          closeMargin,
+          closeSize,
+          iconSize,
+          fontSize,
+          lineHeight,
+          borderRadius,
+          iconColorInfo,
+          iconColorSuccess,
+          iconColorWarning,
+          iconColorError,
+          iconColorLoading,
+          closeIconSize,
+          closeBorderRadius,
+          [createKey("textColor", type)]: textColor,
+          [createKey("boxShadow", type)]: boxShadow,
+          [createKey("color", type)]: color,
+          [createKey("closeColorHover", type)]: closeColorHover,
+          [createKey("closeColorPressed", type)]: closeColorPressed,
+          [createKey("closeIconColor", type)]: closeIconColor,
+          [createKey("closeIconColorPressed", type)]: closeIconColorPressed,
+          [createKey("closeIconColorHover", type)]: closeIconColorHover
+        }
+      } = themeRef.value;
+      return {
+        "--n-bezier": cubicBezierEaseInOut2,
+        "--n-margin": margin,
+        "--n-padding": padding,
+        "--n-max-width": maxWidth,
+        "--n-font-size": fontSize,
+        "--n-icon-margin": iconMargin,
+        "--n-icon-size": iconSize,
+        "--n-close-icon-size": closeIconSize,
+        "--n-close-border-radius": closeBorderRadius,
+        "--n-close-size": closeSize,
+        "--n-close-margin": closeMargin,
+        "--n-text-color": textColor,
+        "--n-color": color,
+        "--n-box-shadow": boxShadow,
+        "--n-icon-color-info": iconColorInfo,
+        "--n-icon-color-success": iconColorSuccess,
+        "--n-icon-color-warning": iconColorWarning,
+        "--n-icon-color-error": iconColorError,
+        "--n-icon-color-loading": iconColorLoading,
+        "--n-close-color-hover": closeColorHover,
+        "--n-close-color-pressed": closeColorPressed,
+        "--n-close-icon-color": closeIconColor,
+        "--n-close-icon-color-pressed": closeIconColorPressed,
+        "--n-close-icon-color-hover": closeIconColorHover,
+        "--n-line-height": lineHeight,
+        "--n-border-radius": borderRadius
+      };
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("message", computed(() => props.type[0]), cssVarsRef, {}) : void 0;
+    return {
+      mergedClsPrefix: mergedClsPrefixRef,
+      rtlEnabled: rtlEnabledRef,
+      messageProviderProps: messageProviderProps2,
+      handleClose() {
+        var _a;
+        (_a = props.onClose) === null || _a === void 0 ? void 0 : _a.call(props);
+      },
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender,
+      placement: messageProviderProps2.placement
+    };
+  },
+  render() {
+    const {
+      render: renderMessage,
+      type,
+      closable,
+      content,
+      mergedClsPrefix,
+      cssVars,
+      themeClass,
+      onRender,
+      icon,
+      handleClose,
+      showIcon
+    } = this;
+    onRender === null || onRender === void 0 ? void 0 : onRender();
+    let iconNode;
+    return h("div", {
+      class: [`${mergedClsPrefix}-message-wrapper`, themeClass],
+      onMouseenter: this.onMouseenter,
+      onMouseleave: this.onMouseleave,
+      style: [{
+        alignItems: this.placement.startsWith("top") ? "flex-start" : "flex-end"
+      }, cssVars]
+    }, renderMessage ? renderMessage(this.$props) : h("div", {
+      class: [`${mergedClsPrefix}-message ${mergedClsPrefix}-message--${type}-type`, this.rtlEnabled && `${mergedClsPrefix}-message--rtl`]
+    }, (iconNode = createIconVNode(icon, type, mergedClsPrefix)) && showIcon ? h("div", {
+      class: `${mergedClsPrefix}-message__icon ${mergedClsPrefix}-message__icon--${type}-type`
+    }, h(NIconSwitchTransition, null, {
+      default: () => iconNode
+    })) : null, h("div", {
+      class: `${mergedClsPrefix}-message__content`
+    }, render$j(content)), closable ? h(NBaseClose, {
+      clsPrefix: mergedClsPrefix,
+      class: `${mergedClsPrefix}-message__close`,
+      onClick: handleClose,
+      absolute: true
+    }) : null));
+  }
+});
+function createIconVNode(icon, type, clsPrefix) {
+  if (typeof icon === "function") {
+    return icon();
+  } else {
+    const innerIcon = type === "loading" ? h(NBaseLoading, {
+      clsPrefix,
+      strokeWidth: 24,
+      scale: 0.85
+    }) : iconRenderMap$1[type]();
+    if (!innerIcon) return null;
+    return h(NBaseIcon, {
+      clsPrefix,
+      key: type
+    }, {
+      default: () => innerIcon
+    });
+  }
+}
+const MessageEnvironment = defineComponent({
+  name: "MessageEnvironment",
+  props: Object.assign(Object.assign({}, messageProps), {
+    duration: {
+      type: Number,
+      default: 3e3
+    },
+    onAfterLeave: Function,
+    onLeave: Function,
+    internalKey: {
+      type: String,
+      required: true
+    },
+    // private
+    onInternalAfterLeave: Function,
+    // deprecated
+    onHide: Function,
+    onAfterHide: Function
+  }),
+  setup(props) {
+    let timerId = null;
+    const showRef = ref(true);
+    onMounted(() => {
+      setHideTimeout();
+    });
+    function setHideTimeout() {
+      const {
+        duration: duration2
+      } = props;
+      if (duration2) {
+        timerId = window.setTimeout(hide, duration2);
+      }
+    }
+    function handleMouseenter(e2) {
+      if (e2.currentTarget !== e2.target) return;
+      if (timerId !== null) {
+        window.clearTimeout(timerId);
+        timerId = null;
+      }
+    }
+    function handleMouseleave(e2) {
+      if (e2.currentTarget !== e2.target) return;
+      setHideTimeout();
+    }
+    function hide() {
+      const {
+        onHide
+      } = props;
+      showRef.value = false;
+      if (timerId) {
+        window.clearTimeout(timerId);
+        timerId = null;
+      }
+      if (onHide) onHide();
+    }
+    function handleClose() {
+      const {
+        onClose
+      } = props;
+      if (onClose) onClose();
+      hide();
+    }
+    function handleAfterLeave() {
+      const {
+        onAfterLeave,
+        onInternalAfterLeave,
+        onAfterHide,
+        internalKey
+      } = props;
+      if (onAfterLeave) onAfterLeave();
+      if (onInternalAfterLeave) onInternalAfterLeave(internalKey);
+      if (onAfterHide) onAfterHide();
+    }
+    function deactivate() {
+      hide();
+    }
+    return {
+      show: showRef,
+      hide,
+      handleClose,
+      handleAfterLeave,
+      handleMouseleave,
+      handleMouseenter,
+      deactivate
+    };
+  },
+  render() {
+    return h(NFadeInExpandTransition, {
+      appear: true,
+      onAfterLeave: this.handleAfterLeave,
+      onLeave: this.onLeave
+    }, {
+      default: () => [this.show ? h(NMessage, {
+        content: this.content,
+        type: this.type,
+        icon: this.icon,
+        showIcon: this.showIcon,
+        closable: this.closable,
+        onClose: this.handleClose,
+        onMouseenter: this.keepAliveOnHover ? this.handleMouseenter : void 0,
+        onMouseleave: this.keepAliveOnHover ? this.handleMouseleave : void 0
+      }) : null]
+    });
+  }
+});
+const messageProviderProps = Object.assign(Object.assign({}, useTheme.props), {
+  to: [String, Object],
+  duration: {
+    type: Number,
+    default: 3e3
+  },
+  keepAliveOnHover: Boolean,
+  max: Number,
+  placement: {
+    type: String,
+    default: "top"
+  },
+  closable: Boolean,
+  containerClass: String,
+  containerStyle: [String, Object]
+});
+const __unplugin_components_4$2 = defineComponent({
+  name: "MessageProvider",
+  props: messageProviderProps,
+  setup(props) {
+    const {
+      mergedClsPrefixRef
+    } = useConfig(props);
+    const messageListRef = ref([]);
+    const messageRefs = ref({});
+    const api = {
+      create(content, options) {
+        return create(content, Object.assign({
+          type: "default"
+        }, options));
+      },
+      info(content, options) {
+        return create(content, Object.assign(Object.assign({}, options), {
+          type: "info"
+        }));
+      },
+      success(content, options) {
+        return create(content, Object.assign(Object.assign({}, options), {
+          type: "success"
+        }));
+      },
+      warning(content, options) {
+        return create(content, Object.assign(Object.assign({}, options), {
+          type: "warning"
+        }));
+      },
+      error(content, options) {
+        return create(content, Object.assign(Object.assign({}, options), {
+          type: "error"
+        }));
+      },
+      loading(content, options) {
+        return create(content, Object.assign(Object.assign({}, options), {
+          type: "loading"
+        }));
+      },
+      destroyAll
+    };
+    provide(messageProviderInjectionKey, {
+      props,
+      mergedClsPrefixRef
+    });
+    provide(messageApiInjectionKey, api);
+    function create(content, options) {
+      const key = createId();
+      const messageReactive = reactive(Object.assign(Object.assign({}, options), {
+        content,
+        key,
+        destroy: () => {
+          var _a;
+          (_a = messageRefs.value[key]) === null || _a === void 0 ? void 0 : _a.hide();
+        }
+      }));
+      const {
+        max
+      } = props;
+      if (max && messageListRef.value.length >= max) {
+        messageListRef.value.shift();
+      }
+      messageListRef.value.push(messageReactive);
+      return messageReactive;
+    }
+    function handleAfterLeave(key) {
+      messageListRef.value.splice(messageListRef.value.findIndex((message) => message.key === key), 1);
+      delete messageRefs.value[key];
+    }
+    function destroyAll() {
+      Object.values(messageRefs.value).forEach((messageInstRef) => {
+        messageInstRef.hide();
+      });
+    }
+    return Object.assign({
+      mergedClsPrefix: mergedClsPrefixRef,
+      messageRefs,
+      messageList: messageListRef,
+      handleAfterLeave
+    }, api);
+  },
+  render() {
+    var _a, _b, _c;
+    return h(Fragment, null, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a), this.messageList.length ? h(Teleport, {
+      to: (_c = this.to) !== null && _c !== void 0 ? _c : "body"
+    }, h("div", {
+      class: [`${this.mergedClsPrefix}-message-container`, `${this.mergedClsPrefix}-message-container--${this.placement}`, this.containerClass],
+      key: "message-container",
+      style: this.containerStyle
+    }, this.messageList.map((message) => {
+      return h(MessageEnvironment, Object.assign({
+        ref: (inst) => {
+          if (inst) {
+            this.messageRefs[message.key] = inst;
+          }
+        },
+        internalKey: message.key,
+        onInternalAfterLeave: this.handleAfterLeave
+      }, omit(message, ["destroy"], void 0), {
+        duration: message.duration === void 0 ? this.duration : message.duration,
+        keepAliveOnHover: message.keepAliveOnHover === void 0 ? this.keepAliveOnHover : message.keepAliveOnHover,
+        closable: message.closable === void 0 ? this.closable : message.closable
+      }));
+    }))) : null);
+  }
+});
+function useMessage() {
+  const api = inject(messageApiInjectionKey, null);
+  if (api === null) {
+    throwError("use-message", "No outer <n-message-provider /> founded. See prerequisite in https://www.naiveui.com/en-US/os-theme/components/message for more details. If you want to use `useMessage` outside setup, please check https://www.naiveui.com/zh-CN/os-theme/components/message#Q-&-A.");
+  }
+  return api;
+}
+const modalProviderInjectionKey = createInjectionKey("n-modal-provider");
+const modalApiInjectionKey = createInjectionKey("n-modal-api");
+const modalReactiveListInjectionKey = createInjectionKey("n-modal-reactive-list");
+const NModalEnvironment = defineComponent({
+  name: "ModalEnvironment",
+  props: Object.assign(Object.assign({}, modalProps), {
+    internalKey: {
+      type: String,
+      required: true
+    },
+    // private
+    onInternalAfterLeave: {
+      type: Function,
+      required: true
+    }
+  }),
+  setup(props) {
+    const showRef = ref(true);
+    function handleAfterLeave() {
+      const {
+        onInternalAfterLeave,
+        internalKey,
+        onAfterLeave
+      } = props;
+      if (onInternalAfterLeave) onInternalAfterLeave(internalKey);
+      if (onAfterLeave) onAfterLeave();
+    }
+    function handlePositiveClick() {
+      const {
+        onPositiveClick
+      } = props;
+      if (onPositiveClick) {
+        void Promise.resolve(onPositiveClick()).then((result) => {
+          if (result === false) return;
+          hide();
+        });
+      } else {
+        hide();
+      }
+    }
+    function handleNegativeClick() {
+      const {
+        onNegativeClick
+      } = props;
+      if (onNegativeClick) {
+        void Promise.resolve(onNegativeClick()).then((result) => {
+          if (result === false) return;
+          hide();
+        });
+      } else {
+        hide();
+      }
+    }
+    function handleCloseClick() {
+      const {
+        onClose
+      } = props;
+      if (onClose) {
+        void Promise.resolve(onClose()).then((result) => {
+          if (result === false) return;
+          hide();
+        });
+      } else {
+        hide();
+      }
+    }
+    function handleMaskClick(e2) {
+      const {
+        onMaskClick,
+        maskClosable
+      } = props;
+      if (onMaskClick) {
+        onMaskClick(e2);
+        if (maskClosable) {
+          hide();
+        }
+      }
+    }
+    function handleEsc() {
+      const {
+        onEsc
+      } = props;
+      if (onEsc) {
+        onEsc();
+      }
+    }
+    function hide() {
+      showRef.value = false;
+    }
+    function handleUpdateShow(value) {
+      showRef.value = value;
+    }
+    return {
+      show: showRef,
+      hide,
+      handleUpdateShow,
+      handleAfterLeave,
+      handleCloseClick,
+      handleNegativeClick,
+      handlePositiveClick,
+      handleMaskClick,
+      handleEsc
+    };
+  },
+  render() {
+    const {
+      handleUpdateShow,
+      handleAfterLeave,
+      handleMaskClick,
+      handleEsc,
+      show
+    } = this;
+    return h(__unplugin_components_3$2, Object.assign({}, this.$props, {
+      show,
+      onUpdateShow: handleUpdateShow,
+      onMaskClick: handleMaskClick,
+      onEsc: handleEsc,
+      onAfterLeave: handleAfterLeave,
+      internalAppear: true,
+      internalModal: true
+    }));
+  }
+});
+const modalProviderProps = {
+  to: [String, Object]
+};
+const NModalProvider = defineComponent({
+  name: "ModalProvider",
+  props: modalProviderProps,
+  setup() {
+    const clickedRef = useClicked(64);
+    const clickedPositionRef = useClickPosition();
+    const modalListRef = ref([]);
+    const modalInstRefs = {};
+    function create(options = {}) {
+      const key = createId();
+      const modalReactive = reactive(Object.assign(Object.assign({}, options), {
+        key,
+        destroy: () => {
+          var _a;
+          (_a = modalInstRefs[`n-modal-${key}`]) === null || _a === void 0 ? void 0 : _a.hide();
+        }
+      }));
+      modalListRef.value.push(modalReactive);
+      return modalReactive;
+    }
+    function handleAfterLeave(key) {
+      const {
+        value: modalList
+      } = modalListRef;
+      modalList.splice(modalList.findIndex((modal) => modal.key === key), 1);
+    }
+    function destroyAll() {
+      Object.values(modalInstRefs).forEach((modalInstRef) => {
+        modalInstRef === null || modalInstRef === void 0 ? void 0 : modalInstRef.hide();
+      });
+    }
+    const api = {
+      create,
+      destroyAll
+    };
+    provide(modalApiInjectionKey, api);
+    provide(modalProviderInjectionKey, {
+      clickedRef: useClicked(64),
+      clickedPositionRef: useClickPosition()
+    });
+    provide(modalReactiveListInjectionKey, modalListRef);
+    provide(modalProviderInjectionKey, {
+      clickedRef,
+      clickedPositionRef
+    });
+    return Object.assign(Object.assign({}, api), {
+      modalList: modalListRef,
+      modalInstRefs,
+      handleAfterLeave
+    });
+  },
+  render() {
+    var _a, _b;
+    return h(Fragment, null, [this.modalList.map((modal) => {
+      var _a2;
+      return h(NModalEnvironment, omit(modal, ["destroy"], {
+        to: (_a2 = modal.to) !== null && _a2 !== void 0 ? _a2 : this.to,
+        ref: (inst) => {
+          if (inst === null) {
+            delete this.modalInstRefs[`n-modal-${modal.key}`];
+          } else {
+            this.modalInstRefs[`n-modal-${modal.key}`] = inst;
+          }
+        },
+        internalKey: modal.key,
+        onInternalAfterLeave: this.handleAfterLeave
+      }));
+    }), (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a)]);
+  }
+});
+const commonVars = {
+  closeMargin: "16px 12px",
+  closeSize: "20px",
+  closeIconSize: "16px",
+  width: "365px",
+  padding: "16px",
+  titleFontSize: "16px",
+  metaFontSize: "12px",
+  descriptionFontSize: "12px"
+};
+function self$3(vars) {
+  const {
+    textColor2,
+    successColor,
+    infoColor,
+    warningColor,
+    errorColor,
+    popoverColor,
+    closeIconColor,
+    closeIconColorHover,
+    closeIconColorPressed,
+    closeColorHover,
+    closeColorPressed,
+    textColor1,
+    textColor3,
+    borderRadius,
+    fontWeightStrong,
+    boxShadow2,
+    lineHeight,
+    fontSize
+  } = vars;
+  return Object.assign(Object.assign({}, commonVars), {
+    borderRadius,
+    lineHeight,
+    fontSize,
+    headerFontWeight: fontWeightStrong,
+    iconColor: textColor2,
+    iconColorSuccess: successColor,
+    iconColorInfo: infoColor,
+    iconColorWarning: warningColor,
+    iconColorError: errorColor,
+    color: popoverColor,
+    textColor: textColor2,
+    closeIconColor,
+    closeIconColorHover,
+    closeIconColorPressed,
+    closeBorderRadius: borderRadius,
+    closeColorHover,
+    closeColorPressed,
+    headerTextColor: textColor1,
+    descriptionTextColor: textColor3,
+    actionTextColor: textColor2,
+    boxShadow: boxShadow2
+  });
+}
+const notificationLight = createTheme({
+  name: "Notification",
+  common: derived,
+  peers: {
+    Scrollbar: scrollbarLight
+  },
+  self: self$3
+});
+const notificationProviderInjectionKey = createInjectionKey("n-notification-provider");
+const NotificationContainer = defineComponent({
+  name: "NotificationContainer",
+  props: {
+    scrollable: {
+      type: Boolean,
+      required: true
+    },
+    placement: {
+      type: String,
+      required: true
+    }
+  },
+  setup() {
+    const {
+      mergedThemeRef,
+      mergedClsPrefixRef,
+      wipTransitionCountRef
+    } = inject(notificationProviderInjectionKey);
+    const selfRef = ref(null);
+    watchEffect(() => {
+      var _a, _b;
+      if (wipTransitionCountRef.value > 0) {
+        (_a = selfRef === null || selfRef === void 0 ? void 0 : selfRef.value) === null || _a === void 0 ? void 0 : _a.classList.add("transitioning");
+      } else {
+        (_b = selfRef === null || selfRef === void 0 ? void 0 : selfRef.value) === null || _b === void 0 ? void 0 : _b.classList.remove("transitioning");
+      }
+    });
+    return {
+      selfRef,
+      mergedTheme: mergedThemeRef,
+      mergedClsPrefix: mergedClsPrefixRef,
+      transitioning: wipTransitionCountRef
+    };
+  },
+  render() {
+    const {
+      $slots,
+      scrollable,
+      mergedClsPrefix,
+      mergedTheme,
+      placement
+    } = this;
+    return h("div", {
+      ref: "selfRef",
+      class: [`${mergedClsPrefix}-notification-container`, scrollable && `${mergedClsPrefix}-notification-container--scrollable`, `${mergedClsPrefix}-notification-container--${placement}`]
+    }, scrollable ? h(Scrollbar$1, {
+      theme: mergedTheme.peers.Scrollbar,
+      themeOverrides: mergedTheme.peerOverrides.Scrollbar,
+      contentStyle: {
+        overflow: "hidden"
+      }
+    }, $slots) : $slots);
+  }
+});
+const iconRenderMap = {
+  info: () => h(InfoIcon, null),
+  success: () => h(SuccessIcon, null),
+  warning: () => h(WarningIcon, null),
+  error: () => h(ErrorIcon, null),
+  default: () => null
+};
+const notificationProps = {
+  closable: {
+    type: Boolean,
+    default: true
+  },
+  type: {
+    type: String,
+    default: "default"
+  },
+  avatar: Function,
+  title: [String, Function],
+  description: [String, Function],
+  content: [String, Function],
+  meta: [String, Function],
+  action: [String, Function],
+  onClose: {
+    type: Function,
+    required: true
+  },
+  keepAliveOnHover: Boolean,
+  onMouseenter: Function,
+  onMouseleave: Function
+};
+const notificationPropKeys = keysOf(notificationProps);
+const Notification = defineComponent({
+  name: "Notification",
+  props: notificationProps,
+  setup(props) {
+    const {
+      mergedClsPrefixRef,
+      mergedThemeRef,
+      props: providerProps
+    } = inject(notificationProviderInjectionKey);
+    const {
+      inlineThemeDisabled,
+      mergedRtlRef
+    } = useConfig();
+    const rtlEnabledRef = useRtl("Notification", mergedRtlRef, mergedClsPrefixRef);
+    const cssVarsRef = computed(() => {
+      const {
+        type
+      } = props;
+      const {
+        self: {
+          color,
+          textColor,
+          closeIconColor,
+          closeIconColorHover,
+          closeIconColorPressed,
+          headerTextColor,
+          descriptionTextColor,
+          actionTextColor,
+          borderRadius,
+          headerFontWeight,
+          boxShadow,
+          lineHeight,
+          fontSize,
+          closeMargin,
+          closeSize,
+          width,
+          padding,
+          closeIconSize,
+          closeBorderRadius,
+          closeColorHover,
+          closeColorPressed,
+          titleFontSize,
+          metaFontSize,
+          descriptionFontSize,
+          [createKey("iconColor", type)]: iconColor
+        },
+        common: {
+          cubicBezierEaseOut: cubicBezierEaseOut2,
+          cubicBezierEaseIn: cubicBezierEaseIn2,
+          cubicBezierEaseInOut: cubicBezierEaseInOut2
+        }
+      } = mergedThemeRef.value;
+      const {
+        left,
+        right,
+        top,
+        bottom
+      } = getMargin(padding);
+      return {
+        "--n-color": color,
+        "--n-font-size": fontSize,
+        "--n-text-color": textColor,
+        "--n-description-text-color": descriptionTextColor,
+        "--n-action-text-color": actionTextColor,
+        "--n-title-text-color": headerTextColor,
+        "--n-title-font-weight": headerFontWeight,
+        "--n-bezier": cubicBezierEaseInOut2,
+        "--n-bezier-ease-out": cubicBezierEaseOut2,
+        "--n-bezier-ease-in": cubicBezierEaseIn2,
+        "--n-border-radius": borderRadius,
+        "--n-box-shadow": boxShadow,
+        "--n-close-border-radius": closeBorderRadius,
+        "--n-close-color-hover": closeColorHover,
+        "--n-close-color-pressed": closeColorPressed,
+        "--n-close-icon-color": closeIconColor,
+        "--n-close-icon-color-hover": closeIconColorHover,
+        "--n-close-icon-color-pressed": closeIconColorPressed,
+        "--n-line-height": lineHeight,
+        "--n-icon-color": iconColor,
+        "--n-close-margin": closeMargin,
+        "--n-close-size": closeSize,
+        "--n-close-icon-size": closeIconSize,
+        "--n-width": width,
+        "--n-padding-left": left,
+        "--n-padding-right": right,
+        "--n-padding-top": top,
+        "--n-padding-bottom": bottom,
+        "--n-title-font-size": titleFontSize,
+        "--n-meta-font-size": metaFontSize,
+        "--n-description-font-size": descriptionFontSize
+      };
+    });
+    const themeClassHandle = inlineThemeDisabled ? useThemeClass("notification", computed(() => props.type[0]), cssVarsRef, providerProps) : void 0;
+    return {
+      mergedClsPrefix: mergedClsPrefixRef,
+      showAvatar: computed(() => {
+        return props.avatar || props.type !== "default";
+      }),
+      handleCloseClick() {
+        props.onClose();
+      },
+      rtlEnabled: rtlEnabledRef,
+      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
+      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
+      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
+    };
+  },
+  render() {
+    var _a;
+    const {
+      mergedClsPrefix
+    } = this;
+    (_a = this.onRender) === null || _a === void 0 ? void 0 : _a.call(this);
+    return h("div", {
+      class: [`${mergedClsPrefix}-notification-wrapper`, this.themeClass],
+      onMouseenter: this.onMouseenter,
+      onMouseleave: this.onMouseleave,
+      style: this.cssVars
+    }, h("div", {
+      class: [`${mergedClsPrefix}-notification`, this.rtlEnabled && `${mergedClsPrefix}-notification--rtl`, this.themeClass, {
+        [`${mergedClsPrefix}-notification--closable`]: this.closable,
+        [`${mergedClsPrefix}-notification--show-avatar`]: this.showAvatar
+      }],
+      style: this.cssVars
+    }, this.showAvatar ? h("div", {
+      class: `${mergedClsPrefix}-notification__avatar`
+    }, this.avatar ? render$j(this.avatar) : this.type !== "default" ? h(NBaseIcon, {
+      clsPrefix: mergedClsPrefix
+    }, {
+      default: () => iconRenderMap[this.type]()
+    }) : null) : null, this.closable ? h(NBaseClose, {
+      clsPrefix: mergedClsPrefix,
+      class: `${mergedClsPrefix}-notification__close`,
+      onClick: this.handleCloseClick
+    }) : null, h("div", {
+      ref: "bodyRef",
+      class: `${mergedClsPrefix}-notification-main`
+    }, this.title ? h("div", {
+      class: `${mergedClsPrefix}-notification-main__header`
+    }, render$j(this.title)) : null, this.description ? h("div", {
+      class: `${mergedClsPrefix}-notification-main__description`
+    }, render$j(this.description)) : null, this.content ? h("pre", {
+      class: `${mergedClsPrefix}-notification-main__content`
+    }, render$j(this.content)) : null, this.meta || this.action ? h("div", {
+      class: `${mergedClsPrefix}-notification-main-footer`
+    }, this.meta ? h("div", {
+      class: `${mergedClsPrefix}-notification-main-footer__meta`
+    }, render$j(this.meta)) : null, this.action ? h("div", {
+      class: `${mergedClsPrefix}-notification-main-footer__action`
+    }, render$j(this.action)) : null) : null)));
+  }
+});
+const notificationEnvOptions = Object.assign(Object.assign({}, notificationProps), {
+  duration: Number,
+  onClose: Function,
+  onLeave: Function,
+  onAfterEnter: Function,
+  onAfterLeave: Function,
+  /** @deprecated */
+  onHide: Function,
+  /** @deprecated */
+  onAfterShow: Function,
+  /** @deprecated */
+  onAfterHide: Function
+});
+const NotificationEnvironment = defineComponent({
+  name: "NotificationEnvironment",
+  props: Object.assign(Object.assign({}, notificationEnvOptions), {
+    // private
+    internalKey: {
+      type: String,
+      required: true
+    },
+    onInternalAfterLeave: {
+      type: Function,
+      required: true
+    }
+  }),
+  setup(props) {
+    const {
+      wipTransitionCountRef
+    } = inject(notificationProviderInjectionKey);
+    const showRef = ref(true);
+    let timerId = null;
+    function hide() {
+      showRef.value = false;
+      if (timerId) {
+        window.clearTimeout(timerId);
+      }
+    }
+    function handleBeforeEnter(el) {
+      wipTransitionCountRef.value++;
+      void nextTick(() => {
+        el.style.height = `${el.offsetHeight}px`;
+        el.style.maxHeight = "0";
+        el.style.transition = "none";
+        void el.offsetHeight;
+        el.style.transition = "";
+        el.style.maxHeight = el.style.height;
+      });
+    }
+    function handleAfterEnter(el) {
+      wipTransitionCountRef.value--;
+      el.style.height = "";
+      el.style.maxHeight = "";
+      const {
+        onAfterEnter,
+        onAfterShow
+      } = props;
+      if (onAfterEnter) onAfterEnter();
+      if (onAfterShow) onAfterShow();
+    }
+    function handleBeforeLeave(el) {
+      wipTransitionCountRef.value++;
+      el.style.maxHeight = `${el.offsetHeight}px`;
+      el.style.height = `${el.offsetHeight}px`;
+      void el.offsetHeight;
+    }
+    function handleLeave(el) {
+      const {
+        onHide
+      } = props;
+      if (onHide) onHide();
+      el.style.maxHeight = "0";
+      void el.offsetHeight;
+    }
+    function handleAfterLeave() {
+      wipTransitionCountRef.value--;
+      const {
+        onAfterLeave,
+        onInternalAfterLeave,
+        onAfterHide,
+        internalKey
+      } = props;
+      if (onAfterLeave) onAfterLeave();
+      onInternalAfterLeave(internalKey);
+      if (onAfterHide) onAfterHide();
+    }
+    function setHideTimeout() {
+      const {
+        duration: duration2
+      } = props;
+      if (duration2) {
+        timerId = window.setTimeout(hide, duration2);
+      }
+    }
+    function handleMouseenter(e2) {
+      if (e2.currentTarget !== e2.target) return;
+      if (timerId !== null) {
+        window.clearTimeout(timerId);
+        timerId = null;
+      }
+    }
+    function handleMouseleave(e2) {
+      if (e2.currentTarget !== e2.target) return;
+      setHideTimeout();
+    }
+    function handleClose() {
+      const {
+        onClose
+      } = props;
+      if (onClose) {
+        void Promise.resolve(onClose()).then((feedback) => {
+          if (feedback === false) return;
+          hide();
+        });
+      } else {
+        hide();
+      }
+    }
+    onMounted(() => {
+      if (props.duration) {
+        timerId = window.setTimeout(hide, props.duration);
+      }
+    });
+    return {
+      show: showRef,
+      hide,
+      handleClose,
+      handleAfterLeave,
+      handleLeave,
+      handleBeforeLeave,
+      handleAfterEnter,
+      handleBeforeEnter,
+      handleMouseenter,
+      handleMouseleave
+    };
+  },
+  render() {
+    return h(Transition, {
+      name: "notification-transition",
+      appear: true,
+      // convert to any since Element is not compatible with HTMLElement
+      onBeforeEnter: this.handleBeforeEnter,
+      onAfterEnter: this.handleAfterEnter,
+      onBeforeLeave: this.handleBeforeLeave,
+      onLeave: this.handleLeave,
+      onAfterLeave: this.handleAfterLeave
+    }, {
+      default: () => {
+        return this.show ? h(Notification, Object.assign({}, keep(this.$props, notificationPropKeys), {
+          onClose: this.handleClose,
+          onMouseenter: this.duration && this.keepAliveOnHover ? this.handleMouseenter : void 0,
+          onMouseleave: this.duration && this.keepAliveOnHover ? this.handleMouseleave : void 0
+        })) : null;
+      }
+    });
+  }
+});
+const style$2 = c$1([cB("notification-container", `
+ z-index: 4000;
+ position: fixed;
+ overflow: visible;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ `, [c$1(">", [cB("scrollbar", `
+ width: initial;
+ overflow: visible;
+ height: -moz-fit-content !important;
+ height: fit-content !important;
+ max-height: 100vh !important;
+ `, [c$1(">", [cB("scrollbar-container", `
+ height: -moz-fit-content !important;
+ height: fit-content !important;
+ max-height: 100vh !important;
+ `, [cB("scrollbar-content", `
+ padding-top: 12px;
+ padding-bottom: 33px;
+ `)])])])]), cM("top, top-right, top-left", `
+ top: 12px;
+ `, [c$1("&.transitioning >", [cB("scrollbar", [c$1(">", [cB("scrollbar-container", `
+ min-height: 100vh !important;
+ `)])])])]), cM("bottom, bottom-right, bottom-left", `
+ bottom: 12px;
+ `, [c$1(">", [cB("scrollbar", [c$1(">", [cB("scrollbar-container", [cB("scrollbar-content", `
+ padding-bottom: 12px;
+ `)])])])]), cB("notification-wrapper", `
+ display: flex;
+ align-items: flex-end;
+ margin-bottom: 0;
+ margin-top: 12px;
+ `)]), cM("top, bottom", `
+ left: 50%;
+ transform: translateX(-50%);
+ `, [cB("notification-wrapper", [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
+ transform: scale(0.85);
+ `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
+ transform: scale(1);
+ `)])]), cM("top", [cB("notification-wrapper", `
+ transform-origin: top center;
+ `)]), cM("bottom", [cB("notification-wrapper", `
+ transform-origin: bottom center;
+ `)]), cM("top-right, bottom-right", [cB("notification", `
+ margin-left: 28px;
+ margin-right: 16px;
+ `)]), cM("top-left, bottom-left", [cB("notification", `
+ margin-left: 16px;
+ margin-right: 28px;
+ `)]), cM("top-right", `
+ right: 0;
+ `, [placementTransformStyle("top-right")]), cM("top-left", `
+ left: 0;
+ `, [placementTransformStyle("top-left")]), cM("bottom-right", `
+ right: 0;
+ `, [placementTransformStyle("bottom-right")]), cM("bottom-left", `
+ left: 0;
+ `, [placementTransformStyle("bottom-left")]), cM("scrollable", [cM("top-right", `
+ top: 0;
+ `), cM("top-left", `
+ top: 0;
+ `), cM("bottom-right", `
+ bottom: 0;
+ `), cM("bottom-left", `
+ bottom: 0;
+ `)]), cB("notification-wrapper", `
+ margin-bottom: 12px;
+ `, [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
+ opacity: 0;
+ margin-top: 0 !important;
+ margin-bottom: 0 !important;
+ `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
+ opacity: 1;
+ `), c$1("&.notification-transition-leave-active", `
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier),
+ transform .3s var(--n-bezier-ease-in),
+ max-height .3s var(--n-bezier),
+ margin-top .3s linear,
+ margin-bottom .3s linear,
+ box-shadow .3s var(--n-bezier);
+ `), c$1("&.notification-transition-enter-active", `
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier),
+ transform .3s var(--n-bezier-ease-out),
+ max-height .3s var(--n-bezier),
+ margin-top .3s linear,
+ margin-bottom .3s linear,
+ box-shadow .3s var(--n-bezier);
+ `)]), cB("notification", `
+ background-color: var(--n-color);
+ color: var(--n-text-color);
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier),
+ box-shadow .3s var(--n-bezier);
+ font-family: inherit;
+ font-size: var(--n-font-size);
+ font-weight: 400;
+ position: relative;
+ display: flex;
+ overflow: hidden;
+ flex-shrink: 0;
+ padding-left: var(--n-padding-left);
+ padding-right: var(--n-padding-right);
+ width: var(--n-width);
+ max-width: calc(100vw - 16px - 16px);
+ border-radius: var(--n-border-radius);
+ box-shadow: var(--n-box-shadow);
+ box-sizing: border-box;
+ opacity: 1;
+ `, [cE("avatar", [cB("icon", `
+ color: var(--n-icon-color);
+ `), cB("base-icon", `
+ color: var(--n-icon-color);
+ `)]), cM("show-avatar", [cB("notification-main", `
+ margin-left: 40px;
+ width: calc(100% - 40px); 
+ `)]), cM("closable", [cB("notification-main", [c$1("> *:first-child", `
+ padding-right: 20px;
+ `)]), cE("close", `
+ position: absolute;
+ top: 0;
+ right: 0;
+ margin: var(--n-close-margin);
+ transition:
+ background-color .3s var(--n-bezier),
+ color .3s var(--n-bezier);
+ `)]), cE("avatar", `
+ position: absolute;
+ top: var(--n-padding-top);
+ left: var(--n-padding-left);
+ width: 28px;
+ height: 28px;
+ font-size: 28px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ `, [cB("icon", "transition: color .3s var(--n-bezier);")]), cB("notification-main", `
+ padding-top: var(--n-padding-top);
+ padding-bottom: var(--n-padding-bottom);
+ box-sizing: border-box;
+ display: flex;
+ flex-direction: column;
+ margin-left: 8px;
+ width: calc(100% - 8px);
+ `, [cB("notification-main-footer", `
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 12px;
+ `, [cE("meta", `
+ font-size: var(--n-meta-font-size);
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-description-text-color);
+ `), cE("action", `
+ cursor: pointer;
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-action-text-color);
+ `)]), cE("header", `
+ font-weight: var(--n-title-font-weight);
+ font-size: var(--n-title-font-size);
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-title-text-color);
+ `), cE("description", `
+ margin-top: 8px;
+ font-size: var(--n-description-font-size);
+ white-space: pre-wrap;
+ word-wrap: break-word;
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-description-text-color);
+ `), cE("content", `
+ line-height: var(--n-line-height);
+ margin: 12px 0 0 0;
+ font-family: inherit;
+ white-space: pre-wrap;
+ word-wrap: break-word;
+ transition: color .3s var(--n-bezier-ease-out);
+ color: var(--n-text-color);
+ `, [c$1("&:first-child", "margin: 0;")])])])])]);
+function placementTransformStyle(placement) {
+  const direction = placement.split("-")[1];
+  const transformXEnter = direction === "left" ? "calc(-100%)" : "calc(100%)";
+  const transformXLeave = "0";
+  return cB("notification-wrapper", [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
+ transform: translate(${transformXEnter}, 0);
+ `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
+ transform: translate(${transformXLeave}, 0);
+ `)]);
+}
+const notificationApiInjectionKey = createInjectionKey("n-notification-api");
+const notificationProviderProps = Object.assign(Object.assign({}, useTheme.props), {
+  containerClass: String,
+  containerStyle: [String, Object],
+  to: [String, Object],
+  scrollable: {
+    type: Boolean,
+    default: true
+  },
+  max: Number,
+  placement: {
+    type: String,
+    default: "top-right"
+  },
+  keepAliveOnHover: Boolean
+});
+const __unplugin_components_5$3 = defineComponent({
+  name: "NotificationProvider",
+  props: notificationProviderProps,
+  setup(props) {
+    const {
+      mergedClsPrefixRef
+    } = useConfig(props);
+    const notificationListRef = ref([]);
+    const notificationRefs = {};
+    const leavingKeySet = /* @__PURE__ */ new Set();
+    function create(options) {
+      const key = createId();
+      const destroy = () => {
+        leavingKeySet.add(key);
+        if (notificationRefs[key]) {
+          notificationRefs[key].hide();
+        }
+      };
+      const notificationReactive = reactive(Object.assign(Object.assign({}, options), {
+        key,
+        destroy,
+        hide: destroy,
+        deactivate: destroy
+      }));
+      const {
+        max
+      } = props;
+      if (max && notificationListRef.value.length - leavingKeySet.size >= max) {
+        let someoneMountedRemoved = false;
+        let index = 0;
+        for (const notification of notificationListRef.value) {
+          if (!leavingKeySet.has(notification.key)) {
+            if (notificationRefs[notification.key]) {
+              notification.destroy();
+              someoneMountedRemoved = true;
+            }
+            break;
+          }
+          index++;
+        }
+        if (!someoneMountedRemoved) {
+          notificationListRef.value.splice(index, 1);
+        }
+      }
+      notificationListRef.value.push(notificationReactive);
+      return notificationReactive;
+    }
+    const apis = ["info", "success", "warning", "error"].map((type) => {
+      return (options) => create(Object.assign(Object.assign({}, options), {
+        type
+      }));
+    });
+    function handleAfterLeave(key) {
+      leavingKeySet.delete(key);
+      notificationListRef.value.splice(notificationListRef.value.findIndex((notification) => notification.key === key), 1);
+    }
+    const themeRef = useTheme("Notification", "-notification", style$2, notificationLight, props, mergedClsPrefixRef);
+    const api = {
+      create,
+      info: apis[0],
+      success: apis[1],
+      warning: apis[2],
+      error: apis[3],
+      open,
+      destroyAll
+    };
+    const wipTransitionCountRef = ref(0);
+    provide(notificationApiInjectionKey, api);
+    provide(notificationProviderInjectionKey, {
+      props,
+      mergedClsPrefixRef,
+      mergedThemeRef: themeRef,
+      wipTransitionCountRef
+    });
+    function open(options) {
+      return create(options);
+    }
+    function destroyAll() {
+      Object.values(notificationListRef.value).forEach((notification) => {
+        notification.hide();
+      });
+    }
+    return Object.assign({
+      mergedClsPrefix: mergedClsPrefixRef,
+      notificationList: notificationListRef,
+      notificationRefs,
+      handleAfterLeave
+    }, api);
+  },
+  render() {
+    var _a, _b, _c;
+    const {
+      placement
+    } = this;
+    return h(Fragment, null, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a), this.notificationList.length ? h(Teleport, {
+      to: (_c = this.to) !== null && _c !== void 0 ? _c : "body"
+    }, h(NotificationContainer, {
+      class: this.containerClass,
+      style: this.containerStyle,
+      scrollable: this.scrollable && placement !== "top" && placement !== "bottom",
+      placement
+    }, {
+      default: () => {
+        return this.notificationList.map((notification) => {
+          return h(NotificationEnvironment, Object.assign({
+            ref: (inst) => {
+              const refKey = notification.key;
+              if (inst === null) {
+                delete this.notificationRefs[refKey];
+              } else {
+                this.notificationRefs[refKey] = inst;
+              }
+            }
+          }, omit(notification, ["destroy", "hide", "deactivate"]), {
+            internalKey: notification.key,
+            onInternalAfterLeave: this.handleAfterLeave,
+            keepAliveOnHover: notification.keepAliveOnHover === void 0 ? this.keepAliveOnHover : notification.keepAliveOnHover
+          }));
+        });
+      }
+    })) : null);
+  }
+});
+function useNotification() {
+  const api = inject(notificationApiInjectionKey, null);
+  if (api === null) {
+    throwError("use-notification", "No outer `n-notification-provider` found.");
+  }
+  return api;
+}
+function useModal() {
+  const modal = inject(modalApiInjectionKey, null);
+  if (modal === null) {
+    throwError("use-modal", "No outer <n-modal-provider /> founded.");
+  }
+  return modal;
+}
 function createPartialInvertedVars(color, activeItemColor, activeTextColor, groupTextColor) {
   return {
     itemColorHoverInverted: "#0000",
@@ -16848,147 +18328,193 @@ const layoutSiderInjectionKey = createInjectionKey("n-layout-sider");
 const menuInjectionKey = createInjectionKey("n-menu");
 const submenuInjectionKey = createInjectionKey("n-submenu");
 const menuItemGroupInjectionKey = createInjectionKey("n-menu-item-group");
-const ICON_MARGIN_RIGHT = 8;
-function useMenuChild(props) {
-  const NMenu = inject(menuInjectionKey);
-  const {
-    props: menuProps2,
-    mergedCollapsedRef
-  } = NMenu;
-  const NSubmenu2 = inject(submenuInjectionKey, null);
-  const NMenuOptionGroup2 = inject(menuItemGroupInjectionKey, null);
-  const horizontalRef = computed(() => {
-    return menuProps2.mode === "horizontal";
-  });
-  const dropdownPlacementRef = computed(() => {
-    if (horizontalRef.value) {
-      return menuProps2.dropdownPlacement;
-    }
-    if ("tmNodes" in props) return "right-start";
-    return "right";
-  });
-  const maxIconSizeRef = computed(() => {
-    var _a;
-    return Math.max((_a = menuProps2.collapsedIconSize) !== null && _a !== void 0 ? _a : menuProps2.iconSize, menuProps2.iconSize);
-  });
-  const activeIconSizeRef = computed(() => {
-    var _a;
-    if (!horizontalRef.value && props.root && mergedCollapsedRef.value) {
-      return (_a = menuProps2.collapsedIconSize) !== null && _a !== void 0 ? _a : menuProps2.iconSize;
-    } else {
-      return menuProps2.iconSize;
-    }
-  });
-  const paddingLeftRef = computed(() => {
-    if (horizontalRef.value) return void 0;
-    const {
-      collapsedWidth,
-      indent,
-      rootIndent
-    } = menuProps2;
-    const {
-      root: root2,
-      isGroup: isGroup2
-    } = props;
-    const mergedRootIndent = rootIndent === void 0 ? indent : rootIndent;
-    if (root2) {
-      if (mergedCollapsedRef.value) {
-        return collapsedWidth / 2 - maxIconSizeRef.value / 2;
-      }
-      return mergedRootIndent;
-    }
-    if (NMenuOptionGroup2 && typeof NMenuOptionGroup2.paddingLeftRef.value === "number") {
-      return indent / 2 + NMenuOptionGroup2.paddingLeftRef.value;
-    }
-    if (NSubmenu2 && typeof NSubmenu2.paddingLeftRef.value === "number") {
-      return (isGroup2 ? indent / 2 : indent) + NSubmenu2.paddingLeftRef.value;
-    }
-    return 0;
-  });
-  const iconMarginRightRef = computed(() => {
-    const {
-      collapsedWidth,
-      indent,
-      rootIndent
-    } = menuProps2;
-    const {
-      value: maxIconSize
-    } = maxIconSizeRef;
-    const {
-      root: root2
-    } = props;
-    if (horizontalRef.value) return ICON_MARGIN_RIGHT;
-    if (!root2) return ICON_MARGIN_RIGHT;
-    if (!mergedCollapsedRef.value) return ICON_MARGIN_RIGHT;
-    const mergedRootIndent = rootIndent === void 0 ? indent : rootIndent;
-    return mergedRootIndent + maxIconSize + ICON_MARGIN_RIGHT - (collapsedWidth + maxIconSize) / 2;
-  });
-  return {
-    dropdownPlacement: dropdownPlacementRef,
-    activeIconSize: activeIconSizeRef,
-    maxIconSize: maxIconSizeRef,
-    paddingLeft: paddingLeftRef,
-    iconMarginRight: iconMarginRightRef,
-    NMenu,
-    NSubmenu: NSubmenu2
-  };
+const hoverStyleChildren = [c$1("&::before", "background-color: var(--n-item-color-hover);"), cE("arrow", `
+ color: var(--n-arrow-color-hover);
+ `), cE("icon", `
+ color: var(--n-item-icon-color-hover);
+ `), cB("menu-item-content-header", `
+ color: var(--n-item-text-color-hover);
+ `, [c$1("a", `
+ color: var(--n-item-text-color-hover);
+ `), cE("extra", `
+ color: var(--n-item-text-color-hover);
+ `)])];
+const horizontalHoverStyleChildren = [cE("icon", `
+ color: var(--n-item-icon-color-hover-horizontal);
+ `), cB("menu-item-content-header", `
+ color: var(--n-item-text-color-hover-horizontal);
+ `, [c$1("a", `
+ color: var(--n-item-text-color-hover-horizontal);
+ `), cE("extra", `
+ color: var(--n-item-text-color-hover-horizontal);
+ `)])];
+const style$1 = c$1([cB("menu", `
+ background-color: var(--n-color);
+ color: var(--n-item-text-color);
+ overflow: hidden;
+ transition: background-color .3s var(--n-bezier);
+ box-sizing: border-box;
+ font-size: var(--n-font-size);
+ padding-bottom: 6px;
+ `, [cM("horizontal", `
+ max-width: 100%;
+ width: 100%;
+ display: flex;
+ overflow: hidden;
+ padding-bottom: 0;
+ `, [cB("submenu", "margin: 0;"), cB("menu-item", "margin: 0;"), cB("menu-item-content", `
+ padding: 0 20px;
+ border-bottom: 2px solid #0000;
+ `, [c$1("&::before", "display: none;"), cM("selected", "border-bottom: 2px solid var(--n-border-color-horizontal)")]), cB("menu-item-content", [cM("selected", [cE("icon", "color: var(--n-item-icon-color-active-horizontal);"), cB("menu-item-content-header", `
+ color: var(--n-item-text-color-active-horizontal);
+ `, [c$1("a", "color: var(--n-item-text-color-active-horizontal);"), cE("extra", "color: var(--n-item-text-color-active-horizontal);")])]), cM("child-active", `
+ border-bottom: 2px solid var(--n-border-color-horizontal);
+ `, [cB("menu-item-content-header", `
+ color: var(--n-item-text-color-child-active-horizontal);
+ `, [c$1("a", `
+ color: var(--n-item-text-color-child-active-horizontal);
+ `), cE("extra", `
+ color: var(--n-item-text-color-child-active-horizontal);
+ `)]), cE("icon", `
+ color: var(--n-item-icon-color-child-active-horizontal);
+ `)]), cNotM("disabled", [cNotM("selected, child-active", [c$1("&:focus-within", horizontalHoverStyleChildren)]), cM("selected", [hoverStyle(null, [cE("icon", "color: var(--n-item-icon-color-active-hover-horizontal);"), cB("menu-item-content-header", `
+ color: var(--n-item-text-color-active-hover-horizontal);
+ `, [c$1("a", "color: var(--n-item-text-color-active-hover-horizontal);"), cE("extra", "color: var(--n-item-text-color-active-hover-horizontal);")])])]), cM("child-active", [hoverStyle(null, [cE("icon", "color: var(--n-item-icon-color-child-active-hover-horizontal);"), cB("menu-item-content-header", `
+ color: var(--n-item-text-color-child-active-hover-horizontal);
+ `, [c$1("a", "color: var(--n-item-text-color-child-active-hover-horizontal);"), cE("extra", "color: var(--n-item-text-color-child-active-hover-horizontal);")])])]), hoverStyle("border-bottom: 2px solid var(--n-border-color-horizontal);", horizontalHoverStyleChildren)]), cB("menu-item-content-header", [c$1("a", "color: var(--n-item-text-color-horizontal);")])])]), cNotM("responsive", [cB("menu-item-content-header", `
+ overflow: hidden;
+ text-overflow: ellipsis;
+ `)]), cM("collapsed", [cB("menu-item-content", [cM("selected", [c$1("&::before", `
+ background-color: var(--n-item-color-active-collapsed) !important;
+ `)]), cB("menu-item-content-header", "opacity: 0;"), cE("arrow", "opacity: 0;"), cE("icon", "color: var(--n-item-icon-color-collapsed);")])]), cB("menu-item", `
+ height: var(--n-item-height);
+ margin-top: 6px;
+ position: relative;
+ `), cB("menu-item-content", `
+ box-sizing: border-box;
+ line-height: 1.75;
+ height: 100%;
+ display: grid;
+ grid-template-areas: "icon content arrow";
+ grid-template-columns: auto 1fr auto;
+ align-items: center;
+ cursor: pointer;
+ position: relative;
+ padding-right: 18px;
+ transition:
+ background-color .3s var(--n-bezier),
+ padding-left .3s var(--n-bezier),
+ border-color .3s var(--n-bezier);
+ `, [c$1("> *", "z-index: 1;"), c$1("&::before", `
+ z-index: auto;
+ content: "";
+ background-color: #0000;
+ position: absolute;
+ left: 8px;
+ right: 8px;
+ top: 0;
+ bottom: 0;
+ pointer-events: none;
+ border-radius: var(--n-border-radius);
+ transition: background-color .3s var(--n-bezier);
+ `), cM("disabled", `
+ opacity: .45;
+ cursor: not-allowed;
+ `), cM("collapsed", [cE("arrow", "transform: rotate(0);")]), cM("selected", [c$1("&::before", "background-color: var(--n-item-color-active);"), cE("arrow", "color: var(--n-arrow-color-active);"), cE("icon", "color: var(--n-item-icon-color-active);"), cB("menu-item-content-header", `
+ color: var(--n-item-text-color-active);
+ `, [c$1("a", "color: var(--n-item-text-color-active);"), cE("extra", "color: var(--n-item-text-color-active);")])]), cM("child-active", [cB("menu-item-content-header", `
+ color: var(--n-item-text-color-child-active);
+ `, [c$1("a", `
+ color: var(--n-item-text-color-child-active);
+ `), cE("extra", `
+ color: var(--n-item-text-color-child-active);
+ `)]), cE("arrow", `
+ color: var(--n-arrow-color-child-active);
+ `), cE("icon", `
+ color: var(--n-item-icon-color-child-active);
+ `)]), cNotM("disabled", [cNotM("selected, child-active", [c$1("&:focus-within", hoverStyleChildren)]), cM("selected", [hoverStyle(null, [cE("arrow", "color: var(--n-arrow-color-active-hover);"), cE("icon", "color: var(--n-item-icon-color-active-hover);"), cB("menu-item-content-header", `
+ color: var(--n-item-text-color-active-hover);
+ `, [c$1("a", "color: var(--n-item-text-color-active-hover);"), cE("extra", "color: var(--n-item-text-color-active-hover);")])])]), cM("child-active", [hoverStyle(null, [cE("arrow", "color: var(--n-arrow-color-child-active-hover);"), cE("icon", "color: var(--n-item-icon-color-child-active-hover);"), cB("menu-item-content-header", `
+ color: var(--n-item-text-color-child-active-hover);
+ `, [c$1("a", "color: var(--n-item-text-color-child-active-hover);"), cE("extra", "color: var(--n-item-text-color-child-active-hover);")])])]), cM("selected", [hoverStyle(null, [c$1("&::before", "background-color: var(--n-item-color-active-hover);")])]), hoverStyle(null, hoverStyleChildren)]), cE("icon", `
+ grid-area: icon;
+ color: var(--n-item-icon-color);
+ transition:
+ color .3s var(--n-bezier),
+ font-size .3s var(--n-bezier),
+ margin-right .3s var(--n-bezier);
+ box-sizing: content-box;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ `), cE("arrow", `
+ grid-area: arrow;
+ font-size: 16px;
+ color: var(--n-arrow-color);
+ transform: rotate(180deg);
+ opacity: 1;
+ transition:
+ color .3s var(--n-bezier),
+ transform 0.2s var(--n-bezier),
+ opacity 0.2s var(--n-bezier);
+ `), cB("menu-item-content-header", `
+ grid-area: content;
+ transition:
+ color .3s var(--n-bezier),
+ opacity .3s var(--n-bezier);
+ opacity: 1;
+ white-space: nowrap;
+ color: var(--n-item-text-color);
+ `, [c$1("a", `
+ outline: none;
+ text-decoration: none;
+ transition: color .3s var(--n-bezier);
+ color: var(--n-item-text-color);
+ `, [c$1("&::before", `
+ content: "";
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ `)]), cE("extra", `
+ font-size: .93em;
+ color: var(--n-group-text-color);
+ transition: color .3s var(--n-bezier);
+ `)])]), cB("submenu", `
+ cursor: pointer;
+ position: relative;
+ margin-top: 6px;
+ `, [cB("menu-item-content", `
+ height: var(--n-item-height);
+ `), cB("submenu-children", `
+ overflow: hidden;
+ padding: 0;
+ `, [fadeInHeightExpandTransition({
+  duration: ".2s"
+})])]), cB("menu-item-group", [cB("menu-item-group-title", `
+ margin-top: 6px;
+ color: var(--n-group-text-color);
+ cursor: default;
+ font-size: .93em;
+ height: 36px;
+ display: flex;
+ align-items: center;
+ transition:
+ padding-left .3s var(--n-bezier),
+ color .3s var(--n-bezier);
+ `)])]), cB("menu-tooltip", [c$1("a", `
+ color: inherit;
+ text-decoration: none;
+ `)]), cB("menu-divider", `
+ transition: background-color .3s var(--n-bezier);
+ background-color: var(--n-divider-color);
+ height: 1px;
+ margin: 6px 18px;
+ `)]);
+function hoverStyle(props, children) {
+  return [cM("hover", props, children), c$1("&:hover", props, children)];
 }
-const useMenuChildProps = {
-  internalKey: {
-    type: [String, Number],
-    required: true
-  },
-  root: Boolean,
-  isGroup: Boolean,
-  level: {
-    type: Number,
-    required: true
-  },
-  title: [String, Function],
-  extra: [String, Function]
-};
-const menuItemGroupProps = Object.assign(Object.assign({}, useMenuChildProps), {
-  tmNode: {
-    type: Object,
-    required: true
-  },
-  tmNodes: {
-    type: Array,
-    required: true
-  }
-});
-const NMenuOptionGroup = defineComponent({
-  name: "MenuOptionGroup",
-  props: menuItemGroupProps,
-  setup(props) {
-    provide(submenuInjectionKey, null);
-    const MenuChild = useMenuChild(props);
-    provide(menuItemGroupInjectionKey, {
-      paddingLeftRef: MenuChild.paddingLeft
-    });
-    const {
-      mergedClsPrefixRef,
-      props: menuProps2
-    } = inject(menuInjectionKey);
-    return function() {
-      const {
-        value: mergedClsPrefix
-      } = mergedClsPrefixRef;
-      const paddingLeft = MenuChild.paddingLeft.value;
-      const {
-        nodeProps
-      } = menuProps2;
-      const attrs = nodeProps === null || nodeProps === void 0 ? void 0 : nodeProps(props.tmNode.rawNode);
-      return h("div", {
-        class: `${mergedClsPrefix}-menu-item-group`,
-        role: "group"
-      }, h("div", Object.assign({}, attrs, {
-        class: [`${mergedClsPrefix}-menu-item-group-title`, attrs === null || attrs === void 0 ? void 0 : attrs.class],
-        style: [(attrs === null || attrs === void 0 ? void 0 : attrs.style) || "", paddingLeft !== void 0 ? `padding-left: ${paddingLeft}px;` : ""]
-      }), render$j(props.title), props.extra ? h(Fragment, null, " ", render$j(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
-    };
-  }
-});
 const NMenuOptionContent = defineComponent({
   name: "MenuOptionContent",
   props: {
@@ -17098,6 +18624,326 @@ const NMenuOptionContent = defineComponent({
     }) : null);
   }
 });
+const ICON_MARGIN_RIGHT = 8;
+function useMenuChild(props) {
+  const NMenu = inject(menuInjectionKey);
+  const {
+    props: menuProps2,
+    mergedCollapsedRef
+  } = NMenu;
+  const NSubmenu2 = inject(submenuInjectionKey, null);
+  const NMenuOptionGroup2 = inject(menuItemGroupInjectionKey, null);
+  const horizontalRef = computed(() => {
+    return menuProps2.mode === "horizontal";
+  });
+  const dropdownPlacementRef = computed(() => {
+    if (horizontalRef.value) {
+      return menuProps2.dropdownPlacement;
+    }
+    if ("tmNodes" in props) return "right-start";
+    return "right";
+  });
+  const maxIconSizeRef = computed(() => {
+    var _a;
+    return Math.max((_a = menuProps2.collapsedIconSize) !== null && _a !== void 0 ? _a : menuProps2.iconSize, menuProps2.iconSize);
+  });
+  const activeIconSizeRef = computed(() => {
+    var _a;
+    if (!horizontalRef.value && props.root && mergedCollapsedRef.value) {
+      return (_a = menuProps2.collapsedIconSize) !== null && _a !== void 0 ? _a : menuProps2.iconSize;
+    } else {
+      return menuProps2.iconSize;
+    }
+  });
+  const paddingLeftRef = computed(() => {
+    if (horizontalRef.value) return void 0;
+    const {
+      collapsedWidth,
+      indent,
+      rootIndent
+    } = menuProps2;
+    const {
+      root: root2,
+      isGroup: isGroup2
+    } = props;
+    const mergedRootIndent = rootIndent === void 0 ? indent : rootIndent;
+    if (root2) {
+      if (mergedCollapsedRef.value) {
+        return collapsedWidth / 2 - maxIconSizeRef.value / 2;
+      }
+      return mergedRootIndent;
+    }
+    if (NMenuOptionGroup2 && typeof NMenuOptionGroup2.paddingLeftRef.value === "number") {
+      return indent / 2 + NMenuOptionGroup2.paddingLeftRef.value;
+    }
+    if (NSubmenu2 && typeof NSubmenu2.paddingLeftRef.value === "number") {
+      return (isGroup2 ? indent / 2 : indent) + NSubmenu2.paddingLeftRef.value;
+    }
+    return 0;
+  });
+  const iconMarginRightRef = computed(() => {
+    const {
+      collapsedWidth,
+      indent,
+      rootIndent
+    } = menuProps2;
+    const {
+      value: maxIconSize
+    } = maxIconSizeRef;
+    const {
+      root: root2
+    } = props;
+    if (horizontalRef.value) return ICON_MARGIN_RIGHT;
+    if (!root2) return ICON_MARGIN_RIGHT;
+    if (!mergedCollapsedRef.value) return ICON_MARGIN_RIGHT;
+    const mergedRootIndent = rootIndent === void 0 ? indent : rootIndent;
+    return mergedRootIndent + maxIconSize + ICON_MARGIN_RIGHT - (collapsedWidth + maxIconSize) / 2;
+  });
+  return {
+    dropdownPlacement: dropdownPlacementRef,
+    activeIconSize: activeIconSizeRef,
+    maxIconSize: maxIconSizeRef,
+    paddingLeft: paddingLeftRef,
+    iconMarginRight: iconMarginRightRef,
+    NMenu,
+    NSubmenu: NSubmenu2
+  };
+}
+const useMenuChildProps = {
+  internalKey: {
+    type: [String, Number],
+    required: true
+  },
+  root: Boolean,
+  isGroup: Boolean,
+  level: {
+    type: Number,
+    required: true
+  },
+  title: [String, Function],
+  extra: [String, Function]
+};
+const NMenuDivider = defineComponent({
+  name: "MenuDivider",
+  setup() {
+    const NMenu = inject(menuInjectionKey);
+    const {
+      mergedClsPrefixRef,
+      isHorizontalRef
+    } = NMenu;
+    return () => isHorizontalRef.value ? null : h("div", {
+      class: `${mergedClsPrefixRef.value}-menu-divider`
+    });
+  }
+});
+const menuItemProps = Object.assign(Object.assign({}, useMenuChildProps), {
+  tmNode: {
+    type: Object,
+    required: true
+  },
+  disabled: Boolean,
+  icon: Function,
+  onClick: Function
+});
+const menuItemPropKeys = keysOf(menuItemProps);
+const NMenuOption = defineComponent({
+  name: "MenuOption",
+  props: menuItemProps,
+  setup(props) {
+    const MenuChild = useMenuChild(props);
+    const {
+      NSubmenu: NSubmenu2,
+      NMenu
+    } = MenuChild;
+    const {
+      props: menuProps2,
+      mergedClsPrefixRef,
+      mergedCollapsedRef
+    } = NMenu;
+    const submenuDisabledRef = NSubmenu2 ? NSubmenu2.mergedDisabledRef : {
+      value: false
+    };
+    const mergedDisabledRef = computed(() => {
+      return submenuDisabledRef.value || props.disabled;
+    });
+    function doClick(e2) {
+      const {
+        onClick
+      } = props;
+      if (onClick) onClick(e2);
+    }
+    function handleClick2(e2) {
+      if (!mergedDisabledRef.value) {
+        NMenu.doSelect(props.internalKey, props.tmNode.rawNode);
+        doClick(e2);
+      }
+    }
+    return {
+      mergedClsPrefix: mergedClsPrefixRef,
+      dropdownPlacement: MenuChild.dropdownPlacement,
+      paddingLeft: MenuChild.paddingLeft,
+      iconMarginRight: MenuChild.iconMarginRight,
+      maxIconSize: MenuChild.maxIconSize,
+      activeIconSize: MenuChild.activeIconSize,
+      mergedTheme: NMenu.mergedThemeRef,
+      menuProps: menuProps2,
+      dropdownEnabled: useMemo(() => {
+        return props.root && mergedCollapsedRef.value && menuProps2.mode !== "horizontal" && !mergedDisabledRef.value;
+      }),
+      selected: useMemo(() => {
+        if (NMenu.mergedValueRef.value === props.internalKey) return true;
+        return false;
+      }),
+      mergedDisabled: mergedDisabledRef,
+      handleClick: handleClick2
+    };
+  },
+  render() {
+    const {
+      mergedClsPrefix,
+      mergedTheme,
+      tmNode,
+      menuProps: {
+        renderLabel,
+        nodeProps
+      }
+    } = this;
+    const attrs = nodeProps === null || nodeProps === void 0 ? void 0 : nodeProps(tmNode.rawNode);
+    return h("div", Object.assign({}, attrs, {
+      role: "menuitem",
+      class: [`${mergedClsPrefix}-menu-item`, attrs === null || attrs === void 0 ? void 0 : attrs.class]
+    }), h(NTooltip, {
+      theme: mergedTheme.peers.Tooltip,
+      themeOverrides: mergedTheme.peerOverrides.Tooltip,
+      trigger: "hover",
+      placement: this.dropdownPlacement,
+      disabled: !this.dropdownEnabled || this.title === void 0,
+      internalExtraClass: ["menu-tooltip"]
+    }, {
+      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$j(this.title),
+      trigger: () => h(NMenuOptionContent, {
+        tmNode,
+        clsPrefix: mergedClsPrefix,
+        paddingLeft: this.paddingLeft,
+        iconMarginRight: this.iconMarginRight,
+        maxIconSize: this.maxIconSize,
+        activeIconSize: this.activeIconSize,
+        selected: this.selected,
+        title: this.title,
+        extra: this.extra,
+        disabled: this.mergedDisabled,
+        icon: this.icon,
+        onClick: this.handleClick
+      })
+    }));
+  }
+});
+const menuItemGroupProps = Object.assign(Object.assign({}, useMenuChildProps), {
+  tmNode: {
+    type: Object,
+    required: true
+  },
+  tmNodes: {
+    type: Array,
+    required: true
+  }
+});
+const menuItemGroupPropKeys = keysOf(menuItemGroupProps);
+const NMenuOptionGroup = defineComponent({
+  name: "MenuOptionGroup",
+  props: menuItemGroupProps,
+  setup(props) {
+    provide(submenuInjectionKey, null);
+    const MenuChild = useMenuChild(props);
+    provide(menuItemGroupInjectionKey, {
+      paddingLeftRef: MenuChild.paddingLeft
+    });
+    const {
+      mergedClsPrefixRef,
+      props: menuProps2
+    } = inject(menuInjectionKey);
+    return function() {
+      const {
+        value: mergedClsPrefix
+      } = mergedClsPrefixRef;
+      const paddingLeft = MenuChild.paddingLeft.value;
+      const {
+        nodeProps
+      } = menuProps2;
+      const attrs = nodeProps === null || nodeProps === void 0 ? void 0 : nodeProps(props.tmNode.rawNode);
+      return h("div", {
+        class: `${mergedClsPrefix}-menu-item-group`,
+        role: "group"
+      }, h("div", Object.assign({}, attrs, {
+        class: [`${mergedClsPrefix}-menu-item-group-title`, attrs === null || attrs === void 0 ? void 0 : attrs.class],
+        style: [(attrs === null || attrs === void 0 ? void 0 : attrs.style) || "", paddingLeft !== void 0 ? `padding-left: ${paddingLeft}px;` : ""]
+      }), render$j(props.title), props.extra ? h(Fragment, null, " ", render$j(props.extra)) : null), h("div", null, props.tmNodes.map((tmNode) => itemRenderer(tmNode, menuProps2))));
+    };
+  }
+});
+function isIgnoredNode(rawNode) {
+  return rawNode.type === "divider" || rawNode.type === "render";
+}
+function isDividerNode(rawNode) {
+  return rawNode.type === "divider";
+}
+function itemRenderer(tmNode, menuProps2) {
+  const {
+    rawNode
+  } = tmNode;
+  const {
+    show
+  } = rawNode;
+  if (show === false) {
+    return null;
+  }
+  if (isIgnoredNode(rawNode)) {
+    if (isDividerNode(rawNode)) {
+      return h(NMenuDivider, Object.assign({
+        key: tmNode.key
+      }, rawNode.props));
+    }
+    return null;
+  }
+  const {
+    labelField
+  } = menuProps2;
+  const {
+    key,
+    level,
+    isGroup: isGroup2
+  } = tmNode;
+  const props = Object.assign(Object.assign({}, rawNode), {
+    title: rawNode.title || rawNode[labelField],
+    extra: rawNode.titleExtra || rawNode.extra,
+    key,
+    internalKey: key,
+    // since key can't be used as a prop
+    level,
+    root: level === 0,
+    isGroup: isGroup2
+  });
+  if (tmNode.children) {
+    if (tmNode.isGroup) {
+      return h(NMenuOptionGroup, keep(props, menuItemGroupPropKeys, {
+        tmNode,
+        tmNodes: tmNode.children,
+        key
+      }));
+    }
+    return h(NSubmenu, keep(props, submenuPropKeys, {
+      key,
+      rawNodes: rawNode[menuProps2.childrenField],
+      tmNodes: tmNode.children,
+      tmNode
+    }));
+  } else {
+    return h(NMenuOption, keep(props, menuItemPropKeys, {
+      key,
+      tmNode
+    }));
+  }
+}
 const submenuProps = Object.assign(Object.assign({}, useMenuChildProps), {
   rawNodes: {
     type: Array,
@@ -17121,6 +18967,7 @@ const submenuProps = Object.assign(Object.assign({}, useMenuChildProps), {
   },
   isEllipsisPlaceholder: Boolean
 });
+const submenuPropKeys = keysOf(submenuProps);
 const NSubmenu = defineComponent({
   name: "Submenu",
   props: submenuProps,
@@ -17304,373 +19151,6 @@ const NSubmenu = defineComponent({
     }, createSubmenuItem(), createSubmenuChildren());
   }
 });
-const menuItemProps = Object.assign(Object.assign({}, useMenuChildProps), {
-  tmNode: {
-    type: Object,
-    required: true
-  },
-  disabled: Boolean,
-  icon: Function,
-  onClick: Function
-});
-const NMenuOption = defineComponent({
-  name: "MenuOption",
-  props: menuItemProps,
-  setup(props) {
-    const MenuChild = useMenuChild(props);
-    const {
-      NSubmenu: NSubmenu2,
-      NMenu
-    } = MenuChild;
-    const {
-      props: menuProps2,
-      mergedClsPrefixRef,
-      mergedCollapsedRef
-    } = NMenu;
-    const submenuDisabledRef = NSubmenu2 ? NSubmenu2.mergedDisabledRef : {
-      value: false
-    };
-    const mergedDisabledRef = computed(() => {
-      return submenuDisabledRef.value || props.disabled;
-    });
-    function doClick(e2) {
-      const {
-        onClick
-      } = props;
-      if (onClick) onClick(e2);
-    }
-    function handleClick2(e2) {
-      if (!mergedDisabledRef.value) {
-        NMenu.doSelect(props.internalKey, props.tmNode.rawNode);
-        doClick(e2);
-      }
-    }
-    return {
-      mergedClsPrefix: mergedClsPrefixRef,
-      dropdownPlacement: MenuChild.dropdownPlacement,
-      paddingLeft: MenuChild.paddingLeft,
-      iconMarginRight: MenuChild.iconMarginRight,
-      maxIconSize: MenuChild.maxIconSize,
-      activeIconSize: MenuChild.activeIconSize,
-      mergedTheme: NMenu.mergedThemeRef,
-      menuProps: menuProps2,
-      dropdownEnabled: useMemo(() => {
-        return props.root && mergedCollapsedRef.value && menuProps2.mode !== "horizontal" && !mergedDisabledRef.value;
-      }),
-      selected: useMemo(() => {
-        if (NMenu.mergedValueRef.value === props.internalKey) return true;
-        return false;
-      }),
-      mergedDisabled: mergedDisabledRef,
-      handleClick: handleClick2
-    };
-  },
-  render() {
-    const {
-      mergedClsPrefix,
-      mergedTheme,
-      tmNode,
-      menuProps: {
-        renderLabel,
-        nodeProps
-      }
-    } = this;
-    const attrs = nodeProps === null || nodeProps === void 0 ? void 0 : nodeProps(tmNode.rawNode);
-    return h("div", Object.assign({}, attrs, {
-      role: "menuitem",
-      class: [`${mergedClsPrefix}-menu-item`, attrs === null || attrs === void 0 ? void 0 : attrs.class]
-    }), h(NTooltip, {
-      theme: mergedTheme.peers.Tooltip,
-      themeOverrides: mergedTheme.peerOverrides.Tooltip,
-      trigger: "hover",
-      placement: this.dropdownPlacement,
-      disabled: !this.dropdownEnabled || this.title === void 0,
-      internalExtraClass: ["menu-tooltip"]
-    }, {
-      default: () => renderLabel ? renderLabel(tmNode.rawNode) : render$j(this.title),
-      trigger: () => h(NMenuOptionContent, {
-        tmNode,
-        clsPrefix: mergedClsPrefix,
-        paddingLeft: this.paddingLeft,
-        iconMarginRight: this.iconMarginRight,
-        maxIconSize: this.maxIconSize,
-        activeIconSize: this.activeIconSize,
-        selected: this.selected,
-        title: this.title,
-        extra: this.extra,
-        disabled: this.mergedDisabled,
-        icon: this.icon,
-        onClick: this.handleClick
-      })
-    }));
-  }
-});
-const NMenuDivider = defineComponent({
-  name: "MenuDivider",
-  setup() {
-    const NMenu = inject(menuInjectionKey);
-    const {
-      mergedClsPrefixRef,
-      isHorizontalRef
-    } = NMenu;
-    return () => isHorizontalRef.value ? null : h("div", {
-      class: `${mergedClsPrefixRef.value}-menu-divider`
-    });
-  }
-});
-const groupPropKeys = keysOf(menuItemGroupProps);
-const itemPropKeys = keysOf(menuItemProps);
-const submenuPropKeys = keysOf(submenuProps);
-function isIgnoredNode(rawNode) {
-  return rawNode.type === "divider" || rawNode.type === "render";
-}
-function isDividerNode(rawNode) {
-  return rawNode.type === "divider";
-}
-function itemRenderer(tmNode, menuProps2) {
-  const {
-    rawNode
-  } = tmNode;
-  const {
-    show
-  } = rawNode;
-  if (show === false) {
-    return null;
-  }
-  if (isIgnoredNode(rawNode)) {
-    if (isDividerNode(rawNode)) {
-      return h(NMenuDivider, Object.assign({
-        key: tmNode.key
-      }, rawNode.props));
-    }
-    return null;
-  }
-  const {
-    labelField
-  } = menuProps2;
-  const {
-    key,
-    level,
-    isGroup: isGroup2
-  } = tmNode;
-  const props = Object.assign(Object.assign({}, rawNode), {
-    title: rawNode.title || rawNode[labelField],
-    extra: rawNode.titleExtra || rawNode.extra,
-    key,
-    internalKey: key,
-    // since key can't be used as a prop
-    level,
-    root: level === 0,
-    isGroup: isGroup2
-  });
-  if (tmNode.children) {
-    if (tmNode.isGroup) {
-      return h(NMenuOptionGroup, keep(props, groupPropKeys, {
-        tmNode,
-        tmNodes: tmNode.children,
-        key
-      }));
-    }
-    return h(NSubmenu, keep(props, submenuPropKeys, {
-      key,
-      rawNodes: rawNode[menuProps2.childrenField],
-      tmNodes: tmNode.children,
-      tmNode
-    }));
-  } else {
-    return h(NMenuOption, keep(props, itemPropKeys, {
-      key,
-      tmNode
-    }));
-  }
-}
-const hoverStyleChildren = [c$1("&::before", "background-color: var(--n-item-color-hover);"), cE("arrow", `
- color: var(--n-arrow-color-hover);
- `), cE("icon", `
- color: var(--n-item-icon-color-hover);
- `), cB("menu-item-content-header", `
- color: var(--n-item-text-color-hover);
- `, [c$1("a", `
- color: var(--n-item-text-color-hover);
- `), cE("extra", `
- color: var(--n-item-text-color-hover);
- `)])];
-const horizontalHoverStyleChildren = [cE("icon", `
- color: var(--n-item-icon-color-hover-horizontal);
- `), cB("menu-item-content-header", `
- color: var(--n-item-text-color-hover-horizontal);
- `, [c$1("a", `
- color: var(--n-item-text-color-hover-horizontal);
- `), cE("extra", `
- color: var(--n-item-text-color-hover-horizontal);
- `)])];
-const style$3 = c$1([cB("menu", `
- background-color: var(--n-color);
- color: var(--n-item-text-color);
- overflow: hidden;
- transition: background-color .3s var(--n-bezier);
- box-sizing: border-box;
- font-size: var(--n-font-size);
- padding-bottom: 6px;
- `, [cM("horizontal", `
- max-width: 100%;
- width: 100%;
- display: flex;
- overflow: hidden;
- padding-bottom: 0;
- `, [cB("submenu", "margin: 0;"), cB("menu-item", "margin: 0;"), cB("menu-item-content", `
- padding: 0 20px;
- border-bottom: 2px solid #0000;
- `, [c$1("&::before", "display: none;"), cM("selected", "border-bottom: 2px solid var(--n-border-color-horizontal)")]), cB("menu-item-content", [cM("selected", [cE("icon", "color: var(--n-item-icon-color-active-horizontal);"), cB("menu-item-content-header", `
- color: var(--n-item-text-color-active-horizontal);
- `, [c$1("a", "color: var(--n-item-text-color-active-horizontal);"), cE("extra", "color: var(--n-item-text-color-active-horizontal);")])]), cM("child-active", `
- border-bottom: 2px solid var(--n-border-color-horizontal);
- `, [cB("menu-item-content-header", `
- color: var(--n-item-text-color-child-active-horizontal);
- `, [c$1("a", `
- color: var(--n-item-text-color-child-active-horizontal);
- `), cE("extra", `
- color: var(--n-item-text-color-child-active-horizontal);
- `)]), cE("icon", `
- color: var(--n-item-icon-color-child-active-horizontal);
- `)]), cNotM("disabled", [cNotM("selected, child-active", [c$1("&:focus-within", horizontalHoverStyleChildren)]), cM("selected", [hoverStyle(null, [cE("icon", "color: var(--n-item-icon-color-active-hover-horizontal);"), cB("menu-item-content-header", `
- color: var(--n-item-text-color-active-hover-horizontal);
- `, [c$1("a", "color: var(--n-item-text-color-active-hover-horizontal);"), cE("extra", "color: var(--n-item-text-color-active-hover-horizontal);")])])]), cM("child-active", [hoverStyle(null, [cE("icon", "color: var(--n-item-icon-color-child-active-hover-horizontal);"), cB("menu-item-content-header", `
- color: var(--n-item-text-color-child-active-hover-horizontal);
- `, [c$1("a", "color: var(--n-item-text-color-child-active-hover-horizontal);"), cE("extra", "color: var(--n-item-text-color-child-active-hover-horizontal);")])])]), hoverStyle("border-bottom: 2px solid var(--n-border-color-horizontal);", horizontalHoverStyleChildren)]), cB("menu-item-content-header", [c$1("a", "color: var(--n-item-text-color-horizontal);")])])]), cNotM("responsive", [cB("menu-item-content-header", `
- overflow: hidden;
- text-overflow: ellipsis;
- `)]), cM("collapsed", [cB("menu-item-content", [cM("selected", [c$1("&::before", `
- background-color: var(--n-item-color-active-collapsed) !important;
- `)]), cB("menu-item-content-header", "opacity: 0;"), cE("arrow", "opacity: 0;"), cE("icon", "color: var(--n-item-icon-color-collapsed);")])]), cB("menu-item", `
- height: var(--n-item-height);
- margin-top: 6px;
- position: relative;
- `), cB("menu-item-content", `
- box-sizing: border-box;
- line-height: 1.75;
- height: 100%;
- display: grid;
- grid-template-areas: "icon content arrow";
- grid-template-columns: auto 1fr auto;
- align-items: center;
- cursor: pointer;
- position: relative;
- padding-right: 18px;
- transition:
- background-color .3s var(--n-bezier),
- padding-left .3s var(--n-bezier),
- border-color .3s var(--n-bezier);
- `, [c$1("> *", "z-index: 1;"), c$1("&::before", `
- z-index: auto;
- content: "";
- background-color: #0000;
- position: absolute;
- left: 8px;
- right: 8px;
- top: 0;
- bottom: 0;
- pointer-events: none;
- border-radius: var(--n-border-radius);
- transition: background-color .3s var(--n-bezier);
- `), cM("disabled", `
- opacity: .45;
- cursor: not-allowed;
- `), cM("collapsed", [cE("arrow", "transform: rotate(0);")]), cM("selected", [c$1("&::before", "background-color: var(--n-item-color-active);"), cE("arrow", "color: var(--n-arrow-color-active);"), cE("icon", "color: var(--n-item-icon-color-active);"), cB("menu-item-content-header", `
- color: var(--n-item-text-color-active);
- `, [c$1("a", "color: var(--n-item-text-color-active);"), cE("extra", "color: var(--n-item-text-color-active);")])]), cM("child-active", [cB("menu-item-content-header", `
- color: var(--n-item-text-color-child-active);
- `, [c$1("a", `
- color: var(--n-item-text-color-child-active);
- `), cE("extra", `
- color: var(--n-item-text-color-child-active);
- `)]), cE("arrow", `
- color: var(--n-arrow-color-child-active);
- `), cE("icon", `
- color: var(--n-item-icon-color-child-active);
- `)]), cNotM("disabled", [cNotM("selected, child-active", [c$1("&:focus-within", hoverStyleChildren)]), cM("selected", [hoverStyle(null, [cE("arrow", "color: var(--n-arrow-color-active-hover);"), cE("icon", "color: var(--n-item-icon-color-active-hover);"), cB("menu-item-content-header", `
- color: var(--n-item-text-color-active-hover);
- `, [c$1("a", "color: var(--n-item-text-color-active-hover);"), cE("extra", "color: var(--n-item-text-color-active-hover);")])])]), cM("child-active", [hoverStyle(null, [cE("arrow", "color: var(--n-arrow-color-child-active-hover);"), cE("icon", "color: var(--n-item-icon-color-child-active-hover);"), cB("menu-item-content-header", `
- color: var(--n-item-text-color-child-active-hover);
- `, [c$1("a", "color: var(--n-item-text-color-child-active-hover);"), cE("extra", "color: var(--n-item-text-color-child-active-hover);")])])]), cM("selected", [hoverStyle(null, [c$1("&::before", "background-color: var(--n-item-color-active-hover);")])]), hoverStyle(null, hoverStyleChildren)]), cE("icon", `
- grid-area: icon;
- color: var(--n-item-icon-color);
- transition:
- color .3s var(--n-bezier),
- font-size .3s var(--n-bezier),
- margin-right .3s var(--n-bezier);
- box-sizing: content-box;
- display: inline-flex;
- align-items: center;
- justify-content: center;
- `), cE("arrow", `
- grid-area: arrow;
- font-size: 16px;
- color: var(--n-arrow-color);
- transform: rotate(180deg);
- opacity: 1;
- transition:
- color .3s var(--n-bezier),
- transform 0.2s var(--n-bezier),
- opacity 0.2s var(--n-bezier);
- `), cB("menu-item-content-header", `
- grid-area: content;
- transition:
- color .3s var(--n-bezier),
- opacity .3s var(--n-bezier);
- opacity: 1;
- white-space: nowrap;
- color: var(--n-item-text-color);
- `, [c$1("a", `
- outline: none;
- text-decoration: none;
- transition: color .3s var(--n-bezier);
- color: var(--n-item-text-color);
- `, [c$1("&::before", `
- content: "";
- position: absolute;
- left: 0;
- right: 0;
- top: 0;
- bottom: 0;
- `)]), cE("extra", `
- font-size: .93em;
- color: var(--n-group-text-color);
- transition: color .3s var(--n-bezier);
- `)])]), cB("submenu", `
- cursor: pointer;
- position: relative;
- margin-top: 6px;
- `, [cB("menu-item-content", `
- height: var(--n-item-height);
- `), cB("submenu-children", `
- overflow: hidden;
- padding: 0;
- `, [fadeInHeightExpandTransition({
-  duration: ".2s"
-})])]), cB("menu-item-group", [cB("menu-item-group-title", `
- margin-top: 6px;
- color: var(--n-group-text-color);
- cursor: default;
- font-size: .93em;
- height: 36px;
- display: flex;
- align-items: center;
- transition:
- padding-left .3s var(--n-bezier),
- color .3s var(--n-bezier);
- `)])]), cB("menu-tooltip", [c$1("a", `
- color: inherit;
- text-decoration: none;
- `)]), cB("menu-divider", `
- transition: background-color .3s var(--n-bezier);
- background-color: var(--n-divider-color);
- height: 1px;
- margin: 6px 18px;
- `)]);
-function hoverStyle(props, children) {
-  return [cM("hover", props, children), c$1("&:hover", props, children)];
-}
 const menuProps = Object.assign(Object.assign({}, useTheme.props), {
   options: {
     type: Array,
@@ -17768,7 +19248,7 @@ const __unplugin_components_0$2 = defineComponent({
       mergedClsPrefixRef,
       inlineThemeDisabled
     } = useConfig(props);
-    const themeRef = useTheme("Menu", "-menu", style$3, menuLight, props, mergedClsPrefixRef);
+    const themeRef = useTheme("Menu", "-menu", style$1, menuLight, props, mergedClsPrefixRef);
     const layoutSider = inject(layoutSiderInjectionKey, null);
     const mergedCollapsedRef = computed(() => {
       var _a;
@@ -18185,1463 +19665,6 @@ const __unplugin_components_0$2 = defineComponent({
     }) : renderMainNode();
   }
 });
-const messageProps = {
-  icon: Function,
-  type: {
-    type: String,
-    default: "info"
-  },
-  content: [String, Number, Function],
-  showIcon: {
-    type: Boolean,
-    default: true
-  },
-  closable: Boolean,
-  keepAliveOnHover: Boolean,
-  onClose: Function,
-  onMouseenter: Function,
-  onMouseleave: Function
-};
-const messageApiInjectionKey = createInjectionKey("n-message-api");
-const messageProviderInjectionKey = createInjectionKey("n-message-provider");
-const style$2 = c$1([cB("message-wrapper", `
- margin: var(--n-margin);
- z-index: 0;
- transform-origin: top center;
- display: flex;
- `, [fadeInHeightExpandTransition({
-  overflow: "visible",
-  originalTransition: "transform .3s var(--n-bezier)",
-  enterToProps: {
-    transform: "scale(1)"
-  },
-  leaveToProps: {
-    transform: "scale(0.85)"
-  }
-})]), cB("message", `
- box-sizing: border-box;
- display: flex;
- align-items: center;
- transition:
- color .3s var(--n-bezier),
- box-shadow .3s var(--n-bezier),
- background-color .3s var(--n-bezier),
- opacity .3s var(--n-bezier),
- transform .3s var(--n-bezier),
- margin-bottom .3s var(--n-bezier);
- padding: var(--n-padding);
- border-radius: var(--n-border-radius);
- flex-wrap: nowrap;
- overflow: hidden;
- max-width: var(--n-max-width);
- color: var(--n-text-color);
- background-color: var(--n-color);
- box-shadow: var(--n-box-shadow);
- `, [cE("content", `
- display: inline-block;
- line-height: var(--n-line-height);
- font-size: var(--n-font-size);
- `), cE("icon", `
- position: relative;
- margin: var(--n-icon-margin);
- height: var(--n-icon-size);
- width: var(--n-icon-size);
- font-size: var(--n-icon-size);
- flex-shrink: 0;
- `, [["default", "info", "success", "warning", "error", "loading"].map((type) => cM(`${type}-type`, [c$1("> *", `
- color: var(--n-icon-color-${type});
- transition: color .3s var(--n-bezier);
- `)])), c$1("> *", `
- position: absolute;
- left: 0;
- top: 0;
- right: 0;
- bottom: 0;
- `, [iconSwitchTransition()])]), cE("close", `
- margin: var(--n-close-margin);
- transition:
- background-color .3s var(--n-bezier),
- color .3s var(--n-bezier);
- flex-shrink: 0;
- `, [c$1("&:hover", `
- color: var(--n-close-icon-color-hover);
- `), c$1("&:active", `
- color: var(--n-close-icon-color-pressed);
- `)])]), cB("message-container", `
- z-index: 6000;
- position: fixed;
- height: 0;
- overflow: visible;
- display: flex;
- flex-direction: column;
- align-items: center;
- `, [cM("top", `
- top: 12px;
- left: 0;
- right: 0;
- `), cM("top-left", `
- top: 12px;
- left: 12px;
- right: 0;
- align-items: flex-start;
- `), cM("top-right", `
- top: 12px;
- left: 0;
- right: 12px;
- align-items: flex-end;
- `), cM("bottom", `
- bottom: 4px;
- left: 0;
- right: 0;
- justify-content: flex-end;
- `), cM("bottom-left", `
- bottom: 4px;
- left: 12px;
- right: 0;
- justify-content: flex-end;
- align-items: flex-start;
- `), cM("bottom-right", `
- bottom: 4px;
- left: 0;
- right: 12px;
- justify-content: flex-end;
- align-items: flex-end;
- `)])]);
-const iconRenderMap$1 = {
-  info: () => h(InfoIcon, null),
-  success: () => h(SuccessIcon, null),
-  warning: () => h(WarningIcon, null),
-  error: () => h(ErrorIcon, null),
-  default: () => null
-};
-const NMessage = defineComponent({
-  name: "Message",
-  props: Object.assign(Object.assign({}, messageProps), {
-    render: Function
-  }),
-  setup(props) {
-    const {
-      inlineThemeDisabled,
-      mergedRtlRef
-    } = useConfig(props);
-    const {
-      props: messageProviderProps2,
-      mergedClsPrefixRef
-    } = inject(messageProviderInjectionKey);
-    const rtlEnabledRef = useRtl("Message", mergedRtlRef, mergedClsPrefixRef);
-    const themeRef = useTheme("Message", "-message", style$2, messageLight, messageProviderProps2, mergedClsPrefixRef);
-    const cssVarsRef = computed(() => {
-      const {
-        type
-      } = props;
-      const {
-        common: {
-          cubicBezierEaseInOut: cubicBezierEaseInOut2
-        },
-        self: {
-          padding,
-          margin,
-          maxWidth,
-          iconMargin,
-          closeMargin,
-          closeSize,
-          iconSize,
-          fontSize,
-          lineHeight,
-          borderRadius,
-          iconColorInfo,
-          iconColorSuccess,
-          iconColorWarning,
-          iconColorError,
-          iconColorLoading,
-          closeIconSize,
-          closeBorderRadius,
-          [createKey("textColor", type)]: textColor,
-          [createKey("boxShadow", type)]: boxShadow,
-          [createKey("color", type)]: color,
-          [createKey("closeColorHover", type)]: closeColorHover,
-          [createKey("closeColorPressed", type)]: closeColorPressed,
-          [createKey("closeIconColor", type)]: closeIconColor,
-          [createKey("closeIconColorPressed", type)]: closeIconColorPressed,
-          [createKey("closeIconColorHover", type)]: closeIconColorHover
-        }
-      } = themeRef.value;
-      return {
-        "--n-bezier": cubicBezierEaseInOut2,
-        "--n-margin": margin,
-        "--n-padding": padding,
-        "--n-max-width": maxWidth,
-        "--n-font-size": fontSize,
-        "--n-icon-margin": iconMargin,
-        "--n-icon-size": iconSize,
-        "--n-close-icon-size": closeIconSize,
-        "--n-close-border-radius": closeBorderRadius,
-        "--n-close-size": closeSize,
-        "--n-close-margin": closeMargin,
-        "--n-text-color": textColor,
-        "--n-color": color,
-        "--n-box-shadow": boxShadow,
-        "--n-icon-color-info": iconColorInfo,
-        "--n-icon-color-success": iconColorSuccess,
-        "--n-icon-color-warning": iconColorWarning,
-        "--n-icon-color-error": iconColorError,
-        "--n-icon-color-loading": iconColorLoading,
-        "--n-close-color-hover": closeColorHover,
-        "--n-close-color-pressed": closeColorPressed,
-        "--n-close-icon-color": closeIconColor,
-        "--n-close-icon-color-pressed": closeIconColorPressed,
-        "--n-close-icon-color-hover": closeIconColorHover,
-        "--n-line-height": lineHeight,
-        "--n-border-radius": borderRadius
-      };
-    });
-    const themeClassHandle = inlineThemeDisabled ? useThemeClass("message", computed(() => props.type[0]), cssVarsRef, {}) : void 0;
-    return {
-      mergedClsPrefix: mergedClsPrefixRef,
-      rtlEnabled: rtlEnabledRef,
-      messageProviderProps: messageProviderProps2,
-      handleClose() {
-        var _a;
-        (_a = props.onClose) === null || _a === void 0 ? void 0 : _a.call(props);
-      },
-      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
-      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
-      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender,
-      placement: messageProviderProps2.placement
-    };
-  },
-  render() {
-    const {
-      render: renderMessage,
-      type,
-      closable,
-      content,
-      mergedClsPrefix,
-      cssVars,
-      themeClass,
-      onRender,
-      icon,
-      handleClose,
-      showIcon
-    } = this;
-    onRender === null || onRender === void 0 ? void 0 : onRender();
-    let iconNode;
-    return h("div", {
-      class: [`${mergedClsPrefix}-message-wrapper`, themeClass],
-      onMouseenter: this.onMouseenter,
-      onMouseleave: this.onMouseleave,
-      style: [{
-        alignItems: this.placement.startsWith("top") ? "flex-start" : "flex-end"
-      }, cssVars]
-    }, renderMessage ? renderMessage(this.$props) : h("div", {
-      class: [`${mergedClsPrefix}-message ${mergedClsPrefix}-message--${type}-type`, this.rtlEnabled && `${mergedClsPrefix}-message--rtl`]
-    }, (iconNode = createIconVNode(icon, type, mergedClsPrefix)) && showIcon ? h("div", {
-      class: `${mergedClsPrefix}-message__icon ${mergedClsPrefix}-message__icon--${type}-type`
-    }, h(NIconSwitchTransition, null, {
-      default: () => iconNode
-    })) : null, h("div", {
-      class: `${mergedClsPrefix}-message__content`
-    }, render$j(content)), closable ? h(NBaseClose, {
-      clsPrefix: mergedClsPrefix,
-      class: `${mergedClsPrefix}-message__close`,
-      onClick: handleClose,
-      absolute: true
-    }) : null));
-  }
-});
-function createIconVNode(icon, type, clsPrefix) {
-  if (typeof icon === "function") {
-    return icon();
-  } else {
-    const innerIcon = type === "loading" ? h(NBaseLoading, {
-      clsPrefix,
-      strokeWidth: 24,
-      scale: 0.85
-    }) : iconRenderMap$1[type]();
-    if (!innerIcon) return null;
-    return h(NBaseIcon, {
-      clsPrefix,
-      key: type
-    }, {
-      default: () => innerIcon
-    });
-  }
-}
-const MessageEnvironment = defineComponent({
-  name: "MessageEnvironment",
-  props: Object.assign(Object.assign({}, messageProps), {
-    duration: {
-      type: Number,
-      default: 3e3
-    },
-    onAfterLeave: Function,
-    onLeave: Function,
-    internalKey: {
-      type: String,
-      required: true
-    },
-    // private
-    onInternalAfterLeave: Function,
-    // deprecated
-    onHide: Function,
-    onAfterHide: Function
-  }),
-  setup(props) {
-    let timerId = null;
-    const showRef = ref(true);
-    onMounted(() => {
-      setHideTimeout();
-    });
-    function setHideTimeout() {
-      const {
-        duration: duration2
-      } = props;
-      if (duration2) {
-        timerId = window.setTimeout(hide, duration2);
-      }
-    }
-    function handleMouseenter(e2) {
-      if (e2.currentTarget !== e2.target) return;
-      if (timerId !== null) {
-        window.clearTimeout(timerId);
-        timerId = null;
-      }
-    }
-    function handleMouseleave(e2) {
-      if (e2.currentTarget !== e2.target) return;
-      setHideTimeout();
-    }
-    function hide() {
-      const {
-        onHide
-      } = props;
-      showRef.value = false;
-      if (timerId) {
-        window.clearTimeout(timerId);
-        timerId = null;
-      }
-      if (onHide) onHide();
-    }
-    function handleClose() {
-      const {
-        onClose
-      } = props;
-      if (onClose) onClose();
-      hide();
-    }
-    function handleAfterLeave() {
-      const {
-        onAfterLeave,
-        onInternalAfterLeave,
-        onAfterHide,
-        internalKey
-      } = props;
-      if (onAfterLeave) onAfterLeave();
-      if (onInternalAfterLeave) onInternalAfterLeave(internalKey);
-      if (onAfterHide) onAfterHide();
-    }
-    function deactivate() {
-      hide();
-    }
-    return {
-      show: showRef,
-      hide,
-      handleClose,
-      handleAfterLeave,
-      handleMouseleave,
-      handleMouseenter,
-      deactivate
-    };
-  },
-  render() {
-    return h(NFadeInExpandTransition, {
-      appear: true,
-      onAfterLeave: this.handleAfterLeave,
-      onLeave: this.onLeave
-    }, {
-      default: () => [this.show ? h(NMessage, {
-        content: this.content,
-        type: this.type,
-        icon: this.icon,
-        showIcon: this.showIcon,
-        closable: this.closable,
-        onClose: this.handleClose,
-        onMouseenter: this.keepAliveOnHover ? this.handleMouseenter : void 0,
-        onMouseleave: this.keepAliveOnHover ? this.handleMouseleave : void 0
-      }) : null]
-    });
-  }
-});
-const messageProviderProps = Object.assign(Object.assign({}, useTheme.props), {
-  to: [String, Object],
-  duration: {
-    type: Number,
-    default: 3e3
-  },
-  keepAliveOnHover: Boolean,
-  max: Number,
-  placement: {
-    type: String,
-    default: "top"
-  },
-  closable: Boolean,
-  containerClass: String,
-  containerStyle: [String, Object]
-});
-const __unplugin_components_4$2 = defineComponent({
-  name: "MessageProvider",
-  props: messageProviderProps,
-  setup(props) {
-    const {
-      mergedClsPrefixRef
-    } = useConfig(props);
-    const messageListRef = ref([]);
-    const messageRefs = ref({});
-    const api = {
-      create(content, options) {
-        return create(content, Object.assign({
-          type: "default"
-        }, options));
-      },
-      info(content, options) {
-        return create(content, Object.assign(Object.assign({}, options), {
-          type: "info"
-        }));
-      },
-      success(content, options) {
-        return create(content, Object.assign(Object.assign({}, options), {
-          type: "success"
-        }));
-      },
-      warning(content, options) {
-        return create(content, Object.assign(Object.assign({}, options), {
-          type: "warning"
-        }));
-      },
-      error(content, options) {
-        return create(content, Object.assign(Object.assign({}, options), {
-          type: "error"
-        }));
-      },
-      loading(content, options) {
-        return create(content, Object.assign(Object.assign({}, options), {
-          type: "loading"
-        }));
-      },
-      destroyAll
-    };
-    provide(messageProviderInjectionKey, {
-      props,
-      mergedClsPrefixRef
-    });
-    provide(messageApiInjectionKey, api);
-    function create(content, options) {
-      const key = createId();
-      const messageReactive = reactive(Object.assign(Object.assign({}, options), {
-        content,
-        key,
-        destroy: () => {
-          var _a;
-          (_a = messageRefs.value[key]) === null || _a === void 0 ? void 0 : _a.hide();
-        }
-      }));
-      const {
-        max
-      } = props;
-      if (max && messageListRef.value.length >= max) {
-        messageListRef.value.shift();
-      }
-      messageListRef.value.push(messageReactive);
-      return messageReactive;
-    }
-    function handleAfterLeave(key) {
-      messageListRef.value.splice(messageListRef.value.findIndex((message) => message.key === key), 1);
-      delete messageRefs.value[key];
-    }
-    function destroyAll() {
-      Object.values(messageRefs.value).forEach((messageInstRef) => {
-        messageInstRef.hide();
-      });
-    }
-    return Object.assign({
-      mergedClsPrefix: mergedClsPrefixRef,
-      messageRefs,
-      messageList: messageListRef,
-      handleAfterLeave
-    }, api);
-  },
-  render() {
-    var _a, _b, _c;
-    return h(Fragment, null, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a), this.messageList.length ? h(Teleport, {
-      to: (_c = this.to) !== null && _c !== void 0 ? _c : "body"
-    }, h("div", {
-      class: [`${this.mergedClsPrefix}-message-container`, `${this.mergedClsPrefix}-message-container--${this.placement}`, this.containerClass],
-      key: "message-container",
-      style: this.containerStyle
-    }, this.messageList.map((message) => {
-      return h(MessageEnvironment, Object.assign({
-        ref: (inst) => {
-          if (inst) {
-            this.messageRefs[message.key] = inst;
-          }
-        },
-        internalKey: message.key,
-        onInternalAfterLeave: this.handleAfterLeave
-      }, omit(message, ["destroy"], void 0), {
-        duration: message.duration === void 0 ? this.duration : message.duration,
-        keepAliveOnHover: message.keepAliveOnHover === void 0 ? this.keepAliveOnHover : message.keepAliveOnHover,
-        closable: message.closable === void 0 ? this.closable : message.closable
-      }));
-    }))) : null);
-  }
-});
-function useMessage() {
-  const api = inject(messageApiInjectionKey, null);
-  if (api === null) {
-    throwError("use-message", "No outer <n-message-provider /> founded. See prerequisite in https://www.naiveui.com/en-US/os-theme/components/message for more details. If you want to use `useMessage` outside setup, please check https://www.naiveui.com/zh-CN/os-theme/components/message#Q-&-A.");
-  }
-  return api;
-}
-const NModalEnvironment = defineComponent({
-  name: "ModalEnvironment",
-  props: Object.assign(Object.assign({}, modalProps), {
-    internalKey: {
-      type: String,
-      required: true
-    },
-    // private
-    onInternalAfterLeave: {
-      type: Function,
-      required: true
-    }
-  }),
-  setup(props) {
-    const showRef = ref(true);
-    function handleAfterLeave() {
-      const {
-        onInternalAfterLeave,
-        internalKey,
-        onAfterLeave
-      } = props;
-      if (onInternalAfterLeave) onInternalAfterLeave(internalKey);
-      if (onAfterLeave) onAfterLeave();
-    }
-    function handlePositiveClick() {
-      const {
-        onPositiveClick
-      } = props;
-      if (onPositiveClick) {
-        void Promise.resolve(onPositiveClick()).then((result) => {
-          if (result === false) return;
-          hide();
-        });
-      } else {
-        hide();
-      }
-    }
-    function handleNegativeClick() {
-      const {
-        onNegativeClick
-      } = props;
-      if (onNegativeClick) {
-        void Promise.resolve(onNegativeClick()).then((result) => {
-          if (result === false) return;
-          hide();
-        });
-      } else {
-        hide();
-      }
-    }
-    function handleCloseClick() {
-      const {
-        onClose
-      } = props;
-      if (onClose) {
-        void Promise.resolve(onClose()).then((result) => {
-          if (result === false) return;
-          hide();
-        });
-      } else {
-        hide();
-      }
-    }
-    function handleMaskClick(e2) {
-      const {
-        onMaskClick,
-        maskClosable
-      } = props;
-      if (onMaskClick) {
-        onMaskClick(e2);
-        if (maskClosable) {
-          hide();
-        }
-      }
-    }
-    function handleEsc() {
-      const {
-        onEsc
-      } = props;
-      if (onEsc) {
-        onEsc();
-      }
-    }
-    function hide() {
-      showRef.value = false;
-    }
-    function handleUpdateShow(value) {
-      showRef.value = value;
-    }
-    return {
-      show: showRef,
-      hide,
-      handleUpdateShow,
-      handleAfterLeave,
-      handleCloseClick,
-      handleNegativeClick,
-      handlePositiveClick,
-      handleMaskClick,
-      handleEsc
-    };
-  },
-  render() {
-    const {
-      handleUpdateShow,
-      handleAfterLeave,
-      handleMaskClick,
-      handleEsc,
-      show
-    } = this;
-    return h(__unplugin_components_3$2, Object.assign({}, this.$props, {
-      show,
-      onUpdateShow: handleUpdateShow,
-      onMaskClick: handleMaskClick,
-      onEsc: handleEsc,
-      onAfterLeave: handleAfterLeave,
-      internalAppear: true,
-      internalModal: true
-    }));
-  }
-});
-const modalProviderInjectionKey = createInjectionKey("n-modal-provider");
-const modalApiInjectionKey = createInjectionKey("n-modal-api");
-const modalReactiveListInjectionKey = createInjectionKey("n-modal-reactive-list");
-const modalProviderProps = {
-  to: [String, Object]
-};
-const NModalProvider = defineComponent({
-  name: "ModalProvider",
-  props: modalProviderProps,
-  setup() {
-    const clickedRef = useClicked(64);
-    const clickedPositionRef = useClickPosition();
-    const modalListRef = ref([]);
-    const modalInstRefs = {};
-    function create(options = {}) {
-      const key = createId();
-      const modalReactive = reactive(Object.assign(Object.assign({}, options), {
-        key,
-        destroy: () => {
-          var _a;
-          (_a = modalInstRefs[`n-modal-${key}`]) === null || _a === void 0 ? void 0 : _a.hide();
-        }
-      }));
-      modalListRef.value.push(modalReactive);
-      return modalReactive;
-    }
-    function handleAfterLeave(key) {
-      const {
-        value: modalList
-      } = modalListRef;
-      modalList.splice(modalList.findIndex((modal) => modal.key === key), 1);
-    }
-    function destroyAll() {
-      Object.values(modalInstRefs).forEach((modalInstRef) => {
-        modalInstRef === null || modalInstRef === void 0 ? void 0 : modalInstRef.hide();
-      });
-    }
-    const api = {
-      create,
-      destroyAll
-    };
-    provide(modalApiInjectionKey, api);
-    provide(modalProviderInjectionKey, {
-      clickedRef: useClicked(64),
-      clickedPositionRef: useClickPosition()
-    });
-    provide(modalReactiveListInjectionKey, modalListRef);
-    provide(modalProviderInjectionKey, {
-      clickedRef,
-      clickedPositionRef
-    });
-    return Object.assign(Object.assign({}, api), {
-      modalList: modalListRef,
-      modalInstRefs,
-      handleAfterLeave
-    });
-  },
-  render() {
-    var _a, _b;
-    return h(Fragment, null, [this.modalList.map((modal) => {
-      var _a2;
-      return h(NModalEnvironment, omit(modal, ["destroy"], {
-        to: (_a2 = modal.to) !== null && _a2 !== void 0 ? _a2 : this.to,
-        ref: (inst) => {
-          if (inst === null) {
-            delete this.modalInstRefs[`n-modal-${modal.key}`];
-          } else {
-            this.modalInstRefs[`n-modal-${modal.key}`] = inst;
-          }
-        },
-        internalKey: modal.key,
-        onInternalAfterLeave: this.handleAfterLeave
-      }));
-    }), (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a)]);
-  }
-});
-function useModal() {
-  const modal = inject(modalApiInjectionKey, null);
-  if (modal === null) {
-    throwError("use-modal", "No outer <n-modal-provider /> founded.");
-  }
-  return modal;
-}
-const notificationProviderInjectionKey = createInjectionKey("n-notification-provider");
-const NotificationContainer = defineComponent({
-  name: "NotificationContainer",
-  props: {
-    scrollable: {
-      type: Boolean,
-      required: true
-    },
-    placement: {
-      type: String,
-      required: true
-    }
-  },
-  setup() {
-    const {
-      mergedThemeRef,
-      mergedClsPrefixRef,
-      wipTransitionCountRef
-    } = inject(notificationProviderInjectionKey);
-    const selfRef = ref(null);
-    watchEffect(() => {
-      var _a, _b;
-      if (wipTransitionCountRef.value > 0) {
-        (_a = selfRef === null || selfRef === void 0 ? void 0 : selfRef.value) === null || _a === void 0 ? void 0 : _a.classList.add("transitioning");
-      } else {
-        (_b = selfRef === null || selfRef === void 0 ? void 0 : selfRef.value) === null || _b === void 0 ? void 0 : _b.classList.remove("transitioning");
-      }
-    });
-    return {
-      selfRef,
-      mergedTheme: mergedThemeRef,
-      mergedClsPrefix: mergedClsPrefixRef,
-      transitioning: wipTransitionCountRef
-    };
-  },
-  render() {
-    const {
-      $slots,
-      scrollable,
-      mergedClsPrefix,
-      mergedTheme,
-      placement
-    } = this;
-    return h("div", {
-      ref: "selfRef",
-      class: [`${mergedClsPrefix}-notification-container`, scrollable && `${mergedClsPrefix}-notification-container--scrollable`, `${mergedClsPrefix}-notification-container--${placement}`]
-    }, scrollable ? h(Scrollbar$1, {
-      theme: mergedTheme.peers.Scrollbar,
-      themeOverrides: mergedTheme.peerOverrides.Scrollbar,
-      contentStyle: {
-        overflow: "hidden"
-      }
-    }, $slots) : $slots);
-  }
-});
-const iconRenderMap = {
-  info: () => h(InfoIcon, null),
-  success: () => h(SuccessIcon, null),
-  warning: () => h(WarningIcon, null),
-  error: () => h(ErrorIcon, null),
-  default: () => null
-};
-const notificationProps = {
-  closable: {
-    type: Boolean,
-    default: true
-  },
-  type: {
-    type: String,
-    default: "default"
-  },
-  avatar: Function,
-  title: [String, Function],
-  description: [String, Function],
-  content: [String, Function],
-  meta: [String, Function],
-  action: [String, Function],
-  onClose: {
-    type: Function,
-    required: true
-  },
-  keepAliveOnHover: Boolean,
-  onMouseenter: Function,
-  onMouseleave: Function
-};
-const notificationPropKeys = keysOf(notificationProps);
-const Notification = defineComponent({
-  name: "Notification",
-  props: notificationProps,
-  setup(props) {
-    const {
-      mergedClsPrefixRef,
-      mergedThemeRef,
-      props: providerProps
-    } = inject(notificationProviderInjectionKey);
-    const {
-      inlineThemeDisabled,
-      mergedRtlRef
-    } = useConfig();
-    const rtlEnabledRef = useRtl("Notification", mergedRtlRef, mergedClsPrefixRef);
-    const cssVarsRef = computed(() => {
-      const {
-        type
-      } = props;
-      const {
-        self: {
-          color,
-          textColor,
-          closeIconColor,
-          closeIconColorHover,
-          closeIconColorPressed,
-          headerTextColor,
-          descriptionTextColor,
-          actionTextColor,
-          borderRadius,
-          headerFontWeight,
-          boxShadow,
-          lineHeight,
-          fontSize,
-          closeMargin,
-          closeSize,
-          width,
-          padding,
-          closeIconSize,
-          closeBorderRadius,
-          closeColorHover,
-          closeColorPressed,
-          titleFontSize,
-          metaFontSize,
-          descriptionFontSize,
-          [createKey("iconColor", type)]: iconColor
-        },
-        common: {
-          cubicBezierEaseOut: cubicBezierEaseOut2,
-          cubicBezierEaseIn: cubicBezierEaseIn2,
-          cubicBezierEaseInOut: cubicBezierEaseInOut2
-        }
-      } = mergedThemeRef.value;
-      const {
-        left,
-        right,
-        top,
-        bottom
-      } = getMargin(padding);
-      return {
-        "--n-color": color,
-        "--n-font-size": fontSize,
-        "--n-text-color": textColor,
-        "--n-description-text-color": descriptionTextColor,
-        "--n-action-text-color": actionTextColor,
-        "--n-title-text-color": headerTextColor,
-        "--n-title-font-weight": headerFontWeight,
-        "--n-bezier": cubicBezierEaseInOut2,
-        "--n-bezier-ease-out": cubicBezierEaseOut2,
-        "--n-bezier-ease-in": cubicBezierEaseIn2,
-        "--n-border-radius": borderRadius,
-        "--n-box-shadow": boxShadow,
-        "--n-close-border-radius": closeBorderRadius,
-        "--n-close-color-hover": closeColorHover,
-        "--n-close-color-pressed": closeColorPressed,
-        "--n-close-icon-color": closeIconColor,
-        "--n-close-icon-color-hover": closeIconColorHover,
-        "--n-close-icon-color-pressed": closeIconColorPressed,
-        "--n-line-height": lineHeight,
-        "--n-icon-color": iconColor,
-        "--n-close-margin": closeMargin,
-        "--n-close-size": closeSize,
-        "--n-close-icon-size": closeIconSize,
-        "--n-width": width,
-        "--n-padding-left": left,
-        "--n-padding-right": right,
-        "--n-padding-top": top,
-        "--n-padding-bottom": bottom,
-        "--n-title-font-size": titleFontSize,
-        "--n-meta-font-size": metaFontSize,
-        "--n-description-font-size": descriptionFontSize
-      };
-    });
-    const themeClassHandle = inlineThemeDisabled ? useThemeClass("notification", computed(() => props.type[0]), cssVarsRef, providerProps) : void 0;
-    return {
-      mergedClsPrefix: mergedClsPrefixRef,
-      showAvatar: computed(() => {
-        return props.avatar || props.type !== "default";
-      }),
-      handleCloseClick() {
-        props.onClose();
-      },
-      rtlEnabled: rtlEnabledRef,
-      cssVars: inlineThemeDisabled ? void 0 : cssVarsRef,
-      themeClass: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.themeClass,
-      onRender: themeClassHandle === null || themeClassHandle === void 0 ? void 0 : themeClassHandle.onRender
-    };
-  },
-  render() {
-    var _a;
-    const {
-      mergedClsPrefix
-    } = this;
-    (_a = this.onRender) === null || _a === void 0 ? void 0 : _a.call(this);
-    return h("div", {
-      class: [`${mergedClsPrefix}-notification-wrapper`, this.themeClass],
-      onMouseenter: this.onMouseenter,
-      onMouseleave: this.onMouseleave,
-      style: this.cssVars
-    }, h("div", {
-      class: [`${mergedClsPrefix}-notification`, this.rtlEnabled && `${mergedClsPrefix}-notification--rtl`, this.themeClass, {
-        [`${mergedClsPrefix}-notification--closable`]: this.closable,
-        [`${mergedClsPrefix}-notification--show-avatar`]: this.showAvatar
-      }],
-      style: this.cssVars
-    }, this.showAvatar ? h("div", {
-      class: `${mergedClsPrefix}-notification__avatar`
-    }, this.avatar ? render$j(this.avatar) : this.type !== "default" ? h(NBaseIcon, {
-      clsPrefix: mergedClsPrefix
-    }, {
-      default: () => iconRenderMap[this.type]()
-    }) : null) : null, this.closable ? h(NBaseClose, {
-      clsPrefix: mergedClsPrefix,
-      class: `${mergedClsPrefix}-notification__close`,
-      onClick: this.handleCloseClick
-    }) : null, h("div", {
-      ref: "bodyRef",
-      class: `${mergedClsPrefix}-notification-main`
-    }, this.title ? h("div", {
-      class: `${mergedClsPrefix}-notification-main__header`
-    }, render$j(this.title)) : null, this.description ? h("div", {
-      class: `${mergedClsPrefix}-notification-main__description`
-    }, render$j(this.description)) : null, this.content ? h("pre", {
-      class: `${mergedClsPrefix}-notification-main__content`
-    }, render$j(this.content)) : null, this.meta || this.action ? h("div", {
-      class: `${mergedClsPrefix}-notification-main-footer`
-    }, this.meta ? h("div", {
-      class: `${mergedClsPrefix}-notification-main-footer__meta`
-    }, render$j(this.meta)) : null, this.action ? h("div", {
-      class: `${mergedClsPrefix}-notification-main-footer__action`
-    }, render$j(this.action)) : null) : null)));
-  }
-});
-const notificationEnvOptions = Object.assign(Object.assign({}, notificationProps), {
-  duration: Number,
-  onClose: Function,
-  onLeave: Function,
-  onAfterEnter: Function,
-  onAfterLeave: Function,
-  /** @deprecated */
-  onHide: Function,
-  /** @deprecated */
-  onAfterShow: Function,
-  /** @deprecated */
-  onAfterHide: Function
-});
-const NotificationEnvironment = defineComponent({
-  name: "NotificationEnvironment",
-  props: Object.assign(Object.assign({}, notificationEnvOptions), {
-    // private
-    internalKey: {
-      type: String,
-      required: true
-    },
-    onInternalAfterLeave: {
-      type: Function,
-      required: true
-    }
-  }),
-  setup(props) {
-    const {
-      wipTransitionCountRef
-    } = inject(notificationProviderInjectionKey);
-    const showRef = ref(true);
-    let timerId = null;
-    function hide() {
-      showRef.value = false;
-      if (timerId) {
-        window.clearTimeout(timerId);
-      }
-    }
-    function handleBeforeEnter(el) {
-      wipTransitionCountRef.value++;
-      void nextTick(() => {
-        el.style.height = `${el.offsetHeight}px`;
-        el.style.maxHeight = "0";
-        el.style.transition = "none";
-        void el.offsetHeight;
-        el.style.transition = "";
-        el.style.maxHeight = el.style.height;
-      });
-    }
-    function handleAfterEnter(el) {
-      wipTransitionCountRef.value--;
-      el.style.height = "";
-      el.style.maxHeight = "";
-      const {
-        onAfterEnter,
-        onAfterShow
-      } = props;
-      if (onAfterEnter) onAfterEnter();
-      if (onAfterShow) onAfterShow();
-    }
-    function handleBeforeLeave(el) {
-      wipTransitionCountRef.value++;
-      el.style.maxHeight = `${el.offsetHeight}px`;
-      el.style.height = `${el.offsetHeight}px`;
-      void el.offsetHeight;
-    }
-    function handleLeave(el) {
-      const {
-        onHide
-      } = props;
-      if (onHide) onHide();
-      el.style.maxHeight = "0";
-      void el.offsetHeight;
-    }
-    function handleAfterLeave() {
-      wipTransitionCountRef.value--;
-      const {
-        onAfterLeave,
-        onInternalAfterLeave,
-        onAfterHide,
-        internalKey
-      } = props;
-      if (onAfterLeave) onAfterLeave();
-      onInternalAfterLeave(internalKey);
-      if (onAfterHide) onAfterHide();
-    }
-    function setHideTimeout() {
-      const {
-        duration: duration2
-      } = props;
-      if (duration2) {
-        timerId = window.setTimeout(hide, duration2);
-      }
-    }
-    function handleMouseenter(e2) {
-      if (e2.currentTarget !== e2.target) return;
-      if (timerId !== null) {
-        window.clearTimeout(timerId);
-        timerId = null;
-      }
-    }
-    function handleMouseleave(e2) {
-      if (e2.currentTarget !== e2.target) return;
-      setHideTimeout();
-    }
-    function handleClose() {
-      const {
-        onClose
-      } = props;
-      if (onClose) {
-        void Promise.resolve(onClose()).then((feedback) => {
-          if (feedback === false) return;
-          hide();
-        });
-      } else {
-        hide();
-      }
-    }
-    onMounted(() => {
-      if (props.duration) {
-        timerId = window.setTimeout(hide, props.duration);
-      }
-    });
-    return {
-      show: showRef,
-      hide,
-      handleClose,
-      handleAfterLeave,
-      handleLeave,
-      handleBeforeLeave,
-      handleAfterEnter,
-      handleBeforeEnter,
-      handleMouseenter,
-      handleMouseleave
-    };
-  },
-  render() {
-    return h(Transition, {
-      name: "notification-transition",
-      appear: true,
-      // convert to any since Element is not compatible with HTMLElement
-      onBeforeEnter: this.handleBeforeEnter,
-      onAfterEnter: this.handleAfterEnter,
-      onBeforeLeave: this.handleBeforeLeave,
-      onLeave: this.handleLeave,
-      onAfterLeave: this.handleAfterLeave
-    }, {
-      default: () => {
-        return this.show ? h(Notification, Object.assign({}, keep(this.$props, notificationPropKeys), {
-          onClose: this.handleClose,
-          onMouseenter: this.duration && this.keepAliveOnHover ? this.handleMouseenter : void 0,
-          onMouseleave: this.duration && this.keepAliveOnHover ? this.handleMouseleave : void 0
-        })) : null;
-      }
-    });
-  }
-});
-const style$1 = c$1([cB("notification-container", `
- z-index: 4000;
- position: fixed;
- overflow: visible;
- display: flex;
- flex-direction: column;
- align-items: flex-end;
- `, [c$1(">", [cB("scrollbar", `
- width: initial;
- overflow: visible;
- height: -moz-fit-content !important;
- height: fit-content !important;
- max-height: 100vh !important;
- `, [c$1(">", [cB("scrollbar-container", `
- height: -moz-fit-content !important;
- height: fit-content !important;
- max-height: 100vh !important;
- `, [cB("scrollbar-content", `
- padding-top: 12px;
- padding-bottom: 33px;
- `)])])])]), cM("top, top-right, top-left", `
- top: 12px;
- `, [c$1("&.transitioning >", [cB("scrollbar", [c$1(">", [cB("scrollbar-container", `
- min-height: 100vh !important;
- `)])])])]), cM("bottom, bottom-right, bottom-left", `
- bottom: 12px;
- `, [c$1(">", [cB("scrollbar", [c$1(">", [cB("scrollbar-container", [cB("scrollbar-content", `
- padding-bottom: 12px;
- `)])])])]), cB("notification-wrapper", `
- display: flex;
- align-items: flex-end;
- margin-bottom: 0;
- margin-top: 12px;
- `)]), cM("top, bottom", `
- left: 50%;
- transform: translateX(-50%);
- `, [cB("notification-wrapper", [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
- transform: scale(0.85);
- `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
- transform: scale(1);
- `)])]), cM("top", [cB("notification-wrapper", `
- transform-origin: top center;
- `)]), cM("bottom", [cB("notification-wrapper", `
- transform-origin: bottom center;
- `)]), cM("top-right, bottom-right", [cB("notification", `
- margin-left: 28px;
- margin-right: 16px;
- `)]), cM("top-left, bottom-left", [cB("notification", `
- margin-left: 16px;
- margin-right: 28px;
- `)]), cM("top-right", `
- right: 0;
- `, [placementTransformStyle("top-right")]), cM("top-left", `
- left: 0;
- `, [placementTransformStyle("top-left")]), cM("bottom-right", `
- right: 0;
- `, [placementTransformStyle("bottom-right")]), cM("bottom-left", `
- left: 0;
- `, [placementTransformStyle("bottom-left")]), cM("scrollable", [cM("top-right", `
- top: 0;
- `), cM("top-left", `
- top: 0;
- `), cM("bottom-right", `
- bottom: 0;
- `), cM("bottom-left", `
- bottom: 0;
- `)]), cB("notification-wrapper", `
- margin-bottom: 12px;
- `, [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
- opacity: 0;
- margin-top: 0 !important;
- margin-bottom: 0 !important;
- `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
- opacity: 1;
- `), c$1("&.notification-transition-leave-active", `
- transition:
- background-color .3s var(--n-bezier),
- color .3s var(--n-bezier),
- opacity .3s var(--n-bezier),
- transform .3s var(--n-bezier-ease-in),
- max-height .3s var(--n-bezier),
- margin-top .3s linear,
- margin-bottom .3s linear,
- box-shadow .3s var(--n-bezier);
- `), c$1("&.notification-transition-enter-active", `
- transition:
- background-color .3s var(--n-bezier),
- color .3s var(--n-bezier),
- opacity .3s var(--n-bezier),
- transform .3s var(--n-bezier-ease-out),
- max-height .3s var(--n-bezier),
- margin-top .3s linear,
- margin-bottom .3s linear,
- box-shadow .3s var(--n-bezier);
- `)]), cB("notification", `
- background-color: var(--n-color);
- color: var(--n-text-color);
- transition:
- background-color .3s var(--n-bezier),
- color .3s var(--n-bezier),
- opacity .3s var(--n-bezier),
- box-shadow .3s var(--n-bezier);
- font-family: inherit;
- font-size: var(--n-font-size);
- font-weight: 400;
- position: relative;
- display: flex;
- overflow: hidden;
- flex-shrink: 0;
- padding-left: var(--n-padding-left);
- padding-right: var(--n-padding-right);
- width: var(--n-width);
- max-width: calc(100vw - 16px - 16px);
- border-radius: var(--n-border-radius);
- box-shadow: var(--n-box-shadow);
- box-sizing: border-box;
- opacity: 1;
- `, [cE("avatar", [cB("icon", `
- color: var(--n-icon-color);
- `), cB("base-icon", `
- color: var(--n-icon-color);
- `)]), cM("show-avatar", [cB("notification-main", `
- margin-left: 40px;
- width: calc(100% - 40px); 
- `)]), cM("closable", [cB("notification-main", [c$1("> *:first-child", `
- padding-right: 20px;
- `)]), cE("close", `
- position: absolute;
- top: 0;
- right: 0;
- margin: var(--n-close-margin);
- transition:
- background-color .3s var(--n-bezier),
- color .3s var(--n-bezier);
- `)]), cE("avatar", `
- position: absolute;
- top: var(--n-padding-top);
- left: var(--n-padding-left);
- width: 28px;
- height: 28px;
- font-size: 28px;
- display: flex;
- align-items: center;
- justify-content: center;
- `, [cB("icon", "transition: color .3s var(--n-bezier);")]), cB("notification-main", `
- padding-top: var(--n-padding-top);
- padding-bottom: var(--n-padding-bottom);
- box-sizing: border-box;
- display: flex;
- flex-direction: column;
- margin-left: 8px;
- width: calc(100% - 8px);
- `, [cB("notification-main-footer", `
- display: flex;
- align-items: center;
- justify-content: space-between;
- margin-top: 12px;
- `, [cE("meta", `
- font-size: var(--n-meta-font-size);
- transition: color .3s var(--n-bezier-ease-out);
- color: var(--n-description-text-color);
- `), cE("action", `
- cursor: pointer;
- transition: color .3s var(--n-bezier-ease-out);
- color: var(--n-action-text-color);
- `)]), cE("header", `
- font-weight: var(--n-title-font-weight);
- font-size: var(--n-title-font-size);
- transition: color .3s var(--n-bezier-ease-out);
- color: var(--n-title-text-color);
- `), cE("description", `
- margin-top: 8px;
- font-size: var(--n-description-font-size);
- white-space: pre-wrap;
- word-wrap: break-word;
- transition: color .3s var(--n-bezier-ease-out);
- color: var(--n-description-text-color);
- `), cE("content", `
- line-height: var(--n-line-height);
- margin: 12px 0 0 0;
- font-family: inherit;
- white-space: pre-wrap;
- word-wrap: break-word;
- transition: color .3s var(--n-bezier-ease-out);
- color: var(--n-text-color);
- `, [c$1("&:first-child", "margin: 0;")])])])])]);
-function placementTransformStyle(placement) {
-  const direction = placement.split("-")[1];
-  const transformXEnter = direction === "left" ? "calc(-100%)" : "calc(100%)";
-  const transformXLeave = "0";
-  return cB("notification-wrapper", [c$1("&.notification-transition-enter-from, &.notification-transition-leave-to", `
- transform: translate(${transformXEnter}, 0);
- `), c$1("&.notification-transition-leave-from, &.notification-transition-enter-to", `
- transform: translate(${transformXLeave}, 0);
- `)]);
-}
-const notificationApiInjectionKey = createInjectionKey("n-notification-api");
-const notificationProviderProps = Object.assign(Object.assign({}, useTheme.props), {
-  containerClass: String,
-  containerStyle: [String, Object],
-  to: [String, Object],
-  scrollable: {
-    type: Boolean,
-    default: true
-  },
-  max: Number,
-  placement: {
-    type: String,
-    default: "top-right"
-  },
-  keepAliveOnHover: Boolean
-});
-const __unplugin_components_5$3 = defineComponent({
-  name: "NotificationProvider",
-  props: notificationProviderProps,
-  setup(props) {
-    const {
-      mergedClsPrefixRef
-    } = useConfig(props);
-    const notificationListRef = ref([]);
-    const notificationRefs = {};
-    const leavingKeySet = /* @__PURE__ */ new Set();
-    function create(options) {
-      const key = createId();
-      const destroy = () => {
-        leavingKeySet.add(key);
-        if (notificationRefs[key]) {
-          notificationRefs[key].hide();
-        }
-      };
-      const notificationReactive = reactive(Object.assign(Object.assign({}, options), {
-        key,
-        destroy,
-        hide: destroy,
-        deactivate: destroy
-      }));
-      const {
-        max
-      } = props;
-      if (max && notificationListRef.value.length - leavingKeySet.size >= max) {
-        let someoneMountedRemoved = false;
-        let index = 0;
-        for (const notification of notificationListRef.value) {
-          if (!leavingKeySet.has(notification.key)) {
-            if (notificationRefs[notification.key]) {
-              notification.destroy();
-              someoneMountedRemoved = true;
-            }
-            break;
-          }
-          index++;
-        }
-        if (!someoneMountedRemoved) {
-          notificationListRef.value.splice(index, 1);
-        }
-      }
-      notificationListRef.value.push(notificationReactive);
-      return notificationReactive;
-    }
-    const apis = ["info", "success", "warning", "error"].map((type) => {
-      return (options) => create(Object.assign(Object.assign({}, options), {
-        type
-      }));
-    });
-    function handleAfterLeave(key) {
-      leavingKeySet.delete(key);
-      notificationListRef.value.splice(notificationListRef.value.findIndex((notification) => notification.key === key), 1);
-    }
-    const themeRef = useTheme("Notification", "-notification", style$1, notificationLight, props, mergedClsPrefixRef);
-    const api = {
-      create,
-      info: apis[0],
-      success: apis[1],
-      warning: apis[2],
-      error: apis[3],
-      open,
-      destroyAll
-    };
-    const wipTransitionCountRef = ref(0);
-    provide(notificationApiInjectionKey, api);
-    provide(notificationProviderInjectionKey, {
-      props,
-      mergedClsPrefixRef,
-      mergedThemeRef: themeRef,
-      wipTransitionCountRef
-    });
-    function open(options) {
-      return create(options);
-    }
-    function destroyAll() {
-      Object.values(notificationListRef.value).forEach((notification) => {
-        notification.hide();
-      });
-    }
-    return Object.assign({
-      mergedClsPrefix: mergedClsPrefixRef,
-      notificationList: notificationListRef,
-      notificationRefs,
-      handleAfterLeave
-    }, api);
-  },
-  render() {
-    var _a, _b, _c;
-    const {
-      placement
-    } = this;
-    return h(Fragment, null, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a), this.notificationList.length ? h(Teleport, {
-      to: (_c = this.to) !== null && _c !== void 0 ? _c : "body"
-    }, h(NotificationContainer, {
-      class: this.containerClass,
-      style: this.containerStyle,
-      scrollable: this.scrollable && placement !== "top" && placement !== "bottom",
-      placement
-    }, {
-      default: () => {
-        return this.notificationList.map((notification) => {
-          return h(NotificationEnvironment, Object.assign({
-            ref: (inst) => {
-              const refKey = notification.key;
-              if (inst === null) {
-                delete this.notificationRefs[refKey];
-              } else {
-                this.notificationRefs[refKey] = inst;
-              }
-            }
-          }, omit(notification, ["destroy", "hide", "deactivate"]), {
-            internalKey: notification.key,
-            onInternalAfterLeave: this.handleAfterLeave,
-            keepAliveOnHover: notification.keepAliveOnHover === void 0 ? this.keepAliveOnHover : notification.keepAliveOnHover
-          }));
-        });
-      }
-    })) : null);
-  }
-});
-function useNotification() {
-  const api = inject(notificationApiInjectionKey, null);
-  if (api === null) {
-    throwError("use-notification", "No outer `n-notification-provider` found.");
-  }
-  return api;
-}
 const scrollbarProps = Object.assign(Object.assign({}, useTheme.props), {
   trigger: String,
   xScrollable: Boolean,
@@ -19683,19 +19706,6 @@ const Scrollbar = defineComponent({
     }, this.$props), this.$slots);
   }
 });
-function isTouchEvent(e2) {
-  return window.TouchEvent && e2 instanceof window.TouchEvent;
-}
-function useRefs() {
-  const refs = /* @__PURE__ */ new Map();
-  const setRefs = (index) => (el) => {
-    refs.set(index, el);
-  };
-  onBeforeUpdate(() => {
-    refs.clear();
-  });
-  return [refs, setRefs];
-}
 const style = c$1([cB("slider", `
  display: block;
  padding: calc((var(--n-handle-size) - var(--n-rail-height)) / 2) 0;
@@ -19867,6 +19877,19 @@ const style = c$1([cB("slider", `
  `), cM("left", `
  margin-right: 12px;
  `), fadeInScaleUpTransition()]), insideModal(cB("slider", [cB("slider-dot", "background-color: var(--n-dot-color-modal);")])), insidePopover(cB("slider", [cB("slider-dot", "background-color: var(--n-dot-color-popover);")]))]);
+function isTouchEvent(e2) {
+  return window.TouchEvent && e2 instanceof window.TouchEvent;
+}
+function useRefs() {
+  const refs = /* @__PURE__ */ new Map();
+  const setRefs = (index) => (el) => {
+    refs.set(index, el);
+  };
+  onBeforeUpdate(() => {
+    refs.clear();
+  });
+  return [refs, setRefs];
+}
 const eventButtonLeft = 0;
 const sliderProps = Object.assign(Object.assign({}, useTheme.props), {
   to: useAdjustedTo.propTo,
@@ -21366,6 +21389,11 @@ function buildURL(url, params, options) {
     return url;
   }
   const _encode = options && options.encode || encode;
+  if (utils$1.isFunction(options)) {
+    options = {
+      serialize: options
+    };
+  }
   const serializeFn = options && options.serialize;
   let serializedParams;
   if (serializeFn) {
@@ -22042,45 +22070,13 @@ const progressEventDecorator = (total, throttled) => {
   }), throttled[1]];
 };
 const asyncDecorator = (fn) => (...args) => utils$1.asap(() => fn(...args));
-const isURLSameOrigin = platform.hasStandardBrowserEnv ? (
-  // Standard browser envs have full support of the APIs needed to test
-  // whether the request URL is of the same origin as current location.
-  function standardBrowserEnv() {
-    const msie = platform.navigator && /(msie|trident)/i.test(platform.navigator.userAgent);
-    const urlParsingNode = document.createElement("a");
-    let originURL;
-    function resolveURL(url) {
-      let href = url;
-      if (msie) {
-        urlParsingNode.setAttribute("href", href);
-        href = urlParsingNode.href;
-      }
-      urlParsingNode.setAttribute("href", href);
-      return {
-        href: urlParsingNode.href,
-        protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, "") : "",
-        host: urlParsingNode.host,
-        search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, "") : "",
-        hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, "") : "",
-        hostname: urlParsingNode.hostname,
-        port: urlParsingNode.port,
-        pathname: urlParsingNode.pathname.charAt(0) === "/" ? urlParsingNode.pathname : "/" + urlParsingNode.pathname
-      };
-    }
-    originURL = resolveURL(window.location.href);
-    return function isURLSameOrigin2(requestURL) {
-      const parsed = utils$1.isString(requestURL) ? resolveURL(requestURL) : requestURL;
-      return parsed.protocol === originURL.protocol && parsed.host === originURL.host;
-    };
-  }()
-) : (
-  // Non standard browser envs (web workers, react-native) lack needed support.
-  /* @__PURE__ */ function nonStandardBrowserEnv() {
-    return function isURLSameOrigin2() {
-      return true;
-    };
-  }()
-);
+const isURLSameOrigin = platform.hasStandardBrowserEnv ? /* @__PURE__ */ ((origin2, isMSIE) => (url) => {
+  url = new URL(url, platform.origin);
+  return origin2.protocol === url.protocol && origin2.host === url.host && (isMSIE || origin2.port === url.port);
+})(
+  new URL(platform.origin),
+  platform.navigator && /(msie|trident)/i.test(platform.navigator.userAgent)
+) : () => true;
 const cookies = platform.hasStandardBrowserEnv ? (
   // Standard browser envs support document.cookie
   {
@@ -22128,7 +22124,7 @@ const headersToObject = (thing) => thing instanceof AxiosHeaders ? __spreadValue
 function mergeConfig(config1, config2) {
   config2 = config2 || {};
   const config = {};
-  function getMergedValue(target, source, caseless) {
+  function getMergedValue(target, source, prop, caseless) {
     if (utils$1.isPlainObject(target) && utils$1.isPlainObject(source)) {
       return utils$1.merge.call({ caseless }, target, source);
     } else if (utils$1.isPlainObject(source)) {
@@ -22138,11 +22134,11 @@ function mergeConfig(config1, config2) {
     }
     return source;
   }
-  function mergeDeepProperties(a, b, caseless) {
+  function mergeDeepProperties(a, b, prop, caseless) {
     if (!utils$1.isUndefined(b)) {
-      return getMergedValue(a, b, caseless);
+      return getMergedValue(a, b, prop, caseless);
     } else if (!utils$1.isUndefined(a)) {
-      return getMergedValue(void 0, a, caseless);
+      return getMergedValue(void 0, a, prop, caseless);
     }
   }
   function valueFromConfig2(a, b) {
@@ -22193,7 +22189,7 @@ function mergeConfig(config1, config2) {
     socketPath: defaultToConfig2,
     responseEncoding: defaultToConfig2,
     validateStatus: mergeDirectKeys,
-    headers: (a, b) => mergeDeepProperties(headersToObject(a), headersToObject(b), true)
+    headers: (a, b, prop) => mergeDeepProperties(headersToObject(a), headersToObject(b), prop, true)
   };
   utils$1.forEach(Object.keys(Object.assign({}, config1, config2)), function computeConfigValue(prop) {
     const merge2 = mergeMap[prop] || mergeDeepProperties;
@@ -22742,7 +22738,7 @@ function dispatchRequest(config) {
     return Promise.reject(reason);
   });
 }
-const VERSION = "1.7.7";
+const VERSION = "1.7.9";
 const validators$1 = {};
 ["object", "boolean", "number", "function", "string", "symbol"].forEach((type, i2) => {
   validators$1[type] = function validator2(thing) {
@@ -22771,6 +22767,12 @@ validators$1.transitional = function transitional(validator2, version, message) 
       );
     }
     return validator2 ? validator2(value, opt, opts) : true;
+  };
+};
+validators$1.spelling = function spelling(correctSpelling) {
+  return (value, opt) => {
+    console.warn(`${opt} is likely a misspelling of ${correctSpelling}`);
+    return true;
   };
 };
 function assertOptions(options, schema, allowUnknown) {
@@ -22822,8 +22824,8 @@ class Axios {
         return yield this._request(configOrUrl, config);
       } catch (err) {
         if (err instanceof Error) {
-          let dummy;
-          Error.captureStackTrace ? Error.captureStackTrace(dummy = {}) : dummy = new Error();
+          let dummy = {};
+          Error.captureStackTrace ? Error.captureStackTrace(dummy) : dummy = new Error();
           const stack2 = dummy.stack ? dummy.stack.replace(/^.+\n/, "") : "";
           try {
             if (!err.stack) {
@@ -22866,6 +22868,10 @@ class Axios {
         }, true);
       }
     }
+    validator.assertOptions(config, {
+      baseUrl: validators.spelling("baseURL"),
+      withXsrfToken: validators.spelling("withXSRFToken")
+    }, true);
     config.method = (config.method || this.defaults.method || "get").toLowerCase();
     let contextHeaders = headers && utils$1.merge(
       headers.common,
@@ -34920,7 +34926,7 @@ export {
   cssrAnchorMetaName as c,
   useCompitable as d,
   useMergedState as e,
-  flatten$2 as f,
+  flatten$1 as f,
   getPersonalizedPlaylist as g,
   onFontsReady as h,
   isSymbol as i,
