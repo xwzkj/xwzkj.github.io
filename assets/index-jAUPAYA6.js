@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-bZBXbY4V.js","./itemCardList-C3KVV3uf.js","./font-CXcYbOso.js","./font-DLIIhme-.css","./Ellipsis-q4V6xPHB.js","./itemCardList-CpfjRlUH.css","./home-Cd2oFn4Z.css","./search-CVpUDHX6.js","./musicList-Bn6TwAB2.js","./musicList-nLQAz02W.css","./search-Bewt89r4.css","./login-CwajMqGp.js","./login-Cg-VrOPR.css","./account-0hqmP2Ii.js","./account-BE7gbH9_.css","./playlist-D_AzzDbN.js","./playlist-B2M2U1U0.css","./setting-N6AA43Nm.js","./setting-C7VLV5ui.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-1AuxvPnt.js","./itemCardList-BEWbGC6O.js","./font-DFOg-pbW.js","./font-DLIIhme-.css","./Ellipsis-BM6hXD1Z.js","./itemCardList-CpfjRlUH.css","./home-Cd2oFn4Z.css","./search-_KqHfHo7.js","./musicList-DIYrc4TU.js","./musicList-nLQAz02W.css","./search-Bewt89r4.css","./login-Bm5cbhib.js","./login-Cg-VrOPR.css","./account-DC9bG9b7.js","./account-BE7gbH9_.css","./playlist-DslfhhOW.js","./playlist-B2M2U1U0.css","./setting-DLkaAJlB.js","./setting-C7VLV5ui.css"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -98,7 +98,7 @@ var __yieldStar = (value) => {
   }, "return" in obj && method("return"), it;
 };
 var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
-import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as warn$2, N as isVNode, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as watchEffect, ad as cssrAnchorMetaName$1, ae as globalStyle, af as cB, ag as c$1, ah as Transition, ai as commonVariables$7, aj as cE, ak as cM, al as cNotM, am as TransitionGroup, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onBeforeUpdate, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aO as _export_sfc, aP as withCtx, aQ as createBlock, aR as createCommentVNode, aS as useCssVars, aT as renderList, aU as toDisplayString, aV as MarqueePlus, aW as normalizeClass, aX as lyricLine, aY as withModifiers, aZ as resolveComponent, a_ as KeepAlive, a$ as resolveDynamicComponent, b0 as createApp } from "./font-CXcYbOso.js";
+import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, m as markRaw, e as effectScope, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as warn$2, N as isVNode, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as watchEffect, ad as cssrAnchorMetaName$1, ae as globalStyle, af as cB, ag as c$1, ah as Transition, ai as commonVariables$7, aj as cE, ak as cM, al as cNotM, am as TransitionGroup, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onUnmounted, aK as normalizeClass, aL as onBeforeUpdate, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as renderList, aW as toDisplayString, aX as MarqueePlus, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-DFOg-pbW.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -923,7 +923,7 @@ function createRouteRecordMatcher(record, parent, options) {
   return matcher;
 }
 function createRouterMatcher(routes, globalOptions) {
-  const matchers2 = [];
+  const matchers = [];
   const matcherMap = /* @__PURE__ */ new Map();
   globalOptions = mergeOptions({ strict: false, end: true, sensitive: false }, globalOptions);
   function getRecordMatcher(name) {
@@ -994,14 +994,14 @@ function createRouterMatcher(routes, globalOptions) {
       const matcher = matcherMap.get(matcherRef);
       if (matcher) {
         matcherMap.delete(matcherRef);
-        matchers2.splice(matchers2.indexOf(matcher), 1);
+        matchers.splice(matchers.indexOf(matcher), 1);
         matcher.children.forEach(removeRoute);
         matcher.alias.forEach(removeRoute);
       }
     } else {
-      const index = matchers2.indexOf(matcherRef);
+      const index = matchers.indexOf(matcherRef);
       if (index > -1) {
-        matchers2.splice(index, 1);
+        matchers.splice(index, 1);
         if (matcherRef.record.name)
           matcherMap.delete(matcherRef.record.name);
         matcherRef.children.forEach(removeRoute);
@@ -1010,11 +1010,11 @@ function createRouterMatcher(routes, globalOptions) {
     }
   }
   function getRoutes() {
-    return matchers2;
+    return matchers;
   }
   function insertMatcher(matcher) {
-    const index = findInsertionIndex(matcher, matchers2);
-    matchers2.splice(index, 0, matcher);
+    const index = findInsertionIndex(matcher, matchers);
+    matchers.splice(index, 0, matcher);
     if (matcher.record.name && !isAliasRecord(matcher))
       matcherMap.set(matcher.record.name, matcher);
   }
@@ -1045,13 +1045,13 @@ function createRouterMatcher(routes, globalOptions) {
       path = matcher.stringify(params);
     } else if (location2.path != null) {
       path = location2.path;
-      matcher = matchers2.find((m) => m.re.test(path));
+      matcher = matchers.find((m) => m.re.test(path));
       if (matcher) {
         params = matcher.parse(path);
         name = matcher.record.name;
       }
     } else {
-      matcher = currentLocation.name ? matcherMap.get(currentLocation.name) : matchers2.find((m) => m.re.test(currentLocation.path));
+      matcher = currentLocation.name ? matcherMap.get(currentLocation.name) : matchers.find((m) => m.re.test(currentLocation.path));
       if (!matcher)
         throw createRouterError(1, {
           location: location2,
@@ -1077,7 +1077,7 @@ function createRouterMatcher(routes, globalOptions) {
   }
   routes.forEach((route) => addRoute(route));
   function clearRoutes() {
-    matchers2.length = 0;
+    matchers.length = 0;
     matcherMap.clear();
   }
   return {
@@ -1149,12 +1149,12 @@ function mergeOptions(defaults2, partialOptions) {
   }
   return options;
 }
-function findInsertionIndex(matcher, matchers2) {
+function findInsertionIndex(matcher, matchers) {
   let lower = 0;
-  let upper = matchers2.length;
+  let upper = matchers.length;
   while (lower !== upper) {
     const mid = lower + upper >> 1;
-    const sortOrder = comparePathParserScore(matcher, matchers2[mid]);
+    const sortOrder = comparePathParserScore(matcher, matchers[mid]);
     if (sortOrder < 0) {
       upper = mid;
     } else {
@@ -1163,7 +1163,7 @@ function findInsertionIndex(matcher, matchers2) {
   }
   const insertionAncestor = getInsertionAncestor(matcher);
   if (insertionAncestor) {
-    upper = matchers2.lastIndexOf(insertionAncestor, upper - 1);
+    upper = matchers.lastIndexOf(insertionAncestor, upper - 1);
   }
   return upper;
 }
@@ -2047,7 +2047,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-bZBXbY4V.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-1AuxvPnt.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2058,7 +2058,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-CVpUDHX6.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-_KqHfHo7.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2069,7 +2069,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-CwajMqGp.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-Bm5cbhib.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2077,7 +2077,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-0hqmP2Ii.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-DC9bG9b7.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2088,7 +2088,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-D_AzzDbN.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-DslfhhOW.js"), true ? __vite__mapDeps([15,8,2,3,9,4,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2099,7 +2099,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-N6AA43Nm.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-DLkaAJlB.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2109,7 +2109,6 @@ const router = createRouter({
     }
   ]
 });
-var isVue2 = false;
 /*!
  * pinia v2.3.0
  * (c) 2024 Eduardo San Martin Morote
@@ -2147,7 +2146,7 @@ function createPinia() {
       }
     },
     use(plugin) {
-      if (!this._a && !isVue2) {
+      if (!this._a && true) {
         toBeInstalled.push(plugin);
       } else {
         _p.push(plugin);
@@ -5355,7 +5354,7 @@ function rtlInset(inset) {
     top,
     bottom
   } = getMargin(inset);
-  return `${top} ${right} ${bottom} ${left}`;
+  return `${top} ${left} ${bottom} ${right}`;
 }
 let _isJsdom;
 function isJsdom() {
@@ -5423,6 +5422,18 @@ function getFirstSlotVNode(slots, slotName = "default", props = void 0) {
     return null;
   }
 }
+function getFirstSlotVNodeWithTypedProps(slotName, slot, props) {
+  if (!slot) {
+    return null;
+  }
+  const slotContent = flatten$1(slot(props));
+  if (slotContent.length === 1) {
+    return slotContent[0];
+  } else {
+    warn$2("getFirstSlotVNode", `slot[${slotName}] should have exactly one child`);
+    return null;
+  }
+}
 function keep(object, keys2 = [], rest) {
   const keepedObject = {};
   keys2.forEach((key) => {
@@ -5471,7 +5482,7 @@ function ensureValidVNode(vnodes) {
 function resolveSlot(slot, fallback) {
   return slot && ensureValidVNode(slot()) || fallback();
 }
-function resolveSlotWithProps(slot, props, fallback) {
+function resolveSlotWithTypedProps(slot, props, fallback) {
   return slot && ensureValidVNode(slot(props)) || fallback(props);
 }
 function resolveWrappedSlot(slot, wrapper) {
@@ -6188,7 +6199,6 @@ function arrayMap(array, iteratee) {
   }
   return result;
 }
-var INFINITY$1 = 1 / 0;
 var symbolProto$1 = Symbol$1 ? Symbol$1.prototype : void 0, symbolToString = symbolProto$1 ? symbolProto$1.toString : void 0;
 function baseToString(value) {
   if (typeof value == "string") {
@@ -6201,7 +6211,7 @@ function baseToString(value) {
     return symbolToString ? symbolToString.call(value) : "";
   }
   var result = value + "";
-  return result == "0" && 1 / value == -INFINITY$1 ? "-0" : result;
+  return result == "0" && 1 / value == -Infinity ? "-0" : result;
 }
 var WeakMap$1 = getNative(root, "WeakMap");
 var nativeKeys = overArg(Object.keys, Object);
@@ -6283,13 +6293,12 @@ function castPath(value, object) {
   }
   return isKey(value, object) ? [value] : stringToPath(toString$1(value));
 }
-var INFINITY = 1 / 0;
 function toKey(value) {
   if (typeof value == "string" || isSymbol(value)) {
     return value;
   }
   var result = value + "";
-  return result == "0" && 1 / value == -INFINITY ? "-0" : result;
+  return result == "0" && 1 / value == -Infinity ? "-0" : result;
 }
 function baseGet(object, path) {
   path = castPath(path, object);
@@ -6955,6 +6964,11 @@ const NIconSwitchTransition = defineComponent({
   }
 });
 function replaceable(name, icon) {
+  const IconComponent = defineComponent({
+    render() {
+      return icon();
+    }
+  });
   return defineComponent({
     name: upperFirst(name),
     setup() {
@@ -6963,7 +6977,7 @@ function replaceable(name, icon) {
       return () => {
         var _a2;
         const iconOverride = (_a2 = mergedIconsRef === null || mergedIconsRef === void 0 ? void 0 : mergedIconsRef.value) === null || _a2 === void 0 ? void 0 : _a2[name];
-        return iconOverride ? iconOverride() : icon;
+        return iconOverride ? iconOverride() : h(IconComponent, null);
       };
     }
   });
@@ -7007,7 +7021,7 @@ const ChevronRightIcon = defineComponent({
     }));
   }
 });
-const ClearIcon = replaceable("clear", h("svg", {
+const ClearIcon = replaceable("clear", () => h("svg", {
   viewBox: "0 0 16 16",
   version: "1.1",
   xmlns: "http://www.w3.org/2000/svg"
@@ -7022,7 +7036,7 @@ const ClearIcon = replaceable("clear", h("svg", {
 }, h("path", {
   d: "M8,2 C11.3137085,2 14,4.6862915 14,8 C14,11.3137085 11.3137085,14 8,14 C4.6862915,14 2,11.3137085 2,8 C2,4.6862915 4.6862915,2 8,2 Z M6.5343055,5.83859116 C6.33943736,5.70359511 6.07001296,5.72288026 5.89644661,5.89644661 L5.89644661,5.89644661 L5.83859116,5.9656945 C5.70359511,6.16056264 5.72288026,6.42998704 5.89644661,6.60355339 L5.89644661,6.60355339 L7.293,8 L5.89644661,9.39644661 L5.83859116,9.4656945 C5.70359511,9.66056264 5.72288026,9.92998704 5.89644661,10.1035534 L5.89644661,10.1035534 L5.9656945,10.1614088 C6.16056264,10.2964049 6.42998704,10.2771197 6.60355339,10.1035534 L6.60355339,10.1035534 L8,8.707 L9.39644661,10.1035534 L9.4656945,10.1614088 C9.66056264,10.2964049 9.92998704,10.2771197 10.1035534,10.1035534 L10.1035534,10.1035534 L10.1614088,10.0343055 C10.2964049,9.83943736 10.2771197,9.57001296 10.1035534,9.39644661 L10.1035534,9.39644661 L8.707,8 L10.1035534,6.60355339 L10.1614088,6.5343055 C10.2964049,6.33943736 10.2771197,6.07001296 10.1035534,5.89644661 L10.1035534,5.89644661 L10.0343055,5.83859116 C9.83943736,5.70359511 9.57001296,5.72288026 9.39644661,5.89644661 L9.39644661,5.89644661 L8,7.293 L6.60355339,5.89644661 Z"
 })))));
-const ErrorIcon$1 = replaceable("close", h("svg", {
+const ErrorIcon$1 = replaceable("close", () => h("svg", {
   viewBox: "0 0 12 12",
   version: "1.1",
   xmlns: "http://www.w3.org/2000/svg",
@@ -7038,7 +7052,7 @@ const ErrorIcon$1 = replaceable("close", h("svg", {
 }, h("path", {
   d: "M2.08859116,2.2156945 L2.14644661,2.14644661 C2.32001296,1.97288026 2.58943736,1.95359511 2.7843055,2.08859116 L2.85355339,2.14644661 L6,5.293 L9.14644661,2.14644661 C9.34170876,1.95118446 9.65829124,1.95118446 9.85355339,2.14644661 C10.0488155,2.34170876 10.0488155,2.65829124 9.85355339,2.85355339 L6.707,6 L9.85355339,9.14644661 C10.0271197,9.32001296 10.0464049,9.58943736 9.91140884,9.7843055 L9.85355339,9.85355339 C9.67998704,10.0271197 9.41056264,10.0464049 9.2156945,9.91140884 L9.14644661,9.85355339 L6,6.707 L2.85355339,9.85355339 C2.65829124,10.0488155 2.34170876,10.0488155 2.14644661,9.85355339 C1.95118446,9.65829124 1.95118446,9.34170876 2.14644661,9.14644661 L5.293,6 L2.14644661,2.85355339 C1.97288026,2.67998704 1.95359511,2.41056264 2.08859116,2.2156945 L2.14644661,2.14644661 L2.08859116,2.2156945 Z"
 })))));
-const ErrorIcon = replaceable("error", h("svg", {
+const ErrorIcon = replaceable("error", () => h("svg", {
   viewBox: "0 0 48 48",
   version: "1.1",
   xmlns: "http://www.w3.org/2000/svg"
@@ -7099,7 +7113,7 @@ const EyeOffIcon = defineComponent({
     }));
   }
 });
-const InfoIcon = replaceable("info", h("svg", {
+const InfoIcon = replaceable("info", () => h("svg", {
   viewBox: "0 0 28 28",
   version: "1.1",
   xmlns: "http://www.w3.org/2000/svg"
@@ -7112,7 +7126,7 @@ const InfoIcon = replaceable("info", h("svg", {
 }, h("path", {
   d: "M14,2 C20.6274,2 26,7.37258 26,14 C26,20.6274 20.6274,26 14,26 C7.37258,26 2,20.6274 2,14 C2,7.37258 7.37258,2 14,2 Z M14,11 C13.4477,11 13,11.4477 13,12 L13,12 L13,20 C13,20.5523 13.4477,21 14,21 C14.5523,21 15,20.5523 15,20 L15,20 L15,12 C15,11.4477 14.5523,11 14,11 Z M14,6.75 C13.3096,6.75 12.75,7.30964 12.75,8 C12.75,8.69036 13.3096,9.25 14,9.25 C14.6904,9.25 15.25,8.69036 15.25,8 C15.25,7.30964 14.6904,6.75 14,6.75 Z"
 })))));
-const SuccessIcon = replaceable("success", h("svg", {
+const SuccessIcon = replaceable("success", () => h("svg", {
   viewBox: "0 0 48 48",
   version: "1.1",
   xmlns: "http://www.w3.org/2000/svg"
@@ -7125,7 +7139,7 @@ const SuccessIcon = replaceable("success", h("svg", {
 }, h("path", {
   d: "M24,4 C35.045695,4 44,12.954305 44,24 C44,35.045695 35.045695,44 24,44 C12.954305,44 4,35.045695 4,24 C4,12.954305 12.954305,4 24,4 Z M32.6338835,17.6161165 C32.1782718,17.1605048 31.4584514,17.1301307 30.9676119,17.5249942 L30.8661165,17.6161165 L20.75,27.732233 L17.1338835,24.1161165 C16.6457281,23.6279612 15.8542719,23.6279612 15.3661165,24.1161165 C14.9105048,24.5717282 14.8801307,25.2915486 15.2749942,25.7823881 L15.3661165,25.8838835 L19.8661165,30.3838835 C20.3217282,30.8394952 21.0415486,30.8698693 21.5323881,30.4750058 L21.6338835,30.3838835 L32.6338835,19.3838835 C33.1220388,18.8957281 33.1220388,18.1042719 32.6338835,17.6161165 Z"
 })))));
-const WarningIcon = replaceable("warning", h("svg", {
+const WarningIcon = replaceable("warning", () => h("svg", {
   viewBox: "0 0 24 24",
   version: "1.1",
   xmlns: "http://www.w3.org/2000/svg"
@@ -7314,7 +7328,7 @@ const NBaseClose = defineComponent({
         clsPrefix,
         disabled,
         absolute,
-        round,
+        round: round2,
         isButtonTag
       } = props;
       const Tag = isButtonTag ? "button" : "div";
@@ -7325,7 +7339,7 @@ const NBaseClose = defineComponent({
         "aria-label": "close",
         role: isButtonTag ? void 0 : "button",
         disabled,
-        class: [`${clsPrefix}-base-close`, absolute && `${clsPrefix}-base-close--absolute`, disabled && `${clsPrefix}-base-close--disabled`, round && `${clsPrefix}-base-close--round`],
+        class: [`${clsPrefix}-base-close`, absolute && `${clsPrefix}-base-close--absolute`, disabled && `${clsPrefix}-base-close--disabled`, round2 && `${clsPrefix}-base-close--round`],
         onMousedown: (e2) => {
           if (!props.focusable) {
             e2.preventDefault();
@@ -7664,9 +7678,15 @@ const style$e = cB("scrollbar", `
  border-radius: var(--n-scrollbar-border-radius);
  right: 0;
  `)])]), cM("horizontal--top", `
- inset: var(--n-scrollbar-rail-inset-horizontal-top); 
+ top: var(--n-scrollbar-rail-top-horizontal-top); 
+ right: var(--n-scrollbar-rail-right-horizontal-top); 
+ bottom: var(--n-scrollbar-rail-bottom-horizontal-top); 
+ left: var(--n-scrollbar-rail-left-horizontal-top); 
  `), cM("horizontal--bottom", `
- inset: var(--n-scrollbar-rail-inset-horizontal-bottom); 
+ top: var(--n-scrollbar-rail-top-horizontal-bottom); 
+ right: var(--n-scrollbar-rail-right-horizontal-bottom); 
+ bottom: var(--n-scrollbar-rail-bottom-horizontal-bottom); 
+ left: var(--n-scrollbar-rail-left-horizontal-bottom); 
  `), cM("vertical", `
  width: var(--n-scrollbar-width);
  `, [c$1(">", [cE("scrollbar", `
@@ -7674,9 +7694,15 @@ const style$e = cB("scrollbar", `
  border-radius: var(--n-scrollbar-border-radius);
  bottom: 0;
  `)])]), cM("vertical--left", `
- inset: var(--n-scrollbar-rail-inset-vertical-left); 
+ top: var(--n-scrollbar-rail-top-vertical-left); 
+ right: var(--n-scrollbar-rail-right-vertical-left); 
+ bottom: var(--n-scrollbar-rail-bottom-vertical-left); 
+ left: var(--n-scrollbar-rail-left-vertical-left); 
  `), cM("vertical--right", `
- inset: var(--n-scrollbar-rail-inset-vertical-right); 
+ top: var(--n-scrollbar-rail-top-vertical-right); 
+ right: var(--n-scrollbar-rail-right-vertical-right); 
+ bottom: var(--n-scrollbar-rail-bottom-vertical-right); 
+ left: var(--n-scrollbar-rail-left-vertical-right); 
  `), cM("disabled", [c$1(">", [cE("scrollbar", "pointer-events: none;")])]), c$1(">", [cE("scrollbar", `
  z-index: 1;
  position: absolute;
@@ -8270,6 +8296,30 @@ const Scrollbar$1 = defineComponent({
           railColor
         }
       } = themeRef.value;
+      const {
+        top: railTopHorizontalTop,
+        right: railRightHorizontalTop,
+        bottom: railBottomHorizontalTop,
+        left: railLeftHorizontalTop
+      } = getMargin(railInsetHorizontalTop);
+      const {
+        top: railTopHorizontalBottom,
+        right: railRightHorizontalBottom,
+        bottom: railBottomHorizontalBottom,
+        left: railLeftHorizontalBottom
+      } = getMargin(railInsetHorizontalBottom);
+      const {
+        top: railTopVerticalRight,
+        right: railRightVerticalRight,
+        bottom: railBottomVerticalRight,
+        left: railLeftVerticalRight
+      } = getMargin((rtlEnabledRef === null || rtlEnabledRef === void 0 ? void 0 : rtlEnabledRef.value) ? rtlInset(railInsetVerticalRight) : railInsetVerticalRight);
+      const {
+        top: railTopVerticalLeft,
+        right: railRightVerticalLeft,
+        bottom: railBottomVerticalLeft,
+        left: railLeftVerticalLeft
+      } = getMargin((rtlEnabledRef === null || rtlEnabledRef === void 0 ? void 0 : rtlEnabledRef.value) ? rtlInset(railInsetVerticalLeft) : railInsetVerticalLeft);
       return {
         "--n-scrollbar-bezier": cubicBezierEaseInOut2,
         "--n-scrollbar-color": color,
@@ -8277,10 +8327,22 @@ const Scrollbar$1 = defineComponent({
         "--n-scrollbar-border-radius": borderRadius,
         "--n-scrollbar-width": width,
         "--n-scrollbar-height": height,
-        "--n-scrollbar-rail-inset-horizontal-top": railInsetHorizontalTop,
-        "--n-scrollbar-rail-inset-horizontal-bottom": railInsetHorizontalBottom,
-        "--n-scrollbar-rail-inset-vertical-right": (rtlEnabledRef === null || rtlEnabledRef === void 0 ? void 0 : rtlEnabledRef.value) ? rtlInset(railInsetVerticalRight) : railInsetVerticalRight,
-        "--n-scrollbar-rail-inset-vertical-left": (rtlEnabledRef === null || rtlEnabledRef === void 0 ? void 0 : rtlEnabledRef.value) ? rtlInset(railInsetVerticalLeft) : railInsetVerticalLeft,
+        "--n-scrollbar-rail-top-horizontal-top": railTopHorizontalTop,
+        "--n-scrollbar-rail-right-horizontal-top": railRightHorizontalTop,
+        "--n-scrollbar-rail-bottom-horizontal-top": railBottomHorizontalTop,
+        "--n-scrollbar-rail-left-horizontal-top": railLeftHorizontalTop,
+        "--n-scrollbar-rail-top-horizontal-bottom": railTopHorizontalBottom,
+        "--n-scrollbar-rail-right-horizontal-bottom": railRightHorizontalBottom,
+        "--n-scrollbar-rail-bottom-horizontal-bottom": railBottomHorizontalBottom,
+        "--n-scrollbar-rail-left-horizontal-bottom": railLeftHorizontalBottom,
+        "--n-scrollbar-rail-top-vertical-right": railTopVerticalRight,
+        "--n-scrollbar-rail-right-vertical-right": railRightVerticalRight,
+        "--n-scrollbar-rail-bottom-vertical-right": railBottomVerticalRight,
+        "--n-scrollbar-rail-left-vertical-right": railLeftVerticalRight,
+        "--n-scrollbar-rail-top-vertical-left": railTopVerticalLeft,
+        "--n-scrollbar-rail-right-vertical-left": railRightVerticalLeft,
+        "--n-scrollbar-rail-bottom-vertical-left": railBottomVerticalLeft,
+        "--n-scrollbar-rail-left-vertical-left": railLeftVerticalLeft,
         "--n-scrollbar-rail-color": railColor
       };
     });
@@ -9729,6 +9791,7 @@ const NPopover = defineComponent({
   name: "Popover",
   inheritAttrs: false,
   props: popoverProps,
+  slots: Object,
   __popover__: true,
   setup(props) {
     const isMountedRef = isMounted();
@@ -9946,11 +10009,7 @@ const NPopover = defineComponent({
     let triggerVNode;
     let popoverInside = false;
     if (!positionManually) {
-      if (slots.activator) {
-        triggerVNode = getFirstSlotVNode(slots, "activator");
-      } else {
-        triggerVNode = getFirstSlotVNode(slots, "trigger");
-      }
+      triggerVNode = getFirstSlotVNode(slots, "trigger");
       if (triggerVNode) {
         triggerVNode = cloneVNode(triggerVNode);
         triggerVNode = triggerVNode.type === Text ? h("span", [triggerVNode]) : triggerVNode;
@@ -10022,7 +10081,10 @@ const NPopover = defineComponent({
         return [this.internalTrapFocus && mergedShow ? withDirectives(h("div", {
           style: {
             position: "fixed",
-            inset: 0
+            top: 0,
+            right: 0,
+            bottom: 0,
+            left: 0
           }
         }), [[zindexable, {
           enabled: mergedShow,
@@ -10348,6 +10410,7 @@ const tagInjectionKey = createInjectionKey("n-tag");
 const __unplugin_components_0$4 = defineComponent({
   name: "Tag",
   props: tagProps,
+  slots: Object,
   setup(props) {
     const contentRef = ref(null);
     const {
@@ -10522,7 +10585,7 @@ const __unplugin_components_0$4 = defineComponent({
       color: {
         borderColor
       } = {},
-      round,
+      round: round2,
       onRender,
       $slots
     } = this;
@@ -10540,7 +10603,7 @@ const __unplugin_components_0$4 = defineComponent({
         [`${mergedClsPrefix}-tag--disabled`]: this.disabled,
         [`${mergedClsPrefix}-tag--checkable`]: this.checkable,
         [`${mergedClsPrefix}-tag--checked`]: this.checkable && this.checked,
-        [`${mergedClsPrefix}-tag--round`]: round,
+        [`${mergedClsPrefix}-tag--round`]: round2,
         [`${mergedClsPrefix}-tag--avatar`]: avatarNode,
         [`${mergedClsPrefix}-tag--icon`]: iconNode,
         [`${mergedClsPrefix}-tag--closable`]: closable
@@ -10558,7 +10621,7 @@ const __unplugin_components_0$4 = defineComponent({
       disabled: this.disabled,
       onClick: this.handleCloseClick,
       focusable: this.internalCloseFocusable,
-      round,
+      round: round2,
       isButtonTag: this.internalCloseIsButtonTag,
       absolute: true
     }) : null, !this.checkable && this.mergedBordered ? h("div", {
@@ -11243,7 +11306,7 @@ const WordCount = defineComponent({
       } = mergedValueRef;
       return h("span", {
         class: `${mergedClsPrefixRef.value}-input-word-count`
-      }, resolveSlotWithProps(slots.default, {
+      }, resolveSlotWithTypedProps(slots.default, {
         value: mergedValue === null || Array.isArray(mergedValue) ? "" : mergedValue
       }, () => [maxlength === void 0 ? wordCountRef.value : `${wordCountRef.value} / ${maxlength}`]));
     };
@@ -11343,6 +11406,7 @@ const inputProps = Object.assign(Object.assign({}, useTheme.props), {
 const __unplugin_components_0$3 = defineComponent({
   name: "Input",
   props: inputProps,
+  slots: Object,
   setup(props) {
     const {
       mergedClsPrefixRef,
@@ -12361,6 +12425,12 @@ const __unplugin_components_0$3 = defineComponent({
       }) : null, this.internalLoadingBeforeSuffix ? children : null, this.showCount && this.type !== "textarea" ? h(WordCount, null, {
         default: (props) => {
           var _a2;
+          const {
+            renderCount
+          } = this;
+          if (renderCount) {
+            return renderCount(props);
+          }
           return (_a2 = $slots.count) === null || _a2 === void 0 ? void 0 : _a2.call($slots, props);
         }
       }) : null, this.mergedShowPasswordOn && this.type === "password" ? h("div", {
@@ -12613,6 +12683,7 @@ const avatarProps = Object.assign(Object.assign({}, useTheme.props), {
 const __unplugin_components_4$4 = defineComponent({
   name: "Avatar",
   props: avatarProps,
+  slots: Object,
   setup(props) {
     const {
       mergedClsPrefixRef,
@@ -12665,10 +12736,10 @@ const __unplugin_components_4$4 = defineComponent({
     const mergedRoundRef = computed(() => {
       if (NAvatarGroup) return true;
       const {
-        round,
+        round: round2,
         circle
       } = props;
-      if (round !== void 0 || circle !== void 0) return round || circle;
+      if (round2 !== void 0 || circle !== void 0) return round2 || circle;
       if (TagInjection) {
         return TagInjection.roundRef.value;
       }
@@ -12680,7 +12751,7 @@ const __unplugin_components_4$4 = defineComponent({
     });
     const cssVarsRef = computed(() => {
       const size2 = mergedSizeRef.value;
-      const round = mergedRoundRef.value;
+      const round2 = mergedRoundRef.value;
       const bordered = mergedBorderedRef.value;
       const {
         color: propColor
@@ -12707,7 +12778,7 @@ const __unplugin_components_4$4 = defineComponent({
       return {
         "--n-font-size": fontSize,
         "--n-border": bordered ? border : "none",
-        "--n-border-radius": round ? "50%" : borderRadius,
+        "--n-border-radius": round2 ? "50%" : borderRadius,
         "--n-color": propColor || color,
         "--n-color-modal": propColor || colorModal,
         "--n-color-popover": propColor || colorPopover,
@@ -12717,7 +12788,7 @@ const __unplugin_components_4$4 = defineComponent({
     });
     const themeClassHandle = inlineThemeDisabled ? useThemeClass("avatar", computed(() => {
       const size2 = mergedSizeRef.value;
-      const round = mergedRoundRef.value;
+      const round2 = mergedRoundRef.value;
       const bordered = mergedBorderedRef.value;
       const {
         color
@@ -12730,7 +12801,7 @@ const __unplugin_components_4$4 = defineComponent({
           hash += size2[0];
         }
       }
-      if (round) {
+      if (round2) {
         hash += "b";
       }
       if (bordered) {
@@ -13336,6 +13407,7 @@ const buttonProps = Object.assign(Object.assign({}, useTheme.props), {
 const Button = defineComponent({
   name: "Button",
   props: buttonProps,
+  slots: Object,
   setup(props) {
     const selfElRef = ref(null);
     const waveElRef = ref(null);
@@ -13450,7 +13522,7 @@ const Button = defineComponent({
         ghost,
         text,
         color,
-        round,
+        round: round2,
         circle,
         textColor,
         secondary,
@@ -13608,10 +13680,10 @@ const Button = defineComponent({
         "--n-width": circle && !text ? height : "initial",
         "--n-height": text ? "initial" : height,
         "--n-font-size": fontSize,
-        "--n-padding": circle ? "initial" : text ? "initial" : round ? paddingRound : padding,
+        "--n-padding": circle ? "initial" : text ? "initial" : round2 ? paddingRound : padding,
         "--n-icon-size": iconSize,
         "--n-icon-margin": iconMargin,
-        "--n-border-radius": text ? "initial" : circle || round ? height : borderRadius
+        "--n-border-radius": text ? "initial" : circle || round2 ? height : borderRadius
       };
       return Object.assign(Object.assign(Object.assign(Object.assign({
         "--n-bezier": cubicBezierEaseInOut2,
@@ -13629,7 +13701,7 @@ const Button = defineComponent({
         ghost,
         text,
         color,
-        round,
+        round: round2,
         circle,
         textColor,
         secondary,
@@ -13640,7 +13712,7 @@ const Button = defineComponent({
       if (dashed) hash += "a";
       if (ghost) hash += "b";
       if (text) hash += "c";
-      if (round) hash += "d";
+      if (round2) hash += "d";
       if (circle) hash += "e";
       if (secondary) hash += "f";
       if (tertiary) hash += "g";
@@ -13972,6 +14044,7 @@ const cardProps = Object.assign(Object.assign({}, useTheme.props), cardBaseProps
 const __unplugin_components_5$4 = defineComponent({
   name: "Card",
   props: cardProps,
+  slots: Object,
   setup(props) {
     const handleCloseClick = () => {
       const {
@@ -14475,6 +14548,7 @@ const tooltipProps = Object.assign(Object.assign({}, popoverBaseProps), useTheme
 const NTooltip = defineComponent({
   name: "Tooltip",
   props: tooltipProps,
+  slots: Object,
   __popover__: true,
   setup(props) {
     const {
@@ -15750,6 +15824,7 @@ const NDialog = defineComponent({
     // deprecated
   ],
   props: Object.assign(Object.assign({}, useTheme.props), dialogProps),
+  slots: Object,
   setup(props) {
     const {
       mergedComponentPropsRef,
@@ -15963,11 +16038,125 @@ const modalLight = createTheme({
   },
   self: self$5
 });
+const modalProviderInjectionKey = createInjectionKey("n-modal-provider");
+const modalApiInjectionKey = createInjectionKey("n-modal-api");
+const modalReactiveListInjectionKey = createInjectionKey("n-modal-reactive-list");
+function useModal() {
+  const modal = inject(modalApiInjectionKey, null);
+  if (modal === null) {
+    throwError("use-modal", "No outer <n-modal-provider /> founded.");
+  }
+  return modal;
+}
+const DRAGGABLE_CLASS = "n-draggable";
+function useDragModal(draggablePropsRef, options) {
+  let cleanup;
+  const draggableRef = computed(() => {
+    return draggablePropsRef.value !== false;
+  });
+  const draggableClassRef = computed(() => {
+    return draggableRef.value ? DRAGGABLE_CLASS : "";
+  });
+  const boundsToWindowRef = computed(() => {
+    const draggableProps = draggablePropsRef.value;
+    if (draggableProps === true || draggableProps === false) {
+      return true;
+    } else if (draggableProps) {
+      return draggableProps.bounds !== "none";
+    } else {
+      return true;
+    }
+  });
+  function startDrag(modal) {
+    const header = modal.querySelector(`.${DRAGGABLE_CLASS}`);
+    if (!header || !draggableClassRef.value) {
+      return;
+    }
+    let maxMoveX = 0;
+    let minMoveX = 0;
+    let maxMoveY = 0;
+    let minMoveY = 0;
+    let prevMoveY = 0;
+    let prevMoveX = 0;
+    let mousedownEvent;
+    function handleMouseDown(event) {
+      event.preventDefault();
+      mousedownEvent = event;
+      const {
+        x,
+        y,
+        right,
+        bottom
+      } = modal.getBoundingClientRect();
+      minMoveX = x;
+      minMoveY = y;
+      maxMoveX = window.innerWidth - right;
+      maxMoveY = window.innerHeight - bottom;
+      const {
+        left,
+        top
+      } = modal.style;
+      prevMoveY = +top.slice(0, -2);
+      prevMoveX = +left.slice(0, -2);
+    }
+    function handleMouseMove(event) {
+      if (!mousedownEvent) return;
+      const {
+        clientX: downX,
+        clientY: downY
+      } = mousedownEvent;
+      let moveX = event.clientX - downX;
+      let moveY = event.clientY - downY;
+      if (boundsToWindowRef.value) {
+        if (moveX > maxMoveX) {
+          moveX = maxMoveX;
+        } else if (-moveX > minMoveX) {
+          moveX = -minMoveX;
+        }
+        if (moveY > maxMoveY) {
+          moveY = maxMoveY;
+        } else if (-moveY > minMoveY) {
+          moveY = -minMoveY;
+        }
+      }
+      const x = moveX + prevMoveX;
+      const y = moveY + prevMoveY;
+      modal.style.top = `${y}px`;
+      modal.style.left = `${x}px`;
+    }
+    function handleMouseUp() {
+      mousedownEvent = void 0;
+      options.onEnd(modal);
+    }
+    on("mousedown", header, handleMouseDown);
+    on("mousemove", window, handleMouseMove);
+    on("mouseup", window, handleMouseUp);
+    cleanup = () => {
+      off("mousedown", header, handleMouseDown);
+      on("mousemove", window, handleMouseMove);
+      on("mouseup", window, handleMouseUp);
+    };
+  }
+  function stopDrag() {
+    if (cleanup) {
+      cleanup();
+      cleanup = void 0;
+    }
+  }
+  onUnmounted(stopDrag);
+  return {
+    stopDrag,
+    startDrag,
+    draggableRef,
+    draggableClassRef
+  };
+}
 const presetProps = Object.assign(Object.assign({}, cardBaseProps), dialogProps);
 const presetPropsKeys = keysOf(presetProps);
 const NModalBodyWrapper = defineComponent({
   name: "ModalBody",
   inheritAttrs: false,
+  slots: Object,
   props: Object.assign(Object.assign({
     show: {
       type: Boolean,
@@ -15986,7 +16175,11 @@ const NModalBodyWrapper = defineComponent({
       type: Boolean,
       default: true
     },
-    blockScroll: Boolean
+    blockScroll: Boolean,
+    draggable: {
+      type: [Boolean, Object],
+      default: false
+    }
   }, presetProps), {
     renderMask: Function,
     // events
@@ -16020,11 +16213,35 @@ const NModalBodyWrapper = defineComponent({
     const displayedRef = ref(props.show);
     const transformOriginXRef = ref(null);
     const transformOriginYRef = ref(null);
+    const NModal = inject(modalInjectionKey);
+    let mousePosition = null;
+    watch(toRef(props, "show"), (value) => {
+      if (value) {
+        mousePosition = NModal.getMousePosition();
+      }
+    }, {
+      immediate: true
+    });
+    const {
+      stopDrag,
+      startDrag,
+      draggableRef,
+      draggableClassRef
+    } = useDragModal(toRef(props, "draggable"), {
+      onEnd: (el) => {
+        syncTransformOrigin(el);
+      }
+    });
+    const dialogTitleClassRef = computed(() => {
+      return normalizeClass([props.titleClass, draggableClassRef.value]);
+    });
+    const cardHeaderClassRef = computed(() => {
+      return normalizeClass([props.headerClass, draggableClassRef.value]);
+    });
     watch(toRef(props, "show"), (value) => {
       if (value) displayedRef.value = true;
     });
     useLockHtmlScroll(computed(() => props.blockScroll && displayedRef.value));
-    const NModal = inject(modalInjectionKey);
     function styleTransformOrigin() {
       if (NModal.transformOriginRef.value === "center") {
         return "";
@@ -16047,7 +16264,6 @@ const NModalBodyWrapper = defineComponent({
       if (NModal.transformOriginRef.value === "center") {
         return;
       }
-      const mousePosition = NModal.getMousePosition();
       if (!mousePosition) {
         return;
       }
@@ -16057,12 +16273,10 @@ const NModalBodyWrapper = defineComponent({
         offsetLeft,
         offsetTop
       } = el;
-      if (mousePosition) {
-        const top = mousePosition.y;
-        const left = mousePosition.x;
-        transformOriginXRef.value = -(offsetLeft - left);
-        transformOriginYRef.value = -(offsetTop - top - scrollTop);
-      }
+      const top = mousePosition.y;
+      const left = mousePosition.x;
+      transformOriginXRef.value = -(offsetLeft - left);
+      transformOriginYRef.value = -(offsetTop - top - scrollTop);
       el.style.transformOrigin = styleTransformOrigin();
     }
     function handleEnter(el) {
@@ -16074,10 +16288,16 @@ const NModalBodyWrapper = defineComponent({
       el.style.transformOrigin = styleTransformOrigin();
       props.onBeforeLeave();
     }
+    function handleAfterEnter(el) {
+      const element = el;
+      draggableRef.value && startDrag(element);
+      props.onAfterEnter && props.onAfterEnter(element);
+    }
     function handleAfterLeave() {
       displayedRef.value = false;
       transformOriginXRef.value = null;
       transformOriginYRef.value = null;
+      stopDrag();
       props.onAfterLeave();
     }
     function handleCloseClick() {
@@ -16115,11 +16335,15 @@ const NModalBodyWrapper = defineComponent({
       mergedClsPrefix: NModal.mergedClsPrefixRef,
       bodyRef,
       scrollbarRef,
+      draggableClass: draggableClassRef,
       displayed: displayedRef,
       childNodeRef,
+      cardHeaderClass: cardHeaderClassRef,
+      dialogTitleClass: dialogTitleClassRef,
       handlePositiveClick,
       handleNegativeClick,
       handleCloseClick,
+      handleAfterEnter,
       handleAfterLeave,
       handleBeforeLeave,
       handleEnter
@@ -16130,6 +16354,7 @@ const NModalBodyWrapper = defineComponent({
       $slots,
       $attrs,
       handleEnter,
+      handleAfterEnter,
       handleAfterLeave,
       handleBeforeLeave,
       preset,
@@ -16137,7 +16362,9 @@ const NModalBodyWrapper = defineComponent({
     } = this;
     let childNode = null;
     if (!preset) {
-      childNode = getFirstSlotVNode($slots);
+      childNode = getFirstSlotVNodeWithTypedProps("default", $slots.default, {
+        draggableClass: this.draggableClass
+      });
       if (!childNode) {
         warn$2("modal", "default slot is empty");
         return;
@@ -16170,7 +16397,7 @@ const NModalBodyWrapper = defineComponent({
               name: "fade-in-scale-up-transition",
               appear: (_a2 = this.appear) !== null && _a2 !== void 0 ? _a2 : this.isMounted,
               onEnter: handleEnter,
-              onAfterEnter: this.onAfterEnter,
+              onAfterEnter: handleAfterEnter,
               onAfterLeave: handleAfterLeave,
               onBeforeLeave: handleBeforeLeave
             }, {
@@ -16190,6 +16417,7 @@ const NModalBodyWrapper = defineComponent({
                   theme: this.mergedTheme.peers.Dialog,
                   themeOverrides: this.mergedTheme.peerOverrides.Dialog
                 }, keep(this.$props, dialogPropKeys), {
+                  titleClass: this.dialogTitleClass,
                   "aria-modal": "true"
                 }), $slots) : this.preset === "card" ? h(__unplugin_components_5$4, Object.assign({}, this.$attrs, {
                   ref: "bodyRef",
@@ -16197,6 +16425,7 @@ const NModalBodyWrapper = defineComponent({
                   theme: this.mergedTheme.peers.Card,
                   themeOverrides: this.mergedTheme.peerOverrides.Card
                 }, keep(this.$props, cardBasePropKeys), {
+                  headerClass: this.cardHeaderClass,
                   "aria-modal": "true",
                   role: "dialog"
                 }), $slots) : this.childNodeRef = childNode, dirs);
@@ -16247,7 +16476,10 @@ const style$4 = c$1([cB("modal-container", `
  `, [fadeInScaleUpTransition({
   duration: ".25s",
   enterScale: ".5"
-})])]);
+}), c$1(`.${DRAGGABLE_CLASS}`, `
+ cursor: move;
+ user-select: none;
+ `)])]);
 const modalProps = Object.assign(Object.assign(Object.assign(Object.assign({}, useTheme.props), {
   show: Boolean,
   unstableShowMask: {
@@ -16286,6 +16518,7 @@ const modalProps = Object.assign(Object.assign(Object.assign(Object.assign({}, u
     default: true
   }
 }), presetProps), {
+  draggable: [Boolean, Object],
   // events
   onEsc: Function,
   "onUpdate:show": [Function, Array],
@@ -16314,6 +16547,7 @@ const __unplugin_components_3$2 = defineComponent({
   name: "Modal",
   inheritAttrs: false,
   props: modalProps,
+  slots: Object,
   setup(props) {
     const containerRef = ref(null);
     const {
@@ -16508,6 +16742,7 @@ const __unplugin_components_3$2 = defineComponent({
           preset: this.preset,
           autoFocus: this.autoFocus,
           trapFocus: this.trapFocus,
+          draggable: this.draggable,
           blockScroll: this.blockScroll
         }, this.presetProps, {
           onEsc: this.handleEsc,
@@ -17156,9 +17391,6 @@ function useMessage() {
   }
   return api;
 }
-const modalProviderInjectionKey = createInjectionKey("n-modal-provider");
-const modalApiInjectionKey = createInjectionKey("n-modal-api");
-const modalReactiveListInjectionKey = createInjectionKey("n-modal-reactive-list");
 const NModalEnvironment = defineComponent({
   name: "ModalEnvironment",
   props: Object.assign(Object.assign({}, modalProps), {
@@ -17286,8 +17518,6 @@ const NModalProvider = defineComponent({
   name: "ModalProvider",
   props: modalProviderProps,
   setup() {
-    const clickedRef = useClicked(64);
-    const clickedPositionRef = useClickPosition();
     const modalListRef = ref([]);
     const modalInstRefs = {};
     function create(options = {}) {
@@ -17323,10 +17553,6 @@ const NModalProvider = defineComponent({
       clickedPositionRef: useClickPosition()
     });
     provide(modalReactiveListInjectionKey, modalListRef);
-    provide(modalProviderInjectionKey, {
-      clickedRef,
-      clickedPositionRef
-    });
     return Object.assign(Object.assign({}, api), {
       modalList: modalListRef,
       modalInstRefs,
@@ -18151,13 +18377,6 @@ function useNotification() {
     throwError("use-notification", "No outer `n-notification-provider` found.");
   }
   return api;
-}
-function useModal() {
-  const modal = inject(modalApiInjectionKey, null);
-  if (modal === null) {
-    throwError("use-modal", "No outer <n-modal-provider /> founded.");
-  }
-  return modal;
 }
 function createPartialInvertedVars(color, activeItemColor, activeTextColor, groupTextColor) {
   return {
@@ -19940,6 +20159,7 @@ const sliderProps = Object.assign(Object.assign({}, useTheme.props), {
 const __unplugin_components_5$2 = defineComponent({
   name: "Slider",
   props: sliderProps,
+  slots: Object,
   setup(props) {
     const {
       mergedClsPrefixRef,
@@ -25305,7 +25525,7 @@ function requireSha3() {
               lane.high ^= M2i1;
               lane.low ^= M2i;
             }
-            for (var round = 0; round < 24; round++) {
+            for (var round2 = 0; round2 < 24; round2++) {
               for (var x = 0; x < 5; x++) {
                 var tMsw = 0, tLsw = 0;
                 for (var y = 0; y < 5; y++) {
@@ -25364,7 +25584,7 @@ function requireSha3() {
                 }
               }
               var lane = state[0];
-              var roundConstant = ROUND_CONSTANTS[round];
+              var roundConstant = ROUND_CONSTANTS[round2];
               lane.high ^= roundConstant.high;
               lane.low ^= roundConstant.low;
             }
@@ -27386,7 +27606,7 @@ function requireAes() {
             var s2 = M[offset + 2] ^ keySchedule[2];
             var s3 = M[offset + 3] ^ keySchedule[3];
             var ksRow = 4;
-            for (var round = 1; round < nRounds; round++) {
+            for (var round2 = 1; round2 < nRounds; round2++) {
               var t0 = SUB_MIX_02[s0 >>> 24] ^ SUB_MIX_12[s1 >>> 16 & 255] ^ SUB_MIX_22[s2 >>> 8 & 255] ^ SUB_MIX_32[s3 & 255] ^ keySchedule[ksRow++];
               var t1 = SUB_MIX_02[s1 >>> 24] ^ SUB_MIX_12[s2 >>> 16 & 255] ^ SUB_MIX_22[s3 >>> 8 & 255] ^ SUB_MIX_32[s0 & 255] ^ keySchedule[ksRow++];
               var t2 = SUB_MIX_02[s2 >>> 24] ^ SUB_MIX_12[s3 >>> 16 & 255] ^ SUB_MIX_22[s0 >>> 8 & 255] ^ SUB_MIX_32[s1 & 255] ^ keySchedule[ksRow++];
@@ -28122,8 +28342,8 @@ function requireTripledes() {
             exchangeRL.call(this, 2, 858993459);
             exchangeRL.call(this, 8, 16711935);
             exchangeLR.call(this, 1, 1431655765);
-            for (var round = 0; round < 16; round++) {
-              var subKey = subKeys[round];
+            for (var round2 = 0; round2 < 16; round2++) {
+              var subKey = subKeys[round2];
               var lBlock = this._lBlock;
               var rBlock = this._rBlock;
               var f = 0;
@@ -30975,7 +31195,13 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: value.name,
         artist: value.artist,
-        artwork: [{ src: value.picurl }]
+        artwork: [
+          { src: value.picurl + "?param=96y96", sizes: "96x96" },
+          { src: value.picurl + "?param=128y128", sizes: "128x128" },
+          { src: value.picurl + "?param=192y192", sizes: "192x192" },
+          { src: value.picurl + "?param=256y256", sizes: "256x256" },
+          { src: value.picurl + "?param=512y512", sizes: "512x512" }
+        ]
       });
     }
     updateProgress(true, { position: 0, duration: player2.value.duration });
@@ -31258,438 +31484,505 @@ const usePlayStore = /* @__PURE__ */ defineStore("play", () => {
     playWithPlaylistIndex
   };
 });
-function bound01(n2, max) {
-  if (isOnePointZero(n2)) {
-    n2 = "100%";
+function _typeof(o2) {
+  "@babel/helpers - typeof";
+  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o3) {
+    return typeof o3;
+  } : function(o3) {
+    return o3 && "function" == typeof Symbol && o3.constructor === Symbol && o3 !== Symbol.prototype ? "symbol" : typeof o3;
+  }, _typeof(o2);
+}
+function toPrimitive(t2, r2) {
+  if ("object" != _typeof(t2) || !t2) return t2;
+  var e2 = t2[Symbol.toPrimitive];
+  if (void 0 !== e2) {
+    var i2 = e2.call(t2, r2 || "default");
+    if ("object" != _typeof(i2)) return i2;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
   }
-  var isPercent = isPercentage(n2);
-  n2 = max === 360 ? n2 : Math.min(max, Math.max(0, parseFloat(n2)));
-  if (isPercent) {
-    n2 = parseInt(String(n2 * max), 10) / 100;
+  return ("string" === r2 ? String : Number)(t2);
+}
+function toPropertyKey(t2) {
+  var i2 = toPrimitive(t2, "string");
+  return "symbol" == _typeof(i2) ? i2 : i2 + "";
+}
+function _defineProperty(e2, r2, t2) {
+  return (r2 = toPropertyKey(r2)) in e2 ? Object.defineProperty(e2, r2, {
+    value: t2,
+    enumerable: true,
+    configurable: true,
+    writable: true
+  }) : e2[r2] = t2, e2;
+}
+const round = Math.round;
+function splitColorStr(str, parseNum) {
+  const match2 = str.replace(/^[^(]*\((.*)/, "$1").replace(/\).*/, "").match(/\d*\.?\d+%?/g) || [];
+  const numList = match2.map((item) => parseFloat(item));
+  for (let i2 = 0; i2 < 3; i2 += 1) {
+    numList[i2] = parseNum(numList[i2] || 0, match2[i2] || "", i2);
   }
-  if (Math.abs(n2 - max) < 1e-6) {
-    return 1;
-  }
-  if (max === 360) {
-    n2 = (n2 < 0 ? n2 % max + max : n2 % max) / parseFloat(String(max));
+  if (match2[3]) {
+    numList[3] = match2[3].includes("%") ? numList[3] / 100 : numList[3];
   } else {
-    n2 = n2 % max / parseFloat(String(max));
+    numList[3] = 1;
   }
-  return n2;
+  return numList;
 }
-function isOnePointZero(n2) {
-  return typeof n2 === "string" && n2.indexOf(".") !== -1 && parseFloat(n2) === 1;
-}
-function isPercentage(n2) {
-  return typeof n2 === "string" && n2.indexOf("%") !== -1;
-}
-function boundAlpha(a) {
-  a = parseFloat(a);
-  if (isNaN(a) || a < 0 || a > 1) {
-    a = 1;
+const parseHSVorHSL = (num, _, index) => index === 0 ? num : num / 100;
+function limitRange(value, max) {
+  const mergedMax = max || 255;
+  if (value > mergedMax) {
+    return mergedMax;
   }
-  return a;
+  if (value < 0) {
+    return 0;
+  }
+  return value;
 }
-function convertToPercentage(n2) {
-  if (n2 <= 1) {
-    return "".concat(Number(n2) * 100, "%");
-  }
-  return n2;
-}
-function pad2(c2) {
-  return c2.length === 1 ? "0" + c2 : String(c2);
-}
-function rgbToRgb(r2, g, b) {
-  return {
-    r: bound01(r2, 255) * 255,
-    g: bound01(g, 255) * 255,
-    b: bound01(b, 255) * 255
-  };
-}
-function hue2rgb(p, q, t2) {
-  if (t2 < 0) {
-    t2 += 1;
-  }
-  if (t2 > 1) {
-    t2 -= 1;
-  }
-  if (t2 < 1 / 6) {
-    return p + (q - p) * (6 * t2);
-  }
-  if (t2 < 1 / 2) {
-    return q;
-  }
-  if (t2 < 2 / 3) {
-    return p + (q - p) * (2 / 3 - t2) * 6;
-  }
-  return p;
-}
-function hslToRgb(h2, s, l) {
-  var r2;
-  var g;
-  var b;
-  h2 = bound01(h2, 360);
-  s = bound01(s, 100);
-  l = bound01(l, 100);
-  if (s === 0) {
-    g = l;
-    b = l;
-    r2 = l;
-  } else {
-    var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-    var p = 2 * l - q;
-    r2 = hue2rgb(p, q, h2 + 1 / 3);
-    g = hue2rgb(p, q, h2);
-    b = hue2rgb(p, q, h2 - 1 / 3);
-  }
-  return { r: r2 * 255, g: g * 255, b: b * 255 };
-}
-function rgbToHsv(r2, g, b) {
-  r2 = bound01(r2, 255);
-  g = bound01(g, 255);
-  b = bound01(b, 255);
-  var max = Math.max(r2, g, b);
-  var min = Math.min(r2, g, b);
-  var h2 = 0;
-  var v = max;
-  var d = max - min;
-  var s = max === 0 ? 0 : d / max;
-  if (max === min) {
-    h2 = 0;
-  } else {
-    switch (max) {
-      case r2:
-        h2 = (g - b) / d + (g < b ? 6 : 0);
-        break;
-      case g:
-        h2 = (b - r2) / d + 2;
-        break;
-      case b:
-        h2 = (r2 - g) / d + 4;
-        break;
+class FastColor {
+  constructor(input) {
+    _defineProperty(this, "isValid", true);
+    _defineProperty(this, "r", 0);
+    _defineProperty(this, "g", 0);
+    _defineProperty(this, "b", 0);
+    _defineProperty(this, "a", 1);
+    _defineProperty(this, "_h", void 0);
+    _defineProperty(this, "_s", void 0);
+    _defineProperty(this, "_l", void 0);
+    _defineProperty(this, "_v", void 0);
+    _defineProperty(this, "_max", void 0);
+    _defineProperty(this, "_min", void 0);
+    _defineProperty(this, "_brightness", void 0);
+    function matchFormat(str) {
+      return str[0] in input && str[1] in input && str[2] in input;
     }
-    h2 /= 6;
-  }
-  return { h: h2, s, v };
-}
-function hsvToRgb(h2, s, v) {
-  h2 = bound01(h2, 360) * 6;
-  s = bound01(s, 100);
-  v = bound01(v, 100);
-  var i2 = Math.floor(h2);
-  var f = h2 - i2;
-  var p = v * (1 - s);
-  var q = v * (1 - f * s);
-  var t2 = v * (1 - (1 - f) * s);
-  var mod = i2 % 6;
-  var r2 = [v, q, p, p, t2, v][mod];
-  var g = [t2, v, v, q, p, p][mod];
-  var b = [p, p, t2, v, v, q][mod];
-  return { r: r2 * 255, g: g * 255, b: b * 255 };
-}
-function rgbToHex(r2, g, b, allow3Char) {
-  var hex = [
-    pad2(Math.round(r2).toString(16)),
-    pad2(Math.round(g).toString(16)),
-    pad2(Math.round(b).toString(16))
-  ];
-  return hex.join("");
-}
-function convertHexToDecimal(h2) {
-  return parseIntFromHex(h2) / 255;
-}
-function parseIntFromHex(val) {
-  return parseInt(val, 16);
-}
-var names = {
-  aliceblue: "#f0f8ff",
-  antiquewhite: "#faebd7",
-  aqua: "#00ffff",
-  aquamarine: "#7fffd4",
-  azure: "#f0ffff",
-  beige: "#f5f5dc",
-  bisque: "#ffe4c4",
-  black: "#000000",
-  blanchedalmond: "#ffebcd",
-  blue: "#0000ff",
-  blueviolet: "#8a2be2",
-  brown: "#a52a2a",
-  burlywood: "#deb887",
-  cadetblue: "#5f9ea0",
-  chartreuse: "#7fff00",
-  chocolate: "#d2691e",
-  coral: "#ff7f50",
-  cornflowerblue: "#6495ed",
-  cornsilk: "#fff8dc",
-  crimson: "#dc143c",
-  cyan: "#00ffff",
-  darkblue: "#00008b",
-  darkcyan: "#008b8b",
-  darkgoldenrod: "#b8860b",
-  darkgray: "#a9a9a9",
-  darkgreen: "#006400",
-  darkgrey: "#a9a9a9",
-  darkkhaki: "#bdb76b",
-  darkmagenta: "#8b008b",
-  darkolivegreen: "#556b2f",
-  darkorange: "#ff8c00",
-  darkorchid: "#9932cc",
-  darkred: "#8b0000",
-  darksalmon: "#e9967a",
-  darkseagreen: "#8fbc8f",
-  darkslateblue: "#483d8b",
-  darkslategray: "#2f4f4f",
-  darkslategrey: "#2f4f4f",
-  darkturquoise: "#00ced1",
-  darkviolet: "#9400d3",
-  deeppink: "#ff1493",
-  deepskyblue: "#00bfff",
-  dimgray: "#696969",
-  dimgrey: "#696969",
-  dodgerblue: "#1e90ff",
-  firebrick: "#b22222",
-  floralwhite: "#fffaf0",
-  forestgreen: "#228b22",
-  fuchsia: "#ff00ff",
-  gainsboro: "#dcdcdc",
-  ghostwhite: "#f8f8ff",
-  goldenrod: "#daa520",
-  gold: "#ffd700",
-  gray: "#808080",
-  green: "#008000",
-  greenyellow: "#adff2f",
-  grey: "#808080",
-  honeydew: "#f0fff0",
-  hotpink: "#ff69b4",
-  indianred: "#cd5c5c",
-  indigo: "#4b0082",
-  ivory: "#fffff0",
-  khaki: "#f0e68c",
-  lavenderblush: "#fff0f5",
-  lavender: "#e6e6fa",
-  lawngreen: "#7cfc00",
-  lemonchiffon: "#fffacd",
-  lightblue: "#add8e6",
-  lightcoral: "#f08080",
-  lightcyan: "#e0ffff",
-  lightgoldenrodyellow: "#fafad2",
-  lightgray: "#d3d3d3",
-  lightgreen: "#90ee90",
-  lightgrey: "#d3d3d3",
-  lightpink: "#ffb6c1",
-  lightsalmon: "#ffa07a",
-  lightseagreen: "#20b2aa",
-  lightskyblue: "#87cefa",
-  lightslategray: "#778899",
-  lightslategrey: "#778899",
-  lightsteelblue: "#b0c4de",
-  lightyellow: "#ffffe0",
-  lime: "#00ff00",
-  limegreen: "#32cd32",
-  linen: "#faf0e6",
-  magenta: "#ff00ff",
-  maroon: "#800000",
-  mediumaquamarine: "#66cdaa",
-  mediumblue: "#0000cd",
-  mediumorchid: "#ba55d3",
-  mediumpurple: "#9370db",
-  mediumseagreen: "#3cb371",
-  mediumslateblue: "#7b68ee",
-  mediumspringgreen: "#00fa9a",
-  mediumturquoise: "#48d1cc",
-  mediumvioletred: "#c71585",
-  midnightblue: "#191970",
-  mintcream: "#f5fffa",
-  mistyrose: "#ffe4e1",
-  moccasin: "#ffe4b5",
-  navajowhite: "#ffdead",
-  navy: "#000080",
-  oldlace: "#fdf5e6",
-  olive: "#808000",
-  olivedrab: "#6b8e23",
-  orange: "#ffa500",
-  orangered: "#ff4500",
-  orchid: "#da70d6",
-  palegoldenrod: "#eee8aa",
-  palegreen: "#98fb98",
-  paleturquoise: "#afeeee",
-  palevioletred: "#db7093",
-  papayawhip: "#ffefd5",
-  peachpuff: "#ffdab9",
-  peru: "#cd853f",
-  pink: "#ffc0cb",
-  plum: "#dda0dd",
-  powderblue: "#b0e0e6",
-  purple: "#800080",
-  rebeccapurple: "#663399",
-  red: "#ff0000",
-  rosybrown: "#bc8f8f",
-  royalblue: "#4169e1",
-  saddlebrown: "#8b4513",
-  salmon: "#fa8072",
-  sandybrown: "#f4a460",
-  seagreen: "#2e8b57",
-  seashell: "#fff5ee",
-  sienna: "#a0522d",
-  silver: "#c0c0c0",
-  skyblue: "#87ceeb",
-  slateblue: "#6a5acd",
-  slategray: "#708090",
-  slategrey: "#708090",
-  snow: "#fffafa",
-  springgreen: "#00ff7f",
-  steelblue: "#4682b4",
-  tan: "#d2b48c",
-  teal: "#008080",
-  thistle: "#d8bfd8",
-  tomato: "#ff6347",
-  turquoise: "#40e0d0",
-  violet: "#ee82ee",
-  wheat: "#f5deb3",
-  white: "#ffffff",
-  whitesmoke: "#f5f5f5",
-  yellow: "#ffff00",
-  yellowgreen: "#9acd32"
-};
-function inputToRGB(color) {
-  var rgb = { r: 0, g: 0, b: 0 };
-  var a = 1;
-  var s = null;
-  var v = null;
-  var l = null;
-  var ok = false;
-  var format = false;
-  if (typeof color === "string") {
-    color = stringInputToObject(color);
-  }
-  if (typeof color === "object") {
-    if (isValidCSSUnit(color.r) && isValidCSSUnit(color.g) && isValidCSSUnit(color.b)) {
-      rgb = rgbToRgb(color.r, color.g, color.b);
-      ok = true;
-      format = String(color.r).substr(-1) === "%" ? "prgb" : "rgb";
-    } else if (isValidCSSUnit(color.h) && isValidCSSUnit(color.s) && isValidCSSUnit(color.v)) {
-      s = convertToPercentage(color.s);
-      v = convertToPercentage(color.v);
-      rgb = hsvToRgb(color.h, s, v);
-      ok = true;
-      format = "hsv";
-    } else if (isValidCSSUnit(color.h) && isValidCSSUnit(color.s) && isValidCSSUnit(color.l)) {
-      s = convertToPercentage(color.s);
-      l = convertToPercentage(color.l);
-      rgb = hslToRgb(color.h, s, l);
-      ok = true;
-      format = "hsl";
-    }
-    if (Object.prototype.hasOwnProperty.call(color, "a")) {
-      a = color.a;
+    if (!input) ;
+    else if (typeof input === "string") {
+      let matchPrefix = function(prefix) {
+        return trimStr.startsWith(prefix);
+      };
+      const trimStr = input.trim();
+      if (/^#?[A-F\d]{3,8}$/i.test(trimStr)) {
+        this.fromHexString(trimStr);
+      } else if (matchPrefix("rgb")) {
+        this.fromRgbString(trimStr);
+      } else if (matchPrefix("hsl")) {
+        this.fromHslString(trimStr);
+      } else if (matchPrefix("hsv") || matchPrefix("hsb")) {
+        this.fromHsvString(trimStr);
+      }
+    } else if (input instanceof FastColor) {
+      this.r = input.r;
+      this.g = input.g;
+      this.b = input.b;
+      this.a = input.a;
+      this._h = input._h;
+      this._s = input._s;
+      this._l = input._l;
+      this._v = input._v;
+    } else if (matchFormat("rgb")) {
+      this.r = limitRange(input.r);
+      this.g = limitRange(input.g);
+      this.b = limitRange(input.b);
+      this.a = typeof input.a === "number" ? limitRange(input.a, 1) : 1;
+    } else if (matchFormat("hsl")) {
+      this.fromHsl(input);
+    } else if (matchFormat("hsv")) {
+      this.fromHsv(input);
+    } else {
+      throw new Error("@ant-design/fast-color: unsupported input " + JSON.stringify(input));
     }
   }
-  a = boundAlpha(a);
-  return {
-    ok,
-    format: color.format || format,
-    r: Math.min(255, Math.max(rgb.r, 0)),
-    g: Math.min(255, Math.max(rgb.g, 0)),
-    b: Math.min(255, Math.max(rgb.b, 0)),
+  // ======================= Setter =======================
+  setR(value) {
+    return this._sc("r", value);
+  }
+  setG(value) {
+    return this._sc("g", value);
+  }
+  setB(value) {
+    return this._sc("b", value);
+  }
+  setA(value) {
+    return this._sc("a", value, 1);
+  }
+  setHue(value) {
+    const hsv = this.toHsv();
+    hsv.h = value;
+    return this._c(hsv);
+  }
+  // ======================= Getter =======================
+  /**
+   * Returns the perceived luminance of a color, from 0-1.
+   * @see http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+   */
+  getLuminance() {
+    function adjustGamma(raw) {
+      const val = raw / 255;
+      return val <= 0.03928 ? val / 12.92 : Math.pow((val + 0.055) / 1.055, 2.4);
+    }
+    const R = adjustGamma(this.r);
+    const G = adjustGamma(this.g);
+    const B = adjustGamma(this.b);
+    return 0.2126 * R + 0.7152 * G + 0.0722 * B;
+  }
+  getHue() {
+    if (typeof this._h === "undefined") {
+      const delta = this.getMax() - this.getMin();
+      if (delta === 0) {
+        this._h = 0;
+      } else {
+        this._h = round(60 * (this.r === this.getMax() ? (this.g - this.b) / delta + (this.g < this.b ? 6 : 0) : this.g === this.getMax() ? (this.b - this.r) / delta + 2 : (this.r - this.g) / delta + 4));
+      }
+    }
+    return this._h;
+  }
+  getSaturation() {
+    if (typeof this._s === "undefined") {
+      const delta = this.getMax() - this.getMin();
+      if (delta === 0) {
+        this._s = 0;
+      } else {
+        this._s = delta / this.getMax();
+      }
+    }
+    return this._s;
+  }
+  getLightness() {
+    if (typeof this._l === "undefined") {
+      this._l = (this.getMax() + this.getMin()) / 510;
+    }
+    return this._l;
+  }
+  getValue() {
+    if (typeof this._v === "undefined") {
+      this._v = this.getMax() / 255;
+    }
+    return this._v;
+  }
+  /**
+   * Returns the perceived brightness of the color, from 0-255.
+   * Note: this is not the b of HSB
+   * @see http://www.w3.org/TR/AERT#color-contrast
+   */
+  getBrightness() {
+    if (typeof this._brightness === "undefined") {
+      this._brightness = (this.r * 299 + this.g * 587 + this.b * 114) / 1e3;
+    }
+    return this._brightness;
+  }
+  // ======================== Func ========================
+  darken(amount = 10) {
+    const h2 = this.getHue();
+    const s = this.getSaturation();
+    let l = this.getLightness() - amount / 100;
+    if (l < 0) {
+      l = 0;
+    }
+    return this._c({
+      h: h2,
+      s,
+      l,
+      a: this.a
+    });
+  }
+  lighten(amount = 10) {
+    const h2 = this.getHue();
+    const s = this.getSaturation();
+    let l = this.getLightness() + amount / 100;
+    if (l > 1) {
+      l = 1;
+    }
+    return this._c({
+      h: h2,
+      s,
+      l,
+      a: this.a
+    });
+  }
+  /**
+   * Mix the current color a given amount with another color, from 0 to 100.
+   * 0 means no mixing (return current color).
+   */
+  mix(input, amount = 50) {
+    const color = this._c(input);
+    const p = amount / 100;
+    const calc = (key) => (color[key] - this[key]) * p + this[key];
+    const rgba = {
+      r: round(calc("r")),
+      g: round(calc("g")),
+      b: round(calc("b")),
+      a: round(calc("a") * 100) / 100
+    };
+    return this._c(rgba);
+  }
+  /**
+   * Mix the color with pure white, from 0 to 100.
+   * Providing 0 will do nothing, providing 100 will always return white.
+   */
+  tint(amount = 10) {
+    return this.mix({
+      r: 255,
+      g: 255,
+      b: 255,
+      a: 1
+    }, amount);
+  }
+  /**
+   * Mix the color with pure black, from 0 to 100.
+   * Providing 0 will do nothing, providing 100 will always return black.
+   */
+  shade(amount = 10) {
+    return this.mix({
+      r: 0,
+      g: 0,
+      b: 0,
+      a: 1
+    }, amount);
+  }
+  onBackground(background) {
+    const bg = this._c(background);
+    const alpha = this.a + bg.a * (1 - this.a);
+    const calc = (key) => {
+      return round((this[key] * this.a + bg[key] * bg.a * (1 - this.a)) / alpha);
+    };
+    return this._c({
+      r: calc("r"),
+      g: calc("g"),
+      b: calc("b"),
+      a: alpha
+    });
+  }
+  // ======================= Status =======================
+  isDark() {
+    return this.getBrightness() < 128;
+  }
+  isLight() {
+    return this.getBrightness() >= 128;
+  }
+  // ======================== MISC ========================
+  equals(other) {
+    return this.r === other.r && this.g === other.g && this.b === other.b && this.a === other.a;
+  }
+  clone() {
+    return this._c(this);
+  }
+  // ======================= Format =======================
+  toHexString() {
+    let hex = "#";
+    const rHex = (this.r || 0).toString(16);
+    hex += rHex.length === 2 ? rHex : "0" + rHex;
+    const gHex = (this.g || 0).toString(16);
+    hex += gHex.length === 2 ? gHex : "0" + gHex;
+    const bHex = (this.b || 0).toString(16);
+    hex += bHex.length === 2 ? bHex : "0" + bHex;
+    if (typeof this.a === "number" && this.a >= 0 && this.a < 1) {
+      const aHex = round(this.a * 255).toString(16);
+      hex += aHex.length === 2 ? aHex : "0" + aHex;
+    }
+    return hex;
+  }
+  /** CSS support color pattern */
+  toHsl() {
+    return {
+      h: this.getHue(),
+      s: this.getSaturation(),
+      l: this.getLightness(),
+      a: this.a
+    };
+  }
+  /** CSS support color pattern */
+  toHslString() {
+    const h2 = this.getHue();
+    const s = round(this.getSaturation() * 100);
+    const l = round(this.getLightness() * 100);
+    return this.a !== 1 ? `hsla(${h2},${s}%,${l}%,${this.a})` : `hsl(${h2},${s}%,${l}%)`;
+  }
+  /** Same as toHsb */
+  toHsv() {
+    return {
+      h: this.getHue(),
+      s: this.getSaturation(),
+      v: this.getValue(),
+      a: this.a
+    };
+  }
+  toRgb() {
+    return {
+      r: this.r,
+      g: this.g,
+      b: this.b,
+      a: this.a
+    };
+  }
+  toRgbString() {
+    return this.a !== 1 ? `rgba(${this.r},${this.g},${this.b},${this.a})` : `rgb(${this.r},${this.g},${this.b})`;
+  }
+  toString() {
+    return this.toRgbString();
+  }
+  // ====================== Privates ======================
+  /** Return a new FastColor object with one channel changed */
+  _sc(rgb, value, max) {
+    const clone = this.clone();
+    clone[rgb] = limitRange(value, max);
+    return clone;
+  }
+  _c(input) {
+    return new this.constructor(input);
+  }
+  getMax() {
+    if (typeof this._max === "undefined") {
+      this._max = Math.max(this.r, this.g, this.b);
+    }
+    return this._max;
+  }
+  getMin() {
+    if (typeof this._min === "undefined") {
+      this._min = Math.min(this.r, this.g, this.b);
+    }
+    return this._min;
+  }
+  fromHexString(trimStr) {
+    const withoutPrefix = trimStr.replace("#", "");
+    function connectNum(index1, index2) {
+      return parseInt(withoutPrefix[index1] + withoutPrefix[index2 || index1], 16);
+    }
+    if (withoutPrefix.length < 6) {
+      this.r = connectNum(0);
+      this.g = connectNum(1);
+      this.b = connectNum(2);
+      this.a = withoutPrefix[3] ? connectNum(3) / 255 : 1;
+    } else {
+      this.r = connectNum(0, 1);
+      this.g = connectNum(2, 3);
+      this.b = connectNum(4, 5);
+      this.a = withoutPrefix[6] ? connectNum(6, 7) / 255 : 1;
+    }
+  }
+  fromHsl({
+    h: h2,
+    s,
+    l,
     a
-  };
-}
-var CSS_INTEGER = "[-\\+]?\\d+%?";
-var CSS_NUMBER = "[-\\+]?\\d*\\.\\d+%?";
-var CSS_UNIT = "(?:".concat(CSS_NUMBER, ")|(?:").concat(CSS_INTEGER, ")");
-var PERMISSIVE_MATCH3 = "[\\s|\\(]+(".concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")\\s*\\)?");
-var PERMISSIVE_MATCH4 = "[\\s|\\(]+(".concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")[,|\\s]+(").concat(CSS_UNIT, ")\\s*\\)?");
-var matchers = {
-  CSS_UNIT: new RegExp(CSS_UNIT),
-  rgb: new RegExp("rgb" + PERMISSIVE_MATCH3),
-  rgba: new RegExp("rgba" + PERMISSIVE_MATCH4),
-  hsl: new RegExp("hsl" + PERMISSIVE_MATCH3),
-  hsla: new RegExp("hsla" + PERMISSIVE_MATCH4),
-  hsv: new RegExp("hsv" + PERMISSIVE_MATCH3),
-  hsva: new RegExp("hsva" + PERMISSIVE_MATCH4),
-  hex3: /^#?([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/,
-  hex6: /^#?([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})$/,
-  hex4: /^#?([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/,
-  hex8: /^#?([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})$/
-};
-function stringInputToObject(color) {
-  color = color.trim().toLowerCase();
-  if (color.length === 0) {
-    return false;
+  }) {
+    this._h = h2 % 360;
+    this._s = s;
+    this._l = l;
+    this.a = typeof a === "number" ? a : 1;
+    if (s <= 0) {
+      const rgb = round(l * 255);
+      this.r = rgb;
+      this.g = rgb;
+      this.b = rgb;
+    }
+    let r2 = 0, g = 0, b = 0;
+    const huePrime = h2 / 60;
+    const chroma = (1 - Math.abs(2 * l - 1)) * s;
+    const secondComponent = chroma * (1 - Math.abs(huePrime % 2 - 1));
+    if (huePrime >= 0 && huePrime < 1) {
+      r2 = chroma;
+      g = secondComponent;
+    } else if (huePrime >= 1 && huePrime < 2) {
+      r2 = secondComponent;
+      g = chroma;
+    } else if (huePrime >= 2 && huePrime < 3) {
+      g = chroma;
+      b = secondComponent;
+    } else if (huePrime >= 3 && huePrime < 4) {
+      g = secondComponent;
+      b = chroma;
+    } else if (huePrime >= 4 && huePrime < 5) {
+      r2 = secondComponent;
+      b = chroma;
+    } else if (huePrime >= 5 && huePrime < 6) {
+      r2 = chroma;
+      b = secondComponent;
+    }
+    const lightnessModification = l - chroma / 2;
+    this.r = round((r2 + lightnessModification) * 255);
+    this.g = round((g + lightnessModification) * 255);
+    this.b = round((b + lightnessModification) * 255);
   }
-  var named = false;
-  if (names[color]) {
-    color = names[color];
-    named = true;
-  } else if (color === "transparent") {
-    return { r: 0, g: 0, b: 0, a: 0, format: "name" };
+  fromHsv({
+    h: h2,
+    s,
+    v,
+    a
+  }) {
+    this._h = h2 % 360;
+    this._s = s;
+    this._v = v;
+    this.a = typeof a === "number" ? a : 1;
+    const vv = round(v * 255);
+    this.r = vv;
+    this.g = vv;
+    this.b = vv;
+    if (s <= 0) {
+      return;
+    }
+    const hh = h2 / 60;
+    const i2 = Math.floor(hh);
+    const ff = hh - i2;
+    const p = round(v * (1 - s) * 255);
+    const q = round(v * (1 - s * ff) * 255);
+    const t2 = round(v * (1 - s * (1 - ff)) * 255);
+    switch (i2) {
+      case 0:
+        this.g = t2;
+        this.b = p;
+        break;
+      case 1:
+        this.r = q;
+        this.b = p;
+        break;
+      case 2:
+        this.r = p;
+        this.b = t2;
+        break;
+      case 3:
+        this.r = p;
+        this.g = q;
+        break;
+      case 4:
+        this.r = t2;
+        this.g = p;
+        break;
+      case 5:
+      default:
+        this.g = p;
+        this.b = q;
+        break;
+    }
   }
-  var match2 = matchers.rgb.exec(color);
-  if (match2) {
-    return { r: match2[1], g: match2[2], b: match2[3] };
+  fromHsvString(trimStr) {
+    const cells = splitColorStr(trimStr, parseHSVorHSL);
+    this.fromHsv({
+      h: cells[0],
+      s: cells[1],
+      v: cells[2],
+      a: cells[3]
+    });
   }
-  match2 = matchers.rgba.exec(color);
-  if (match2) {
-    return { r: match2[1], g: match2[2], b: match2[3], a: match2[4] };
+  fromHslString(trimStr) {
+    const cells = splitColorStr(trimStr, parseHSVorHSL);
+    this.fromHsl({
+      h: cells[0],
+      s: cells[1],
+      l: cells[2],
+      a: cells[3]
+    });
   }
-  match2 = matchers.hsl.exec(color);
-  if (match2) {
-    return { h: match2[1], s: match2[2], l: match2[3] };
+  fromRgbString(trimStr) {
+    const cells = splitColorStr(trimStr, (num, txt) => (
+      // Convert percentage to number. e.g. 50% -> 128
+      txt.includes("%") ? round(num / 100 * 255) : num
+    ));
+    this.r = cells[0];
+    this.g = cells[1];
+    this.b = cells[2];
+    this.a = cells[3];
   }
-  match2 = matchers.hsla.exec(color);
-  if (match2) {
-    return { h: match2[1], s: match2[2], l: match2[3], a: match2[4] };
-  }
-  match2 = matchers.hsv.exec(color);
-  if (match2) {
-    return { h: match2[1], s: match2[2], v: match2[3] };
-  }
-  match2 = matchers.hsva.exec(color);
-  if (match2) {
-    return { h: match2[1], s: match2[2], v: match2[3], a: match2[4] };
-  }
-  match2 = matchers.hex8.exec(color);
-  if (match2) {
-    return {
-      r: parseIntFromHex(match2[1]),
-      g: parseIntFromHex(match2[2]),
-      b: parseIntFromHex(match2[3]),
-      a: convertHexToDecimal(match2[4]),
-      format: named ? "name" : "hex8"
-    };
-  }
-  match2 = matchers.hex6.exec(color);
-  if (match2) {
-    return {
-      r: parseIntFromHex(match2[1]),
-      g: parseIntFromHex(match2[2]),
-      b: parseIntFromHex(match2[3]),
-      format: named ? "name" : "hex"
-    };
-  }
-  match2 = matchers.hex4.exec(color);
-  if (match2) {
-    return {
-      r: parseIntFromHex(match2[1] + match2[1]),
-      g: parseIntFromHex(match2[2] + match2[2]),
-      b: parseIntFromHex(match2[3] + match2[3]),
-      a: convertHexToDecimal(match2[4] + match2[4]),
-      format: named ? "name" : "hex8"
-    };
-  }
-  match2 = matchers.hex3.exec(color);
-  if (match2) {
-    return {
-      r: parseIntFromHex(match2[1] + match2[1]),
-      g: parseIntFromHex(match2[2] + match2[2]),
-      b: parseIntFromHex(match2[3] + match2[3]),
-      format: named ? "name" : "hex"
-    };
-  }
-  return false;
-}
-function isValidCSSUnit(color) {
-  return Boolean(matchers.CSS_UNIT.exec(String(color)));
 }
 var hueStep = 2;
 var saturationStep = 0.16;
@@ -31700,57 +31993,35 @@ var lightColorCount = 5;
 var darkColorCount = 4;
 var darkColorMap = [{
   index: 7,
-  opacity: 0.15
+  amount: 15
 }, {
   index: 6,
-  opacity: 0.25
+  amount: 25
 }, {
   index: 5,
-  opacity: 0.3
+  amount: 30
 }, {
   index: 5,
-  opacity: 0.45
+  amount: 45
 }, {
   index: 5,
-  opacity: 0.65
+  amount: 65
 }, {
   index: 5,
-  opacity: 0.85
+  amount: 85
 }, {
   index: 4,
-  opacity: 0.9
+  amount: 90
 }, {
   index: 3,
-  opacity: 0.95
+  amount: 95
 }, {
   index: 2,
-  opacity: 0.97
+  amount: 97
 }, {
   index: 1,
-  opacity: 0.98
+  amount: 98
 }];
-function toHsv(_ref) {
-  var r2 = _ref.r, g = _ref.g, b = _ref.b;
-  var hsv = rgbToHsv(r2, g, b);
-  return {
-    h: hsv.h * 360,
-    s: hsv.s,
-    v: hsv.v
-  };
-}
-function toHex(_ref2) {
-  var r2 = _ref2.r, g = _ref2.g, b = _ref2.b;
-  return "#".concat(rgbToHex(r2, g, b));
-}
-function mix(rgb1, rgb2, amount) {
-  var p = amount / 100;
-  var rgb = {
-    r: (rgb2.r - rgb1.r) * p + rgb1.r,
-    g: (rgb2.g - rgb1.g) * p + rgb1.g,
-    b: (rgb2.b - rgb1.b) * p + rgb1.b
-  };
-  return rgb;
-}
 function getHue(hsv, i2, light) {
   var hue;
   if (Math.round(hsv.h) >= 60 && Math.round(hsv.h) <= 240) {
@@ -31786,7 +32057,7 @@ function getSaturation(hsv, i2, light) {
   if (saturation < 0.06) {
     saturation = 0.06;
   }
-  return Number(saturation.toFixed(2));
+  return Math.round(saturation * 100) / 100;
 }
 function getValue(hsv, i2, light) {
   var value;
@@ -31795,42 +32066,40 @@ function getValue(hsv, i2, light) {
   } else {
     value = hsv.v - brightnessStep2 * i2;
   }
-  if (value > 1) {
-    value = 1;
-  }
-  return Number(value.toFixed(2));
+  value = Math.max(0, Math.min(1, value));
+  return Math.round(value * 100) / 100;
 }
 function generate(color) {
   var opts = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
   var patterns = [];
-  var pColor = inputToRGB(color);
+  var pColor = new FastColor(color);
+  var hsv = pColor.toHsv();
   for (var i2 = lightColorCount; i2 > 0; i2 -= 1) {
-    var hsv = toHsv(pColor);
-    var colorString = toHex(inputToRGB({
+    var c2 = new FastColor({
       h: getHue(hsv, i2, true),
       s: getSaturation(hsv, i2, true),
       v: getValue(hsv, i2, true)
-    }));
-    patterns.push(colorString);
+    });
+    patterns.push(c2);
   }
-  patterns.push(toHex(pColor));
+  patterns.push(pColor);
   for (var _i = 1; _i <= darkColorCount; _i += 1) {
-    var _hsv = toHsv(pColor);
-    var _colorString = toHex(inputToRGB({
-      h: getHue(_hsv, _i),
-      s: getSaturation(_hsv, _i),
-      v: getValue(_hsv, _i)
-    }));
-    patterns.push(_colorString);
+    var _c = new FastColor({
+      h: getHue(hsv, _i),
+      s: getSaturation(hsv, _i),
+      v: getValue(hsv, _i)
+    });
+    patterns.push(_c);
   }
   if (opts.theme === "dark") {
-    return darkColorMap.map(function(_ref3) {
-      var index = _ref3.index, opacity = _ref3.opacity;
-      var darkColorString = toHex(mix(inputToRGB(opts.backgroundColor || "#141414"), inputToRGB(patterns[index]), opacity * 100));
-      return darkColorString;
+    return darkColorMap.map(function(_ref) {
+      var index = _ref.index, amount = _ref.amount;
+      return new FastColor(opts.backgroundColor || "#141414").mix(patterns[index], amount).toHexString();
     });
   }
-  return patterns;
+  return patterns.map(function(c3) {
+    return c3.toHexString();
+  });
 }
 function mitt(n2) {
   return { all: n2 = n2 || /* @__PURE__ */ new Map(), on: function(t2, e2) {
@@ -32390,7 +32659,7 @@ function hslToRgba(hslValue) {
   var s = parseInt(hsl[2], 10) / 100;
   var l = parseInt(hsl[3], 10) / 100;
   var a = hsl[4] || 1;
-  function hue2rgb2(p2, q2, t2) {
+  function hue2rgb(p2, q2, t2) {
     if (t2 < 0) {
       t2 += 1;
     }
@@ -32414,9 +32683,9 @@ function hslToRgba(hslValue) {
   } else {
     var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
     var p = 2 * l - q;
-    r2 = hue2rgb2(p, q, h2 + 1 / 3);
-    g = hue2rgb2(p, q, h2);
-    b = hue2rgb2(p, q, h2 - 1 / 3);
+    r2 = hue2rgb(p, q, h2 + 1 / 3);
+    g = hue2rgb(p, q, h2);
+    b = hue2rgb(p, q, h2 - 1 / 3);
   }
   return "rgba(" + r2 * 255 + "," + g * 255 + "," + b * 255 + "," + a + ")";
 }
@@ -33032,7 +33301,7 @@ function anime(params) {
       var elapsed = minMax(insTime - tween.start - tween.delay, 0, tween.duration) / tween.duration;
       var eased = isNaN(elapsed) ? 1 : tween.easing(elapsed);
       var strings = tween.to.strings;
-      var round = tween.round;
+      var round2 = tween.round;
       var numbers = [];
       var toNumbersLength = tween.to.numbers.length;
       var progress = void 0;
@@ -33045,9 +33314,9 @@ function anime(params) {
         } else {
           value = getPathProgress(tween.value, eased * toNumber, tween.isPathTargetInsideSVG);
         }
-        if (round) {
+        if (round2) {
           if (!(tween.isColor && n2 > 2)) {
-            value = Math.round(value * round) / round;
+            value = Math.round(value * round2) / round2;
           }
         }
         numbers.push(value);

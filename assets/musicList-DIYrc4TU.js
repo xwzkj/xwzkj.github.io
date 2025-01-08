@@ -1,5 +1,5 @@
-import { an as derived, ag as c, af as cB, ak as cM, ao as useTheme, d as defineComponent, ap as useConfig, c as computed, ay as createKey, aq as useThemeClass, b as ref, ac as watchEffect, h, ah as Transition, aO as _export_sfc, aK as openBlock, aL as createElementBlock, aM as createBaseVNode, aN as createVNode, aP as withCtx, G as Fragment, aT as renderList, aU as toDisplayString, u as unref, aR as createCommentVNode, aQ as createBlock, F as createTextVNode, I as withDirectives, at as vShow, aH as NIcon } from "./font-CXcYbOso.js";
-import { R as fadeInTransition, S as pxfy, d as useCompitable, T as NBaseLoading, u as useUserStore, U as parseArray, W as parseArtist, X as likeAndUpdateLikelist, Y as __unplugin_components_5, Q as __unplugin_components_0, Z as __unplugin_components_2, $ as __unplugin_components_3$1 } from "./index-DwiX7jQM.js";
+import { an as derived, ag as c, af as cB, ak as cM, ao as useTheme, d as defineComponent, ap as useConfig, c as computed, ay as createKey, aq as useThemeClass, b as ref, ac as watchEffect, h, ah as Transition, aQ as _export_sfc, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, aP as createVNode, aR as withCtx, G as Fragment, aV as renderList, aW as toDisplayString, u as unref, aT as createCommentVNode, aS as createBlock, F as createTextVNode, I as withDirectives, at as vShow, aH as NIcon } from "./font-DFOg-pbW.js";
+import { R as fadeInTransition, S as pxfy, d as useCompitable, T as NBaseLoading, u as useUserStore, U as parseArray, W as parseArtist, X as likeAndUpdateLikelist, Y as __unplugin_components_5, Q as __unplugin_components_0, Z as __unplugin_components_2, $ as __unplugin_components_3$1 } from "./index-jAUPAYA6.js";
 function self(vars) {
   const {
     opacityDisabled,
@@ -106,6 +106,7 @@ const spinProps = Object.assign(Object.assign({}, useTheme.props), {
 const __unplugin_components_3 = defineComponent({
   name: "Spin",
   props: spinProps,
+  slots: Object,
   setup(props) {
     const {
       mergedClsPrefixRef,

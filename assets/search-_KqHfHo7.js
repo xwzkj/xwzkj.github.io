@@ -18,11 +18,11 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-DwiX7jQM.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-Bn6TwAB2.js";
-import { i as itemCardList } from "./itemCardList-C3KVV3uf.js";
-import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, C as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, G as Fragment, af as cB, ak as cM, ag as c$1, aj as cE, al as cNotM, ao as useTheme, ap as useConfig, w as watch, z as onMounted, p as provide, l as toRef, ac as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, am as TransitionGroup, av as cloneVNode, aO as _export_sfc, aL as createElementBlock, aM as createBaseVNode, aU as toDisplayString, u as unref, aN as createVNode, aP as withCtx, f as isRef, aK as openBlock, aQ as createBlock } from "./font-CXcYbOso.js";
-import "./Ellipsis-q4V6xPHB.js";
+import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-jAUPAYA6.js";
+import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DIYrc4TU.js";
+import { i as itemCardList } from "./itemCardList-BEWbGC6O.js";
+import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, C as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, G as Fragment, af as cB, ak as cM, ag as c$1, aj as cE, al as cNotM, ao as useTheme, ap as useConfig, w as watch, z as onMounted, p as provide, l as toRef, ac as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, am as TransitionGroup, av as cloneVNode, aQ as _export_sfc, aN as createElementBlock, aO as createBaseVNode, aW as toDisplayString, u as unref, aP as createVNode, aR as withCtx, f as isRef, aM as openBlock, aS as createBlock } from "./font-DFOg-pbW.js";
+import "./Ellipsis-BM6hXD1Z.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"
@@ -371,6 +371,7 @@ const __unplugin_components_1 = defineComponent({
   name: "TabPane",
   alias: ["TabPanel"],
   props: tabPaneProps,
+  slots: Object,
   setup(props) {
     const NTab = inject(tabsInjectionKey, null);
     if (!NTab) {
@@ -917,6 +918,7 @@ const tabsProps = Object.assign(Object.assign({}, useTheme.props), {
 const __unplugin_components_2 = defineComponent({
   name: "Tabs",
   props: tabsProps,
+  slots: Object,
   setup(props, {
     slots
   }) {

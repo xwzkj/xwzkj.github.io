@@ -335,7 +335,7 @@ class ReactiveEffect {
   }
   resume() {
     if (this.flags & 64) {
-      this.flags &= ~64;
+      this.flags &= -65;
       if (pausedQueueEffects.has(this)) {
         pausedQueueEffects.delete(this);
         this.trigger();
@@ -370,7 +370,7 @@ class ReactiveEffect {
       cleanupDeps(this);
       activeSub = prevEffect;
       shouldTrack = prevShouldTrack;
-      this.flags &= ~2;
+      this.flags &= -3;
     }
   }
   stop() {
@@ -381,7 +381,7 @@ class ReactiveEffect {
       this.deps = this.depsTail = void 0;
       cleanupEffect(this);
       this.onStop && this.onStop();
-      this.flags &= ~1;
+      this.flags &= -2;
     }
   }
   trigger() {
@@ -431,7 +431,7 @@ function endBatch() {
     while (e) {
       const next = e.next;
       e.next = void 0;
-      e.flags &= ~8;
+      e.flags &= -9;
       e = next;
     }
   }
@@ -442,7 +442,7 @@ function endBatch() {
     while (e) {
       const next = e.next;
       e.next = void 0;
-      e.flags &= ~8;
+      e.flags &= -9;
       if (e.flags & 1) {
         try {
           ;
@@ -498,7 +498,7 @@ function refreshComputed(computed2) {
   if (computed2.flags & 4 && !(computed2.flags & 16)) {
     return;
   }
-  computed2.flags &= ~16;
+  computed2.flags &= -17;
   if (computed2.globalVersion === globalVersion) {
     return;
   }
@@ -506,7 +506,7 @@ function refreshComputed(computed2) {
   const dep = computed2.dep;
   computed2.flags |= 2;
   if (dep.version > 0 && !computed2.isSSR && computed2.deps && !isDirty(computed2)) {
-    computed2.flags &= ~2;
+    computed2.flags &= -3;
     return;
   }
   const prevSub = activeSub;
@@ -527,7 +527,7 @@ function refreshComputed(computed2) {
     activeSub = prevSub;
     shouldTrack = prevShouldTrack;
     cleanupDeps(computed2);
-    computed2.flags &= ~2;
+    computed2.flags &= -3;
   }
 }
 function removeSub(link, soft = false) {
@@ -543,7 +543,7 @@ function removeSub(link, soft = false) {
   if (dep.subs === link) {
     dep.subs = prevSub;
     if (!prevSub && dep.computed) {
-      dep.computed.flags &= ~4;
+      dep.computed.flags &= -5;
       for (let l = dep.computed.deps; l; l = l.nextDep) {
         removeSub(l, true);
       }
@@ -1991,11 +1991,11 @@ function flushPreFlushCbs(instance, seen, i = flushIndex + 1) {
       queue.splice(i, 1);
       i--;
       if (cb.flags & 4) {
-        cb.flags &= ~1;
+        cb.flags &= -2;
       }
       cb();
       if (!(cb.flags & 4)) {
-        cb.flags &= ~1;
+        cb.flags &= -2;
       }
     }
   }
@@ -2014,10 +2014,10 @@ function flushPostFlushCbs(seen) {
     for (postFlushIndex = 0; postFlushIndex < activePostFlushCbs.length; postFlushIndex++) {
       const cb = activePostFlushCbs[postFlushIndex];
       if (cb.flags & 4) {
-        cb.flags &= ~1;
+        cb.flags &= -2;
       }
       if (!(cb.flags & 8)) cb();
-      cb.flags &= ~1;
+      cb.flags &= -2;
     }
     activePostFlushCbs = null;
     postFlushIndex = 0;
@@ -2047,7 +2047,7 @@ function flushJobs(seen) {
     for (; flushIndex < queue.length; flushIndex++) {
       const job = queue[flushIndex];
       if (job) {
-        job.flags &= ~1;
+        job.flags &= -2;
       }
     }
     flushIndex = -1;
@@ -3065,7 +3065,7 @@ const KeepAliveImpl = {
       );
       const { include, exclude, max } = props;
       if (include && (!name || !matches(include, name)) || exclude && name && matches(exclude, name)) {
-        vnode.shapeFlag &= ~256;
+        vnode.shapeFlag &= -257;
         current = vnode;
         return rawVNode;
       }
@@ -3152,8 +3152,8 @@ function injectToKeepAliveRoot(hook, type, target, keepAliveRoot) {
   }, target);
 }
 function resetShapeFlag(vnode) {
-  vnode.shapeFlag &= ~256;
-  vnode.shapeFlag &= ~512;
+  vnode.shapeFlag &= -257;
+  vnode.shapeFlag &= -513;
 }
 function getInnerChild(vnode) {
   return vnode.shapeFlag & 128 ? vnode.ssContent : vnode;
@@ -3890,9 +3890,7 @@ function createAppAPI(render2, hydrate) {
           } else if (namespace2 === false) {
             namespace2 = void 0;
           }
-          if (isHydrate && hydrate) {
-            hydrate(vnode, rootContainer);
-          } else {
+          {
             render2(vnode, rootContainer, namespace2);
           }
           isMounted = true;
@@ -4913,27 +4911,7 @@ function baseCreateRenderer(options, createHydrationFns) {
           invokeVNodeHook(vnodeHook, parent, initialVNode);
         }
         toggleRecurse(instance, true);
-        if (el && hydrateNode) {
-          const hydrateSubTree = () => {
-            instance.subTree = renderComponentRoot(instance);
-            hydrateNode(
-              el,
-              instance.subTree,
-              instance,
-              parentSuspense,
-              null
-            );
-          };
-          if (isAsyncWrapperVNode && type.__asyncHydrate) {
-            type.__asyncHydrate(
-              el,
-              instance,
-              hydrateSubTree
-            );
-          } else {
-            hydrateSubTree();
-          }
-        } else {
+        {
           if (root2.ce) {
             root2.ce._injectChildStyle(type);
           }
@@ -5570,11 +5548,10 @@ function baseCreateRenderer(options, createHydrationFns) {
     o: options
   };
   let hydrate;
-  let hydrateNode;
   return {
     render: render2,
     hydrate,
-    createApp: createAppAPI(render2, hydrate)
+    createApp: createAppAPI(render2)
   };
 }
 function resolveChildrenNamespace({ type, props }, currentNamespace) {
@@ -5585,8 +5562,8 @@ function toggleRecurse({ effect: effect2, job }, allowed) {
     effect2.flags |= 32;
     job.flags |= 4;
   } else {
-    effect2.flags &= ~32;
-    job.flags &= ~4;
+    effect2.flags &= -33;
+    job.flags &= -5;
   }
 }
 function needTransition(parentSuspense, transition) {
@@ -6567,7 +6544,7 @@ function setupStatefulComponent(instance, isSSR) {
       setupResult.then(unsetCurrentInstance, unsetCurrentInstance);
       if (isSSR) {
         return setupResult.then((resolvedResult) => {
-          handleSetupResult(instance, resolvedResult, isSSR);
+          handleSetupResult(instance, resolvedResult);
         }).catch((e) => {
           handleError(e, instance, 0);
         });
@@ -6575,10 +6552,10 @@ function setupStatefulComponent(instance, isSSR) {
         instance.asyncDep = setupResult;
       }
     } else {
-      handleSetupResult(instance, setupResult, isSSR);
+      handleSetupResult(instance, setupResult);
     }
   } else {
-    finishComponentSetup(instance, isSSR);
+    finishComponentSetup(instance);
   }
 }
 function handleSetupResult(instance, setupResult, isSSR) {
@@ -6591,30 +6568,11 @@ function handleSetupResult(instance, setupResult, isSSR) {
   } else if (isObject$1(setupResult)) {
     instance.setupState = proxyRefs(setupResult);
   } else ;
-  finishComponentSetup(instance, isSSR);
+  finishComponentSetup(instance);
 }
-let compile;
 function finishComponentSetup(instance, isSSR, skipOptions) {
   const Component = instance.type;
   if (!instance.render) {
-    if (!isSSR && compile && !Component.render) {
-      const template = Component.template || resolveMergedOptions(instance).template;
-      if (template) {
-        const { isCustomElement, compilerOptions } = instance.appContext.config;
-        const { delimiters, compilerOptions: componentCompilerOptions } = Component;
-        const finalCompilerOptions = extend(
-          extend(
-            {
-              isCustomElement,
-              delimiters
-            },
-            compilerOptions
-          ),
-          componentCompilerOptions
-        );
-        Component.render = compile(template, finalCompilerOptions);
-      }
-    }
     instance.render = Component.render || NOOP;
   }
   {
@@ -7699,7 +7657,7 @@ function plugin$1(options) {
   let _ePrefix = "__";
   let _mPrefix = "--";
   let c2;
-  if (options) {
+  {
     let t = options.blockPrefix;
     if (t) {
       _bPrefix = t;
@@ -9988,7 +9946,7 @@ export {
   MapCache as Z,
   toSource as _,
   shallowReactive as a,
-  resolveDynamicComponent as a$,
+  KeepAlive as a$,
   eq as a0,
   Uint8Array as a1,
   isBuffer as a2,
@@ -10008,24 +9966,24 @@ export {
   createTheme as aG,
   NIcon as aH,
   throwError as aI,
-  onBeforeUpdate as aJ,
-  openBlock as aK,
-  createElementBlock as aL,
-  createBaseVNode as aM,
-  createVNode as aN,
-  _export_sfc as aO,
-  withCtx as aP,
-  createBlock as aQ,
-  createCommentVNode as aR,
-  useCssVars as aS,
-  renderList as aT,
-  toDisplayString as aU,
-  MarqueePlus as aV,
-  normalizeClass as aW,
-  lyricLine as aX,
-  withModifiers as aY,
-  resolveComponent as aZ,
-  KeepAlive as a_,
+  onUnmounted as aJ,
+  normalizeClass as aK,
+  onBeforeUpdate as aL,
+  openBlock as aM,
+  createElementBlock as aN,
+  createBaseVNode as aO,
+  createVNode as aP,
+  _export_sfc as aQ,
+  withCtx as aR,
+  createBlock as aS,
+  createCommentVNode as aT,
+  useCssVars as aU,
+  renderList as aV,
+  toDisplayString as aW,
+  MarqueePlus as aX,
+  lyricLine as aY,
+  withModifiers as aZ,
+  resolveComponent as a_,
   baseFor as aa,
   configProviderInjectionKey as ab,
   watchEffect as ac,
@@ -10053,20 +10011,21 @@ export {
   createKey as ay,
   composite as az,
   ref as b,
-  createApp as b0,
-  normalizeStyle as b1,
-  useMergedClsPrefix as b2,
-  toHexaString as b3,
-  rgba as b4,
-  toHslaString as b5,
-  toHsvaString as b6,
-  toRgbaString as b7,
-  hsla as b8,
-  hsva as b9,
-  toHexString as ba,
-  toHslString as bb,
-  toRgbString as bc,
-  toHsvString as bd,
+  resolveDynamicComponent as b0,
+  createApp as b1,
+  normalizeStyle as b2,
+  useMergedClsPrefix as b3,
+  toHexaString as b4,
+  rgba as b5,
+  toHslaString as b6,
+  toHsvaString as b7,
+  toRgbaString as b8,
+  hsla as b9,
+  hsva as ba,
+  toHexString as bb,
+  toHslString as bc,
+  toRgbString as bd,
+  toHsvString as be,
   computed as c,
   defineComponent as d,
   effectScope as e,
