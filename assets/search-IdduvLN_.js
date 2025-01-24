@@ -18,11 +18,12 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch } from "./index-jAUPAYA6.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DIYrc4TU.js";
-import { i as itemCardList } from "./itemCardList-BEWbGC6O.js";
-import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, C as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, G as Fragment, af as cB, ak as cM, ag as c$1, aj as cE, al as cNotM, ao as useTheme, ap as useConfig, w as watch, z as onMounted, p as provide, l as toRef, ac as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, am as TransitionGroup, av as cloneVNode, aQ as _export_sfc, aN as createElementBlock, aO as createBaseVNode, aW as toDisplayString, u as unref, aP as createVNode, aR as withCtx, f as isRef, aM as openBlock, aS as createBlock } from "./font-DFOg-pbW.js";
-import "./Ellipsis-BM6hXD1Z.js";
+import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch, q as error } from "./index-CPdd-JBW.js";
+import { m as musicList } from "./musicList-BTY1h1Gt.js";
+import { i as itemCardList } from "./itemCardList-BKLqxI3C.js";
+import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, C as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, G as Fragment, af as cB, ak as cM, ag as c$1, aj as cE, al as cNotM, ao as useTheme, ap as useConfig, w as watch, z as onMounted, p as provide, l as toRef, ac as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, am as TransitionGroup, av as cloneVNode, aN as createElementBlock, aO as createBaseVNode, aW as toDisplayString, u as unref, aP as createVNode, aR as withCtx, f as isRef, aM as openBlock, aS as createBlock } from "./font-C2vBqXpS.js";
+import { _ as __unplugin_components_0 } from "./Spin-DuaC2G2L.js";
+import "./Ellipsis-DZxnGMN1.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"
@@ -1741,10 +1742,10 @@ const _sfc_main = {
     let currentTab = ref("song");
     let result = ref({});
     watch(props, (value) => {
-      search2();
+      search();
     }, { deep: true });
     onMounted(() => {
-      search2();
+      search();
     });
     let tabChange = (value) => __async(this, null, function* () {
       switch (value) {
@@ -1754,12 +1755,21 @@ const _sfc_main = {
           break;
       }
     });
-    function search2() {
+    function search() {
       return __async(this, null, function* () {
-        result.value = {};
-        currentTab.value = "song";
-        let res = yield cloudsearch(props.keyword);
-        result.value.song = res.data.result.songs;
+        var _a, _b;
+        try {
+          result.value = {};
+          currentTab.value = "song";
+          let res = yield cloudsearch(props.keyword);
+          result.value.song = (_b = (_a = res.data) == null ? void 0 : _a.result) == null ? void 0 : _b.songs;
+          if (!result.value.song) {
+            throw new Error("暂无搜索结果");
+          }
+        } catch (error$1) {
+          error(error$1.message, "搜索遇到问题");
+          result.value.song = result.value.playlist = "这是试图防止一直转圈的字符串";
+        }
       });
     }
     function play(id) {
@@ -1769,7 +1779,7 @@ const _sfc_main = {
       });
     }
     return (_ctx, _cache) => {
-      const _component_n_spin = __unplugin_components_3;
+      const _component_n_spin = __unplugin_components_0;
       const _component_n_tab_pane = __unplugin_components_1;
       const _component_n_tabs = __unplugin_components_2;
       return openBlock(), createElementBlock("div", _hoisted_1, [
@@ -1827,7 +1837,6 @@ const _sfc_main = {
     };
   }
 };
-const search = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-2c50de33"]]);
 export {
-  search as default
+  _sfc_main as default
 };

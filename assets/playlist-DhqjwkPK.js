@@ -18,10 +18,11 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { G as defineStore, H as useSettingStore, I as pinia, J as songUrlV1, K as downloadFile, L as songDetail, M as parseDetailToList, n as usePlayStore, O as recommendSongs, P as playlistDetail, C as Button, Q as __unplugin_components_0 } from "./index-jAUPAYA6.js";
-import { m as musicList, _ as __unplugin_components_3 } from "./musicList-DIYrc4TU.js";
-import { aQ as _export_sfc, b as ref, w as watch, z as onMounted, aN as createElementBlock, u as unref, aO as createBaseVNode, aT as createCommentVNode, aW as toDisplayString, G as Fragment, aV as renderList, aP as createVNode, aR as withCtx, aM as openBlock, aS as createBlock, F as createTextVNode } from "./font-DFOg-pbW.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-BM6hXD1Z.js";
+import { G as defineStore, H as useSettingStore, I as pinia, J as songUrlV1, K as downloadFile, L as songDetail, M as parseDetailToList, n as usePlayStore, O as recommendSongs, P as playlistDetail, C as Button, Q as __unplugin_components_0 } from "./index-CPdd-JBW.js";
+import { m as musicList } from "./musicList-BTY1h1Gt.js";
+import { aQ as _export_sfc, b as ref, w as watch, z as onMounted, aN as createElementBlock, u as unref, aO as createBaseVNode, aT as createCommentVNode, aW as toDisplayString, G as Fragment, aV as renderList, aP as createVNode, aR as withCtx, aM as openBlock, aS as createBlock, F as createTextVNode } from "./font-C2vBqXpS.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-DZxnGMN1.js";
+import { _ as __unplugin_components_0$1 } from "./Spin-DuaC2G2L.js";
 const useDownloadStore = defineStore("download", {
   state: () => ({
     list: [],
@@ -104,7 +105,7 @@ const _hoisted_11 = { class: "playlist-desc playlist-info-item text2" };
 const _hoisted_12 = { class: "playlistControler playlist-info-item flex" };
 const _hoisted_13 = { class: "playlist-musiclist" };
 const _hoisted_14 = {
-  class: "playlist-spin",
+  class: "playlist-spin loading-center",
   key: "playlst-spin"
 };
 const _sfc_main = {
@@ -173,7 +174,7 @@ const _sfc_main = {
       const _component_n_tag = __unplugin_components_0;
       const _component_n_ellipsis = __unplugin_components_1;
       const _component_n_button = Button;
-      const _component_n_spin = __unplugin_components_3;
+      const _component_n_spin = __unplugin_components_0$1;
       return openBlock(), createElementBlock("div", null, [
         unref(result).tracks && !unref(loading) ? (openBlock(), createElementBlock("div", _hoisted_1, [
           createBaseVNode("div", _hoisted_2, [
@@ -253,7 +254,7 @@ const _sfc_main = {
     };
   }
 };
-const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ac7d1bb9"]]);
+const playlist = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-448d9449"]]);
 export {
   playlist as default
 };
