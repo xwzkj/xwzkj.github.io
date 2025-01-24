@@ -1,5 +1,5 @@
 import { an as derived, ag as c, af as cB, ak as cM, ao as useTheme, d as defineComponent, ap as useConfig, c as computed, ay as createKey, aq as useThemeClass, b as ref, ac as watchEffect, h, ah as Transition } from "./font-ZTNtxCOW.js";
-import { al as fadeInTransition, am as pxfy, d as useCompitable, an as NBaseLoading } from "./index-5AoNz056.js";
+import { al as fadeInTransition, am as pxfy, d as useCompitable, an as NBaseLoading } from "./index-IYiL93OU.js";
 function self(vars) {
   const {
     opacityDisabled,
