@@ -18,12 +18,12 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch, q as error } from "./index-CPdd-JBW.js";
-import { m as musicList } from "./musicList-BTY1h1Gt.js";
-import { i as itemCardList } from "./itemCardList-BKLqxI3C.js";
-import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, C as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, G as Fragment, af as cB, ak as cM, ag as c$1, aj as cE, al as cNotM, ao as useTheme, ap as useConfig, w as watch, z as onMounted, p as provide, l as toRef, ac as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, am as TransitionGroup, av as cloneVNode, aN as createElementBlock, aO as createBaseVNode, aW as toDisplayString, u as unref, aP as createVNode, aR as withCtx, f as isRef, aM as openBlock, aS as createBlock } from "./font-C2vBqXpS.js";
-import { _ as __unplugin_components_0 } from "./Spin-DuaC2G2L.js";
-import "./Ellipsis-DZxnGMN1.js";
+import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch, q as error } from "./index-5AoNz056.js";
+import { m as musicList } from "./musicList-Cf9G0My6.js";
+import { i as itemCardList } from "./itemCardList-CaErqwqO.js";
+import { d as defineComponent, b as ref, h, K as useSsrAdapter, a5 as isObject, U as root, an as derived, C as createInjectionKey, i as inject, aI as throwError, c as computed, ar as mergeProps, G as Fragment, af as cB, ak as cM, ag as c$1, aj as cE, al as cNotM, ao as useTheme, ap as useConfig, w as watch, z as onMounted, p as provide, l as toRef, ac as watchEffect, aq as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, am as TransitionGroup, av as cloneVNode, aN as createElementBlock, aO as createBaseVNode, aW as toDisplayString, u as unref, aP as createVNode, aR as withCtx, f as isRef, aM as openBlock, aS as createBlock } from "./font-ZTNtxCOW.js";
+import { _ as __unplugin_components_0 } from "./Spin-BL4h5FX6.js";
+import "./Ellipsis-DpJ_XdnP.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"
