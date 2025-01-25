@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-D4H1XFaO.js","./itemCardList-AtgQPES8.js","./font-ZTNtxCOW.js","./font-Bh99UfT1.css","./Ellipsis-DdpyvU-B.js","./itemCardList-CpfjRlUH.css","./home-Cd2oFn4Z.css","./search-DIIj2vwo.js","./musicList-7s8PKdVp.js","./musicList-nLQAz02W.css","./Spin-DlNyFBje.js","./login-BIhYbfLQ.js","./login-Cg-VrOPR.css","./account-_8oOt0MR.js","./account-BE7gbH9_.css","./playlist-C0QJzZsm.js","./playlist-pRI4gIml.css","./setting-DDXEkuif.js","./setting-BIZfo136.css","./comments-0-RYbfPD.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-CktbXQra.js","./itemCardList-BTvYaGTc.js","./font-B8Y702kK.js","./font-Bh99UfT1.css","./Ellipsis-BrPWnnTU.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-ByeQ-jau.js","./musicList-0JhcgcVr.js","./musicList-nLQAz02W.css","./Spin-DIsCtMJJ.js","./login-ByHjSJ-E.js","./login-Cg-VrOPR.css","./account-BWF6RTVf.js","./account-BE7gbH9_.css","./playlist-NzZkOwwx.js","./playlist-pRI4gIml.css","./setting-BBlWqbnx.js","./setting-BIZfo136.css","./comments-BVKkMsKw.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -98,7 +98,7 @@ var __yieldStar = (value) => {
   }, "return" in obj && method("return"), it;
 };
 var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
-import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, m as markRaw, e as effectScope, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as warn$2, N as isVNode, O as isObjectLike, P as baseGetTag, S as Symbol$1, Q as isArray$2, R as getNative, U as root, V as overArg, W as isPrototype, X as isArrayLike, Y as arrayLikeKeys, Z as MapCache, _ as toSource, $ as Map$1, a0 as eq, a1 as Uint8Array$1, a2 as isBuffer$1, a3 as Stack, a4 as isTypedArray$1, a5 as isObject$1, a6 as isLength, a7 as isIndex, a8 as isArguments, a9 as identity, aa as baseFor, ab as configProviderInjectionKey, ac as watchEffect, ad as cssrAnchorMetaName$1, ae as globalStyle, af as cB, ag as c$1, ah as Transition, ai as commonVariables$7, aj as cE, ak as cM, al as cNotM, am as TransitionGroup, an as derived, ao as useTheme, ap as useConfig, aq as useThemeClass, ar as mergeProps, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onUnmounted, aK as normalizeClass, aL as onBeforeUpdate, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as renderList, aW as toDisplayString, aX as MarqueePlus, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-ZTNtxCOW.js";
+import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, m as markRaw, e as effectScope, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, S as Symbol$1, R as isArray$2, U as getNative, V as root, W as overArg, X as isPrototype, Y as isArrayLike, Z as arrayLikeKeys, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useTheme, aq as useConfig, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onUnmounted, aK as normalizeClass, aL as onBeforeUpdate, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-B8Y702kK.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -2047,7 +2047,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-D4H1XFaO.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-CktbXQra.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2058,7 +2058,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DIIj2vwo.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-ByeQ-jau.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2069,7 +2069,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BIhYbfLQ.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-ByHjSJ-E.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2077,7 +2077,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-_8oOt0MR.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-BWF6RTVf.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2088,7 +2088,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-C0QJzZsm.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-NzZkOwwx.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2099,7 +2099,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DDXEkuif.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BBlWqbnx.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2110,7 +2110,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-0-RYbfPD.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-BVKkMsKw.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -3796,6 +3796,94 @@ function warn(location2, message) {
 }
 const { c } = CssRender();
 const cssrAnchorMetaName = "vueuc-style";
+function lowBit(n2) {
+  return n2 & -n2;
+}
+class FinweckTree {
+  /**
+   * @param l length of the array
+   * @param min min value of the array
+   */
+  constructor(l, min) {
+    this.l = l;
+    this.min = min;
+    const ft = new Array(l + 1);
+    for (let i2 = 0; i2 < l + 1; ++i2) {
+      ft[i2] = 0;
+    }
+    this.ft = ft;
+  }
+  /**
+   * Add arr[i] by n, start from 0
+   * @param i the index of the element to be added
+   * @param n the value to be added
+   */
+  add(i2, n2) {
+    if (n2 === 0)
+      return;
+    const { l, ft } = this;
+    i2 += 1;
+    while (i2 <= l) {
+      ft[i2] += n2;
+      i2 += lowBit(i2);
+    }
+  }
+  /**
+   * Get the value of index i
+   * @param i index
+   * @returns value of the index
+   */
+  get(i2) {
+    return this.sum(i2 + 1) - this.sum(i2);
+  }
+  /**
+   * Get the sum of first i elements
+   * @param i count of head elements to be added
+   * @returns the sum of first i elements
+   */
+  sum(i2) {
+    if (i2 === void 0)
+      i2 = this.l;
+    if (i2 <= 0)
+      return 0;
+    const { ft, min, l } = this;
+    if (i2 > l)
+      throw new Error("[FinweckTree.sum]: `i` is larger than length.");
+    let ret = i2 * min;
+    while (i2 > 0) {
+      ret += ft[i2];
+      i2 -= lowBit(i2);
+    }
+    return ret;
+  }
+  /**
+   * Get the largest count of head elements whose sum are <= threshold
+   * @param threshold
+   * @returns the largest count of head elements whose sum are <= threshold
+   */
+  getBound(threshold) {
+    let l = 0;
+    let r2 = this.l;
+    while (r2 > l) {
+      const m = Math.floor((l + r2) / 2);
+      const sumM = this.sum(m);
+      if (sumM > threshold) {
+        r2 = m;
+        continue;
+      } else if (sumM < threshold) {
+        if (l === m) {
+          if (this.sum(l + 1) <= threshold)
+            return l + 1;
+          return m;
+        }
+        l = m;
+      } else {
+        return m;
+      }
+    }
+    return l;
+  }
+}
 function resolveTo(selector) {
   if (typeof selector === "string") {
     return document.querySelector(selector);
@@ -4957,6 +5045,566 @@ const VResizeObserver = defineComponent({
   },
   render() {
     return renderSlot(this.$slots, "default");
+  }
+});
+let maybeTouch;
+function ensureMaybeTouch() {
+  if (typeof document === "undefined")
+    return false;
+  if (maybeTouch === void 0) {
+    if ("matchMedia" in window) {
+      maybeTouch = window.matchMedia("(pointer:coarse)").matches;
+    } else {
+      maybeTouch = false;
+    }
+  }
+  return maybeTouch;
+}
+let wheelScale;
+function ensureWheelScale() {
+  if (typeof document === "undefined")
+    return 1;
+  if (wheelScale === void 0) {
+    wheelScale = "chrome" in window ? window.devicePixelRatio : 1;
+  }
+  return wheelScale;
+}
+const xScrollInjextionKey = "VVirtualListXScroll";
+function setupXScroll({ columnsRef, renderColRef, renderItemWithColsRef }) {
+  const listWidthRef = ref(0);
+  const scrollLeftRef = ref(0);
+  const xFinweckTreeRef = computed(() => {
+    const columns = columnsRef.value;
+    if (columns.length === 0) {
+      return null;
+    }
+    const ft = new FinweckTree(columns.length, 0);
+    columns.forEach((column, index) => {
+      ft.add(index, column.width);
+    });
+    return ft;
+  });
+  const startIndexRef = useMemo(() => {
+    const xFinweckTree = xFinweckTreeRef.value;
+    if (xFinweckTree !== null) {
+      return Math.max(xFinweckTree.getBound(scrollLeftRef.value) - 1, 0);
+    } else {
+      return 0;
+    }
+  });
+  const getLeft = (index) => {
+    const xFinweckTree = xFinweckTreeRef.value;
+    if (xFinweckTree !== null) {
+      return xFinweckTree.sum(index);
+    } else {
+      return 0;
+    }
+  };
+  const endIndexRef = useMemo(() => {
+    const xFinweckTree = xFinweckTreeRef.value;
+    if (xFinweckTree !== null) {
+      return Math.min(xFinweckTree.getBound(scrollLeftRef.value + listWidthRef.value) + 1, columnsRef.value.length - 1);
+    } else {
+      return 0;
+    }
+  });
+  provide(xScrollInjextionKey, {
+    startIndexRef,
+    endIndexRef,
+    columnsRef,
+    renderColRef,
+    renderItemWithColsRef,
+    getLeft
+  });
+  return {
+    listWidthRef,
+    scrollLeftRef
+  };
+}
+const VirtualListRow = defineComponent({
+  name: "VirtualListRow",
+  props: {
+    index: { type: Number, required: true },
+    item: {
+      type: Object,
+      required: true
+    }
+  },
+  setup() {
+    const { startIndexRef, endIndexRef, columnsRef, getLeft, renderColRef, renderItemWithColsRef } = (
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+      inject(xScrollInjextionKey)
+    );
+    return {
+      startIndex: startIndexRef,
+      endIndex: endIndexRef,
+      columns: columnsRef,
+      renderCol: renderColRef,
+      renderItemWithCols: renderItemWithColsRef,
+      getLeft
+    };
+  },
+  render() {
+    const { startIndex, endIndex, columns, renderCol, renderItemWithCols, getLeft, item } = this;
+    if (renderItemWithCols != null) {
+      return renderItemWithCols({
+        itemIndex: this.index,
+        startColIndex: startIndex,
+        endColIndex: endIndex,
+        allColumns: columns,
+        item,
+        getLeft
+      });
+    }
+    if (renderCol != null) {
+      const items = [];
+      for (let i2 = startIndex; i2 <= endIndex; ++i2) {
+        const column = columns[i2];
+        items.push(renderCol({ column, left: getLeft(i2), item }));
+      }
+      return items;
+    }
+    return null;
+  }
+});
+const styles = c(".v-vl", {
+  maxHeight: "inherit",
+  height: "100%",
+  overflow: "auto",
+  minWidth: "1px"
+  // a zero width container won't be scrollable
+}, [
+  c("&:not(.v-vl--show-scrollbar)", {
+    scrollbarWidth: "none"
+  }, [
+    c("&::-webkit-scrollbar, &::-webkit-scrollbar-track-piece, &::-webkit-scrollbar-thumb", {
+      width: 0,
+      height: 0,
+      display: "none"
+    })
+  ])
+]);
+const VVirtualList = defineComponent({
+  name: "VirtualList",
+  inheritAttrs: false,
+  props: {
+    showScrollbar: {
+      type: Boolean,
+      default: true
+    },
+    columns: {
+      type: Array,
+      default: () => []
+    },
+    renderCol: Function,
+    renderItemWithCols: Function,
+    items: {
+      type: Array,
+      default: () => []
+    },
+    // it is suppose to be the min height
+    itemSize: {
+      type: Number,
+      required: true
+    },
+    itemResizable: Boolean,
+    itemsStyle: [String, Object],
+    visibleItemsTag: {
+      type: [String, Object],
+      default: "div"
+    },
+    visibleItemsProps: Object,
+    ignoreItemResize: Boolean,
+    onScroll: Function,
+    onWheel: Function,
+    onResize: Function,
+    defaultScrollKey: [Number, String],
+    defaultScrollIndex: Number,
+    keyField: {
+      type: String,
+      default: "key"
+    },
+    // Whether it is a good API?
+    // ResizeObserver + footer & header is not enough.
+    // Too complex for simple case
+    paddingTop: {
+      type: [Number, String],
+      default: 0
+    },
+    paddingBottom: {
+      type: [Number, String],
+      default: 0
+    }
+  },
+  setup(props) {
+    const ssrAdapter = useSsrAdapter();
+    styles.mount({
+      id: "vueuc/virtual-list",
+      head: true,
+      anchorMetaName: cssrAnchorMetaName,
+      ssr: ssrAdapter
+    });
+    onMounted(() => {
+      const { defaultScrollIndex, defaultScrollKey } = props;
+      if (defaultScrollIndex !== void 0 && defaultScrollIndex !== null) {
+        scrollTo({ index: defaultScrollIndex });
+      } else if (defaultScrollKey !== void 0 && defaultScrollKey !== null) {
+        scrollTo({ key: defaultScrollKey });
+      }
+    });
+    let isDeactivated = false;
+    let activateStateInitialized = false;
+    onActivated(() => {
+      isDeactivated = false;
+      if (!activateStateInitialized) {
+        activateStateInitialized = true;
+        return;
+      }
+      scrollTo({ top: scrollTopRef.value, left: scrollLeftRef.value });
+    });
+    onDeactivated(() => {
+      isDeactivated = true;
+      if (!activateStateInitialized) {
+        activateStateInitialized = true;
+      }
+    });
+    const totalWidthRef = useMemo(() => {
+      if (props.renderCol == null && props.renderItemWithCols == null) {
+        return void 0;
+      }
+      if (props.columns.length === 0)
+        return void 0;
+      let width = 0;
+      props.columns.forEach((column) => {
+        width += column.width;
+      });
+      return width;
+    });
+    const keyIndexMapRef = computed(() => {
+      const map2 = /* @__PURE__ */ new Map();
+      const { keyField } = props;
+      props.items.forEach((item, index) => {
+        map2.set(item[keyField], index);
+      });
+      return map2;
+    });
+    const { scrollLeftRef, listWidthRef } = setupXScroll({
+      columnsRef: toRef(props, "columns"),
+      renderColRef: toRef(props, "renderCol"),
+      renderItemWithColsRef: toRef(props, "renderItemWithCols")
+    });
+    const listElRef = ref(null);
+    const listHeightRef = ref(void 0);
+    const keyToHeightOffset = /* @__PURE__ */ new Map();
+    const finweckTreeRef = computed(() => {
+      const { items, itemSize, keyField } = props;
+      const ft = new FinweckTree(items.length, itemSize);
+      items.forEach((item, index) => {
+        const key = item[keyField];
+        const heightOffset = keyToHeightOffset.get(key);
+        if (heightOffset !== void 0) {
+          ft.add(index, heightOffset);
+        }
+      });
+      return ft;
+    });
+    const finweckTreeUpdateTrigger = ref(0);
+    const scrollTopRef = ref(0);
+    const startIndexRef = useMemo(() => {
+      return Math.max(finweckTreeRef.value.getBound(scrollTopRef.value - depx(props.paddingTop)) - 1, 0);
+    });
+    const viewportItemsRef = computed(() => {
+      const { value: listHeight } = listHeightRef;
+      if (listHeight === void 0)
+        return [];
+      const { items, itemSize } = props;
+      const startIndex = startIndexRef.value;
+      const endIndex = Math.min(startIndex + Math.ceil(listHeight / itemSize + 1), items.length - 1);
+      const viewportItems = [];
+      for (let i2 = startIndex; i2 <= endIndex; ++i2) {
+        viewportItems.push(items[i2]);
+      }
+      return viewportItems;
+    });
+    const scrollTo = (options, y) => {
+      if (typeof options === "number") {
+        scrollToPosition2(options, y, "auto");
+        return;
+      }
+      const { left, top, index, key, position, behavior, debounce: debounce2 = true } = options;
+      if (left !== void 0 || top !== void 0) {
+        scrollToPosition2(left, top, behavior);
+      } else if (index !== void 0) {
+        scrollToIndex(index, behavior, debounce2);
+      } else if (key !== void 0) {
+        const toIndex = keyIndexMapRef.value.get(key);
+        if (toIndex !== void 0)
+          scrollToIndex(toIndex, behavior, debounce2);
+      } else if (position === "bottom") {
+        scrollToPosition2(0, Number.MAX_SAFE_INTEGER, behavior);
+      } else if (position === "top") {
+        scrollToPosition2(0, 0, behavior);
+      }
+    };
+    let anchorIndex;
+    let anchorTimerId = null;
+    function scrollToIndex(index, behavior, debounce2) {
+      const { value: ft } = finweckTreeRef;
+      const targetTop = ft.sum(index) + depx(props.paddingTop);
+      if (!debounce2) {
+        listElRef.value.scrollTo({
+          left: 0,
+          top: targetTop,
+          behavior
+        });
+      } else {
+        anchorIndex = index;
+        if (anchorTimerId !== null) {
+          window.clearTimeout(anchorTimerId);
+        }
+        anchorTimerId = window.setTimeout(() => {
+          anchorIndex = void 0;
+          anchorTimerId = null;
+        }, 16);
+        const { scrollTop, offsetHeight } = listElRef.value;
+        if (targetTop > scrollTop) {
+          const itemSize = ft.get(index);
+          if (targetTop + itemSize <= scrollTop + offsetHeight) ;
+          else {
+            listElRef.value.scrollTo({
+              left: 0,
+              top: targetTop + itemSize - offsetHeight,
+              behavior
+            });
+          }
+        } else {
+          listElRef.value.scrollTo({
+            left: 0,
+            top: targetTop,
+            behavior
+          });
+        }
+      }
+    }
+    function scrollToPosition2(left, top, behavior) {
+      listElRef.value.scrollTo({
+        left,
+        top,
+        behavior
+      });
+    }
+    function handleItemResize(key, entry) {
+      var _a, _b, _c;
+      if (isDeactivated)
+        return;
+      if (props.ignoreItemResize)
+        return;
+      if (isHideByVShow(entry.target))
+        return;
+      const { value: ft } = finweckTreeRef;
+      const index = keyIndexMapRef.value.get(key);
+      const previousHeight = ft.get(index);
+      const height = (_c = (_b = (_a = entry.borderBoxSize) === null || _a === void 0 ? void 0 : _a[0]) === null || _b === void 0 ? void 0 : _b.blockSize) !== null && _c !== void 0 ? _c : entry.contentRect.height;
+      if (height === previousHeight)
+        return;
+      const offset = height - props.itemSize;
+      if (offset === 0) {
+        keyToHeightOffset.delete(key);
+      } else {
+        keyToHeightOffset.set(key, height - props.itemSize);
+      }
+      const delta = height - previousHeight;
+      if (delta === 0)
+        return;
+      ft.add(index, delta);
+      const listEl = listElRef.value;
+      if (listEl != null) {
+        if (anchorIndex === void 0) {
+          const previousHeightSum = ft.sum(index);
+          if (listEl.scrollTop > previousHeightSum) {
+            listEl.scrollBy(0, delta);
+          }
+        } else {
+          if (index < anchorIndex) {
+            listEl.scrollBy(0, delta);
+          } else if (index === anchorIndex) {
+            const previousHeightSum = ft.sum(index);
+            if (height + previousHeightSum > // Note, listEl shouldn't have border, nor offsetHeight won't be
+            // correct
+            listEl.scrollTop + listEl.offsetHeight) {
+              listEl.scrollBy(0, delta);
+            }
+          }
+        }
+        syncViewport();
+      }
+      finweckTreeUpdateTrigger.value++;
+    }
+    const mayUseWheel = !ensureMaybeTouch();
+    let wheelCatched = false;
+    function handleListScroll(e2) {
+      var _a;
+      (_a = props.onScroll) === null || _a === void 0 ? void 0 : _a.call(props, e2);
+      if (!mayUseWheel || !wheelCatched) {
+        syncViewport();
+      }
+    }
+    function handleListWheel(e2) {
+      var _a;
+      (_a = props.onWheel) === null || _a === void 0 ? void 0 : _a.call(props, e2);
+      if (mayUseWheel) {
+        const listEl = listElRef.value;
+        if (listEl != null) {
+          if (e2.deltaX === 0) {
+            if (listEl.scrollTop === 0 && e2.deltaY <= 0) {
+              return;
+            }
+            if (listEl.scrollTop + listEl.offsetHeight >= listEl.scrollHeight && e2.deltaY >= 0) {
+              return;
+            }
+          }
+          e2.preventDefault();
+          listEl.scrollTop += e2.deltaY / ensureWheelScale();
+          listEl.scrollLeft += e2.deltaX / ensureWheelScale();
+          syncViewport();
+          wheelCatched = true;
+          beforeNextFrameOnce(() => {
+            wheelCatched = false;
+          });
+        }
+      }
+    }
+    function handleListResize(entry) {
+      if (isDeactivated)
+        return;
+      if (isHideByVShow(entry.target))
+        return;
+      if (props.renderCol == null && props.renderItemWithCols == null) {
+        if (entry.contentRect.height === listHeightRef.value)
+          return;
+      } else {
+        if (entry.contentRect.height === listHeightRef.value && entry.contentRect.width === listWidthRef.value) {
+          return;
+        }
+      }
+      listHeightRef.value = entry.contentRect.height;
+      listWidthRef.value = entry.contentRect.width;
+      const { onResize } = props;
+      if (onResize !== void 0)
+        onResize(entry);
+    }
+    function syncViewport() {
+      const { value: listEl } = listElRef;
+      if (listEl == null)
+        return;
+      scrollTopRef.value = listEl.scrollTop;
+      scrollLeftRef.value = listEl.scrollLeft;
+    }
+    function isHideByVShow(el) {
+      let cursor = el;
+      while (cursor !== null) {
+        if (cursor.style.display === "none")
+          return true;
+        cursor = cursor.parentElement;
+      }
+      return false;
+    }
+    return {
+      listHeight: listHeightRef,
+      listStyle: {
+        overflow: "auto"
+      },
+      keyToIndex: keyIndexMapRef,
+      itemsStyle: computed(() => {
+        const { itemResizable } = props;
+        const height = pxfy(finweckTreeRef.value.sum());
+        finweckTreeUpdateTrigger.value;
+        return [
+          props.itemsStyle,
+          {
+            boxSizing: "content-box",
+            width: pxfy(totalWidthRef.value),
+            height: itemResizable ? "" : height,
+            minHeight: itemResizable ? height : "",
+            paddingTop: pxfy(props.paddingTop),
+            paddingBottom: pxfy(props.paddingBottom)
+          }
+        ];
+      }),
+      visibleItemsStyle: computed(() => {
+        finweckTreeUpdateTrigger.value;
+        return {
+          transform: `translateY(${pxfy(finweckTreeRef.value.sum(startIndexRef.value))})`
+        };
+      }),
+      viewportItems: viewportItemsRef,
+      listElRef,
+      itemsElRef: ref(null),
+      scrollTo,
+      handleListResize,
+      handleListScroll,
+      handleListWheel,
+      handleItemResize
+    };
+  },
+  render() {
+    const { itemResizable, keyField, keyToIndex, visibleItemsTag } = this;
+    return h(VResizeObserver, {
+      onResize: this.handleListResize
+    }, {
+      default: () => {
+        var _a, _b;
+        return h("div", mergeProps(this.$attrs, {
+          class: ["v-vl", this.showScrollbar && "v-vl--show-scrollbar"],
+          onScroll: this.handleListScroll,
+          onWheel: this.handleListWheel,
+          ref: "listElRef"
+        }), [
+          this.items.length !== 0 ? h("div", {
+            ref: "itemsElRef",
+            class: "v-vl-items",
+            style: this.itemsStyle
+          }, [
+            h(visibleItemsTag, Object.assign({
+              class: "v-vl-visible-items",
+              style: this.visibleItemsStyle
+            }, this.visibleItemsProps), {
+              default: () => {
+                const { renderCol, renderItemWithCols } = this;
+                return this.viewportItems.map((item) => {
+                  const key = item[keyField];
+                  const index = keyToIndex.get(key);
+                  const renderedCols = renderCol != null ? h(VirtualListRow, {
+                    index,
+                    item
+                  }) : void 0;
+                  const renderedItemWithCols = renderItemWithCols != null ? h(VirtualListRow, {
+                    index,
+                    item
+                  }) : void 0;
+                  const itemVNode = this.$slots.default({
+                    item,
+                    renderedCols,
+                    renderedItemWithCols,
+                    index
+                  })[0];
+                  if (itemResizable) {
+                    return h(VResizeObserver, {
+                      key,
+                      onResize: (entry) => this.handleItemResize(key, entry)
+                    }, {
+                      default: () => itemVNode
+                    });
+                  }
+                  itemVNode.key = key;
+                  return itemVNode;
+                });
+              }
+            })
+          ]) : (_b = (_a = this.$slots).empty) === null || _b === void 0 ? void 0 : _b.call(_a)
+        ]);
+      }
+    });
   }
 });
 const hiddenAttr = "v-hidden";
@@ -20793,6 +21441,136 @@ const __unplugin_components_5$2 = defineComponent({
     }, typeof mark.label === "function" ? mark.label() : mark.label))) : null));
   }
 });
+const virtualListProps = {
+  scrollbarProps: Object,
+  items: {
+    type: Array,
+    default: () => []
+  },
+  itemSize: {
+    type: Number,
+    required: true
+  },
+  itemResizable: Boolean,
+  itemsStyle: [String, Object],
+  visibleItemsTag: {
+    type: [String, Object],
+    default: "div"
+  },
+  visibleItemsProps: Object,
+  ignoreItemResize: Boolean,
+  onScroll: Function,
+  onWheel: Function,
+  onResize: Function,
+  defaultScrollKey: [Number, String],
+  defaultScrollIndex: Number,
+  keyField: {
+    type: String,
+    default: "key"
+  },
+  paddingTop: {
+    type: [Number, String],
+    default: 0
+  },
+  paddingBottom: {
+    type: [Number, String],
+    default: 0
+  }
+};
+const NVirtualList = defineComponent({
+  name: "VirtualList",
+  props: virtualListProps,
+  setup(props) {
+    const scrollbarInstRef = ref(null);
+    const virtualListInstRef = ref(null);
+    function syncScrollbar() {
+      const {
+        value: scrollbarInst
+      } = scrollbarInstRef;
+      if (scrollbarInst) scrollbarInst.sync();
+    }
+    function handleScroll(e2) {
+      var _a;
+      syncScrollbar();
+      (_a = props.onScroll) === null || _a === void 0 ? void 0 : _a.call(props, e2);
+    }
+    function handleResize(e2) {
+      var _a;
+      syncScrollbar();
+      (_a = props.onResize) === null || _a === void 0 ? void 0 : _a.call(props, e2);
+    }
+    function handleWheel(e2) {
+      var _a;
+      (_a = props.onWheel) === null || _a === void 0 ? void 0 : _a.call(props, e2);
+    }
+    function scrollTo(options, y) {
+      var _a, _b;
+      if (typeof options === "number") {
+        (_a = virtualListInstRef.value) === null || _a === void 0 ? void 0 : _a.scrollTo(options, y !== null && y !== void 0 ? y : 0);
+      } else {
+        (_b = virtualListInstRef.value) === null || _b === void 0 ? void 0 : _b.scrollTo(options);
+      }
+    }
+    function getScrollContainer() {
+      var _a;
+      return (_a = virtualListInstRef.value) === null || _a === void 0 ? void 0 : _a.listElRef;
+    }
+    function getScrollContent() {
+      var _a;
+      return (_a = virtualListInstRef.value) === null || _a === void 0 ? void 0 : _a.itemsElRef;
+    }
+    return {
+      scrollTo,
+      scrollbarInstRef,
+      virtualListInstRef,
+      getScrollContainer,
+      getScrollContent,
+      handleScroll,
+      handleResize,
+      handleWheel
+    };
+  },
+  render() {
+    return h(XScrollbar, Object.assign({}, this.scrollbarProps, {
+      ref: "scrollbarInstRef",
+      container: this.getScrollContainer,
+      content: this.getScrollContent
+    }), {
+      default: () => {
+        return h(VVirtualList, {
+          ref: "virtualListInstRef",
+          showScrollbar: false,
+          items: this.items,
+          itemSize: this.itemSize,
+          itemResizable: this.itemResizable,
+          itemsStyle: this.itemsStyle,
+          visibleItemsTag: this.visibleItemsTag,
+          visibleItemsProps: this.visibleItemsProps,
+          ignoreItemResize: this.ignoreItemResize,
+          keyField: this.keyField,
+          defaultScrollKey: this.defaultScrollKey,
+          defaultScrollIndex: this.defaultScrollIndex,
+          paddingTop: this.paddingTop,
+          paddingBottom: this.paddingBottom,
+          onScroll: this.handleScroll,
+          onResize: this.handleResize,
+          onWheel: this.handleWheel
+        }, {
+          default: ({
+            item,
+            index
+          }) => {
+            var _a, _b;
+            return (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a, {
+              item,
+              index
+            });
+          }
+        });
+      }
+    });
+  }
+});
 var t = function(t2, r2) {
   return t2 < r2 ? -1 : t2 > r2 ? 1 : 0;
 }, r = function(t2) {
@@ -34188,20 +34966,25 @@ const _hoisted_4$3 = { class: "text" };
 const _hoisted_5$3 = { class: "name text1" };
 const _hoisted_6$2 = { class: "tns text3" };
 const _hoisted_7$2 = { class: "artist text2" };
-const _sfc_main$4 = {
+const _sfc_main$4 = /* @__PURE__ */ defineComponent({
   __name: "playinglist",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "3f54324a": unref(themeStore).mainColors[4] + `a0`,
-      "e178de24": unref(themeStore).mainColors[0] + `80`
+      "60b674d8": unref(themeStore).mainColors[4] + `a0`,
+      "7e926fa7": unref(themeStore).mainColors[0] + `80`,
+      "60b649fa": unref(themeStore).mainColors[4] + `ee`,
+      "12d782bd": unref(themeStore).mainColors[1] + `be`
     }));
     const playStore = usePlayStore();
     const themeStore = useThemeStore();
-    let playinglistScrollbarRef = ref(null);
-    let playinglistItemRef = ref([]);
+    let virtualListRef = ref();
     function play(index) {
       playStore.playWithPlaylistIndex(index);
+      scrollToCurrent();
     }
+    emitter.on("playinglist-scroll", (smooth) => {
+      scrollToCurrent(smooth);
+    });
     onMounted(() => {
       scrollToCurrent(false);
     });
@@ -34209,75 +34992,103 @@ const _sfc_main$4 = {
       scrollToCurrent();
     });
     function scrollToCurrent(smooth = true) {
-      var _a, _b;
-      playinglistScrollbarRef.value.scrollTo({ top: ((_b = (_a = playinglistItemRef.value) == null ? void 0 : _a[playStore.playlistIndex]) == null ? void 0 : _b.offsetTop) - 80, behavior: smooth ? "smooth" : "auto" });
+      return __async(this, null, function* () {
+        var _a, _b, _c, _d, _e;
+        function waitForScroll(time2) {
+          return new Promise((resolve) => {
+            setTimeout(resolve, time2);
+          });
+        }
+        function minmax(n2) {
+          return Math.max(Math.min(n2, playStore.playlist.length - 1), 0);
+        }
+        let index = playStore.playlistIndex;
+        console.log("播放列表 滚动到:", index);
+        (_a = virtualListRef.value) == null ? void 0 : _a.scrollTo({
+          index: minmax(index + 3),
+          behavior: smooth ? "smooth" : "instant"
+        });
+        yield waitForScroll(200);
+        (_b = virtualListRef.value) == null ? void 0 : _b.scrollTo({
+          index: minmax(index + 3),
+          behavior: "instant"
+        });
+        (_c = virtualListRef.value) == null ? void 0 : _c.scrollTo({
+          index: minmax(index - 1),
+          behavior: "instant"
+        });
+        yield waitForScroll(200);
+        (_d = virtualListRef.value) == null ? void 0 : _d.scrollTo({
+          index: minmax(index - 1),
+          behavior: "instant"
+        });
+        (_e = virtualListRef.value) == null ? void 0 : _e.scrollTo({
+          index,
+          behavior: "instant"
+        });
+      });
     }
     return (_ctx, _cache) => {
       const _component_n_tag = __unplugin_components_0$5;
-      const _component_n_scrollbar = Scrollbar;
       return openBlock(), createElementBlock("div", _hoisted_1$4, [
-        createVNode(_component_n_scrollbar, {
-          class: "playinglist-scrollbar",
-          ref_key: "playinglistScrollbarRef",
-          ref: playinglistScrollbarRef
+        createVNode(unref(NVirtualList), {
+          items: unref(playStore).playlist,
+          "item-size": 77,
+          "item-resizable": true,
+          "key-field": "id",
+          ref_key: "virtualListRef",
+          ref: virtualListRef
         }, {
-          default: withCtx(() => [
-            createBaseVNode("ul", null, [
-              (openBlock(true), createElementBlock(Fragment, null, renderList(unref(playStore).playlist, (item, index) => {
-                return openBlock(), createElementBlock("li", {
-                  key: index,
-                  onClick: ($event) => play(index),
-                  class: "playinglist-item",
-                  ref_for: true,
-                  ref_key: "playinglistItemRef",
-                  ref: playinglistItemRef
-                }, [
-                  createBaseVNode("img", {
-                    class: "playinglist-img",
-                    src: item.picurl + "?param=80y80",
-                    alt: item.name,
-                    loading: "lazy"
-                  }, null, 8, _hoisted_3$3),
-                  createBaseVNode("div", _hoisted_4$3, [
-                    createBaseVNode("div", _hoisted_5$3, [
-                      item.fee == 1 ? (openBlock(), createBlock(_component_n_tag, {
-                        key: 0,
-                        type: "warning",
-                        size: "small",
-                        bordered: false
-                      }, {
-                        default: withCtx(() => _cache[0] || (_cache[0] = [
-                          createTextVNode("VIP")
-                        ])),
-                        _: 1
-                      })) : createCommentVNode("", true),
-                      item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
-                        key: 1,
-                        type: "info",
-                        size: "small",
-                        bordered: false
-                      }, {
-                        default: withCtx(() => _cache[1] || (_cache[1] = [
-                          createTextVNode("数字专辑")
-                        ])),
-                        _: 1
-                      })) : createCommentVNode("", true),
-                      createTextVNode(" " + toDisplayString(item.name), 1)
-                    ]),
-                    createBaseVNode("div", _hoisted_6$2, toDisplayString(item.tns), 1),
-                    createBaseVNode("div", _hoisted_7$2, toDisplayString(item.artist), 1)
-                  ])
-                ], 8, _hoisted_2$4);
-              }), 128))
-            ])
+          default: withCtx(({ item, index }) => [
+            (openBlock(), createElementBlock("div", {
+              onClick: ($event) => play(index),
+              class: normalizeClass(["playinglist-item", { "playinglist-item-current": item.id == unref(playStore).currentMusic.id }]),
+              key: item.id
+            }, [
+              createBaseVNode("img", {
+                class: "playinglist-img",
+                src: item.picurl + "?param=80y80",
+                alt: item.name,
+                loading: "lazy"
+              }, null, 8, _hoisted_3$3),
+              createBaseVNode("div", _hoisted_4$3, [
+                createBaseVNode("div", _hoisted_5$3, [
+                  item.fee == 1 ? (openBlock(), createBlock(_component_n_tag, {
+                    key: 0,
+                    type: "warning",
+                    size: "small",
+                    bordered: false
+                  }, {
+                    default: withCtx(() => _cache[0] || (_cache[0] = [
+                      createTextVNode("VIP")
+                    ])),
+                    _: 1
+                  })) : createCommentVNode("", true),
+                  item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
+                    key: 1,
+                    type: "info",
+                    size: "small",
+                    bordered: false
+                  }, {
+                    default: withCtx(() => _cache[1] || (_cache[1] = [
+                      createTextVNode("数字专辑")
+                    ])),
+                    _: 1
+                  })) : createCommentVNode("", true),
+                  createTextVNode(" " + toDisplayString(item.name), 1)
+                ]),
+                createBaseVNode("div", _hoisted_6$2, toDisplayString(item.tns), 1),
+                createBaseVNode("div", _hoisted_7$2, toDisplayString(item.artist), 1)
+              ])
+            ], 10, _hoisted_2$4))
           ]),
           _: 1
-        }, 512)
+        }, 8, ["items"])
       ]);
     };
   }
-};
-const playinglist = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-3e35b0e3"]]);
+});
+const playinglist = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-efb69968"]]);
 const _hoisted_1$3 = { class: "player-outer-outer" };
 const _hoisted_2$3 = { class: "player-outer" };
 const _hoisted_3$2 = { class: "player-content" };
@@ -34310,11 +35121,11 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
   __name: "player",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "8c46b078": unref(background),
-      "498261ff": unref(themeStore).mainColors[0] + `90`,
-      "abb46370": unref(settingStore).lyricFontSize,
-      "0103cbc9": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
-      "134e7fa7": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
+      "998151f2": unref(background),
+      "00f2ea9c": unref(themeStore).mainColors[0] + `90`,
+      "4a80d0ea": unref(settingStore).lyricFontSize,
+      "61e04726": unref(displayLyricWhenScreenIsNotWide) ? `flex` : `none`,
+      "742afb04": unref(displayLyricWhenScreenIsNotWide) ? `none` : `flex`
     }));
     let themeStore = useThemeStore();
     let playStore = usePlayStore();
@@ -34340,6 +35151,11 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
         translateY: isShow ? "-100%" : "0%",
         duration: 700,
         easing: "easeInOutQuad",
+        begin: () => {
+          if (isShow) {
+            emitter.emit("playinglist-scroll");
+          }
+        },
         complete: () => {
           displayList.value = isShow;
         }
@@ -34622,7 +35438,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-708a2c8e"]]);
+const player = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-9d16123e"]]);
 const _hoisted_1$2 = { class: "ctrl-outer-outer" };
 const _hoisted_2$2 = { class: "ctrl-box" };
 const _hoisted_3$1 = { class: "ctrl-img-box" };
@@ -34646,7 +35462,7 @@ const _sfc_main$2 = {
   __name: "musicController",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "2da9b278": unref(ctrlHeight) + `rem`
+      "70141896": unref(ctrlHeight) + `rem`
     }));
     emitter.on("switchShowPlayer", (e2) => {
       switchShowPlayer(e2);
@@ -34693,6 +35509,7 @@ const _sfc_main$2 = {
         begin: () => {
           if (showPlayingList == true) {
             showPlayingListVIf.value = showPlayingList;
+            emitter.emit("playinglist-scroll");
           }
         },
         complete: () => {
@@ -34943,7 +35760,7 @@ const _sfc_main$2 = {
     };
   }
 };
-const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-37d9f90c"]]);
+const MusicController = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-86679578"]]);
 const _hoisted_1$1 = { class: "container" };
 const _hoisted_2$1 = { class: "container-main" };
 const _hoisted_3 = { class: "container-nav" };

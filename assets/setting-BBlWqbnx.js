@@ -18,8 +18,8 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { af as cB, ag as c, aj as cE, d as defineComponent, ap as useConfig, h, aG as createTheme, an as derived, b4 as toHexaString, b5 as rgba, b6 as toHslaString, b7 as toHsvaString, b8 as toRgbaString, b9 as hsla, ba as hsva, b as ref, c as computed, C as createInjectionKey, i as inject, ac as watchEffect, bb as toHexString, bc as toHslString, bd as toRgbString, be as toHsvString, M as warn, ak as cM, ao as useTheme, p as provide, l as toRef, w as watch, ay as createKey, aq as useThemeClass, ah as Transition, I as withDirectives, n as nextTick, m as markRaw, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, aQ as _export_sfc, aP as createVNode, aR as withCtx, L as renderSlot, u as unref, aS as createBlock, f as isRef, aT as createCommentVNode, aH as NIcon, z as onMounted, at as vShow, F as createTextVNode, aW as toDisplayString } from "./font-ZTNtxCOW.js";
-import { $ as useStyle, a0 as inputLight, a1 as buttonLight, a2 as on, a3 as off, _ as __unplugin_components_0$1, a4 as fadeInScaleUpTransition, a5 as useAdjustedTo, a6 as useFormItem, a7 as useLocale, e as useMergedState, a8 as isMounted, a9 as getPreciseEventTarget, aa as Binder, ab as VTarget, ac as VFollower, ad as clickoutside, k as call, C as Button, U as __unplugin_components_5, H as useSettingStore, u as useUserStore, s as useThemeStore, x as success, q as error, ae as __unplugin_components_4, af as __unplugin_components_5$1 } from "./index-IYiL93OU.js";
+import { ag as cB, ah as c, ak as cE, d as defineComponent, aq as useConfig, h, aG as createTheme, ao as derived, b4 as toHexaString, b5 as rgba, b6 as toHslaString, b7 as toHsvaString, b8 as toRgbaString, b9 as hsla, ba as hsva, b as ref, c as computed, C as createInjectionKey, i as inject, ad as watchEffect, bb as toHexString, bc as toHslString, bd as toRgbString, be as toHsvString, N as warn, al as cM, ap as useTheme, p as provide, l as toRef, w as watch, ay as createKey, ar as useThemeClass, ai as Transition, I as withDirectives, n as nextTick, m as markRaw, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, aQ as _export_sfc, aP as createVNode, aR as withCtx, L as renderSlot, u as unref, aS as createBlock, f as isRef, aT as createCommentVNode, aH as NIcon, z as onMounted, at as vShow, F as createTextVNode, aV as toDisplayString } from "./font-B8Y702kK.js";
+import { $ as useStyle, a0 as inputLight, a1 as buttonLight, a2 as on, a3 as off, _ as __unplugin_components_0$1, a4 as fadeInScaleUpTransition, a5 as useAdjustedTo, a6 as useFormItem, a7 as useLocale, e as useMergedState, a8 as isMounted, a9 as getPreciseEventTarget, aa as Binder, ab as VTarget, ac as VFollower, ad as clickoutside, k as call, C as Button, U as __unplugin_components_5, H as useSettingStore, u as useUserStore, s as useThemeStore, x as success, q as error, ae as __unplugin_components_4, af as __unplugin_components_5$1 } from "./index-BLOYG2zR.js";
 function hsl2hsv(h2, s, l) {
   s /= 100;
   l /= 100;
@@ -1975,7 +1975,7 @@ const _sfc_main$1 = {
   }
 };
 const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-443755e3"]]);
-const buildInfo = { version: "1.1.4", buildNumber: "3cf378b", buildTime: "2025-01-24 11:14:49" };
+const buildInfo = { version: "1.1.4", buildNumber: "48bb05b", buildTime: "2025-01-25 13:04:35" };
 const _hoisted_1 = { class: "setting" };
 const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {
