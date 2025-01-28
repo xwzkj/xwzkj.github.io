@@ -18,11 +18,11 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { G as defineStore, H as useSettingStore, I as pinia, J as songUrlV1, K as downloadFile, L as songDetail, M as parseDetailToList, n as usePlayStore, O as recommendSongs, P as playlistDetail, C as Button, Q as __unplugin_components_0 } from "./index-BLOYG2zR.js";
-import { m as musicList } from "./musicList-0JhcgcVr.js";
+import { G as defineStore, H as useSettingStore, I as pinia, J as songUrlV1, K as downloadFile, L as songDetail, M as parseDetailToList, n as usePlayStore, O as recommendSongs, P as playlistDetail, C as Button, Q as __unplugin_components_0 } from "./index-Wq79Ra1M.js";
+import { m as musicList } from "./musicList-xkaMeT2x.js";
 import { aQ as _export_sfc, b as ref, w as watch, z as onMounted, aN as createElementBlock, u as unref, aO as createBaseVNode, aT as createCommentVNode, aV as toDisplayString, G as Fragment, aX as renderList, aP as createVNode, aR as withCtx, aM as openBlock, aS as createBlock, F as createTextVNode } from "./font-B8Y702kK.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-BrPWnnTU.js";
-import { _ as __unplugin_components_0$1 } from "./Spin-DIsCtMJJ.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-B4I5zLSU.js";
+import { _ as __unplugin_components_0$1 } from "./Spin-9G3p0urT.js";
 const useDownloadStore = defineStore("download", {
   state: () => ({
     list: [],

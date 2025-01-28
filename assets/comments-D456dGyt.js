@@ -18,9 +18,9 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ag as formatCount, ah as commentFloor, q as error, ai as __unplugin_components_0, aj as emitter, ak as commentNew, L as songDetail, S as parseArtist } from "./index-BLOYG2zR.js";
+import { ag as formatCount, ah as commentFloor, q as error, ai as __unplugin_components_0, aj as emitter, ak as commentNew, L as songDetail, S as parseArtist } from "./index-Wq79Ra1M.js";
 import { m as markRaw, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, d as defineComponent, b as ref, aV as toDisplayString, aP as createVNode, aR as withCtx, u as unref, aT as createCommentVNode, F as createTextVNode, G as Fragment, aX as renderList, aS as createBlock, aH as NIcon, w as watch, z as onMounted } from "./font-B8Y702kK.js";
-import { _ as __unplugin_components_0$1 } from "./Spin-DIsCtMJJ.js";
+import { _ as __unplugin_components_0$1 } from "./Spin-9G3p0urT.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
