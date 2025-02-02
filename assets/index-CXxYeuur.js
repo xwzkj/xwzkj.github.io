@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BuYIq0Oh.js","./itemCardList-BuT_zebX.js","./font-B8Y702kK.js","./font-Bh99UfT1.css","./Ellipsis-B4I5zLSU.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-DD16fq6t.js","./musicList-xkaMeT2x.js","./musicList-nLQAz02W.css","./Spin-9G3p0urT.js","./login-C6rPPhXN.js","./login-Cg-VrOPR.css","./account-D4Z24F4Y.js","./account-BE7gbH9_.css","./playlist-Dj1vP1Uf.js","./playlist-pRI4gIml.css","./setting-BS0PHCwo.js","./setting-BIZfo136.css","./comments-D456dGyt.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-Duikp-Ip.js","./itemCardList-vpiLTxpz.js","./font-B8fvUeLJ.js","./font-Bh99UfT1.css","./Ellipsis-CVTpRMIb.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-CMQFAEKY.js","./musicList-C4CdWCGP.js","./musicList-nLQAz02W.css","./Spin-C38U1UtH.js","./login-BrkPe9fA.js","./login-Cg-VrOPR.css","./account-D4nNKQBR.js","./account-BE7gbH9_.css","./playlist-DigzksoF.js","./playlist-pRI4gIml.css","./setting-CdxVyO9Y.js","./setting-BIZfo136.css","./comments-D7mojJMw.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -98,7 +98,7 @@ var __yieldStar = (value) => {
   }, "return" in obj && method("return"), it;
 };
 var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
-import { s as shallowRef, u as unref, a as shallowReactive, i as inject, n as nextTick, d as defineComponent, r as reactive, c as computed, h, p as provide, b as ref, w as watch, m as markRaw, e as effectScope, f as isRef, g as isReactive, t as toRaw, j as hasInjectionContext, k as getCurrentScope, o as onScopeDispose, l as toRef, q as toRefs, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, S as Symbol$1, R as isArray$2, U as getNative, V as root, W as overArg, X as isPrototype, Y as isArrayLike, Z as arrayLikeKeys, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useTheme, aq as useConfig, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as merge$2, aE as defaultClsPrefix, aF as murmur2, aG as createTheme, aH as NIcon, aI as throwError, aJ as onUnmounted, aK as normalizeClass, aL as onBeforeUpdate, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-B8Y702kK.js";
+import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as createBaseVNode, aO as openBlock, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-B8fvUeLJ.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -2047,7 +2047,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-BuYIq0Oh.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-Duikp-Ip.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2058,7 +2058,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DD16fq6t.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CMQFAEKY.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2069,7 +2069,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-C6rPPhXN.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-BrkPe9fA.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2077,7 +2077,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-D4Z24F4Y.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-D4nNKQBR.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2088,7 +2088,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-Dj1vP1Uf.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-DigzksoF.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2099,7 +2099,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BS0PHCwo.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-CdxVyO9Y.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2110,7 +2110,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-D456dGyt.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-D7mojJMw.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -6995,7 +6995,7 @@ function baseSlice(array, start, end) {
 function castSlice(array, start, end) {
   var length = array.length;
   end = end === void 0 ? length : end;
-  return !start && end >= length ? array : baseSlice(array, start, end);
+  return false ? array : baseSlice(array, start, end);
 }
 var rsAstralRange$1 = "\\ud800-\\udfff", rsComboMarksRange$1 = "\\u0300-\\u036f", reComboHalfMarksRange$1 = "\\ufe20-\\ufe2f", rsComboSymbolsRange$1 = "\\u20d0-\\u20ff", rsComboRange$1 = rsComboMarksRange$1 + reComboHalfMarksRange$1 + rsComboSymbolsRange$1, rsVarRange$1 = "\\ufe0e\\ufe0f";
 var rsZWJ$1 = "\\u200d";
@@ -10944,7 +10944,6 @@ function self$d(vars) {
   });
 }
 const tagLight = {
-  name: "Tag",
   common: derived,
   self: self$d
 };
@@ -13274,7 +13273,6 @@ function self$b(vars) {
   };
 }
 const avatarLight = {
-  name: "Avatar",
   common: derived,
   self: self$b
 };
@@ -17528,7 +17526,6 @@ function self$4(vars) {
   });
 }
 const messageLight = {
-  name: "Message",
   common: derived,
   self: self$4
 };
@@ -19195,7 +19192,6 @@ function self$1(vars) {
   });
 }
 const sliderLight = {
-  name: "Slider",
   common: derived,
   self: self$1
 };
@@ -22175,7 +22171,7 @@ const utils$1 = {
   setImmediate: _setImmediate,
   asap
 };
-function AxiosError(message, code, config, request2, response) {
+function AxiosError$1(message, code, config, request2, response) {
   Error.call(this);
   if (Error.captureStackTrace) {
     Error.captureStackTrace(this, this.constructor);
@@ -22192,7 +22188,7 @@ function AxiosError(message, code, config, request2, response) {
     this.status = response.status ? response.status : null;
   }
 }
-utils$1.inherits(AxiosError, Error, {
+utils$1.inherits(AxiosError$1, Error, {
   toJSON: function toJSON() {
     return {
       // Standard
@@ -22213,7 +22209,7 @@ utils$1.inherits(AxiosError, Error, {
     };
   }
 });
-const prototype$1 = AxiosError.prototype;
+const prototype$1 = AxiosError$1.prototype;
 const descriptors = {};
 [
   "ERR_BAD_OPTION_VALUE",
@@ -22232,16 +22228,16 @@ const descriptors = {};
 ].forEach((code) => {
   descriptors[code] = { value: code };
 });
-Object.defineProperties(AxiosError, descriptors);
+Object.defineProperties(AxiosError$1, descriptors);
 Object.defineProperty(prototype$1, "isAxiosError", { value: true });
-AxiosError.from = (error2, code, config, request2, response, customProps) => {
+AxiosError$1.from = (error2, code, config, request2, response, customProps) => {
   const axiosError = Object.create(prototype$1);
   utils$1.toFlatObject(error2, axiosError, function filter2(obj) {
     return obj !== Error.prototype;
   }, (prop) => {
     return prop !== "isAxiosError";
   });
-  AxiosError.call(axiosError, error2.message, code, config, request2, response);
+  AxiosError$1.call(axiosError, error2.message, code, config, request2, response);
   axiosError.cause = error2;
   axiosError.name = error2.name;
   customProps && Object.assign(axiosError, customProps);
@@ -22267,7 +22263,7 @@ function isFlatArray(arr) {
 const predicates = utils$1.toFlatObject(utils$1, {}, null, function filter(prop) {
   return /^is[A-Z]/.test(prop);
 });
-function toFormData(obj, formData, options) {
+function toFormData$1(obj, formData, options) {
   if (!utils$1.isObject(obj)) {
     throw new TypeError("target must be an object");
   }
@@ -22294,7 +22290,7 @@ function toFormData(obj, formData, options) {
       return value.toISOString();
     }
     if (!useBlob && utils$1.isBlob(value)) {
-      throw new AxiosError("Blob is not supported. Use a Buffer instead.");
+      throw new AxiosError$1("Blob is not supported. Use a Buffer instead.");
     }
     if (utils$1.isArrayBuffer(value) || utils$1.isTypedArray(value)) {
       return useBlob && typeof Blob === "function" ? new Blob([value]) : Buffer.from(value);
@@ -22373,7 +22369,7 @@ function encode$1(str) {
 }
 function AxiosURLSearchParams(params, options) {
   this._pairs = [];
-  params && toFormData(params, this, options);
+  params && toFormData$1(params, this, options);
 }
 const prototype = AxiosURLSearchParams.prototype;
 prototype.append = function append(name, value) {
@@ -22512,7 +22508,7 @@ const utils = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePropert
 }, Symbol.toStringTag, { value: "Module" }));
 const platform = __spreadValues(__spreadValues({}, utils), platform$1);
 function toURLEncodedForm(data, options) {
-  return toFormData(data, new platform.classes.URLSearchParams(), Object.assign({
+  return toFormData$1(data, new platform.classes.URLSearchParams(), Object.assign({
     visitor: function(value, key, path, helpers) {
       if (platform.isNode && utils$1.isBuffer(value)) {
         this.append(key, value.toString("base64"));
@@ -22583,7 +22579,7 @@ function stringifySafely(rawValue, parser, encoder) {
       }
     }
   }
-  return (0, JSON.stringify)(rawValue);
+  return (encoder || JSON.stringify)(rawValue);
 }
 const defaults = {
   transitional: transitionalDefaults,
@@ -22616,7 +22612,7 @@ const defaults = {
       }
       if ((isFileList2 = utils$1.isFileList(data)) || contentType.indexOf("multipart/form-data") > -1) {
         const _FormData = this.env && this.env.FormData;
-        return toFormData(
+        return toFormData$1(
           isFileList2 ? { "files[]": data } : data,
           _FormData && new _FormData(),
           this.formSerializer
@@ -22644,7 +22640,7 @@ const defaults = {
       } catch (e2) {
         if (strictJSONParsing) {
           if (e2.name === "SyntaxError") {
-            throw AxiosError.from(e2, AxiosError.ERR_BAD_RESPONSE, this, null, this.response);
+            throw AxiosError$1.from(e2, AxiosError$1.ERR_BAD_RESPONSE, this, null, this.response);
           }
           throw e2;
         }
@@ -22772,7 +22768,7 @@ function buildAccessors(obj, header) {
     });
   });
 }
-class AxiosHeaders {
+let AxiosHeaders$1 = class AxiosHeaders {
   constructor(headers) {
     headers && this.set(headers);
   }
@@ -22927,9 +22923,9 @@ class AxiosHeaders {
     utils$1.isArray(header) ? header.forEach(defineAccessor) : defineAccessor(header);
     return this;
   }
-}
-AxiosHeaders.accessor(["Content-Type", "Content-Length", "Accept", "Accept-Encoding", "User-Agent", "Authorization"]);
-utils$1.reduceDescriptors(AxiosHeaders.prototype, ({ value }, key) => {
+};
+AxiosHeaders$1.accessor(["Content-Type", "Content-Length", "Accept", "Accept-Encoding", "User-Agent", "Authorization"]);
+utils$1.reduceDescriptors(AxiosHeaders$1.prototype, ({ value }, key) => {
   let mapped = key[0].toUpperCase() + key.slice(1);
   return {
     get: () => value,
@@ -22938,11 +22934,11 @@ utils$1.reduceDescriptors(AxiosHeaders.prototype, ({ value }, key) => {
     }
   };
 });
-utils$1.freezeMethods(AxiosHeaders);
+utils$1.freezeMethods(AxiosHeaders$1);
 function transformData(fns, response) {
   const config = this || defaults;
   const context = response || config;
-  const headers = AxiosHeaders.from(context.headers);
+  const headers = AxiosHeaders$1.from(context.headers);
   let data = context.data;
   utils$1.forEach(fns, function transform(fn) {
     data = fn.call(config, data, headers.normalize(), response ? response.status : void 0);
@@ -22950,14 +22946,14 @@ function transformData(fns, response) {
   headers.normalize();
   return data;
 }
-function isCancel(value) {
+function isCancel$1(value) {
   return !!(value && value.__CANCEL__);
 }
-function CanceledError(message, config, request2) {
-  AxiosError.call(this, message == null ? "canceled" : message, AxiosError.ERR_CANCELED, config, request2);
+function CanceledError$1(message, config, request2) {
+  AxiosError$1.call(this, message == null ? "canceled" : message, AxiosError$1.ERR_CANCELED, config, request2);
   this.name = "CanceledError";
 }
-utils$1.inherits(CanceledError, AxiosError, {
+utils$1.inherits(CanceledError$1, AxiosError$1, {
   __CANCEL__: true
 });
 function settle(resolve, reject, response) {
@@ -22965,9 +22961,9 @@ function settle(resolve, reject, response) {
   if (!response.status || !validateStatus2 || validateStatus2(response.status)) {
     resolve(response);
   } else {
-    reject(new AxiosError(
+    reject(new AxiosError$1(
       "Request failed with status code " + response.status,
-      [AxiosError.ERR_BAD_REQUEST, AxiosError.ERR_BAD_RESPONSE][Math.floor(response.status / 100) - 4],
+      [AxiosError$1.ERR_BAD_REQUEST, AxiosError$1.ERR_BAD_RESPONSE][Math.floor(response.status / 100) - 4],
       response.config,
       response.request,
       response
@@ -23126,8 +23122,8 @@ function buildFullPath(baseURL, requestedURL) {
   }
   return requestedURL;
 }
-const headersToObject = (thing) => thing instanceof AxiosHeaders ? __spreadValues({}, thing) : thing;
-function mergeConfig(config1, config2) {
+const headersToObject = (thing) => thing instanceof AxiosHeaders$1 ? __spreadValues({}, thing) : thing;
+function mergeConfig$1(config1, config2) {
   config2 = config2 || {};
   const config = {};
   function getMergedValue(target, source, prop, caseless) {
@@ -23205,9 +23201,9 @@ function mergeConfig(config1, config2) {
   return config;
 }
 const resolveConfig = (config) => {
-  const newConfig = mergeConfig({}, config);
+  const newConfig = mergeConfig$1({}, config);
   let { data, withXSRFToken, xsrfHeaderName, xsrfCookieName, headers, auth } = newConfig;
-  newConfig.headers = headers = AxiosHeaders.from(headers);
+  newConfig.headers = headers = AxiosHeaders$1.from(headers);
   newConfig.url = buildURL(buildFullPath(newConfig.baseURL, newConfig.url), config.params, config.paramsSerializer);
   if (auth) {
     headers.set(
@@ -23240,7 +23236,7 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
     const _config = resolveConfig(config);
     let requestData = _config.data;
-    const requestHeaders = AxiosHeaders.from(_config.headers).normalize();
+    const requestHeaders = AxiosHeaders$1.from(_config.headers).normalize();
     let { responseType, onUploadProgress, onDownloadProgress } = _config;
     let onCanceled;
     let uploadThrottled, downloadThrottled;
@@ -23258,7 +23254,7 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
       if (!request2) {
         return;
       }
-      const responseHeaders = AxiosHeaders.from(
+      const responseHeaders = AxiosHeaders$1.from(
         "getAllResponseHeaders" in request2 && request2.getAllResponseHeaders()
       );
       const responseData = !responseType || responseType === "text" || responseType === "json" ? request2.responseText : request2.response;
@@ -23296,11 +23292,11 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
       if (!request2) {
         return;
       }
-      reject(new AxiosError("Request aborted", AxiosError.ECONNABORTED, config, request2));
+      reject(new AxiosError$1("Request aborted", AxiosError$1.ECONNABORTED, config, request2));
       request2 = null;
     };
     request2.onerror = function handleError() {
-      reject(new AxiosError("Network Error", AxiosError.ERR_NETWORK, config, request2));
+      reject(new AxiosError$1("Network Error", AxiosError$1.ERR_NETWORK, config, request2));
       request2 = null;
     };
     request2.ontimeout = function handleTimeout() {
@@ -23309,9 +23305,9 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
       if (_config.timeoutErrorMessage) {
         timeoutErrorMessage = _config.timeoutErrorMessage;
       }
-      reject(new AxiosError(
+      reject(new AxiosError$1(
         timeoutErrorMessage,
-        transitional2.clarifyTimeoutError ? AxiosError.ETIMEDOUT : AxiosError.ECONNABORTED,
+        transitional2.clarifyTimeoutError ? AxiosError$1.ETIMEDOUT : AxiosError$1.ECONNABORTED,
         config,
         request2
       ));
@@ -23343,7 +23339,7 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
         if (!request2) {
           return;
         }
-        reject(!cancel || cancel.type ? new CanceledError(null, config, request2) : cancel);
+        reject(!cancel || cancel.type ? new CanceledError$1(null, config, request2) : cancel);
         request2.abort();
         request2 = null;
       };
@@ -23354,7 +23350,7 @@ const xhrAdapter = isXHRAdapterSupported && function(config) {
     }
     const protocol = parseProtocol(_config.url);
     if (protocol && platform.protocols.indexOf(protocol) === -1) {
-      reject(new AxiosError("Unsupported protocol " + protocol + ":", AxiosError.ERR_BAD_REQUEST, config));
+      reject(new AxiosError$1("Unsupported protocol " + protocol + ":", AxiosError$1.ERR_BAD_REQUEST, config));
       return;
     }
     request2.send(requestData || null);
@@ -23370,12 +23366,12 @@ const composeSignals = (signals, timeout) => {
         aborted = true;
         unsubscribe();
         const err = reason instanceof Error ? reason : this.reason;
-        controller.abort(err instanceof AxiosError ? err : new CanceledError(err instanceof Error ? err.message : err));
+        controller.abort(err instanceof AxiosError$1 ? err : new CanceledError$1(err instanceof Error ? err.message : err));
       }
     };
     let timer2 = timeout && setTimeout(() => {
       timer2 = null;
-      onabort(new AxiosError(`timeout ${timeout} of ms exceeded`, AxiosError.ETIMEDOUT));
+      onabort(new AxiosError$1(`timeout ${timeout} of ms exceeded`, AxiosError$1.ETIMEDOUT));
     }, timeout);
     const unsubscribe = () => {
       if (signals) {
@@ -23518,7 +23514,7 @@ const resolvers = {
 isFetchSupported && ((res) => {
   ["text", "arrayBuffer", "blob", "formData", "stream"].forEach((type) => {
     !resolvers[type] && (resolvers[type] = utils$1.isFunction(res[type]) ? (res2) => res2[type]() : (_, config) => {
-      throw new AxiosError(`Response type '${type}' is not supported`, AxiosError.ERR_NOT_SUPPORT, config);
+      throw new AxiosError$1(`Response type '${type}' is not supported`, AxiosError$1.ERR_NOT_SUPPORT, config);
     });
   });
 })(new Response());
@@ -23629,7 +23625,7 @@ const fetchAdapter = isFetchSupported && ((config) => __async(void 0, null, func
     return yield new Promise((resolve, reject) => {
       settle(resolve, reject, {
         data: responseData,
-        headers: AxiosHeaders.from(response.headers),
+        headers: AxiosHeaders$1.from(response.headers),
         status: response.status,
         statusText: response.statusText,
         config,
@@ -23640,13 +23636,13 @@ const fetchAdapter = isFetchSupported && ((config) => __async(void 0, null, func
     unsubscribe && unsubscribe();
     if (err && err.name === "TypeError" && /fetch/i.test(err.message)) {
       throw Object.assign(
-        new AxiosError("Network Error", AxiosError.ERR_NETWORK, config, request2),
+        new AxiosError$1("Network Error", AxiosError$1.ERR_NETWORK, config, request2),
         {
           cause: err.cause || err
         }
       );
     }
-    throw AxiosError.from(err, err && err.code, config, request2);
+    throw AxiosError$1.from(err, err && err.code, config, request2);
   }
 }));
 const knownAdapters = {
@@ -23679,7 +23675,7 @@ const adapters = {
       if (!isResolvedHandle(nameOrAdapter)) {
         adapter = knownAdapters[(id = String(nameOrAdapter)).toLowerCase()];
         if (adapter === void 0) {
-          throw new AxiosError(`Unknown adapter '${id}'`);
+          throw new AxiosError$1(`Unknown adapter '${id}'`);
         }
       }
       if (adapter) {
@@ -23692,7 +23688,7 @@ const adapters = {
         ([id, state]) => `adapter ${id} ` + (state === false ? "is not supported by the environment" : "is not available in the build")
       );
       let s = length ? reasons.length > 1 ? "since :\n" + reasons.map(renderReason).join("\n") : " " + renderReason(reasons[0]) : "as no adapter specified";
-      throw new AxiosError(
+      throw new AxiosError$1(
         `There is no suitable adapter to dispatch the request ` + s,
         "ERR_NOT_SUPPORT"
       );
@@ -23706,12 +23702,12 @@ function throwIfCancellationRequested(config) {
     config.cancelToken.throwIfRequested();
   }
   if (config.signal && config.signal.aborted) {
-    throw new CanceledError(null, config);
+    throw new CanceledError$1(null, config);
   }
 }
 function dispatchRequest(config) {
   throwIfCancellationRequested(config);
-  config.headers = AxiosHeaders.from(config.headers);
+  config.headers = AxiosHeaders$1.from(config.headers);
   config.data = transformData.call(
     config,
     config.transformRequest
@@ -23727,10 +23723,10 @@ function dispatchRequest(config) {
       config.transformResponse,
       response
     );
-    response.headers = AxiosHeaders.from(response.headers);
+    response.headers = AxiosHeaders$1.from(response.headers);
     return response;
   }, function onAdapterRejection(reason) {
-    if (!isCancel(reason)) {
+    if (!isCancel$1(reason)) {
       throwIfCancellationRequested(config);
       if (reason && reason.response) {
         reason.response.data = transformData.call(
@@ -23738,13 +23734,13 @@ function dispatchRequest(config) {
           config.transformResponse,
           reason.response
         );
-        reason.response.headers = AxiosHeaders.from(reason.response.headers);
+        reason.response.headers = AxiosHeaders$1.from(reason.response.headers);
       }
     }
     return Promise.reject(reason);
   });
 }
-const VERSION = "1.7.9";
+const VERSION$1 = "1.7.9";
 const validators$1 = {};
 ["object", "boolean", "number", "function", "string", "symbol"].forEach((type, i2) => {
   validators$1[type] = function validator2(thing) {
@@ -23754,13 +23750,13 @@ const validators$1 = {};
 const deprecatedWarnings = {};
 validators$1.transitional = function transitional(validator2, version, message) {
   function formatMessage(opt, desc) {
-    return "[Axios v" + VERSION + "] Transitional option '" + opt + "'" + desc + (message ? ". " + message : "");
+    return "[Axios v" + VERSION$1 + "] Transitional option '" + opt + "'" + desc + (message ? ". " + message : "");
   }
   return (value, opt, opts) => {
     if (validator2 === false) {
-      throw new AxiosError(
+      throw new AxiosError$1(
         formatMessage(opt, " has been removed" + (version ? " in " + version : "")),
-        AxiosError.ERR_DEPRECATED
+        AxiosError$1.ERR_DEPRECATED
       );
     }
     if (version && !deprecatedWarnings[opt]) {
@@ -23783,7 +23779,7 @@ validators$1.spelling = function spelling(correctSpelling) {
 };
 function assertOptions(options, schema, allowUnknown) {
   if (typeof options !== "object") {
-    throw new AxiosError("options must be an object", AxiosError.ERR_BAD_OPTION_VALUE);
+    throw new AxiosError$1("options must be an object", AxiosError$1.ERR_BAD_OPTION_VALUE);
   }
   const keys2 = Object.keys(options);
   let i2 = keys2.length;
@@ -23794,12 +23790,12 @@ function assertOptions(options, schema, allowUnknown) {
       const value = options[opt];
       const result = value === void 0 || validator2(value, opt, options);
       if (result !== true) {
-        throw new AxiosError("option " + opt + " must be " + result, AxiosError.ERR_BAD_OPTION_VALUE);
+        throw new AxiosError$1("option " + opt + " must be " + result, AxiosError$1.ERR_BAD_OPTION_VALUE);
       }
       continue;
     }
     if (allowUnknown !== true) {
-      throw new AxiosError("Unknown option " + opt, AxiosError.ERR_BAD_OPTION);
+      throw new AxiosError$1("Unknown option " + opt, AxiosError$1.ERR_BAD_OPTION);
     }
   }
 }
@@ -23808,7 +23804,7 @@ const validator = {
   validators: validators$1
 };
 const validators = validator.validators;
-class Axios {
+let Axios$1 = class Axios {
   constructor(instanceConfig) {
     this.defaults = instanceConfig;
     this.interceptors = {
@@ -23853,7 +23849,7 @@ class Axios {
     } else {
       config = configOrUrl || {};
     }
-    config = mergeConfig(this.defaults, config);
+    config = mergeConfig$1(this.defaults, config);
     const { transitional: transitional2, paramsSerializer, headers } = config;
     if (transitional2 !== void 0) {
       validator.assertOptions(transitional2, {
@@ -23889,7 +23885,7 @@ class Axios {
         delete headers[method];
       }
     );
-    config.headers = AxiosHeaders.concat(contextHeaders, headers);
+    config.headers = AxiosHeaders$1.concat(contextHeaders, headers);
     const requestInterceptorChain = [];
     let synchronousRequestInterceptors = true;
     this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
@@ -23943,14 +23939,14 @@ class Axios {
     return promise;
   }
   getUri(config) {
-    config = mergeConfig(this.defaults, config);
+    config = mergeConfig$1(this.defaults, config);
     const fullPath = buildFullPath(config.baseURL, config.url);
     return buildURL(fullPath, config.params, config.paramsSerializer);
   }
-}
+};
 utils$1.forEach(["delete", "get", "head", "options"], function forEachMethodNoData(method) {
-  Axios.prototype[method] = function(url, config) {
-    return this.request(mergeConfig(config || {}, {
+  Axios$1.prototype[method] = function(url, config) {
+    return this.request(mergeConfig$1(config || {}, {
       method,
       url,
       data: (config || {}).data
@@ -23960,7 +23956,7 @@ utils$1.forEach(["delete", "get", "head", "options"], function forEachMethodNoDa
 utils$1.forEach(["post", "put", "patch"], function forEachMethodWithData(method) {
   function generateHTTPMethod(isForm) {
     return function httpMethod(url, data, config) {
-      return this.request(mergeConfig(config || {}, {
+      return this.request(mergeConfig$1(config || {}, {
         method,
         headers: isForm ? {
           "Content-Type": "multipart/form-data"
@@ -23970,10 +23966,10 @@ utils$1.forEach(["post", "put", "patch"], function forEachMethodWithData(method)
       }));
     };
   }
-  Axios.prototype[method] = generateHTTPMethod();
-  Axios.prototype[method + "Form"] = generateHTTPMethod(true);
+  Axios$1.prototype[method] = generateHTTPMethod();
+  Axios$1.prototype[method + "Form"] = generateHTTPMethod(true);
 });
-class CancelToken {
+let CancelToken$1 = class CancelToken {
   constructor(executor) {
     if (typeof executor !== "function") {
       throw new TypeError("executor must be a function.");
@@ -24006,7 +24002,7 @@ class CancelToken {
       if (token.reason) {
         return;
       }
-      token.reason = new CanceledError(message, config, request2);
+      token.reason = new CanceledError$1(message, config, request2);
       resolvePromise(token.reason);
     });
   }
@@ -24067,16 +24063,16 @@ class CancelToken {
       cancel
     };
   }
-}
-function spread(callback) {
+};
+function spread$1(callback) {
   return function wrap(arr) {
     return callback.apply(null, arr);
   };
 }
-function isAxiosError(payload) {
+function isAxiosError$1(payload) {
   return utils$1.isObject(payload) && payload.isAxiosError === true;
 }
-const HttpStatusCode = {
+const HttpStatusCode$1 = {
   Continue: 100,
   SwitchingProtocols: 101,
   Processing: 102,
@@ -24141,39 +24137,57 @@ const HttpStatusCode = {
   NotExtended: 510,
   NetworkAuthenticationRequired: 511
 };
-Object.entries(HttpStatusCode).forEach(([key, value]) => {
-  HttpStatusCode[value] = key;
+Object.entries(HttpStatusCode$1).forEach(([key, value]) => {
+  HttpStatusCode$1[value] = key;
 });
 function createInstance(defaultConfig) {
-  const context = new Axios(defaultConfig);
-  const instance = bind(Axios.prototype.request, context);
-  utils$1.extend(instance, Axios.prototype, context, { allOwnKeys: true });
+  const context = new Axios$1(defaultConfig);
+  const instance = bind(Axios$1.prototype.request, context);
+  utils$1.extend(instance, Axios$1.prototype, context, { allOwnKeys: true });
   utils$1.extend(instance, context, null, { allOwnKeys: true });
   instance.create = function create(instanceConfig) {
-    return createInstance(mergeConfig(defaultConfig, instanceConfig));
+    return createInstance(mergeConfig$1(defaultConfig, instanceConfig));
   };
   return instance;
 }
 const axios = createInstance(defaults);
-axios.Axios = Axios;
-axios.CanceledError = CanceledError;
-axios.CancelToken = CancelToken;
-axios.isCancel = isCancel;
-axios.VERSION = VERSION;
-axios.toFormData = toFormData;
-axios.AxiosError = AxiosError;
+axios.Axios = Axios$1;
+axios.CanceledError = CanceledError$1;
+axios.CancelToken = CancelToken$1;
+axios.isCancel = isCancel$1;
+axios.VERSION = VERSION$1;
+axios.toFormData = toFormData$1;
+axios.AxiosError = AxiosError$1;
 axios.Cancel = axios.CanceledError;
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = spread;
-axios.isAxiosError = isAxiosError;
-axios.mergeConfig = mergeConfig;
-axios.AxiosHeaders = AxiosHeaders;
+axios.spread = spread$1;
+axios.isAxiosError = isAxiosError$1;
+axios.mergeConfig = mergeConfig$1;
+axios.AxiosHeaders = AxiosHeaders$1;
 axios.formToJSON = (thing) => formDataToJSON(utils$1.isHTMLForm(thing) ? new FormData(thing) : thing);
 axios.getAdapter = adapters.getAdapter;
-axios.HttpStatusCode = HttpStatusCode;
+axios.HttpStatusCode = HttpStatusCode$1;
 axios.default = axios;
+const {
+  Axios: Axios2,
+  AxiosError,
+  CanceledError,
+  isCancel,
+  CancelToken: CancelToken2,
+  VERSION,
+  all: all2,
+  Cancel,
+  isAxiosError,
+  spread,
+  toFormData,
+  AxiosHeaders: AxiosHeaders2,
+  HttpStatusCode,
+  formToJSON,
+  getAdapter,
+  mergeConfig
+} = axios;
 var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
 function getAugmentedNamespace(n2) {
   if (n2.__esModule) return n2;
@@ -32312,7 +32326,7 @@ function toPrimitive(t2, r2) {
   if ("object" != _typeof(t2) || !t2) return t2;
   var e2 = t2[Symbol.toPrimitive];
   if (void 0 !== e2) {
-    var i2 = e2.call(t2, r2 || "default");
+    var i2 = e2.call(t2, r2);
     if ("object" != _typeof(i2)) return i2;
     throw new TypeError("@@toPrimitive must return a primitive value.");
   }
@@ -36001,70 +36015,70 @@ app.use(router);
 app.mount("#app");
 export {
   useStyle as $,
-  loginWithPhone as A,
-  sendCaptcha as B,
-  Button as C,
+  verifyCaptcha as A,
+  Button as B,
+  loginWithPhone as C,
   areaData as D,
   getColorFromImg as E,
   mixColor as F,
   defineStore as G,
-  useSettingStore as H,
-  pinia as I,
-  songUrlV1 as J,
-  downloadFile as K,
-  songDetail as L,
-  parseDetailToList as M,
+  songDetail as H,
+  parseDetailToList as I,
+  useSettingStore as J,
+  pinia as K,
+  songUrlV1 as L,
+  downloadFile as M,
   NBaseIcon as N,
   recommendSongs as O,
   playlistDetail as P,
   __unplugin_components_0$5 as Q,
-  parseArray as R,
-  parseArtist as S,
-  likeAndUpdateLikelist as T,
-  __unplugin_components_5$4 as U,
+  __unplugin_components_5$4 as R,
+  parseArray as S,
+  parseArtist as T,
+  __unplugin_components_2 as U,
   VResizeObserver as V,
-  __unplugin_components_2 as W,
+  likeAndUpdateLikelist as W,
   __unplugin_components_3 as X,
   tooltipLight as Y,
   NTooltip as Z,
   __unplugin_components_0$4 as _,
-  c as a,
-  inputLight as a0,
-  buttonLight as a1,
+  cssrAnchorMetaName as a,
+  buttonLight as a0,
+  inputLight as a1,
   on as a2,
   off as a3,
   fadeInScaleUpTransition as a4,
-  useAdjustedTo as a5,
-  useFormItem as a6,
-  useLocale as a7,
-  isMounted as a8,
-  getPreciseEventTarget as a9,
-  Binder as aa,
-  VTarget as ab,
-  VFollower as ac,
-  clickoutside as ad,
+  Binder as a5,
+  VTarget as a6,
+  VFollower as a7,
+  useAdjustedTo as a8,
+  clickoutside as a9,
+  useFormItem as aa,
+  useLocale as ab,
+  isMounted as ac,
+  getPreciseEventTarget as ad,
   __unplugin_components_4$2 as ae,
   __unplugin_components_5$2 as af,
-  formatCount as ag,
-  commentFloor as ah,
-  __unplugin_components_0 as ai,
+  __unplugin_components_0 as ag,
+  formatCount as ah,
+  commentFloor as ai,
   emitter as aj,
   commentNew as ak,
   fadeInTransition as al,
-  pxfy as am,
-  NBaseLoading as an,
+  NBaseLoading as am,
+  pxfy as an,
   NBaseClose as b,
-  cssrAnchorMetaName as c,
-  useCompitable as d,
-  useMergedState as e,
+  c,
+  resolveWrappedSlot as d,
+  useCompitable as e,
   flatten$1 as f,
   getPersonalizedPlaylist as g,
-  onFontsReady as h,
+  useMergedState as h,
   isSymbol as i,
-  resolveWrappedSlot as j,
-  call as k,
+  onFontsReady as j,
+  getMargin as k,
   depx as l,
-  getMargin as m,
+  call as m,
   usePlayStore as n,
   omit as o,
   cloudsearch as p,
@@ -36077,5 +36091,5 @@ export {
   loginQrCheck as w,
   success as x,
   useRouter as y,
-  verifyCaptcha as z
+  sendCaptcha as z
 };

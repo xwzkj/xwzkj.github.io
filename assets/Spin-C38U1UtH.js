@@ -1,5 +1,5 @@
-import { ao as derived, ah as c, ag as cB, al as cM, ap as useTheme, d as defineComponent, aq as useConfig, c as computed, ay as createKey, ar as useThemeClass, b as ref, ad as watchEffect, h, ai as Transition } from "./font-B8Y702kK.js";
-import { al as fadeInTransition, am as pxfy, d as useCompitable, an as NBaseLoading } from "./index-Wq79Ra1M.js";
+import { ao as derived, ah as c, ag as cB, al as cM, d as defineComponent, h, ai as Transition, ap as useConfig, aq as useTheme, c as computed, ay as createKey, ar as useThemeClass, r as ref, ad as watchEffect } from "./font-B8fvUeLJ.js";
+import { al as fadeInTransition, am as NBaseLoading, an as pxfy, e as useCompitable } from "./index-CXxYeuur.js";
 function self(vars) {
   const {
     opacityDisabled,
@@ -24,7 +24,6 @@ function self(vars) {
   };
 }
 const spinLight = {
-  name: "Spin",
   common: derived,
   self
 };

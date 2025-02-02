@@ -18,12 +18,12 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { c as cssrAnchorMetaName, a as c, i as isSymbol, N as NBaseIcon, r as render, b as NBaseClose, o as omit, d as useCompitable, f as flatten, e as useMergedState, h as onFontsReady, j as resolveWrappedSlot, V as VResizeObserver, k as call, l as depx, m as getMargin, n as usePlayStore, p as cloudsearch, q as error } from "./index-Wq79Ra1M.js";
-import { m as musicList } from "./musicList-xkaMeT2x.js";
-import { i as itemCardList } from "./itemCardList-BuT_zebX.js";
-import { d as defineComponent, b as ref, h, K as useSsrAdapter, a6 as isObject, V as root, ao as derived, C as createInjectionKey, i as inject, aI as throwError, c as computed, M as mergeProps, G as Fragment, ag as cB, al as cM, ah as c$1, ak as cE, am as cNotM, ap as useTheme, aq as useConfig, w as watch, z as onMounted, p as provide, l as toRef, ad as watchEffect, ar as useThemeClass, n as nextTick, ay as createKey, I as withDirectives, at as vShow, an as TransitionGroup, av as cloneVNode, aN as createElementBlock, aO as createBaseVNode, aV as toDisplayString, u as unref, aP as createVNode, aR as withCtx, f as isRef, aM as openBlock, aS as createBlock } from "./font-B8Y702kK.js";
-import { _ as __unplugin_components_0 } from "./Spin-9G3p0urT.js";
-import "./Ellipsis-B4I5zLSU.js";
+import { c, a as cssrAnchorMetaName, i as isSymbol, r as render, N as NBaseIcon, b as NBaseClose, o as omit, f as flatten, d as resolveWrappedSlot, V as VResizeObserver, e as useCompitable, h as useMergedState, j as onFontsReady, k as getMargin, l as depx, m as call, n as usePlayStore, p as cloudsearch, q as error } from "./index-CXxYeuur.js";
+import { m as musicList } from "./musicList-C4CdWCGP.js";
+import { i as itemCardList } from "./itemCardList-vpiLTxpz.js";
+import { d as defineComponent, h, r as ref, K as useSsrAdapter, a6 as isObject, V as root, ao as derived, C as createInjectionKey, i as inject, aJ as throwError, M as mergeProps, G as Fragment, c as computed, ag as cB, al as cM, ah as c$1, ak as cE, am as cNotM, ap as useConfig, aq as useTheme, w as watch, z as onMounted, p as provide, q as toRef, ad as watchEffect, ay as createKey, ar as useThemeClass, I as withDirectives, an as TransitionGroup, av as cloneVNode, n as nextTick, at as vShow, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aP as createVNode, aV as toDisplayString, u as unref, aR as withCtx, f as isRef, aS as createBlock } from "./font-B8fvUeLJ.js";
+import { _ as __unplugin_components_0 } from "./Spin-C38U1UtH.js";
+import "./Ellipsis-CVTpRMIb.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"
@@ -343,7 +343,6 @@ function self(vars) {
   });
 }
 const tabsLight = {
-  name: "Tabs",
   common: derived,
   self
 };

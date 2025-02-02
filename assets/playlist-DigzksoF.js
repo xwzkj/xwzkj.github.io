@@ -18,11 +18,11 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { G as defineStore, H as useSettingStore, I as pinia, J as songUrlV1, K as downloadFile, L as songDetail, M as parseDetailToList, n as usePlayStore, O as recommendSongs, P as playlistDetail, C as Button, Q as __unplugin_components_0 } from "./index-Wq79Ra1M.js";
-import { m as musicList } from "./musicList-xkaMeT2x.js";
-import { aQ as _export_sfc, b as ref, w as watch, z as onMounted, aN as createElementBlock, u as unref, aO as createBaseVNode, aT as createCommentVNode, aV as toDisplayString, G as Fragment, aX as renderList, aP as createVNode, aR as withCtx, aM as openBlock, aS as createBlock, F as createTextVNode } from "./font-B8Y702kK.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-B4I5zLSU.js";
-import { _ as __unplugin_components_0$1 } from "./Spin-9G3p0urT.js";
+import { G as defineStore, H as songDetail, I as parseDetailToList, J as useSettingStore, K as pinia, L as songUrlV1, M as downloadFile, n as usePlayStore, O as recommendSongs, P as playlistDetail, B as Button, Q as __unplugin_components_0$1 } from "./index-CXxYeuur.js";
+import { m as musicList } from "./musicList-C4CdWCGP.js";
+import { aQ as _export_sfc, r as ref, w as watch, z as onMounted, aM as createElementBlock, aO as openBlock, aT as createCommentVNode, u as unref, aN as createBaseVNode, aV as toDisplayString, G as Fragment, aX as renderList, aP as createVNode, aR as withCtx, aS as createBlock, F as createTextVNode } from "./font-B8fvUeLJ.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-CVTpRMIb.js";
+import { _ as __unplugin_components_0 } from "./Spin-C38U1UtH.js";
 const useDownloadStore = defineStore("download", {
   state: () => ({
     list: [],
@@ -171,10 +171,10 @@ const _sfc_main = {
       });
     }
     return (_ctx, _cache) => {
-      const _component_n_tag = __unplugin_components_0;
+      const _component_n_tag = __unplugin_components_0$1;
       const _component_n_ellipsis = __unplugin_components_1;
       const _component_n_button = Button;
-      const _component_n_spin = __unplugin_components_0$1;
+      const _component_n_spin = __unplugin_components_0;
       return openBlock(), createElementBlock("div", null, [
         unref(result).tracks && !unref(loading) ? (openBlock(), createElementBlock("div", _hoisted_1, [
           createBaseVNode("div", _hoisted_2, [

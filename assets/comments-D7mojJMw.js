@@ -18,9 +18,9 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ag as formatCount, ah as commentFloor, q as error, ai as __unplugin_components_0, aj as emitter, ak as commentNew, L as songDetail, S as parseArtist } from "./index-Wq79Ra1M.js";
-import { m as markRaw, aM as openBlock, aN as createElementBlock, aO as createBaseVNode, d as defineComponent, b as ref, aV as toDisplayString, aP as createVNode, aR as withCtx, u as unref, aT as createCommentVNode, F as createTextVNode, G as Fragment, aX as renderList, aS as createBlock, aH as NIcon, w as watch, z as onMounted } from "./font-B8Y702kK.js";
-import { _ as __unplugin_components_0$1 } from "./Spin-9G3p0urT.js";
+import { ag as __unplugin_components_0, ah as formatCount, ai as commentFloor, q as error, aj as emitter, ak as commentNew, H as songDetail, T as parseArtist } from "./index-CXxYeuur.js";
+import { m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, d as defineComponent, r as ref, aT as createCommentVNode, aV as toDisplayString, aP as createVNode, aH as NIcon, aR as withCtx, u as unref, F as createTextVNode, G as Fragment, aX as renderList, aS as createBlock, w as watch, z as onMounted } from "./font-B8fvUeLJ.js";
+import { _ as __unplugin_components_0$1 } from "./Spin-C38U1UtH.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
