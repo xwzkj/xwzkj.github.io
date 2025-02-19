@@ -18,8 +18,8 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, aP as createVNode, aR as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-B8fvUeLJ.js";
-import { s as useThemeStore, u as useUserStore, t as loginQrKey, v as loginQrCreate, w as loginQrCheck, x as success, y as useRouter, _ as __unplugin_components_0$1, B as Button, q as error, z as sendCaptcha, A as verifyCaptcha, C as loginWithPhone } from "./index-DdQrTcLH.js";
+import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, aP as createVNode, aR as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-DJFqg1Hd.js";
+import { s as useThemeStore, u as useUserStore, t as loginQrKey, v as loginQrCreate, w as loginQrCheck, x as success, y as useRouter, _ as __unplugin_components_0$1, B as Button, q as error, z as sendCaptcha, A as verifyCaptcha, C as loginWithPhone } from "./index-DjpXbxAp.js";
 function self$1(vars) {
   const {
     textColor1,
@@ -899,17 +899,16 @@ var qrcodegen;
     QrSegment.Mode = Mode;
   })(qrcodegen2.QrSegment || (qrcodegen2.QrSegment = {}));
 })(qrcodegen || (qrcodegen = {}));
-const qrcodegen$1 = qrcodegen;
 const style = c([cB("qr-code", `
  background: #fff;
  border-radius: var(--n-border-radius);
  display: inline-flex;
  `)]);
 const ERROR_CORRECTION_LEVEL = {
-  L: qrcodegen$1.QrCode.Ecc.LOW,
-  M: qrcodegen$1.QrCode.Ecc.MEDIUM,
-  Q: qrcodegen$1.QrCode.Ecc.QUARTILE,
-  H: qrcodegen$1.QrCode.Ecc.HIGH
+  L: qrcodegen.QrCode.Ecc.LOW,
+  M: qrcodegen.QrCode.Ecc.MEDIUM,
+  Q: qrcodegen.QrCode.Ecc.QUARTILE,
+  H: qrcodegen.QrCode.Ecc.HIGH
 };
 const qrCodeProps = Object.assign(Object.assign({}, useTheme.props), {
   value: String,
@@ -971,7 +970,7 @@ const NQrCode = defineComponent({
     const qr = computed(() => {
       var _a;
       const errorCorrectionLevel = ERROR_CORRECTION_LEVEL[props.errorCorrectionLevel];
-      return qrcodegen$1.QrCode.encodeText((_a = props.value) !== null && _a !== void 0 ? _a : "-", errorCorrectionLevel);
+      return qrcodegen.QrCode.encodeText((_a = props.value) !== null && _a !== void 0 ? _a : "-", errorCorrectionLevel);
     });
     onMounted(() => {
       const imageLoadedTrigger = ref(0);

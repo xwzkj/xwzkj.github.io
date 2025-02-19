@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-D_LlSLlN.js","./itemCardList-BHPjXbiq.js","./font-B8fvUeLJ.js","./font-Bh99UfT1.css","./Ellipsis-D0HcZNIS.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-HLwKO3vN.js","./musicList-BUC9QGkE.js","./musicList-nLQAz02W.css","./Spin-uDDAdb1V.js","./login-C6K6hy28.js","./login-Cg-VrOPR.css","./account-yDNajIiX.js","./account-BE7gbH9_.css","./playlist-BcUKr6rk.js","./playlist-pRI4gIml.css","./setting-uivOlF8r.js","./setting-BIZfo136.css","./comments-CN2kI1SR.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-C4j-93MF.js","./itemCardList-TulX2Vhv.js","./font-DJFqg1Hd.js","./font-Bh99UfT1.css","./Ellipsis-Dm6LZypz.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-DleaShK3.js","./musicList-CqvPS8qZ.js","./musicList-nLQAz02W.css","./Spin-EU24xyWL.js","./login-C38fAyyJ.js","./login-Cg-VrOPR.css","./account-CQAGAbpw.js","./account-BE7gbH9_.css","./playlist-BwbtGiNq.js","./playlist-pRI4gIml.css","./setting-DA9Y4dZH.js","./setting-BIZfo136.css","./comments-GwuRy6YS.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -98,7 +98,7 @@ var __yieldStar = (value) => {
   }, "return" in obj && method("return"), it;
 };
 var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
-import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as createBaseVNode, aO as openBlock, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-B8fvUeLJ.js";
+import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as createBaseVNode, aO as openBlock, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-DJFqg1Hd.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -2047,7 +2047,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-D_LlSLlN.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-C4j-93MF.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2058,7 +2058,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-HLwKO3vN.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-DleaShK3.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2069,7 +2069,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-C6K6hy28.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-C38fAyyJ.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2077,7 +2077,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-yDNajIiX.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-CQAGAbpw.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2088,7 +2088,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BcUKr6rk.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BwbtGiNq.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2099,7 +2099,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-uivOlF8r.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-DA9Y4dZH.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2110,7 +2110,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-CN2kI1SR.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-GwuRy6YS.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
