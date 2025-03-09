@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-C4j-93MF.js","./itemCardList-TulX2Vhv.js","./font-DJFqg1Hd.js","./font-Bh99UfT1.css","./Ellipsis-Dm6LZypz.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-DleaShK3.js","./musicList-CqvPS8qZ.js","./musicList-nLQAz02W.css","./Spin-EU24xyWL.js","./login-C38fAyyJ.js","./login-Cg-VrOPR.css","./account-CQAGAbpw.js","./account-BE7gbH9_.css","./playlist-BwbtGiNq.js","./playlist-pRI4gIml.css","./setting-DA9Y4dZH.js","./setting-BIZfo136.css","./comments-GwuRy6YS.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DxdU0IAT.js","./itemCardList-DiFWN95Q.js","./font-DJFqg1Hd.js","./font-Bh99UfT1.css","./Ellipsis-DfEKgUwN.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-CENxxC5g.js","./musicList-3KsdZKQz.js","./musicList-nLQAz02W.css","./Spin-DLQuwtkR.js","./login-BZip7eu5.js","./login-C_VyiPeT.css","./account-BkOpCvxy.js","./account-BE7gbH9_.css","./playlist-D-1lCVgQ.js","./playlist-pRI4gIml.css","./setting-pm7Rsl8A.js","./setting-BIZfo136.css","./comments-DnpnDBSP.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -2047,7 +2047,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-C4j-93MF.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-DxdU0IAT.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2058,7 +2058,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DleaShK3.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CENxxC5g.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2069,7 +2069,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-C38fAyyJ.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-BZip7eu5.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2077,7 +2077,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-CQAGAbpw.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-BkOpCvxy.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2088,7 +2088,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BwbtGiNq.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-D-1lCVgQ.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2099,7 +2099,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DA9Y4dZH.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-pm7Rsl8A.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2110,7 +2110,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-GwuRy6YS.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-DnpnDBSP.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -22049,21 +22049,6 @@ const noop = () => {
 const toFiniteNumber = (value, defaultValue) => {
   return value != null && Number.isFinite(value = +value) ? value : defaultValue;
 };
-const ALPHA = "abcdefghijklmnopqrstuvwxyz";
-const DIGIT = "0123456789";
-const ALPHABET = {
-  DIGIT,
-  ALPHA,
-  ALPHA_DIGIT: ALPHA + ALPHA.toUpperCase() + DIGIT
-};
-const generateString = (size2 = 16, alphabet = ALPHABET.ALPHA_DIGIT) => {
-  let str = "";
-  const { length } = alphabet;
-  while (size2--) {
-    str += alphabet[Math.random() * length | 0];
-  }
-  return str;
-};
 function isSpecCompliantForm(thing) {
   return !!(thing && isFunction(thing.append) && thing[Symbol.toStringTag] === "FormData" && thing[Symbol.iterator]);
 }
@@ -22162,8 +22147,6 @@ const utils$1 = {
   findKey,
   global: _global,
   isContextDefined,
-  ALPHABET,
-  generateString,
   isSpecCompliantForm,
   toJSONObject,
   isAsyncFn,
@@ -23116,8 +23099,9 @@ function isAbsoluteURL(url) {
 function combineURLs(baseURL, relativeURL) {
   return relativeURL ? baseURL.replace(/\/?\/$/, "") + "/" + relativeURL.replace(/^\/+/, "") : baseURL;
 }
-function buildFullPath(baseURL, requestedURL) {
-  if (baseURL && !isAbsoluteURL(requestedURL)) {
+function buildFullPath(baseURL, requestedURL, allowAbsoluteUrls) {
+  let isRelativeUrl = !isAbsoluteURL(requestedURL);
+  if (baseURL && isRelativeUrl || allowAbsoluteUrls == false) {
     return combineURLs(baseURL, requestedURL);
   }
   return requestedURL;
@@ -23740,7 +23724,7 @@ function dispatchRequest(config) {
     return Promise.reject(reason);
   });
 }
-const VERSION$1 = "1.7.9";
+const VERSION$1 = "1.8.2";
 const validators$1 = {};
 ["object", "boolean", "number", "function", "string", "symbol"].forEach((type, i2) => {
   validators$1[type] = function validator2(thing) {
@@ -23870,6 +23854,12 @@ let Axios$1 = class Axios {
         }, true);
       }
     }
+    if (config.allowAbsoluteUrls !== void 0) ;
+    else if (this.defaults.allowAbsoluteUrls !== void 0) {
+      config.allowAbsoluteUrls = this.defaults.allowAbsoluteUrls;
+    } else {
+      config.allowAbsoluteUrls = true;
+    }
     validator.assertOptions(config, {
       baseUrl: validators.spelling("baseURL"),
       withXsrfToken: validators.spelling("withXSRFToken")
@@ -23940,7 +23930,7 @@ let Axios$1 = class Axios {
   }
   getUri(config) {
     config = mergeConfig$1(this.defaults, config);
-    const fullPath = buildFullPath(config.baseURL, config.url);
+    const fullPath = buildFullPath(config.baseURL, config.url, config.allowAbsoluteUrls);
     return buildURL(fullPath, config.params, config.paramsSerializer);
   }
 };

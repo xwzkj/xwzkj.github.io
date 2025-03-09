@@ -19,7 +19,7 @@ var __async = (__this, __arguments, generator) => {
   });
 };
 import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, aP as createVNode, aR as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-DJFqg1Hd.js";
-import { s as useThemeStore, u as useUserStore, t as loginQrKey, v as loginQrCreate, w as loginQrCheck, x as success, y as useRouter, _ as __unplugin_components_0$1, B as Button, q as error, z as sendCaptcha, A as verifyCaptcha, C as loginWithPhone } from "./index-DjpXbxAp.js";
+import { s as useThemeStore, u as useUserStore, t as loginQrKey, v as loginQrCreate, w as loginQrCheck, x as success, y as useRouter, _ as __unplugin_components_0$1, B as Button, q as error, z as sendCaptcha, A as verifyCaptcha, C as loginWithPhone } from "./index-D5ofvof_.js";
 function self$1(vars) {
   const {
     textColor1,
@@ -1282,6 +1282,7 @@ const _sfc_main = {
     }
     function login2() {
       return __async(this, null, function* () {
+        var _a, _b;
         if (name.value.length != 11) {
           error("请输入十一位国内号码");
           return;
@@ -1292,7 +1293,7 @@ const _sfc_main = {
         let res;
         if (currentMethod.value == "sms") {
           res = yield verifyCaptcha(name.value, key.value);
-          if (res.data.code != 200) {
+          if (((_a = res.data) == null ? void 0 : _a.code) != 200) {
             error(JSON.stringify(res.data));
             return;
           }
@@ -1301,7 +1302,7 @@ const _sfc_main = {
         if (currentMethod.value == "passwd") {
           res = yield loginWithPhone(name.value, key.value);
         }
-        if (res.data.code == 200) {
+        if (((_b = res.data) == null ? void 0 : _b.code) == 200) {
           afterLogin(res.data.cookie);
         } else {
           error(JSON.stringify(res.data));
@@ -1474,7 +1475,7 @@ const _sfc_main = {
     };
   }
 };
-const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-2358c1a3"]]);
+const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-4587fb75"]]);
 export {
   login as default
 };
