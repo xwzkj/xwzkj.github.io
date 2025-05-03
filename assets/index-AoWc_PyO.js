@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-C7spYGuL.js","./itemCardList-CYzbzwnn.js","./font-DJFqg1Hd.js","./font-Bh99UfT1.css","./Ellipsis-BGDasxM9.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-DQV2vXv4.js","./musicList-DvE-vYr0.js","./musicList-nLQAz02W.css","./Spin-CCdZQEWx.js","./login-BGEqZ1U9.js","./login-C_VyiPeT.css","./account-BKnWn2kF.js","./account-BE7gbH9_.css","./playlist-C3QYDRJ5.js","./playlist-pRI4gIml.css","./setting-IF2pqQKI.js","./setting-BIZfo136.css","./comments-Dz043Fl_.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BEJ8_UNo.js","./itemCardList-nR5wbyj1.js","./font-DJFqg1Hd.js","./font-Bh99UfT1.css","./Ellipsis-BIGxTJzt.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-CkPI8xun.js","./musicList-Bj3S_Tn9.js","./musicList-nLQAz02W.css","./Spin-D3TEFgix.js","./login-B1vQwYL3.js","./login-DeF--yW9.css","./account-BbYvXICo.js","./account-BE7gbH9_.css","./playlist-C7-B9On8.js","./playlist-pRI4gIml.css","./setting-D80EZJFY.js","./setting-BIZfo136.css","./comments-D2gjSJdM.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -175,8 +175,8 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
   });
 };
 /*!
-  * vue-router v4.5.0
-  * (c) 2024 Eduardo San Martin Morote
+  * vue-router v4.5.1
+  * (c) 2025 Eduardo San Martin Morote
   * @license MIT
   */
 const isBrowser$2 = typeof document !== "undefined";
@@ -1387,7 +1387,8 @@ const RouterLinkImpl = /* @__PURE__ */ defineComponent({
     ariaCurrentValue: {
       type: String,
       default: "page"
-    }
+    },
+    viewTransition: Boolean
   },
   useLink,
   setup(props, { slots }) {
@@ -2047,7 +2048,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-C7spYGuL.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BEJ8_UNo.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2058,7 +2059,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DQV2vXv4.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CkPI8xun.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2069,7 +2070,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BGEqZ1U9.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-B1vQwYL3.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2077,7 +2078,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-BKnWn2kF.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-BbYvXICo.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2088,7 +2089,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-C3QYDRJ5.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-C7-B9On8.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2099,7 +2100,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-IF2pqQKI.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-D80EZJFY.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2110,7 +2111,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-Dz043Fl_.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-D2gjSJdM.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -21796,6 +21797,7 @@ function bind(fn, thisArg) {
 }
 const { toString } = Object.prototype;
 const { getPrototypeOf } = Object;
+const { iterator, toStringTag } = Symbol;
 const kindOf = /* @__PURE__ */ ((cache2) => (thing) => {
   const str = toString.call(thing);
   return cache2[str] || (cache2[str] = str.slice(8, -1).toLowerCase());
@@ -21830,7 +21832,7 @@ const isPlainObject = (val) => {
     return false;
   }
   const prototype2 = getPrototypeOf(val);
-  return (prototype2 === null || prototype2 === Object.prototype || Object.getPrototypeOf(prototype2) === null) && !(Symbol.toStringTag in val) && !(Symbol.iterator in val);
+  return (prototype2 === null || prototype2 === Object.prototype || Object.getPrototypeOf(prototype2) === null) && !(toStringTag in val) && !(iterator in val);
 };
 const isDate = kindOfTest("Date");
 const isFile = kindOfTest("File");
@@ -21977,10 +21979,10 @@ const isTypedArray = /* @__PURE__ */ ((TypedArray) => {
   };
 })(typeof Uint8Array !== "undefined" && getPrototypeOf(Uint8Array));
 const forEachEntry = (obj, fn) => {
-  const generator = obj && obj[Symbol.iterator];
-  const iterator = generator.call(obj);
+  const generator = obj && obj[iterator];
+  const _iterator = generator.call(obj);
   let result;
-  while ((result = iterator.next()) && !result.done) {
+  while ((result = _iterator.next()) && !result.done) {
     const pair = result.value;
     fn.call(obj, pair[0], pair[1]);
   }
@@ -22050,7 +22052,7 @@ const toFiniteNumber = (value, defaultValue) => {
   return value != null && Number.isFinite(value = +value) ? value : defaultValue;
 };
 function isSpecCompliantForm(thing) {
-  return !!(thing && isFunction(thing.append) && thing[Symbol.toStringTag] === "FormData" && thing[Symbol.iterator]);
+  return !!(thing && isFunction(thing.append) && thing[toStringTag] === "FormData" && thing[iterator]);
 }
 const toJSONObject = (obj) => {
   const stack2 = new Array(10);
@@ -22096,6 +22098,7 @@ const _setImmediate = ((setImmediateSupported, postMessageSupported) => {
   isFunction(_global.postMessage)
 );
 const asap = typeof queueMicrotask !== "undefined" ? queueMicrotask.bind(_global) : typeof process !== "undefined" && process.nextTick || _setImmediate;
+const isIterable = (thing) => thing != null && isFunction(thing[iterator]);
 const utils$1 = {
   isArray,
   isArrayBuffer,
@@ -22152,7 +22155,8 @@ const utils$1 = {
   isAsyncFn,
   isThenable,
   setImmediate: _setImmediate,
-  asap
+  asap,
+  isIterable
 };
 function AxiosError$1(message, code, config, request2, response) {
   Error.call(this);
@@ -22772,10 +22776,15 @@ let AxiosHeaders$1 = class AxiosHeaders {
       setHeaders(header, valueOrRewrite);
     } else if (utils$1.isString(header) && (header = header.trim()) && !isValidHeaderName(header)) {
       setHeaders(parseHeaders(header), valueOrRewrite);
-    } else if (utils$1.isHeaders(header)) {
-      for (const [key, value] of header.entries()) {
-        setHeader(value, key, rewrite);
+    } else if (utils$1.isObject(header) && utils$1.isIterable(header)) {
+      let obj = {}, dest, key;
+      for (const entry of header) {
+        if (!utils$1.isArray(entry)) {
+          throw TypeError("Object iterator must return a key-value pair");
+        }
+        obj[key = entry[0]] = (dest = obj[key]) ? utils$1.isArray(dest) ? [...dest, entry[1]] : [dest, entry[1]] : entry[1];
       }
+      setHeaders(obj, valueOrRewrite);
     } else {
       header != null && setHeader(valueOrRewrite, header, rewrite);
     }
@@ -22878,6 +22887,9 @@ let AxiosHeaders$1 = class AxiosHeaders {
   }
   toString() {
     return Object.entries(this.toJSON()).map(([header, value]) => header + ": " + value).join("\n");
+  }
+  getSetCookie() {
+    return this.get("set-cookie") || [];
   }
   get [Symbol.toStringTag]() {
     return "AxiosHeaders";
@@ -23101,7 +23113,7 @@ function combineURLs(baseURL, relativeURL) {
 }
 function buildFullPath(baseURL, requestedURL, allowAbsoluteUrls) {
   let isRelativeUrl = !isAbsoluteURL(requestedURL);
-  if (baseURL && isRelativeUrl || allowAbsoluteUrls == false) {
+  if (baseURL && (isRelativeUrl || allowAbsoluteUrls == false)) {
     return combineURLs(baseURL, requestedURL);
   }
   return requestedURL;
@@ -23188,7 +23200,7 @@ const resolveConfig = (config) => {
   const newConfig = mergeConfig$1({}, config);
   let { data, withXSRFToken, xsrfHeaderName, xsrfCookieName, headers, auth } = newConfig;
   newConfig.headers = headers = AxiosHeaders$1.from(headers);
-  newConfig.url = buildURL(buildFullPath(newConfig.baseURL, newConfig.url), config.params, config.paramsSerializer);
+  newConfig.url = buildURL(buildFullPath(newConfig.baseURL, newConfig.url, newConfig.allowAbsoluteUrls), config.params, config.paramsSerializer);
   if (auth) {
     headers.set(
       "Authorization",
@@ -23427,7 +23439,7 @@ const readStream = function(stream) {
   });
 };
 const trackStream = (stream, chunkSize, onProgress, onFinish) => {
-  const iterator = readBytes(stream, chunkSize);
+  const iterator2 = readBytes(stream, chunkSize);
   let bytes = 0;
   let done;
   let _onFinish = (e2) => {
@@ -23440,7 +23452,7 @@ const trackStream = (stream, chunkSize, onProgress, onFinish) => {
     pull(controller) {
       return __async(this, null, function* () {
         try {
-          const { done: done2, value } = yield iterator.next();
+          const { done: done2, value } = yield iterator2.next();
           if (done2) {
             _onFinish();
             controller.close();
@@ -23460,7 +23472,7 @@ const trackStream = (stream, chunkSize, onProgress, onFinish) => {
     },
     cancel(reason) {
       _onFinish(reason);
-      return iterator.return();
+      return iterator2.return();
     }
   }, {
     highWaterMark: 2
@@ -23618,7 +23630,7 @@ const fetchAdapter = isFetchSupported && ((config) => __async(void 0, null, func
     });
   } catch (err) {
     unsubscribe && unsubscribe();
-    if (err && err.name === "TypeError" && /fetch/i.test(err.message)) {
+    if (err && err.name === "TypeError" && /Load failed|fetch/i.test(err.message)) {
       throw Object.assign(
         new AxiosError$1("Network Error", AxiosError$1.ERR_NETWORK, config, request2),
         {
@@ -23724,7 +23736,7 @@ function dispatchRequest(config) {
     return Promise.reject(reason);
   });
 }
-const VERSION$1 = "1.8.2";
+const VERSION$1 = "1.9.0";
 const validators$1 = {};
 ["object", "boolean", "number", "function", "string", "symbol"].forEach((type, i2) => {
   validators$1[type] = function validator2(thing) {
@@ -23790,7 +23802,7 @@ const validator = {
 const validators = validator.validators;
 let Axios$1 = class Axios {
   constructor(instanceConfig) {
-    this.defaults = instanceConfig;
+    this.defaults = instanceConfig || {};
     this.interceptors = {
       request: new InterceptorManager(),
       response: new InterceptorManager()
@@ -30744,7 +30756,7 @@ let musicApi = axios.create({
   // withCredentials: true,
 });
 let request = (params, realTimeSync = true) => __async(void 0, null, function* () {
-  var _a, _b, _c;
+  var _a, _b, _c, _d;
   try {
     const userStore = useUserStore(pinia);
     if (realTimeSync) {
@@ -30764,7 +30776,7 @@ let request = (params, realTimeSync = true) => __async(void 0, null, function* (
     error(
       `${e2.name}
 ${e2.message}
-${(_c = (_b = e2 == null ? void 0 : e2.response) == null ? void 0 : _b.data) == null ? void 0 : _c.message}`,
+${(_d = (_c = (_b = e2 == null ? void 0 : e2.response) == null ? void 0 : _b.data) == null ? void 0 : _c.message) != null ? _d : e2 == null ? void 0 : e2.response}`,
       `API网络请求错误！可尝试使用客户端`
     );
   }
@@ -30820,11 +30832,11 @@ function loginQrCreate(key) {
     data: { key }
   });
 }
-function loginQrCheck(key) {
+function loginQrCheck(key, noCookie = true) {
   return request({
     url: "/login/qr/check",
     method: "post",
-    params: { key }
+    params: { key, noCookie }
   });
 }
 function songDetail(ids) {
