@@ -18,12 +18,12 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { c, a as cssrAnchorMetaName, i as isSymbol, r as render, N as NBaseIcon, b as NBaseClose, o as omit, f as flatten, d as resolveWrappedSlot, V as VResizeObserver, e as useCompitable, h as useMergedState, j as onFontsReady, k as getMargin, l as depx, m as call, n as usePlayStore, p as cloudsearch, q as error } from "./index-r1d8G71K.js";
-import { m as musicList } from "./musicList-D-fVgxXi.js";
-import { i as itemCardList } from "./itemCardList-CvvLdaCm.js";
+import { c, a as cssrAnchorMetaName, i as isSymbol, r as render, N as NBaseIcon, b as NBaseClose, o as omit, f as flatten, d as resolveWrappedSlot, V as VResizeObserver, e as useCompitable, h as useMergedState, j as onFontsReady, k as getMargin, l as depx, m as call, n as usePlayStore, p as cloudsearch, q as error } from "./index-DK7Djee3.js";
+import { m as musicList } from "./musicList-zONkAtWJ.js";
+import { i as itemCardList } from "./itemCardList-X6NJ6maj.js";
 import { d as defineComponent, h, r as ref, K as useSsrAdapter, a6 as isObject, V as root, ao as derived, C as createInjectionKey, i as inject, aJ as throwError, M as mergeProps, G as Fragment, c as computed, ag as cB, al as cM, ah as c$1, ak as cE, am as cNotM, ap as useConfig, aq as useTheme, w as watch, z as onMounted, p as provide, q as toRef, ad as watchEffect, ay as createKey, ar as useThemeClass, I as withDirectives, an as TransitionGroup, av as cloneVNode, n as nextTick, at as vShow, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aP as createVNode, aV as toDisplayString, u as unref, aR as withCtx, f as isRef, aS as createBlock } from "./font-DJFqg1Hd.js";
-import { _ as __unplugin_components_0 } from "./Spin-C8FhbBor.js";
-import "./Ellipsis-Cl9dHin4.js";
+import { _ as __unplugin_components_0 } from "./Spin-C1OBRu7X.js";
+import "./Ellipsis-oDfF2ZN6.js";
 const styles = c(".v-x-scroll", {
   overflow: "auto",
   scrollbarWidth: "none"

@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-PoIo04Pl.js","./itemCardList-CvvLdaCm.js","./font-DJFqg1Hd.js","./font-Bh99UfT1.css","./Ellipsis-Cl9dHin4.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-88K30Oy8.js","./musicList-D-fVgxXi.js","./musicList-nLQAz02W.css","./Spin-C8FhbBor.js","./login-BQ4295k1.js","./login-DeF--yW9.css","./account-CDMrD_ds.js","./account-BE7gbH9_.css","./playlist-owOZc0gg.js","./playlist-pRI4gIml.css","./setting-BpMlG3Tw.js","./setting-BIZfo136.css","./comments-DJPfa-Rk.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-AXixIpiQ.js","./itemCardList-X6NJ6maj.js","./font-DJFqg1Hd.js","./font-Bh99UfT1.css","./Ellipsis-oDfF2ZN6.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-5KNkbOy7.js","./musicList-zONkAtWJ.js","./musicList-nLQAz02W.css","./Spin-C1OBRu7X.js","./login-CZvvnIsg.js","./login-DeF--yW9.css","./account-5rAfegrE.js","./account-BE7gbH9_.css","./playlist-CMy_yste.js","./playlist-pRI4gIml.css","./setting-DQVI7vKg.js","./setting-BIZfo136.css","./comments-CkepdmqZ.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -2048,7 +2048,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-PoIo04Pl.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-AXixIpiQ.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2059,7 +2059,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-88K30Oy8.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-5KNkbOy7.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2070,7 +2070,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-BQ4295k1.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CZvvnIsg.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2078,7 +2078,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-CDMrD_ds.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-5rAfegrE.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2089,7 +2089,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-owOZc0gg.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CMy_yste.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2100,7 +2100,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-BpMlG3Tw.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-DQVI7vKg.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2111,7 +2111,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-DJPfa-Rk.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-CkepdmqZ.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
