@@ -1,5 +1,5 @@
-import { u as useUserStore, R as __unplugin_components_5, S as parseArray, Q as __unplugin_components_0, T as parseArtist, U as __unplugin_components_2, W as likeAndUpdateLikelist, X as __unplugin_components_3 } from "./index-DK7Djee3.js";
-import { aQ as _export_sfc, r as ref, c as computed, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aP as createVNode, aR as withCtx, G as Fragment, aX as renderList, aV as toDisplayString, u as unref, aT as createCommentVNode, aS as createBlock, F as createTextVNode, aH as NIcon, I as withDirectives, at as vShow } from "./font-DJFqg1Hd.js";
+import { u as useUserStore, R as __unplugin_components_5, S as parseArray, Q as __unplugin_components_0, T as parseArtist, U as __unplugin_components_2, W as likeAndUpdateLikelist, X as __unplugin_components_3 } from "./index-acHcgDy9.js";
+import { aQ as _export_sfc, r as ref, c as computed, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aP as createVNode, aR as withCtx, G as Fragment, aX as renderList, aV as toDisplayString, u as unref, aT as createCommentVNode, aS as createBlock, F as createTextVNode, aH as NIcon, I as withDirectives, at as vShow } from "./font-DTV79hNu.js";
 const _hoisted_1 = { class: "music-list" };
 const _hoisted_2 = { class: "list-head-div" };
 const _hoisted_3 = { class: "list-items" };
@@ -56,7 +56,8 @@ const _sfc_main = {
                 createBaseVNode("div", { class: "head-album text2" }, "专辑")
               ], -1)
             ])),
-            _: 1
+            _: 1,
+            __: [0]
           })
         ]),
         createBaseVNode("div", _hoisted_3, [
@@ -92,9 +93,10 @@ const _sfc_main = {
                             bordered: false
                           }, {
                             default: withCtx(() => _cache[1] || (_cache[1] = [
-                              createTextVNode("VIP")
+                              createTextVNode("VIP", -1)
                             ])),
-                            _: 1
+                            _: 1,
+                            __: [1]
                           })) : createCommentVNode("", true),
                           item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
                             key: 1,
@@ -103,9 +105,10 @@ const _sfc_main = {
                             bordered: false
                           }, {
                             default: withCtx(() => _cache[2] || (_cache[2] = [
-                              createTextVNode("数字专辑")
+                              createTextVNode("数字专辑", -1)
                             ])),
-                            _: 1
+                            _: 1,
+                            __: [2]
                           })) : createCommentVNode("", true),
                           createBaseVNode("span", _hoisted_13, toDisplayString(parseArtist(item.ar)), 1)
                         ])

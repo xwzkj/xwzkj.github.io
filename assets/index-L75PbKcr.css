@@ -510,19 +510,19 @@ right---------------------------------------------------------
 
 .app,
 .bg {
-  background-color: var(--54cada9b);
+  background-color: var(--7abfd979);
 }
 * {
-  --color-0: var(--54cada9b);
-  --color-1: var(--54cadaba);
-  --color-2: var(--54cadad9);
-  --color-3: var(--54cadaf8);
-  --color-4: var(--54cadb17);
-  --color-5: var(--54cadb36);
-  --color-6: var(--54cadb55);
-  --color-7: var(--54cadb74);
-  --color-8: var(--54cadb93);
-  --color-9: var(--54cadbb2);
+  --color-0: var(--7abfd979);
+  --color-1: var(--7abfd998);
+  --color-2: var(--7abfd9b7);
+  --color-3: var(--7abfd9d6);
+  --color-4: var(--7abfd9f5);
+  --color-5: var(--7abfda14);
+  --color-6: var(--7abfda33);
+  --color-7: var(--7abfda52);
+  --color-8: var(--7abfda71);
+  --color-9: var(--7abfda90);
 }
 .icon,
 .n-icon {

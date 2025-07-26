@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-AXixIpiQ.js","./itemCardList-X6NJ6maj.js","./font-DJFqg1Hd.js","./font-Bh99UfT1.css","./Ellipsis-oDfF2ZN6.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-5KNkbOy7.js","./musicList-zONkAtWJ.js","./musicList-nLQAz02W.css","./Spin-C1OBRu7X.js","./login-CZvvnIsg.js","./login-DeF--yW9.css","./account-5rAfegrE.js","./account-BE7gbH9_.css","./playlist-CMy_yste.js","./playlist-pRI4gIml.css","./setting-DQVI7vKg.js","./setting-BIZfo136.css","./comments-CkepdmqZ.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-C7aRoSH9.js","./itemCardList-D14nVZyO.js","./font-DTV79hNu.js","./font-Bh99UfT1.css","./Ellipsis-BGFUDLDn.js","./itemCardList-eer67ANF.css","./home-Cd2oFn4Z.css","./search-CYz-7cSH.js","./musicList-jJCwkysz.js","./musicList-nLQAz02W.css","./Spin-CiHHaVEf.js","./login-CtWIEXDS.js","./login-DeF--yW9.css","./account-x_QiEHM8.js","./account-BE7gbH9_.css","./playlist-CV09_hY7.js","./playlist-pRI4gIml.css","./setting-BWdqkur4.js","./setting-BIZfo136.css","./comments-BJxbYIiM.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -98,7 +98,7 @@ var __yieldStar = (value) => {
   }, "return" in obj && method("return"), it;
 };
 var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
-import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as createBaseVNode, aO as openBlock, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-DJFqg1Hd.js";
+import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as createBaseVNode, aO as openBlock, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-DTV79hNu.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -2048,7 +2048,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-AXixIpiQ.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-C7aRoSH9.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2059,7 +2059,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-5KNkbOy7.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-CYz-7cSH.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2070,7 +2070,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-CZvvnIsg.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CtWIEXDS.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2078,7 +2078,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-5rAfegrE.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-x_QiEHM8.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2089,7 +2089,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-CMy_yste.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CV09_hY7.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2100,7 +2100,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-DQVI7vKg.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BWdqkur4.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2111,7 +2111,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-CkepdmqZ.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-BJxbYIiM.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -6996,7 +6996,7 @@ function baseSlice(array, start, end) {
 function castSlice(array, start, end) {
   var length = array.length;
   end = end === void 0 ? length : end;
-  return false ? array : baseSlice(array, start, end);
+  return !start && end >= length ? array : baseSlice(array, start, end);
 }
 var rsAstralRange$1 = "\\ud800-\\udfff", rsComboMarksRange$1 = "\\u0300-\\u036f", reComboHalfMarksRange$1 = "\\ufe20-\\ufe2f", rsComboSymbolsRange$1 = "\\u20d0-\\u20ff", rsComboRange$1 = rsComboMarksRange$1 + reComboHalfMarksRange$1 + rsComboSymbolsRange$1, rsVarRange$1 = "\\ufe0e\\ufe0f";
 var rsZWJ$1 = "\\u200d";
@@ -7566,7 +7566,6 @@ const style$i = cB("base-icon", `
  display: inline-block;
  position: relative;
  fill: currentColor;
- transform: translateZ(0);
 `, [c$1("svg", `
  height: 1em;
  width: 1em;
@@ -12556,8 +12555,8 @@ const __unplugin_components_0$4 = defineComponent({
     function handlePasswordToggleMousedown(e2) {
       if (mergedDisabledRef.value) return;
       e2.preventDefault();
-      const preventDefaultOnce = (e22) => {
-        e22.preventDefault();
+      const preventDefaultOnce = (e3) => {
+        e3.preventDefault();
         off("mouseup", document, preventDefaultOnce);
       };
       on("mouseup", document, preventDefaultOnce);
@@ -21834,6 +21833,16 @@ const isPlainObject = (val) => {
   const prototype2 = getPrototypeOf(val);
   return (prototype2 === null || prototype2 === Object.prototype || Object.getPrototypeOf(prototype2) === null) && !(toStringTag in val) && !(iterator in val);
 };
+const isEmptyObject = (val) => {
+  if (!isObject(val) || isBuffer(val)) {
+    return false;
+  }
+  try {
+    return Object.keys(val).length === 0 && Object.getPrototypeOf(val) === Object.prototype;
+  } catch (e2) {
+    return false;
+  }
+};
 const isDate = kindOfTest("Date");
 const isFile = kindOfTest("File");
 const isBlob = kindOfTest("Blob");
@@ -21861,6 +21870,9 @@ function forEach(obj, fn, { allOwnKeys = false } = {}) {
       fn.call(null, obj[i2], i2, obj);
     }
   } else {
+    if (isBuffer(obj)) {
+      return;
+    }
     const keys2 = allOwnKeys ? Object.getOwnPropertyNames(obj) : Object.keys(obj);
     const len2 = keys2.length;
     let key;
@@ -21871,6 +21883,9 @@ function forEach(obj, fn, { allOwnKeys = false } = {}) {
   }
 }
 function findKey(obj, key) {
+  if (isBuffer(obj)) {
+    return null;
+  }
   key = key.toLowerCase();
   const keys2 = Object.keys(obj);
   let i2 = keys2.length;
@@ -22061,6 +22076,9 @@ const toJSONObject = (obj) => {
       if (stack2.indexOf(source) >= 0) {
         return;
       }
+      if (isBuffer(source)) {
+        return source;
+      }
       if (!("toJSON" in source)) {
         stack2[i2] = source;
         const target = isArray(source) ? [] : {};
@@ -22110,6 +22128,7 @@ const utils$1 = {
   isBoolean,
   isObject,
   isPlainObject,
+  isEmptyObject,
   isReadableStream,
   isRequest,
   isResponse,
@@ -22275,6 +22294,9 @@ function toFormData$1(obj, formData, options) {
     if (value === null) return "";
     if (utils$1.isDate(value)) {
       return value.toISOString();
+    }
+    if (utils$1.isBoolean(value)) {
+      return value.toString();
     }
     if (!useBlob && utils$1.isBlob(value)) {
       throw new AxiosError$1("Blob is not supported. Use a Buffer instead.");
@@ -22495,7 +22517,7 @@ const utils = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePropert
 }, Symbol.toStringTag, { value: "Module" }));
 const platform = __spreadValues(__spreadValues({}, utils), platform$1);
 function toURLEncodedForm(data, options) {
-  return toFormData$1(data, new platform.classes.URLSearchParams(), Object.assign({
+  return toFormData$1(data, new platform.classes.URLSearchParams(), __spreadValues({
     visitor: function(value, key, path, helpers) {
       if (platform.isNode && utils$1.isBuffer(value)) {
         this.append(key, value.toString("base64"));
@@ -23014,7 +23036,7 @@ function throttle(fn, freq) {
       clearTimeout(timer2);
       timer2 = null;
     }
-    fn.apply(null, args);
+    fn(...args);
   };
   const throttled = (...args) => {
     const now = Date.now();
@@ -23189,7 +23211,7 @@ function mergeConfig$1(config1, config2) {
     validateStatus: mergeDirectKeys,
     headers: (a, b, prop) => mergeDeepProperties(headersToObject(a), headersToObject(b), prop, true)
   };
-  utils$1.forEach(Object.keys(Object.assign({}, config1, config2)), function computeConfigValue(prop) {
+  utils$1.forEach(Object.keys(__spreadValues(__spreadValues({}, config1), config2)), function computeConfigValue(prop) {
     const merge2 = mergeMap[prop] || mergeDeepProperties;
     const configValue = merge2(config1[prop], config2[prop], prop);
     utils$1.isUndefined(configValue) && merge2 !== mergeDirectKeys || (config[prop] = configValue);
@@ -23595,7 +23617,7 @@ const fetchAdapter = isFetchSupported && ((config) => __async(void 0, null, func
       duplex: "half",
       credentials: isCredentialsSupported ? withCredentials : void 0
     }));
-    let response = yield fetch(request2);
+    let response = yield fetch(request2, fetchOptions);
     const isStreamResponse = supportsResponseStream && (responseType === "stream" || responseType === "response");
     if (supportsResponseStream && (onDownloadProgress || isStreamResponse && unsubscribe)) {
       const options = {};
@@ -23736,7 +23758,7 @@ function dispatchRequest(config) {
     return Promise.reject(reason);
   });
 }
-const VERSION$1 = "1.9.0";
+const VERSION$1 = "1.11.0";
 const validators$1 = {};
 ["object", "boolean", "number", "function", "string", "symbol"].forEach((type, i2) => {
   validators$1[type] = function validator2(thing) {
@@ -23906,8 +23928,8 @@ let Axios$1 = class Axios {
     let len2;
     if (!synchronousRequestInterceptors) {
       const chain = [dispatchRequest.bind(this), void 0];
-      chain.unshift.apply(chain, requestInterceptorChain);
-      chain.push.apply(chain, responseInterceptorChain);
+      chain.unshift(...requestInterceptorChain);
+      chain.push(...responseInterceptorChain);
       len2 = chain.length;
       promise = Promise.resolve(config);
       while (i2 < len2) {
@@ -30749,7 +30771,7 @@ function requireBlowfish() {
   });
 })(cryptoJs);
 var cryptoJsExports = cryptoJs.exports;
-let apiurl = "https://api.xwzkj.top";
+let apiurl = "https://api.wanzii.cn";
 let musicApi = axios.create({
   baseURL: apiurl,
   timeout: 2e4
@@ -30940,7 +30962,7 @@ function verifyCaptcha(phone, captcha) {
   });
 }
 function playlistTracks(op, pid, tracks) {
-  if (!op || !pid || !tracks) {
+  if (!pid || !tracks) {
     throw new Error("[api][歌单添加或删除歌曲]参数不能为空");
   }
   return request({
@@ -33063,8 +33085,7 @@ function render$g(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M18 15s-4.419-6-6-6s-6 6-6 6",
-      color: "currentColor"
+      d: "M18 15s-4.419-6-6-6s-6 6-6 6"
     }, null, -1)
   ]));
 }
@@ -33082,8 +33103,7 @@ function render$f(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2",
-      color: "currentColor"
+      d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2"
     }, null, -1)
   ]));
 }
@@ -34491,8 +34511,7 @@ function render$e(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009",
-      color: "currentColor"
+      d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009"
     }, null, -1)
   ]));
 }
@@ -34509,8 +34528,7 @@ function render$d(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      color: "currentColor"
+      "stroke-width": "1.5"
     }, [
       createBaseVNode("path", { d: "M14 9h4m-4 3.5h3" }),
       createBaseVNode("rect", {
@@ -34537,8 +34555,7 @@ function render$c(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      color: "currentColor"
+      "stroke-width": "1.5"
     }, [
       createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
       createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
@@ -34558,8 +34575,7 @@ function render$b(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      color: "currentColor"
+      "stroke-width": "1.5"
     }, [
       createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
       createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
@@ -34579,8 +34595,7 @@ function render$a(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      color: "currentColor"
+      "stroke-width": "1.5"
     }, [
       createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
       createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
@@ -34760,9 +34775,10 @@ const _sfc_main$5 = {
             onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
           }, {
             default: withCtx(() => _cache[5] || (_cache[5] = [
-              createTextVNode("登录")
+              createTextVNode("登录", -1)
             ])),
-            _: 1
+            _: 1,
+            __: [5]
           })) : createCommentVNode("", true),
           unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
             key: 1,
@@ -34808,8 +34824,7 @@ function render$9(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6",
-      color: "currentColor"
+      d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6"
     }, null, -1)
   ]));
 }
@@ -34827,8 +34842,7 @@ function render$8(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M8.5 14.5h7m-7-5H12m2.17 11.39c4.184-.277 7.516-3.657 7.79-7.9c.053-.83.053-1.69 0-2.52c-.274-4.242-3.606-7.62-7.79-7.899a33 33 0 0 0-4.34 0c-4.184.278-7.516 3.657-7.79 7.9a20 20 0 0 0 0 2.52c.1 1.545.783 2.976 1.588 4.184c.467.845.159 1.9-.328 2.823c-.35.665-.526.997-.385 1.237c.14.24.455.248 1.084.263c1.245.03 2.084-.322 2.75-.813c.377-.279.566-.418.696-.434s.387.09.899.3c.46.19.995.307 1.485.34c1.425.094 2.914.094 4.342 0",
-      color: "currentColor"
+      d: "M8.5 14.5h7m-7-5H12m2.17 11.39c4.184-.277 7.516-3.657 7.79-7.9c.053-.83.053-1.69 0-2.52c-.274-4.242-3.606-7.62-7.79-7.899a33 33 0 0 0-4.34 0c-4.184.278-7.516 3.657-7.79 7.9a20 20 0 0 0 0 2.52c.1 1.545.783 2.976 1.588 4.184c.467.845.159 1.9-.328 2.823c-.35.665-.526.997-.385 1.237c.14.24.455.248 1.084.263c1.245.03 2.084-.322 2.75-.813c.377-.279.566-.418.696-.434s.387.09.899.3c.46.19.995.307 1.485.34c1.425.094 2.914.094 4.342 0"
     }, null, -1)
   ]));
 }
@@ -34846,8 +34860,7 @@ function render$7(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "m13.926 12.778l-2.149-2.149c-.292-.293-.439-.439-.597-.517a1.07 1.07 0 0 0-.954 0c-.158.078-.304.224-.597.517s-.439.44-.517.597c-.15.301-.15.654 0 .954c.078.158.224.305.517.598l2.149 2.148m2.148-2.149l6.445 6.446c.293.292.439.439.517.597c.15.3.15.653 0 .954c-.078.157-.224.304-.517.597s-.44.439-.597.517c-.301.15-.654.15-.954 0c-.158-.078-.305-.224-.598-.517l-6.445-6.445m2.149-2.149l-2.149 2.149M17 2l.295.797c.386 1.044.58 1.566.96 1.947c.382.381.904.575 1.948.961L21 6l-.797.295c-1.044.386-1.566.58-1.947.96c-.381.382-.575.904-.961 1.948L17 10l-.295-.797c-.386-1.044-.58-1.566-.96-1.947c-.382-.381-.904-.575-1.948-.961L13 6l.797-.295c1.044-.386 1.566-.58 1.947-.96c.381-.382.575-.904.961-1.948zM6 4l.221.597c.29.784.435 1.176.72 1.461c.286.286.678.431 1.462.72L9 7l-.597.221c-.784.29-1.176.435-1.461.72c-.286.286-.431.678-.72 1.462L6 10l-.221-.597c-.29-.784-.435-1.176-.72-1.461c-.286-.286-.678-.431-1.462-.72L3 7l.597-.221c.784-.29 1.176-.435 1.461-.72c.286-.286.431-.678.72-1.462z",
-      color: "currentColor"
+      d: "m13.926 12.778l-2.149-2.149c-.292-.293-.439-.439-.597-.517a1.07 1.07 0 0 0-.954 0c-.158.078-.304.224-.597.517s-.439.44-.517.597c-.15.301-.15.654 0 .954c.078.158.224.305.517.598l2.149 2.148m2.148-2.149l6.445 6.446c.293.292.439.439.517.597c.15.3.15.653 0 .954c-.078.157-.224.304-.517.597s-.44.439-.597.517c-.301.15-.654.15-.954 0c-.158-.078-.305-.224-.598-.517l-6.445-6.445m2.149-2.149l-2.149 2.149M17 2l.295.797c.386 1.044.58 1.566.96 1.947c.382.381.904.575 1.948.961L21 6l-.797.295c-1.044.386-1.566.58-1.947.96c-.381.382-.575.904-.961 1.948L17 10l-.295-.797c-.386-1.044-.58-1.566-.96-1.947c-.382-.381-.904-.575-1.948-.961L13 6l.797-.295c1.044-.386 1.566-.58 1.947-.96c.381-.382.575-.904.961-1.948zM6 4l.221.597c.29.784.435 1.176.72 1.461c.286.286.678.431 1.462.72L9 7l-.597.221c-.784.29-1.176.435-1.461.72c-.286.286-.431.678-.72 1.462L6 10l-.221-.597c-.29-.784-.435-1.176-.72-1.461c-.286-.286-.678-.431-1.462-.72L3 7l.597-.221c.784-.29 1.176-.435 1.461-.72c.286-.286.431-.678.72-1.462z"
     }, null, -1)
   ]));
 }
@@ -34865,8 +34878,7 @@ function render$6(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M16.977 19.5A9 9 0 0 0 10 3.223M16.977 19.5V16m0 3.5H20.5M7 4.516a9 9 0 0 0 7 16.261M7 4.516V8m0-3.484H3.5",
-      color: "currentColor"
+      d: "M16.977 19.5A9 9 0 0 0 10 3.223M16.977 19.5V16m0 3.5H20.5M7 4.516a9 9 0 0 0 7 16.261M7 4.516V8m0-3.484H3.5"
     }, null, -1)
   ]));
 }
@@ -34884,8 +34896,7 @@ function render$5(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M9 6s6 4.419 6 6s-6 6-6 6",
-      color: "currentColor"
+      d: "M9 6s6 4.419 6 6s-6 6-6 6"
     }, null, -1)
   ]));
 }
@@ -34903,8 +34914,7 @@ function render$4(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z",
-      color: "currentColor"
+      d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z"
     }, null, -1)
   ]));
 }
@@ -34922,8 +34932,7 @@ function render$3(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692",
-      color: "currentColor"
+      d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692"
     }, null, -1)
   ]));
 }
@@ -34941,8 +34950,7 @@ function render$2(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M15 6s-6 4.419-6 6s6 6 6 6",
-      color: "currentColor"
+      d: "M15 6s-6 4.419-6 6s6 6 6 6"
     }, null, -1)
   ]));
 }
@@ -35076,9 +35084,10 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
                     bordered: false
                   }, {
                     default: withCtx(() => _cache[0] || (_cache[0] = [
-                      createTextVNode("VIP")
+                      createTextVNode("VIP", -1)
                     ])),
-                    _: 1
+                    _: 1,
+                    __: [0]
                   })) : createCommentVNode("", true),
                   item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
                     key: 1,
@@ -35087,9 +35096,10 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
                     bordered: false
                   }, {
                     default: withCtx(() => _cache[1] || (_cache[1] = [
-                      createTextVNode("数字专辑")
+                      createTextVNode("数字专辑", -1)
                     ])),
-                    _: 1
+                    _: 1,
+                    __: [1]
                   })) : createCommentVNode("", true),
                   createTextVNode(" " + toDisplayString(item.name), 1)
                 ]),
@@ -35848,16 +35858,16 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "54cada9b": unref(themeStore).mainColors[0],
-      "54cadaba": unref(themeStore).mainColors[1],
-      "54cadad9": unref(themeStore).mainColors[2],
-      "54cadaf8": unref(themeStore).mainColors[3],
-      "54cadb17": unref(themeStore).mainColors[4],
-      "54cadb36": unref(themeStore).mainColors[5],
-      "54cadb55": unref(themeStore).mainColors[6],
-      "54cadb74": unref(themeStore).mainColors[7],
-      "54cadb93": unref(themeStore).mainColors[8],
-      "54cadbb2": unref(themeStore).mainColors[9]
+      "7abfd979": unref(themeStore).mainColors[0],
+      "7abfd998": unref(themeStore).mainColors[1],
+      "7abfd9b7": unref(themeStore).mainColors[2],
+      "7abfd9d6": unref(themeStore).mainColors[3],
+      "7abfd9f5": unref(themeStore).mainColors[4],
+      "7abfda14": unref(themeStore).mainColors[5],
+      "7abfda33": unref(themeStore).mainColors[6],
+      "7abfda52": unref(themeStore).mainColors[7],
+      "7abfda71": unref(themeStore).mainColors[8],
+      "7abfda90": unref(themeStore).mainColors[9]
     }));
     let settingStore = useSettingStore();
     settingStore.init();
@@ -35898,7 +35908,7 @@ const _sfc_main = {
       themeStore.initByLocalStorage();
       if (window.isElectron) {
         try {
-          let res = yield axios.get("https://api.xwzkj.top/api/update?platform=windows");
+          let res = yield axios.get("https://api.wanzii.cn/api/update?platform=windows");
           if (res.data.code === 200 && res.data.data.apiVersion == "1") {
             res = res.data.data;
             console.log(`%c检查更新 当前：${window.api.appVersion} 服务器：${res.version}`, " background-color: lightcyan; padding: 0.5rem; border-radius: 0.5rem");
@@ -35969,9 +35979,10 @@ const _sfc_main = {
                       default: withCtx(() => [
                         createVNode(_component_n_button, { type: "primary" }, {
                           default: withCtx(() => _cache[1] || (_cache[1] = [
-                            createTextVNode("下载")
+                            createTextVNode("下载", -1)
                           ])),
-                          _: 1
+                          _: 1,
+                          __: [1]
                         })
                       ]),
                       _: 1

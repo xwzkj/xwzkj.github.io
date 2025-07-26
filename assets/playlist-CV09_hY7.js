@@ -18,11 +18,11 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { G as defineStore, H as songDetail, I as parseDetailToList, J as useSettingStore, K as pinia, L as songUrlV1, M as downloadFile, n as usePlayStore, O as recommendSongs, P as playlistDetail, B as Button, Q as __unplugin_components_0$1 } from "./index-DK7Djee3.js";
-import { m as musicList } from "./musicList-zONkAtWJ.js";
-import { aQ as _export_sfc, r as ref, w as watch, z as onMounted, aM as createElementBlock, aO as openBlock, aT as createCommentVNode, u as unref, aN as createBaseVNode, aV as toDisplayString, G as Fragment, aX as renderList, aP as createVNode, aR as withCtx, aS as createBlock, F as createTextVNode } from "./font-DJFqg1Hd.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-oDfF2ZN6.js";
-import { _ as __unplugin_components_0 } from "./Spin-C1OBRu7X.js";
+import { G as defineStore, H as songDetail, I as parseDetailToList, J as useSettingStore, K as pinia, L as songUrlV1, M as downloadFile, n as usePlayStore, O as recommendSongs, P as playlistDetail, B as Button, Q as __unplugin_components_0$1 } from "./index-acHcgDy9.js";
+import { m as musicList } from "./musicList-jJCwkysz.js";
+import { aQ as _export_sfc, r as ref, w as watch, z as onMounted, aM as createElementBlock, aO as openBlock, aT as createCommentVNode, u as unref, aN as createBaseVNode, aV as toDisplayString, G as Fragment, aX as renderList, aP as createVNode, aR as withCtx, aS as createBlock, F as createTextVNode } from "./font-DTV79hNu.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-BGFUDLDn.js";
+import { _ as __unplugin_components_0 } from "./Spin-CiHHaVEf.js";
 const useDownloadStore = defineStore("download", {
   state: () => ({
     list: [],
@@ -223,9 +223,10 @@ const _sfc_main = {
                   type: "primary"
                 }, {
                   default: withCtx(() => _cache[0] || (_cache[0] = [
-                    createTextVNode("播放全部")
+                    createTextVNode("播放全部", -1)
                   ])),
-                  _: 1
+                  _: 1,
+                  __: [0]
                 }),
                 createVNode(_component_n_button, {
                   onClick: downAll,
@@ -233,9 +234,10 @@ const _sfc_main = {
                   secondary: ""
                 }, {
                   default: withCtx(() => _cache[1] || (_cache[1] = [
-                    createTextVNode("下载全部")
+                    createTextVNode("下载全部", -1)
                   ])),
-                  _: 1
+                  _: 1,
+                  __: [1]
                 })
               ])
             ])

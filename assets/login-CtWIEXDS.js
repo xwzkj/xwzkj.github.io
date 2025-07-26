@@ -18,8 +18,8 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, aP as createVNode, aR as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-DJFqg1Hd.js";
-import { s as useThemeStore, u as useUserStore, t as loginQrKey, v as loginQrCreate, w as loginQrCheck, x as success, y as useRouter, _ as __unplugin_components_0$1, B as Button, q as error, z as sendCaptcha, A as verifyCaptcha, C as loginWithPhone } from "./index-DK7Djee3.js";
+import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, aP as createVNode, aR as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-DTV79hNu.js";
+import { s as useThemeStore, u as useUserStore, t as loginQrKey, v as loginQrCreate, w as loginQrCheck, x as success, y as useRouter, _ as __unplugin_components_0$1, B as Button, q as error, z as sendCaptcha, A as verifyCaptcha, C as loginWithPhone } from "./index-acHcgDy9.js";
 function self$1(vars) {
   const {
     textColor1,
@@ -1165,8 +1165,7 @@ function render$2(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      color: "currentColor"
+      "stroke-width": "1.5"
     }, [
       createBaseVNode("path", { d: "M22 13.49c-.275 4.243-3.613 7.623-7.805 7.9c-1.43.095-2.923.095-4.35 0a4.9 4.9 0 0 1-1.488-.339c-.513-.21-.77-.316-.9-.3c-.131.016-.32.155-.699.434c-.667.49-1.508.844-2.755.813c-.63-.015-.945-.023-1.086-.263s.034-.572.386-1.237c.487-.922.796-1.978.328-2.823c-.806-1.208-1.49-2.639-1.59-4.184a20 20 0 0 1 0-2.52c.274-4.243 3.613-7.622 7.804-7.9a33 33 0 0 1 2.676-.067M8.5 15h7m-7-5H12" }),
       createBaseVNode("path", { d: "M16.737 5.176v-1.39c0-.206.009-.414.083-.606c.195-.51.715-1.179 1.66-1.179c.944 0 1.484.669 1.68 1.18c.073.191.082.399.082.604v1.39M16.807 11h3.386c.997 0 1.805-.807 1.805-1.802V7.196c0-.995-.808-1.802-1.805-1.802h-3.386c-.997 0-1.805.807-1.805 1.802v2.001c0 .995.808 1.802 1.805 1.802" })
@@ -1186,8 +1185,7 @@ function render$1(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      color: "currentColor"
+      "stroke-width": "1.5"
     }, [
       createBaseVNode("path", { d: "M14.491 15.5h.009m-5 0h.009m-5.241 3.345c.225 1.67 1.608 2.979 3.292 3.056c1.416.065 2.855.099 4.44.099s3.024-.034 4.44-.1c1.684-.076 3.067-1.385 3.292-3.055c.147-1.09.268-2.207.268-3.345s-.121-2.255-.268-3.345c-.225-1.67-1.608-2.979-3.292-3.056A95 95 0 0 0 12 9c-1.585 0-3.024.034-4.44.1c-1.684.076-3.067 1.385-3.292 3.055C4.12 13.245 4 14.362 4 15.5s.121 2.255.268 3.345" }),
       createBaseVNode("path", { d: "M7.5 9V6.5a4.5 4.5 0 0 1 9 0V9" })
@@ -1207,8 +1205,7 @@ function render(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      color: "currentColor"
+      "stroke-width": "1.5"
     }, [
       createBaseVNode("path", { d: "M5 9c0-3.3 0-4.95 1.025-5.975S8.7 2 12 2s4.95 0 5.975 1.025S19 5.7 19 9v6c0 3.3 0 4.95-1.025 5.975S15.3 22 12 22s-4.95 0-5.975-1.025S5 18.3 5 15zm6 10h2" }),
       createBaseVNode("path", { d: "m9 2l.089.534c.193 1.157.29 1.736.686 2.088C10.19 4.989 10.776 5 12 5s1.81-.01 2.225-.378c.397-.352.493-.93.686-2.088L15 2" })
@@ -1352,9 +1349,9 @@ const _sfc_main = {
                 color: unref(themeStore).mainColors[9]
               }, null, 8, ["value", "color"])) : createCommentVNode("", true),
               unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_5, _cache[4] || (_cache[4] = [
-                createTextVNode("等待生成二维码"),
+                createTextVNode("等待生成二维码", -1),
                 createBaseVNode("br", null, null, -1),
-                createTextVNode("若长时间未生成 大概是炸了")
+                createTextVNode("若长时间未生成 大概是炸了", -1)
               ]))) : createCommentVNode("", true),
               unref(qrcode) != "" ? (openBlock(), createElementBlock("span", _hoisted_6, toDisplayString(unref(qrStatus)), 1)) : createCommentVNode("", true)
             ])
@@ -1415,9 +1412,10 @@ const _sfc_main = {
                 }, 8, ["value", "type", "placeholder"]),
                 withDirectives(createVNode(_component_n_button, { onClick: sendCaptcha$1 }, {
                   default: withCtx(() => _cache[5] || (_cache[5] = [
-                    createTextVNode("获取验证码")
+                    createTextVNode("获取验证码", -1)
                   ])),
-                  _: 1
+                  _: 1,
+                  __: [5]
                 }, 512), [
                   [vShow, unref(currentMethod) == "sms"]
                 ])
@@ -1427,15 +1425,17 @@ const _sfc_main = {
                 onClick: login2
               }, {
                 default: withCtx(() => _cache[6] || (_cache[6] = [
-                  createTextVNode("登录")
+                  createTextVNode("登录", -1)
                 ])),
-                _: 1
+                _: 1,
+                __: [6]
               }),
               createVNode(_component_n_divider, { class: "login-divider" }, {
                 default: withCtx(() => _cache[7] || (_cache[7] = [
-                  createTextVNode("或者")
+                  createTextVNode("或者", -1)
                 ])),
-                _: 1
+                _: 1,
+                __: [7]
               }),
               createBaseVNode("div", null, [
                 withDirectives(createVNode(_component_n_icon, {

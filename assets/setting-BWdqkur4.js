@@ -18,8 +18,8 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ag as cB, ah as c, ak as cE, d as defineComponent, h, ap as useConfig, aG as createTheme, ao as derived, b4 as hsva, b5 as toHslaString, b6 as hsv2hsl, b7 as toRgbaString, b8 as hsv2rgb, b9 as toHexaString, ba as hsla, bb as toHsvaString, bc as hsl2hsv, bd as hsl2rgb, be as rgba, bf as rgb2hsv, bg as rgb2hsl, r as ref, c as computed, C as createInjectionKey, i as inject, ad as watchEffect, bh as toHexString, bi as toHslString, bj as toRgbString, bk as toHsvString, N as warn, al as cM, ai as Transition, I as withDirectives, aq as useTheme, p as provide, q as toRef, w as watch, ay as createKey, ar as useThemeClass, n as nextTick, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, aP as createVNode, aR as withCtx, L as renderSlot, aS as createBlock, aT as createCommentVNode, u as unref, f as isRef, aH as NIcon, z as onMounted, at as vShow, F as createTextVNode, aV as toDisplayString } from "./font-DJFqg1Hd.js";
-import { $ as useStyle, a0 as buttonLight, a1 as inputLight, a2 as on, a3 as off, _ as __unplugin_components_0$1, a4 as fadeInScaleUpTransition, a5 as Binder, a6 as VTarget, a7 as VFollower, a8 as useAdjustedTo, a9 as clickoutside, aa as useFormItem, ab as useLocale, h as useMergedState, ac as isMounted, ad as getPreciseEventTarget, m as call, B as Button, R as __unplugin_components_5, J as useSettingStore, u as useUserStore, s as useThemeStore, ae as __unplugin_components_4, af as __unplugin_components_5$1, x as success, q as error } from "./index-DK7Djee3.js";
+import { ag as cB, ah as c, ak as cE, d as defineComponent, h, ap as useConfig, aG as createTheme, ao as derived, b4 as hsva, b5 as toHslaString, b6 as hsv2hsl, b7 as toRgbaString, b8 as hsv2rgb, b9 as toHexaString, ba as hsla, bb as toHsvaString, bc as hsl2hsv, bd as hsl2rgb, be as rgba, bf as rgb2hsv, bg as rgb2hsl, r as ref, c as computed, C as createInjectionKey, i as inject, ad as watchEffect, bh as toHexString, bi as toHslString, bj as toRgbString, bk as toHsvString, N as warn, al as cM, ai as Transition, I as withDirectives, aq as useTheme, p as provide, q as toRef, w as watch, ay as createKey, ar as useThemeClass, n as nextTick, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, aP as createVNode, aR as withCtx, L as renderSlot, aS as createBlock, aT as createCommentVNode, u as unref, f as isRef, aH as NIcon, z as onMounted, at as vShow, F as createTextVNode, aV as toDisplayString } from "./font-DTV79hNu.js";
+import { $ as useStyle, a0 as buttonLight, a1 as inputLight, a2 as on, a3 as off, _ as __unplugin_components_0$1, a4 as fadeInScaleUpTransition, a5 as Binder, a6 as VTarget, a7 as VFollower, a8 as useAdjustedTo, a9 as clickoutside, aa as useFormItem, ab as useLocale, h as useMergedState, ac as isMounted, ad as getPreciseEventTarget, m as call, B as Button, R as __unplugin_components_5, J as useSettingStore, u as useUserStore, s as useThemeStore, ae as __unplugin_components_4, af as __unplugin_components_5$1, x as success, q as error } from "./index-acHcgDy9.js";
 const style$1 = cB("input-group", `
  display: inline-flex;
  width: 100%;
@@ -1815,8 +1815,7 @@ function render$2(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M18 9s-4.419 6-6 6s-6-6-6-6",
-      color: "currentColor"
+      d: "M18 9s-4.419 6-6 6s-6-6-6-6"
     }, null, -1)
   ]));
 }
@@ -1833,8 +1832,7 @@ function render$1(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      color: "currentColor"
+      "stroke-width": "1.5"
     }, [
       createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
       createBaseVNode("path", { d: "M8 13.75s1.6.912 2.4 2.25c0 0 2.4-5.25 5.6-7" })
@@ -1855,8 +1853,7 @@ function render(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M11.1 3.002c-3.648.007-5.56.096-6.78 1.317C3.002 5.637 3.002 7.758 3.002 12s0 6.363 1.318 7.681s3.438 1.318 7.68 1.318s6.363 0 7.681-1.318c1.221-1.22 1.31-3.132 1.317-6.78m-.518-9.384l-5.548 5.534m5.549-5.534c-.494-.494-3.822-.448-4.525-.438m4.525.438c.494.495.448 3.826.438 4.53",
-      color: "currentColor"
+      d: "M11.1 3.002c-3.648.007-5.56.096-6.78 1.317C3.002 5.637 3.002 7.758 3.002 12s0 6.363 1.318 7.681s3.438 1.318 7.68 1.318s6.363 0 7.681-1.318c1.221-1.22 1.31-3.132 1.317-6.78m-.518-9.384l-5.548 5.534m5.549-5.534c-.494-.494-3.822-.448-4.525-.438m4.525.438c.494.495.448 3.826.438 4.53"
     }, null, -1)
   ]));
 }
@@ -1933,7 +1930,7 @@ const _sfc_main$1 = {
   }
 };
 const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-443755e3"]]);
-const buildInfo = { version: "1.1.5", buildNumber: "23cd8c1", buildTime: "2025-05-03 11:18:42" };
+const buildInfo = { version: "1.1.6", buildNumber: "ac8c049", buildTime: "2025-07-26 14:43:08" };
 const _hoisted_1 = { class: "setting" };
 const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {
@@ -2011,10 +2008,10 @@ const _sfc_main = {
             actionOnClick: loginByCookie
           }, {
             t1: withCtx(() => _cache[2] || (_cache[2] = [
-              createTextVNode("输入cookie来登录")
+              createTextVNode("输入cookie来登录", -1)
             ])),
             t2: withCtx(() => _cache[3] || (_cache[3] = [
-              createTextVNode("奇奇怪怪的登录方式")
+              createTextVNode("奇奇怪怪的登录方式", -1)
             ])),
             _: 1
           }, 512), [
@@ -2026,19 +2023,19 @@ const _sfc_main = {
             defaultValue: unref(defaultSpecialApi)
           }, {
             t1: withCtx(() => _cache[4] || (_cache[4] = [
-              createTextVNode("设置专用api")
+              createTextVNode("设置专用api", -1)
             ])),
             t2: withCtx(() => _cache[5] || (_cache[5] = [
-              createTextVNode("用于获取歌曲的url")
+              createTextVNode("用于获取歌曲的url", -1)
             ])),
             _: 1
           }, 8, ["defaultValue"]),
           withDirectives(createVNode(settingItem, { actionOnClick: update }, {
             t1: withCtx(() => _cache[6] || (_cache[6] = [
-              createTextVNode("马上更新用户信息！")
+              createTextVNode("马上更新用户信息！", -1)
             ])),
             t2: withCtx(() => _cache[7] || (_cache[7] = [
-              createTextVNode("每三分钟自动更新")
+              createTextVNode("每三分钟自动更新", -1)
             ])),
             _: 1
           }, 512), [
@@ -2046,10 +2043,10 @@ const _sfc_main = {
           ]),
           withDirectives(createVNode(settingItem, { actionOnClick: copyCk }, {
             t1: withCtx(() => _cache[8] || (_cache[8] = [
-              createTextVNode("复制当前的cookie")
+              createTextVNode("复制当前的cookie", -1)
             ])),
             t2: withCtx(() => _cache[9] || (_cache[9] = [
-              createTextVNode("复制失败会显示ck 此时可手动复制")
+              createTextVNode("复制失败会显示ck 此时可手动复制", -1)
             ])),
             _: 1
           }, 512), [
@@ -2057,10 +2054,10 @@ const _sfc_main = {
           ]),
           createVNode(settingItem, null, {
             t1: withCtx(() => _cache[10] || (_cache[10] = [
-              createTextVNode("主题色")
+              createTextVNode("主题色", -1)
             ])),
             t2: withCtx(() => _cache[11] || (_cache[11] = [
-              createTextVNode("默认值为#DEB237")
+              createTextVNode("默认值为#DEB237", -1)
             ])),
             action: withCtx(() => [
               createVNode(_component_n_color_picker, {
@@ -2075,10 +2072,10 @@ const _sfc_main = {
           }),
           createVNode(settingItem, null, {
             t1: withCtx(() => _cache[12] || (_cache[12] = [
-              createTextVNode("设置默认音质")
+              createTextVNode("设置默认音质", -1)
             ])),
             t2: withCtx(() => _cache[13] || (_cache[13] = [
-              createTextVNode("期望的最高音质 切歌时生效")
+              createTextVNode("期望的最高音质 切歌时生效", -1)
             ])),
             action: withCtx(() => [
               createVNode(_component_n_dropdown, {
@@ -2113,10 +2110,10 @@ const _sfc_main = {
           }),
           createVNode(settingItem, null, {
             t1: withCtx(() => _cache[14] || (_cache[14] = [
-              createTextVNode("设置歌词字体大小")
+              createTextVNode("设置歌词字体大小", -1)
             ])),
             t2: withCtx(() => _cache[15] || (_cache[15] = [
-              createTextVNode("默认是1.8rem")
+              createTextVNode("默认是1.8rem", -1)
             ])),
             action: withCtx(() => [
               createBaseVNode("div", _hoisted_2, [
@@ -2134,10 +2131,10 @@ const _sfc_main = {
           }),
           createVNode(settingItem, null, {
             t1: withCtx(() => _cache[16] || (_cache[16] = [
-              createTextVNode("退出登录")
+              createTextVNode("退出登录", -1)
             ])),
             t2: withCtx(() => _cache[17] || (_cache[17] = [
-              createTextVNode("拜拜~")
+              createTextVNode("拜拜~", -1)
             ])),
             action: withCtx(() => [
               createVNode(_component_n_button, {
@@ -2147,16 +2144,17 @@ const _sfc_main = {
                 onClick: logout
               }, {
                 default: withCtx(() => _cache[18] || (_cache[18] = [
-                  createTextVNode("退出登录")
+                  createTextVNode("退出登录", -1)
                 ])),
-                _: 1
+                _: 1,
+                __: [18]
               })
             ]),
             _: 1
           }),
           createVNode(settingItem, null, {
             t1: withCtx(() => _cache[19] || (_cache[19] = [
-              createTextVNode("版本信息")
+              createTextVNode("版本信息", -1)
             ])),
             t2: withCtx(() => [
               createTextVNode("版本号：" + toDisplayString(unref(buildInfo).version) + "    构建号：" + toDisplayString(unref(buildInfo).buildNumber) + "    构建时间：" + toDisplayString(unref(buildInfo).buildTime), 1)
