@@ -1,0 +1,52 @@
+
+.account-user-detail[data-v-cc6a4665] {
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    /* background: v-bind('usrAvaColor'); */
+    background: var(--76884758);
+}
+.account-user-avatar-box[data-v-cc6a4665] {
+    width: 10rem;
+    margin: 1rem;
+    position: relative;
+}
+.account-user-avatar[data-v-cc6a4665] {
+    width: 100%;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+.account-user-data-info[data-v-cc6a4665] {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.account-userVIP[data-v-cc6a4665] {
+    width: 3.5rem;
+    height: auto;
+}
+.account-user-name[data-v-cc6a4665] {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-weight: 500;
+}
+.account-user-area[data-v-cc6a4665] {
+    color: gray;
+}
+.account-user-playlists-title[data-v-cc6a4665] {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+@media screen and (max-width: 600px) {
+.account-user-detail[data-v-cc6a4665] {
+        padding: 1.2rem;
+}
+.account-user-avatar-box[data-v-cc6a4665] {
+        width: 3rem;
+        margin: 0.5rem;
+}
+.account-user-name[data-v-cc6a4665] {
+        padding-top: 0.2rem;
+}
+}
