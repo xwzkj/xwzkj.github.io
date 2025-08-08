@@ -18,11 +18,11 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { G as defineStore, H as songDetail, I as parseDetailToList, J as useSettingStore, K as pinia, L as songUrlV1, M as downloadFile, n as usePlayStore, O as recommendSongs, P as playlistDetail, B as Button, Q as __unplugin_components_0$1 } from "./index-BvxUpEqP.js";
-import { m as musicList } from "./musicList-CTqFpWVs.js";
-import { aQ as _export_sfc, r as ref, w as watch, z as onMounted, aM as createElementBlock, aO as openBlock, aT as createCommentVNode, u as unref, aN as createBaseVNode, aV as toDisplayString, G as Fragment, aX as renderList, aP as createVNode, aR as withCtx, aS as createBlock, F as createTextVNode } from "./font-DTV79hNu.js";
-import { _ as __unplugin_components_1 } from "./Ellipsis-k1y3NRhy.js";
-import { _ as __unplugin_components_0 } from "./Spin-DoC-2zyc.js";
+import { G as defineStore, H as songDetail, I as parseDetailToList, J as useSettingStore, K as pinia, L as songUrlV1, M as downloadFile, n as usePlayStore, O as recommendSongs, P as playlistDetail, B as Button, Q as __unplugin_components_0$1 } from "./index-gH2_Q-d7.js";
+import { m as musicList } from "./musicList-CQAvx0dp.js";
+import { aQ as _export_sfc, r as ref, w as watch, z as onMounted, aM as createElementBlock, aO as openBlock, aT as createCommentVNode, u as unref, aN as createBaseVNode, aV as toDisplayString, G as Fragment, aX as renderList, aP as createVNode, aR as withCtx, aS as createBlock, F as createTextVNode } from "./font-O-SYRY6Q.js";
+import { _ as __unplugin_components_1 } from "./Ellipsis-BdGkR6uH.js";
+import { _ as __unplugin_components_0 } from "./Spin-Bcn1evzs.js";
 const useDownloadStore = defineStore("download", {
   state: () => ({
     list: [],

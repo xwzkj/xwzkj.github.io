@@ -18,7 +18,7 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, d as defineComponent, aU as useCssVars, r as ref, z as onMounted, aP as createVNode, aR as withCtx, aH as NIcon, u as unref, aW as MarqueePlus, b1 as createApp } from "./font-DTV79hNu.js";
+import { m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, d as defineComponent, aU as useCssVars, r as ref, z as onMounted, aP as createVNode, aR as withCtx, aH as NIcon, u as unref, aW as MarqueePlus, b1 as createApp } from "./font-O-SYRY6Q.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
