@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-CNrySlHW.js","./itemCardList-Bue8BUg6.js","./font-O-SYRY6Q.js","./font-CkjVYOTm.css","./Ellipsis-vtO1sBRf.js","./itemCardList-CWGQEecD.css","./home-Cd2oFn4Z.css","./search-CdcPFbuM.js","./musicList-CLAu9ylN.js","./musicList-nLQAz02W.css","./Spin-C-RSLMtF.js","./login-DR4qUOqt.js","./login-DeF--yW9.css","./account-B0yikTSM.js","./account-BPMAva87.css","./playlist-d7q9WTdW.js","./playlist-nN7oZNzC.css","./setting-CoSIhUrz.js","./setting-CgBBsRCk.css","./comments-BpkYx5El.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-Cbvl44e5.js","./itemCardList-Dew0_25a.js","./font-VYfMrgmO.js","./font-DVJNQYcb.css","./Ellipsis-Bnj8W9kh.js","./itemCardList-CWGQEecD.css","./home-Cd2oFn4Z.css","./search-GxJ_Na_J.js","./musicList-CZR6zXIQ.js","./musicList-nLQAz02W.css","./Spin-Bo4ao8JN.js","./login-Dcta8wbU.js","./login-BXx9USMY.css","./account-CrxhzHir.js","./account-BPMAva87.css","./playlist-CiNDKNB_.js","./playlist-nN7oZNzC.css","./setting-CX_y1VD0.js","./setting-CgBBsRCk.css","./comments-Bhgqfro2.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -98,7 +98,7 @@ var __yieldStar = (value) => {
   }, "return" in obj && method("return"), it;
 };
 var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
-import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as createBaseVNode, aO as openBlock, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-O-SYRY6Q.js";
+import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as createBaseVNode, aO as openBlock, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-VYfMrgmO.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -2048,7 +2048,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-CNrySlHW.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-Cbvl44e5.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2059,7 +2059,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-CdcPFbuM.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-GxJ_Na_J.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2070,7 +2070,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DR4qUOqt.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-Dcta8wbU.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2078,7 +2078,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-B0yikTSM.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-CrxhzHir.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2089,7 +2089,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-d7q9WTdW.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-CiNDKNB_.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2100,7 +2100,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CoSIhUrz.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-CX_y1VD0.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2111,7 +2111,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-BpkYx5El.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-Bhgqfro2.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2576,6 +2576,13 @@ function getMargin(value, position) {
   if (position === void 0)
     return margin;
   return margin[position];
+}
+function getGap(value, orient) {
+  const [rowGap, colGap] = value.split(" ");
+  return {
+    row: rowGap,
+    col: colGap || rowGap
+  };
 }
 function createId(length = 8) {
   return Math.random().toString(16).slice(2, 2 + length);
@@ -33085,7 +33092,7 @@ function render$g(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M18 15s-4.419-6-6-6s-6 6-6 6"
+      d: "M18 15s-4.42-6-6-6s-6 6-6 6"
     }, null, -1)
   ]));
 }
@@ -33101,7 +33108,6 @@ function render$f(_ctx, _cache) {
       fill: "none",
       stroke: "currentColor",
       "stroke-linecap": "round",
-      "stroke-linejoin": "round",
       "stroke-width": "1.5",
       d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2"
     }, null, -1)
@@ -34505,14 +34511,18 @@ const _hoisted_1$l = {
 };
 function render$e(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$l, _cache[0] || (_cache[0] = [
-    createBaseVNode("path", {
+    createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
-      "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      d: "M9.062 4.826L3.239 9.921c-.5.437-.164 1.213.523 1.213c.42 0 .761.315.761.703v3.244c0 2.79 0 4.185.939 5.052C6.4 21 7.91 21 10.932 21h2.136c3.021 0 4.532 0 5.47-.867c.939-.867.939-2.262.939-5.052v-3.244c0-.388.34-.703.76-.703c.688 0 1.023-.776.524-1.213l-5.823-5.095C13.547 3.61 12.851 3 12 3s-1.547.609-2.938 1.826M12 16h.009"
-    }, null, -1)
+      "stroke-width": "1.5"
+    }, [
+      createBaseVNode("path", {
+        "stroke-linecap": "round",
+        d: "M3 11.99v2.51c0 3.3 0 4.95 1.025 5.975S6.7 21.5 10 21.5h4c3.3 0 4.95 0 5.975-1.025S21 17.8 21 14.5v-2.51c0-1.682 0-2.522-.356-3.25s-1.02-1.244-2.346-2.276l-2-1.555C14.233 3.303 13.2 2.5 12 2.5s-2.233.803-4.298 2.409l-2 1.555C4.375 7.496 3.712 8.012 3.356 8.74S3 10.308 3 11.99"
+      }),
+      createBaseVNode("path", { d: "M18 15a2 2 0 1 0-4 0a2 2 0 0 0 4 0Z" })
+    ], -1)
   ]));
 }
 const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$e });
@@ -34530,15 +34540,9 @@ function render$d(_ctx, _cache) {
       "stroke-linejoin": "round",
       "stroke-width": "1.5"
     }, [
-      createBaseVNode("path", { d: "M14 9h4m-4 3.5h3" }),
-      createBaseVNode("rect", {
-        width: "20",
-        height: "18",
-        x: "2",
-        y: "3",
-        rx: "5"
-      }),
-      createBaseVNode("path", { d: "M5 16c1.208-2.581 5.712-2.75 7 0m-1.5-7a2 2 0 1 1-4 0a2 2 0 0 1 4 0" })
+      createBaseVNode("path", { d: "M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12s0 5.657-1.172 6.828S17.771 20 14 20h-4c-3.771 0-5.657 0-6.828-1.172S2 15.771 2 12" }),
+      createBaseVNode("path", { d: "M11 10a2 2 0 1 0-4 0a2 2 0 0 0 4 0" }),
+      createBaseVNode("path", { d: "M13 16a4 4 0 0 0-8 0m10-7h4m-4 3h4" })
     ], -1)
   ]));
 }
@@ -34557,8 +34561,8 @@ function render$c(_ctx, _cache) {
       "stroke-linejoin": "round",
       "stroke-width": "1.5"
     }, [
-      createBaseVNode("path", { d: "M14 3.095A10 10 0 0 0 12.6 3C7.298 3 3 7.03 3 12s4.298 9 9.6 9q.714 0 1.4-.095" }),
-      createBaseVNode("path", { d: "M13.5 14.5c-.506-.492-2.5-1.8-2.5-2.5m2.5-2.5c-.506.492-2.5 1.8-2.5 2.5m0 0h10" })
+      createBaseVNode("path", { d: "M8 8c0-.575 0-.822.045-1.075A2.98 2.98 0 0 1 9.833 4.7c.24-.1.523-.165 1.09-.294l2.728-.623c3.39-.774 5.084-1.161 6.217-.27C21 4.405 21 6.126 21 9.568v4.864c0 3.442 0 5.164-1.132 6.055c-1.133.891-2.827.504-6.217-.27l-2.728-.623c-.567-.13-.85-.194-1.09-.294a2.98 2.98 0 0 1-1.788-2.225C8 16.822 8 16.575 8 16" }),
+      createBaseVNode("path", { d: "M13 9s3 2.21 3 3s-3 3-3 3m2.5-3H3" })
     ], -1)
   ]));
 }
@@ -34577,8 +34581,8 @@ function render$b(_ctx, _cache) {
       "stroke-linejoin": "round",
       "stroke-width": "1.5"
     }, [
-      createBaseVNode("path", { d: "M12 21c-1.341 0-2.114-.572-3.66-1.717C.222 13.275 1.018 6.153 4.537 3.994c2.682-1.645 5.023-.982 6.429.074c.576.433.864.65 1.034.65s.458-.217 1.034-.65c1.406-1.056 3.747-1.719 6.429-.074C21.18 5.048 22.25 7.286 21.949 10" }),
-      createBaseVNode("path", { d: "M14 18s1 0 2 2c0 0 3.177-5 6-6" })
+      createBaseVNode("path", { d: "M13 20.303a2.64 2.64 0 0 1-2.59-.335C7.59 17.858 2 13.035 2 8.694C2 5.826 4.105 3.5 7 3.5c1.5 0 3 .5 5 2.5c2-2 3.5-2.5 5-2.5c2.895 0 5 2.326 5 5.194q-.002.648-.157 1.306" }),
+      createBaseVNode("path", { d: "M14 17s1 0 2 2c0 0 3.177-5 6-6" })
     ], -1)
   ]));
 }
@@ -34593,12 +34597,17 @@ function render$a(_ctx, _cache) {
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
       "stroke-width": "1.5"
     }, [
-      createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
-      createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M10 8.5h7m-3 7H7" })
+      createBaseVNode("path", {
+        "stroke-linejoin": "round",
+        d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12Z"
+      }),
+      createBaseVNode("path", { d: "M8.5 10a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3Zm7 7a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3Z" }),
+      createBaseVNode("path", {
+        "stroke-linecap": "round",
+        d: "M10 8.5h7m-3 7H7"
+      })
     ], -1)
   ]));
 }
@@ -34836,14 +34845,18 @@ const _hoisted_1$d = {
 };
 function render$8(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$d, _cache[0] || (_cache[0] = [
-    createBaseVNode("path", {
+    createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
-      "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      d: "M8.5 14.5h7m-7-5H12m2.17 11.39c4.184-.277 7.516-3.657 7.79-7.9c.053-.83.053-1.69 0-2.52c-.274-4.242-3.606-7.62-7.79-7.899a33 33 0 0 0-4.34 0c-4.184.278-7.516 3.657-7.79 7.9a20 20 0 0 0 0 2.52c.1 1.545.783 2.976 1.588 4.184c.467.845.159 1.9-.328 2.823c-.35.665-.526.997-.385 1.237c.14.24.455.248 1.084.263c1.245.03 2.084-.322 2.75-.813c.377-.279.566-.418.696-.434s.387.09.899.3c.46.19.995.307 1.485.34c1.425.094 2.914.094 4.342 0"
-    }, null, -1)
+      "stroke-width": "1.5"
+    }, [
+      createBaseVNode("path", {
+        "stroke-linecap": "round",
+        d: "M8.5 14.5h7m-7-5H12"
+      }),
+      createBaseVNode("path", { d: "M14.17 20.89c4.184-.277 7.516-3.657 7.79-7.9c.053-.83.053-1.69 0-2.52c-.274-4.242-3.606-7.62-7.79-7.899a33 33 0 0 0-4.34 0c-4.184.278-7.516 3.657-7.79 7.9a20 20 0 0 0 0 2.52c.1 1.545.783 2.976 1.588 4.184c.467.845.159 1.9-.328 2.823c-.35.665-.526.997-.385 1.237c.14.24.455.248 1.084.263c1.245.03 2.084-.322 2.75-.813c.377-.279.566-.418.696-.434s.387.09.899.3c.46.19.995.307 1.485.34c1.425.094 2.914.094 4.342 0Z" })
+    ], -1)
   ]));
 }
 const __unplugin_components_0 = markRaw({ name: "hugeicons-message01", render: render$8 });
@@ -34854,14 +34867,18 @@ const _hoisted_1$c = {
 };
 function render$7(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$c, _cache[0] || (_cache[0] = [
-    createBaseVNode("path", {
+    createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
-      "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      "stroke-width": "1.5",
-      d: "m13.926 12.778l-2.149-2.149c-.292-.293-.439-.439-.597-.517a1.07 1.07 0 0 0-.954 0c-.158.078-.304.224-.597.517s-.439.44-.517.597c-.15.301-.15.654 0 .954c.078.158.224.305.517.598l2.149 2.148m2.148-2.149l6.445 6.446c.293.292.439.439.517.597c.15.3.15.653 0 .954c-.078.157-.224.304-.517.597s-.44.439-.597.517c-.301.15-.654.15-.954 0c-.158-.078-.305-.224-.598-.517l-6.445-6.445m2.149-2.149l-2.149 2.149M17 2l.295.797c.386 1.044.58 1.566.96 1.947c.382.381.904.575 1.948.961L21 6l-.797.295c-1.044.386-1.566.58-1.947.96c-.381.382-.575.904-.961 1.948L17 10l-.295-.797c-.386-1.044-.58-1.566-.96-1.947c-.382-.381-.904-.575-1.948-.961L13 6l.797-.295c1.044-.386 1.566-.58 1.947-.96c.381-.382.575-.904.961-1.948zM6 4l.221.597c.29.784.435 1.176.72 1.461c.286.286.678.431 1.462.72L9 7l-.597.221c-.784.29-1.176.435-1.461.72c-.286.286-.431.678-.72 1.462L6 10l-.221-.597c-.29-.784-.435-1.176-.72-1.461c-.286-.286-.678-.431-1.462-.72L3 7l.597-.221c.784-.29 1.176-.435 1.461-.72c.286-.286.431-.678.72-1.462z"
-    }, null, -1)
+      "stroke-width": "1.5"
+    }, [
+      createBaseVNode("path", {
+        "stroke-linecap": "round",
+        d: "m13.926 12.778l-2.149-2.149c-.292-.293-.439-.439-.597-.517a1.07 1.07 0 0 0-.954 0c-.158.078-.304.224-.597.517s-.439.44-.517.597c-.15.301-.15.654 0 .954c.078.158.224.305.517.598l2.149 2.148m2.148-2.149l6.445 6.446c.293.292.439.439.517.597c.15.3.15.653 0 .954c-.078.157-.224.304-.517.597s-.44.439-.597.517c-.301.15-.654.15-.954 0c-.158-.078-.305-.224-.598-.517l-6.445-6.445m2.149-2.149l-2.149 2.149"
+      }),
+      createBaseVNode("path", { d: "m17 2l.295.797c.386 1.044.58 1.566.96 1.947c.382.381.904.575 1.948.961L21 6l-.797.295c-1.044.386-1.566.58-1.947.96c-.381.382-.575.904-.961 1.948L17 10l-.295-.797c-.386-1.044-.58-1.566-.96-1.947c-.382-.381-.904-.575-1.948-.961L13 6l.797-.295c1.044-.386 1.566-.58 1.947-.96c.381-.382.575-.904.961-1.948zM6 4l.221.597c.29.784.435 1.176.72 1.461c.286.286.678.431 1.462.72L9 7l-.597.221c-.784.29-1.176.435-1.461.72c-.286.286-.431.678-.72 1.462L6 10l-.221-.597c-.29-.784-.435-1.176-.72-1.461c-.286-.286-.678-.431-1.462-.72L3 7l.597-.221c.784-.29 1.176-.435 1.461-.72c.286-.286.431-.678.72-1.462z" })
+    ], -1)
   ]));
 }
 const __unplugin_components_8 = markRaw({ name: "hugeicons-magic-wand01", render: render$7 });
@@ -34911,8 +34928,6 @@ function render$4(_ctx, _cache) {
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
       "stroke-width": "1.5",
       d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z"
     }, null, -1)
@@ -34929,10 +34944,9 @@ function render$3(_ctx, _cache) {
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
-      "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692"
+      d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692Z"
     }, null, -1)
   ]));
 }
@@ -35858,23 +35872,32 @@ const _sfc_main = {
   __name: "App",
   setup(__props) {
     useCssVars((_ctx) => ({
-      "7abfd979": unref(themeStore).mainColors[0],
-      "7abfd998": unref(themeStore).mainColors[1],
-      "7abfd9b7": unref(themeStore).mainColors[2],
-      "7abfd9d6": unref(themeStore).mainColors[3],
-      "7abfd9f5": unref(themeStore).mainColors[4],
-      "7abfda14": unref(themeStore).mainColors[5],
-      "7abfda33": unref(themeStore).mainColors[6],
-      "7abfda52": unref(themeStore).mainColors[7],
-      "7abfda71": unref(themeStore).mainColors[8],
-      "7abfda90": unref(themeStore).mainColors[9]
+      "60c13a27": unref(themeStore).mainColors[0],
+      "60c13a46": unref(themeStore).mainColors[1],
+      "60c13a65": unref(themeStore).mainColors[2],
+      "60c13a84": unref(themeStore).mainColors[3],
+      "60c13aa3": unref(themeStore).mainColors[4],
+      "60c13ac2": unref(themeStore).mainColors[5],
+      "60c13ae1": unref(themeStore).mainColors[6],
+      "60c13b00": unref(themeStore).mainColors[7],
+      "60c13b1f": unref(themeStore).mainColors[8],
+      "60c13b3e": unref(themeStore).mainColors[9]
     }));
     let settingStore = useSettingStore();
+    let userStore = useUserStore();
+    let playStore = usePlayStore();
+    let themeStore = useThemeStore();
     settingStore.init();
     if (!window.hasOwnProperty("isElectron")) {
       window.isElectron = false;
     } else {
+      console.log("isElectron!");
       settingStore.setLyricWindowShow("auto");
+      window.api.receiveCookie((event, ck) => {
+        console.log("接收到cookie！");
+        success("cookie获取成功，已登录");
+        userStore.updateByCookie(ck);
+      });
     }
     let themeOverrides = ref({
       common: {
@@ -35882,9 +35905,6 @@ const _sfc_main = {
         borderRadiusSmall: "7px"
       }
     });
-    let userStore = useUserStore();
-    let playStore = usePlayStore();
-    let themeStore = useThemeStore();
     let showUpdate = ref(false);
     let updateData = ref({
       newVersion: "",
@@ -36027,59 +36047,62 @@ app.use(pinia);
 app.use(router);
 app.mount("#app");
 export {
-  useStyle as $,
-  verifyCaptcha as A,
-  Button as B,
-  loginWithPhone as C,
-  areaData as D,
-  getColorFromImg as E,
-  mixColor as F,
-  defineStore as G,
-  songDetail as H,
-  parseDetailToList as I,
-  useSettingStore as J,
-  pinia as K,
-  songUrlV1 as L,
-  downloadFile as M,
+  __unplugin_components_3 as $,
+  success as A,
+  useRouter as B,
+  __unplugin_components_0$4 as C,
+  Button as D,
+  sendCaptcha as E,
+  verifyCaptcha as F,
+  loginWithPhone as G,
+  areaData as H,
+  getColorFromImg as I,
+  mixColor as J,
+  defineStore as K,
+  songDetail as L,
+  parseDetailToList as M,
   NBaseIcon as N,
-  recommendSongs as O,
-  playlistDetail as P,
-  __unplugin_components_0$5 as Q,
-  __unplugin_components_5$4 as R,
-  parseArray as S,
-  parseArtist as T,
-  __unplugin_components_2 as U,
+  useSettingStore as O,
+  pinia as P,
+  songUrlV1 as Q,
+  downloadFile as R,
+  recommendSongs as S,
+  playlistDetail as T,
+  __unplugin_components_0$5 as U,
   VResizeObserver as V,
-  likeAndUpdateLikelist as W,
-  __unplugin_components_3 as X,
-  tooltipLight as Y,
-  NTooltip as Z,
-  __unplugin_components_0$4 as _,
+  parseArray as W,
+  parseArtist as X,
+  __unplugin_components_2 as Y,
+  likeAndUpdateLikelist as Z,
+  __unplugin_components_5$4 as _,
   cssrAnchorMetaName as a,
-  buttonLight as a0,
-  inputLight as a1,
-  on as a2,
-  off as a3,
-  fadeInScaleUpTransition as a4,
-  Binder as a5,
-  VTarget as a6,
-  VFollower as a7,
-  useAdjustedTo as a8,
-  clickoutside as a9,
-  useFormItem as aa,
-  useLocale as ab,
-  isMounted as ac,
-  getPreciseEventTarget as ad,
-  __unplugin_components_4$2 as ae,
-  __unplugin_components_5$2 as af,
-  __unplugin_components_0 as ag,
-  formatCount as ah,
-  commentFloor as ai,
-  emitter as aj,
-  commentNew as ak,
-  fadeInTransition as al,
-  NBaseLoading as am,
-  pxfy as an,
+  tooltipLight as a0,
+  NTooltip as a1,
+  useStyle as a2,
+  buttonLight as a3,
+  inputLight as a4,
+  on as a5,
+  off as a6,
+  fadeInScaleUpTransition as a7,
+  Binder as a8,
+  VTarget as a9,
+  VFollower as aa,
+  useAdjustedTo as ab,
+  clickoutside as ac,
+  useFormItem as ad,
+  useLocale as ae,
+  isMounted as af,
+  getPreciseEventTarget as ag,
+  __unplugin_components_4$2 as ah,
+  __unplugin_components_5$2 as ai,
+  __unplugin_components_0 as aj,
+  formatCount as ak,
+  commentFloor as al,
+  emitter as am,
+  commentNew as an,
+  fadeInTransition as ao,
+  NBaseLoading as ap,
+  pxfy as aq,
   NBaseClose as b,
   c,
   resolveWrappedSlot as d,
@@ -36097,12 +36120,12 @@ export {
   cloudsearch as p,
   error as q,
   render$i as r,
-  useThemeStore as s,
-  loginQrKey as t,
+  isBrowser as s,
+  useRtl as t,
   useUserStore as u,
-  loginQrCreate as v,
-  loginQrCheck as w,
-  success as x,
-  useRouter as y,
-  sendCaptcha as z
+  getGap as v,
+  useThemeStore as w,
+  loginQrKey as x,
+  loginQrCreate as y,
+  loginQrCheck as z
 };

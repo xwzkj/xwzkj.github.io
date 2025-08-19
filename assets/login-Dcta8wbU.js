@@ -18,9 +18,15 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, aP as createVNode, aR as withCtx, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-O-SYRY6Q.js";
-import { s as useThemeStore, u as useUserStore, t as loginQrKey, v as loginQrCreate, w as loginQrCheck, x as success, y as useRouter, _ as __unplugin_components_0$1, B as Button, q as error, z as sendCaptcha, A as verifyCaptcha, C as loginWithPhone } from "./index-CvAkX8Gz.js";
-function self$1(vars) {
+import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, H as Comment, ay as createKey, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aP as createVNode, aR as withCtx, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-VYfMrgmO.js";
+import { s as isBrowser, f as flatten, t as useRtl, v as getGap, l as depx, w as useThemeStore, u as useUserStore, x as loginQrKey, y as loginQrCreate, z as loginQrCheck, A as success, B as useRouter, _ as __unplugin_components_5, C as __unplugin_components_0, D as Button, q as error, E as sendCaptcha, F as verifyCaptcha, G as loginWithPhone } from "./index-B4aUg58R.js";
+function getSlot(instance, slotName = "default", fallback = []) {
+  const slots = instance.$slots;
+  const slot = slots[slotName];
+  if (slot === void 0) return fallback;
+  return slot();
+}
+function self$2(vars) {
   const {
     textColor1,
     dividerColor,
@@ -34,7 +40,7 @@ function self$1(vars) {
 }
 const dividerLight = {
   common: derived,
-  self: self$1
+  self: self$2
 };
 const style$1 = cB("divider", `
  position: relative;
@@ -96,7 +102,7 @@ const dividerProps = Object.assign(Object.assign({}, useTheme.props), {
   dashed: Boolean,
   vertical: Boolean
 });
-const __unplugin_components_6 = defineComponent({
+const __unplugin_components_8 = defineComponent({
   name: "Divider",
   props: dividerProps,
   setup(props) {
@@ -158,6 +164,173 @@ const __unplugin_components_6 = defineComponent({
     }, this.$slots), h("div", {
       class: `${mergedClsPrefix}-divider__line ${mergedClsPrefix}-divider__line--right`
     })) : null);
+  }
+});
+const commonVars = {
+  gapSmall: "4px 8px",
+  gapMedium: "8px 12px",
+  gapLarge: "12px 16px"
+};
+function self$1() {
+  return commonVars;
+}
+const spaceLight = {
+  self: self$1
+};
+let supportFlexGap;
+function ensureSupportFlexGap() {
+  if (!isBrowser) return true;
+  if (supportFlexGap === void 0) {
+    const flex = document.createElement("div");
+    flex.style.display = "flex";
+    flex.style.flexDirection = "column";
+    flex.style.rowGap = "1px";
+    flex.appendChild(document.createElement("div"));
+    flex.appendChild(document.createElement("div"));
+    document.body.appendChild(flex);
+    const isSupported = flex.scrollHeight === 1;
+    document.body.removeChild(flex);
+    return supportFlexGap = isSupported;
+  }
+  return supportFlexGap;
+}
+const spaceProps = Object.assign(Object.assign({}, useTheme.props), {
+  align: String,
+  justify: {
+    type: String,
+    default: "start"
+  },
+  inline: Boolean,
+  vertical: Boolean,
+  reverse: Boolean,
+  size: {
+    type: [String, Number, Array],
+    default: "medium"
+  },
+  wrapItem: {
+    type: Boolean,
+    default: true
+  },
+  itemClass: String,
+  itemStyle: [String, Object],
+  wrap: {
+    type: Boolean,
+    default: true
+  },
+  // internal
+  internalUseGap: {
+    type: Boolean,
+    default: void 0
+  }
+});
+const __unplugin_components_1 = defineComponent({
+  name: "Space",
+  props: spaceProps,
+  setup(props) {
+    const {
+      mergedClsPrefixRef,
+      mergedRtlRef
+    } = useConfig(props);
+    const themeRef = useTheme("Space", "-space", void 0, spaceLight, props, mergedClsPrefixRef);
+    const rtlEnabledRef = useRtl("Space", mergedRtlRef, mergedClsPrefixRef);
+    return {
+      useGap: ensureSupportFlexGap(),
+      rtlEnabled: rtlEnabledRef,
+      mergedClsPrefix: mergedClsPrefixRef,
+      margin: computed(() => {
+        const {
+          size
+        } = props;
+        if (Array.isArray(size)) {
+          return {
+            horizontal: size[0],
+            vertical: size[1]
+          };
+        }
+        if (typeof size === "number") {
+          return {
+            horizontal: size,
+            vertical: size
+          };
+        }
+        const {
+          self: {
+            [createKey("gap", size)]: gap
+          }
+        } = themeRef.value;
+        const {
+          row,
+          col
+        } = getGap(gap);
+        return {
+          horizontal: depx(col),
+          vertical: depx(row)
+        };
+      })
+    };
+  },
+  render() {
+    const {
+      vertical,
+      reverse,
+      align,
+      inline,
+      justify,
+      itemClass,
+      itemStyle,
+      margin,
+      wrap,
+      mergedClsPrefix,
+      rtlEnabled,
+      useGap,
+      wrapItem,
+      internalUseGap
+    } = this;
+    const children = flatten(getSlot(this), false);
+    if (!children.length) return null;
+    const horizontalMargin = `${margin.horizontal}px`;
+    const semiHorizontalMargin = `${margin.horizontal / 2}px`;
+    const verticalMargin = `${margin.vertical}px`;
+    const semiVerticalMargin = `${margin.vertical / 2}px`;
+    const lastIndex = children.length - 1;
+    const isJustifySpace = justify.startsWith("space-");
+    return h("div", {
+      role: "none",
+      class: [`${mergedClsPrefix}-space`, rtlEnabled && `${mergedClsPrefix}-space--rtl`],
+      style: {
+        display: inline ? "inline-flex" : "flex",
+        flexDirection: (() => {
+          if (vertical && !reverse) return "column";
+          if (vertical && reverse) return "column-reverse";
+          if (!vertical && reverse) return "row-reverse";
+          else return "row";
+        })(),
+        justifyContent: ["start", "end"].includes(justify) ? `flex-${justify}` : justify,
+        flexWrap: !wrap || vertical ? "nowrap" : "wrap",
+        marginTop: useGap || vertical ? "" : `-${semiVerticalMargin}`,
+        marginBottom: useGap || vertical ? "" : `-${semiVerticalMargin}`,
+        alignItems: align,
+        gap: useGap ? `${margin.vertical}px ${margin.horizontal}px` : ""
+      }
+    }, !wrapItem && (useGap || internalUseGap) ? children : children.map((child, index) => child.type === Comment ? child : h("div", {
+      role: "none",
+      class: itemClass,
+      style: [itemStyle, {
+        maxWidth: "100%"
+      }, useGap ? "" : vertical ? {
+        marginBottom: index !== lastIndex ? verticalMargin : ""
+      } : rtlEnabled ? {
+        marginLeft: isJustifySpace ? justify === "space-between" && index === lastIndex ? "" : semiHorizontalMargin : index !== lastIndex ? horizontalMargin : "",
+        marginRight: isJustifySpace ? justify === "space-between" && index === 0 ? "" : semiHorizontalMargin : "",
+        paddingTop: semiVerticalMargin,
+        paddingBottom: semiVerticalMargin
+      } : {
+        marginRight: isJustifySpace ? justify === "space-between" && index === lastIndex ? "" : semiHorizontalMargin : index !== lastIndex ? horizontalMargin : "",
+        marginLeft: isJustifySpace ? justify === "space-between" && index === 0 ? "" : semiHorizontalMargin : "",
+        paddingTop: semiVerticalMargin,
+        paddingBottom: semiVerticalMargin
+      }]
+    }, child)));
   }
 });
 function self(vars) {
@@ -1167,12 +1340,12 @@ function render$2(_ctx, _cache) {
       "stroke-linejoin": "round",
       "stroke-width": "1.5"
     }, [
-      createBaseVNode("path", { d: "M22 13.49c-.275 4.243-3.613 7.623-7.805 7.9c-1.43.095-2.923.095-4.35 0a4.9 4.9 0 0 1-1.488-.339c-.513-.21-.77-.316-.9-.3c-.131.016-.32.155-.699.434c-.667.49-1.508.844-2.755.813c-.63-.015-.945-.023-1.086-.263s.034-.572.386-1.237c.487-.922.796-1.978.328-2.823c-.806-1.208-1.49-2.639-1.59-4.184a20 20 0 0 1 0-2.52c.274-4.243 3.613-7.622 7.804-7.9a33 33 0 0 1 2.676-.067M8.5 15h7m-7-5H12" }),
-      createBaseVNode("path", { d: "M16.737 5.176v-1.39c0-.206.009-.414.083-.606c.195-.51.715-1.179 1.66-1.179c.944 0 1.484.669 1.68 1.18c.073.191.082.399.082.604v1.39M16.807 11h3.386c.997 0 1.805-.807 1.805-1.802V7.196c0-.995-.808-1.802-1.805-1.802h-3.386c-.997 0-1.805.807-1.805 1.802v2.001c0 .995.808 1.802 1.805 1.802" })
+      createBaseVNode("path", { d: "M22 13.49c-.275 4.243-3.613 7.622-7.805 7.9c-1.43.095-2.923.095-4.35 0a4.9 4.9 0 0 1-1.488-.339c-.513-.21-.77-.316-.9-.3c-.131.016-.32.155-.699.433c-.667.492-1.508.844-2.755.814c-.63-.015-.945-.023-1.086-.263s.034-.572.386-1.237c.487-.922.796-1.978.328-2.824c-.806-1.207-1.49-2.638-1.59-4.183a20 20 0 0 1 0-2.52c.274-4.243 3.613-7.622 7.804-7.9a33 33 0 0 1 2.676-.067M8.5 15h7m-7-5H12" }),
+      createBaseVNode("path", { d: "M16.737 5.176v-1.39c0-.206.009-.414.083-.606c.195-.51.715-1.18 1.66-1.18c.944 0 1.484.67 1.68 1.18c.073.192.082.4.082.605v1.39m-3.435 5.823h3.386c.997 0 1.805-.806 1.805-1.801V7.196c0-.995-.808-1.802-1.805-1.802h-3.386c-.997 0-1.805.807-1.805 1.802v2c0 .996.808 1.802 1.805 1.802" })
     ], -1)
   ]));
 }
-const __unplugin_components_4 = markRaw({ name: "hugeicons-message-lock01", render: render$2 });
+const __unplugin_components_7 = markRaw({ name: "hugeicons-message-lock01", render: render$2 });
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -1182,17 +1355,28 @@ function render$1(_ctx, _cache) {
   return openBlock(), createElementBlock("svg", _hoisted_1$2, _cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
-      stroke: "currentColor",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
-      "stroke-width": "1.5"
+      stroke: "currentColor"
     }, [
-      createBaseVNode("path", { d: "M14.491 15.5h.009m-5 0h.009m-5.241 3.345c.225 1.67 1.608 2.979 3.292 3.056c1.416.065 2.855.099 4.44.099s3.024-.034 4.44-.1c1.684-.076 3.067-1.385 3.292-3.055c.147-1.09.268-2.207.268-3.345s-.121-2.255-.268-3.345c-.225-1.67-1.608-2.979-3.292-3.056A95 95 0 0 0 12 9c-1.585 0-3.024.034-4.44.1c-1.684.076-3.067 1.385-3.292 3.055C4.12 13.245 4 14.362 4 15.5s.121 2.255.268 3.345" }),
-      createBaseVNode("path", { d: "M7.5 9V6.5a4.5 4.5 0 0 1 9 0V9" })
+      createBaseVNode("path", {
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "stroke-width": "2",
+        d: "M14.491 15.5h.009m-5 0h.009"
+      }),
+      createBaseVNode("path", {
+        "stroke-width": "1.5",
+        d: "M4.268 18.845c.225 1.67 1.608 2.979 3.292 3.056c1.416.065 2.855.099 4.44.099s3.024-.034 4.44-.1c1.684-.076 3.067-1.385 3.292-3.055c.147-1.09.268-2.207.268-3.345s-.121-2.255-.268-3.345c-.225-1.67-1.608-2.979-3.292-3.056A95 95 0 0 0 12 9c-1.585 0-3.024.034-4.44.1c-1.684.076-3.067 1.385-3.292 3.055C4.12 13.245 4 14.362 4 15.5s.121 2.255.268 3.345Z"
+      }),
+      createBaseVNode("path", {
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "stroke-width": "1.5",
+        d: "M7.5 9V6.5a4.5 4.5 0 0 1 9 0V9"
+      })
     ], -1)
   ]));
 }
-const __unplugin_components_3 = markRaw({ name: "hugeicons-square-lock-password", render: render$1 });
+const __unplugin_components_6 = markRaw({ name: "hugeicons-square-lock-password", render: render$1 });
 const _hoisted_1$1 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -1204,32 +1388,47 @@ function render(_ctx, _cache) {
       fill: "none",
       stroke: "currentColor",
       "stroke-linecap": "round",
-      "stroke-linejoin": "round",
-      "stroke-width": "1.5"
+      "stroke-linejoin": "round"
     }, [
-      createBaseVNode("path", { d: "M5 9c0-3.3 0-4.95 1.025-5.975S8.7 2 12 2s4.95 0 5.975 1.025S19 5.7 19 9v6c0 3.3 0 4.95-1.025 5.975S15.3 22 12 22s-4.95 0-5.975-1.025S5 18.3 5 15zm6 10h2" }),
-      createBaseVNode("path", { d: "m9 2l.089.534c.193 1.157.29 1.736.686 2.088C10.19 4.989 10.776 5 12 5s1.81-.01 2.225-.378c.397-.352.493-.93.686-2.088L15 2" })
+      createBaseVNode("path", {
+        "stroke-width": "2",
+        d: "M12 19h.01"
+      }),
+      createBaseVNode("path", {
+        "stroke-width": "1.5",
+        d: "M13.5 2h-3c-2.357 0-3.536 0-4.268.732S5.5 4.643 5.5 7v10c0 2.357 0 3.535.732 4.268S8.143 22 10.5 22h3c2.357 0 3.535 0 4.268-.732c.732-.733.732-1.911.732-4.268V7c0-2.357 0-3.536-.732-4.268C17.035 2 15.857 2 13.5 2"
+      })
     ], -1)
   ]));
 }
-const __unplugin_components_0 = markRaw({ name: "hugeicons-smart-phone01", render });
+const __unplugin_components_3 = markRaw({ name: "hugeicons-smart-phone01", render });
 const _hoisted_1 = { class: "login-container" };
-const _hoisted_2 = { class: "login" };
-const _hoisted_3 = { class: "login-row-qr" };
-const _hoisted_4 = { class: "login-qr" };
-const _hoisted_5 = {
+const _hoisted_2 = {
+  key: 0,
+  style: { "white-space": "pre-wrap" },
+  class: "overflow-y-auto max-h-300px"
+};
+const _hoisted_3 = {
+  key: 1,
+  style: { "white-space": "pre-wrap" },
+  class: "overflow-y-auto max-h-300px"
+};
+const _hoisted_4 = { class: "login card" };
+const _hoisted_5 = { class: "login-row-qr" };
+const _hoisted_6 = { class: "login-qr" };
+const _hoisted_7 = {
   key: 1,
   style: { "text-align": "center" },
   class: "text3"
 };
-const _hoisted_6 = {
+const _hoisted_8 = {
   key: 2,
   class: "text2"
 };
-const _hoisted_7 = { class: "login-row-passwd" };
-const _hoisted_8 = { class: "login-passwd" };
-const _hoisted_9 = { class: "login-input-container" };
-const _hoisted_10 = { class: "login-input-container" };
+const _hoisted_9 = { class: "login-row-passwd" };
+const _hoisted_10 = { class: "login-passwd" };
+const _hoisted_11 = { class: "login-input-container" };
+const _hoisted_12 = { class: "login-input-container" };
 const _sfc_main = {
   __name: "login",
   setup(__props) {
@@ -1242,12 +1441,32 @@ const _sfc_main = {
     let name = ref("");
     let key = ref("");
     let currentMethod = ref("sms");
+    let isApp = ref(false);
+    if (window == null ? void 0 : window.isElectron) {
+      isApp.value = true;
+    }
     onMounted(() => {
       createQRcode();
     });
     onBeforeUnmount(() => {
       clearInterval(check);
     });
+    function openOfficialLogin() {
+      window.open("https://music.163.com/");
+    }
+    function getCookieAndLogin() {
+      return __async(this, null, function* () {
+        if (window == null ? void 0 : window.isElectron) {
+          let ck = yield window.api.getCookie();
+          if (ck) {
+            success("cookie获取成功，已登录");
+            userStore.updateByCookie(ck);
+          } else {
+            error("cookie获取失败：官方页未登录");
+          }
+        }
+      });
+    }
     function createQRcode() {
       return __async(this, null, function* () {
         let key2 = yield loginQrKey();
@@ -1330,17 +1549,70 @@ const _sfc_main = {
       });
     }
     return (_ctx, _cache) => {
-      const _component_i_hugeicons_smart_phone_01 = __unplugin_components_0;
-      const _component_n_icon = NIcon;
-      const _component_n_input = __unplugin_components_0$1;
-      const _component_i_hugeicons_square_lock_password = __unplugin_components_3;
-      const _component_i_hugeicons_message_lock_01 = __unplugin_components_4;
       const _component_n_button = Button;
-      const _component_n_divider = __unplugin_components_6;
+      const _component_n_space = __unplugin_components_1;
+      const _component_n_card = __unplugin_components_5;
+      const _component_i_hugeicons_smart_phone_01 = __unplugin_components_3;
+      const _component_n_icon = NIcon;
+      const _component_n_input = __unplugin_components_0;
+      const _component_i_hugeicons_square_lock_password = __unplugin_components_6;
+      const _component_i_hugeicons_message_lock_01 = __unplugin_components_7;
+      const _component_n_divider = __unplugin_components_8;
       return openBlock(), createElementBlock("div", _hoisted_1, [
-        createBaseVNode("div", _hoisted_2, [
-          createBaseVNode("div", _hoisted_3, [
-            createBaseVNode("div", _hoisted_4, [
+        createVNode(_component_n_card, {
+          class: "card",
+          title: `内置登录因云控无法正常使用`,
+          bordered: false,
+          size: "huge",
+          role: "dialog",
+          "aria-modal": "true"
+        }, {
+          footer: withCtx(() => [
+            createVNode(_component_n_space, null, {
+              default: withCtx(() => [
+                createVNode(_component_n_button, {
+                  type: "primary",
+                  onClick: openOfficialLogin
+                }, {
+                  default: withCtx(() => _cache[5] || (_cache[5] = [
+                    createTextVNode("前往官方登录", -1)
+                  ])),
+                  _: 1,
+                  __: [5]
+                }),
+                unref(isApp) ? (openBlock(), createBlock(_component_n_button, {
+                  key: 0,
+                  secondary: "",
+                  onClick: getCookieAndLogin
+                }, {
+                  default: withCtx(() => _cache[6] || (_cache[6] = [
+                    createTextVNode("直接登录(若已在官方登陆)", -1)
+                  ])),
+                  _: 1,
+                  __: [6]
+                })) : createCommentVNode("", true)
+              ]),
+              _: 1
+            })
+          ]),
+          default: withCtx(() => [
+            unref(isApp) ? (openBlock(), createElementBlock("div", _hoisted_2, " 在客户端中，可通过前往官方页面登录以实现自动抓取cookie登录 ")) : (openBlock(), createElementBlock("div", _hoisted_3, _cache[4] || (_cache[4] = [
+              createTextVNode(" 您当前为网页版，需自行在官方页面抓取cookie后，在设置页面输入以登录 ", -1),
+              createBaseVNode("br", null, null, -1),
+              createBaseVNode("br", null, null, -1),
+              createTextVNode(" 或者下载客户端自动抓取并登录 ", -1),
+              createBaseVNode("a", {
+                class: "text3",
+                href: "https://github.com/xwzkj/cheesemusic",
+                target: "_blank"
+              }, "前往GitHub下载", -1)
+            ])))
+          ]),
+          _: 1
+        }),
+        createBaseVNode("div", _hoisted_4, [
+          createBaseVNode("div", _hoisted_5, [
+            createBaseVNode("div", _hoisted_6, [
               unref(qrcode) != "" ? (openBlock(), createBlock(unref(NQrCode), {
                 key: 0,
                 value: unref(qrcode),
@@ -1348,17 +1620,17 @@ const _sfc_main = {
                 "background-color": "rgba(255,255,255,0)",
                 color: unref(themeStore).mainColors[9]
               }, null, 8, ["value", "color"])) : createCommentVNode("", true),
-              unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_5, _cache[4] || (_cache[4] = [
+              unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_7, _cache[7] || (_cache[7] = [
                 createTextVNode("等待生成二维码", -1),
                 createBaseVNode("br", null, null, -1),
                 createTextVNode("若长时间未生成 大概是炸了", -1)
               ]))) : createCommentVNode("", true),
-              unref(qrcode) != "" ? (openBlock(), createElementBlock("span", _hoisted_6, toDisplayString(unref(qrStatus)), 1)) : createCommentVNode("", true)
+              unref(qrcode) != "" ? (openBlock(), createElementBlock("span", _hoisted_8, toDisplayString(unref(qrStatus)), 1)) : createCommentVNode("", true)
             ])
           ]),
-          createBaseVNode("div", _hoisted_7, [
-            createBaseVNode("div", _hoisted_8, [
-              _cache[8] || (_cache[8] = createBaseVNode("div", { style: { "width": "100%" } }, [
+          createBaseVNode("div", _hoisted_9, [
+            createBaseVNode("div", _hoisted_10, [
+              _cache[11] || (_cache[11] = createBaseVNode("div", { style: { "width": "100%" } }, [
                 createBaseVNode("div", {
                   style: { "font-size": "1.5rem" },
                   class: "text1"
@@ -1368,7 +1640,7 @@ const _sfc_main = {
                   class: "text2"
                 }, "使用云音乐账号")
               ], -1)),
-              createBaseVNode("div", _hoisted_9, [
+              createBaseVNode("div", _hoisted_11, [
                 createVNode(_component_n_input, {
                   value: unref(name),
                   "onUpdate:value": _cache[0] || (_cache[0] = ($event) => isRef(name) ? name.value = $event : name = $event),
@@ -1387,7 +1659,7 @@ const _sfc_main = {
                   _: 1
                 }, 8, ["value"])
               ]),
-              createBaseVNode("div", _hoisted_10, [
+              createBaseVNode("div", _hoisted_12, [
                 createVNode(_component_n_input, {
                   value: unref(key),
                   "onUpdate:value": _cache[1] || (_cache[1] = ($event) => isRef(key) ? key.value = $event : key = $event),
@@ -1411,11 +1683,11 @@ const _sfc_main = {
                   _: 1
                 }, 8, ["value", "type", "placeholder"]),
                 withDirectives(createVNode(_component_n_button, { onClick: sendCaptcha$1 }, {
-                  default: withCtx(() => _cache[5] || (_cache[5] = [
+                  default: withCtx(() => _cache[8] || (_cache[8] = [
                     createTextVNode("获取验证码", -1)
                   ])),
                   _: 1,
-                  __: [5]
+                  __: [8]
                 }, 512), [
                   [vShow, unref(currentMethod) == "sms"]
                 ])
@@ -1424,18 +1696,18 @@ const _sfc_main = {
                 style: { "width": "100%" },
                 onClick: login2
               }, {
-                default: withCtx(() => _cache[6] || (_cache[6] = [
+                default: withCtx(() => _cache[9] || (_cache[9] = [
                   createTextVNode("登录", -1)
                 ])),
                 _: 1,
-                __: [6]
+                __: [9]
               }),
               createVNode(_component_n_divider, { class: "login-divider" }, {
-                default: withCtx(() => _cache[7] || (_cache[7] = [
+                default: withCtx(() => _cache[10] || (_cache[10] = [
                   createTextVNode("或者", -1)
                 ])),
                 _: 1,
-                __: [7]
+                __: [10]
               }),
               createBaseVNode("div", null, [
                 withDirectives(createVNode(_component_n_icon, {
@@ -1476,7 +1748,7 @@ const _sfc_main = {
     };
   }
 };
-const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-07341c6e"]]);
+const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-701fbe45"]]);
 export {
   login as default
 };

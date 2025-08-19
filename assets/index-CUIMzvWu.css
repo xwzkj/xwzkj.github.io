@@ -284,8 +284,7 @@ ul[data-v-58277894] {
   height: 80%;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.65);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   border-radius: 0.8rem;
   overflow: hidden;
 }
@@ -336,8 +335,7 @@ ul[data-v-58277894] {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.65);
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     /* transition: all 0.5s ease-in-out; */
 }
 .ctrl-box[data-v-86679578] {
@@ -510,19 +508,19 @@ right---------------------------------------------------------
 
 .app,
 .bg {
-  background-color: var(--7abfd979);
+  background-color: var(--60c13a27);
 }
 * {
-  --color-0: var(--7abfd979);
-  --color-1: var(--7abfd998);
-  --color-2: var(--7abfd9b7);
-  --color-3: var(--7abfd9d6);
-  --color-4: var(--7abfd9f5);
-  --color-5: var(--7abfda14);
-  --color-6: var(--7abfda33);
-  --color-7: var(--7abfda52);
-  --color-8: var(--7abfda71);
-  --color-9: var(--7abfda90);
+  --color-0: var(--60c13a27);
+  --color-1: var(--60c13a46);
+  --color-2: var(--60c13a65);
+  --color-3: var(--60c13a84);
+  --color-4: var(--60c13aa3);
+  --color-5: var(--60c13ac2);
+  --color-6: var(--60c13ae1);
+  --color-7: var(--60c13b00);
+  --color-8: var(--60c13b1f);
+  --color-9: var(--60c13b3e);
 }
 .icon,
 .n-icon {
@@ -571,9 +569,9 @@ right---------------------------------------------------------
   color: var(--color-9);
 }
 .loading-center {
-    width: 100%;
-    height: calc(70 * var(--vh, 1vh));
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: calc(70 * var(--vh, 1vh));
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

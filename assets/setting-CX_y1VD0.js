@@ -18,8 +18,8 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ag as cB, ah as c, ak as cE, d as defineComponent, h, ap as useConfig, aG as createTheme, ao as derived, b4 as hsva, b5 as toHslaString, b6 as hsv2hsl, b7 as toRgbaString, b8 as hsv2rgb, b9 as toHexaString, ba as hsla, bb as toHsvaString, bc as hsl2hsv, bd as hsl2rgb, be as rgba, bf as rgb2hsv, bg as rgb2hsl, r as ref, c as computed, C as createInjectionKey, i as inject, ad as watchEffect, bh as toHexString, bi as toHslString, bj as toRgbString, bk as toHsvString, N as warn, al as cM, ai as Transition, I as withDirectives, aq as useTheme, p as provide, q as toRef, w as watch, ay as createKey, ar as useThemeClass, n as nextTick, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, aP as createVNode, aR as withCtx, L as renderSlot, aS as createBlock, aT as createCommentVNode, u as unref, f as isRef, aH as NIcon, z as onMounted, at as vShow, F as createTextVNode, aV as toDisplayString } from "./font-O-SYRY6Q.js";
-import { $ as useStyle, a0 as buttonLight, a1 as inputLight, a2 as on, a3 as off, _ as __unplugin_components_0$1, a4 as fadeInScaleUpTransition, a5 as Binder, a6 as VTarget, a7 as VFollower, a8 as useAdjustedTo, a9 as clickoutside, aa as useFormItem, ab as useLocale, h as useMergedState, ac as isMounted, ad as getPreciseEventTarget, m as call, B as Button, R as __unplugin_components_5, J as useSettingStore, u as useUserStore, s as useThemeStore, ae as __unplugin_components_4, af as __unplugin_components_5$1, x as success, q as error } from "./index-CvAkX8Gz.js";
+import { ag as cB, ah as c, ak as cE, d as defineComponent, h, ap as useConfig, aG as createTheme, ao as derived, b4 as hsva, b5 as toHslaString, b6 as hsv2hsl, b7 as toRgbaString, b8 as hsv2rgb, b9 as toHexaString, ba as hsla, bb as toHsvaString, bc as hsl2hsv, bd as hsl2rgb, be as rgba, bf as rgb2hsv, bg as rgb2hsl, r as ref, c as computed, C as createInjectionKey, i as inject, ad as watchEffect, bh as toHexString, bi as toHslString, bj as toRgbString, bk as toHsvString, N as warn, al as cM, ai as Transition, I as withDirectives, aq as useTheme, p as provide, q as toRef, w as watch, ay as createKey, ar as useThemeClass, n as nextTick, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, aP as createVNode, aR as withCtx, L as renderSlot, aS as createBlock, aT as createCommentVNode, u as unref, f as isRef, aH as NIcon, z as onMounted, at as vShow, F as createTextVNode, aV as toDisplayString } from "./font-VYfMrgmO.js";
+import { a2 as useStyle, a3 as buttonLight, a4 as inputLight, a5 as on, a6 as off, C as __unplugin_components_0$1, a7 as fadeInScaleUpTransition, a8 as Binder, a9 as VTarget, aa as VFollower, ab as useAdjustedTo, ac as clickoutside, ad as useFormItem, ae as useLocale, h as useMergedState, af as isMounted, ag as getPreciseEventTarget, m as call, D as Button, _ as __unplugin_components_5, O as useSettingStore, u as useUserStore, w as useThemeStore, ah as __unplugin_components_4, ai as __unplugin_components_5$1, A as success, q as error } from "./index-B4aUg58R.js";
 const style$1 = cB("input-group", `
  display: inline-flex;
  width: 100%;
@@ -1830,12 +1830,14 @@ function render$1(_ctx, _cache) {
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
       "stroke-width": "1.5"
     }, [
-      createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" }),
-      createBaseVNode("path", { d: "M8 13.75s1.6.912 2.4 2.25c0 0 2.4-5.25 5.6-7" })
+      createBaseVNode("path", { d: "M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12Z" }),
+      createBaseVNode("path", {
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        d: "M8 13.75s1.6.912 2.4 2.25c0 0 2.4-5.25 5.6-7"
+      })
     ], -1)
   ]));
 }
@@ -1853,7 +1855,7 @@ function render(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       "stroke-width": "1.5",
-      d: "M11.1 3.002c-3.648.007-5.56.096-6.78 1.317C3.002 5.637 3.002 7.758 3.002 12s0 6.363 1.318 7.681s3.438 1.318 7.68 1.318s6.363 0 7.681-1.318c1.221-1.22 1.31-3.132 1.317-6.78m-.518-9.384l-5.548 5.534m5.549-5.534c-.494-.494-3.822-.448-4.525-.438m4.525.438c.494.495.448 3.826.438 4.53"
+      d: "M11.1 3.002c-3.648.007-5.56.096-6.78 1.317C3.002 5.637 3.002 7.758 3.002 12s0 6.363 1.318 7.681c1.317 1.318 3.438 1.318 7.68 1.318s6.363 0 7.68-1.318c1.222-1.22 1.312-3.132 1.318-6.78m-.518-9.383l-5.549 5.534m5.55-5.534c-.495-.495-3.822-.449-4.526-.439m4.525.439c.494.494.448 3.825.438 4.53"
     }, null, -1)
   ]));
 }
@@ -1930,7 +1932,7 @@ const _sfc_main$1 = {
   }
 };
 const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-bfd866b9"]]);
-const buildInfo = { version: "1.1.6", buildNumber: "482684d", buildTime: "2025-08-08 13:37:19" };
+const buildInfo = { version: "1.1.7", buildNumber: "35d2b65", buildTime: "2025-08-19 21:47:17" };
 const _hoisted_1 = { class: "setting" };
 const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {
