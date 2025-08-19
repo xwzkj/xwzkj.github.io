@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-Cbvl44e5.js","./itemCardList-Dew0_25a.js","./font-VYfMrgmO.js","./font-DVJNQYcb.css","./Ellipsis-Bnj8W9kh.js","./itemCardList-CWGQEecD.css","./home-Cd2oFn4Z.css","./search-GxJ_Na_J.js","./musicList-CZR6zXIQ.js","./musicList-nLQAz02W.css","./Spin-Bo4ao8JN.js","./login-Dcta8wbU.js","./login-BXx9USMY.css","./account-CrxhzHir.js","./account-BPMAva87.css","./playlist-CiNDKNB_.js","./playlist-nN7oZNzC.css","./setting-CX_y1VD0.js","./setting-CgBBsRCk.css","./comments-Bhgqfro2.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-CCtA3O0K.js","./itemCardList-jr7fRJRu.js","./font-VYfMrgmO.js","./font-DVJNQYcb.css","./Ellipsis-C3qBx6_a.js","./itemCardList-CWGQEecD.css","./home-Cd2oFn4Z.css","./search-DtlfEWKM.js","./musicList-Bu7rW_xr.js","./musicList-nLQAz02W.css","./Spin-B_k7dKVa.js","./login-DvVHHJ4P.js","./login-BXx9USMY.css","./account-DR1Zr4zu.js","./account-BPMAva87.css","./playlist-BgPg11GI.js","./playlist-nN7oZNzC.css","./setting-CSfH7I_9.js","./setting-CgBBsRCk.css","./comments-OvecorBn.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -2048,7 +2048,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-Cbvl44e5.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-CCtA3O0K.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2059,7 +2059,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-GxJ_Na_J.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-DtlfEWKM.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2070,7 +2070,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-Dcta8wbU.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-DvVHHJ4P.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2078,7 +2078,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-CrxhzHir.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-DR1Zr4zu.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2089,7 +2089,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-CiNDKNB_.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-BgPg11GI.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2100,7 +2100,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CX_y1VD0.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-CSfH7I_9.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2111,7 +2111,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-Bhgqfro2.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-OvecorBn.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -34561,12 +34561,12 @@ function render$c(_ctx, _cache) {
       "stroke-linejoin": "round",
       "stroke-width": "1.5"
     }, [
-      createBaseVNode("path", { d: "M8 8c0-.575 0-.822.045-1.075A2.98 2.98 0 0 1 9.833 4.7c.24-.1.523-.165 1.09-.294l2.728-.623c3.39-.774 5.084-1.161 6.217-.27C21 4.405 21 6.126 21 9.568v4.864c0 3.442 0 5.164-1.132 6.055c-1.133.891-2.827.504-6.217-.27l-2.728-.623c-.567-.13-.85-.194-1.09-.294a2.98 2.98 0 0 1-1.788-2.225C8 16.822 8 16.575 8 16" }),
-      createBaseVNode("path", { d: "M13 9s3 2.21 3 3s-3 3-3 3m2.5-3H3" })
+      createBaseVNode("path", { d: "M12 21a9 9 0 1 1 0-18" }),
+      createBaseVNode("path", { d: "M13 8s-4 2.946-4 4s4 4 4 4m-3.5-4H21" })
     ], -1)
   ]));
 }
-const HugeiconsLogin01 = markRaw({ name: "hugeicons-login-01", render: render$c });
+const HugeiconsLoginCircle02 = markRaw({ name: "hugeicons-login-circle-02", render: render$c });
 const _hoisted_1$i = {
   viewBox: "0 0 24 24",
   width: "1.2em",
@@ -34657,7 +34657,7 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
             show: !userStore.isLogin,
             label: renderLink("login", "登录"),
             key: "login",
-            icon: renderIcon(HugeiconsLogin01)
+            icon: renderIcon(HugeiconsLoginCircle02)
           },
           {
             show: userStore.isLogin,
@@ -34694,7 +34694,7 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-fc3cd83f"]]);
+const navigation = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-26b91514"]]);
 const _hoisted_1$f = { class: "header" };
 const _hoisted_2$5 = { class: "header-search" };
 const _hoisted_3$4 = { class: "header-window-ctrl flex items-center" };
