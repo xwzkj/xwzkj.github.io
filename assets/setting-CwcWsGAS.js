@@ -19,7 +19,7 @@ var __async = (__this, __arguments, generator) => {
   });
 };
 import { ag as cB, ah as c, ak as cE, d as defineComponent, h, ap as useConfig, aG as createTheme, ao as derived, b4 as hsva, b5 as toHslaString, b6 as hsv2hsl, b7 as toRgbaString, b8 as hsv2rgb, b9 as toHexaString, ba as hsla, bb as toHsvaString, bc as hsl2hsv, bd as hsl2rgb, be as rgba, bf as rgb2hsv, bg as rgb2hsl, r as ref, c as computed, C as createInjectionKey, i as inject, ad as watchEffect, bh as toHexString, bi as toHslString, bj as toRgbString, bk as toHsvString, N as warn, al as cM, ai as Transition, I as withDirectives, aq as useTheme, p as provide, q as toRef, w as watch, ay as createKey, ar as useThemeClass, n as nextTick, m as markRaw, aM as createElementBlock, aN as openBlock, aO as createBaseVNode, aQ as _export_sfc, aP as createVNode, aR as withCtx, L as renderSlot, aS as createBlock, aT as createCommentVNode, u as unref, f as isRef, aH as NIcon, z as onMounted, at as vShow, F as createTextVNode, aV as toDisplayString } from "./font-CKJR5mIm.js";
-import { a2 as useStyle, a3 as buttonLight, a4 as inputLight, a5 as on, a6 as off, C as __unplugin_components_0$1, a7 as fadeInScaleUpTransition, a8 as Binder, a9 as VTarget, aa as VFollower, ab as useAdjustedTo, ac as clickoutside, ad as useFormItem, ae as useLocale, h as useMergedState, af as isMounted, ag as getPreciseEventTarget, m as call, D as Button, _ as __unplugin_components_5, O as useSettingStore, u as useUserStore, w as useThemeStore, ah as __unplugin_components_4, ai as __unplugin_components_5$1, A as success, q as error } from "./index-CCqmrUDI.js";
+import { a2 as useStyle, a3 as buttonLight, a4 as inputLight, a5 as on, a6 as off, C as __unplugin_components_0$1, a7 as fadeInScaleUpTransition, a8 as Binder, a9 as VTarget, aa as VFollower, ab as useAdjustedTo, ac as clickoutside, ad as useFormItem, ae as useLocale, h as useMergedState, af as isMounted, ag as getPreciseEventTarget, m as call, D as Button, _ as __unplugin_components_5, O as useSettingStore, u as useUserStore, w as useThemeStore, ah as __unplugin_components_4, ai as __unplugin_components_5$1, A as success, q as error } from "./index-B7A6oDOs.js";
 const style$1 = cB("input-group", `
  display: inline-flex;
  width: 100%;
@@ -1932,7 +1932,7 @@ const _sfc_main$1 = {
   }
 };
 const settingItem = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-bfd866b9"]]);
-const buildInfo = { version: "1.1.7", buildNumber: "dac2b16", buildTime: "2025-09-07 12:26:48" };
+const buildInfo = { version: "1.1.8", buildNumber: "5f0a34c", buildTime: "2025-09-07 12:27:37" };
 const _hoisted_1 = { class: "setting" };
 const _hoisted_2 = { class: "w-128px" };
 const _sfc_main = {
