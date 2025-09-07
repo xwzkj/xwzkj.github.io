@@ -18,14 +18,14 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, d as defineComponent, aU as useCssVars, r as ref, z as onMounted, aP as createVNode, aR as withCtx, aH as NIcon, u as unref, aW as MarqueePlus, b1 as createApp } from "./font-VYfMrgmO.js";
+import { m as markRaw, aM as createElementBlock, aN as openBlock, aO as createBaseVNode, d as defineComponent, aU as useCssVars, r as ref, z as onMounted, aP as createVNode, aR as withCtx, aH as NIcon, u as unref, aW as MarqueePlus, b1 as createApp } from "./font-CKJR5mIm.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
 function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$2, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$2, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -42,7 +42,7 @@ function render$1(_ctx, _cache) {
         d: "M7.5 9V6.5a4.5 4.5 0 0 1 9 0V9"
       })
     ], -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_2 = markRaw({ name: "hugeicons-square-lock02", render: render$1 });
 const _hoisted_1$1 = {
@@ -51,7 +51,7 @@ const _hoisted_1$1 = {
   height: "1.2em"
 };
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$1, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
@@ -60,7 +60,7 @@ function render(_ctx, _cache) {
       "stroke-width": "2.5",
       d: "M6 6h.006M6 12h.006M6 18h.006m5.99-12h.007m-.006 6h.006m-.006 6h.006m5.99-12H18m-.006 6H18m-.006 6H18"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_0 = markRaw({ name: "hugeicons-drag-drop", render });
 const _hoisted_1 = { class: "outer" };

@@ -1,5 +1,5 @@
-import { u as useUserStore, _ as __unplugin_components_5, W as parseArray, U as __unplugin_components_0, X as parseArtist, Y as __unplugin_components_2, Z as likeAndUpdateLikelist, $ as __unplugin_components_3 } from "./index-DLScpefh.js";
-import { aQ as _export_sfc, r as ref, c as computed, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aP as createVNode, aR as withCtx, G as Fragment, aX as renderList, aV as toDisplayString, u as unref, aT as createCommentVNode, aS as createBlock, F as createTextVNode, aH as NIcon, I as withDirectives, at as vShow } from "./font-VYfMrgmO.js";
+import { u as useUserStore, _ as __unplugin_components_5, W as parseArray, U as __unplugin_components_0, X as parseArtist, Y as __unplugin_components_2, Z as likeAndUpdateLikelist, $ as __unplugin_components_3 } from "./index-CCqmrUDI.js";
+import { aQ as _export_sfc, r as ref, c as computed, aM as createElementBlock, aN as openBlock, aO as createBaseVNode, aP as createVNode, aR as withCtx, G as Fragment, aX as renderList, aV as toDisplayString, u as unref, aT as createCommentVNode, aS as createBlock, F as createTextVNode, aH as NIcon, I as withDirectives, at as vShow } from "./font-CKJR5mIm.js";
 const _hoisted_1 = { class: "music-list" };
 const _hoisted_2 = { class: "list-head-div" };
 const _hoisted_3 = { class: "list-items" };
@@ -48,16 +48,15 @@ const _sfc_main = {
             class: "list-head-card",
             "content-style": "padding-top:0;padding-bottom:0;"
           }, {
-            default: withCtx(() => _cache[0] || (_cache[0] = [
+            default: withCtx(() => [..._cache[0] || (_cache[0] = [
               createBaseVNode("div", { class: "list-head-card-content" }, [
                 createBaseVNode("div", { class: "head-num text2" }, "#"),
                 createBaseVNode("div", { class: "head-music text2" }, "歌曲"),
                 createBaseVNode("div", { class: "head-action text2" }, " "),
                 createBaseVNode("div", { class: "head-album text2" }, "专辑")
               ], -1)
-            ])),
-            _: 1,
-            __: [0]
+            ])]),
+            _: 1
           })
         ]),
         createBaseVNode("div", _hoisted_3, [
@@ -92,11 +91,10 @@ const _sfc_main = {
                             size: "small",
                             bordered: false
                           }, {
-                            default: withCtx(() => _cache[1] || (_cache[1] = [
+                            default: withCtx(() => [..._cache[1] || (_cache[1] = [
                               createTextVNode("VIP", -1)
-                            ])),
-                            _: 1,
-                            __: [1]
+                            ])]),
+                            _: 1
                           })) : createCommentVNode("", true),
                           item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
                             key: 1,
@@ -104,11 +102,10 @@ const _sfc_main = {
                             size: "small",
                             bordered: false
                           }, {
-                            default: withCtx(() => _cache[2] || (_cache[2] = [
+                            default: withCtx(() => [..._cache[2] || (_cache[2] = [
                               createTextVNode("数字专辑", -1)
-                            ])),
-                            _: 1,
-                            __: [2]
+                            ])]),
+                            _: 1
                           })) : createCommentVNode("", true),
                           createBaseVNode("span", _hoisted_13, toDisplayString(parseArtist(item.ar)), 1)
                         ])

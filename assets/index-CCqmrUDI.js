@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-CCtA3O0K.js","./itemCardList-jr7fRJRu.js","./font-VYfMrgmO.js","./font-DVJNQYcb.css","./Ellipsis-C3qBx6_a.js","./itemCardList-CWGQEecD.css","./home-Cd2oFn4Z.css","./search-DtlfEWKM.js","./musicList-Bu7rW_xr.js","./musicList-nLQAz02W.css","./Spin-B_k7dKVa.js","./login-DvVHHJ4P.js","./login-BXx9USMY.css","./account-DR1Zr4zu.js","./account-BPMAva87.css","./playlist-BgPg11GI.js","./playlist-nN7oZNzC.css","./setting-CSfH7I_9.js","./setting-CgBBsRCk.css","./comments-OvecorBn.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-BN5jEdQf.js","./itemCardList-DiAABixc.js","./font-CKJR5mIm.js","./font-DVJNQYcb.css","./Ellipsis-Bg0Qz77b.js","./itemCardList-CWGQEecD.css","./home-Cd2oFn4Z.css","./search-lpXjy1HS.js","./musicList-BLI8_SH5.js","./musicList-nLQAz02W.css","./Spin-Cs7DpLlj.js","./login-CrLVh59W.js","./login-tNhZnyQ6.css","./account-BpxJyQGz.js","./account-BPMAva87.css","./playlist-D7puXpd2.js","./playlist-nN7oZNzC.css","./setting-BbJVYqUQ.js","./setting-CgBBsRCk.css","./comments-CjvKQ4O6.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -98,7 +98,7 @@ var __yieldStar = (value) => {
   }, "return" in obj && method("return"), it;
 };
 var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
-import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as createBaseVNode, aO as openBlock, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-VYfMrgmO.js";
+import { s as shallowRef, d as defineComponent, u as unref, a as shallowReactive, c as computed, p as provide, r as ref, w as watch, h, n as nextTick, i as inject, b as reactive, e as effectScope, m as markRaw, f as isRef, g as isReactive, t as toRaw, j as getCurrentScope, o as onScopeDispose, k as toRefs, l as hasInjectionContext, q as toRef, v as queryElement, x as readonly, y as getCurrentInstance, z as onMounted, A as onBeforeUnmount, B as onBeforeMount, C as createInjectionKey, D as onActivated, E as onDeactivated, F as createTextVNode, G as Fragment, H as Comment, I as withDirectives, J as CssRender, T as Teleport, K as useSsrAdapter, L as renderSlot, M as mergeProps, N as warn$2, O as isVNode, P as isObjectLike, Q as baseGetTag, R as isArray$2, S as Symbol$1, U as getNative, V as root, W as overArg, X as isPrototype, Y as arrayLikeKeys, Z as isArrayLike, _ as MapCache, $ as toSource, a0 as Map$1, a1 as eq, a2 as Uint8Array$1, a3 as isBuffer$1, a4 as Stack, a5 as isTypedArray$1, a6 as isObject$1, a7 as isLength, a8 as isIndex, a9 as isArguments, aa as identity, ab as baseFor, ac as configProviderInjectionKey, ad as watchEffect, ae as cssrAnchorMetaName$1, af as globalStyle, ag as cB, ah as c$1, ai as Transition, aj as commonVariables$7, ak as cE, al as cM, am as cNotM, an as TransitionGroup, ao as derived, ap as useConfig, aq as useTheme, ar as useThemeClass, as as cCB, at as vShow, au as formatLength, av as cloneVNode, aw as Text, ax as changeColor, ay as createKey, az as composite, aA as insideModal, aB as insidePopover, aC as asModal, aD as defaultClsPrefix, aE as merge$2, aF as murmur2, aG as createTheme, aH as NIcon, aI as onUnmounted, aJ as throwError, aK as normalizeClass, aL as onBeforeUpdate, aM as createElementBlock, aN as openBlock, aO as createBaseVNode, aP as createVNode, aQ as _export_sfc, aR as withCtx, aS as createBlock, aT as createCommentVNode, aU as useCssVars, aV as toDisplayString, aW as MarqueePlus, aX as renderList, aY as lyricLine, aZ as withModifiers, a_ as resolveComponent, a$ as KeepAlive, b0 as resolveDynamicComponent, b1 as createApp } from "./font-CKJR5mIm.js";
 const scriptRel = function detectScriptRel() {
   const relList = typeof document !== "undefined" && document.createElement("link").relList;
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
@@ -2048,7 +2048,7 @@ const router = createRouter({
     {
       name: "home",
       path: "/",
-      component: () => __vitePreload(() => import("./home-CCtA3O0K.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./home-BN5jEdQf.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2059,7 +2059,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search",
-      component: () => __vitePreload(() => import("./search-DtlfEWKM.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./search-lpXjy1HS.js"), true ? __vite__mapDeps([7,8,2,3,9,1,4,5,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2070,7 +2070,7 @@ const router = createRouter({
     {
       name: "login",
       path: "/login",
-      component: () => __vitePreload(() => import("./login-DvVHHJ4P.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./login-CrLVh59W.js"), true ? __vite__mapDeps([11,2,3,12]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2078,7 +2078,7 @@ const router = createRouter({
     {
       name: "account",
       path: "/account",
-      component: () => __vitePreload(() => import("./account-DR1Zr4zu.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./account-BpxJyQGz.js"), true ? __vite__mapDeps([13,2,3,1,4,5,14]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       },
@@ -2089,7 +2089,7 @@ const router = createRouter({
     {
       name: "playlist",
       path: "/playlist",
-      component: () => __vitePreload(() => import("./playlist-BgPg11GI.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./playlist-D7puXpd2.js"), true ? __vite__mapDeps([15,8,2,3,9,4,10,16]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2100,7 +2100,7 @@ const router = createRouter({
     {
       name: "setting",
       path: "/setting",
-      component: () => __vitePreload(() => import("./setting-CSfH7I_9.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./setting-BbJVYqUQ.js"), true ? __vite__mapDeps([17,2,3,18]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -2111,7 +2111,7 @@ const router = createRouter({
     {
       name: "comments",
       path: "/comments",
-      component: () => __vitePreload(() => import("./comments-OvecorBn.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
+      component: () => __vitePreload(() => import("./comments-CjvKQ4O6.js"), true ? __vite__mapDeps([19,2,3,10]) : void 0, import.meta.url),
       props: (route) => {
         return route.query;
       }
@@ -33065,7 +33065,7 @@ const _hoisted_1$o = {
   height: "1.2em"
 };
 function render$h(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$o, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$o, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "currentColor",
       d: "M10.03 8.97a.75.75 0 0 0-1.06 1.06L10.94 12l-1.97 1.97a.75.75 0 1 0 1.06 1.06L12 13.06l1.97 1.97a.75.75 0 0 0 1.06-1.06L13.06 12l1.97-1.97a.75.75 0 1 0-1.06-1.06L12 10.94z"
@@ -33076,7 +33076,7 @@ function render$h(_ctx, _cache) {
       d: "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M2.75 12a9.25 9.25 0 1 1 18.5 0a9.25 9.25 0 0 1-18.5 0",
       "clip-rule": "evenodd"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_5$1 = markRaw({ name: "solar-close-circle-outline", render: render$h });
 const _hoisted_1$n = {
@@ -33085,7 +33085,7 @@ const _hoisted_1$n = {
   height: "1.2em"
 };
 function render$g(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$n, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$n, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
@@ -33094,7 +33094,7 @@ function render$g(_ctx, _cache) {
       "stroke-width": "1.5",
       d: "M18 15s-4.42-6-6-6s-6 6-6 6"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_0$2 = markRaw({ name: "hugeicons-arrow-up01", render: render$g });
 const _hoisted_1$m = {
@@ -33103,7 +33103,7 @@ const _hoisted_1$m = {
   height: "1.2em"
 };
 function render$f(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$m, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$m, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
@@ -33111,7 +33111,7 @@ function render$f(_ctx, _cache) {
       "stroke-width": "1.5",
       d: "M3 5h12m4 0h2M3 12h12m4 0h2M3 19h12m4 0h2"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_0$1 = markRaw({ name: "hugeicons-right-to-left-list-dash", render: render$f });
 var defaultInstanceSettings = {
@@ -34510,7 +34510,7 @@ const _hoisted_1$l = {
   height: "1.2em"
 };
 function render$e(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$l, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$l, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -34523,7 +34523,7 @@ function render$e(_ctx, _cache) {
       }),
       createBaseVNode("path", { d: "M18 15a2 2 0 1 0-4 0a2 2 0 0 0 4 0Z" })
     ], -1)
-  ]));
+  ])]);
 }
 const HugeiconsHome06 = markRaw({ name: "hugeicons-home-06", render: render$e });
 const _hoisted_1$k = {
@@ -34532,7 +34532,7 @@ const _hoisted_1$k = {
   height: "1.2em"
 };
 function render$d(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$k, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$k, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -34544,7 +34544,7 @@ function render$d(_ctx, _cache) {
       createBaseVNode("path", { d: "M11 10a2 2 0 1 0-4 0a2 2 0 0 0 4 0" }),
       createBaseVNode("path", { d: "M13 16a4 4 0 0 0-8 0m10-7h4m-4 3h4" })
     ], -1)
-  ]));
+  ])]);
 }
 const HugeiconsUserAccount = markRaw({ name: "hugeicons-user-account", render: render$d });
 const _hoisted_1$j = {
@@ -34553,7 +34553,7 @@ const _hoisted_1$j = {
   height: "1.2em"
 };
 function render$c(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$j, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$j, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -34564,7 +34564,7 @@ function render$c(_ctx, _cache) {
       createBaseVNode("path", { d: "M12 21a9 9 0 1 1 0-18" }),
       createBaseVNode("path", { d: "M13 8s-4 2.946-4 4s4 4 4 4m-3.5-4H21" })
     ], -1)
-  ]));
+  ])]);
 }
 const HugeiconsLoginCircle02 = markRaw({ name: "hugeicons-login-circle-02", render: render$c });
 const _hoisted_1$i = {
@@ -34573,7 +34573,7 @@ const _hoisted_1$i = {
   height: "1.2em"
 };
 function render$b(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$i, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$i, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -34584,7 +34584,7 @@ function render$b(_ctx, _cache) {
       createBaseVNode("path", { d: "M13 20.303a2.64 2.64 0 0 1-2.59-.335C7.59 17.858 2 13.035 2 8.694C2 5.826 4.105 3.5 7 3.5c1.5 0 3 .5 5 2.5c2-2 3.5-2.5 5-2.5c2.895 0 5 2.326 5 5.194q-.002.648-.157 1.306" }),
       createBaseVNode("path", { d: "M14 17s1 0 2 2c0 0 3.177-5 6-6" })
     ], -1)
-  ]));
+  ])]);
 }
 const HugeiconsHeartCheck = markRaw({ name: "hugeicons-heart-check", render: render$b });
 const _hoisted_1$h = {
@@ -34593,7 +34593,7 @@ const _hoisted_1$h = {
   height: "1.2em"
 };
 function render$a(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$h, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$h, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -34609,7 +34609,7 @@ function render$a(_ctx, _cache) {
         d: "M10 8.5h7m-3 7H7"
       })
     ], -1)
-  ]));
+  ])]);
 }
 const HugeiconsSettings05 = markRaw({ name: "hugeicons-settings-05", render: render$a });
 const _hoisted_1$g = { class: "nav-outer" };
@@ -34783,11 +34783,10 @@ const _sfc_main$5 = {
             round: "",
             onClick: _cache[2] || (_cache[2] = ($event) => unref(router2).push({ name: "login" }))
           }, {
-            default: withCtx(() => _cache[5] || (_cache[5] = [
+            default: withCtx(() => [..._cache[5] || (_cache[5] = [
               createTextVNode("登录", -1)
-            ])),
-            _: 1,
-            __: [5]
+            ])]),
+            _: 1
           })) : createCommentVNode("", true),
           unref(userStore).isLogin ? (openBlock(), createBlock(_component_n_avatar, {
             key: 1,
@@ -34826,7 +34825,7 @@ const _hoisted_1$e = {
   height: "1.2em"
 };
 function render$9(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$e, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$e, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
@@ -34835,7 +34834,7 @@ function render$9(_ctx, _cache) {
       "stroke-width": "1.5",
       d: "M2 3h18M2 10h13M2 17h7m9.25 2c0 1.657-1.4 3-3.125 3S12 20.657 12 19s1.4-3 3.125-3s3.125 1.343 3.125 3m0 0v-9c.417.6.75 3.12 3.75 3.6"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_11 = markRaw({ name: "hugeicons-playlist03", render: render$9 });
 const _hoisted_1$d = {
@@ -34844,7 +34843,7 @@ const _hoisted_1$d = {
   height: "1.2em"
 };
 function render$8(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$d, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$d, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -34857,7 +34856,7 @@ function render$8(_ctx, _cache) {
       }),
       createBaseVNode("path", { d: "M14.17 20.89c4.184-.277 7.516-3.657 7.79-7.9c.053-.83.053-1.69 0-2.52c-.274-4.242-3.606-7.62-7.79-7.899a33 33 0 0 0-4.34 0c-4.184.278-7.516 3.657-7.79 7.9a20 20 0 0 0 0 2.52c.1 1.545.783 2.976 1.588 4.184c.467.845.159 1.9-.328 2.823c-.35.665-.526.997-.385 1.237c.14.24.455.248 1.084.263c1.245.03 2.084-.322 2.75-.813c.377-.279.566-.418.696-.434s.387.09.899.3c.46.19.995.307 1.485.34c1.425.094 2.914.094 4.342 0Z" })
     ], -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_0 = markRaw({ name: "hugeicons-message01", render: render$8 });
 const _hoisted_1$c = {
@@ -34866,7 +34865,7 @@ const _hoisted_1$c = {
   height: "1.2em"
 };
 function render$7(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$c, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$c, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -34879,7 +34878,7 @@ function render$7(_ctx, _cache) {
       }),
       createBaseVNode("path", { d: "m17 2l.295.797c.386 1.044.58 1.566.96 1.947c.382.381.904.575 1.948.961L21 6l-.797.295c-1.044.386-1.566.58-1.947.96c-.381.382-.575.904-.961 1.948L17 10l-.295-.797c-.386-1.044-.58-1.566-.96-1.947c-.382-.381-.904-.575-1.948-.961L13 6l.797-.295c1.044-.386 1.566-.58 1.947-.96c.381-.382.575-.904.961-1.948zM6 4l.221.597c.29.784.435 1.176.72 1.461c.286.286.678.431 1.462.72L9 7l-.597.221c-.784.29-1.176.435-1.461.72c-.286.286-.431.678-.72 1.462L6 10l-.221-.597c-.29-.784-.435-1.176-.72-1.461c-.286-.286-.678-.431-1.462-.72L3 7l.597-.221c.784-.29 1.176-.435 1.461-.72c.286-.286.431-.678.72-1.462z" })
     ], -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_8 = markRaw({ name: "hugeicons-magic-wand01", render: render$7 });
 const _hoisted_1$b = {
@@ -34888,7 +34887,7 @@ const _hoisted_1$b = {
   height: "1.2em"
 };
 function render$6(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$b, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$b, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
@@ -34897,7 +34896,7 @@ function render$6(_ctx, _cache) {
       "stroke-width": "1.5",
       d: "M16.977 19.5A9 9 0 0 0 10 3.223M16.977 19.5V16m0 3.5H20.5M7 4.516a9 9 0 0 0 7 16.261M7 4.516V8m0-3.484H3.5"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_7 = markRaw({ name: "hugeicons-exchange01", render: render$6 });
 const _hoisted_1$a = {
@@ -34906,7 +34905,7 @@ const _hoisted_1$a = {
   height: "1.2em"
 };
 function render$5(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$a, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$a, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
@@ -34915,7 +34914,7 @@ function render$5(_ctx, _cache) {
       "stroke-width": "1.5",
       d: "M9 6s6 4.419 6 6s-6 6-6 6"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_6 = markRaw({ name: "hugeicons-arrow-right01", render: render$5 });
 const _hoisted_1$9 = {
@@ -34924,14 +34923,14 @@ const _hoisted_1$9 = {
   height: "1.2em"
 };
 function render$4(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$9, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$9, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
       "stroke-width": "1.5",
       d: "M4 7c0-1.414 0-2.121.44-2.56C4.878 4 5.585 4 7 4s2.121 0 2.56.44C10 4.878 10 5.585 10 7v10c0 1.414 0 2.121-.44 2.56C9.122 20 8.415 20 7 20s-2.121 0-2.56-.44C4 19.122 4 18.415 4 17zm10 0c0-1.414 0-2.121.44-2.56C14.878 4 15.585 4 17 4s2.121 0 2.56.44C20 4.878 20 5.585 20 7v10c0 1.414 0 2.121-.44 2.56c-.439.44-1.146.44-2.56.44s-2.121 0-2.56-.44C14 19.122 14 18.415 14 17z"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_5 = markRaw({ name: "hugeicons-pause", render: render$4 });
 const _hoisted_1$8 = {
@@ -34940,7 +34939,7 @@ const _hoisted_1$8 = {
   height: "1.2em"
 };
 function render$3(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$8, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$8, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
@@ -34948,7 +34947,7 @@ function render$3(_ctx, _cache) {
       "stroke-width": "1.5",
       d: "M18.89 12.846c-.353 1.343-2.023 2.292-5.364 4.19c-3.23 1.835-4.845 2.752-6.146 2.384a3.25 3.25 0 0 1-1.424-.841C5 17.614 5 15.743 5 12s0-5.614.956-6.579a3.25 3.25 0 0 1 1.424-.84c1.301-.37 2.916.548 6.146 2.383c3.34 1.898 5.011 2.847 5.365 4.19a3.3 3.3 0 0 1 0 1.692Z"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_4 = markRaw({ name: "hugeicons-play", render: render$3 });
 const _hoisted_1$7 = {
@@ -34957,7 +34956,7 @@ const _hoisted_1$7 = {
   height: "1.2em"
 };
 function render$2(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$7, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$7, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "none",
       stroke: "currentColor",
@@ -34966,7 +34965,7 @@ function render$2(_ctx, _cache) {
       "stroke-width": "1.5",
       d: "M15 6s-6 4.419-6 6s6 6 6 6"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_3$1 = markRaw({ name: "hugeicons-arrow-left01", render: render$2 });
 const _hoisted_1$6 = {
@@ -34975,12 +34974,12 @@ const _hoisted_1$6 = {
   height: "1.2em"
 };
 function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$6, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$6, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "currentColor",
       d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_3 = markRaw({ name: "ant-design-heart-filled", render: render$1 });
 const _hoisted_1$5 = {
@@ -34989,12 +34988,12 @@ const _hoisted_1$5 = {
   height: "1.2em"
 };
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$5, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$5, [..._cache[0] || (_cache[0] = [
     createBaseVNode("path", {
       fill: "currentColor",
       d: "M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3"
     }, null, -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_2 = markRaw({ name: "ant-design-heart-outlined", render });
 const _hoisted_1$4 = { class: "playinglist" };
@@ -35097,11 +35096,10 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
                     size: "small",
                     bordered: false
                   }, {
-                    default: withCtx(() => _cache[0] || (_cache[0] = [
+                    default: withCtx(() => [..._cache[0] || (_cache[0] = [
                       createTextVNode("VIP", -1)
-                    ])),
-                    _: 1,
-                    __: [0]
+                    ])]),
+                    _: 1
                   })) : createCommentVNode("", true),
                   item.fee == 4 ? (openBlock(), createBlock(_component_n_tag, {
                     key: 1,
@@ -35109,11 +35107,10 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
                     size: "small",
                     bordered: false
                   }, {
-                    default: withCtx(() => _cache[1] || (_cache[1] = [
+                    default: withCtx(() => [..._cache[1] || (_cache[1] = [
                       createTextVNode("数字专辑", -1)
-                    ])),
-                    _: 1,
-                    __: [1]
+                    ])]),
+                    _: 1
                   })) : createCommentVNode("", true),
                   createTextVNode(" " + toDisplayString(item.name), 1)
                 ]),
@@ -35998,11 +35995,10 @@ const _sfc_main = {
                     }, {
                       default: withCtx(() => [
                         createVNode(_component_n_button, { type: "primary" }, {
-                          default: withCtx(() => _cache[1] || (_cache[1] = [
+                          default: withCtx(() => [..._cache[1] || (_cache[1] = [
                             createTextVNode("下载", -1)
-                          ])),
-                          _: 1,
-                          __: [1]
+                          ])]),
+                          _: 1
                         })
                       ]),
                       _: 1

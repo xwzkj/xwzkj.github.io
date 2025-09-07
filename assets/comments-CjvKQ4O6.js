@@ -18,16 +18,16 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { aj as __unplugin_components_0, ak as formatCount, al as commentFloor, q as error, am as emitter, an as commentNew, L as songDetail, X as parseArtist } from "./index-DLScpefh.js";
-import { m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, d as defineComponent, r as ref, aT as createCommentVNode, aV as toDisplayString, aP as createVNode, aH as NIcon, aR as withCtx, u as unref, F as createTextVNode, G as Fragment, aX as renderList, aS as createBlock, w as watch, z as onMounted } from "./font-VYfMrgmO.js";
-import { _ as __unplugin_components_0$1 } from "./Spin-B_k7dKVa.js";
+import { aj as __unplugin_components_0, ak as formatCount, al as commentFloor, q as error, am as emitter, an as commentNew, L as songDetail, X as parseArtist } from "./index-CCqmrUDI.js";
+import { m as markRaw, aM as createElementBlock, aN as openBlock, aO as createBaseVNode, d as defineComponent, r as ref, aT as createCommentVNode, aV as toDisplayString, aP as createVNode, aH as NIcon, aR as withCtx, u as unref, F as createTextVNode, G as Fragment, aX as renderList, aS as createBlock, w as watch, z as onMounted } from "./font-CKJR5mIm.js";
+import { _ as __unplugin_components_0$1 } from "./Spin-Cs7DpLlj.js";
 const _hoisted_1$2 = {
   viewBox: "0 0 24 24",
   width: "1.2em",
   height: "1.2em"
 };
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$2, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$2, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", { fill: "none" }, [
       createBaseVNode("path", {
         fill: "currentColor",
@@ -44,7 +44,7 @@ function render(_ctx, _cache) {
         d: "M8 10v10"
       })
     ], -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_2 = markRaw({ name: "iconamoon-like-duotone", render });
 const _hoisted_1$1 = { class: "comment-item rounded-0.5rem border-1px border-#e0e0e0 border-solid p-0.5rem mb-0.5rem bg-#ffffff80" };

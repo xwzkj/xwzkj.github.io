@@ -18,8 +18,8 @@ var __async = (__this, __arguments, generator) => {
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
-import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, H as Comment, ay as createKey, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aO as openBlock, aN as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aP as createVNode, aR as withCtx, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-VYfMrgmO.js";
-import { s as isBrowser, f as flatten, t as useRtl, v as getGap, l as depx, w as useThemeStore, u as useUserStore, x as loginQrKey, y as loginQrCreate, z as loginQrCheck, A as success, B as useRouter, _ as __unplugin_components_5, C as __unplugin_components_0, D as Button, q as error, E as sendCaptcha, F as verifyCaptcha, G as loginWithPhone } from "./index-DLScpefh.js";
+import { ao as derived, ag as cB, am as cNotM, ak as cE, al as cM, d as defineComponent, h, G as Fragment, ap as useConfig, aq as useTheme, c as computed, ar as useThemeClass, H as Comment, ay as createKey, ah as c, r as ref, z as onMounted, ad as watchEffect, m as markRaw, aM as createElementBlock, aN as openBlock, aO as createBaseVNode, aQ as _export_sfc, A as onBeforeUnmount, aP as createVNode, aR as withCtx, aS as createBlock, aT as createCommentVNode, u as unref, F as createTextVNode, aV as toDisplayString, f as isRef, I as withDirectives, at as vShow, aH as NIcon } from "./font-CKJR5mIm.js";
+import { s as isBrowser, f as flatten, t as useRtl, v as getGap, l as depx, w as useThemeStore, u as useUserStore, x as loginQrKey, y as loginQrCreate, z as loginQrCheck, A as success, B as useRouter, _ as __unplugin_components_5, C as __unplugin_components_0, D as Button, q as error, E as sendCaptcha, F as verifyCaptcha, G as loginWithPhone } from "./index-CCqmrUDI.js";
 function getSlot(instance, slotName = "default", fallback = []) {
   const slots = instance.$slots;
   const slot = slots[slotName];
@@ -1332,7 +1332,7 @@ const _hoisted_1$3 = {
   height: "1.2em"
 };
 function render$2(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$3, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$3, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -1343,7 +1343,7 @@ function render$2(_ctx, _cache) {
       createBaseVNode("path", { d: "M22 13.49c-.275 4.243-3.613 7.622-7.805 7.9c-1.43.095-2.923.095-4.35 0a4.9 4.9 0 0 1-1.488-.339c-.513-.21-.77-.316-.9-.3c-.131.016-.32.155-.699.433c-.667.492-1.508.844-2.755.814c-.63-.015-.945-.023-1.086-.263s.034-.572.386-1.237c.487-.922.796-1.978.328-2.824c-.806-1.207-1.49-2.638-1.59-4.183a20 20 0 0 1 0-2.52c.274-4.243 3.613-7.622 7.804-7.9a33 33 0 0 1 2.676-.067M8.5 15h7m-7-5H12" }),
       createBaseVNode("path", { d: "M16.737 5.176v-1.39c0-.206.009-.414.083-.606c.195-.51.715-1.18 1.66-1.18c.944 0 1.484.67 1.68 1.18c.073.192.082.4.082.605v1.39m-3.435 5.823h3.386c.997 0 1.805-.806 1.805-1.801V7.196c0-.995-.808-1.802-1.805-1.802h-3.386c-.997 0-1.805.807-1.805 1.802v2c0 .996.808 1.802 1.805 1.802" })
     ], -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_7 = markRaw({ name: "hugeicons-message-lock01", render: render$2 });
 const _hoisted_1$2 = {
@@ -1352,7 +1352,7 @@ const _hoisted_1$2 = {
   height: "1.2em"
 };
 function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$2, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$2, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor"
@@ -1374,7 +1374,7 @@ function render$1(_ctx, _cache) {
         d: "M7.5 9V6.5a4.5 4.5 0 0 1 9 0V9"
       })
     ], -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_6 = markRaw({ name: "hugeicons-square-lock-password", render: render$1 });
 const _hoisted_1$1 = {
@@ -1383,7 +1383,7 @@ const _hoisted_1$1 = {
   height: "1.2em"
 };
 function render(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$1, _cache[0] || (_cache[0] = [
+  return openBlock(), createElementBlock("svg", _hoisted_1$1, [..._cache[0] || (_cache[0] = [
     createBaseVNode("g", {
       fill: "none",
       stroke: "currentColor",
@@ -1399,7 +1399,7 @@ function render(_ctx, _cache) {
         d: "M13.5 2h-3c-2.357 0-3.536 0-4.268.732S5.5 4.643 5.5 7v10c0 2.357 0 3.535.732 4.268S8.143 22 10.5 22h3c2.357 0 3.535 0 4.268-.732c.732-.733.732-1.911.732-4.268V7c0-2.357 0-3.536-.732-4.268C17.035 2 15.857 2 13.5 2"
       })
     ], -1)
-  ]));
+  ])]);
 }
 const __unplugin_components_3 = markRaw({ name: "hugeicons-smart-phone01", render });
 const _hoisted_1 = { class: "login-container" };
@@ -1561,7 +1561,7 @@ const _sfc_main = {
       return openBlock(), createElementBlock("div", _hoisted_1, [
         createVNode(_component_n_card, {
           class: "card",
-          title: `内置登录因云控无法正常使用`,
+          title: `若内置登录不能正常使用：备用方案`,
           bordered: false,
           size: "huge",
           role: "dialog",
@@ -1574,29 +1574,27 @@ const _sfc_main = {
                   type: "primary",
                   onClick: openOfficialLogin
                 }, {
-                  default: withCtx(() => _cache[5] || (_cache[5] = [
+                  default: withCtx(() => [..._cache[5] || (_cache[5] = [
                     createTextVNode("前往官方登录", -1)
-                  ])),
-                  _: 1,
-                  __: [5]
+                  ])]),
+                  _: 1
                 }),
                 unref(isApp) ? (openBlock(), createBlock(_component_n_button, {
                   key: 0,
                   secondary: "",
                   onClick: getCookieAndLogin
                 }, {
-                  default: withCtx(() => _cache[6] || (_cache[6] = [
+                  default: withCtx(() => [..._cache[6] || (_cache[6] = [
                     createTextVNode("直接登录(若已在官方登陆)", -1)
-                  ])),
-                  _: 1,
-                  __: [6]
+                  ])]),
+                  _: 1
                 })) : createCommentVNode("", true)
               ]),
               _: 1
             })
           ]),
           default: withCtx(() => [
-            unref(isApp) ? (openBlock(), createElementBlock("div", _hoisted_2, " 在客户端中，可通过前往官方页面登录以实现自动抓取cookie登录 ")) : (openBlock(), createElementBlock("div", _hoisted_3, _cache[4] || (_cache[4] = [
+            unref(isApp) ? (openBlock(), createElementBlock("div", _hoisted_2, " 在客户端中，可通过前往官方页面登录以实现自动抓取cookie登录 ")) : (openBlock(), createElementBlock("div", _hoisted_3, [..._cache[4] || (_cache[4] = [
               createTextVNode(" 您当前为网页版，需自行在官方页面抓取cookie后，在设置页面输入以登录 ", -1),
               createBaseVNode("br", null, null, -1),
               createBaseVNode("br", null, null, -1),
@@ -1606,7 +1604,7 @@ const _sfc_main = {
                 href: "https://github.com/xwzkj/cheesemusic",
                 target: "_blank"
               }, "前往GitHub下载", -1)
-            ])))
+            ])]))
           ]),
           _: 1
         }),
@@ -1620,11 +1618,11 @@ const _sfc_main = {
                 "background-color": "rgba(255,255,255,0)",
                 color: unref(themeStore).mainColors[9]
               }, null, 8, ["value", "color"])) : createCommentVNode("", true),
-              unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_7, _cache[7] || (_cache[7] = [
+              unref(qrcode) == "" ? (openBlock(), createElementBlock("span", _hoisted_7, [..._cache[7] || (_cache[7] = [
                 createTextVNode("等待生成二维码", -1),
                 createBaseVNode("br", null, null, -1),
                 createTextVNode("若长时间未生成 大概是炸了", -1)
-              ]))) : createCommentVNode("", true),
+              ])])) : createCommentVNode("", true),
               unref(qrcode) != "" ? (openBlock(), createElementBlock("span", _hoisted_8, toDisplayString(unref(qrStatus)), 1)) : createCommentVNode("", true)
             ])
           ]),
@@ -1683,11 +1681,10 @@ const _sfc_main = {
                   _: 1
                 }, 8, ["value", "type", "placeholder"]),
                 withDirectives(createVNode(_component_n_button, { onClick: sendCaptcha$1 }, {
-                  default: withCtx(() => _cache[8] || (_cache[8] = [
+                  default: withCtx(() => [..._cache[8] || (_cache[8] = [
                     createTextVNode("获取验证码", -1)
-                  ])),
-                  _: 1,
-                  __: [8]
+                  ])]),
+                  _: 1
                 }, 512), [
                   [vShow, unref(currentMethod) == "sms"]
                 ])
@@ -1696,18 +1693,16 @@ const _sfc_main = {
                 style: { "width": "100%" },
                 onClick: login2
               }, {
-                default: withCtx(() => _cache[9] || (_cache[9] = [
+                default: withCtx(() => [..._cache[9] || (_cache[9] = [
                   createTextVNode("登录", -1)
-                ])),
-                _: 1,
-                __: [9]
+                ])]),
+                _: 1
               }),
               createVNode(_component_n_divider, { class: "login-divider" }, {
-                default: withCtx(() => _cache[10] || (_cache[10] = [
+                default: withCtx(() => [..._cache[10] || (_cache[10] = [
                   createTextVNode("或者", -1)
-                ])),
-                _: 1,
-                __: [10]
+                ])]),
+                _: 1
               }),
               createBaseVNode("div", null, [
                 withDirectives(createVNode(_component_n_icon, {
@@ -1748,7 +1743,7 @@ const _sfc_main = {
     };
   }
 };
-const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-701fbe45"]]);
+const login = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-b56965cd"]]);
 export {
   login as default
 };
